@@ -7,6 +7,11 @@ from passive_tagger import Tagger
 import sys
 import numpy as np
 import random
+import matplotlib.pyplot as plt
+import itertools
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import precision_recall_fscore_support
 np.random.seed(11)
 
 class NaiveBayes:
@@ -109,14 +114,53 @@ class NaiveBayes:
         print "Mislabelled sentences: " + str((self.train_y != y_pred).sum()) + " out of " + str(self.train_X.shape[0])
         print "Train Accuracy: " + str(self.accuracy((self.train_y != y_pred).sum(), self.train_X.shape[0]))
 
-    def test(self):        
+    def test(self, generate_histogram=False):        
         print "Test dataset length: ", len(self.test_papers)
         y_pred = self.nb.predict(self.test_X)
+        if generate_histogram:
+            plt.hist(y_pred, density=True)
+            plt.savefig('histogram.png')
         print "Mislabelled sentences: " + str((self.test_y != y_pred).sum()) + " out of " + str(self.test_X.shape[0])
         print "Test Accuracy: " + str(self.accuracy((self.test_y != y_pred).sum(), self.test_X.shape[0]))
+        # return self.getConfusionMatrix(self.test_y, y_pred)
 
     def accuracy(self, misclassifications, samples):
         return (1-(misclassifications/(samples*1.0)))*100.0
+
+    def plotConfusionMatrix(self, cm, classes, normalize=True, title='Confusion matrix', cmap=plt.cm.Blues):
+        """
+        This function prints and plots the confusion matrix.
+        Normalization can be applied by setting `normalize=True`.
+        """
+        if normalize:
+            cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+            print("Normalized confusion matrix")
+        else:
+            print('Confusion matrix, without normalization')
+
+        print(cm)
+
+        plt.imshow(cm, interpolation='nearest', cmap=cmap)
+        plt.title(title)
+        plt.colorbar()
+        tick_marks = np.arange(len(classes))
+        plt.xticks(tick_marks, classes, rotation=45)
+        plt.yticks(tick_marks, classes)
+
+        fmt = '.2f' if normalize else 'd'
+        thresh = cm.max() / 2.
+        for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+            plt.text(j, i, format(cm[i, j], fmt),
+                     horizontalalignment="center",
+                     color="white" if cm[i, j] > thresh else "black")
+
+        plt.ylabel('True label')
+        plt.xlabel('Predicted label')
+        plt.tight_layout()
+        plt.savefig('confusion_matrix.png')
+
+    def getConfusionMatrix(self, y_true, y_pred):
+        return confusion_matrix(y_true, y_pred)
 
 if __name__ == '__main__':    
     Feature_vector = Features()
@@ -129,6 +173,8 @@ if __name__ == '__main__':
     bnb.train()
     print ""
     bnb.test()
+    # confusionMatrix = bnb.test()
+    # bnb.plotConfusionMatrix(confusionMatrix, range(8))
     print ""
 
     print "=======Multinomial Distribution======="
@@ -136,6 +182,8 @@ if __name__ == '__main__':
     mnb.train()
     print ""
     mnb.test()
+    # confusionMatrix = mnb.test()
+    # mnb.plotConfusionMatrix(confusionMatrix, range(8))
     print ""
 
     print "=======Complement Distribution======="
@@ -143,10 +191,15 @@ if __name__ == '__main__':
     cnb.train()
     print ""
     cnb.test()
+    # confusionMatrix = cnb.test()
+    # cnb.plotConfusionMatrix(confusionMatrix, range(8))    
     print ""
 
     print "=======Gaussian Distribution======="
     gnb = NaiveBayes(Feature_vector.feature_values, 0.8, "Gaussian")
     gnb.train()
     print ""
-    gnb.test()    
+    gnb.test()
+    # confusionMatrix = gnb.test()
+    # gnb.plotConfusionMatrix(confusionMatrix, range(8))    
+    print ""

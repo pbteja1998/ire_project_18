@@ -59,22 +59,22 @@ We have used naive bayes with -
 | **Multinomial**   |     **80.89**   |
 | **Complement**    |     **81.28**   |
 
-**Plots:**  
-### Bernoulli Distribution Confusion Matrix
+### Plots:
+#### Bernoulli Distribution Confusion Matrix
 ![Bernoulli Distribution Confusion Matrix](https://github.com/pbteja1998/ire_project_18/raw/master/plots/bernouli_cf_matrix.png)
-### Bernoulli Distribution Histogram
+#### Bernoulli Distribution Histogram
 ![Bernoulli Distribution Histogram](https://github.com/pbteja1998/ire_project_18/raw/master/plots/bernouli_hist.png)
-### Complement Distribution Confusion Matrix
+#### Complement Distribution Confusion Matrix
 ![Complement Distribution Confusion Matrix](https://github.com/pbteja1998/ire_project_18/raw/master/plots/complement_cf_matrix.png)
-### Complement Distribution Histogram
+#### Complement Distribution Histogram
 ![Complement Distribution Histogram](https://github.com/pbteja1998/ire_project_18/raw/master/plots/complement_hist.png)
-### Gaussian Distribution Confusion Matrix
+#### Gaussian Distribution Confusion Matrix
 ![Gaussian Distribution Confusion Matrix](https://github.com/pbteja1998/ire_project_18/raw/master/plots/guassian_cf_matrix.png)
-### Gaussian Distribution Histogram
+#### Gaussian Distribution Histogram
 ![Gaussian Distribution Histogram](https://github.com/pbteja1998/ire_project_18/raw/master/plots/guassian_hist.png)
-### Multinomial Distribution Confusion Matrix
+#### Multinomial Distribution Confusion Matrix
 ![Multinomial Distribution Confusion Matrix](https://github.com/pbteja1998/ire_project_18/raw/master/plots/multinomial_cf_matrix.png)
-### Multinomial Distribution Histogram
+#### Multinomial Distribution Histogram
 ![Multinomial Distribution Histogram](https://github.com/pbteja1998/ire_project_18/raw/master/plots/multinomail_hist.png)
 
 

@@ -48,6 +48,28 @@ Results-
 
 Our observations are [here](https://scontent-bom1-2.xx.fbcdn.net/v/t1.15752-9/46007523_347829612450454_2516439562272636928_n.png?_nc_cat=104&_nc_ht=scontent-bom1-2.xx&oh=f7ba6a93ca984bf683b7b2bf6e364b95&oe=5C3E02E5)
 
+**Plots:**  
+### Bernoulli Distribution Confusion Matrix
+![Bernoulli Distribution Confusion Matrix](https://github.com/pbteja1998/ire_project_18/blob/master/plots/bernouli_cf_matrix.png)
+
+### Bernoulli Distribution Histogram
+![Bernoulli Distribution Histogram](https://github.com/pbteja1998/ire_project_18/blob/master/plots/bernouli_hist.png)
+### Complement Distribution Confusion Matrix
+![Complement Distribution Confusion Matrix](https://github.com/pbteja1998/ire_project_18/blob/master/plots/complement_cf_matrix.png)
+### Complement Distribution Histogram
+![Complement Distribution Histogram](https://github.com/pbteja1998/ire_project_18/blob/master/plots/complement_hist.png)
+### Gaussain Distribution Confusion Matrix
+![Gaussain Distribution Confusion Matrix](https://github.com/pbteja1998/ire_project_18/blob/master/plots/guassian_cf_matrix.png)
+### Gaussian Distribution Histogram
+![Gaussain Distribution Histogram](https://github.com/pbteja1998/ire_project_18/blob/master/plots/guassian_hist.png)
+### Multinomial Distribution Confusion Matrix
+![Multinomial Distribution Confusion Matrix](https://github.com/pbteja1998/ire_project_18/blob/master/plots/multinomial_cf_matrix.png)
+### Multinomial Distribution Histogram
+![Multinomial Distribution Histogram](https://github.com/pbteja1998/ire_project_18/blob/master/plots/multinomail_hist.png)
+
+
+
+
 
 ### References
 

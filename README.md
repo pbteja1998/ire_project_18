@@ -52,7 +52,8 @@ We have used ***Naive Bayes*** with the following distributions:
 | Test Dataset   | ***15 ( 20 % )***      |
 
 
-#### Accuracies for NaiveBayes-based Sentence Classification
+### Accuracies for NaiveBayes-based Sentence Classification
+
 | Distribution  | Accuracy (in %) |
 | ------------- | -------------   |
 | Bernoulli     |  ***84.64***   |

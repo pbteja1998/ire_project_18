@@ -1,4 +1,4 @@
 brown
-word_tokenize
+punkt
 pos_tag
 stopwords

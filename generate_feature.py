@@ -67,7 +67,7 @@ class Features:
                     if verb_fl==1:
                         continue
                     if w not in help_verbs:
-                        if w[1] == 'MD':
+                        if w[1] == 'VBC' or w[1] == 'VBF':
                             verb_fl=1
                             sen_feature['tense'] = 'FUTURE'
                         elif w[1] == 'VBP' or w[1] == 'VBZ' or w[1] == 'VBG':

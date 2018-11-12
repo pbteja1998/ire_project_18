@@ -11,7 +11,7 @@ if __name__ == '__main__':
     folder = "annotated_output"
     xmlfolder = "tagged"    
     Feature_vector.run(folder, xmlfolder)
-    NB = NaiveBayes(Feature_vector.feature_values, 0.8, distribution)
+    NB = NaiveBayes(Feature_vector.feature_values, 0.8, distribution, True)
     NB.train()
     NB.getSummary(filename)
 

@@ -15,7 +15,7 @@ from sklearn.metrics import precision_recall_fscore_support
 np.random.seed(11)
 
 class NaiveBayes:
-    def __init__(self, features={}, split=0.8, distribution="Bernoulli"):
+    def __init__(self, features={}, split=0.8, distribution="Bernoulli", isSummary=False):
         self.Tags = ["OTH", "BKG", "CTR", "NA", "AIM", "OWN", "BAS", "TXT", "", "BEGIN"]
         self.Locations = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
         self.ParaLocations = ["INITIAL", "MEDIAL", "FINAL"]        
@@ -32,6 +32,7 @@ class NaiveBayes:
         self.Tenses = ["PRESENT", "PAST", "FUTURE", "NOVERB"]
         self.Modals = ["MODAL", "NOMODAL", "NOVERB"]
         self.Voices = ["Active", "Passive", "NOVERB"]
+        self.isSummary = isSummary
         self.features = features
         self.transformFeatures()
         self.distribution = distribution
@@ -49,7 +50,8 @@ class NaiveBayes:
             self.nb = GaussianNB()
         
     def splitData(self):
-        print "Data split between train and test: " + str(self.split)
+        if not self.isSummary:
+            print "Data split between train and test: " + str(self.split)
         papers = self.features.keys()
         order = np.random.permutation(len(papers))
 
@@ -103,16 +105,17 @@ class NaiveBayes:
                 summary.append(self.features[filename][sentId]['data'])
             if y in [0, 1, 5]:
                 if random.uniform(0, 1) > 0.75:
-                    summary.append(self.features[filename][sentId]['data'])
-        print len(summary)
+                    summary.append(self.features[filename][sentId]['data'])        
         print "\n".join(summary)
                 
     def train(self):
-        print "Train dataset: ", len(self.train_papers)
-        self.reloadDis()
+        if not self.isSummary:
+            print "Train dataset: ", len(self.train_papers)
+        self.reloadDis()        
         y_pred = self.nb.fit(self.train_X, self.train_y).predict(self.train_X)
-        print "Mislabelled sentences: " + str((self.train_y != y_pred).sum()) + " out of " + str(self.train_X.shape[0])
-        print "Train Accuracy: " + str(self.accuracy((self.train_y != y_pred).sum(), self.train_X.shape[0]))
+        if not self.isSummary:
+            print "Mislabelled sentences: " + str((self.train_y != y_pred).sum()) + " out of " + str(self.train_X.shape[0])
+            print "Train Accuracy: " + str(self.accuracy((self.train_y != y_pred).sum(), self.train_X.shape[0]))
 
     def test(self, generate_histogram=False):        
         print "Test dataset length: ", len(self.test_papers)

@@ -42,11 +42,22 @@ We have used naive bayes with -
 1. Bernoulli Distribution  
 2. Gaussian Distribution  
 3. Multinomial Distribution  
-4. Compliment Distribution  
+4. Complement Distribution  
 
-Results- 
+### Results- 
 
-Our observations are [here](https://scontent-bom1-2.xx.fbcdn.net/v/t1.15752-9/46007523_347829612450454_2516439562272636928_n.png?_nc_cat=104&_nc_ht=scontent-bom1-2.xx&oh=f7ba6a93ca984bf683b7b2bf6e364b95&oe=5C3E02E5)
+- Total number of papers in the dataset - **79**
+- Number of papers used for training - **64 ( 80% )**
+- Number of papers used for testing - **15 ( 20% )**
+
+
+#### Accuracies for classifying the sentences in to respective category
+| Distribution      | Accuracy (in %) |
+| -------------     | -------------   |
+| **Bernoulli**     |     **84.64**   |
+| **Gaussian**      |      **100**    |
+| **Multinomial**   |     **80.89**   |
+| **Complement**    |     **81.28**   |
 
 **Plots:**  
 ### Bernoulli Distribution Confusion Matrix

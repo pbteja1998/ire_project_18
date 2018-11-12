@@ -59,7 +59,9 @@ class Features:
                 #Feature Tense
                 verb_fl = 0
                 help_fl = 0
-                text1 = word_tokenize(sen_feature['data'])
+                text1 = sen_feature['data']
+                text1 = word_tokenize(text1)
+                text1 = list(x.lower() for x in text1)
                 tagged = pos_tag(text1)
                 for w in tagged:
                     if w in help_verbs and verb_fl == 0:
@@ -104,10 +106,25 @@ class Features:
         '''
         for key in self.feature_values:
             slen = len(self.feature_values[key]) / 20
-            cur = 1
+            cur = 0
+            len1 = 0
             for x in self.feature_values[key]:
-                self.feature_values[key][x]['loc'] = chr(ord('A')+cur)
-                if self.feature_values[key][x]['num'] % slen == 0:
+                if cur < 4:
+                    self.feature_values[key][x]['loc'] = chr(ord('A')+cur)
+                elif cur ==4 or cur == 5 :
+                    self.feature_values[key][x]['loc'] = 'E'
+                elif cur ==16 or cur == 15 :
+                    self.feature_values[key][x]['loc'] = 'G'
+                elif cur ==18 or cur == 17 :
+                    self.feature_values[key][x]['loc'] = 'H'
+                elif cur == 19:
+                    self.feature_values[key][x]['loc'] = 'I'
+                elif cur >= 20:
+                    self.feature_values[key][x]['loc'] = 'J'
+                else:
+                    self.feature_values[key][x]['loc'] = 'F'
+                len1 += 1
+                if len1 % slen == 0:
                     cur+=1 
 
     def sec_location(self):
@@ -255,14 +272,15 @@ class Features:
         '''
         vectorizer = TfidfVectorizer(input='content', analyzer='word', stop_words='english', ngram_range=(1, 1), norm='l2')
         vectorizer.fit_transform(self.text)
-        indices = np.argsort(vectorizer.idf_)[::-1]
         feature_values = vectorizer.get_feature_names()
+        indices = np.argsort(vectorizer.idf_)[::-1]
         tfidf = [feature_values[i] for i in indices[:18]]
         for file in self.feature_values:
             for sen in self.feature_values[file]:
                 text = self.feature_values[file][sen]['data'].split()
                 self.feature_values[file][sen]['tfidf'] = 'NO'
                 for w in text:
+                    w = w.lower()
                     if w in tfidf:
                         self.feature_values[file][sen]['tfidf'] = 'YES'
                         break
@@ -281,3 +299,5 @@ if __name__ == '__main__':
     folder = sys.argv[1]
     xmlfolder = sys.argv[2]
     Feature_vector.run(folder, xmlfolder)
+    for sen in Feature_vector.feature_values[Feature_vector.files[0]]:
+        print Feature_vector.feature_values[Feature_vector.files[0]][sen]['loc'], Feature_vector.feature_values[Feature_vector.files[0]][sen]['modal'], Feature_vector.feature_values[Feature_vector.files[0]][sen]['tfidf']

@@ -3,6 +3,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.naive_bayes import ComplementNB
 from sklearn.naive_bayes import BernoulliNB
+from passive_tagger import Tagger
 import sys
 import numpy as np
 np.random.seed(11)
@@ -22,6 +23,9 @@ class NaiveBayes:
         self.SecLocations = ["FIRST", "SECOND", "THIRD", "LAST",
             "SECOND-LAST", "THIRD-LAST", "SOMEWHERE"
         ]
+        self.Tenses = ["PRESENT", "PAST", "FUTURE", "NOVERB"]
+        self.Modals = ["MODAL", "NOMODAL", "NOVERB"]
+        self.Voices = ["Active", "Passive", "NOVERB"]
         self.features = features
         self.transformFeatures()
         self.distribution = distribution
@@ -69,7 +73,10 @@ class NaiveBayes:
                 self.transformed_features[filename][sentId]['tfidf'] = self.YESorNO.index(self.features[filename][sentId]['tfidf'])
                 self.transformed_features[filename][sentId]['secloc'] = self.SecLocations.index(self.features[filename][sentId]['secloc'])
                 self.transformed_features[filename][sentId]['Headlines'] = self.Headlines.index(self.features[filename][sentId]['Headlines'])
-                self.transformed_features[filename][sentId]['history'] = self.Tags.index(self.features[filename][sentId]['history'])                
+                self.transformed_features[filename][sentId]['history'] = self.Tags.index(self.features[filename][sentId]['history'])
+                self.transformed_features[filename][sentId]['tense'] = self.Tenses.index(self.features[filename][sentId]['tense'])
+                self.transformed_features[filename][sentId]['voice'] = self.Voices.index(self.features[filename][sentId]['voice'])
+                self.transformed_features[filename][sentId]['modal'] = self.Modals.index(self.features[filename][sentId]['modal'])
         
     def getFeatures(self, filenames):
         X = []
@@ -98,7 +105,7 @@ class NaiveBayes:
     def accuracy(self, misclassifications, samples):
         return (1-(misclassifications/(samples*1.0)))*100.0
 
-if __name__ == '__main__':
+if __name__ == '__main__':    
     Feature_vector = Features()
     folder = sys.argv[1]
     xmlfolder = sys.argv[2]

@@ -1,0 +1,130 @@
+AIM	We study the computational complexity of the parsing problem of a variant of Lambek Categorial Grammar that we call semidirectional .	A-0
+OWN	In semidirectional Lambek calculus SDL there is an additional non-directional abstraction rule allowing the formula abstracted over to appear anywhere in the premise sequent 's left-hand side , thus permitting non-peripheral extraction .	A-1
+OWN	SDL grammars are able to generate each context-free language and more than that .	A-2
+AIM	We show that the parsing problem for semidirectional Lambek Grammar is NP-complete by a reduction of the 3-Partition problem .	A-3
+BKG	Categorial Grammar ( CG ) and in particular Lambek Categorial Grammar ( LCG ) have their well-known benefits for the formal treatment of natural language syntax and semantics .	S-0
+BKG	The most outstanding of these benefits is probably the fact that the specific way , how the complete grammar is encoded , namely in terms of ` combinatory potentials ' of its words , gives us at the same time recipes for the construction of meanings , once the words have been combined with others to form larger linguistic entities .	S-1
+BKG	Although both frameworks are equivalent in weak generative capacity -- both derive exactly the context-free languages -- , LCG is superior to CG in that it can cope in a natural way with extraction and unbounded dependency phenomena .	S-2
+BKG	For instance , no special category assignments need to be stipulated to handle a relative clause containing a trace , because it is analyzed , via hypothetical reasoning , like a traceless clause with the trace being the hypothesis to be discharged when combined with the relative pronoun .	S-3
+BKG	Figureillustrates this proof-logical behaviour .	S-4
+BKG	Notice that this natural-deduction-style proof in the type logic corresponds very closely to the phrase-structure tree one would like to adopt in an analysis with traces .	S-5
+BKG	We thus can derive Bill missesas an s from the hypothesis that there is a `` phantom '' np in the place of the trace .	S-6
+BKG	Discharging the hypothesis , indicated by index 1 , results in Bill misses being analyzed as an s / np from zero hypotheses .	S-7
+BKG	Observe , however , that such a bottom-up synthesis of a new unsaturated type is only required , if that type is to be consumed ( as the antecedent of an implication ) by another type .	S-8
+BKG	Otherwise there would be a simpler proof without this abstraction .	S-9
+BKG	In our example the relative pronoun has such a complex type triggering an extraction .	S-10
+BKG	A drawback of the pure Lambek Calculus L is that it only allows for so-called ` peripheral extraction ' , i.e. , in our example the trace should better be initial or final in the relative clause .	S-11
+OTH	This inflexibility of Lambek Calculus is one of the reasons why many researchers study richer systems today .	S-12
+OTH	For instance , the recent work bygives a systematic in-depth study of mixed Lambek systems , which integrate the systems L , NL , NLP , and LP .	S-13
+OTH	These ingredient systems are obtained by varying the Lambek calculus along two dimensions : adding the permutation rule ( P ) and / or dropping the assumption that the type combinator ( which forms the sequences the systems talk about ) is associative ( N for non-associative ) .	S-14
+OTH	Taken for themselves these variants of L are of little use in linguistic descriptions .	S-15
+OTH	But in's mixed system all the different resource management modes of the different systems are left intact in the combination and can be exploited in different parts of the grammar .	S-16
+OTH	The relative pronoun which would , for instance , receive categorywithbeing implication in LP , i.e. , it requires as an argument `` an s lacking an np somewhere '' .	S-17
+AIM	The present paper studies the computational complexity of a variant of the Lambek Calculus that lies between L and LP, the Semidirectional Lambek Calculus SDL .	S-18
+BKG	Since derivability is known to be NP-complete , it is interesting to study restrictions on the use of the operator.	S-19
+BKG	A restriction that leaves its proposed linguistic applications intact is to admit a typeonly as the argument type in functional applications , but never as the functor .	S-20
+BKG	Stated prove-theoretically for Gentzen-style systems , this amounts to disallowing the left rule for.	S-21
+OWN	Surprisingly , the resulting system SDL can be stated without the need for structural rules , i.e. , as a monolithic system with just one structural connective , because the ability of the abstracted-over formula to permute can be directly encoded in the right rule for.	S-22
+OWN	Note that our purpose for studying SDL is not that it might be in any sense better suited for a theory of grammar ( except perhaps , because of its simplicity ) , but rather , because it exhibits a core of logical behaviour that any richer system also needs to include , at least if it should allow for non-peripheral extraction .	S-23
+OWN	The sources of complexity uncovered here are thus a forteriori present in all these richer systems as well .	S-24
+OTH	The semidirectional Lambek calculus ( henceforth SDL ) is a variant of's original calculus of syntactic types .	S-25
+OTH	We start by defining the Lambek calculus and extend it to obtain SDL .	S-26
+OTH	Formulae ( also called `` syntactic types '' ) are built from a set of propositional variables ( or `` primitive types '' )and the three binary connectives,, / , called product , left implication , and right implication .	S-27
+OTH	We use generally capital letters A , B , C , ... to denote formulae and capitals towards the end of the alphabet T , U , V , ... to denote sequences of formulae .	S-28
+OTH	The concatenation of sequences U and V is denoted by ( U , V ) .	S-29
+OTH	The ( usual ) formal framework of these logics is a Gentzen-style sequent calculus .	S-30
+OTH	Sequents are pairs ( U , A ) , written as, where A is a type and U is a sequence of types .	S-31
+OTH	The claim embodied by sequentcan be read as `` formula A is derivable from the structured database U '' .	S-32
+OTH	Figureshows's original calculus L .	S-33
+OWN	First of all , since we don't need products to obtain our results and since they only complicate matters , we eliminate products from consideration in the sequel .	S-34
+BAS	In Semidirectional Lambek Calculus we add as additional connective the LP implication, but equip it only with a right rule .	S-35
+OWN	Let us define the polarity of a subformula of a sequentas follows : A has positive polarity , each ofhave negative polarity and if B / C orhas polarity p , then B also has polarity p and C has the opposite polarity of p in the sequent .	S-36
+OWN	A consequence of only allowing therule , which is easily proved by induction , is that in any derivable sequentmay only appear in positive polarity .	S-37
+OWN	Hence ,may not occur in the ( cut ) formula A of aapplication and any subformulawhich occurs somewhere in the prove must also occur in the final sequent .	S-38
+OWN	When we assume the final sequent 's RHS to be primitive ( or- less ) , then therule will be used exactly once for each ( positively ) occuring- subformula .	S-39
+OWN	In other words ,may only do what it is supposed to do : extraction , and we can directly read off the category assignment which extractions there will be .	S-40
+OWN	We can show Cut Elimination for this calculus by a straight-forward adaptation of the Cut elimination proof for .	S-41
+OWN	We omit the proof for reasons of space .	S-42
+OWN	The cut-free system enjoys , as usual for Lambek-like logics , the Subformula Property : in any proof only subformulae of the goal sequent may appear .	S-43
+OWN	In our considerations below we will make heavy use of the well-known count invariant for Lambek systems, which is an expression of the resource-consciousness of these logics .	S-44
+OWN	Define( the b-count of A ) , a function counting positive and negative occurrences of primitive type b in an arbitrary type A , to be	S-45
+OWN	The invariant now states that for any primitive b , the b-count of the RHS and the LHS of any derivable sequent are the same .	S-46
+OWN	By noticing that this invariant is true for Ax and is preserved by the rules , we immediately can state :	S-47
+OWN	Let us in parallel to SDL consider the fragment of it in whichandare disallowed .	S-48
+OWN	We call this fragment SDL- .	S-49
+OWN	Remarkable about this fragment is that any positive occurrence of an implication must beand any negative one must be / or.	S-50
+OWN	We extend the lexical map l to nonempty strings of terminals by settingfor.	S-51
+OWN	The language generated by a Lambek grammaris defined as the set of all stringsfor which there exists a sequence of typesand.	S-52
+OWN	We denote this language by L(G) .	S-53
+OWN	An SDL-grammar is defined exactly like a Lambek grammar , except thatreplaces.	S-54
+OWN	Given a grammar G and a string, the parsing ( or recognition ) problem asks the question , whether w is in L(G) .	S-55
+OWN	It is not immediately obvious , how the generative capacity of SDL-grammars relate to Lambek grammars or nondirectional Lambek grammars ( based on calculus LP ) .	S-56
+OWN	Whereas Lambek grammars generate exactly the context-free languages ( modulo the missing empty word ), the latter generate all permutation closures of context-free languages.	S-57
+OWN	This excludes many context-free or even regular languages , but includes some context-sensitive ones , e.g. , the permutation closure of.	S-58
+OWN	Concerning SDL , it is straightforward to show that all context-free languages can be generated by SDL-grammars .	S-59
+OWN	Proof .	S-60
+OWN	We can use a the standard transformation of an arbitrary cfr. grammarto a categorial grammar G ' .	S-61
+OWN	Sincedoes not appear in G ' each SDL-proof of a lexical assignment must be also an SDL-proof , i.e. exactly the same strings are judged grammatical by SDL as are judged by L .	S-62
+OWN	Note that since thesubset of L already accounts for the cfr. languages , this observation extends to SDL- .	S-63
+OWN	Moreover , some languages which are not context-free can also be generated .	S-64
+OWN	Example .	S-65
+OWN	Consider the following grammar G for the language.	S-66
+OWN	We use primitive typesand define the lexical map foras follows :	S-67
+OWN	The distinguished primitive type is x. To simplify the argumentation , we abbreviate types as indicated above .	S-68
+OWN	Now , observe that a sequent, where U is the image of some string over, only then may have balanced primitive counts , if U contains exactly one occurrence of each of,and( accounting for the one supernumerary x and balanced y and z counts ) and for some number, n occurrences of each of,, and( because , resource-oriented speaking , eachand`` consume '' a b and c , resp. , and each`` provides '' a pair b , c ) .	S-69
+OWN	Hence , only strings containing the same number of a 's , b 's and c 's may be produced .	S-70
+OWN	Furthermore , due to the Subformula Property we know that in a cut-free proof of, the main formula in abstractions ( right rules ) may only be eitheror, where, since all other implication types have primitive antecedents .	S-71
+OWN	Hence , the LHS of any sequent in the proof must be a subsequence of U , with some additional b types and c types interspersed .	S-72
+OWN	But then it is easy to show that U can only be of the form	S-73
+OWN	since any / connective in U needs to be introduced via.	S-74
+OWN	It remains to be shown , that there is actually a proof for such a sequent .	S-75
+OWN	It is given in Figure.	S-76
+OWN	The sequent marked withis easily seen to be derivable without abstractions .	S-77
+OWN	A remarkable point about SDL- 's ability to cover this language is that neither L nor LP can generate it .	S-78
+OWN	Hence , this example substantiates the claim made inthat the inferential capacity of mixed Lambek systems may be greater than the sum of its component parts .	S-79
+OWN	Moreover , the attentive reader will have noticed that our encoding also extends to languages having more groups of n symbols , i.e. , to languages of the form.	S-80
+OWN	Finally , we note in passing that for this grammar the rulesandare irrelevant , i.e. that it is at the same time an grammar .	S-81
+OWN	We show that the Parsing Problem for SDL-grammars is NP-complete by a reduction of the 3-Partition Problem to it .	S-82
+OWN	This well-known NP-complete problem is cited inas follows .	S-83
+OWN	Here is our reduction .	S-84
+OWN	Letbe a given 3-Partition instance .	S-85
+OWN	For notational convenience we abbreviatebyand similarlyby, but note that this is just an abbreviation in the product-free fragment .	S-86
+OWN	Moreover the notationstands for	S-87
+OWN	We then define the SDL-grammaras follows :	S-88
+OWN	The word we are interested in is.	S-89
+OWN	We do not care about other words that might be generated by.	S-90
+OWN	Our claim now is that a given 3-Partition problemis solvable if and only ifis in.	S-91
+OWN	We consider each direction in turn .	S-92
+OWN	Proof .	S-93
+OWN	We have to show , when given a solution to, how to choose a type sequenceand construct an SDL proof for.	S-94
+OWN	Suppose.	S-95
+OWN	From a given solution ( set of triples )we can compute in polynomial time a mapping k that sends the index of an element to the index of its solution triple , i.e. ,.	S-96
+OWN	To obtain the required sequence U , we simply choose for theterminals the type( resp .	S-97
+OWN	for) .	S-98
+OWN	Hence the complete sequent to solve is :	S-99
+OWN	Letbe a shorthand for ( * ) , and let X stand for the sequence of primitive types .	S-100
+OWN	Using ruleonly , we can obviously prove.	S-101
+OWN	Now , applying3 m + Nm times we can obtain, since there are in total , for each i , 3and Nin X .	S-102
+OWN	As final step we have	S-103
+OWN	which completes the proof .	S-104
+OWN	Proof .	S-105
+OWN	Letand	S-106
+OWN	be a witnessing derivable sequent , i.e. , for,.	S-107
+OWN	Now , since the counts of this sequent must be balanced , the sequencemust contain for eachexactly 3and exactly Nas subformulae .	S-108
+OWN	Therefore we can read off the solution tofrom this sequent by including in( for) those threefor whichhas an occurrence of, say these are,and.	S-109
+OWN	We verify , again via balancedness of the primitive counts , thatholds , because these are the numbers of positive and negative occurrences ofin the sequent .	S-110
+OWN	This completes the proof .	S-111
+OWN	The reduction above proves NP-hardness of the parsing problem .	S-112
+OWN	We need strong NP-completeness of 3-Partition here , since our reduction uses a unary encoding .	S-113
+OWN	Moreover , the parsing problem also lies within NP , since for a given grammar G proofs are linearly bound by the length of the string and hence , we can simply guess a proof and check it in polynomial time .	S-114
+OWN	Therefore we can state the following :	S-115
+OWN	Finally , we observe that for this reduction the rulesandare again irrelevant and that we can extend this result to .	S-116
+AIM	We have defined a variant of's original calculus of types that allows abstracted-over categories to freely permute .	S-117
+OWN	Grammars based on SDL can generate any context-free language and more than that .	S-118
+AIM	The parsing problem for SDL , however , we have shown to be NP-complete .	S-119
+OWN	This result indicates that efficient parsing for grammars that allow for large numbers of unbounded dependencies from within one node may be problematic , even in the categorial framework .	S-120
+OWN	Note that the fact , that this problematic case doesn't show up in the correct analysis of normal NL sentences , doesn't mean that a parser wouldn't have to try it , unless some arbitrary bound to that number is assumed .	S-121
+OWN	For practical grammar engineering one can devise the motto avoid accumulation of unbounded dependencies by whatever means .	S-122
+OWN	On the theoretical side we think that this result for SDL is also of some importance , since SDL exhibits a core of logical behaviour that any ( Lambek-based ) logic must have which accounts for non-peripheral extraction by some form of permutation .	S-123
+OWN	And hence , this result increases our understanding of the necessary computational properties of such richer systems .	S-124
+OWN	To our knowledge the question , whether the Lambek calculus itself or its associated parsing problem are NP-hard , are still open .	S-125

@@ -1,0 +1,102 @@
+AIM	In this paper we present a formalization of the centering approach to modeling attentional structure in discourse and use it as the basis for an algorithm to track discourse context and bind pronouns .	A-0
+OTH	As described in, the process of centering attention on entities in the discourse gives rise to the intersentential transitional states of continuing , retaining and shifting .	A-1
+AIM	We propose an extension to these states which handles some additional cases of multiple ambiguous pronouns .	A-2
+OWN	The algorithm has been implemented in an HPSG natural language system which serves as the interface to a database query application .	A-3
+OTH	In the approach to discourse structure developed inand, a discourse exhibits both global and local coherence .	S-0
+OTH	On this view , a key element of local coherence is centering , a system of rules and constraints that govern the relationship between what the discourse is about and some of the linguistic choices made by the discourse participants , e.g. choice of grammatical function , syntactic structure , and type of referring expression ( proper noun , definite or indefinite description , reflexive or personal pronoun , etc . )	S-1
+OTH	Pronominalization in particular serves to focus attention on what is being talked about ; inappropriate use or failure to use pronouns causes communication to be less fluent .	S-2
+OTH	For instance , it takes longer for hearers to process a pronominalized noun phrase that is not in focus than one that is , while it takes longer to process a non-pronominalized noun phrase that is in focus than one that is not.	S-3
+OTH	Thecentering model is based on the following assumptions .	S-4
+OTH	A discourse segment consists of a sequence of utterances.	S-5
+OTH	With each utteranceis associated a list of forward-looking centers ,, consisting of those discourse entities that are directly realized or realized by linguistic expressions in the utterance .	S-6
+OTH	Ranking of an entity on this list corresponds roughly to the likelihood that it will be the primary focus of subsequent discourse ; the first entity on this list is the preferred center ,.	S-7
+OTH	actually centers , or is `` about '' , only one entity at a time , the backward-looking center ,.	S-8
+OTH	The backward center is a confirmation of an entity that has already been introduced into the discourse ; more specifically , it must be realized in the immediately preceding utterance ,.	S-9
+OTH	There are several distinct types of transitions from one utterance to the next .	S-10
+OTH	The typology of transitions is based on two factors : whether or not the center of attention , Cb , is the same fromto, and whether or not this entity coincides with the preferred center of.	S-11
+OTH	Definitions of these transition types appear in figure.	S-12
+OTH	These transitions describe how utterances are linked together in a coherent local segment of discourse .	S-13
+OTH	If a speaker has a number of propositions to express , one very simple way to do this coherently is to express all the propositions about a given entity ( continuing ) before introducing a related entity ( retaining ) and then shifting the center to this new entity .	S-14
+OTH	See figure.	S-15
+OTH	Retaining may be a way to signal an intention to shift .	S-16
+OTH	While we do not claim that speakers really behave in such an orderly fashion , an algorithm that expects this kind of behavior is more successful than those which depend solely on recency or parallelism of grammatical function .	S-17
+OTH	The interaction of centering with global focusing mechanisms and with other factors such as intentional structure , semantic selectional restrictions , verb tense and aspect , modality , intonation and pitch accent are topics for further research .	S-18
+OTH	Note that these transitions are more specific than focus movement as described in.	S-19
+AIM	The extension we propose makes them more specific still .	S-20
+OTH	Note also that the Cb ofcorresponds roughly to's discourse focus and the Cf to her potential foci .	S-21
+BAS	The formal system of constraints and rules for centering , as we have interpreted them from, are as follows .	S-22
+OTH	For eachin:	S-23
+OTH	CONSTRAINTS	S-24
+OTH	There is precisely one Cb .	S-25
+OTH	Every element ofmust be realized in.	S-26
+OTH	is the highest-ranked element ofthat is realized in.	S-27
+OTH	RULES	S-28
+OTH	If some element ofis realized as a pronoun in, then so is.	S-29
+OTH	Continuing is preferred over retaining which is preferred over shifting .	S-30
+OTH	As is evident in constraint, ranking of the items on the forward center list , Cf , is crucial .	S-31
+OTH	We rank the items in Cf by obliqueness of grammatical relation of the subcategorized functions of the main verb : that is , first the subject , object , and object 2 , followed by other subcategorized functions , and finally , adjuncts .	S-32
+OTH	This captures the idea inthat subjecthood contributes strongly to the priority of an item on the Cf list .	S-33
+OWN	We are aware that this ranking usually coincides with surface constituent order in English .	S-34
+OWN	It would be of interest to examine data from languages with relatively freer constituent order ( e.g. German ) to determine the influence of constituent order upon centering when the grammatical functions are held constant .	S-35
+OWN	In addition , languages that provide an identifiable topic function ( e.g. Japanese ) suggest that topic takes precedence over subject .	S-36
+OTH	The part of the HPSG system that uses the centering algorithm for pronoun binding is called the pragmatics processor .	S-37
+OTH	It interacts with another module called the semantics processor , which computes representations of intrasentential anaphoric relations , ( among other things ) .	S-38
+OTH	The semantics processor has access to information such as the surface syntactic structure of the utterance .	S-39
+OTH	It provides the pragmatics processor with representations which include of a set of reference markers .	S-40
+OTH	Each reference marker is contraindexed with expressions with which it cannot co-specify .	S-41
+OTH	Reference markers also carry information about agreement and grammatical function .	S-42
+OTH	Each pronominal reference marker has a unique index fromand is displayed in the figures in the form, where POLLARD is the semantic representation of the co-specifier .	S-43
+OTH	For non-pronominal reference markers the surface string is used as the index .	S-44
+OTH	Indices for indefinites are generated from.	S-45
+CTR	The constraints proposed byfail in certain examples like the following ( read with pronouns destressed ) :	S-46
+BKG	This example is characterized by its multiple ambiguous pronouns and by the fact that the final utterance achieves a shift ( see figure) .	S-47
+BKG	A shift is inevitable because of constraint 3 , which states that themust equal the( since theis directly realized by the subject of, `` Friedman '' ) .	S-48
+CTR	However the constraints and rules fromwould fail to make a choice here between the co-specification possibilities for the pronouns in.	S-49
+OWN	Given that the transition is a shift , there seem to be more and less coherent ways to shift .	S-50
+OWN	Note that the three items being examined in order to characterize the transition between each pair of anchors are the Cb of, the Cb of, and the Cp of.	S-51
+OTH	Bya shift occurs whenever successive Cb 's are not the same .	S-52
+OTH	This definition of shifting does not consider whether the Cb ofand the Cp ofare equal .	S-53
+OWN	It seems that the status of the Cp ofshould be as important in this case as it is in determining the retaining / chontinuing distinction .	S-54
+AIM	Therefore , we propose the following extension which handles some additional cases containing multiple ambiguous pronouns : we have extended rule 2 so that there are two kinds of shifts .	S-55
+OWN	A transition foris ranked more highly if; this state we call shifting - 1 and it represents a more coherent way to shift .	S-56
+OWN	The preferred ranking isshifting - 1( see figure) .	S-57
+OWN	This extension enables us to successfully bind the `` she '' in the final utterance of the example in figureto `` Friedman . ''	S-58
+TXT	The appendix illustrates the application of the algorithm to figure.	S-59
+OTH	has proposed another extension to thetheory - a property-sharing constraint which attempts to enforce a parallellism between entities in successive utterances .	S-60
+OTH	She considers two properties : SUBJ and IDENT .	S-61
+OTH	With her extension , subject pronouns prefer subject antecedents and non-subject pronouns prefer non-subject antecedents .	S-62
+CTR	However , structural parallelism is a consequence of our ordering the Cf list by grammatical function and the preference for continuing over retaining .	S-63
+CTR	Furthermore , the constraints suggested insucceed in many cases without invoking an independent structural parallelism constraint , due to the distinction between continuing and retaining , whichfails to consider .	S-64
+OWN	Her example which we reproduce in figurecan also be accounted for using the continuing / retaining distinction .	S-65
+OWN	The third utterance in this example has two interpretations which are both consistent with the centering rules and constraints .	S-66
+OWN	Because of rule 2 , the interpretation in figureis preferred over the one in figure.	S-67
+OWN	There are three basic phases to this algorithm .	S-68
+OWN	First the proposed anchors are constructed , then they are filtered , and finally , they are classified and ranked .	S-69
+OWN	The proposed anchors represent all the co-specification relationships available for this utterance .	S-70
+OWN	Each step is discussed and illustrated in figure.	S-71
+OWN	It would be possible to classify and rank the proposed anchors before filtering them without any other changes to the algorithm .	S-72
+OWN	In fact , using this strategy one could see if the highest ranked proposal passed all the filters , or if the next highest did , etc .	S-73
+OWN	The three filters in the filtering phase may be done in parallel .	S-74
+OWN	The example we use to illustrate the algorithm is in figure.	S-75
+OWN	The goal of the current algorithm design was conceptual clarity rather than efficiency .	S-76
+OWN	The hope is that the structure provided will allow easy addition of further constraints and preferences .	S-77
+OWN	It would be simple to change the control structure of the algorithm so that it first proposed all the continuing or retaining anchors and then the shifting ones , thus avoiding a precomputation of all possible anchors .	S-78
+OTH	states that a realization may contribute more than one entity to the Cf(U) .	S-79
+OTH	This is true in cases when a partially specified semantic description is consistent with more than one interpretation .	S-80
+OTH	There is no need to enumerate explicitly all the possible interpretations when constructing possible Cf(U)'s , as long as the associated semantic theory allows partially specified interpretations .	S-81
+OTH	This also holds for entities not directly realized in an utterance .	S-82
+OWN	On our view , after referring to `` a house '' in, a reference to `` the door '' inmight be gotten via inference from the representation for `` a house '' in.	S-83
+OWN	Thus when the proposed anchors are constructed there is no possibility of having an infinite number of potential Cf 's for an utterance of finite length .	S-84
+OWN	Another question is whether the preference ordering of transitions in constraint 3 should always be the same .	S-85
+OWN	For some examples , particularly wherecontains a single pronoun andis a retention , some informants seem to have a preference for shifting , whereas the centering algorithm chooses a continuation ( see figure) .	S-86
+OWN	Many of our informants have no strong preference as to the co-specification of the unstressed `` She '' in.	S-87
+OWN	Speakers can avoid ambiguity by stressing a pronoun with respect to its phonological environment .	S-88
+OWN	A computational system for understanding may need to explicitly acknowledge this ambiguity .	S-89
+OWN	A computational system for generation would try to plan a retention as a signal of an impending shift , so that after a retention , a shift would be preferred rather than a continuation .	S-90
+OWN	Of course the local approach described here does not provide all the necessary information for interpreting pronouns ; constraints are also imposed by world knowledge , pragmatics , semantics and phonology .	S-91
+OWN	There are other interesting questions concerning the centering algorithm .	S-92
+OWN	How should the centering algorithm interact with an inferencing mechanism ?	S-93
+OWN	Should it make choices when there is more than one proposed anchor with the same ranking ?	S-94
+OWN	In a database query system , how should answers be incorporated into the discourse model ?	S-95
+OWN	How does centering interact with a treatment of definite / indefinite NP 's and quantifiers ?	S-96
+OWN	We are exploring ideas for these and other extensions to the centering approach for modeling reference in local discourse .	S-97

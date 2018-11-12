@@ -1,0 +1,69 @@
+AIM	A simple method for categorizing texts into pre-determined text genre categories using the statistical standard technique of discriminant analysis is demonstrated with application to the Brown corpus .	A-0
+OWN	Discriminant analysis makes it possible use a large number of parameters that may be specific for a certain corpus or information stream , and combine them into a small number of functions , with the parameters weighted on basis of how useful they are for discriminating text genres .	A-1
+OWN	An application to information retrieval is discussed .	A-2
+BKG	There are different types of text .	S-0
+BKG	Texts `` about '' the same thing may be in differing genres , of different types , and of varying quality .	S-1
+BKG	Texts vary along several parameters , all relevant for the general information retrieval problem of matching reader needs and texts .	S-2
+BKG	Given this variation , in a text retrieval context the problems are	S-3
+BKG	identifying genres , and	S-4
+BKG	choosing criteria to cluster texts of the same genre , with predictable precision and recall .	S-5
+BKG	This should not be confused with the issue of identifying topics , and choosing criteria that discriminate one topic from another .	S-6
+BKG	Although not orthogonal to genre-dependent variation , the variation that relates directly to content and topic is along other dimensions .	S-7
+BKG	Naturally , there is co-variance .	S-8
+BKG	Texts about certain topics may only occur in certain genres , and texts in certain genres may only treat certain topics ; most topics do , however , occur in several genres , which is what interests us here .	S-9
+OTH	has studied text variation along several parameters , and found that texts can be considered to vary along five dimensions .	S-10
+OTH	In his study , he clusters features according to covariance , to find underlying dimensions.	S-11
+AIM	We wish to find a method for identifying easily computable parameters that rapidly classify previously unseen texts in general classes and along a small set - smaller than's five - of dimensions , such that they can be explained in intuitively simple terms to the user of an information retrieval application .	S-12
+AIM	Our aim is to take a set of texts that has been selected by some sort of crude semantic analysis such as is typically performed by an information retrieval system and partition it further by genre or text type , and to display this variation as simply as possible in one or two dimensions .	S-13
+BAS	We start by using features similar to those first investigated by, but we concentrate on those that are easy to compute assuming we have a part of speech tagger,, such as such as third person pronoun occurrence rate as opposed to 'general hedges '.	S-14
+OWN	More and more of's features will be available with the advent of more proficient analysis programs , for instance if complete surface syntactic parsing were performed before categorization.	S-15
+BAS	We then use discriminant analysis , a technique from descriptive statistics .	S-16
+OWN	Discriminant analysis takes a set of precategorized individuals and data on their variation on a number of parameters , and works out a set discriminant functions which distinguishes between the groups .	S-17
+OWN	These functions can then be used to predict the category memberships of new individuals based on their parameter scores,.	S-18
+OWN	For data we used the Brown corpus of English text samples of uniform length , categorized in several categories as seen in table.	S-19
+OWN	We ran discriminant analysis on the texts in the corpus using several different features as seen in table.	S-20
+BAS	We used thesystem for statistical data analysis , which has as one of its features a complete discriminant analysis.	S-21
+OWN	The discriminant function extracted from the data by the analysis is a linear combination of the parameters .	S-22
+OWN	To categorize a set into N categories N - 1 functions need to be determined .	S-23
+OWN	However , if we are content with being able to plot all categories on a two-dimensional plane , which probably is what we want to do , for ease of exposition , we only use the two first and most significant functions .	S-24
+OWN	In the case of two categories , only one function is necessary for determining the category of an item .	S-25
+OWN	The function classified 478 cases correctly and misclassified 22 , out of the 500 cases , as shown in tableand figure.	S-26
+OWN	Using the three functions extracted , 366 cases were correctly classified , and 134 cases were misclassified , out of the 500 cases , as can be seen in tableand figure.	S-27
+OWN	`` Miscellaneous '' , the most problematic category , is a loose grouping of different informative texts .	S-28
+OWN	The single most problematic subsubset of texts is a subset of eighteen non-fiction texts labeled `` learned / humanities '' .	S-29
+OWN	Sixteen of them were misclassified , thirteen as `` miscellaneous '' .	S-30
+OWN	Using the fourteen functions extracted , 258 cases were correctly classified and 242 cases misclassified out of the 500 cases , as shown in table.	S-31
+OWN	Trying to distinguish between the different types of fiction is expensive in terms of errors .	S-32
+OWN	If the fiction subcategories were collapsed there only would be ten categories , and the error rate for the categorization would improve as shown in the `` revised total '' record of the table .	S-33
+OWN	The `` learned / humanities '' subcategory is , as before , problematic : only two of the eighteen items were correctly classified .	S-34
+OWN	The others were most often misclassified as `` Religion '' or `` Belles Lettres '' .	S-35
+OWN	It is important to note that this experiment does not claim to show how genres in fact differ .	S-36
+OWN	What we show is that this sort of technique can be used to determine which parameters to use , given a set of them .	S-37
+OWN	We did not use a test set disjoint from the training set , and we do not claim that the functions we had the method extract from the data are useful in themselves .	S-38
+OWN	We discuss how well this method categorizes a set text , given a set of categories , and given a set of parameters .	S-39
+OWN	The error rates climb steeply with the number of categories tested for in the corpus we used .	S-40
+OWN	This may have to do with how the categories are chosen and defined .	S-41
+OWN	For instance , distinguishing between different types of fiction by formal or stylistic criteria of this kind may just be something we should not attempt : the fiction types are naturally defined in terms of their content , after all .	S-42
+OTH	The statistical technique of factor analysis can be used to discover categories , likehas done .	S-43
+CTR	The problem with using automatically derived categories is that even if they are in a sense real , meaning that they are supported by data , they may be difficult to explain for the unenthusiastic layman if the aim is to use the technique in retrieval tools .	S-44
+OWN	Other criteria that should be studied are second and higher order statistics on the respective parameters .	S-45
+OWN	Certain parameters probably vary more in certain text types than others , and they may have a skewed distribution as well .	S-46
+OWN	This is not difficult to determine , although the standard methods do not support automatic determination of standard deviation or skewness as discrimination criteria .	S-47
+OWN	Together with the investigation of several hitherto untried parameters , this is a next step .	S-48
+OWN	Not unrelated to the study of genre is the study of readability which aims to categorize texts according to their suitability for assumed sets of assumed readers .	S-49
+OWN	There is a wealth of formul to compute readability .	S-50
+OWN	Most commonly they combine easily computed text measures , typically average or sampled average sentence length combined with similarly computed word length , or incidence of words not on a specified `` easy word list '',.	S-51
+OWN	In spite of's warnings about injudicious application to writing tasks , readability measurement has naively come to be used as a prescriptive metric of good writing as a tool for writers , and has thus come into some disrepute among text researchers .	S-52
+OWN	Our small study confirms the basic findings of the early readability studies : the most important factors of the ones we tested are word length , sentence length , and different derivatives of these two parameters .	S-53
+OWN	As long as readability indexing schemes are used in descriptive applications they work well to discriminate between text types .	S-54
+OWN	The technique shows practical promise .	S-55
+OWN	The territorial maps shown in figures,, andare intuitively useful tools for displaying what type a particular text is , compared with other existing texts .	S-56
+OWN	The technique demonstrated above has an obvious application in information retrieval , for picking out interesting texts , if content based methods select a too large set for easy manipulation and browsing.	S-57
+OWN	In any specific application area it will be unlikely that the text database to be accessed will be completely free form .	S-58
+OWN	The texts under consideration will probably be specific in some way .	S-59
+OWN	General text types may be useful , but quite probably there will be a domain - or field-specific text typology .	S-60
+OWN	In an envisioned application , a user will employ a cascade of filters starting with filtering by topic , and continuing with filters by genre or text type , and ending by filters for text quality , or other tentative finer-grained qualifications .	S-61
+OTH	TheProject at the departments of Computer and Systems Sciences , Computational Linguistics , and Psychology at Stockholm University is at present studying texts on the USENET News conferencing system .	S-62
+OTH	The project at present studies texts which appear on several different types of USENET News conferences , and investigates how well the classification criteria and categories that experienced USENET News users report usingcan be used by a newsreader system .	S-63
+BAS	To do this the project applies the method described here .	S-64
+OTH	The project uses categories such as `` query '' , `` comment '' , `` announcement '' , `` FAQ '' , and so forth , categorizing them using parameters such as different types of length measures , form word content , quote level , percentage quoted text and other USENET News specific parameters .	S-65

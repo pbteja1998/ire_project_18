@@ -1,0 +1,136 @@
+BKG	Drawing appropriate defeasible inferences has been proven to be one of the most pervasive puzzles of natural language processing and a recurrent problem in pragmatics .	A-0
+AIM	This paper provides a theoretical framework , called stratified logic , that can accommodate defeasible pragmatic inferences .	A-1
+OWN	The framework yields an algorithm that computes the conversational , conventional , scalar , clausal , and normal state implicatures ; and the presuppositions that are associated with utterances .	A-2
+OWN	The algorithm applies equally to simple and complex utterances and sequences of utterances .	A-3
+BKG	It is widely acknowledged that a full account of natural language utterances cannot be given in terms of only syntactic or semantic phenomena .	S-0
+BKG	For example ,has shown that in order to understand a scalar implicature , one must analyze the conversants ' beliefs and intentions .	S-1
+BKG	To recognize normal state implicatures one must consider mutual beliefs and plans.	S-2
+BKG	To understand conversational implicatures associated with indirect replies one must consider discourse expectations , discourse plans , and discourse relations,.	S-3
+BKG	Some presuppositions are inferrable when certain lexical constructs ( factives , aspectuals , etc ) or syntactic constructs ( cleft and pseudo-cleft sentences ) are used .	S-4
+BKG	Despite all the complexities that individualize the recognition stage for each of these inferences , all of them can be defeated by context , by knowledge , beliefs , or plans of the agents that constitute part of the context , or by other pragmatic rules .	S-5
+BKG	Defeasibility is a notion that is tricky to deal with , and scholars in logics and pragmatics have learned to circumvent it or live with it .	S-6
+OTH	The first observers of the phenomenon preferred to keep defeasibility outside the mathematical world .	S-7
+OTH	For,, and`` everything exists '' ; therefore , in their logical systems , it is impossible to formalize the cancellation of the presupposition that definite referents exist,.	S-8
+OWN	We can taxonomize previous approaches to defeasible pragmatic inferences into three categories ( we omit here work on defeasibility related to linguistic phenomena such as discourse , anaphora , or speech acts ) .	S-9
+OTH	Most linguistic approaches account for the defeasibility of pragmatic inferences by analyzing them in a context that consists of all or some of the previous utterances , including the current one .	S-10
+OTH	Context,, procedural rules,, lexical and syntactic structure, intentions, or anaphoric constraints,decide what presuppositions or implicatures are projected as pragmatic inferences for the utterance that is analyzed .	S-11
+CTR	The problem with these approaches is that they assign a dual life to pragmatic inferences : in the initial stage , as members of a simple or complex utterance , they are defeasible .	S-12
+CTR	However , after that utterance is analyzed , there is no possibility left of cancelling that inference .	S-13
+CTR	But it is natural to have implicatures and presuppositions that are inferred and cancelled as a sequence of utterances proceeds : research in conversation repairsabounds in such examples .	S-14
+TXT	We address this issue in more detail in section.	S-15
+OTH	One way of accounting for cancellations that occur later in the analyzed text is simply to extend the boundaries within which pragmatic inferences are evaluated , i.e. , to look ahead a few utterances .	S-16
+CTR	assumes that implicatures are connected to discourse entities and not to utterances , but her approach still does not allow cancellations across discourse units .	S-17
+OTH	Another way of allowing pragmatic inferences to be cancelled is to assign them the status of defeasible information .	S-18
+CTR	formalizes presuppositions in a logical framework that handles defaults, but this approach is not tractable and it treats natural disjunction as an exclusive-or and implication as logical equivalence .	S-19
+CTR	Computational approaches fail to account for the cancellation of pragmatic inferences : once presuppositionsor implicatures,are generated , they can never be cancelled .	S-20
+CTR	We are not aware of any formalism or computational approach that offers a unified explanation for the cancellability of pragmatic inferences in general , and of no approach that handles cancellations that occur in sequences of utterances .	S-21
+AIM	It is our aim to provide such an approach here .	S-22
+OWN	In doing this , we assume the existence , for each type of pragmatic inference , of a set of necessary conditions that must be true in order for that inference to be triggered .	S-23
+OWN	Once such a set of conditions is met , the corresponding inference is drawn , but it is assigned a defeasible status .	S-24
+OWN	It is the role of context and knowledge of the conversants to `` decide '' whether that inference will survive or not as a pragmatic inference of the structure .	S-25
+OWN	We put no boundaries upon the time when such a cancellation can occur , and we offer a unified explanation for pragmatic inferences that are inferable when simple utterances , complex utterances , or sequences of utterances are considered .	S-26
+AIM	We propose a new formalism , called `` stratified logic '' , that correctly handles the pragmatic inferences , and we start by giving a very brief introduction to the main ideas that underlie it .	S-27
+TXT	We give the main steps of the algorithm that is defined on the backbone of stratified logic .	S-28
+TXT	We then show how different classes of pragmatic inferences can be captured using this formalism , and how our algorithm computes the expected results for a representative class of pragmatic inferences .	S-29
+BAS	The results we report here are obtained using an implementation written in Common Lisp that uses Screamer, a macro package that provides nondeterministic constructs .	S-30
+OWN	We can offer here only a brief overview of stratified logic .	S-31
+BAS	The reader is referred tofor a comprehensive study .	S-32
+OWN	Stratified logic supports one type of indefeasible information and two types of defeasible information , namely , infelicitously defeasible and felicitously defeasible .	S-33
+BKG	The notion of infelicitously defeasible information is meant to capture inferences that are anomalous to cancel , as in :	S-34
+BKG	The notion of felicitously defeasible information is meant to capture the inferences that can be cancelled without any abnormality , as in :	S-35
+OWN	The lattice in figureunderlies the semantics of stratified logic .	S-36
+OWN	The lattice depicts the three levels of strength that seem to account for the inferences that pertain to natural language semantics and pragmatics : indefeasible information belongs to the u layer , infelicitously defeasible information belongs to the i layer , and felicitously defeasible information belongs to the d layer .	S-37
+OWN	Each layer is partitioned according to its polarity in truth ,, and falsity ,.	S-38
+OWN	The lattice shows a partial order that is defined over the different levels of truth .	S-39
+OWN	For example , something that is indefeasibly false ,, is stronger ( in a sense to be defined below ) than something that is infelicitously defeasibly true ,, or felicitously defeasibly false ,.	S-40
+OWN	Formally , we say that the u level is stronger than the i level , which is stronger than the d level :.	S-41
+OWN	At the syntactic level , we allow atomic formulas to be labelled according to the same underlying lattice .	S-42
+OWN	Compound formulas are obtained in the usual way .	S-43
+OWN	This will give us formulas such as, or.	S-44
+OWN	The satisfaction relation is split according to the three levels of truth into u-satisfaction , i-satisfaction , and d-satisfaction :	S-45
+OWN	Definitionextends in a natural way to negated and compound formulas .	S-46
+OWN	Having a satisfaction definition associated with each level of strength provides a high degree of flexibility .	S-47
+OWN	The same theory can be interpreted from a perspective that allows more freedom ( u-satisfaction ) , or from a perspective that is tighter and that signals when some defeasible information has been cancelled ( i - and d-satisfaction ) .	S-48
+OWN	Possible interpretations of a given set of utterances with respect to a knowledge base are computed using an extension of the semantic tableau method .	S-49
+BAS	This extension has been proved to be both sound and complete.	S-50
+OWN	A partial ordering ,, determines the set of optimistic interpretations for a theory .	S-51
+OWN	An interpretationis preferred to , or is more optimistic than , an interpretation() if it contains more information and that information can be more easily updated in the future .	S-52
+OWN	That means that if an interpretationmakes an utterance true by assigning to a relation R a defeasible status , while another interpretationmakes the same utterance true by assigning the same relation R a stronger status ,will be the preferred or optimistic one , because it is as informative asand it allows more options in the future ( R can be defeated ) .	S-53
+OWN	Pragmatic inferences are triggered by utterances .	S-54
+OWN	To differentiate between them and semantic inferences , we introduce a new quantifier ,, whose semantics is defined such that a pragmatic inference of the formis instantiated only for those objectsfrom the universe of discourse that pertain to an utterance having the form.	S-55
+OWN	Hence , only if the antecedent of a pragmatic rule has been uttered can that rule be applied .	S-56
+OWN	A meta-logical construct uttered applies to the logical translation of utterances .	S-57
+OWN	This theory yields the following definition :	S-58
+BAS	Our algorithm , described in detail by, takes as input a set of first-order stratified formulasthat represents an adequate knowledge base that expresses semantic knowledge and the necessary conditions for triggering pragmatic inferences , and the translation of an utterance or set of utterances uttered ( u ) .	S-59
+OWN	The algorithm builds the set of all possible interpretations for a given utterance , using a generalization of the semantic tableau technique .	S-60
+OWN	The model-ordering relation filters the optimistic interpretations .	S-61
+OWN	Among them , the defeasible inferences that have been triggered on pragmatic grounds are checked to see whether or not they are cancelled in any optimistic interpretation .	S-62
+OWN	Those that are not cancelled are labelled as pragmatic inferences for the given utterance or set of utterances .	S-63
+OWN	We present a set of examples that covers a representative group of pragmatic inferences .	S-64
+CTR	In contrast with most other approaches , we provide a consistent methodology for computing these inferences and for determining whether they are cancelled or not for all possible configurations : simple and complex utterances and sequences of utterances .	S-65
+OWN	A factive such as the verb regret presupposes its complement , but as we have seen , in positive environments , the presupposition is stronger : it is acceptable to defeat a presupposition triggered in a negative environment, but is infelicitous to defeat one that belongs to a positive environment.	S-66
+OWN	Therefore , an appropriate formalization of utteranceand the requisite pragmatic knowledge will be as shown in.	S-67
+OWN	The stratified semantic tableau that corresponds to theoryis given in figure.	S-68
+OWN	The tableau yields two model schemata ( see figure) ; in both of them , it is defeasibly inferred that Mary came to the party .	S-69
+OWN	The model-ordering relationestablishesas the optimistic model for the theory because it contains as much information asand is easier to defeat .	S-70
+OWN	Modelexplains why Mary came to the party is a presupposition for utterance.	S-71
+OWN	Consider utterance, and its implicatures.	S-72
+OWN	An appropriate formalization is given in, where the second formula captures the defeasible scalar implicatures and the third formula reflects the relevant semantic information for all .	S-73
+OWN	The theory provides one optimistic model schema ( figure) that reflects the expected pragmatic inferences , i.e. , ( Not most / Not many / Not all ) of the boys went to the theatre .	S-74
+OWN	Assume now , that after a moment of thought , the same person utters :	S-75
+OWN	By adding the extra utterance to the initial theory, uttered ( went ( all ( boys ) , theatre ) ) , one would obtain one optimistic model schema in which the conventional implicatures have been cancelled ( see figure) .	S-76
+CTR	The Achilles heel for most theories of presupposition has been their vulnerability to the projection problem .	S-77
+OWN	Our solution for the projection problem does not differ from a solution for individual utterances .	S-78
+OWN	Consider the following utterances and some of their associated presuppositions( the symbolprecedes an inference drawn on pragmatic grounds ) :	S-79
+OWN	Chris is not a bachelor presupposes that Chris is a male adult ; Chris regrets that Mary came to the party presupposes that Mary came to the party .	S-80
+OWN	There is no contradiction between these two presuppositions , so one would expect a conversant to infer both of them if she hears an utterance such as.	S-81
+OWN	However , when one examines utterance, one observes immediately that there is a contradiction between the presuppositions carried by the individual components .	S-82
+OWN	Being a bachelor presupposes that Chris is a male , while being a spinster presupposes that Chris is a female .	S-83
+OWN	Normally , we would expect a conversant to notice this contradiction and to drop each of these elementary presuppositions when she interprets.	S-84
+TXT	We now study how stratified logic and the model-ordering relation capture one 's intuitions .	S-85
+OWN	An appropriate formalization for utteranceand the necessary semantic and pragmatic knowledge is given in.	S-86
+OWN	Besides the translation of the utterance , the initial theory contains a formalization of the defeasible implicature that natural disjunction is used as an exclusive or , the knowledge that Mary is not a name for males , the lexical semantics for the word bachelor , and the lexical pragmatics for bachelor and regret .	S-87
+OWN	The stratified semantic tableau generates 12 model schemata .	S-88
+OWN	Only four of them are kept as optimistic models for the utterance .	S-89
+OWN	The models yield Mary came to the party ; Chris is a male ; and Chris is an adult as pragmatic inferences of utterance.	S-90
+OWN	Consider now utterance.	S-91
+OWN	The stratified semantic tableau that corresponds to its logical theory yields 16 models , but only Chris is an adult satisfies definitionand is projected as presupposition for the utterance .	S-92
+OWN	We have already mentioned that speech repairs constitute a good benchmark for studying the generation and cancellation of pragmatic inferences along sequences of utterances.	S-93
+OWN	Suppose , for example , that Jane has two friends -- John Smith and John Pevler -- and that her roommate Mary has met only John Smith , a married fellow .	S-94
+OWN	Assume now that Jane has a conversation with Mary in which Jane mentions only the name John because she is not aware that Mary does not know about the other John , who is a five-year-old boy .	S-95
+OWN	In this context , it is natural for Mary to become confused and to come to wrong conclusions .	S-96
+OWN	For example , Mary may reply that John is not a bachelor .	S-97
+OWN	Although this is true for both Johns , it is more appropriate for the married fellow than for the five-year-old boy .	S-98
+OWN	Mary knows that John Smith is a married male , so the utterance makes sense for her .	S-99
+OWN	At this point Jane realizes that Mary misunderstands her : all the time Jane was talking about John Pevler , the five-year-old boy .	S-100
+OWN	The utterances inconstitute a possible answer that Jane may give to Mary in order to clarify the problem .	S-101
+OWN	The first utterance in the sequence presupposes.	S-102
+OWN	Utterancewarns Mary that is very likely she misunderstood a previous utterance.	S-103
+OWN	The warning is conveyed by implicature .	S-104
+OWN	At this point , the hearer , Mary , starts to believe that one of her previous utterances has been elaborated on a false assumption , but she does not know which one .	S-105
+OWN	The third utterancecomes to clarify the issue .	S-106
+OWN	It explicitly expresses that John is not an adult .	S-107
+OWN	Therefore , it cancels the early presupposition:	S-108
+OWN	Note that there is a gap of one statement between the generation and the cancellation of this presupposition .	S-109
+OWN	The behavior described is mirrored both by our theory and our program .	S-110
+OTH	The same methodology can be applied to modeling conversational implicatures in indirect replies.	S-111
+OTH	's algorithm makes use of discourse expectations , discourse plans , and discourse relations .	S-112
+OTH	The following dialog is considered:	S-113
+OTH	Answerconveys a `` yes '' , but a reply consisting only ofwould implicate a `` no '' .	S-114
+OTH	Asnotices , in previous models of implicatures,, processing (will block the implicature generated by.	S-115
+OTH	solves the problem by extending the boundaries of the analysis to discourse units .	S-116
+CTR	Our approach does not exhibit these constraints .	S-117
+OWN	As in the previous example , the one dealing with a sequence of utterances , we obtain a different interpretation after each step .	S-118
+OWN	When the question is asked , there is no conversational implicature .	S-119
+OWN	Answermakes the necessary conditions for implicating `` no '' true , and the implication is computed .	S-120
+OWN	Answerreinforces a previous condition .	S-121
+OWN	Answermakes the preconditions for implicating a `` no '' false , and the preconditions for implicating a `` yes '' true .	S-122
+OWN	Therefore , the implicature at the end of the dialogue is that the conversant who answered went shopping .	S-123
+CTR	Unlike most research in pragmatics that focuses on certain types of presuppositions or implicatures , we provide a global framework in which one can express all these types of pragmatic inferences .	S-124
+OWN	Each pragmatic inference is associated with a set of necessary conditions that may trigger that inference .	S-125
+OWN	When such a set of conditions is met , that inference is drawn , but it is assigned a defeasible status .	S-126
+OWN	An extended definition of satisfaction and a notion of `` optimism '' with respect to different interpretations yield the preferred interpretations for an utterance or sequences of utterances .	S-127
+OWN	These interpretations contain the pragmatic inferences that have not been cancelled by context or conversant 's knowledge , plans , or intentions .	S-128
+OWN	The formalism yields an algorithm that has been implemented in Common Lisp with Screamer .	S-129
+OWN	This algorithm computes uniformly pragmatic inferences that are associated with simple and complex utterances and sequences of utterances , and allows cancellations of pragmatic inferences to occur at any time in the discourse .	S-130
+OWN	This research was supported in part by a grant from the Natural Sciences and Engineering Research Council of Canada .	S-131

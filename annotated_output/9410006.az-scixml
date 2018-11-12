@@ -1,0 +1,266 @@
+AIM	In order to take steps towards establishing a methodology for evaluating Natural Language systems , we conducted a case study .	A-0
+AIM	We attempt to evaluate two different approaches to anaphoric processing in discourse by comparing the accuracy and coverage of two published algorithms for finding the co-specifiers of pronouns in naturally occurring texts and dialogues .	A-1
+OWN	We present the quantitative results of hand-simulating these algorithms , but this analysis naturally gives rise to both a qualitative evaluation and recommendations for performing such evaluations in general .	A-2
+OWN	We illustrate the general difficulties encountered with quantitative evaluation .	A-3
+OWN	These are problems with :	A-4
+OWN	allowing for underlying assumptions ,	A-5
+OWN	determining how to handle underspecifications , and	A-6
+OWN	evaluating the contribution of false positives and error chaining .	A-7
+BKG	In the course of developing natural language interfaces , computational linguists are often in the position of evaluating different theoretical approaches to the analysis of natural language ( NL ) .	S-0
+BKG	They might want to	S-1
+BKG	evaluate and improve on a current system ,	S-2
+BKG	add a capability to a system that it didn't previously have ,	S-3
+BKG	combine modules from different systems .	S-4
+BKG	Consider the goal of adding a discourse component to a system , or evaluating and improving one that is already in place .	S-5
+OTH	A discourse module might combine theories on , e.g. , centering or local focusing,, global focus, coherence relations, event reference, intonational structure, system vs. user beliefs, plan or intent recognition or production,,, control, or complex syntactic structures.	S-6
+AIM	How might one evaluate the relative contributions of each of these factors or compare two approaches to the same problem ?	S-7
+AIM	In order to take steps towards establishing a methodology for doing this type of comparison , we conducted a case study .	S-8
+AIM	We attempt to evaluate two different approaches to anaphoric processing in discourse by comparing the accuracy and coverage of two published algorithms for finding the co-specifiers of pronouns in naturally occurring texts and dialogues,.	S-9
+OWN	Thus there are two parts to this paper : we present the quantitative results of hand-simulating these algorithms ( henceforthalgorithm andalgorithm ) , but this analysis naturally gives rise to both a qualitative evaluation and recommendations for performing such evaluations in general .	S-10
+OWN	We illustrate the general difficulties encountered with quantitative evaluation .	S-11
+OWN	These are problems with :	S-12
+OWN	allowing for underlying assumptions ,	S-13
+OWN	determining how to handle underspecifications , and	S-14
+OWN	evaluating the contribution of false positives and error chaining .	S-15
+OWN	Although both algorithms are part of theories of discourse that posit the interaction of the algorithm with an inference or intentional component , we will not use reasoning in tandem with the algorithm 's operation .	S-16
+OWN	We have made this choice because we want to be able to analyse the performance of the algorithms across different domains .	S-17
+OWN	We focus on the linguistic basis of these approaches , using only selectional restrictions , so that our analysis is independent of the vagaries of a particular knowledge representation .	S-18
+OWN	Thus what we are evaluating is the extent to which these algorithms suffice to narrow the search of an inference component .	S-19
+OWN	This analysis gives us some indication of the contribution of syntactic constraints , task structure and global focus to anaphoric processing .	S-20
+OWN	The data on which we compare the algorithms are important if we are to evaluate claims of generality .	S-21
+OWN	If we look at types of NL input , one clear division is between textual and interactive input .	S-22
+OWN	A related , though not identical factor is whether the language being analysed is produced by more than one person , although this distinction may be conflated in textual material such as novels that contain reported conversations .	S-23
+OWN	Within two-person interactive dialogues , there are the task-oriented master-slave type , where all the expertise and hence much of the initiative , rests with one person .	S-24
+OWN	In other two-person dialogues , both parties may contribute discourse entities to the conversation on a more equal basis .	S-25
+OWN	Other factors of interest are whether the dialogues are human-to-human or human-to-computer , as well as the modality of communication , e.g. spoken or typed , since some researchers have indicated that dialogues , and particularly uses of reference within them , vary along these dimensions,,,,.	S-26
+OWN	We analyse the performance of the algorithms on three types of data .	S-27
+OWN	Two of the samples are those thatused when developing his algorithm .	S-28
+OWN	One is an excerpt from a novel and the other a sample of journalistic writing .	S-29
+OWN	The remaining sample is a set of 5 human-human , keyboard-mediated , task-oriented dialogues about the assembly of a plastic water pump.	S-30
+OWN	This covers only a subset of the above types .	S-31
+OWN	Obviously it would be instructive to conduct a similar analysis on other textual types .	S-32
+OWN	When embarking on such a comparison , it would be convenient to assume that the inputs to the algorithms are identical and compare their outputs .	S-33
+BKG	Unfortunately since researchers do not even agree on which phenomena can be explained syntactically and which semantically , the boundaries between two modules are rarely the same in NL systems .	S-34
+OWN	In this case thecentering algorithm andalgorithm both make ASSUMPTIONS about other system components .	S-35
+OWN	These are , in some sense , a further specification of the operation of the algorithms that must be made in order to hand-simulate the algorithms .	S-36
+OWN	There are two major sets of assumptions , based on discourse segmentation and syntactic representation .	S-37
+OWN	We attempt to make these explicit for each algorithm and pinpoint where the algorithms might behave differently were these assumptions not well-founded .	S-38
+OWN	In addition , there may be a number of UNDERSPECIFICATIONS in the descriptions of the algorithms .	S-39
+OWN	These often arise because theories that attempt to categorize naturally occurring data and algorithms based on them will always be prey to previously unencountered examples .	S-40
+OTH	For example , since thesalience hierarchy for discourse entities is based on grammatical relation , an implicit assumption is that an utterance only has one subject .	S-41
+CTR	However the novel Wheels has many examples of reported dialogue such as	S-42
+CTR	One might wonder whether the subject is She or Mr. Vale .	S-43
+OWN	In some cases , the algorithm might need to be further specificied in order to be able to process any of the data , whereas in others they may just highlight where the algorithm needs to be modified ( see section) .	S-44
+OWN	In general we count underspecifications as failures .	S-45
+OWN	Finally , it may not be clear what the DEFINITION OF SUCCESS is .	S-46
+OWN	In particular it is not clear what to do in those cases where an algorithm produces multiple or partial interpretations .	S-47
+OWN	In this situation a system might flag the utterance as ambiguous and draw in support from other discourse components .	S-48
+OWN	This arises in the present analysis for two reasons :	S-49
+OWN	the constraints given bydo not always allow one to choose a preferred interpretation ,	S-50
+OWN	thealgorithm proposes equally ranked interpretations in parallel .	S-51
+CTR	This doesn't happen with thealgorithm because it proposes interpretations in a sequential manner , one at a time .	S-52
+OWN	We chose to count as a failure those situations in which thealgorithm only reduces the number of possible interpretations , butalgorithm stops with a correct interpretation .	S-53
+OWN	This ignores the fact thatmay have rejected a number of interpretations before stopping .	S-54
+OWN	We also have not needed to make a decision on how to score an algorithm that only finds one interpretation for an utterance that humans find ambiguous .	S-55
+OTH	The centering algorithm as defined by( BNF algorithm ) , is derived from a set of rules and constraints put forth by,.	S-56
+OTH	We shall not reproduce this algorithm here.	S-57
+OTH	There are two main structures in the centering algorithm , the CB , the BACKWARD LOOKING CENTER , which is what the discourse is ` about ' , and an ordered list , CF , of FORWARD LOOKING CENTERS , which are the discourse entities available to the next utterance for pronominalization .	S-58
+OTH	The centering framework predicts that in a local coherent stretch of dialogue , speakers will prefer to CONTINUE talking about the same discourse entity , that the CB will be the highest ranked entity of the previous utterance 's forward centers that is realized in the current utterance , and that if anything is pronominalized the CB must be .	S-59
+OTH	In the centering framework , the order of the forward-centers list is intended to reflect the salience of discourse entities .	S-60
+OTH	Thealgorithm orders this list by grammatical relation of the complements of the main verb , i.e. first the subject , then object , then indirect object , then other subcategorized-for complements , then noun phrases found in adjunct clauses .	S-61
+OTH	This captures the intuition that subjects are more salient than other discourse entities .	S-62
+OTH	Thealgorithm added linguistic constraints on CONTRA-INDEXING to the centering framework .	S-63
+OTH	These constraints are exemplified by the fact that , in the sentence he likes him , the entity cospecified by he cannot be the same as that cospecified by him .	S-64
+OTH	We say that he and him are CONTRA-INDEXED .	S-65
+OTH	Thealgorithm depends on semantic processing to precompute these constraints , since they are derived from the syntactic structure , and depend on some notion of c-command.	S-66
+OTH	The other assumption that is dependent on syntax is that the the representations of discourse entities can be marked with the grammatical function through which they were realized , e.g. subject .	S-67
+OTH	Thealgorithm assumes that some other mechanism can structure both written texts and task-oriented dialogues into hierarchical segments .	S-68
+OTH	The present concern is not with whether there might be a grammar of discourse that determines this structure , or whether it is derived from the cues that cooperative speakers give hearers to aid in processing .	S-69
+OTH	Since centering is a local phenomenon and is intended to operate within a segment , we needed to deduce a segmental structure in order to analyse the data .	S-70
+OTH	Speaker 's intentions , task structure , cue words like `` O.K. now ... '' , intonational properties of utterances , coherence relations , the scoping of modal operators , and mechanisms for shifting control between discourse participants have all been proposed as ways of determining discourse segmentation,,,,,,,,.	S-71
+OTH	Here , we use a combination of orthography , anaphora distribution , cue words and task structure .	S-72
+OTH	The rules are :	S-73
+OTH	In published texts , a paragraph is a new segment unless the first sentence has a pronoun in subject position or a pronoun where none of the preceding sentence-internal noun phrases match its syntactic features .	S-74
+OTH	In the task-oriented dialogues , the action PICK-UP marks task boundaries hence segment boundaries .	S-75
+OTH	Cue words like next , then , and now also mark segment boundaries .	S-76
+OTH	These will usually co-occur but either one is sufficient for marking a segment boundary .	S-77
+OTH	never state that cospecifiers for pronouns within the same segment are preferred over those in previous segments , but this is an implicit assumption , since this line of research is derived from's work on local focusing .	S-78
+OTH	Segment initial utterances therefore are the only situation where thealgorithm will prefer a within-sentence noun phrase as the cospecifier of a pronoun .	S-79
+OTH	Thealgorithm is based on searching for a pronoun 's co-specifier in the syntactic parse tree of input sentences.	S-80
+TXT	We reproduce this algorithm in full in the appendix along with an example .	S-81
+OTH	algorithm operates on one sentence at a time , but the structure of previous sentences in the discourse is available .	S-82
+OTH	It is stated in terms of searches on parse trees .	S-83
+OTH	When looking for an intrasentential antecedent , these searches are conducted in a left-to-right , breadth-first manner .	S-84
+OTH	However , when looking for a pronoun 's antecedent within a sentence , it will go sequentially further and further up the tree to the left of the pronoun , and that failing will look in the previous sentence .	S-85
+OTH	does not assume a segmentation of discourse structure in this algorithm ; the algorithm will go back arbitrarily far in the text to find an antecedent .	S-86
+OTH	In more recent work ,uses the notion of COHERENCE RELATIONS to structure the discourse.	S-87
+OTH	The order by which's algorithm traverses the parse tree is the closest thing in his framework to predictions about which discourse entities are salient .	S-88
+OTH	In the main it prefers co-specifiers for pronouns that are within the same sentence , and also ones that are closer to the pronoun in the sentence .	S-89
+OTH	This amounts to a claim that different discourse entities are salient , depending on the position of a pronoun in a sentence .	S-90
+OTH	When seeking an intersentential co-specification ,algorithm searches the parse tree of the previous utterance breadth-first , from left to right .	S-91
+OTH	This predicts that entities realized in subject position are more salient , since even if an adjunct clause linearly precedes the main subject , any noun phrases within it will be deeper in the parse tree .	S-92
+OTH	This also means that objects and indirect objects will be among the first possible antecedents found , and in general that the depth of syntactic embedding is an important determiner of discourse prominence .	S-93
+OTH	Turning to the assumptions about syntax , we note thatassumes that one can produce the correct syntactic structure for an utterance , with all adjunct phrases attached at the proper point of the parse tree .	S-94
+OTH	In addition , in order to obey linguistic constraints on coreference , the algorithm depends on the existence of aparse tree node , which denotes a noun phrase without its determiner ( See the example in the Appendix ) .	S-95
+OTH	algorithm procedurally encodes contra-indexing constraints by skipping over NP nodes whosenode dominates the part of the parse tree in which the pronoun is found , which means that he cannot guarantee that two contra-indexed pronouns will not choose the same NP as a co-specifier .	S-96
+OTH	also assumes that his algorithm can somehow collect discourse entities mentioned alone into sets as co-specifiers of plural anaphors .	S-97
+OTH	discusses at length other assumptions that he makes about the capabilities of an interpretive process that operates before the algorithm.	S-98
+OTH	This includes such things as being able to recover syntactically recoverable omitted text , such as elided verb phrases , and the identities of the speakers and hearers in a dialogue .	S-99
+BKG	A major component of any discourse algorithm is the prediction of which entities are salient , even though all the factors that contribute to the salience of a discourse entity have not been identified,,,.	S-100
+OWN	So an obvious question is when the two algorithms actually make different predictions .	S-101
+OWN	The main difference is that the choice of a co-specifier for a pronoun in thealgorithm depends in part on the position of that pronoun in the sentence .	S-102
+OTH	In the centering framework , no matter what criteria one uses to order the forward-centers list , pronouns take the most salient entities as antecedents , irrespective of that pronoun 's position .	S-103
+OTH	ordering of entities from a previous utterance varies fromin that possessors come before case-marked objects and indirect objects , and there may be some other differences as well but none of them were relevant to the analysis that follows .	S-104
+OWN	The effects of some of the assumptions are measurable and we will attempt to specify exactly what these effects are , however some are not , e.g. we cannot measure the effect of's syntax assumption since it is difficult to say how likely one is to get the wrong parse .	S-105
+OWN	We adopt the set collection assumption for both algorithms as well as the ability to recover the identity of speakers and hearers in dialogue .	S-106
+OWN	The texts on which the algorithms are analysed are the first chapter of Arthur Hailey 's novel Wheels , and the July 7 , 1975 edition of Newsweek .	S-107
+OWN	The sentences in Wheels are short and simple with long sequences consisting of reported conversation , so it is similar to a conversational text .	S-108
+OWN	The articles from Newsweek are typical of journalistic writing .	S-109
+OWN	For each text , the first 100 occurrences of singular and plural third-person pronouns were used to test the performance of the algorithms .	S-110
+OWN	The task-dialogues contain a total of 81 uses of it and no other pronouns except for I and you .	S-111
+OWN	In the figures below note that possessives like his are counted along with he and that accusatives like him and her are counted as he and she .	S-112
+OWN	We performed three analyses on the quantitative results .	S-113
+OWN	A comparison of the two algorithms on each data set individually and an overall analysis on the three data sets combined revealed no significant differences in the performance of the two algorithms (, not significant ) .	S-114
+OWN	In addition for each algorithm alone we tested whether there were significant differences in performance for different textual types .	S-115
+OWN	Both of the algorithms performed significantly worse on the task dialogues (for,for, p  <  0.05 ) .	S-116
+OWN	We might wonder with what confidence we should view these numbers .	S-117
+OWN	A significant factor that must be considered is the contribution of FALSE POSITIVES and ERROR CHAINING .	S-118
+OWN	A FALSE POSITIVE is when an algorithm gets the right answer for the wrong reason .	S-119
+OWN	A very simple example of this phenomena is illustrated by this sequence from one of the task dialogues .	S-120
+OWN	The first it inrefers to the pump .	S-121
+OWN	algorithm gets the right antecedent for it in, which is the little handle , but then fails on it in, whereas thealgorithm has the pump centered atand continues to select that as the antecedent for it throughout the text .	S-122
+OWN	This meansgets the wrong co-specifier inbut this error allows it to get the correct co-specifier in.	S-123
+OWN	Another type of false positive example is	S-124
+OWN	gets this correct as long as one is willing to accept that Everybody is really the antecedent of his .	S-125
+OWN	It seems to me that this might be an idiomatic use .	S-126
+OWN	ERROR CHAINING refers to the fact that once an algorithm makes an error , other errors can result .	S-127
+OWN	Consider :	S-128
+OWN	In this example once an algorithm fails atit will fail onandas well since the choices of a cospecifier in the following examples are dependent on the choice in.	S-129
+OWN	It isn't possible to measure the effect of false positives , since in some sense they are subjective judgements .	S-130
+OWN	However one can and should measure the effects of error chaining , since reporting numbers that correct for error chaining is misleading , but if the error that produced the error chain can be corrected then the algorithm might show a significant improvement .	S-131
+OWN	In this analysis , error chains contributed 22 failures to's algorithm and 19 failures to.	S-132
+OWN	The numbers presented in the previous section are intuitively unsatisfying .	S-133
+OWN	They tell us nothing about what makes the algorithms more or less general , or how they might be improved .	S-134
+OWN	In addition , given the assumptions that we needed to make in order to produce them , one might wonder to what extent the data is a result of these assumptions .	S-135
+OWN	Figurealso fails to indicate whether the two algorithms missed the same examples or are covering a different set of phenomena , i.e. what the relative distribution of the successes and failures are .	S-136
+OWN	But having done the hand-simulation in order to produce such numbers , all of this information is available .	S-137
+TXT	In this section we will first discuss the relative importance of various factors that go into producing the numbers above , then discuss if the algorithms can be modified since the flexibility of a framework in allowing one to make modifications is an important dimension of evaluation .	S-138
+OWN	The figures,andshow for each pronominal category , the distribution of successes and failures for both algorithms .	S-139
+OWN	Since the main purpose of evaluation must be to improve the theory that we are evaluating , the most interesting cases are the ones on which the algorithms 's performance varies and those that neither algorithm gets correct .	S-140
+OWN	We discuss these below .	S-141
+OWN	In the Wheels data , 4 examples rest on the assumption that the identities of speakers and hearers is recoverable .	S-142
+OWN	For example in	S-143
+OWN	Only 4 examples rest on being able to produce collections or discourse entities , and 2 of these occurred with an explicit instruction to the hearer to produce such a collection by using the phrase them both .	S-144
+OWN	There are 21 cases thatgets thatdon't , and of these these a few classes stand out .	S-145
+OWN	In every case the relevant factor is's preference for intrasentential co-specifiers .	S-146
+OWN	One class , ( n = 3 ) , is exemplified by	S-147
+OWN	All three involved using the preposition with in a descriptive adjunct on a noun phrase .	S-148
+OWN	It may be that with-adjuncts are common in visual descriptions , since they were only found in our data in the task dialogues , and a quick inspection of's task-oriented dialogues revealed some as well.	S-149
+OWN	Another class , ( n = 7 ) , are possessives .	S-150
+OWN	In some cases the possessive co-specified with the subject of the sentence , e.g .	S-151
+OWN	and in others it was within a relative clause and co-specified with the subject of that clause , e.g .	S-152
+OWN	Other cases seem to be syntactically marked subject matching with constructions that link two S clauses ( n = 8 ) .	S-153
+OWN	These are uses of more-than in e.g.	S-154
+OWN	There also are S-if-S cases , as in	S-155
+OWN	We also have subject matching in AS-AS examples as in	S-156
+OWN	as well as in sentential complements , such as	S-157
+OWN	The fact that quite a few of these are also marked with But may be significant .	S-158
+OWN	In terms of the possible effects that we noted earlier , the DEFINITION OF SUCCESS ( see section) favors( n = 2 ) .	S-159
+OWN	Consider :	S-160
+OWN	Thealgorithm will correctly choose the end as the antecedent for the second it .	S-161
+OWN	Thealgorithm on the other hand will get two interpretations , one in which the second it co-specifies the red piece and one in which it co-specifies the end .	S-162
+OWN	They are both CONTINUING interpretations since the first it co-specifies the CB , but the constraints don't make a choice .	S-163
+OWN	All of the examples on whichsucceed andfails have to do with extended discussion of one discourse entity .	S-164
+OWN	For instance :	S-165
+OWN	On this example ,fails by choosing the co-specifier of it into be the rubber ring , even though the whole segment has been about the blue cap .	S-166
+OWN	Another example from the novel WHEELS is given below .	S-167
+OWN	On this onegets the first use of he but then misses the next four , as a result of missing the second one by choosing `` a housekeeper '' as the co-specifier for HIS.	S-168
+OWN	Since `` an executive vice-president '' is centered in the first sentence , and continued in each following sentence , thealgorithm will correctly choose the cospecifier .	S-169
+OWN	Among the examples that neither algorithm gets correctly are 20 examples from the task dialogues of it referring to the global focus , the pump .	S-170
+OWN	In 15 cases , these shifts to global focus are marked syntactically with a cue word such as Now , and are not marked in 5 cases .	S-171
+OWN	Presumably they are felicitous since the pump is visually salient .	S-172
+OWN	Besides the global focus cases , pronominal references to entities that were not linguistically introduced are rare .	S-173
+OWN	The only other example is an implicit reference to ` the problem ' of the pump not working :	S-174
+OWN	We have only two examples of sentential or VP anaphora altogether , such as	S-175
+OWN	Neitheralgorithm norattempt to cover these examples .	S-176
+OWN	Three of the examples are uses of it that seem to be lexicalized with certain verbs , e.g .	S-177
+OWN	One can imagine these being treated as phrasal lexical items , and therefore not handled by an anaphoric processing component.	S-178
+OWN	Most of the interchanges in the task dialogues consist of the client responding to commands with cues such as O.K. or Ready to let the expert know when they have completed a task .	S-179
+OWN	When both parties contribute discourse entities to the common ground , both algorithms may fail ( n = 4 ) .	S-180
+OWN	Consider :	S-181
+OWN	In, one might claim that it and there are contraindexed , and that there can be properly resolved to a hole , so that it cannot be any of the noun phrases in the prepositional phrases that modify a hole , but whether any theory of contra-indexing actually give us this is questionable .	S-182
+OWN	The main factor seems to be that even thoughis not syntactically a question , the little red piece is the focus of a question , and as such is in focus despite the fact that the syntactic construction there is supposedly focuses `` a hole in the green plunger ... ''.	S-183
+OWN	These examples suggest that a questioned entity is left focused until the point in the dialogue at which the question is resolved .	S-184
+OWN	The fact that well has been noted as a marker of response to questions supports this analysis.	S-185
+OWN	Thus the relevant factor here may be the switching of control among discourse participants.	S-186
+OWN	These mixed-initiative features make these sequences inherently different than text .	S-187
+OWN	Task structure in the pump dialogues is an important factor especially as it relates to the use of global focus .	S-188
+OWN	Twenty of the cases on which both algorithms fail are references to the pump , which is the global focus .	S-189
+OWN	We can include a global focus in the centering framework , as a separate notion from the current CB .	S-190
+OWN	This means that in the 15 out of 20 cases where the shift to global focus is identifiably marked with a cue-word such as now , the segment rules will allowto get the global focus examples .	S-191
+OTH	can add the VP and the S onto the end of the forward centers list , asdoes in her algorithm for local focusing.	S-192
+OTH	This letsget the two examples of event anaphora .	S-193
+OTH	discusses the fact that his algorithm cannot be modified to get event anaphora in.	S-194
+OWN	Another interesting fact is that in every case in which's algorithm gets the correct co-specifier anddidn't , the relevant factor is's preference for intrasentential co-specifiers .	S-195
+OWN	One view on these cases may be that these are not discourse anaphora , but there seems to be no principled way to make this distinction .	S-196
+OTH	However ,has proposed some extensions to's algorithm for local focusing that seem to be relevant here.	S-197
+OTH	He argues that intra-sentential candidates ( ISCs ) should be preferred over candidates from the previous utterance , ONLY in the cases where no discourse center has been established or the discourse center is rejected for syntactic or selectional reasons .	S-198
+OTH	He then usesalgorithm to produce an ordering of these ISCs .	S-199
+OTH	This is compatible with the centering framework since it is underspecified as to whether one should always choose to establish a discourse center with a co-specifier from a previous utterance .	S-200
+OWN	If we adopt's rule into the centering framework , we find that of the 21 cases thatgets thatdon't , in 7 cases there is no discourse center established , and in another 4 the current center can be rejected on the basis of syntactic or sortal information .	S-201
+OWN	Of these's rule clearly gets 5 , and another 3 seem to rest on whether one might want to establish a discourse entity from a previous utterance .	S-202
+OWN	Since the addition of this constraint does not allowto get any examples that neither algorithm got , it seems that this combination is a way of making the best out of both algorithms .	S-203
+OWN	The addition of these modifications changes the quantitative results .	S-204
+OWN	See the Figure.	S-205
+OWN	However , the statistical analyses still show that there is no significant difference in the performance of the algorithms in general .	S-206
+OWN	It is also still the case that the performance of each algorithm significantly varies depending on the data .	S-207
+OWN	The only significant difference as a result of the modifications is that thealgorithm now performs significantly better on the pump dialogues alone () .	S-208
+OWN	We can benefit in two ways from performing such evaluations :	S-209
+OWN	we get general results on a methodology for doing evaluation ,	S-210
+OWN	we discover ways we can improve current theories .	S-211
+OWN	A split of evaluation efforts into quantitative versus qualitative is incoherent .	S-212
+OWN	We cannot trust the results of a quantitative evaluation without doing a considerable amount of qualitative analyses and we should perform our qualitative analyses on those components that make a significant contribution to the quantitative results ; we need to be able to measure the effect of various factors .	S-213
+OWN	These measurements must be made by doing comparisons at the data level .	S-214
+OWN	In terms of general results , we have identified some factors that make evaluations of this type more complicated and which might lead us to evaluate solely quantitative results with care .	S-215
+OWN	These are :	S-216
+OWN	To decide how to evaluate UNDERSPECIFICATIONS and the contribution of ASSUMPTIONS , and	S-217
+OWN	To determine the effects of FALSE POSITIVES and ERROR CHAINING .	S-218
+OWN	We advocate an approach in which the contribution of each underspecification and assumption is tabulated as well as the effect of error chains .	S-219
+OWN	If a principled way could be found to identify false positives , their effect should be reported as well as part of any quantitative evaluation .	S-220
+OWN	In addition , we have taken a few steps towards determining the relative importance of different factors to the successful operation of discourse modules .	S-221
+OWN	The percent of successes that both algorithms get indicates that syntax has a strong influence , and that at the very least we can reduce the amount of inference required .	S-222
+OWN	In 59 % to 82 % of the cases both algorithms get the correct result .	S-223
+OWN	This probably means that in a large number of cases there was no potential conflict of co-specifiers .	S-224
+OWN	In addition , this analysis has shown , that at least for task-oriented dialogues global focus is a significant factor , and in general discourse structure is more important in the task dialogues .	S-225
+OWN	However simple devices such as cue words may go a long way toward determining this structure .	S-226
+OWN	Finally , we should note that doing evaluations such as this allows us to determine the GENERALITY of our approaches .	S-227
+OWN	Since the performance of bothandvaries according to the type of the text , and in fact was significantly worse on the task dialogues than on the texts , we might question how their performance would vary on other inputs .	S-228
+OWN	An annotated corpus comprising some of the various NL input types such as those I discussed in the introduction would go a long way towards giving us a basis against which we could evaluate the generality of our theories .	S-229
+OTH	The algorithm and an example is reproduced below .	S-230
+OTH	In it , NP denotes NOUN PHRASE and S denotes SENTENCE .	S-231
+OTH	Begin at the NP node immediately dominating the pronoun in the parse tree of S .	S-232
+OTH	Go up the tree until you encounter an NP or S node .	S-233
+OTH	Call this node X , and call the path used to reach it p .	S-234
+OTH	Traverse all branches below node X to the left of path p in a left-to-right breadth-first fashion .	S-235
+OTH	Propose as the antecedent any NP node encountered that has an NP or S node on the path from it to X .	S-236
+OTH	If X is not the highest S node in the sentence , continue to step.	S-237
+OTH	Otherwise traverse the surface parse trees of previous sentences in the text in reverse chronological order until an acceptable antecedent is found ; each tree is traversed in a left-to-right , breadth-first manner , and when an NP node is encountered , it is proposed as the antecedent .	S-238
+OTH	From node X , go up the tree to the first NP or S node encountered .	S-239
+OTH	Call this new node X , and call the path traversed to reach it p .	S-240
+OTH	If X is an NP node and if the path p to X did not pass through thenode that X immediately dominates , propose X as the antecedent .	S-241
+OTH	Traverse all branches below node X to the left of path p in a left-to-right , breadth-first manner , but do not go below any NP or S node encountered .	S-242
+OTH	Propose any NP or S node encountered as the antecedent .	S-243
+OTH	Go to step.	S-244
+OTH	The purpose of stepsandis to observe the contra-indexing constraints .	S-245
+OTH	Let us consider a simple conversational sequence .	S-246
+OTH	We are trying to find the antecedent for her in the second utterance .	S-247
+OTH	Let us go through the algorithm step by step , using the parse trees forandin the figure .	S-248
+OTH	labels the starting point of step.	S-249
+OTH	is called X .	S-250
+OTH	We mark the path p with a dotted line .	S-251
+OTH	We traverseto the left of p .	S-252
+OTH	We encounterbut it does not have an NP or S node between it and X .	S-253
+OTH	This means thatis contra-indexed with.	S-254
+OTH	Note that if the structure corresponded to Craige 's mom likes her then the NP for Craige would be an NP to the left of p that has an NP node between it and X , and Craige would be selected as the antecedent for her .	S-255
+OTH	The node X is the highest S node in, so we go to the previous sentence.	S-256
+OTH	As we traverse the tree of, the first NP we encounter is, so Lyn 's mom is proposed as the antecedent for her and we are done .	S-257

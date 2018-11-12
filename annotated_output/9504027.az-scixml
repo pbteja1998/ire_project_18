@@ -1,0 +1,178 @@
+OTH	The lexicalist approach to Machine Translation offers significant advantages in the development of linguistic descriptions .	A-0
+CTR	However , the Shake-and-Bake generation algorithm ofis NP-complete .	A-1
+AIM	We present a polynomial time algorithm for lexicalist MT generation provided that sufficient information can be transferred to ensure more determinism .	A-2
+OTH	Lexicalist approaches to MT , particularly those incorporating the technique of Shake-and-Bake generation,,, combine the linguistic advantages of transfer,and interlingual,approaches .	S-0
+CTR	Unfortunately , the generation algorithms described to date have been intractable .	S-1
+AIM	In this paper , we describe an alternative generation component which has polynomial time complexity .	S-2
+OTH	Shake-and-Bake translation assumes a source grammar , a target grammar and a bilingual dictionary which relates translationally equivalent sets of lexical signs , carrying across the semantic dependencies established by the source language analysis stage into the target language generation stage .	S-3
+OTH	The translation process consists of three phases :	S-4
+OTH	A parsing phase , which outputs a multiset , or bag , of source language signs instantiated with sufficiently rich linguistic information established by the parse to ensure adequate translations .	S-5
+OTH	A lexical-semantic transfer phase which employs the bilingual dictionary to map the bag of instantiated source signs onto a bag of target language signs .	S-6
+OTH	A generation phase which imposes an order on the bag of target signs which is guaranteed grammatical according to the monolingual target grammar .	S-7
+OTH	This ordering must respect the linguistic constraints which have been transferred into the target signs .	S-8
+OTH	The Shake-and-Bake generation algorithm ofcombines target language signs using the technique known as generate-and-test .	S-9
+OTH	In effect , an arbitrary permutation of signs is input to a shift-reduce parser which tests them for grammatical well-formedness .	S-10
+OTH	If they are well-formed , the system halts indicating success .	S-11
+OTH	If not , another permutation is tried and the process repeated .	S-12
+OTH	The complexity of this algorithm is O(n!) because all permutations ( n! for an input of size n ) may have to be explored to find the correct answer , and indeed must be explored in order to verify that there is no answer .	S-13
+OTH	Proponents of the Shake-and-Bake approach have employed various techniques to improve generation efficiency .	S-14
+OTH	For example ,employs a chart to avoid recalculating the same combinations of signs more than once during testing , andproposes a more general technique for storing which rule applications have been attempted ;avoids certain pathological cases by employing global constraints on the solution space ; researchers such asandprovide a system for bag generation that is heuristically guided by probabilities .	S-15
+CTR	However , none of these approaches is guaranteed to avoid protracted search times if an exact answer is required , because bag generation is NP-complete.	S-16
+AIM	Our novel generation algorithm has polynomial complexity () .	S-17
+OWN	The reduction in theoretical complexity is achieved by placing constraints on the power of the target grammar when operating on instantiated signs , and by using a more restrictive data structure than a bag , which we call a target language normalised commutative bracketing ( TNCB ) .	S-18
+OWN	A TNCB records dominance information from derivations and is amenable to incremental updates .	S-19
+OWN	This allows us to employ a greedy algorithm to refine the structure progressively until either a target constituent is found and generation has succeeded or no more changes can be made and generation has failed .	S-20
+TXT	In the following sections , we will sketch the basic algorithm , consider how to provide it with an initial guess , and provide an informal proof of its efficiency .	S-21
+OWN	We begin by describing the fundamentals of a greedy incremental generation algorithm .	S-22
+OWN	The crucial data structure that it employs is the TNCB .	S-23
+OWN	We give some definitions , state some key assumptions about suitable TNCBs for generation , and then describe the algorithm itself .	S-24
+OWN	We assume a sign-based grammar with binary rules , each of which may be used to combine two signs by unifying them with the daughter categories and returning the mother .	S-25
+OWN	Combination is the commutative equivalent of rule application ; the linear ordering of the daughters that leads to successful rule application determines the orthography of the mother .	S-26
+OTH	's Shake-and-Bake generation algorithm attempts to arrange the bag of target signs until a grammatical ordering ( an ordering which allows all of the signs to combine to yield a single sign ) is found .	S-27
+CTR	However , the target derivation information itself is not used to assist the algorithm .	S-28
+CTR	Even in, the derivation information is used simply to cache previous results to avoid exact recomputation at a later stage , not to improve on previous guesses .	S-29
+OWN	The reason why we believe such improvement is possible is that , given adequate information from the previous stages , two target signs cannot combine by accident ; they must do so because the underlying semantics within the signs licenses it .	S-30
+OWN	If the linguistic data that two signs contain allows them to combine , it is because they are providing a semantics which might later become more specified .	S-31
+OWN	For example , consider the bag of signs that have been derived through the Shake-and-Bake process which represent the phrase :	S-32
+OWN	Now , since the determiner and adjectives all modify the same noun , most grammars will allow us to construct the phrases :	S-33
+OWN	as well as the ` correct ' one .	S-34
+CTR	Generation will fail if all signs in the bag are not eventually incorporated in the final result , but in the naive algorithm , the intervening computation may be intractable .	S-35
+OWN	In the algorithm presented here , we start from observation that the phrasestoare not incorrect semantically ; they are simply under-specifications of.	S-36
+OWN	We take advantage of this by recording the constituents that have combined within the TNCB , which is designed to allow further constituents to be incorporated with minimal recomputation .	S-37
+OWN	A TNCB is composed of a sign , and a history of how it was derived from its children .	S-38
+OWN	The structure is essentially a binary derivation tree whose children are unordered .	S-39
+OWN	Concretely , it is either NIL , or a triple :	S-40
+OWN	The second and third items of the TNCB triple are the child TNCBs .	S-41
+OWN	The value of a TNCB is the sign that is formed from the combination of its children , or INCONSISTENT , representing the fact that they cannot grammatically combine , or UNDETERMINED , i.e. it has not yet been established whether the signs combine .	S-42
+OWN	Undetermined TNCBs are commutative , e.g. they do not distinguish between the structures shown in Figure.	S-43
+OWN	In sectionwe will see that this property is important when starting up the generation process .	S-44
+OWN	Let us introduce some terminology .	S-45
+OWN	A TNCB is	S-46
+OWN	well-formed iff its value is a sign ,	S-47
+OWN	ill-formed iff its value is INCONSISTENT ,	S-48
+OWN	undetermined ( and its value is UNDETERMINED ) iff it has not been demonstrated whether it is well-formed or ill-formed .	S-49
+OWN	maximal iff it is well-formed and its parent ( if it has one ) is ill-formed .	S-50
+OWN	In other words , a maximal TNCB is a largest well-formed component of a TNCB .	S-51
+OWN	Since TNCBs are tree-like structures , if a TNCB is undetermined or ill-formed then so are all of its ancestors ( the TNCBs that contain it ) .	S-52
+OWN	We define five operations on a TNCB .	S-53
+OWN	The first three are used to define the fourth transformation ( move ) which improves ill-formed TNCBs .	S-54
+OWN	The fifth is used to establish the well-formedness of undetermined nodes .	S-55
+OWN	In the diagrams , we use a cross to represent ill-formed nodes and a black circle to represent undetermined ones .	S-56
+OWN	Deletion :	S-57
+OWN	A maximal TNCB can be deleted from its current position .	S-58
+OWN	The structure above it must be adjusted in order to maintain binary branching .	S-59
+OWN	In figure, we see that when node 4 is deleted , so is its parent node 3 .	S-60
+OWN	The new node 6 , representing the combination of 2 and 5 , is marked undetermined .	S-61
+OWN	Conjunction :	S-62
+OWN	A maximal TNCB can be conjoined with another maximal TNCB if they may be combined by rule .	S-63
+OWN	In figure, it can be seen how the maximal TNCB composed of nodes 1 , 2 , and 3 is conjoined with the maximal TNCB composed of nodes 4 , 5 and 6 giving the TNCB made up of nodes 1 to 7 .	S-64
+OWN	The new node , 7 , is well-formed .	S-65
+OWN	Adjunction :	S-66
+OWN	A maximal TNCB can be inserted inside a maximal TNCB , i.e. conjoined with a non-maximal TNCB , where the combination is licensed by rule .	S-67
+OWN	In figure, the TNCB composed of nodes 1 , 2 , and 3 is inserted inside the TNCB composed of nodes 4 , 5 and 6 .	S-68
+OWN	All nodes ( only 8 in figure) which dominate the node corresponding to the new combination ( node 7 ) must be marked undetermined -- such nodes are said to be disrupted .	S-69
+OWN	Movement :	S-70
+OWN	This is a combination of a deletion with a subsequent conjunction or adjunction .	S-71
+OWN	In figure, we illustrate a move via conjunction .	S-72
+OWN	In the left-hand figure , we assume we wish to move the maximal TNCB 4 next to the maximal TNCB 7 .	S-73
+OWN	This first involves deleting TNCB 4 ( noting it ) , and raising node 3 to replace node 2 .	S-74
+OWN	We then introduce node 8 above node 7 , and make both nodes 7 and 4 its children .	S-75
+OWN	Note that during deletion , we remove a surplus node ( node 2 in this case ) and during conjunction or adjunction we introduce a new one ( node 8 in this case ) thus maintaining the same number of nodes in the tree .	S-76
+OWN	Evaluation :	S-77
+OWN	After a movement , the TNCB is undetermined as demonstrated in figure.	S-78
+OWN	The signs of the affected parts must be recalculated by combining the recursively evaluated child TNCBs .	S-79
+OTH	The Shake-and-Bake system ofemploys a bag generation algorithm because it is assumed that the input to the generator is no more than a collection of instantiated signs .	S-80
+OTH	Full-scale bag generation is not necessary because sufficient information can be transferred from the source language to severely constrain the subsequent search during generation .	S-81
+OWN	The two properties required of TNCBs ( and hence the target grammars with instantiated lexical signs ) are :	S-82
+OWN	Precedence Monotonicity .	S-83
+OWN	The order of the orthographies of two combining signs in the orthography of the result must be determinate -- it must not depend on any subsequent combination that the result may undergo .	S-84
+OWN	This constraint says that if one constituent fails to combine with another , no permutation of the elements making up either would render the combination possible .	S-85
+OWN	This allows bottom-up evaluation to occur in linear time .	S-86
+OWN	In practice , this restriction requires that sufficiently rich information be transferred from the previous translation stages to ensure that sign combination is deterministic .	S-87
+OWN	Dominance Monotonicity .	S-88
+OWN	If a maximal TNCB is adjoined at the highest possible place inside another TNCB , the result will be well-formed after it is re-evaluated .	S-89
+OWN	Adjunction is only attempted if conjunction fails ( in fact conjunction is merely a special case of adjunction in which no nodes are disrupted ) ; an adjunction which disrupts i nodes is attempted before one which disrupts i + 1 nodes .	S-90
+OWN	Dominance monotonicity merely requires all nodes that are disrupted under this top-down control regime to be well-formed when re-evaluated .	S-91
+OWN	We will see that this will ensure the termination of the generation algorithm within n - 1 steps , where n is the number of lexical signs input to the process .	S-92
+OWN	We are currently investigating the mathematical characterisation of grammars and instantiated signs that obey these constraints .	S-93
+OWN	So far , we have not found these restrictions particularly problematic .	S-94
+OWN	The generator cycles through two phases : a test phase and a rewrite phase .	S-95
+OWN	Imagine a bag of signs , corresponding to `` the big brown dog barked '' , has been passed to the generation phase .	S-96
+OWN	The first step in the generation process is to convert it into some arbitrary TNCB structure , say the one in figure.	S-97
+OWN	In order to verify whether this structure is valid , we evaluate the TNCB .	S-98
+OWN	This is the test phase .	S-99
+OWN	If the TNCB evaluates successfully , the orthography of its value is the desired result .	S-100
+OWN	If not , we enter the rewrite phase .	S-101
+OWN	If we were continuing in the spirit of the original Shake-and-Bake generation process , we would now form some arbitrary mutation of the TNCB and retest , repeating this test-rewrite cycle until we either found a well-formed TNCB or failed .	S-102
+OWN	However , this would also be intractable due to the undirectedness of the search through the vast number of possibilities .	S-103
+OWN	Given the added derivation information contained within TNCBs and the properties mentioned above , we can direct this search by incrementally improving on previously evaluated results .	S-104
+OWN	We enter the rewrite phase , then , with an ill-formed TNCB. Each move operation must improve it .	S-105
+OWN	Let us see why this is so .	S-106
+OWN	The move operation maintains the same number of nodes in the tree .	S-107
+OWN	The deletion of a maximal TNCB removes two ill-formed nodes ( figure) .	S-108
+OWN	At the deletion site , a new undetermined node is created , which may or may not be ill-formed .	S-109
+OWN	At the destination site of the movement ( whether conjunction or adjunction ) , a new well-formed node is created .	S-110
+OWN	The ancestors of the new well-formed node will be at least as well-formed as they were prior to the movement .	S-111
+OWN	We can verify this by case :	S-112
+OWN	When two maximal TNCBs are conjoined , nodes dominating the new node , which were previously ill-formed , become undetermined .	S-113
+OWN	When re-evaluated , they may remain ill-formed or some may now become well-formed .	S-114
+OWN	When we adjoin a maximal TNCB within another TNCB , nodes dominating the new well-formed node are disrupted .	S-115
+OWN	By dominance monotonicity , all nodes which were disrupted by the adjunction must become well-formed after re-evaluation .	S-116
+OWN	And nodes dominating the maximal disrupted node , which were previously ill-formed , may become well-formed after re-evaluation .	S-117
+OWN	We thus see that rewriting and re-evaluating must improve the TNCB .	S-118
+OWN	Let us further consider the contrived worst-case starting point provided in figure.	S-119
+OWN	After the test phase , we discover that every single interior node is ill-formed .	S-120
+OWN	We then scan the TNCB , say top-down from left to right , looking for a maximal TNCB to move .	S-121
+OWN	In this case , the first move will be PAST to bark , by conjunction ( figure) .	S-122
+OWN	Once again , the test phase fails to provide a well-formed TNCB , so we repeat the rewrite phase , this time finding dog to conjoin with the ( figureshows the state just after the second pass through the test phase ) .	S-123
+OWN	After further testing , we again re-enter the rewrite phase and this time note that brown can be inserted in the maximal TNCB the dog barked adjoined with dog ( figure) .	S-124
+OWN	Note how , after combining dog and the , the parent sign reflects the correct orthography even though they did not have the correct linear precedence .	S-125
+OWN	After finding that big may not be conjoined with the brown dog , we try to adjoin it within the latter .	S-126
+OWN	Since it will combine with brown dog , no adjunction to a lower TNCB is attempted .	S-127
+OWN	The final result is the TNCB in figure, whose orthography is `` the big brown dog barked '' .	S-128
+OWN	We thus see that during generation , we formed a basic constituent , the dog , and incrementally refined it by adjoining the modifiers in place .	S-129
+OWN	At the heart of this approach is that , once well-formed , constituents can only grow ; they can never be dismantled .	S-130
+OWN	Even if generation ultimately fails , maximal well-formed fragments will have been built ; the latter may be presented to the user , allowing graceful degradation of output quality .	S-131
+OWN	Considering the algorithm described above , we note that the number of rewrites necessary to repair the initial guess is no more than the number of ill-formed TNCBs .	S-132
+OWN	This can never exceed the number of interior nodes of the TNCB formed from n lexical signs ( i.e. n - 2 ) .	S-133
+OWN	Consequently , the better formed the initial TNCB used by the generator , the fewer the number of rewrites required to complete generation .	S-134
+OWN	In the last section , we deliberately illustrated an initial guess which was as bad as possible .	S-135
+TXT	In this section , we consider a heuristic for producing a motivated guess for the initial TNCB .	S-136
+OWN	Consider the TNCBs in figure.	S-137
+OWN	If we interpret the S , O and V as Subject , Object and Verb we can observe an equivalence between the structures with the bracketings :,,,.	S-138
+OWN	The implication of this equivalence is that if , say , we are translating into alanguage from a head-final language and have isomorphic dominance structures between the source and target parses , then simply mirroring the source parse structure in the initial target TNCB will provide a correct initial guess .	S-139
+OWN	For example , the English sentence:	S-140
+OWN	has a corresponding Japanese equivalent:	S-141
+OWN	If we mirror the Japanese bracketing structure in English to form the initial TNCB , we obtain : ( ( book the ) ( red is ) ) .	S-142
+OWN	This will produce the correct answer in the test phase of generation without the need to rewrite at all .	S-143
+OWN	Even if there is not an exact isomorphism between the source and target commutative bracketings , the first guess is still reasonable as long as the majority of child commutative bracketings in the target language are isomorphic with their equivalents in the source language .	S-144
+OWN	Consider the French sentence :	S-145
+OWN	The TNCB implied by the bracketing inis equivalent to that in figureand requires just one rewrite in order to make it well-formed .	S-146
+OWN	We thus see how the TNCBs can mirror the dominance information in the source language parse in order to furnish the generator with a good initial guess .	S-147
+OWN	On the other hand , no matter how the SL and TL structures differ , the algorithm will still operate correctly with polynomial complexity .	S-148
+OWN	Structural transfer can be incorporated to improve the efficiency of generation , but it is never necessary for correctness or even tractability .	S-149
+OWN	The theoretical complexity of the generator is, where n is the size of the input .	S-150
+OWN	We give an informal argument for this .	S-151
+OWN	The complexity of the test phase is the number of evaluations that have to be made .	S-152
+OWN	Each node must be tested no more than twice in the worst case ( due to precedence monotonicity ) , as one might have to try to combine its children in either direction according to the grammar rules .	S-153
+OWN	There are always exactly n - 1 non-leaf nodes , so the complexity of the test phase is O(n) .	S-154
+OWN	The complexity of the rewrite phase is that of locating the two TNCBs to be combined .	S-155
+OWN	In the worst case , we can imagine picking an arbitrary child TNCB ( O(n) ) and then trying to find another one with which it combines ( O(n) ) .	S-156
+OWN	The complexity of this phase is therefore the product of the picking and combining complexities , i.e..	S-157
+OWN	The combined complexity of the test-rewrite cycle is thus.	S-158
+OWN	Now , in section, we argued that no more than n - 1 rewrites would ever be necessary , thus the overall complexity of generation ( even when no solution is found ) is.	S-159
+OWN	Average case complexity is dependent on the quality of the first guess , how rapidly the TNCB structure is actually improved , and to what extent the TNCB must be re-evaluated after rewriting .	S-160
+OTH	In the SLEMaT system, we have tried to form a good initial guess by mirroring the source structure in the target TNCB , and allowing some local structural modifications in the bilingual equivalences .	S-161
+OWN	Structural transfer operations only affect the efficiency and not the functionality of generation .	S-162
+OWN	Transfer specifications may be incrementally refined and empirically tested for efficiency .	S-163
+OWN	Since complete specification of transfer operations is not required for correct generation of grammatical target text , the version of Shake-and-Bake translation presented here maintains its advantage over traditional transfer models , in this respect .	S-164
+OWN	The monotonicity constraints , on the other hand , might constitute a dilution of the Shake-and-Bake ideal of independent grammars .	S-165
+OWN	For instance , precedence monotonicity requires that the status of a clause ( strictly , its lexical head ) as main or subordinate has to be transferred into German .	S-166
+OWN	It is not that the transfer of information per se compromises the ideal -- such information must often appear in transfer entries to avoid grammatical but incorrect translation ( e.g. a great man translated as un homme grand ) .	S-167
+OWN	The problem is justifying the main / subordinate distinction in every language that we might wish to translate into German .	S-168
+OWN	This distinction can be justified monolingually for the other languages that we treat ( English , French , and Japanese ) .	S-169
+OWN	Whether the constraints will ultimately require monolingual grammars to be enriched with entirely unmotivated features will only become clear as translation coverage is extended and new language pairs are added .	S-170
+AIM	We have presented a polynomial complexity generation algorithm which can form part of any Shake-and-Bake style MT system with suitable grammars and information transfer .	S-171
+OWN	The transfer module is free to attempt structural transfer in order to produce the best possible first guess .	S-172
+CTR	We tested a TNCB-based generator in the SLEMaT MT system with the pathological cases described inagainst's original generation algorithm , and have obtained speed improvements of several orders of magnitude .	S-173
+OWN	Somewhat more surprisingly , even for short sentences which were not problematic for's system , the generation component has performed consistently better .	S-174

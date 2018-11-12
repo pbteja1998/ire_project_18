@@ -1,0 +1,160 @@
+OTH	Off-line compilation of logic grammars using Magic allows an incorporation of filtering into the logic underlying the grammar .	A-0
+OTH	The explicit definite clause characterization of filtering resulting from Magic compilation allows processor independent and logically clean optimizations of dynamic bottom-up processing with respect to goal-directedness .	A-1
+AIM	Two filter optimizations based on the program transformation technique of Unfolding are discussed which are of practical and theoretical interest .	A-2
+BKG	In natural language processing filtering is used to weed out those search paths that are redundant , i.e. , are not going to be used in the proof tree corresponding to the natural language expression to be generated or parsed .	S-0
+BKG	Filter optimization often comprises an extension of a specific processing strategy such that it exploits specific knowledge about grammars and / or the computational task ( s ) that one is using them for .	S-1
+CTR	At the same time it often remains unclear how these optimizations relate to each other and what they actually mean .	S-2
+AIM	In this paper I show how starting from a definite clause characterization of filtering derived automatically from a logic grammar using Magic compilation , filter optimizations can be performed in a processor independent and logically clean fashion .	S-3
+OTH	Magic ( templates ) is a general compilation technique for efficient bottom-up evaluation of logic programs developed in the deductive database community.	S-4
+OTH	Given a logic program , Magic produces a new program in which the filtering as normally resulting from top-down evaluation is explicitly characterized through , so-called , magic predicates , which produce variable bindings for filtering when evaluated bottom-up .	S-5
+OTH	The original rules of the program are extended such that these bindings can be made effective .	S-6
+OTH	As a result of the definite clause characterization of filtering , Magic brings filtering into the logic underlying the grammar .	S-7
+AIM	I discuss two filter optimizations .	S-8
+OWN	These optimizations are direction independent in the sense that they are useful for both generation and parsing .	S-9
+OWN	For expository reasons , though , they are presented merely on the basis of examples of generation .	S-10
+OTH	Magic compilation does not limit the information that can be used for filtering .	S-11
+CTR	This can lead to nontermination as the tree fragments enumerated in bottom-up evaluation of magic compiled grammars are connected.	S-12
+CTR	More specifically , 'magic generation ' falls prey to non-termination in the face of head recursion , i.e. , the generation analog of left recursion in parsing .	S-13
+OTH	This necessitates a dynamic processing strategy , i.e. , memoization , extended with an abstraction function like , e.g. , restriction, to weaken filtering and a subsumption check to discard redundant results .	S-14
+OWN	It is shown that for a large class of grammars the subsumption check which often influences processing efficiency rather dramatically can be eliminated through fine-tuning of the magic predicates derived for a particular grammar after applying an abstraction function in an off-line fashion .	S-15
+OTH	Unfolding can be used to eliminate superfluous filtering steps .	S-16
+OTH	Given an off-line optimization of the order in which the right-hand side categories in the rules of a logic grammar are processedthe resulting processing behavior can be considered a generalization of the head corner generation approach.	S-17
+OTH	Without the need to rely on notions such as semantic head and chain rule , a head corner behavior can be mimicked in a strict bottom-up fashion .	S-18
+OTH	Many approaches focus on exploiting specific knowledge about grammars and / or the computational task ( s ) that one is using them for by making filtering explicit and extending the processing strategy such that this information can be made effective .	S-19
+OTH	In generation , examples of such extended processing strategies are head corner generation with its semantic linkingor bottom-up ( Earley ) generation with a semantic filter.	S-20
+CTR	Even though these approaches often accomplish considerable improvements with respect to efficiency or termination behavior , it remains unclear how these optimizations relate to each other and what comprises the logic behind these specialized forms of filtering .	S-21
+OWN	By bringing filtering into the logic underlying the grammar it is possible to show in a perspicuous and logically clean way how and why filtering can be optimized in a particular fashion and how various approaches relate to each other .	S-22
+OTH	Magic makes filtering explicit through characterizing it as definite clauses .	S-23
+OTH	Intuitively understood , filtering is reversed as binding information that normally becomes available as a result of top-down evaluation is derived by bottom-up evaluation of the definite clause characterization of filtering .	S-24
+OTH	The following is the basic Magic algorithm taken from.	S-25
+OTH	Let P be a program anda query on the program .	S-26
+OTH	We construct a new program.	S-27
+OTH	Initiallyis empty .	S-28
+OTH	Create a new predicate magic_p for each predicate p in P .	S-29
+OTH	The arity is that of p .	S-30
+OTH	For each rule in P , add the modified version of the rule to.	S-31
+OTH	If rule r has head , say , p () , the modified version is obtained by adding the literalto the body .	S-32
+OTH	For each rule r in P with head , say , p () , and for each literalin its body , add a magic rule to.	S-33
+OTH	The head is.	S-34
+OTH	The body contains the literal magic_p () , and all the literals that precedein the rule .	S-35
+OTH	Create a seed fact magic_q () from the query .	S-36
+OTH	To illustrate the algorithm I zoom in on the application of the above algorithm to one particular grammar rule .	S-37
+OTH	Suppose the original grammar rule looks as follows :	S-38
+OTH	Stepof the algorithm results in the following modified version of the original grammar rule :	S-39
+OTH	A magic literal is added to the right-hand side of the rule which 'guards ' the application of the rule .	S-40
+OTH	This does not change the semantics of the original grammar as it merely serves as a way to incorporate the relevant bindings derived with the magic predicates to avoid redundant applications of a rule .	S-41
+OTH	Corresponding to the first right-hand side literal in the original rule stepderives the following magic rule :	S-42
+OTH	It is used to derive from the guard for the original rule a guard for the rules defining the first right-hand side literal .	S-43
+OTH	The second right-hand side literal in the original rule leads to the following magic rule :	S-44
+OTH	Finally , stepof the algorithm ensures that a seed is created .	S-45
+OTH	Assuming that the original rule is defining the start category , the query corresponding to the generation of the s `` John buys Mary a book '' leads to the following seed :	S-46
+OTH	The seed constitutes a representation of the initial bindings provided by the query that is used by the magic predicates to derive guards .	S-47
+OTH	Note that the creation of the seed can be delayed until run-time , i.e. , the grammar does not need to be recompiled for every possible query .	S-48
+OTH	Magic compilation is illustrated on the basis of the simple logic grammar extract in figure.	S-49
+BAS	This grammar has been optimized automatically for generation.	S-50
+OTH	The right-hand sides of the rules are reordered such that a simple left-to-right evaluation order constitutes the optimal evaluation order .	S-51
+OTH	With this grammar a simple top-down generation strategy does not terminate as a result of the head recursion in rule.	S-52
+OTH	It is necessary to use memoization extended with an abstraction function and a subsumption check .	S-53
+OTH	Strict bottom-up generation is not attractive either as it is extremely inefficient :	S-54
+OTH	One is forced to generate all possible natural language expressions licensed by the grammar and subsequently check them against the start category .	S-55
+OTH	It is possible to make the process more efficient through excluding specific lexical entries with a semantic filter .	S-56
+OTH	The use of such a semantic filter in bottom-up evaluation requires the grammar to obey the semantic monotonicity constraint in order to ensure completeness( see below ) .	S-57
+OTH	The 'magic - compiled grammar ' in figureis the result of applying the algorithm in the previous section to the head-recursive example grammar and subsequently performing two optimizations.	S-58
+OTH	All ( calls to ) magic predicates corresponding to lexical entries are removed .	S-59
+OTH	Furthermore , data-flow analysis is used to fine-tune the magic predicates for the specific processing task at hand , i.e. , generation .	S-60
+OTH	Given a user-specified abstract query , i.e. , a specification of the intended inputthose arguments which are not bound and which therefore serve no filtering purpose are removed .	S-61
+OTH	The modified versions of the original rules in the grammar are adapted accordingly .	S-62
+OTH	The effect of taking data-flow into account can be observed by comparing the rules for magic_vp and magic_np in the previous section with ruleandin figure, respectively .	S-63
+OTH	Figureshows the results from generation of the sentence `` John buys Mary a book '' .	S-64
+OTH	In the case of this example the seed looks as follows :	S-65
+OTH	The facts , i.e. , passive edges / items , in figureresulted from semi-naive bottom-up evaluationwhich constitutes a dynamic bottom-up evaluation , where repeated derivation of facts from the same earlier derived facts ( as in naive evaluation ;) is blocked .	S-66
+OTH	( Active edges are not memoized .	S-67
+OTH	) The figure consist of two tree structures ( connected through dotted lines ) of which the left one corresponds to the filtering part of the derivation .	S-68
+OTH	The filtering tree is reversed and derives magic facts starting from the seed in a bottom-up fashion .	S-69
+OTH	The tree on the right is the proof tree for the example sentence which is built up as a result of unifying in the derived magic facts when applying a particular rule .	S-70
+OTH	E.g. , in order to derive fact, magic factis unified with the magic literal in the modified version of rule( in addition to the factsand) .	S-71
+OTH	This , however , is not represented in order to keep the figure clear .	S-72
+OTH	Dotted lines are used to represent when 'normal ' facts are combined with magic facts to derive new magic facts .	S-73
+OTH	As can be reconstructed from the numbering of the facts in figurethe resulting processing behavior is identical to the behavior that would result from Earley generation as inexcept that the different filtering steps are performed in a bottom-up fashion .	S-74
+OTH	In order to obtain a generator similar to the bottom-up generator as described inthe compilation process can be modified such that only lexical entries are extended with magic literals .	S-75
+CTR	Just like in case of's bottom-up generator , bottom-up evaluation of magic-compiled grammars produced with this Magic variant is only guaranteed to be complete in case the original grammar obeys the semantic monotonicity constraint .	S-76
+OTH	As a result of characterizing filtering by a definite clause representation Magic brings filtering inside of the logic underlying the grammar .	S-77
+OWN	This allows it to be optimized in a processor independent and logically clean fashion .	S-78
+BAS	I discuss two possible filter optimizations based on a program transformation technique called unfoldingalso referred to as partial execution.	S-79
+CTR	Just like top-down evaluation of the original grammar bottom-up evaluation of its magic compiled version falls prey to non-termination in the face of head recursion .	S-80
+OWN	It is however possible to eliminate the subsumption check through fine-tuning the magic predicates derived for a particular grammar in an off-line fashion .	S-81
+OWN	In order to illustrate how the magic predicates can be adapted such that the subsumption check can be eliminated it is necessary to take a closer look at the relation between the magic predicates and the facts they derive .	S-82
+OWN	In figurethe relation between the magic predicates for the example grammar is represented by an unfolding tree.	S-83
+OWN	This , however , is not an ordinary unfolding tree as it is constructed on the basis of an abstract seed , i.e. , a seed adorned with a specification of which arguments are to be considered bound .	S-84
+OWN	Note that an abstract seed can be derived from the user-specified abstract query .	S-85
+OWN	Only the magic part of the abstract unfolding tree is represented .	S-86
+OWN	The abstract unfolding tree in figureclearly shows why there exists the need for subsumption checking :	S-87
+OWN	Rulein figureproduces infinitely many magic_vp facts .	S-88
+OWN	This 'cyclic ' magic rule is derived from the head-recursive vp rule in the example grammar .	S-89
+OWN	There is however no reason to keep this rule in the magic-compiled grammar .	S-90
+OWN	It influences neither the efficiency of processing with the grammar nor the completeness of the evaluation process .	S-91
+OWN	Finding these types of cycles in the magic part of the compiled grammar is in general undecidable .	S-92
+OWN	It is possible though to ` trim ' the magic predicates by applying an abstraction function .	S-93
+OWN	As a result of the explicit representation of filtering we do not need to postpone abstraction until run-time , but can trim the magic predicates off-line .	S-94
+OWN	One can consider this as bringing abstraction into the logic as the definite clause representation of filtering is weakened such that only a mild form of connectedness results which does not affect completeness.	S-95
+OWN	Consider the following magic rule :	S-96
+OWN	This is the rule that is derived from the head-recursive vp rule when the partially specified subcategorization list is considered as filtering information ( cf. , fn. 1 ) .	S-97
+OWN	The rule builds up infinitely large subcategorization lists of which eventually only one is to be matched against the subcategorization list of , e.g. , the lexical entry for `` buys '' .	S-98
+OWN	Though this rule is not cyclic , it becomes cyclic upon off-line abstraction :	S-99
+OWN	Through trimming this magic rule , e.g. , given a bounded term depthor a restrictor, constructing an abstract unfolding tree reveals the fact that a cycle results from the magic rule .	S-100
+OWN	This information can then be used to discard the culprit .	S-101
+OWN	Removing the direct or indirect cycles from the magic part of the compiled grammar does eliminate the necessity of subsumption checking in many cases .	S-102
+OWN	However , consider the magic rulesandin figure.	S-103
+OWN	Ruleis more general than rule.	S-104
+OWN	Without subsumption checking this leads to spurious ambiguity :	S-105
+OWN	Both rules produce a magic fact with which a subject np can be built .	S-106
+OWN	A possible solution to this problem is to couple magic rules with the modified version of the original grammar rule that instigated it .	S-107
+OWN	To accomplish this I propose a technique that can be considered the off-line variant of an indexing technique described in.	S-108
+OWN	The indexing technique is illustrated on the basis of the running example :	S-109
+OWN	Rulein figureis coupled to the modified version of the original s rule that instigated it , i.e. , rule.	S-110
+OWN	Both rules receive an index :	S-111
+OWN	The modified versions of the rules defining nps are adapted such that they percolate up the index of the guarding magic fact that licensed its application .	S-112
+OWN	This is illustrated on the basis of the adapted version of rule:	S-113
+OWN	As is illustrated in sectionthis allows the avoidance of spurious ambiguities in the absence of subsumption check in case of the example grammar .	S-114
+OWN	Unfolding can also be used to collapse filtering steps .	S-115
+OWN	As becomes apparent upon closer investigation of the abstract unfolding tree in figurethe magic predicates magic_sentence , magic_s and magic_vp provide virtually identical variable bindings to guard bottom-up application of the modified versions of the original grammar rules .	S-116
+OWN	Unfolding can be used to reduce the number of magic facts that are produced during processing .	S-117
+OWN	E.g. , in figurethe magic_s rule :	S-118
+OWN	can be eliminated by unfolding the magic_s literal in the modified s rule :	S-119
+OWN	This results in the following new rule which uses the seed for filtering directly without the need for an intermediate filtering step :	S-120
+OWN	Note that the unfolding of the magic_s literal leads to the instantiation of the argument VFORM to finite .	S-121
+OWN	As a result of the fact that there are no other magic_s literals in the remainder of the magic-compiled grammar the magic_s rule can be discarded .	S-122
+BAS	This filter optimization is reminiscent of computing the deterministic closure over the magic part of a compiled grammarat compile time .	S-123
+OWN	Performing this optimization throughout the magic part of the grammar in figurenot only leads to a more succinct grammar , but brings about a different processing behavior .	S-124
+BAS	Generation with the resulting grammar can be compared best with head corner generation( see next section ) .	S-125
+OWN	After cycle removal , incorporating relevant indexing and the collapsing of redundant magic predicates the magic-compiled grammar from figurelooks as displayed in figure.	S-126
+OWN	Figureshows the chart resulting from generation of the sentence `` John buys Mary a book '' .	S-127
+OWN	The seed is identical to the one used for the example in the previous section .	S-128
+OWN	The facts in the chart resulted from not-so-naive bottom-up evaluation : semi-naive evaluation without subsumption checking.	S-129
+BAS	The resulting processing behavior is similar to the behavior that would result from head corner generation except that the different filtering steps are performed in a bottom-up fashion .	S-130
+OTH	The head corner approach jumps top-down from pivot to pivot in order to satisfy its assumptions concerning the flow of semantic information , i.e. , semantic chaining , and subsequently generates starting from the semantic head in a bottom-up fashion .	S-131
+OWN	In the example , the seed is used without any delay to apply the base case of the vp-procedure , thereby jumping over all intermediate chain and non-chain rules .	S-132
+OWN	In this respect the initial reordering of rulewhich led to rulein the final grammar in figureis crucial ( see section) .	S-133
+OWN	To which extent it is useful to collapse magic predicates using unfolding depends on whether the grammar has been optimized through reordering the right-hand sides of the rules in the grammar as discussed in section.	S-134
+OWN	If the s rule in the running example is not optimized , the resulting processing behavior would not have fallen out so nicely :	S-135
+OWN	In this case it leads either to an intermediate filtering step for the non-chaining sentence rule or to the addition of the literal corresponding to the subject np to all chain and non-chain rules along the path to the semantic head .	S-136
+OWN	Even when cycles are removed from the magic part of a compiled grammar and indexing is used to avoid spurious ambiguities as discussed in the previous section , subsumption checking can not always be eliminated .	S-137
+OWN	The grammar must be finitely ambiguous , i.e. , fulfill the off-line parsability constraint.	S-138
+OWN	Furthermore , the grammar is required to obey what I refer to as the dependency constraint :	S-139
+OWN	When a particular right-hand side literal can not be evaluated deterministically , the results of its evaluation must uniquely determine the remainder of the right-hand side of the rule in which it appears .	S-140
+OWN	Figuregives a schematic example of a grammar that does not obey the dependency constraint .	S-141
+OWN	Given a derived fact or seed magic_cat_1 ( property_1 ) bottom-up evaluation of the abstract grammar in ifigureleads to spurious ambiguity .	S-142
+OWN	There are two possible solutions for cat_2 as a result of the fact that the filtering resulting from the magic literal in ruleis too unspecific .	S-143
+OWN	This is not problematic as long as this nondeterminism will eventually disappear , e.g. , by combining these solutions with the solutions to cat_3 .	S-144
+OWN	The problem arises as a result of the fact that these solutions lead to identical filters for the evaluation of the cat_3 literal , i.e. , the solutions to cat_2 do not uniquely determine cat_3 .	S-145
+OWN	Also with respect to the dependency constraint an optimization of the rules in the grammar is important .	S-146
+BAS	Through reordering the right-hand sides of the rules in the grammar the amount of nondeterminism can be drastically reduced as shown in.	S-147
+OWN	This way of following the intended semantic dependencies the dependency constraint is satisfied automatically for a large class of grammars .	S-148
+OTH	Magic evaluation constitutes an interesting combination of the advantages of top-down and bottom-up evaluation .	S-149
+OTH	It allows bottom-up filtering that achieves a goal-directedness which corresponds to dynamic top-down evaluation with abstraction and subsumption checking .	S-150
+AIM	For a large class of grammars in effect identical operations can be performed off-line thereby allowing for more efficient processing .	S-151
+OWN	Furthermore , it enables a reduction of the number of edges that need to be stored through unfolding magic predicates .	S-152
+OWN	The presented research was sponsored by Teilprojekt B 4 `` From Constraints to Rules :	S-153
+OWN	Efficient Compilation of HPSG Grammars '' of the Sonderforschungsbereich 340 of the Deutsche Forschungsgemeinschaft .	S-154
+OWN	The author wishes to thank Dale Gerdemann , Mark Johnson , Thilo Goetz and the anonymous reviewers for valuable comments and discussion .	S-155
+OWN	Of course , the author is responsible for all remaining errors .	S-156

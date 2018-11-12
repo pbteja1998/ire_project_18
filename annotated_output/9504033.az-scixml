@@ -1,0 +1,195 @@
+AIM	A variety of statistical methods for noun compound analysis are implemented and compared .	A-0
+OWN	The results support two main conclusions .	A-1
+OWN	First , the use of conceptual association not only enables a broad coverage , but also improves the accuracy .	A-2
+CTR	Second , an analysis model based on dependency grammar is substantially more accurate than one based on deepest constituents , even though the latter is more prevalent in the literature .	A-3
+BKG	If parsing is taken to be the first step in taming the natural language understanding task , then broad coverage NLP remains a jungle inhabited by wild beasts .	S-0
+BKG	For instance , parsing noun compounds appears to require detailed world knowledge that is unavailable outside a limited domain.	S-1
+BKG	Yet , far from being an obscure , endangered species , the noun compound is flourishing in modern language .	S-2
+BKG	It has already made five appearances in this paragraph and at least one diachronic study shows a veritable population explosion.	S-3
+CTR	While substantial work on noun compounds exists in both linguistics,and computational linguistics,,, techniques suitable for broad coverage parsing remain unavailable .	S-4
+AIM	This paper explores the application of corpus statisticsto noun compound parsing ( other computational problems are addressed in,and) .	S-5
+BKG	The task is illustrated in example:	S-6
+BKG	The parses assigned to these two compounds differ , even though the sequence of parts of speech are identical .	S-7
+OTH	The problem is analogous to the prepositional phrase attachment task explored in.	S-8
+OTH	The approach they propose involves computing lexical associations from a corpus and using these to select the correct parse .	S-9
+BAS	A similar architecture may be applied to noun compounds .	S-10
+OWN	In the experiments below the accuracy of such a system is measured .	S-11
+OWN	Comparisons are made across five dimensions :	S-12
+OWN	Each of two analysis models are applied : adjacency and dependency .	S-13
+OWN	Each of a range of training schemes are employed .	S-14
+OWN	Results are computed with and without tuning factors suggested in the literature .	S-15
+OWN	Each of two parameterisations are used : associations between words and associations between concepts .	S-16
+OWN	Results are collected with and without machine tagging of the corpus .	S-17
+CTR	Whileuse a partial parser to acquire training data , such machinery appears unnecessary for noun compounds .	S-18
+OTH	has proposed the use of simple word patterns for the acquisition of verb subcategorisation information .	S-19
+BAS	An analogous approach to compounds is used inand constitutes one scheme evaluated below .	S-20
+OTH	While such patterns produce false training examples , the resulting noise often only introduces minor distortions .	S-21
+OTH	A more liberal alternative is the use of a co-occurrence window .	S-22
+OTH	uses a fixed 100 word window to collect information used for sense disambiguation .	S-23
+OTH	Similarly ,uses a six content word window to extract significant collocations .	S-24
+BAS	A range of windowed training schemes are employed below .	S-25
+OTH	Importantly , the use of a window provides a natural means of trading off the amount of data against its quality .	S-26
+OTH	When data sparseness undermines the system accuracy , a wider window may admit a sufficient volume of extra accurate data to outweigh the additional noise .	S-27
+OTH	There are at least four existing corpus-based algorithms proposed for syntactically analysing noun compounds .	S-28
+CTR	Only two of these have been subjected to evaluation , and in each case , no comparison to any of the other three was performed .	S-29
+CTR	In fact all authors appear unaware of the other three proposals .	S-30
+TXT	I will therefore briefly describe these algorithms .	S-31
+OTH	Three of the algorithms use what I will call the ADJACENCY MODEL , an analysis procedure that goes back to.	S-32
+OTH	Therein , the procedure is stated in terms of calls to an oracle which can determine if a noun compound is acceptable .	S-33
+TXT	It is reproduced here for reference :	S-34
+OTH	Given three nouns,and:	S-35
+OTH	If either [] or [] is not semantically acceptable then build the alternative structure ;	S-36
+OTH	otherwise , if [] is semantically preferable to [] then build [] ;	S-37
+OTH	otherwise , build [] .	S-38
+OTH	Only more recently has it been suggested that corpus statistics might provide the oracle , and this idea is the basis of the three algorithms which use the adjacency model .	S-39
+OTH	The simplest of these is reported in.	S-40
+OTH	Given a three word compound , a search is conducted elsewhere in the corpus for each of the two possible subcomponents .	S-41
+OTH	Whichever is found is then chosen as the more closely bracketed pair .	S-42
+OTH	For example , when backup compiler disk is encountered , the analysis will be :	S-43
+CTR	Since this is proposed merely as a rough heuristic , it is not stated what the outcome is to be if neither or both subcomponents appear .	S-44
+CTR	Nor is there any evaluation of the algorithm .	S-45
+OTH	The proposal ofis more sophisticated and allows for the frequency of the words in the compound .	S-46
+OTH	Their proposal involves comparing the mutual information between the two pairs of adjacent words and bracketing together whichever pair exhibits the highest .	S-47
+CTR	Again , there is no evaluation of the method other than a demonstration that four examples work correctly .	S-48
+OTH	The third proposal based on the adjacency model appears inand is rather more complex again .	S-49
+OTH	The SELECTIONAL ASSOCIATION between a predicate and a word is defined based on the contribution of the word to the conditional entropy of the predicate .	S-50
+OTH	The association between each pair of words in the compound is then computed by taking the maximum selectional association from all possible ways of regarding the pair as predicate and argument .	S-51
+OTH	Whilst this association metric is complicated , the decision procedure still follows the outline devised byabove .	S-52
+OTH	used unambiguous noun compounds from the parsed Wall Street Journal ( WSJ ) corpus to estimate the association values and analysed a test set of around 160 compounds .	S-53
+OTH	After some tuning , the accuracy was about 73 % , as compared with a baseline of 64 % achieved by always bracketing the first two nouns together .	S-54
+OTH	The fourth algorithm , first described in, differs in one striking manner from the other three .	S-55
+OTH	It uses what I will call the DEPENDENCY MODEL .	S-56
+OTH	This model utilises the following procedure when given three nouns,and:	S-57
+OTH	Determine how acceptable the structures [] and [] are ;	S-58
+OTH	if the latter is more acceptable , build [] first ;	S-59
+OTH	otherwise , build [] first .	S-60
+OTH	Figureshows a graphical comparison of the two analysis models .	S-61
+OTH	In, the degree of acceptability is again provided by statistical measures over a corpus .	S-62
+OTH	The metric used is a mutual information-like measure based on probabilities of modification relationships .	S-63
+OTH	This is derived from the idea that parse trees capture the structure of semantic relationships within a noun compound .	S-64
+OTH	The dependency model attempts to choose a parse which makes the resulting relationships as acceptable as possible .	S-65
+OTH	For example , when backup compiler disk is encountered , the analysis will be :	S-66
+BAS	I claim that the dependency model makes more intuitive sense for the following reason .	S-67
+OWN	Consider the compound calcium ion exchange , which is typically left-branching ( that is , the first two words are bracketed together ) .	S-68
+OWN	There does not seem to be any reason why calcium ion should be any more frequent than ion exchange .	S-69
+OWN	Both are plausible compounds and regardless of the bracketing , ions are the object of an exchange .	S-70
+OWN	Instead , the correct parse depends on whether calcium characterises the ions or mediates the exchange .	S-71
+OWN	Another significant difference between the models is the predictions they make about the proportion of left and right-branching compounds .	S-72
+OWN	show that under a dependency model , left-branching compounds should occur twice as often as right-branching compounds ( that is two-thirds of the time ) .	S-73
+OWN	In the test set used here and in that of, the proportion of left-branching compounds is 67 % and 64 % respectively .	S-74
+CTR	In contrast , the adjacency model appears to predict a proportion of 50 .	S-75
+OTH	The dependency model has also been proposed byfor analysing Japanese noun compounds , apparently independently .	S-76
+OTH	Using a corpus to acquire associations , they bracket sequences of Kanji with lengths four to six ( roughly equivalent to two or three words ) .	S-77
+CTR	A simple calculation shows that using their own preprocessing hueristics to guess a bracketing provides a higher accuracy on their test set than their statistical model does .	S-78
+CTR	This renders their experiment inconclusive .	S-79
+OWN	A test set of syntactically ambiguous noun compounds was extracted from our 8 million word Grolier 's encyclopedia corpus in the following way .	S-80
+OWN	Because the corpus is not tagged or parsed , a somewhat conservative strategy of looking for unambiguous sequences of nouns was used .	S-81
+OWN	To distinguish nouns from other words , the University of Pennsylvania morphological analyser ( described in) was used to generate the set of words that can only be used as nouns ( I shall henceforth call this set) .	S-82
+OWN	All consecutive sequences of these words were extracted , and the three word sequences used to form the test set .	S-83
+OWN	For reasons made clear below , only sequences consisting entirely of words from Roget 's thesaurus were retained , giving a total of 308 test triples .	S-84
+OWN	These triples were manually analysed using as context the entire article in which they appeared .	S-85
+OWN	In some cases , the sequence was not a noun compound ( nouns can appear adjacent to one another across various constituent boundaries ) and was marked as an error .	S-86
+OWN	Other compounds exhibited whathave termed SEMANTIC INDETERMINACY where the two possible bracketings cannot be distinguished in the context .	S-87
+OWN	The remaining compounds were assigned either a left-branching or right-branching analysis .	S-88
+OWN	Tableshows the number of each kind and an example of each .	S-89
+OWN	Accuracy figures in all the results reported below were computed using only those 244 compounds which received a parse .	S-90
+OWN	One problem with applying lexical association to noun compounds is the enormous number of parameters required , one for every possible pair of nouns .	S-91
+OWN	Not only does this require a vast amount of memory space , it creates a severe data sparseness problem since we require at least some data about each parameter .	S-92
+OWN	coined the term CONCEPTUAL ASSOCIATION to refer to association values computed between groups of words .	S-93
+OWN	By assuming that all words within a group behave similarly , the parameter space can be built in terms of the groups rather than in terms of the words .	S-94
+OWN	In this study , conceptual association is used with groups consisting of all categories from the 1911 version of Roget 's thesaurus .	S-95
+OWN	Given two thesaurus categoriesand, there is a parameter which represents the degree of acceptability of the structurewhereis a noun appearing inandappears in.	S-96
+OWN	By the assumption that words within a group behave similarly , this is constant given the two categories .	S-97
+BAS	Followingwe can formally write this parameter aswhere the eventdenotes the modification of a noun inby a noun in.	S-98
+OWN	To ensure that the test set is disjoint from the training data , all occurrences of the test noun compounds have been removed from the training corpus .	S-99
+OWN	Two types of training scheme are explored in this study , both unsupervised .	S-100
+BAS	The first employs a pattern that followsin counting the occurrences of subcomponents .	S-101
+OWN	A training instance is any sequence of four wordswhereand.	S-102
+OWN	Letbe the number of times a sequenceoccurs in the training corpus with.	S-103
+BAS	The second type uses a window to collect training instances by observing how often a pair of nouns co-occur within some fixed number of words .	S-104
+OWN	In this study , a variety of window sizes are used .	S-105
+OWN	For, letbe the number of times a sequenceoccurs in the training corpus where.	S-106
+OWN	Note that windowed counts are asymmetric .	S-107
+OWN	In the case of a window two words wide , this yields the mutual information metric proposed by.	S-108
+OWN	Using each of these different training schemes to arrive at appropriate counts it is then possible to estimate the parameters .	S-109
+OWN	Since these are expressed in terms of categories rather than words , it is necessary to combine the counts of words to arrive at estimates .	S-110
+OWN	In all cases the estimates used are :	S-111
+OWN	where	S-112
+OWN	Hereis the number of categories in which w appears .	S-113
+OWN	It has the effect of dividing the evidence from a training instance across all possible categories for the words .	S-114
+OWN	The normaliser ensures that all parameters for a head noun sum to unity .	S-115
+OWN	Given the high level descriptions in sectionit remains only to formalise the decision process used to analyse a noun compound .	S-116
+OWN	Each test compound presents a set of possible analyses and the goal is to choose which analysis is most likely .	S-117
+OWN	For three word compounds it suffices to compute the ratio of two probabilities , that of a left-branching analysis and that of a right-branching one .	S-118
+OWN	If this ratio is greater than unity , then the left-branching analysis is chosen .	S-119
+OWN	When it is less than unity , a right-branching analysis is chosen .	S-120
+OWN	If the ratio is exactly unity , the analyser guesses left-branching , although this is fairly rare for conceptual association as shown by the experimental results below .	S-121
+OWN	For the adjacency model , when the given compound is, we can estimate this ratio as :	S-122
+OWN	For the dependency model , the ratio is :	S-123
+OWN	In both cases , we sum over all possible categories for the words in the compound .	S-124
+OWN	Because the dependency model equations have two factors , they are affected more severely by data sparseness .	S-125
+OWN	If the probability estimate foris zero for all possible categoriesandthen both the numerator and the denominator will be zero .	S-126
+OWN	This will conceal any preference given by the parameters involving.	S-127
+OWN	In such cases , we observe that the test instance itself provides the information that the eventcan occur and we recalculate the ratio usingfor all possible categorieswhere k is any non-zero constant .	S-128
+OWN	However , no correction is made to the probability estimates forandfor unseen cases , thus putting the dependency model on an equal footing with the adjacency model above .	S-129
+CTR	The equations presented above for the dependency model differ from those developed inin one way .	S-130
+CTR	There , an additional weighting factor ( of 2.0 ) is used to favour a left-branching analysis .	S-131
+CTR	This arises because their construction is based on the dependency model which predicts that left-branching analyses should occur twice as often .	S-132
+CTR	Also , the work reported inuses simplistic estimates of the probability of a word given its thesaurus category .	S-133
+CTR	The equations above assume these probabilities are uniformly constant .	S-134
+TXT	Sectionbelow shows the result of making these two additions to the method .	S-135
+OWN	Eight different training schemes have been used to estimate the parameters and each set of estimates used to analyse the test set under both the adjacency and the dependency model .	S-136
+OWN	The schemes used are :	S-137
+OWN	the pattern given in section;	S-138
+OWN	and windowed training schemes with window widths of 2 , 3 , 4 , 5 , 10 , 50 and 100 words .	S-139
+OWN	The accuracy on the test set for all these experiments is shown in figure.	S-140
+CTR	As can be seen , the dependency model is more accurate than the adjacency model .	S-141
+OWN	This is true across the whole spectrum of training schemes .	S-142
+OWN	The proportion of cases in which the procedure was forced to guess , either because no data supported either analysis or because both were equally supported , is quite low .	S-143
+OWN	For the pattern and two-word window training schemes , the guess rate is less than 4 % for both models .	S-144
+OWN	In the three-word window training scheme , the guess rates are less than 1 % .	S-145
+OWN	For all larger windows , neither model is ever forced to guess .	S-146
+CTR	In the case of the pattern training scheme , the difference between 68.9 % for adjacency and 77.5 % for dependency is statistically significant at the 5 % level ( p = 0.0316 ) , demonstrating the superiority of the dependency model , at least for the compounds within Grolier 's encyclopedia .	S-147
+OWN	In no case do any of the windowed training schemes outperform the pattern scheme .	S-148
+OWN	It seems that additional instances admitted by the windowed schemes are too noisy to make an improvement .	S-149
+OWN	Initial results from applying these methods to the EMA corpus have been obtained by, and support the conclusion that the dependency model is superior to the adjacency model .	S-150
+OTH	suggest two improvements to the method used above .	S-151
+OTH	These are :	S-152
+OTH	a factor favouring left-branching which arises from the formal dependency construction ; and	S-153
+OTH	factors allowing for naive estimates of the variation in the probability of categories .	S-154
+OWN	While these changes are motivated by the dependency model , I have also applied them to the adjacency model for comparison .	S-155
+OWN	To implement them , equationsandmust be modified to incorporate a factor ofin each term of the sum and the entire ratio must be multiplied by two .	S-156
+OWN	Five training schemes have been applied with these extensions .	S-157
+OWN	The accuracy results are shown in figure.	S-158
+OWN	For comparison , the untuned accuracy figures are shown with dotted lines .	S-159
+OWN	A marked improvement is observed for the adjacency model , while the dependency model is only slightly improved .	S-160
+OWN	To determine the difference made by conceptual association , the pattern training scheme has been retrained using lexical counts for both the dependency and adjacency model , but only for the words in the test set .	S-161
+OWN	If the same system were to be applied across all of( a total of 90,000 nouns ) , then around 8.1 billion parameters would be required .	S-162
+OWN	Left-branching is favoured by a factor of two as described in the previous section , but no estimates for the category probabilities are used ( these being meaningless for the lexical association method ) .	S-163
+OWN	Accuracy and guess rates are shown in figure.	S-164
+OWN	Conceptual association outperforms lexical association , presumably because of its ability to generalise .	S-165
+OWN	One problem with the training methods given in sectionis the restriction of training data to nouns in.	S-166
+OWN	Many nouns , especially common ones , have verbal or adjectival usages that preclude them from being in.	S-167
+OWN	Yet when they occur as nouns , they still provide useful training information that the current system ignores .	S-168
+BAS	To test whether using tagged data would make a difference , the freely availabletaggerwas applied to the corpus .	S-169
+OWN	Since no manually tagged training data is available for our corpus , the tagger 's default rules were used ( these rules were produced byby training on the Brown corpus ) .	S-170
+OWN	This results in rather poor tagging accuracy , so it is quite possible that a manually tagged corpus would produce better results .	S-171
+OWN	Three training schemes have been used and the tuned analysis procedures applied to the test set .	S-172
+OWN	Figureshows the resulting accuracy , with accuracy values from figuredisplayed with dotted lines .	S-173
+OWN	If anything , admitting additional training data based on the tagger introduces more noise , reducing the accuracy .	S-174
+OWN	However , for the pattern training scheme an improvement was made to the dependency model , producing the highest overall accuracy of 81 % .	S-175
+OWN	The experiments above demonstrate a number of important points .	S-176
+OWN	The most general of these is that even quite crude corpus statistics can provide information about the syntax of compound nouns .	S-177
+OWN	At the very least , this information can be applied in broad coverage parsing to assist in the control of search .	S-178
+AIM	I have also shown that with a corpus of moderate size it is possible to get reasonable results without using a tagger or parser by employing a customised training pattern .	S-179
+OWN	While using windowed co-occurrence did not help here , it is possible that under more data sparse conditions better performance could be achieved by this method .	S-180
+OWN	The significance of the use of conceptual association deserves some mention .	S-181
+OWN	I have argued that without it a broad coverage system would be impossible .	S-182
+CTR	This is in contrast to previous work on conceptual association where it resulted in little improvement on a task which could already be performed .	S-183
+CTR	In this study , not only has the technique proved its worth by supporting generality , but through generalisation of training information it outperforms the equivalent lexical association approach given the same information .	S-184
+OWN	Amongst all the comparisons performed in these experiments one stands out as exhibiting the greatest contrast .	S-185
+CTR	In all experiments the dependency model provides a substantial advantage over the adjacency model , even though the latter is more prevalent in proposals within the literature .	S-186
+OWN	This result is in accordance with the informal reasoning given in section.	S-187
+OWN	The model also has the further commendation that it predicts correctly the observed proportion of left-branching compounds found in two independently extracted test sets .	S-188
+OWN	In all , the most accurate technique achieved an accuracy of 81 % as compared to the 67 % achieved by guessing left-branching .	S-189
+OWN	Given the high frequency of occurrence of noun compounds in many texts , this suggests that the use of these techniques in probabilistic parsers will result in higher performance in broad coverage natural language processing .	S-190

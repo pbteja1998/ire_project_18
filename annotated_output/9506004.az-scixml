@@ -1,0 +1,134 @@
+OTH	Many theories of semantic interpretation use- term manipulation to compositionally compute the meaning of a sentence .	A-0
+OTH	These theories are usually implemented in a language such as Prolog that can simulate- term operations with first-order unification .	A-1
+CTR	However , for some interesting cases , such as a Combinatory Categorial Grammar account of coordination constructs , this can only be done by obscuring the underlying linguistic theory with the `` tricks '' needed for implementation .	A-2
+AIM	This paper shows how the use of abstract syntax permitted by higher-order logic programming allows an elegant implementation of the semantics of Combinatory Categorial Grammar , including its handling of coordination constructs .	A-3
+OTH	Many theories of semantic interpretation use- term manipulation to compositionally compute the meaning of a sentence .	S-0
+OTH	These theories are usually implemented in a language such as Prolog that can simulate- term operations with first-order unification .	S-1
+CTR	However , there are cases in which this can only be done by obscuring the underlying linguistic theory with the `` tricks '' needed for implementation .	S-2
+OTH	For example , Combinatory Categorial Grammar ( CCG )is a theory of syntax and semantic interpretation that has the attractive characteristic of handling many coordination constructs that other theories cannot .	S-3
+CTR	While many aspects of CCG semantics can be reasonably simulated in first-order unification , the simulation breaks down on some of the most interesting cases that CCG can theoretically handle .	S-4
+CTR	The problem in general , and for CCG in particular , is that the implementation language does not have sufficient expressive power to allow a more direct encoding .	S-5
+AIM	The solution given in this paper is to show how advances in logic programming allow the implementation of semantic theories in a very direct and natural way , using CCG as a case study .	S-6
+CTR	We begin by briefly illustrating why first-order unification is inadequate for some coordination constructs , and then review two proposed solutions .	S-7
+BKG	The sentence inusually has the logical form ( LF ) in.	S-8
+OTH	CCG is one of several theories in whichgets derived by raising John to be the LF, where P is a predicate that takes a NP as an argument to return a sentence .	S-9
+OTH	Likewise , Bill gets the LF, and coordination results in the following LF for John and Bill :	S-10
+OTH	Whenis applied to the predicate ,will result after- reduction .	S-11
+CTR	However , under first-order unification , this needs to simulated by having the variable x inunify both with Bill and John , and this is not possible .	S-12
+OTH	Seeandfor a thorough discussion .	S-13
+OTH	suggests that the way to overcome this problem is to use explicit- terms and encode- reduction to perform the needed reduction .	S-14
+OTH	For example , the logical form inwould be produced , whereis the representation of.	S-15
+OTH	This would then be reduced by the clauses for apply to result in.	S-16
+OTH	For this small example , writing such an apply predicate is not difficult .	S-17
+CTR	However , as the semantic terms become more complex , it is no trivial matter to write- reduction that will correctly handle variable capture .	S-18
+CTR	Also , if at some point it was desired to determine if the semantic forms of two different sentences were the same , a predicate would be needed to compare two lambda forms for- equivalence , which again is not a simple task .	S-19
+CTR	Essentially , the logic variable X is meant to be interpreted as a bound variable , which requires an additional layer of programming .	S-20
+OTH	proposes a solution within first-order unification that can handle not only sentence, but also more complex examples with determiners .	S-21
+OTH	The method used is to introduce spurious bindings that subsequently get removed .	S-22
+OTH	For example , the semantics ofwould be, which would then get simplified to.	S-23
+CTR	While this pushes first-order unification beyond what it had been previously shown capable of , there are two disadvantages to this technique :	S-24
+CTR	For every possible category that can be conjoined , a separate lexical entry for and is required , and	S-25
+CTR	As the conjoinable categories become more complex , the and entries become correspondingly more complex and greatly obscure the theoretical background of the grammar formalism .	S-26
+CTR	The fundamental problem in both cases is that the concept of free and bound occurrences of variables is not supported by Prolog , but instead needs to be implemented by additional programming .	S-27
+CTR	While theoretically possible , it becomes quite problematic to actually implement .	S-28
+BAS	The solution given in this paper is to use a higher-order logic programming language ,-Prolog , that already implements these concepts , called `` abstract syntax '' inand `` higher-order abstract syntax '' in.	S-29
+OWN	This allows a natural and elegant implementation of the grammatical theory , with only one lexical entry for and .	S-30
+BKG	This paper is meant to be viewed as furthering the exploration of the utility of higher-order logic programming for computational linguistics,,.	S-31
+OTH	CCG is a grammatical formalism in which there is a one-to-one correspondence between the rules of composition at the level of syntax and logical form .	S-32
+OTH	Each word is ( perhaps ambiguously ) assigned a category and LF , and when the syntactical operations assign a new category to a constituent , the corresponding semantic operations produce a new LF for that constituent as well .	S-33
+OTH	The CCG rulesshown in Figureare implemented in the system described in this paper .	S-34
+OTH	Each of the three operations have both a forward and backward variant .	S-35
+OTH	As an illustration of how the semantic rules can be simulated in first-order unification , consider the derivation of the constituent harry found , where harry has the category np with LF harry ' and found is a transitive verb of categorywith LF	S-36
+OTH	In the CCG formalism , the derivation is as follows : harry gets raised with the # GT T rule , and then forward composed by the # GT B rule with found , and the result is a category of type s / np with LF.	S-37
+TXT	In sectionit will be seen how the use of abstract syntax allows this to be expressed directly .	S-38
+OTH	In first-order unification , it is simulated as shown in Figure.	S-39
+OTH	The final CCG rule to be considered is the coordination rule that specifies that only like categories can coordinate :	S-40
+OTH	This is actually a schema for a family of rules , collectively called `` generalized coordination '' , since the semantic rule is different for each case .	S-41
+OTH	For example , if X is a unary function , then the semantic rule is, and if the functions have two arguments , then the rule is.	S-42
+OTH	For example , when processing, rulewould be used with :	S-43
+OTH	with the result	S-44
+OTH	which is- equivalent to.	S-45
+OTH	-Prolog is a logic programming language based on higher-order hereditary Harrop formulae.	S-46
+OTH	It differs from Prolog in that first-order terms and unification are replaced with simply-typed- terms and higher-order unification , respectively .	S-47
+OTH	It also permits universal quantification and implication in the goals of clauses .	S-48
+BAS	The crucial aspect for this paper is that together these features permits the usage of abstract syntax to express the logical forms terms computed by CCG .	S-49
+BAS	The built-in- term manipulation is used as a `` meta-language '' in which the `` object-language '' of CCG logical forms is expressed , and variables in the object-language are mapped to variables in the meta-language .	S-50
+OWN	The-Prolog code fragment shown in Figuredeclares how the CCG logical forms are represented .	S-51
+OWN	Each CCG LF is represented as an untyped- term , namely type tm. abs represents object-level abstractionby the meta-level expression ( abs N ) , where N is a meta-level function of type.	S-52
+OWN	A meta-level- abstractionis written.	S-53
+OWN	Thus , if walked ' has type, thenis a-Prolog ( meta-level ) function with type, andis the object-level representation , with type tm .	S-54
+OWN	The LF for found shown inwould be represented as.	S-55
+OWN	app encodes application , and so in the derivation of harry found , the type-raised harry has the-Prolog value.	S-56
+OWN	The second part of Figureshows declares how quantifiers are represented , which are required since the sentences to be processed may have determiners .	S-57
+OWN	forall and exists are encoded similarly to abstraction , in that they take a functional argument and so object-level binding of variables by quantifiers is handled by meta-level- abstraction .	S-58
+OWN	andare simple constructors for implication and conjunction , to be used with forall and exists respectively , in the typical manner.	S-59
+OWN	For example , the sentence `` every man found a bone '' has as a possible LF, with the-Prolog representation:	S-60
+OWN	Figureillustrates how directly the CCG operations can be encoded .	S-61
+OWN	o is the type of a meta-level proposition , and so the intended usage of apply is to take three arguments of type tm , where the first should be an object-level- abstraction , and set the third equal to the application of the first to the second .	S-62
+OWN	Thus , for the query	S-63
+OWN	R unifies with thefunction, S with harry ' and M with ( R S ) , the meta-level application of R to S , which by the built-in- reduction is.	S-64
+OWN	In other words , object-level function application is handled simply by the meta-level function application .	S-65
+OWN	Function composition is similar .	S-66
+OWN	Consider again the derivation of harry found by type-raising and forward composition .	S-67
+OWN	harry would get type-raised by the raise clause to produce, and then composed with found , with the result shown in the following query :	S-68
+OWN	At this point a further- reduction is needed .	S-69
+OWN	Note however this is not at all the same problem of writing a- reducer in Prolog .	S-70
+OWN	Instead it is a simple matter of using the meta-level- reduction to eliminate- redexes to produce the final result.	S-71
+OWN	We won't show the complete declaration of the- reducer , but the key clause is simply :	S-72
+OWN	Thus , using the abstract syntax capabilities of-Prolog , we can have a direct implementation of the underlying linguistic formalism , in stark contrast to the first-order simulation shown in Figure.	S-73
+OWN	A primary goal of abstract-syntax is to support recursion through abstractions with bound variables .	S-74
+OWN	This leads to the interpretation of a bound variable as a `` scoped constant '' - it acts like a constant that is not visible from the top of the term , but which becomes visible during the descent through the abstraction .	S-75
+OWN	Seefor a discussion of how this may be used for evaluation of functional programs by `` pushing '' the evaluation through abstractions to reduce redexes that are not at the top-level .	S-76
+OWN	This technique is also used in the- reducer briefly mentioned at the end of the previous section , and a similar technique will be used here to implement coordination by recursively descending through the two arguments to be coordinated .	S-77
+TXT	Before describing the implementation of coordination , it is first necessary to mention how CCG categories are represented in the-Prolog code .	S-78
+OWN	As shown in Figure, cat is declared to be a primitive type , and np , s , conj , noun are the categories used in this implementation .	S-79
+OWN	fs and bs are declared to be constructors for forward and backward slash .	S-80
+OWN	For example , the CCG category for a transitive verbwould be represented as.	S-81
+OWN	Also , the predicate atomic-type is declared to be true for the four atomic categories .	S-82
+OWN	This will be used in the implementation of coordination as a test for termination of the recursion .	S-83
+OWN	The implementation of coordination crucially uses the capability of-Prolog for universal quantification in the goal of a clause .	S-84
+OWN	pi is the meta-level operator for, andis written as.	S-85
+OWN	The operational semantics for-Prolog state thatis provable if and only if [ c / x ] G is provable , where c is a new variable of the same type as x that does not otherwise occur in the current signature .	S-86
+OWN	In other words , c is a scoped constant and the current signature gets expanded with c for the proof of [ c / x ] G. Since c is meant to be treated as a generic placeholder for any arbitrary x of the proper type , c must not appear in any terms instantiated for logic variables during the proof of [ c / x ] G .	S-87
+OWN	The significance of this restriction will be illustrated shortly .	S-88
+OWN	The code for coordination is shown in Figure.	S-89
+OWN	The four arguments to coord are a category and three terms that are the object-level LF representations of constituents of that category .	S-90
+OWN	The last argument will result from the coordination of the second and third arguments .	S-91
+OWN	Consider again the earlier problematic exampleof coordination .	S-92
+OWN	Recall that after john is type-raised , its LF will beand similarly for bill .	S-93
+OWN	They will both have the category.	S-94
+OWN	Thus , to obtain the LF for John and Bill , the following query would be made :	S-95
+OWN	This will match with the first clause for coord , with	S-96
+OWN	A instantiated to ( bs np s )	S-97
+OWN	B to s	S-98
+OWN	R to	S-99
+OWN	S to	S-100
+OWN	and T a logic variable waiting instantiation .	S-101
+OWN	Then , after the meta-level- reduction using the new scoped constant c , the following goal is called :	S-102
+OWN	where N = ( T c ) .	S-103
+OWN	Since s is an atomic type , the third coord clause matches with	S-104
+OWN	B instantiated to s	S-105
+OWN	R to	S-106
+OWN	S to	S-107
+OWN	N to	S-108
+OWN	Since N = ( T c ) , higher-order unification is used by-Prolog to instantiate T by extracting c from N with the result .	S-109
+OWN	and so M from the original query is	S-110
+OWN	Note that since c is a scoped constant arising from the proof of an universal quantification , the instantiation	S-111
+OWN	is prohibited , along with the other extractions that do not remove c from the body of the abstraction .	S-112
+OWN	This use of universal quantification to extract out c from a term containing c in this case gives the same result as a direct implementation of the rule for cooordination of unary functionswould .	S-113
+OWN	However , this same process of recursive descent via scoped constants will work for any member of the conj rule family .	S-114
+OWN	For example , the following query	S-115
+OWN	corresponds to rule.	S-116
+OWN	Note also that the use of the same bound variable names obj and sub causes no difficulty since the use of scoped-constants , meta-level- reduction , and higher-order unification is used to access and manipulate the inner terms .	S-117
+OWN	Also , whereasrequires careful consideration of handling of determiners with coordination , here such sentences are handled just like any others .	S-118
+OWN	For example , the sentence `` Mary gave every dog a bone and some policeman a flower '' results in the LF :	S-119
+OWN	Thus , `` generalized coordination '' , instead of being a family of separate rules , can be expressed as a single rule on recursive descent through logical forms .	S-120
+OWN	also discusses `` generalized composition '' , and it may well be that a similar implementation is possible for that family of rules as well .	S-121
+AIM	We have shown how higher-order logic programming can be used to elegantly implement the semantic theory of CCG , including the previously difficult case of its handling of coordination constructs .	S-122
+OWN	The techniques used here should allow similar advantages for a variety of such theories .	S-123
+OWN	An argument can be made that the approach taken here relies on a formalism that entails implementation issues that are more difficult than for the other solutions and inherently not as efficient .	S-124
+OWN	However , the implementation issues , although more complex , are also well-understood and it can be expected that future work will bring further improvements .	S-125
+OWN	For example , it is a straightforward matter to transform the-Prolog code into a logic calledwhich requires only a restricted form of unification that is decidable in linear time and space .	S-126
+OWN	Also , the declarative nature of-Prolog programs opens up the possibility for applications of program transformations such as partial evaluation .	S-127
+OWN	This work is supported by ARO grant DAAL03 - 89 - 0031 , DARPA grant N00014 - 90-J - 1863 , and ARO grant DAAH04 - 94-G - 0426 .	S-128
+OWN	I would like to thank Aravind Joshi , Dale Miller , Jong Park , and Mark Steedman for valuable discussions and comments on earlier drafts .	S-129

@@ -1,0 +1,192 @@
+AIM	Why should computers interpret language incrementally ?	A-0
+BKG	In recent years psycholinguistic evidence for incremental interpretation has become more and more compelling , suggesting that humans perform semantic interpretation before constituent boundaries , possibly word by word .	A-1
+CTR	However , possible computational applications have received less attention .	A-2
+AIM	In this paper we consider various potential applications , in particular graphical interaction and dialogue .	A-3
+OWN	We then review the theoretical and computational tools available for mapping from fragments of sentences to fully scoped semantic representations .	A-4
+OWN	Finally , we tease apart the relationship between dynamic semantics and incremental interpretation .	A-5
+BKG	Following the work of , for example ,,and, it has become widely accepted that semantic interpretation in human sentence processing can occur before sentence boundaries and even before clausal boundaries .	S-0
+BKG	It is less widely accepted that there is a need for incremental interpretation in computational applications .	S-1
+OTH	In the 1970 s and early 1980 s several computational implementations motivated the use of incremental interpretation as a way of dealing with structural and lexical ambiguity ( a survey is given in) .	S-2
+OTH	A sentence such as the following has 4862 different syntactic parses due solely to attachment ambiguity.	S-3
+OTH	Although some of the parses can be ruled out using structural preferences during parsing ( such as Late Closure or Minimal Attachment) , extraction of the correct set of plausible readings requires use of real world knowledge .	S-4
+OTH	Incremental interpretation allows on-line semantic filtering , i.e. parses of initial fragments which have an implausible or anomalous interpretation are rejected , thereby preventing ambiguities from multiplying as the parse proceeds .	S-5
+CTR	However , on-line semantic filtering for sentence processing does have drawbacks .	S-6
+CTR	Firstly , for sentence processing using a serial architecture ( rather than one in which syntactic and semantic processing is performed in parallel ) , the savings in computation obtained from on-line filtering have to be balanced against the additional costs of performing semantic computations for parses of fragments which would eventually be ruled out anyway from purely syntactic considerations .	S-7
+OTH	Moreover , there are now relatively sophisticated ways of packing ambiguities during parsing ( e.g. by the use of graph-structured stacks and packed parse forests) .	S-8
+CTR	Secondly , the task of judging plausibility or anomaly according to context and real world knowledge is a difficult problem , except in some very limited domains .	S-9
+OTH	In contrast , statistical techniques using lexeme co-occurrence provide a relatively simple mechanism which can imitate semantic filtering in many cases .	S-10
+OTH	For example , instead of judging bank as a financial institution as more plausible than bank as a riverbank in the noun phrase the rich bank , we can compare the number of co-occurrences of the lexemes rich and bank( = riverbank ) versus rich and bank( = financial institution ) in a semantically analysed corpus .	S-11
+CTR	Cases where statistical techniques seem less appropriate are where plausibility is affected by local context .	S-12
+CTR	For example , consider the ambiguous sentence ,	S-13
+CTR	in the two contexts	S-14
+CTR	Such cases involve reasoning with an interpretation in its immediate context , as opposed to purely judging the likelihood of a particular linguistic expression in a given application domain ( see e.g.for discussion ) .	S-15
+BKG	Although the usefulness of on-line semantic filtering during the processing of complete sentences is debatable , filtering has a more plausible role to play in interactive , real-time environments , such as interactive spell checkers ( see e.g.for arguments for incremental parsing in such environments ) .	S-16
+BKG	Here the choice is between whether or not to have semantic filtering at all , rather than whether to do it on-line , or at the end of the sentence .	S-17
+BKG	The concentration in early literature on using incremental interpretation for semantic filtering has perhaps distracted from some other applications which provide less controversial applications .	S-18
+AIM	We will consider two in detail here : graphical interfaces , and dialogue .	S-19
+OTH	The Foundations for Intelligent Graphics Project ( FIG ) considered various ways in which natural language input could be used within computer aided design systems ( the particular application studied was computer aided kitchen design , where users would not necessarily be professional designers ) .	S-20
+OTH	Incremental interpretation was considered to be useful in enabling immediate visual feedback .	S-21
+OTH	Visual feedback could be used to provide confirmation ( for example , by highlighting an object referred to by a successful definite description ) , or it could be used to give the user an improved chance of achieving successful reference .	S-22
+OTH	For example , if sets of possible referents for a definite noun phrase are highlighted during word by word processing then the user knows how much or how little information is required for successful reference .	S-23
+OTH	Human dialogue , in particular , task oriented dialogue is characterised by a large numbers of self-repairs,, such as hesitations , insertions , and replacements .	S-24
+OTH	It is also common to find interruptions requesting extra clarification , or disagreements before the end of a sentence .	S-25
+OTH	It is even possible for sentences started by one dialogue participant to be finished by another .	S-26
+OTH	Applications involving the understanding of dialogues include information extraction from conversational databases , or computer monitoring of conversations .	S-27
+OTH	It also may be useful to include some features of human dialogue in man-machine dialogue .	S-28
+OTH	For example , interruptions can be used for early signalling of errors and ambiguities .	S-29
+BKG	Let us first consider some examples of self-repair .	S-30
+BKG	Insertions add extra information , usually modifiers e.g.	S-31
+BKG	Replacements correct pieces of information e.g.	S-32
+BKG	In some cases information from the corrected material is incorporated into the final message .	S-33
+BKG	For example , consider :	S-34
+BKG	In, the corrected material the three main sources of data come provides the antecedent for the pronoun they .	S-35
+BKG	Inthe corrected material tells us that the man is both old and has a wife .	S-36
+BKG	In, the pronoun he is bound by the quantifier every boy .	S-37
+OTH	For a system to understand dialogues involving self-repairs such as those inwould seem to require either an ability to interpret incrementally , or the use of a grammar which includes self repair as a syntactic construction akin to non-constituent coordination ( the relationship between coordination and self-correction is noted by) .	S-38
+OTH	For a system to generate self repairs might also require incremental interpretation , assuming a process where the system performs on-line monitoring of its output ( akin to's model of the human self-repair mechanism ) .	S-39
+OTH	It has been suggested that generation of self repairs is useful in cases where there are severe time constraints , or where there is rapidly changing background information.	S-40
+OWN	A more compelling argument for incremental interpretation is provided by considering dialogues involving interruptions .	S-41
+BKG	Consider the following dialogue from the TRAINS corpus.	S-42
+OWN	This requires interpretation by speaker B before the end of A 's sentence to allow objection to the apposition , the engine at Avon , engine E .	S-43
+BKG	An example of the potential use of interruptions in human computer interaction is the following :	S-44
+BKG	In this example , interpretation must not only be before the end of the sentence , but before a constituent boundary ( the verb phrase in the user 's command has not yet been completed ) .	S-45
+TXT	In this section we shall briefly review work on providing semantic representations ( e.g. lambda expressions ) word by word .	S-46
+OTH	Traditional layered models of sentence processing first build a full syntax tree for a sentence , and then extract a semantic representation from this .	S-47
+OWN	To adapt this to an incremental perspective , we need to be able to provide syntactic structures ( of some sort ) for fragments of sentences , and be able to extract semantic representations from these .	S-48
+OTH	One possibility , which has been explored mainly within the Categorial Grammar traditionis to provide a grammar which can treat most if not all initial fragments as constituents .	S-49
+OTH	They then have full syntax trees from which the semantics can be calculated .	S-50
+OTH	However , an alternative possibility is to directly link the partial syntax trees which can be formed for non-constituents with functional semantic representations .	S-51
+OTH	For example , a fragment missing a noun phrase such as John likes can be associated with a semantics which is a function from entities to truth values .	S-52
+OTH	Hence , the partial syntax tree given in Fig.,	S-53
+OTH	can be associated with a semantic representation ,x. likes ( john , x ) .	S-54
+CTR	Both Categorial approaches to incremental interpretation and approaches which use partial syntax trees get into difficulty in cases of left recursion .	S-55
+CTR	Consider the sentence fragment , Mary thinks John .	S-56
+CTR	A possible partial syntax tree is provided by Fig..	S-57
+CTR	However , this is not the only possible partial tree .	S-58
+CTR	In fact there are infinitely many different trees possible .	S-59
+CTR	The completed sentence may have an arbitrarily large number of intermediate nodes between the lower s node and the lower np .	S-60
+CTR	For example , John could be embedded within a gerund e.g. Mary thinks John leaving here was a mistake , and this in turn could be embedded e.g. Mary thinks John leaving here being a mistake is surprising .	S-61
+CTR	John could also be embedded within a sentence which has a sentence modifier requiring its own s node e.g. Mary thinks John will go home probably , and this can be further embedded e.g. Mary thinks John will go home probably because he is tired .	S-62
+CTR	The problem of there being an arbitrary number of different partial trees for a particular fragment is reflected in most current approaches to incremental interpretation being either incomplete , or not fully word by word .	S-63
+OTH	For example , incomplete parsers have been proposed byand.	S-64
+OTH	's system is a simple top-down parser which does not deal with left recursive grammars .	S-65
+OTH	's M-System is based on the Lambek Calculus : the problem of an infinite number of possible tree fragments is replaced by a corresponding problem of initial fragments having an infinite number of possible types .	S-66
+OTH	A complete incremental parser , which is not fully word by word , was proposed by.	S-67
+OTH	This is based on arc-eager left-corner parsing.	S-68
+OWN	To enable complete , fully word by word parsing requires a way of encoding an infinite number of partial trees .	S-69
+OWN	There are several possibilities .	S-70
+OWN	The first is to use a language describing trees where we can express the fact that John is dominated by the s node , but do not have to specify what it is immediately dominated by ( e.g. D-Theory ).	S-71
+OWN	Semantic representations could be formed word by word by extracting ` default ' syntax trees ( by strengthening dominance links into immediated dominance links wherever possible ) .	S-72
+OWN	A second possibility is to factor out recursive structures from a grammar .	S-73
+OTH	show how this can be done for a phrase structure grammar ( creating an equivalent Tree Adjoining Grammar) .	S-74
+OTH	The parser for the resulting grammar allows linear parsing for an ( infinitely ) parallel system , with the absorption of each word performed in constant time .	S-75
+OTH	At each choice point , there are only a finite number of possible new partial TAG trees ( the TAG trees represents the possibly infinite number of trees which can be formed using adjunction ) .	S-76
+OTH	It should again be possible to extract ` default ' semantic values , by taking the semantics from the TAG tree ( i.e. by assuming that there are to be no adjunctions ) .	S-77
+OTH	A somewhat similar system has recently been proposed by.	S-78
+OTH	The third possibility is suggested by considering the semantic representations which are appropriate during a word by word parse .	S-79
+OTH	Although there are any number of different partial trees for the fragment Mary thinks John , the semantics of the fragment can be represented using just two lambda expressions :	S-80
+OTH	Consider the first .	S-81
+OTH	The lambda abstraction ( over a functional item of type et ) can be thought of as a way of encoding an infinite set of partial semantic ( tree ) structures .	S-82
+OTH	For example , the eventual semantic structure may embed john at any depth e.g.	S-83
+OTH	The second expression ( a functional item over type et and tt ) , allows for eventual structures where the main sentence is embedded e.g.	S-84
+OTH	This third possibility is therefore to provide a syntactic correlate of lambda expressions .	S-85
+OTH	In practice , however , provided we are only interested in mapping from a string of words to a semantic representation , and don't need explicit syntax trees to be constructed , we can merely use the types of the ` syntactic lambda expressions ' , rather than the expressions themselves .	S-86
+OTH	This is essentially the approach taken inin order to provide complete , word by word , incremental interpretation using simple lexicalised grammars , such as a lexicalised version of formal dependency grammar and simple categorial grammar .	S-87
+OTH	In processing the sentence Mary introduced John to Susan , a word-by-word approach such asprovides the following logical forms after the corresponding sentence fragments are absorbed :	S-88
+OTH	Each input level representation is appropriate for the meaning of an incomplete sentence , being either a proposition or a function into a proposition .	S-89
+OTH	Init is argued that the incrementally derived meanings are not judged for plausibility directly , but instead are first turned into existentially quantified propositions .	S-90
+OTH	For example , instead of judging the plausibility of, we judge the plausibility of.	S-91
+OTH	This is just the proposition Mary introduced something to something using a generalized quantifier notation of the form Quantifier ( Variable , Restrictor , Body ) .	S-92
+OTH	Although the lambda expressions are built up monotonically , word by word , the propositions formed from them may need to be retracted , along with all the resulting inferences .	S-93
+OTH	For example , Mary introduced something to something is inappropriate if the final sentence is Mary introduced noone to anybody .	S-94
+OTH	A rough algorithm is as follows :	S-95
+OTH	Parse a new word , Word	S-96
+OTH	Form a new lambda expression by combining the lambda expression formed after parsing Wordwith the lexical semantics for Word	S-97
+OTH	Form a proposition , P, by existentially quantifying over the lambda abstracted variables .	S-98
+OTH	Assert P.	S-99
+OTH	If Pdoes not entail Pretract Pand all conclusions made from it .	S-100
+OTH	Judge the plausibility of P.	S-101
+OTH	If implausible block this derivation .	S-102
+OTH	It is worth noting that the need for retraction is not due to a failure to extract the correct ` least commitment ' proposition from the semantic content of the fragment Mary introduced .	S-103
+OTH	This is due to the fact that it is possible to find pairs of possible continuations which are the negation of each other ( e.g. Mary introduced noone to anybody and Mary introduced someone to somebody ) .	S-104
+OTH	The only proposition compatible with both a proposition , p , and its negation ,p is the trivial proposition , T ( seefor further discussion ) .	S-105
+OWN	So far we have only considered semantic representations which do not involve quantifiers ( except for the existential quantifier introduced by the mechanism above ) .	S-106
+BKG	In sentences with two or more quantifiers , there is generally an ambiguity concerning which quantifier has wider scope .	S-107
+BKG	For example , in sentencebelow the preferred reading is for the same kid to have climbed every tree ( i.e. the universal quantifier is within the scope of the existential ) whereas in sentencethe preferred reading is where the universal quantifier has scope over the existential .	S-108
+BKG	Scope preferences sometimes seem to be established before the end of a sentence .	S-109
+BKG	For example , in sentencebelow , there seems a preference for an outer scope reading for the first quantifier as soon as we interpret child .	S-110
+BKG	Inthe preference , by the time we get to e.g. grammar , is for an inner scope reading for the first quantifier .	S-111
+BKG	This intuitive evidence can be backed up by considering garden path effects with quantifier scope ambiguities ( called jungle paths by) .	S-112
+BKG	The original examples , such as the following ,	S-113
+BKG	showed that preferences for a particular scope are established and are overturned .	S-114
+BKG	To show that preferences are sometimes established before the end of a sentence , and before a potential sentence end , we need to show garden path effects in examples such as the following :	S-115
+CTR	Most psycholinguistic experimentation has been concerned with which scope preferences are made , rather than the point at which the preferences are established.	S-116
+OWN	Given the intuitive evidence , our hypothesis is that scope preferences can sometimes be established early , before the end of a sentence .	S-117
+OWN	This leaves open the possibility that in other cases , where the scoping information is not particularly of interest to the hearer , preferences are determined late , if at all .	S-118
+BKG	Dealing with quantifiers incrementally is a rather similar problem to dealing with fragments of trees incrementally .	S-119
+BKG	Just as it is impossible to predict the level of embedding of a noun phrase such as John from the fragment Mary thinks John , it is also impossible to predict the scope of a quantifier in a fragment with respect to the arbitrarily large number of quantifiers which might appear later in the sentence .	S-120
+OTH	Again the problem can be avoided by a form of packing .	S-121
+OTH	A particularly simple way of doing this is to use unscoped logical forms where quantifiers are left in situ ( similar to the representations used by, or to Quasi Logical Form) .	S-122
+OTH	For example , the fragment Every man gives a book can be given the following representation :	S-123
+OTH	Each quantified term consists of a quantifier , a variable and a restrictor , but no body .	S-124
+OTH	To convert lambda expressions to unscoped propositions , we replace an occurrence of each argument with an empty existential quantifier term .	S-125
+OTH	In this case we obtain :	S-126
+OTH	Scoped propositions can then be obtained by using an outside-in quantifier scoping algorithm, or an inside-out algorithm with a free variable constraint.	S-127
+OTH	The propositions formed can then be judged for plausibility .	S-128
+OWN	To imitate jungle path phenomena , these plausibility judgements need to feed back into the scoping procedure for the next fragment .	S-129
+OWN	For example , if every man is taken to be scoped outside a book after processing the fragment Every man gave a book , then this preference should be preserved when determining the scope for the full sentence Every man gave a book to a child .	S-130
+OWN	Thus instead of doing all quantifier scoping at the end of the sentence , each new quantifier is scoped relative to the existing quantifiers ( and operators such as negation , intensional verbs etc ) .	S-131
+OWN	A preliminary implementation achieves this by annotating the semantic representations with node names , and recording which quantifiers are ` discharged ' at which nodes , and in which order .	S-132
+OTH	Dynamic semantics adopts the view that `` the meaning of a sentence does not lie in its truth conditions , but rather in the way in which it changes ( the representation of ) the information of the interpreter ''.	S-133
+OTH	At first glance such a view seems ideally suited to incremental interpretation .	S-134
+OTH	Indeed ,claim that the compositional nature of Dynamic Predicate Logic enables one to `` interpret a text in an on-line manner , i.e. , incrementally , processing and interpreting each basic unit as it comes along , in the context created by the interpretation of the text so far '' .	S-135
+OTH	Putting these two quotes together is , however , misleading , since it suggests a more direct mapping between incremental semantics and dynamic semantics than is actually possible .	S-136
+OTH	In an incremental semantics , we would expect the information state of an interpreter to be updated word by word .	S-137
+OTH	In contrast , in dynamic semantics , the order in which states are updated is determined by semantic structure , not by left-to-right order ( see e.g.for discussion ) .	S-138
+OTH	For example , in Dynamic Predicate Logic, states are threaded from the antecedent of a conditional into the consequent , and from a restrictor of a quantifier into the body .	S-139
+OTH	Thus , in interpreting ,	S-140
+OTH	the input state for evaluation of John will buy it right away is the output state from the antecedent a car impresses him .	S-141
+OTH	In this case the threading through semantic structure is in the opposite order to the order in which the two clauses appear in the sentence .	S-142
+OTH	Some intuitive justification for the direction of threading in dynamic semantics is provided by considering appropriate orders for evaluation of propositions against a database : the natural order in which to evaluate a conditional is first to add the antecedent , and then see if the consequent can be proven .	S-143
+OTH	It is only at the sentence level in simple narrative texts that the presentation order and the natural order of evaluation necessarily coincide .	S-144
+OTH	The ordering of anaphors and their antecedents is often used informally to justify left-to-right threading or threading through semantic structure .	S-145
+OTH	However , threading from left-to-right disallows examples of optional cataphora , as in example, and examples of compulsory cataphora as in :	S-146
+OTH	Similarly , threading from the antecedents of conditionals into the consequent fails for examples such as :	S-147
+OTH	It is also possible to get sentences with ` donkey ' readings , but where the indefinite is in the consequent :	S-148
+OTH	This sentence seems to get a reading where we are not talking about a particular student ( an outer existential ) , or about a typical student ( a generic reading ) .	S-149
+OTH	Moreover , as noted by, the use of any kind of ordered threading will tend to fail for Bach-Peters sentences , such as :	S-150
+OTH	For this kind of example , it is still possible to use a standard dynamic semantics , but only if there is some prior level of reference resolution which reorders the antecedents and anaphors appropriately .	S-151
+OTH	For example , ifis converted into the ` donkey ' sentence :	S-152
+OTH	When we consider threading of possible worlds , as in Update Semantics, the need to distinguish between the order of evaluation and the order of presentation becomes more clear cut .	S-153
+OTH	Consider trying to perform threading in left-to-right order during interpretation of the sentence , John left if Mary left .	S-154
+OTH	After processing the proposition John left the set of worlds is refined down to those worlds in which John left .	S-155
+OTH	Now consider processing if Mary left .	S-156
+OTH	Here we want to reintroduce some worlds , those in which neither Mary or John left .	S-157
+OTH	However , this is not allowed by Update Semantics which is eliminative : each new piece of information can only further refine the set of worlds .	S-158
+OTH	It is worth noting that the difficulties in trying to combine eliminative semantics with left-to-right threading apply to constraint-based semantics as well as to Update Semantics .	S-159
+OTH	uses incremental refinement of sets of possible referents .	S-160
+OTH	For example , the effect of processing the rabbit in the noun phrase the rabbit in the hat is to provide a set of all rabbits .	S-161
+OTH	The processing of in refines this set to rabbits which are in something .	S-162
+OTH	Finally , processing of the hat refines the set to rabbits which are in a hat .	S-163
+OTH	However , now consider processing the rabbit in none of the boxes .	S-164
+OTH	By the time the rabbit in has been processed , the only rabbits remaining in consideration are rabbits which are in something .	S-165
+CTR	This incorrectly rules out the possibility of the noun phrase referring to a rabbit which is in nothing at all .	S-166
+OTH	The case is actually a parallel to the earlier example of Mary introduced someone to something being inappropriate if the final sentence is Mary introduced noone to anybody .	S-167
+OWN	Although this discussion has argued that it is not possible to thread the states which are used by a dynamic or eliminative semantics from left to right , word by word , this should not be taken as an argument against the use of such a semantics in incremental interpretation .	S-168
+OWN	What is required is a slightly more indirect approach .	S-169
+OWN	In the present implementation , semantic structures ( akin to logical forms ) are built word by word , and each structure is then evaluated independently using a dynamic semantics ( with threading performed according to the structure of the logical form ) .	S-170
+OWN	At present there is a limited implementation , which performs a mapping from sentence fragments to fully scoped logical representations .	S-171
+OWN	To illustrate its operation , consider the following discourse :	S-172
+OWN	We assume that the first sentence has been processed , and concentrate on processing the fragment .	S-173
+OWN	The implementation consists of five modules :	S-174
+BAS	A word-by-word incremental parser for a lexicalised version of dependency grammar.	S-175
+OTH	This takes fragments of sentences and maps them to unscoped logical forms .	S-176
+OWN	A module which replaces lambda abstracted variables with existential quantifiers in situ .	S-177
+OWN	A pronoun coindexing procedure which replaces pronoun variables with a variable from the same sentence , or from the preceding context .	S-178
+OWN	An outside-in quantifier scoping algorithm based on.	S-179
+OWN	An ` evaluation ' procedure based on, which takes a logical form containing free variables ( such as the w in the LF above ) , and evaluates it using a dynamic semantics in the context given by the preceding sentences .	S-180
+OWN	The output is a new logical form representing the context as a whole , with all variables correctly bound .	S-181
+OWN	At present , the coverage of moduleis limited , and moduleis a naive coindexing procedure which allows a pronoun to be coindexed with any quantified variable or proper noun in the context or the current sentence .	S-182
+AIM	The paper described some potential applications of incremental interpretation .	S-183
+OWN	It then described the series of steps required in mapping from initial fragments of sentences to propositions which can be judged for plausibility .	S-184
+OWN	Finally , it argued that the apparently close relationship between the states used in incremental semantics and dynamic semantics fails to hold below the sentence level , and briefly presented a more indirect way of using dynamic semantics in incremental interpretation .	S-185

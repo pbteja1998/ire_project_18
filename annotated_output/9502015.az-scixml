@@ -1,0 +1,158 @@
+CTR	We argue that the resource sharing that is commonly manifest in semantic accounts of coordination is instead appropriately handled in terms of structure-sharing in LFG f-structures .	A-0
+AIM	We provide an extension to the previous account of LFG semanticsaccording to which dependencies between f-structures are viewed as resources ; as a result a one-to-one correspondence between uses of f-structures and meanings is maintained .	A-1
+CTR	The resulting system is sufficiently restricted in cases where other approaches overgenerate ; the very property of resource-sensitivity for which resource sharing appears to be problematic actually provides explanatory advantages over systems that more freely replicate resources during derivation .	A-2
+OTH	The resource-based approach to semantic composition in Lexical-Functional Grammar ( LFG ) obtains the interpretation for a phrase via a logical deduction , beginning with the interpretations of its parts as premises.	S-0
+OTH	The resource-sensitive system of linear logic is used to compute meanings in accordance with relationships manifest in LFG f-structures .	S-1
+OTH	The properties of the system ensure that meanings are used exactly once , allowing coherence and completeness conditions on f-structures, to be maintained .	S-2
+CTR	However , there are cases where a single constituent appears to yield more than one contribution to the meaning of an utterance .	S-3
+CTR	This is most obvious in , but is not limited to , sentences involving coordination .	S-4
+CTR	In example, for instance , NAFTA is the object of two different verbs :	S-5
+CTR	Since the hallmark of the linear logic approach is to ensure that f-structure contributions are utilized exactly once in a derivation , such constructions would at first glance appear to be problematic for the approach .	S-6
+OWN	We argue that the resource sharing that is commonly manifest in the treatment of coordination in other approaches is appropriately handled by exploiting the structure-sharing in LFG f-structures .	S-7
+BAS	We refine our previous analysis to account for cases where an f-structure is reached by multiple paths from an enclosing f-structure .	S-8
+OTH	provides an account of LFG semantics that represents the meaning of lexical items with linear logic formulas .	S-9
+OTH	These formulas manipulate basic assertions of the form, for f-structures f and meaning logic terms M .	S-10
+OTH	Hereis a mapping , the semantic projection , that relates f-structures to semantic structures .	S-11
+OWN	To distinguish between multiple paths entering an f-structure , we now taketo map from sets of paths in f-structures to semantic structures .	S-12
+OWN	Further , the paths between f-structures are made available in the semantic space as resources .	S-13
+OWN	This makes it possible for the semantic formulas to exploit information about the multiple paths into an f-structure in order to account for the multiple uses of the f-structure 's semantic contribution .	S-14
+OWN	The resulting system is sufficiently restricted in cases where other approaches overgenerate ; the very property of resource-sensitivity for which resource sharing appears to be problematic actually provides explanatory advantages over systems that more freely replicate resources during derivation .	S-15
+TXT	In Section, we review previous approaches to the semantics of coordination and argument sharing , and make note of some of their drawbacks .	S-16
+TXT	We describe the revised semantic framework in Section, and work through several examples of non-constituent coordination ( specifically , right-node raising ) in Section.	S-17
+TXT	We discuss examples involving intensional verbs in Section.	S-18
+OTH	,,, working in the framework of Combinatory Categorial Grammar ( CCG ) , presents what is probably the most adequate analysis of non-constituent coordination to date .	S-19
+OTH	As noted byand discussed by, the addition of the rule of function composition to the inventory of syntactic rules in Categorial Grammar enables the formation of constituents with right-peripheral gaps , providing a basis for a clean treatment of cases of right node raising as exemplified by sentence.	S-20
+OTH	Such examples are handled by a coordination schema which allows like categories to be conjoined , shown in.	S-21
+OTH	This schema gives rise to various actual rules whose semantics depends on the number of arguments that the shared material takes .	S-22
+OTH	For the cases of RNR considered here , the rule has the form shown in.	S-23
+OTH	The contraction fromandtoin this rule allows for the single argument to be utilized twice .	S-24
+CTR	As noted by, however , not all examples of RNR involve coordinate structures :	S-25
+CTR	Obviously , such cases fall outside of the purview of the coordination schema .	S-26
+OTH	An analysis for this sentence is available in the CCG framework by the addition of the xsubstitute combinator, as defined in.	S-27
+OTH	The use of this combinator assimilates cases of noncoordinate RNR to cases involving parasitic gaps .	S-28
+CTR	While this approach has some drawbacks , we do not offer a competing analysis of the syntax of sentences likehere .	S-29
+AIM	Rather , we seek an analysis of RNR ( and of resource sharing in general ) that is uniform in the semantics ; such a treatment isn't available in CCG because of its tight integration between syntax and semantics .	S-30
+OTH	Perhaps the most influential and widely-adopted semantic treatment of coordination is the approach of.	S-31
+OTH	They propose a generalized conjunction scheme in which conjuncts of the same type can be combined .	S-32
+OTH	As is the case with's operators , contraction inherent in the schema allows for a single shared argument to be distributed as an argument of each conjunct .	S-33
+OTH	Type-lifting is allowed to produce like types when necessary ; the combination of the coordination scheme and type-lifting can have the effect of ` copying ' an argument of higher type , such as a quantifier in the case of coordinated intensional verbs .	S-34
+OTH	They propose a ` processing strategy ' requiring that expressions are interpreted at the lowest possible type , with type-raising taking place only where necessary .	S-35
+OTH	To illustrate ,assume that extensional verbs such as find are entered in the lexicon with basic type, whereas intensional verbs like want , which require a quantifier as an argument , have type( ignoring intensionality ) .	S-36
+OTH	Two extensional verbs such as find and support are coordinated at their basic types :	S-37
+OTH	Two intensional verbs such as want and seek are also coordinated at their basic ( higher ) types :	S-38
+OTH	The argument to this expression is a quantified NP .	S-39
+OTH	When an intensional and an extensional verb are coordinated , the extensional verb must be type-raised to promote it to the type of the intensional verb :	S-40
+OTH	Again , this leads to the desired result .	S-41
+CTR	However , an unwelcome consequence of this approach , which appears to have gone unnoticed in the literature , arises in cases in which more than two verbs are conjoined .	S-42
+OTH	If an intensional verb is coordinated with more than one extensional verb , a copy of the quantifier will be distributed to each verb in the coordinate structure .	S-43
+OTH	For instance , in, two extensional verbs and an intensional verb are coordinated .	S-44
+OTH	Application of this expression to a quantifier results in two quantifiers being scoped separately over the extensional verbs .	S-45
+CTR	This is the wrong result ; in a sentence such as ` Hillary wanted , found , and supported two candidates ' , the desired result is where one quantifier scopes over both extensional verbs ( that is , Hillary found and supported the same two candidates ) , just as in the case where all the verbs are extensional .	S-46
+CTR	Further , there does not seem to be an obvious way to modify theproposal so as to produce the correct result , the problem being that the ability to copy quantifiers inherent in their schema is too unrestricted .	S-47
+CTR	A second problem with the account is that , as with's coordination schema ,'s type-raising strategy only applies to coordinate structures .	S-48
+CTR	However , the need to type-raise extends to cases not involving coordination , as in sentence.	S-49
+AIM	We will present an analysis that preserves the intuition underlying's processing strategy , but that predicts and generates the correct reading for cases such as.	S-50
+OWN	Furthermore , the account applies equally to examples not involving coordination , as is the case in sentence.	S-51
+BKG	LFG assumes two syntactic levels of representation : constituent structure ( c-structure ) encodes phrasal dominance and precedence relations , and functional structure ( f-structure ) encodes syntactic predicate-argument structure .	S-52
+BKG	The f-structure for sentenceis given in:	S-53
+BKG	Lexical entries specify syntactic constraints on f-structures as well as semantic information :	S-54
+BKG	Semantic information is expressed in	S-55
+BKG	a meaning language and	S-56
+BKG	a language for assembling meanings , or glue language .	S-57
+BKG	The meaning language could be that of any appropriate logic ; for present purposes , higher-order logic will suffice .	S-58
+BKG	Expressions of the meaning language ( such as Bill ) appear on the right side of the meaning relation.	S-59
+BKG	The glue language is the tensor fragment of linear logic.	S-60
+BKG	The semantic contribution of each lexical entry , which we will refer to as a meaning constructor , is a linear-logic formula consisting of instructions in the glue language for combining the meanings of the lexical entry 's syntactic arguments to obtain the meaning of the f-structure headed by the entry .	S-61
+BKG	For instance , the meaning constructor for the verb supported is a glue language formula paraphrasable as : `` If my SUBJ means X and () my OBJ means Y , then () my sentence means'' .	S-62
+OTH	In the system described in, therelation associates expressions in the meaning language with f-structures .	S-63
+OTH	As a result , each f-structure contributed a single meaning constructor as a resource to be used in a derivation .	S-64
+CTR	Because linear logic does not have any form of logical contraction ( as is inherent in the approaches discussed earlier ) , cases where resources are shared appear to be problematic in this framework .	S-65
+CTR	Intuitively , however , the need for the multiple use of an f-structure meaning results not from the appearance of a particular lexical item ( e.g. , a conjunction ) or a particular syntactic construction ( e.g. , parasitic gap constructions ) , but instead results from multiple paths to it from within the f-structure that contains it , where structure sharing is motivated on syntactic grounds .	S-66
+BAS	We therefore revise the earlier framework to model what we will term occurrences of f-structures as resources explicitly in the logic .	S-67
+OWN	F-structures can mathematically be regarded as ( finite ) functions from a set of attributes to a set of atomic values , semantic forms and ( recursively ) f-structures .	S-68
+OWN	We will identify an occurrence of an f-structure with a path ( from the root ) to that occurrence ; sets of occurrences of an f-structure can therefore be identified with path sets in the f-structure .	S-69
+OWN	We take , then , the domain of theprojection to be path sets in the root f-structure .	S-70
+OWN	Only those path sets S are considered which satisfy the property that the extensions of each path in S are identical .	S-71
+OWN	Therefore the f-structure reached by each of these paths is identical .	S-72
+OWN	Hence from a path set S , we can read off an f-structure.	S-73
+OTH	In the examples discussed inthere is a one-to-one correspondence between the set of path sets S and the set of f-structurespicked out by such path sets , so the two methods yield the same predictions for those cases .	S-74
+OWN	Relations between path sets are represented explicitly as resources in the logic by R-relations .	S-75
+OWN	R-relations are represented as three-place predicates of the formwhich indicate that ( the path set ) G appears at the end of a path P ( of length 1 ) extending ( the path set ) F .	S-76
+OWN	That is , the f-structureappears at the end of the singleton path P in the f-structure.	S-77
+OWN	For example , the f-structure given inresults in two R-relations :	S-78
+OWN	Because f and g represent path sets entering an f-structure that they label , R-relation) indicates that the set of paths( which denotes the set of paths f concatenated with SUBJ ) is a subset of the set of paths denoted by g .	S-79
+OWN	An axiom for interpretation provides the links between meanings of path sets related by R-relations .	S-80
+OWN	According to this axiom , if a set of paths G has meaning X , then for each R-relationthat has been introduced , a resourcecan be produced .	S-81
+OWN	The linear logic operator ` ! ' allows the conclusionto be used as many times as necessary : once for each R-relation R ( F , P , G ) introduced by the f-structure .	S-82
+OWN	We show how a deduction can be performed to derive a meaning for exampleusing the meaning constructors in, R-relationsand, and Axiom I.	S-83
+OWN	Instantiating the lexical entries for Bill , NAFTA , and supported according to the labels on the f-structure in, we obtain the following premises :	S-84
+OWN	First , combining Axiom I with the contribution for Bill yields :	S-85
+OWN	This formula states that if a path set is R-related to the ( path set corresponding to the ) f-structure for Bill , then it receives Bill as its meaning .	S-86
+OWN	From R-relation) and formula, we derive, giving the meaning of the subject of f	S-87
+OWN	The meaning constructor for supported combines withto derive the formula for bill-supported shown in.	S-88
+OWN	Similarly , using the meaning of NAFTA , R-relation, and Axiom I , we can derive the meaning shown in:	S-89
+OWN	and combine it withto derive:	S-90
+OWN	At each step , universal instantiation and modus ponens are used .	S-91
+OWN	A second derivation is also possible , in which supported and NAFTA are combined first and the result is then combined with Bill .	S-92
+OWN	The use of linear logic provides a flexible mechanism for deducing meanings of sentences based on their f-structure representations .	S-93
+BAS	Accounts of various linguistic phenomena have been developed within the framework on which our extension is based , including quantifiers and anaphora, intensional verbs, and complex predicates.	S-94
+OWN	The logic fits well with the ` resource-sensitivity ' of natural language semantics : there is a one-to-one correspondence between f-structure relationships and meanings ; the multiple use of resources arises from multiple paths to them in the f-structure .	S-95
+TXT	In the next section , we show how this system applies to several cases of right-node raising .	S-96
+OWN	First we consider the derivation of the basic case of right-node raising ( RNR ) illustrated in sentence, repeated in.	S-97
+OWN	The f-structure for exampleis shown in.	S-98
+OWN	The meaning constructors contributed by the lexical items are as follows :	S-99
+OWN	Here , we treat and as a binary relation .	S-100
+OWN	This suffices for this example , but in general we will have to allow for cases where more than two constituents are conjoined .	S-101
+OWN	Therefore , a second meaning constructor and 2 is also contributed by the appearance of and , prefixed with the linear logic operator ` ! ' , so that it may be used as many times as necessary ( and possibly not at all , as is the case in this example ) .	S-102
+OWN	The R-relations resulting from the feature-value relationships manifest in the f-structure inare :	S-103
+OWN	There are several equivalent derivation orders ; here we step through one .	S-104
+OWN	Using the meanings for Bill , supported , Hillary , and opposed , R-relationsand, and Axiom I , we can derive meanings for Bill supported and Hillary opposed in the fashion described in Section:	S-105
+OWN	We combine the antecedents and consequents of the foregoing formulae to yield :	S-106
+OWN	Consuming the meaning of and and R-relations [CREF) and, and using Axiom I , we derive :	S-107
+OWN	Using Axiomand R-relationsand, the following implication can be derived :	S-108
+OWN	Using these last two formulae , by transitivity we obtain :	S-109
+OWN	Finally , consuming the contribution of NAFTA , by universal instantiation and modus ponens we obtain a meaning for the whole sentence :	S-110
+OWN	At this stage , all accountable resources have been consumed , and the deduction is complete .	S-111
+OWN	We now consider sentence, where a quantified NP is shared .	S-112
+OWN	observe , and we agree , that the quantifier in such cases only scopes once , resulting in the reading where Bill supported and Hillary opposed the same two bills .	S-113
+BAS	Our analysis predicts this fact in the same way as's analysis does .	S-114
+OWN	The meanings contributed by the lexical items and f-structure dependencies are the same as in the previous example , except for that of the object NP .	S-115
+BAS	Following, the meaning derived using the contributions from an f-structure h for two trade bills is :	S-116
+OWN	The derivation is just as before , up until the final step , where we have derived the formula labeled bill-supported-and-hillary-opposed 2 .	S-117
+OWN	This formula matches the antecedent of the quantified NP meaning , so by universal instantiation and modus ponens we derive :	S-118
+OWN	With this derivation , there is only one quantifier meaning which scopes over the meaning of the coordinated material .	S-119
+OWN	A result where the quantifier meaning appears twice , scoping over each conjunct separately , is not available with the rules we have given thus far ; we return to this point in Section.	S-120
+OWN	The analysis readily extends to cases of noncoordinate RNR such as example, repeated as example.	S-121
+OWN	In our analysis , the f-structure for two trade bills is resource-shared as the object of the two verbs , just as it is in the coordinated case .	S-122
+OWN	Space limitations preclude our going through the derivation ; however , it is straightforward given the semantic contributions of the lexical items and R-relations .	S-123
+OWN	The fact that there is no coordination involved has no bearing on the result , since the semantics of resource-sharing is distinct from that of coordination in our analysis .	S-124
+OWN	As previously noted , this separation is not possible in CCG because of the tight integration between syntax and semantics .	S-125
+OWN	In LFG , the syntax / semantics interface is more loosely coupled , affording the flexibility to handle coordinated and non-coordinated cases of RNR uniformly in the semantics .	S-126
+OWN	This also allows for our semantics of coordination not to require schemas nor entities of polymorphic type ; our meaning of and is type.	S-127
+TXT	We now return to consider cases involving intensional verbs .	S-128
+OWN	The preferred reading for sentence, in which only one quantifier scopes over the two extensional predicates , is shown below :	S-129
+OWN	The f-structure for exampleis given in.	S-130
+OWN	The meaning constructors for the lexical items are given in Figure.	S-131
+OWN	Recall that a second meaning constructor and 2 is introduced by and in order to handle cases where there are more than two conjuncts ; this contribution will be used once in the derivation of the meaning for sentence.	S-132
+OWN	The following R-relations result from the f-structural relationships :	S-133
+BAS	Following the analysis given in, the lexical entry for want takes a quantified NP as an argument .	S-134
+OWN	This requires that the quantified NP meaning be duplicated , since otherwise no readings result .	S-135
+OWN	We provide a special rule for duplicating quantified NPs when necessary :	S-136
+OWN	In the interest of space , again we only show a few steps of the derivation .	S-137
+OWN	Combining the meanings for Hillary , found , supported , and and , Axiom I , and R-relations,,,,, and, we can derive :	S-138
+OWN	We duplicate the meaning of two candidates using QNP Duplication , and combine one copy with the foregoing formula to yield :	S-139
+OWN	We then combine the other meaning of two candidates with the meanings of Hillary and wanted , and using Axiom I and R-relations) ,, andwe obtain :	S-140
+OWN	Finally , using and 2 with the two foregoing formulae , we deduce the desired result :	S-141
+BAS	We can now specify astyle processing strategy , which is to prefer readings which require the least use of QNP duplication .	S-142
+OWN	This strategy predicts the readings generated for the examples in Section.	S-143
+OWN	It also predicts the desired reading for sentence, since that reading requires two quantifiers .	S-144
+CTR	While the reading generated byis derivable , it requires three quantifiers and thus uses QNP duplication twice , which is less preferred than the reading requiring two quantifiers which uses QNP duplication once .	S-145
+CTR	Also , it allows some flexibility in cases where pragmatics strongly suggests that quantifiers are copied and distributed for multiple extensional verbs ; unlike theaccount , this would apply equally to the case where there are also intensional verbs and the case where there are not .	S-146
+OWN	Finally , our account readily applies to cases of intensional verbs without coordination as in example, since it applies more generally to cases of resource sharing .	S-147
+AIM	We have given an account of resource sharing in the syntax / semantics interface of LFG .	S-148
+OWN	The multiple use of semantic contributions results from viewing dependencies in f-structures as resources ; in this way the one-to-one correspondence between f-structure relations and meanings is maintained .	S-149
+CTR	The resulting account does not suffer from overgeneration inherent in other approaches , and applies equally to cases of resource sharing that do not involve coordination .	S-150
+CTR	Furthermore , it lends itself readily to an extension for the intensional verb case that has advantages over the widely-assumed account of.	S-151
+OWN	Here we have separated the issue of arriving at the appropriate f-structure in the syntax from the issue of deriving the correct semantics from the f-structure .	S-152
+OWN	We have argued that this is the correct distinction to make , and have given a treatment of the second issue .	S-153
+OWN	A treatment of the first issue will be articulated in a future forum .	S-154

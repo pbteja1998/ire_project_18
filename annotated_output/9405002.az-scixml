@@ -1,0 +1,84 @@
+BKG	The temporal relations that hold between events described by successive utterances are often left implicit or underspecified .	A-0
+AIM	We address the role of two phenomena with respect to the recovery of these relations :	A-1
+AIM	the referential properties of tense , and	A-2
+AIM	the role of temporal constraints imposed by coherence relations .	A-3
+AIM	We account for several facets of the identification of temporal relations through an integration of these .	A-4
+BKG	Tense interpretation has received much attention in linguistics,,, inter alia , and natural language processing,,, inter alia .	S-0
+OTH	Several researchers,,,have sought to explain the temporal relations induced by tense by treating it as anaphoric , drawing on's separation between event , speech , and reference times.	S-1
+OTH	Specifically , to account for the forward progression of time induced by successive simple past tenses in a narrative , they treat the simple past as referring to a time evoked by a previous past tense .	S-2
+OTH	For instance , in'sproposal , accomplishments and achievements introduce a new reference point that is temporally ordered after the time of the event itself , `` ensuring that two consecutive accomplishments or achievements in a discourse are always ordered in a temporal sequence . ''	S-3
+OTH	On the other hand ,take the view that temporal relations are resolved purely as a by-product of reasoning about coherence relations holding between utterances , and in doing so , argue that treating simple and complex tenses as anaphoric is unnecessary .	S-4
+OTH	This approach parallels the treatment of pronoun resolution espoused by, in which pronouns are modeled as free variables that are bound as a by-product of coherence resolution .	S-5
+OTH	The Temporal Centering frameworkintegrates aspects of both approaches , but patterns with the first in treating tense as anaphoric .	S-6
+AIM	We argue that aspects of both analyses are necessary to account for the recovery of temporal relations .	S-7
+BKG	To demonstrate our approach we will address the following examples ; passages-are taken from.	S-8
+BKG	Passageis understood as a narrative , indicating that the spilling was subsequent to the slipping .	S-9
+BKG	Passagesare instead understood as the second clause explaining the first , indicating that the reverse temporal ordering holds .	S-10
+CTR	We address two related questions ; the first arises from treating the simple past as anaphoric .	S-11
+CTR	Specifically , if a treatment such as's is used to explain the forward progression of time in example, then it must be explained why sentenceis as felicitous as sentence.	S-12
+CTR	That is , one would predict a clash of temporal relations for sentence, since the simple pasts induce the forward progression of time but the conjunction indicates the reverse temporal ordering .	S-13
+CTR	The second question arises from assuming that all temporal relations are recovered solely from reasoning with coherence relations .	S-14
+CTR	Specifically , because the use of the simple past in passageis as felicitous as the past perfect in passageunder the explanation interpretation ( in these cases indicated explicitly by because ) , then it must be explained why passageis not understood as an explanation as is passage, where in each case the relationship needs to be inferred .	S-15
+TXT	We present our analysis in the next section , and account for these facts in Section.	S-16
+OWN	We postulate rules characterizing the referential nature of tense and the role of discourse relations in further constraining the temporal relations between clauses .	S-17
+OWN	The rules governing tense are :	S-18
+OWN	Main verb tenses are indefinitely referential , creating a new temporal entity under constraints imposed by its type ( i.e. , past , present , or future ) in relation to a discourse reference time.	S-19
+OWN	For instance , a main verb past tense introduces a new temporal entity t under the constraint prior-to ( t , t) .	S-20
+OWN	For simple tensesis the speech time , and therefore simple tenses are not anaphoric .	S-21
+OWN	Tensed auxiliaries in complex tenses are anaphoric , identifyingas a previously existing temporal entity .	S-22
+OWN	The indefinite main verb tense is then ordered with respect to this.	S-23
+OWN	The tenses used may not completely specify the implicit temporal relations between the described events .	S-24
+OWN	We claim that these relations may be further refined by constraints imposed by the coherence relation operative between clauses .	S-25
+OWN	We describe three coherence relations relevant to the examples in this paper and give temporal constraints for them .	S-26
+OWN	Narration :	S-27
+OWN	The Narration relation is characterized by a series of events displaying forward movement of time , such as in passage) .	S-28
+BAS	As did, we capture this ordering as a constraint imposed by the Narration coherence relation itself :	S-29
+OWN	If Narration (A,B) then.	S-30
+OWN	Parallel :	S-31
+OWN	The Parallel relation relates utterances that share a common topic .	S-32
+OWN	This relation does not impose constraints on the temporal relations between the events beyond those provided by the tenses themselves .	S-33
+OWN	For instance , if passagewas uttered in response to the question	S-34
+OWN	( inducing a Parallel relation instead of Narration ) , a temporal ordering among the sentences is no longer implied .	S-35
+OWN	Explanation :	S-36
+OWN	The Explanation relation denotes a cause-effect relationship with reversed clause ordering , as in sentences.	S-37
+OWN	Therefore , the second event is constrained to preceding the first :	S-38
+OWN	If Explanation (A,B) then.	S-39
+OWN	To summarize the analysis , we claim that tense operates as indefinite reference with respect to a possibly anaphorically-resolved discourse reference time .	S-40
+OWN	The temporal relations specified may be further refined as a by-product of establishing the coherence relationship extant between clauses , Narration being but one such relation .	S-41
+OWN	We now analyze the examples presented in Section, repeated below , using this approach :	S-42
+OWN	The implicit ordering on the times indefinitely evoked by the simple pasts in passageresults solely from understanding it as a Narration .	S-43
+OWN	In passage, the auxiliary had refers to the event time of the slipping , and thus the past tense on spill creates a temporal entity constrained to precede that time .	S-44
+OWN	This necessitates a coherence relation that is consistent with this temporal order , in this case , Explanation .	S-45
+OWN	In passage, the times evoked by the simple pasts are further ordered by the Explanation relation indicated by because , resulting in the backward progression of time .	S-46
+OWN	In passage, both the tense and the coherence relation order the times in backward progression .	S-47
+CTR	Restating the first problem noted in Section, if treating the simple past as anaphoric is used to account for the forward progression of time in passage (, then one would expect the existence of the Explanation relation in passageto cause a temporal clash , where in fact passageis perfectly felicitous .	S-48
+OWN	No clash of temporal relations is predicted by our account , because the use of the simple pasts do not in themselves imply a specific ordering between them .	S-49
+OWN	The Narration relation orders the times in forward progression in passageand the Explanation relation orders them in backward progression in passage.	S-50
+OWN	The Parallel relation would specify no ordering ( see the potential context for passagegiven in Section) .	S-51
+CTR	Restating the second problem noted in Section, if temporal relations can be recovered solely from reasoning with coherence relations , and the use of the simple past in passageis as felicitous as the past perfect in passageunder the Explanation interpretation , then one asks why passageis not understood as an Explanation as is passage, where in each case the relationship needs to be inferred .	S-52
+OWN	We hypothesize that hearers assume that speakers are engaging in Narration in absence of a specific cue to the contrary .	S-53
+OWN	The use of the past perfect ( as in passage) ) is one such cue since it implies reversed temporal ordering ; the use of an explicit conjunction indicating a coherence relation other than Narration ( as in passagesis another such cue .	S-54
+OWN	While passagecould be understood as an Explanation on semantic grounds , the hearer assumes Narration since no other relation is cued .	S-55
+CTR	We see several advantages of this approach over that of, henceforth.	S-56
+OTH	First ,note the incoherence of example	S-57
+OTH	in arguing that the past perfect should not be treated as anaphoric :	S-58
+OTH	`` Theories that analyse the distinction between the simple past and pluperfect purely in terms of different relations between reference times and event times , rather than in terms of event-connections , fail to explain whyis acceptable butis awkward . '', pg. 470	S-59
+OTH	Exampleindeed shows that coherence relations need to be utilized to account for temporal relations , but it does not bear on the issue of whether the past perfect is anaphoric .	S-60
+OTH	The incoherence of exampleis predicted by both their and our accounts by virtue of the fact that there is no coherence relation that corresponds to Narration with reverse temporal ordering .	S-61
+OTH	In addressing this example ,specify a special rule ( the Connections When Changing Tense ( CCT ) Law ) that stipulates that a sentence containing the simple past followed by a sentence containing the past perfect can be related only by a subset of the otherwise possible coherence relations .	S-62
+CTR	However , this subset contains just those relations that are predicted to be possible by accounts treating the past perfect as anaphoric ; they are the ones that do not constrain the temporal order of the events against displaying backward progression of time .	S-63
+CTR	Therefore , we see no advantages to adopting their rule ; furthermore , they do not comment on what other laws have to be stipulated to account for the facts concerning other possible tense combinations .	S-64
+OTH	Second , to explain why the Explanation relation can be inferred for passagebut not for passage,stipulate that their causal Slipping Law ( stating that spilling can cause slipping ) requires that the CCT Law be satisfied .	S-65
+OTH	This constraint is imposed only to require that the second clause contain the past perfect instead of the simple past .	S-66
+CTR	However , this does not explain why the use of the simple past is perfectly coherent when the Explanation relationship is indicated overtly as it is in sentence, nor do they adequately explain why CCT must be satisfied for this causal law and not for those supporting similar examples for which they successfully infer an unsignaled Explanation relation ( see discussion of example, pg. 463 ) .	S-67
+CTR	Third , theaccount does not explain why the past perfect cannot stand alone nor discourses generally be opened with it ; consider stating sentencein isolation :	S-68
+CTR	Intuitively , such usage is infelicitous because of a dependency on a contextually salient time which has not been previously introduced .	S-69
+CTR	This is not captured by theaccount because sentences containing the past perfect are treated as sententially equivalent to those containing the simple past .	S-70
+CTR	On the other hand , sentences in the simple past are perfectly felicitous in standing alone or opening a discourse , introducing an asymmetry in accounts treating the simple past as anaphoric to a previously evoked time .	S-71
+OWN	All of these facts are explained by the account given here .	S-72
+AIM	We have given an account of temporal relations whereby	S-73
+AIM	tense is resolved indefinitely with respect to a possibly anaphorically-resolved discourse reference time , and	S-74
+AIM	the resultant temporal relations may be further refined by constraints that coherence relations impose .	S-75
+OWN	This work is being expanded to address issues pertaining to discourse structure and inter-segment coherence .	S-76
+OWN	This work was supported in part by National Science Foundation Grant IRI - 9009018 , National Science Foundation Grant IRI - 9350192 , and a grant from the Xerox Corporation .	S-77
+OWN	I would like to thank Stuart Shieber and Barbara Grosz for valuable discussions and comments on earlier drafts .	S-78

@@ -1,0 +1,222 @@
+AIM	This paper defines a languagefor specifying LFG grammars .	A-0
+OWN	This enables constraints on LFG 's composite ontology ( c-structures synchronised with f-structures ) to be stated directly ; no appeal to the LFG construction algorithm is needed .	A-1
+OWN	We useto specify schemata annotated rules and the LFG uniqueness , completeness and coherence principles .	A-2
+OWN	Broader issues raised by this work are noted and discussed .	A-3
+OTH	Unlike most linguistic theories , LFGtreats grammatical relations as first class citizens .	S-0
+OTH	Accordingly , it casts its linguistic analyses in terms of a composite ontology : two independent domains -- a domain of constituency information ( c-structure ) , and a domain of grammatical function information ( f-structure ) -- linked together in a mutually constraining manner .	S-1
+OTH	As has been amply demonstrated over the last fifteen years , this view permits perspicuous analyses of a wide variety of linguistic data .	S-2
+CTR	However standard formalisations of LFG do not capture its strikingly simple underlying intuitions .	S-3
+OTH	Instead , they make a detour via the LFG construction algorithm , which explains how equational constraints linking subtrees and feature structures are to be resolved .	S-4
+CTR	The main point of the present paper is to show that such detours are unnecessary .	S-5
+AIM	We define a specification languagein which ( most of ) the interactions between c - and f-structure typical of LFG grammars can be stated directly .	S-6
+OWN	The key idea underlying our approach is to think about LFG model theoretically .	S-7
+AIM	That is , our first task will be to give a precise -- and transparent -- mathematical picture of the LFG ontology .	S-8
+OWN	As has already been noted , the basic entities underlying the LFG analyses are composite structures consisting of a finite tree , a finite feature structure , and a function that links the two .	S-9
+OWN	Such structures can straightforwardly be thought of as models , in the usual sense of first order model theory.	S-10
+OWN	Viewing the LFG ontology in such terms does no violence to intuition : indeed , as we shall see , a more direct mathematical embodiment of the LFG universe can hardly be imagined .	S-11
+AIM	Once the ontological issues have been settled we turn to our ultimate goal : providing a specification language for LFG grammars .	S-12
+OWN	Actually , with the ontological issues settled it is a relatively simple task to devise suitable specification languages : we simply consider how LFG linguists talk about such structures when they write grammars .	S-13
+OWN	That is , we ask ourselves what kind of constraints the linguist wishes to impose , and then devise a language in which they can be stated .	S-14
+OWN	Thus we shall proceed as follows .	S-15
+OWN	After a brief introduction to LFG , we isolate a class of models which obviously mirrors the composite nature of the LFG ontology , and then turn to the task of devising a language for talking about them .	S-16
+OWN	We opt for a particularly simple specification language : a propositional language enriched with operators for talking about c - and f-structures , together with a path equality construct for enforcing synchronisation between the two domains .	S-17
+OWN	We illustrate its use by showing how to capture the effect of schemata annotated rules , and the LFG uniqueness , completeness and coherence principles .	S-18
+OWN	Before proceeding , a word of motivation is in order .	S-19
+BKG	Firstly , we believe that there are practical reasons for interest in grammatical specification languages : formal specification seems important ( perhaps essential ) if robust large scale grammars are to be defined and maintained .	S-20
+OWN	Moreover , the essentially model theoretic slant on specification we propose here seems particularly well suited to this aim .	S-21
+OWN	Models do not in any sense `` code '' the LFG ontology : they take it pretty much at face value .	S-22
+OWN	In our view this is crucial .	S-23
+OWN	Formal approaches to grammatical theorising should reflect linguistic intuitions as directly as possible , otherwise they run the risk of being an obstacle , not an aid , to grammar development .	S-24
+OWN	The approach also raises theoretical issues .	S-25
+OWN	The model theoretic approach to specification languages forces one to think about linguistic ontologies in a systematic way , and to locate them in a well understood mathematical space .	S-26
+OWN	This has at least two advantages .	S-27
+OWN	Firstly , it offers the prospect of meaningful comparison of linguistic frameworks .	S-28
+OWN	Secondly , it can highlight anomalous aspects of a given system .	S-29
+OWN	For example , as we shall later see , there seems to be no reasonable way to deal with LFG 'sdefinitions using the simple models of the present paper .	S-30
+OWN	There is a plausible model theoretic strategy strategy for extending our account to cover; but the nature of the required extension clearly shows thatis of a quite different character to the bulk of LFG .	S-31
+TXT	We discuss the matter in the paper 's concluding section .	S-32
+BKG	A lexical functional grammar consists of three main components : a set of context free rules annotated with schemata , a set of well formedness conditions on feature structures , and a lexicon .	S-33
+BKG	The role of these components is to assign two interrelated structures to any linguistic entity licensed by the grammar : a tree ( the c-structure ) and a feature structure ( the f-structure ) .	S-34
+BKG	Briefly , the context free skeleton of the grammar rules describes the c-structure , the well-formedness conditions restrict f-structure admissibility , and the schemata synchronise the information contained in the c - and f-structures .	S-35
+BKG	To see how this works , let 's run through a simple example .	S-36
+BKG	Consider the grammar given in Figure.	S-37
+BKG	Briefly , the up - and down-arrows in the schemata can be read as follows :denotes the value of Feature in the f-structure associated with the tree node immediately dominating the current tree node , whereasdenotes the value of Feature in the f-structure associated with the current tree node .	S-38
+BKG	For instance , in rulethe NP schema indicates that the f-structure associated with the NP node is the value of the subj feature in the f-structure associated with the mother node .	S-39
+BKG	As for the VP schema , it requires that the f-structure associated with the mother node is identical with the f-structure associated with the VP node .	S-40
+BKG	Given the above lexical entries , it is possible to assign a correctly interrelated c-structure and f-structure to the sentence A girl walks .	S-41
+BKG	Moreover , the resulting f-structure respects the LFG well formedness conditions , namely the uniqueness , completeness and coherence principles discussed in section.	S-42
+BKG	Thus A girl walks is accepted by this grammar .	S-43
+BKG	The ontology underlying LFG is a composite one , consisting of trees , feature structures and links between the two .	S-44
+OWN	Our first task is to mathematically model this ontology , and to do so as transparently as possible .	S-45
+OWN	That is , the mathematical entities we introduce should clearly reflect the intuitions important to LFG theorising -- `` No coding ! '' , should be our slogan .	S-46
+TXT	In this section , we introduce such a representation of LFG ontology .	S-47
+TXT	In the following section , we shall present a formal language for talking about this representation ; that is , a language for specifying LFG grammars .	S-48
+OWN	We work with the following objects .	S-49
+OWN	A model is a tripartite structure, whereis our mathematical picture of c - structure ,our picture of f-structure , and zoomin our picture of the link between the two .	S-50
+OWN	We now define each of these components .	S-51
+OWN	Our definitions are given with respect to a signature of the form, where Cat , Atom and Feat are non-empty , finite or denumerably infinite sets .	S-52
+OWN	The intuition is that these sets denote the syntactic categories , the atomic values , and the features that the linguist has chosen for some language .	S-53
+OWN	For instance , Cat could be, Atom might beand Feat might be.	S-54
+OWN	Firstly we define.	S-55
+OWN	As this is our mathematical embodiment of c-structure ( that is , a category labeled tree ) we take it to be a pair, where T is a finite ordered tree andis a function from the set of tree nodes to Cat .	S-56
+OWN	We will freely use the usual tree terminology such as mother-of , daughter-of , dominates , and so on .	S-57
+OWN	Second , we taketo be a tuple of the form, where W is a finite , non-empty set of nodes ;is a partial function from W to W , for all; initial is a unique node in W such that any other node w ' of W can be reached by applying a finite number ofto initial ; Final is a non-empty set of nodes such that for alland all,is undefined ; andis a function from Final to.	S-58
+OWN	This is a standard way of viewing feature structures , and is appropriate for LFG .	S-59
+OWN	Finally , we take zoomin , the link between c-structure and f-structure information , to be a partial function from T to W .	S-60
+OWN	This completes our mathematical picture of LFG ontology .	S-61
+OWN	It is certainly a precise picture ( all three components , and how they are related are well defined ) , but , just as importantly , it is also a faithful picture ; models capture the LFG ontology perspicuously .	S-62
+OWN	Although models pin down the essence of the LFG universe , our work has only just begun .	S-63
+OWN	For a start , not all models are created equal .	S-64
+OWN	Which of them correspond to grammatical utterances of English ?	S-65
+OWN	Of Dutch ?	S-66
+OWN	Moreover , there is a practical issue to be addressed : how should we go about saying which models we deem ` good ' ?	S-67
+OWN	To put in another way , in what medium should we specify grammars .	S-68
+OWN	Now , it is certainly possible to talk about models using natural language ( as readers of this paper will already be aware ) and for many purposes ( such as discussion with other linguists ) natural language is undoubtedly the best medium .	S-69
+OWN	However , if our goal is to specify large scale grammars in a clear , unambiguous manner , and to do so in such a way that our grammatical analyses are machine verifiable , then the use of formal specification languages has obvious advantages .	S-70
+OWN	But which formal specification language ?	S-71
+OWN	There is no single best answer : it depends on one 's goals .	S-72
+OWN	However there are some important rules of thumb : one should carefully consider the expressive capabilities required ; and a judicious commitment to simplicity and elegance will probably pay off in the long run .	S-73
+OWN	Bearing this advice in mind , let us consider the nature of LFG grammars .	S-74
+OWN	Firstly , LFG grammars impose constraints on.	S-75
+OWN	Context free rules are typically used for this purpose -- which means , in effect , that constraints are being imposed on the ` daughter of ' and ` sister of ' relations of the tree .	S-76
+OWN	Secondly , LFG grammars impose general constraints on various features in.	S-77
+OWN	Such constraints ( for example the completeness constraint ) are usually expressed in English and make reference to specific features ( notably pred ) .	S-78
+OWN	Thirdly , LFG grammars impose constraints on zoomin .	S-79
+OWN	As we have already seen , this is done by annotating the context free rules with equations .	S-80
+OWN	These constraints regulate the interaction of the ` mother of ' relation on, zoomin , and specific features in.	S-81
+OWN	Thus a specification language adequate for LFG must be capable of talking about the usual tree relations , the various features , and zoomin ; it must also be powerful enough to permit the statement of generalisations ; and it must have some mechanism for regulating the interaction betweenand.	S-82
+OWN	These desiderata can be met by making use of a propositional language augmented with	S-83
+OWN	modal operators for talking about trees	S-84
+OWN	modal operators for talking about feature structures , and	S-85
+OWN	a modal operator for talking about zoomin , together with a path equality construct for synchronising the information flow between the two domains .	S-86
+OWN	Let us build such a language .	S-87
+OWN	Our language is called and its primitive symbols ( with respect to a given signature) consists of	S-88
+OWN	all items in Cat and Atom	S-89
+OWN	two constants , c-struct and f-struct ,	S-90
+OWN	the Boolean connectives ( true , false ,,,, etc .	S-91
+OWN	) ,	S-92
+OWN	three tree modalities,and,	S-93
+OWN	a modality, for each feature,	S-94
+OWN	a synchronisation modality,	S-95
+OWN	a path equality constructor, together with	S-96
+OWN	the brackets `` ) '' and `` ( '' .	S-97
+OWN	The basic well formed formulas ( basic wffs ) of are :, where Patheq is defined as follows .	S-98
+OWN	Let t , t ' be finite ( possibly null ) sequences of the modalitiesand, and let f , f ' be finite ( possibly null ) sequences of feature modalities .	S-99
+OWN	Thenis in Patheq , and nothing else is .	S-100
+OWN	The wffs of are defined as follows :	S-101
+OWN	all basic wffs are wffs ,	S-102
+OWN	all Boolean combinations of wffs are wffs ,	S-103
+OWN	ifis a wff then so is, whereand	S-104
+OWN	if n  >  0 , andare wffs , then so is.	S-105
+OWN	Nothing else is a wff .	S-106
+OWN	Now for the satisfaction definition .	S-107
+OWN	We inductively define a three place relationwhich holds between models, nodes n and wffs.	S-108
+OWN	Intuitively ,means that the constraintholds at ( is true at , is satisfied at ) the node n in model.	S-109
+OWN	The required inductive definition is as follows :	S-110
+OWN	For the most part the import of these clauses should be clear .	S-111
+OWN	The constants true and false play their usual role , c-struct and f-struct give us ` labels ' for our two domains , while the elements of Cat and Atom enable us to talk about syntactic categories and atomic f-structure information respectively .	S-112
+OWN	The clauses forandare the usual definitions of classical logic , thus we have all propositional calculus at our disposal ; as we shall see , this gives us the flexibility required to formulate non-trivial general constraints .	S-113
+OWN	More interesting are the clauses for the modalities .	S-114
+OWN	The unary modalities,,, andand the variable arity modalitygive us access to the binary relations important in formulating LFG grammars .	S-115
+OWN	Incidentally ,is essentially a piece of syntactic sugar ; it could be replaced by a collection of unary modalities.	S-116
+OWN	However , as theoperator is quite a convenient piece of syntax for capturing the effect of phrase structure rules , we have included it as a primitive in .	S-117
+OWN	In fact , the only clause in the satisfaction definition which is at all complex is that for.	S-118
+OWN	It can be glossed as follows .	S-119
+OWN	Letandbe the path sequences through the tree corresponding to t and t ' respectively , and letandbe the path sequences through the feature structure corresponding to f and f ' respectively .	S-120
+OWN	Thenis satisfied at a tree node t iff there is a feature structure node w that can be reached from t by making both the transition sequenceand the transition sequence.	S-121
+OWN	Clearly , this construct is closely related to thepath equality; the principle difference is that whereas theenforces path equalities within the domain of feature structures , the LFG path equality enforces equalities between the tree domain and the feature structure domain .	S-122
+OWN	Ifthen we say thatis satisfied inat n .	S-123
+OWN	Iffor all nodes n in then we say thatis valid inand write.	S-124
+OWN	Intuitively , to say thatis valid inis to say that the constraintholds universally ; it is a completely general fact about.	S-125
+OWN	As we shall see in the next section , the notion of validity has an important role to play in grammar specification .	S-126
+OWN	We will now illustrate how can be used to specify grammars .	S-127
+OWN	The basic idea is as follows .	S-128
+OWN	We write down a wffwhich expresses all our desired grammatical constraints .	S-129
+OWN	That is , we state in which trees and feature structures are admissible , and how tree and feature based information is to be synchronised ; examples will be given shortly .	S-130
+OWN	Now , a model is simply a mathematical embodiment of LFG sentence structure , thus those modelsin whichis valid are precisely the sentence structures which embody all our grammatical principles .	S-131
+OWN	Now for some examples .	S-132
+OWN	Let 's first consider how to write specifications which capture the effect of schemata annotated grammar rules .	S-133
+OWN	Suppose we want to capture the meaning of ruleof Figure, repeated here for convenience :	S-134
+OWN	Recall that this annotated rule licenses structures consisting of a binary tree whose mother node m is labeled S and whose daughter nodesandare labeled NP and VP respectively ; and where , furthermore , the S and VP nodes ( that is , m and) are related to the same f-structure node w ; while the NP node ( that is ,) is related to the node w ' in the f-structure that is reached by making a subj transition from w .	S-135
+OWN	This is precisely the kind of structural constraint that is designed to specify .	S-136
+OWN	We do so as follows :	S-137
+OWN	This formula is satisfied in a model at any node m iff m is labeled with the category S , has exactly two daughtersandlabeled with category NP and VP respectively .	S-138
+OWN	Moreover ,must be associated with an f-structure node w ' which can also be reached by making atransition from the f-structure node w associated with the mother node of m .	S-139
+OWN	( In other words , that part of the f-structure that is associated with the NP node is re-entrant with the value of the subj feature in the f-structure associated with the S node .	S-140
+OWN	And finally ,must be associated with that f-structure node w which m  .	S-141
+OWN	( In other words , the part of the f-structure that is associated with the VP node is re-entrant with that part of the f-structure which is associated with the S node . )	S-142
+OWN	In short , we have captured the effect of an annotated rule purely declaratively .	S-143
+OWN	There is no appeal to any construction algorithm ; we have simply stated how we want the different pieces to fit together .	S-144
+OWN	Note thatspecifies local tree admissibility ( thus obviating the need for rewrite rules ) , and,andwork together to capture the effect ofand.	S-145
+OWN	In any realistic LFG grammar there will be several -- often many -- such annotated rules , and acceptable c-structures are those in which each non-terminal node is licensed by one of them .	S-146
+OWN	We specify this as follows .	S-147
+OWN	For each such rule we form the analogous wff( just as we did in the previous example ) and then we form the disjunctionof all such wffs .	S-148
+OWN	Now , any non-terminal node in the c-structure should satisfy one of these disjunctions ( that is , each sub-tree of c-struct must be licensed by one of these conditions ) ; moreover the disjunction is irrelevant to the terminal nodes of c-struct and all the nodes in f-struct .	S-149
+OWN	Thus we demand that the following conditional statement be valid :	S-150
+OWN	This says that if we are at a c-struct node which has at least one daughter ( that is , a non-terminal node ) then one of the subtree licensing disjuncts ( or ` rules ' ) must be satisfied there .	S-151
+OWN	This picks precisely those models in which all the tree nodes are appropriately licensed .	S-152
+OWN	Note that the statement is indeed valid in such models : it is true at all the non-terminal nodes , and is vacuously satisfied at terminal tree nodes and nodes of f-struct .	S-153
+OWN	We now turn to the second main component of LFG , the well formedness conditions on f-structures .	S-154
+OWN	Consider first the uniqueness principle .	S-155
+OWN	In essence , this principle states that in a given f-structure , a particular attribute may have at most one value .	S-156
+OWN	In this restriction is ` built in ' : it follows from the choices made concerning the mathematical objects composing models .	S-157
+OWN	Essentially , the uniqueness principle is enforced by two choices .	S-158
+OWN	First ,associates atoms only with final nodes of f-structures ; and asis a function , the atom so associated is unique .	S-159
+OWN	In effect , this hard-wires prohibitions against constant-compound and constant-constant clashes into the semantics of .	S-160
+OWN	Second , we have modeled features as partial functions on the f-structure nodes - this ensures that any complex valued attribute is either undefined , or is associated with a unique sub-part of the current f-structure .	S-161
+OWN	In short , as required , any attribute will have at most one value .	S-162
+OWN	We turn to the completeness principle .	S-163
+OWN	In LFG , this applies to a ( small ) finite number of attributes ( that is , transitions in the feature structure ) .	S-164
+OWN	This collection includes the grammatical functions ( e.g. subj , obj , iobj ) together with some longer transitions such as obl ; obj and to ; obj .	S-165
+OWN	Let GF be a metavariable over the modalities corresponding to the elements of this set , thus GF contains such items as,,,and.	S-166
+OWN	Now , the completeness principle requires that any of these features appearing as an attribute in the value of the pred attribute must also appear as an attribute of the f-structure immediately containing this pred attribute , and this recursively .	S-167
+OWN	The following wff is valid on precisely those models satisfying the completeness principle :	S-168
+OWN	Finally , consider the counterpart of the completeness principle , the coherence principle .	S-169
+OWN	This applies to the same attributes as the completeness principle and requires that whenever they occur in an f-structure they must also occur in the f-structure associated with its pred attribute .	S-170
+OWN	This is tantamount to demanding the validity of the following formula :	S-171
+AIM	The discussion so far should have given the reader some idea of how to specify LFG grammars using.	S-172
+OWN	To conclude we would like to discussdefinitions .	S-173
+OWN	This topic bears on an important general issue : how are the ` dynamic ' ( or ` generative ' , or ` procedural ' ) aspects of grammar to be reconciled with the ` static ' , ( or ` declarative ' ) model theoretic world view .	S-174
+OWN	The point is this .	S-175
+OTH	Although the LFG equations discussed so far were defining equations , LFG also allows so-called constraining equations ( written) .	S-176
+OTH	explain the difference as follows .	S-177
+OTH	Defining equations allow a feature-value pair to be inserted into an f-structure providing no conflicting information is present .	S-178
+OTH	That is , they add a feature value pair to any consistent f-structure .	S-179
+OTH	In contrast , constraining equations are intended to constrain the value of an already existing feature-value pair .	S-180
+OTH	The essential difference is that constraining equations require that the feature under consideration already has a value , whereas defining equations apply independently of the feature value instantiation level .	S-181
+OWN	In short , constraining equations are essentially a global check on completed structures which require the presence of certain feature values .	S-182
+OWN	They have an eminently procedural character , and there is no obvious way to handle this idea in the present set up .	S-183
+OWN	The bulk of LFG involves stating constraints about a single model , and is well equipped for this task , but constraining equations involve looking at the structure of other possible parse trees .	S-184
+OWN	( In this respect they are reminiscent of the feature specification defaults of GPSG. )	S-185
+OWN	The approach of the present paper has been driven by the view that	S-186
+OWN	models capture the essence of LFG ontology , and ,	S-187
+OWN	the task of the linguist is to explain , in terms of the relations that exist within a single model , what grammatical structure is .	S-188
+OWN	Most of the discussion inis conducted in such terms .	S-189
+OWN	However constraining equations broaden the scope of the permitted discourse ; basically , they allow implicit appeal to possible derivational structure .	S-190
+OWN	In short , in common with most of the grammatical formalisms with which we are familiar , LFG seems to have a dynamic residue that resists a purely declarative analysis .	S-191
+OWN	What should be done ?	S-192
+OWN	We see three possible responses .	S-193
+OWN	Firstly , we note that the model theoretic approach can almost certainly be extended to cover constraining equations .	S-194
+OWN	The move involved is analogous to the way first order logic ( a so-called ` extensional ' logic ) can be extended to cope with intensional notions such as belief and necessity .	S-195
+OWN	The basic idea -- it 's the key idea underlying first order Kripke semantics -- is to move from dealing with a single model to dealing with a collection of models linked by an accessibility relation .	S-196
+OWN	Just as quantification over possible states of affairs yields analyses of intensional phenomena , so quantification over related models could provide a ` denotational semantics ' for.	S-197
+OWN	Preliminary work suggests that the required structures have formal similarities to the structures used in preferential semantics for default and non-monotonic reasoning .	S-198
+OWN	This first response seems to be a very promising line of work : the requisite tools are there , and the approach would tackle a full blooded version of LFG head on .	S-199
+OWN	The drawback is the complexity it introduces into an ( up till now ) quite simple story .	S-200
+OWN	Is such additional complexity really needed .	S-201
+OWN	A second response is to admit that there is a dynamic residue , but to deal with it in overtly computational terms .	S-202
+OWN	In particular , it may be possible to augment our approach with an explicit operational semantics , perhaps the evolving algebra approach adopted by.	S-203
+OWN	Their approach is attractive , because it permits a computational treatment of dynamism that abstracts from low level algorithmic details .	S-204
+OWN	In short , the second strategy is a ` divide and conquer ' strategy : treat structural issues using model theoretic tools , and procedural issues with ( revealing ) computational tools .	S-205
+OWN	It 's worth remarking that this second response is not incompatible with the first ; it is common to provide programming languages with both a denotational and an operational semantics .	S-206
+OWN	The third strategy is both simpler and more speculative .	S-207
+OWN	While it certainly seems to be the case that LFG ( and other ` declarative ' formalisms ) have procedural residues , it is far from clear that these residues are necessary .	S-208
+OWN	One of the most striking features of LFG ( and indeed , GPSG ) is the way that purely structural ( that is , model theoretic ) argumentation dominates .	S-209
+OWN	Perhaps the procedural aspects are there more or less by accident ?	S-210
+OWN	After all , both LFG and GPSG drew on ( and developed ) a heterogeneous collection of traditional grammar specification tools , such as context free rules , equations , and features .	S-211
+OWN	It could be the case such procedural residues asare simply an artifact of using the wrong tools for talking about models .	S-212
+OWN	If this is the case , it might be highly misguided to attempt to captureusing a logical specification language .	S-213
+OWN	Better , perhaps , would be to draw on what is good in LFG and to explore the logical options that arise naturally when the model theoretic view is taken as primary .	S-214
+OWN	Needless to say , the most important task that faces this third response is to get on with the business of writing grammars ; that , and nothing else , is the acid test .	S-215
+OWN	It is perhaps worth adding that at present the authors simply do not know what the best response is .	S-216
+OWN	If nothing else , the present work has made very clear to us that the interplay of static and dynamic ideas in generative grammar is a delicate and complex matter which only further work can resolve .	S-217

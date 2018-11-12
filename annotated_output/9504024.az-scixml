@@ -1,0 +1,147 @@
+AIM	This paper introduces a spelling correction system which integrates seamlessly with morphological analysis using a multi-tape formalism .	A-0
+OWN	Handling of various Semitic error problems is illustrated , with reference to Arabic and Syriac examples .	A-1
+OWN	The model handles errors vocalisation , diacritics , phonetic syncopation and morphographemic idiosyncrasies , in addition toerrors .	A-2
+OWN	A complementary correction strategy for morphologically sound but morphosyntactically ill-formed words is outlined .	A-3
+BKG	Semitic is known amongst computational linguists , in particular computational morphologists , for its highly inflexional morphology .	S-0
+BKG	Its root-and-pattern phenomenon not only poses difficulties for a morphological system , but also makes error detection a difficult task .	S-1
+AIM	This paper aims at presenting a morphographemic model which can cope with both issues .	S-2
+OWN	The following convention has been adopted .	S-3
+OWN	Morphemes are represented in braces , { } , surface ( phonological ) forms in solidi , / / , and orthographic strings in acute brackets ,.	S-4
+OWN	In examples of grammars , variables begin with a capital letter .	S-5
+OWN	Cs denote consonants , Vs denote vowels and a bar denotes complement .	S-6
+OWN	An asterisk , * , indicates ill-formed strings .	S-7
+BKG	The difficulties in morphological analysis and error detection in Semitic arise from the following facts :	S-8
+BKG	Non-Linearity	S-9
+BKG	A Semitic stem consists of a root and a vowel melody , arranged according to a canonical pattern .	S-10
+BKG	For example , Arabic /kuttib/ ` caused to write - perfect passive ' is composed from the root morpheme { ktb } ` notion of writing ' and the vowel melody morpheme { ui } ` perfect passive ' ; the two are arranged according to the pattern morpheme { CVCCVC } ` causative ' .	S-11
+OTH	This phenomenon is analysed byalong the lines of autosegmental phonology.	S-12
+OTH	The analysis appears in.	S-13
+BKG	Vocalisation	S-14
+BKG	Orthographically , Semitic texts appear in three forms :	S-15
+BKG	consonantal texts do not incorporate any short vowels but matres lectionis , e.g. Arabicktbfor /katab/ , /kutib/ and /kutub/ , butkaatbfor /kaatab/ and /kaatib/ ;	S-16
+BKG	partially vocalised texts incorporate some short vowels to clarify ambiguity , e.g.kutbfor /kutib/ to distinguish it from /katab/ ; and	S-17
+BKG	vocalised texts incorporate full vocalisation , e.g.tada ' 043 ra for /tada ' 043 ra/ .	S-18
+BKG	Vowel and Diacritic Shifts	S-19
+BKG	Semitic languages employ a large number of diacritics to represent enter alia short vowels , doubled letters , and nunation .	S-20
+BKG	Most editors allow the user to enter such diacritics above and below letters .	S-21
+BKG	To speed data entry , the user usually enters the base characters ( say a paragraph ) and then goes back and enters the diacritics .	S-22
+BKG	A common mistake is to place the cursor one extra position to the left when entering diacritics .	S-23
+BKG	This results in the vowels being shifted one position , e.g. *wkatubiinstead ofwakutib.	S-24
+BKG	Vocalisms	S-25
+BKG	The quality of the perfect and imperfect vowels of the basic forms of the Semitic verbs are idiosyncratic .	S-26
+BKG	For example , the Syriac root { ktb } takes the perfect vowel a , e.g. /ktab/ , while the roottakes the vowel e , e.g..	S-27
+BKG	It is common among learners to make mistakes such as */kteb/ or.	S-28
+BKG	Phonetic Syncopation	S-29
+BKG	A consonantal segment may be omitted from the phonetic surface form , but maintained in the orthographic surface from .	S-30
+BKG	For example , Syriacmdnt` city ' is pronounced /mdt/ .	S-31
+BKG	Idiosyncrasies	S-32
+BKG	The application of a morphographemic rule may have constraints as on which lexical morphemes it may or may not apply .	S-33
+BKG	For example , the glottal stop [ ' 145 ] at the end of a stem may become [ w ] when followed by the relative adjective morpheme { iyy } , as in Arabic /samaa + iyy//samaawiyy/ ` heavenly ' , but /hawaa + iyy//hawaa ' 145 iyy/ ` of air ' .	S-34
+BKG	Morphosyntactic Issues	S-35
+BKG	In broken plurals , diminutives and deverbal nouns , the user may enter a morphologically sound , but morphosyntactically ill-formed word .	S-36
+TXT	We shall discuss this in more detail in section.	S-37
+OTH	To the above , one adds language-independent issues in spell checking such as the fourtransformations : omission , insertion , transposition and substitution.	S-38
+TXT	This section presents a morphographemic model which handles error detection in non-linear strings .	S-39
+TXT	Subsectionpresents the formalism used , and subsectiondescribes the model .	S-40
+BAS	In order to handle the non-linear phenomenon of Arabic , our model adopts the two-level formalism presented by, with the multi tape extensions in.	S-41
+OTH	Their formalism appears in.	S-42
+OTH	The special symbol * is a wildcard matching any context , with no length restrictions .	S-43
+OTH	The operatorcaters for obligatory rules .	S-44
+OTH	A lexical string maps to a surface string iff they can be partitioned into pairs of lexical-surface subsequences , where each pair is licenced by aorrule , and no partition violates arule .	S-45
+OTH	In the multi-tape version , lexical expressions ( i.e. LLC , LEX and RLC ) are n-tuple of regular expressions of the form: the ith expression refers to symbols on the ith tape ; a nill slot is indicated by.	S-46
+OTH	Another extension is giving LLC the ability to contain ellipsis ,, which indicates the ( optional ) omission from LLC of tuples , provided that the tuples to the left ofare the first to appear on the left of LEX .	S-47
+OWN	In our morphographemic model , we add a similar formalism for expressing error rules.	S-48
+OWN	The error rules capture the correspondence between the error surface and the correct surface , given the surrounding partition into surface and lexical contexts .	S-49
+OWN	They happily utilise the multi-tape format and integrate seamlessly into morphological analysis .	S-50
+OWN	PLC and PRC above are the left and right contexts of both the lexical and ( correct ) surface levels .	S-51
+OWN	Only theis used ( error is not obligatory ) .	S-52
+OWN	Morphological analysis is first called with the assumption that the word is free of errors .	S-53
+OWN	If this fails , analysis is attempted again without the ` no error ' restriction .	S-54
+OWN	The error rules are then considered when ordinary morphological rules fail .	S-55
+OWN	If no error rules succeed , or lead to a successful partition of the word , analysis backtracks to try the error rules at successively earlier points in the word .	S-56
+OWN	For purposes of simplicity and because on the whole is it likely that words will contain no more than one error,, normal ` no error ' analysis usually resumes if an error rule succeeds .	S-57
+OWN	The exception occurs with a vowel shift error.	S-58
+OWN	If this error rule succeeds , an expectation of further shifted vowels is set up , but no other error rule is allowed in the subsequent partitions .	S-59
+OWN	For this reason rules are marked as to whether they can occur more than once .	S-60
+OWN	Once an error rule is selected , the corrected surface is substituted for the error surface , and normal analysis continues - at the same position .	S-61
+OWN	The substituted surface may be in the form of a variable , which is then ground by the normal analysis sequence of lexical matching over the lexicon tree .	S-62
+OWN	In this way only lexical words are considered , as the variable letter can only be instantiated to letters branching out from the current position on the lexicon tree .	S-63
+OWN	Normal prolog backtracking to explore alternative rules / lexical branches applies throughout .	S-64
+OWN	We demonstrate our model on the Arabic verbal stems shown in.	S-65
+OWN	Verbs are classified according to their measure ( M ) : there are 15 trilateral measures and 4 quadrilateral ones .	S-66
+OWN	Moving horizontally across the table , one notices a change in vowel melody ( active { a } , passive { ui } ) ; everything else remains invariant .	S-67
+OWN	Moving vertically , a change in canonical pattern occurs ; everything else remains invariant .	S-68
+TXT	Subsectionpresents a simple two-level grammar which describes the above data .	S-69
+TXT	Subsectionpresents error checking .	S-70
+OWN	The lexical level maintains three lexical tapes,: pattern tape , root tape and vocalism tape ; each tape scans a lexical tree .	S-71
+OWN	Examples of pattern morphemes are :,.	S-72
+OWN	The root morphemes are { ktb } and, and the vocalism morphemes are { a } ( active ) and { ui } ( passive ) .	S-73
+OWN	The following two-level grammar handles the above data .	S-74
+OWN	Each lexical expression is a triple ; lexical expressions with one symbol assumeon the remaining positions .	S-75
+OWN	gives three general rules :allows any character on the first lexical tape to surface , e.g. infixes , prefixes and suffixes .	S-76
+OWN	states that any Pon the first ( pattern ) tape and C on the second ( root ) tape with no transition on the third ( vocalism ) tape corresponds to C on the surface tape ; this rule sanctions consonants .	S-77
+OWN	Similarly ,states that any Pon the pattern tape and V on vocalism tape with no transition on the root tape corresponds to V on the surface tape ; this rule sanctions vowels .	S-78
+OWN	gives two boundary rules :is used for non-stem morphemes , e.g. prefixes and suffixes .	S-79
+OWN	applies to stem morphemes reading three boundary symbols simultaneously ; this marks the end of a stem .	S-80
+OWN	Notice that LLC ensures that the right boundary rule is invoked at the right time .	S-81
+OWN	Before embarking on the rest of the rules , an illustrated example seems in order .	S-82
+OWN	The derivation of /d ' 043 unri a/ ( M Q 5 , passive ) , from the three morphemes { ccvncvc} , { d ' 043 r } and { ui } , and the suffix { a } ` 3rd person ' is illustrated in.	S-83
+OWN	The numbers between the surface tape and the lexical tapes indicate the rules which sanction the moves .	S-84
+OWN	Resuming the description of the grammar ,presents spreading rules .	S-85
+OWN	Notice the use of ellipsis to indicate that there can be tuples separating LEX and LLC , as far as the tuples in LLC are the nearest ones to LEX .	S-86
+OWN	sanctions the spreading ( and gemination ) of consonants .	S-87
+OWN	sanctions the spreading of the first vowel .	S-88
+OWN	Spreading examples appear in.	S-89
+OWN	The following rules allow for the different possible orthographic vocalisations in Semitic texts :	S-90
+OWN	where.	S-91
+OWN	andallow the optional deletion of short vowels in non-stem and stem morphemes , respectively ; note that the lexical contexts make sure that long vowels are not deleted .	S-92
+OWN	allows the optional deletion of a short vowel what is the cause of spreading .	S-93
+OWN	For example the rules sanction both /katab/ ( M 1 , active ) and /kutib/ ( M 1 , passive ) as interpretations ofktbas showin in.	S-94
+OWN	Below are outlined error rules resulting from peculiarly Semitic problems .	S-95
+OWN	Error rules can also be constructed in a similar vein to deal with typographicalerror ( which also take care of the issue of wrong vocalisms ) .	S-96
+OWN	A vowel shift error rule will be tried with a partition on a ( short ) vowel which is not an expected ( lexical ) vowel at that position .	S-97
+OWN	Short vowels can legitimately be omitted from an orthographic representation - it is this fact which contributes to the problem of vowel shifts .	S-98
+OWN	A vowel is considered shifted if the same vowel has been omitted earlier in the word .	S-99
+OWN	The rule deletes the vowel from the surface .	S-100
+OWN	Hence in the next pass of ( normal ) analysis , the partition is analysed as a legitimate omission of the expected vowel .	S-101
+OWN	This prepares for the next shifted vowel to be treated in exactly the same way as the first .	S-102
+OWN	The expectation of this reapplication is allowed for in reap = y .	S-103
+OWN	In the rules above , ` X ' is the shifted vowel .	S-104
+OWN	It is deleted from the surface .	S-105
+OWN	The partition contextual tuples consist of [ RULE NAME , SURF , LEX ] .	S-106
+OWN	The LEX element is a tuple itself of [ PATTERN , ROOT , VOCALISM ] .	S-107
+OWN	In E 0 the shifted vowel was analysed earlier as an omitted stem vowel ( om_stmv ) , whereas in E 1 it was analysed earlier as an omitted spread vowel ( om_sprv ) .	S-108
+OWN	The surface / lexical restrictions in the contexts could be written out in more detail , but both rules make use of the fact that those contexts are analysed by other partitions , which check that they meet the conditions for an omitted stem vowel or omitted spread vowel .	S-109
+OWN	For example ,will be interpreted as.	S-110
+OWN	The ` E 0 's on the rule number line indicate where the vowel shift rule was applied to replace an error surface vowel with.	S-111
+OWN	The error surface vowels are written in italics .	S-112
+OWN	Problems resulting from phonetic syncopation can be treated as accidental omission of a consonant , e.g..	S-113
+OWN	Although the error probably results from a different fault , a deleted long vowel can be treated in the same way as a deleted consonant .	S-114
+OWN	With current transcription practice , long vowels are commonly written as two characters - they are possibly better represented as a single , distinct character .	S-115
+OWN	The form] can be interpreted as eitherwith a deleted consonant ( geminated ` t ' ) orwith a deleted long vowel .	S-116
+OWN	One type of morphographemic error is that consonant substitution may not take place before appending a suffix .	S-117
+OWN	For example` heaven ' +` relative adjective ' surfaces as, wherein the given context .	S-118
+OWN	A common mistake is to write it as.	S-119
+OWN	The ` glottal _ change ' rule would be a normal morphological spelling change rule , incorporating contextual constraints ( e.g. for the morpheme boundary ) as necessary .	S-120
+TXT	This section deals with morphosyntactic errors which are independent of the two-level analysis .	S-121
+BAS	The data described below was obtained from( personal communication ) , based on.	S-122
+OWN	Recall that a Semitic stems consists of a root morpheme and a vocalism morpheme arranged according to a canonical pattern morpheme .	S-123
+OWN	As each root does not occur in all vocalisms and patterns , each lexical entry is associated with a feature structure which indicates inter alia the possible patterns and vocalisms for a particular root .	S-124
+OWN	Consider the nominal data in.	S-125
+OWN	Patterns marked with * are morphologically plausible , but do not occur lexically with the cited nouns .	S-126
+OWN	A common mistake is to choose the wrong pattern .	S-127
+OWN	In such a case , the two-level model succeeds in finding two-level analyses of the word in question , but fails when parsing the word morphosyntactically : at this stage , the parser is passed a root , vocalism and pattern whose feature structures do not unify .	S-128
+OWN	Usually this feature-clash situation creates the problem of which constituent to give preference to.	S-129
+OWN	Here the vocalism indicates the inflection ( e.g. broken plural ) and the preferance of vocalism pattern for that type of inflection belongs to the root .	S-130
+OWN	For examplewould be analysed aswith a broken plural vocalism .	S-131
+OWN	The pattern type of the vocalism clashes with the broken plural pattern that the root expects .	S-132
+OWN	To correct , the morphological analyser is executed in generation mode to generate the broken plural form of { kd } in the normal way .	S-133
+OWN	The same procedure can be applied on diminutive and deverbal nouns .	S-134
+AIM	The model presented corrects errors resulting from combining nonconcatenative strings as well as more standard morphological or spelling errors .	S-135
+OWN	It covers Semitic errors relating to vocalisation , diacritics , phonetic syncopation and morphographemic idiosyncrasies .	S-136
+OWN	Morphosyntactic issues of broken plurals , diminutives and deverbal nouns can be handled by a complementary correction strategy which also depends on morphological analysis .	S-137
+OWN	Other than the economic factor , an important advantage of combining morphological analysis and error detection / correction is the way the lexical tree associated with the analysis can be used to determine correction possibilities .	S-138
+OWN	The morphological analysis proceeds by selecting rules that hypothesise lexical strings for a given surface string .	S-139
+OWN	The rules are accepted / rejected by checking that the lexical string ( s ) can extend along the lexical tree ( s ) from the current position ( s ) .	S-140
+OWN	Variables introduced by error rules into the surface string are then instantiated by associating surface with lexical , and matching lexical strings to the lexicon tree ( s ) .	S-141
+OWN	The system is unable to consider correction characters that would be lexical impossibilities .	S-142

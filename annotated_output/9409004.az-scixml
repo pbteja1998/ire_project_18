@@ -1,0 +1,182 @@
+AIM	We present a methodology to extract Selectional Restrictions at a variable level of abstraction from phrasally analyzed corpora .	A-0
+OWN	The method relays in the use of a wide-coverage noun taxonomy and a statistical measure of the co-occurrence of linguistic items .	A-1
+OWN	Some experimental results about the performance of the method are provided .	A-2
+BKG	These last years there has been a common agreement in the natural language processing research community on the importance of having an extensive coverage of the surface lexical semantics of the domain to work with , ( specially , typical contexts of use ) .	S-0
+BKG	This knowledge may be expressed at different levels of abstraction depending on the phenomena involved : selectional restrictions ( SRs ) , lexical preferences , col-locations , etc .	S-1
+BKG	We are specially interested on SRs , which can be expressed as semantic type constraints that a word sense imposes on the words with which it combines in the process of semantic interpretation .	S-2
+BKG	SRs must include information on the syntactic position of the words that are being restricted semantically .	S-3
+BKG	For instance , one of the senses of the verb drink restricts its subject to be an animal and its object to be a liquid .	S-4
+BKG	SRs may help a parser to prefer some parses among several grammatical ones.	S-5
+BKG	Furthermore , SRs may help the parser when deciding the semantic role played by a syntactic complement .	S-6
+BKG	Lexicography is also interested in the acquisition of SRs .	S-7
+BKG	On the one hand , SRs are an interesting information to be included in dictionaries ( defining in context approach ) .	S-8
+BKG	On the other hand , asremark , the effort involved in analyzing and classifying all the linguistic material provided by concordances of use of a word can be extremely labor-intensive .	S-9
+BKG	If it was possible to represent roughly the SRs of the word being studied , it could be possible to classify roughly the concordances automatically in the different word uses before the lexicographer analysis .	S-10
+BKG	The possible sources of SRs are : introspection by lexicographers , machine-readable dictionaries , and on-line corpora .	S-11
+BKG	The main advantage of the latter is that they provide experimental evidence of words uses .	S-12
+OTH	Recently , several approaches on acquiring different kinds of lexical information from corpora have been developed,,,.	S-13
+AIM	This paper is interested in exploring the amenability of using a method for extracting SRs from textual data , in the line of these works .	S-14
+AIM	The aim of the proposed technique is to learn the SRs that a word is imposing , from the analysis of the examples of use of that word contained in the corpus .	S-15
+BKG	An illustration of such a learning is shown in Figure, where the system , departing from the three examples of use , and knowing that prosecutor , buyer and lawmaker are nouns belonging to the semantic class, and that indictment , assurance and legislation are members of, should induce that the verb seek imposes SRs that constraint the subject to be a member of the semantic type, and the object to be a kind of.	S-16
+BKG	Concluding , the system should extract for each word ( with complements ) having enough number occurrences of use in the corpus and for each of its syntactic complements , a list of the alternative SRs that this word is imposing .	S-17
+OTH	In order to detect the SRs that a word imposes in its context by means of statistical techniques two distinct approaches have been proposed : word-based, and class-based,.	S-18
+OTH	Word-based approach infers SRs as the collection of words that co-occur significantly in the syntactic context of the studied word .	S-19
+OTH	The class-based techniques gather the different nouns by means of semantic classes .	S-20
+OTH	The advantages of the latter are clear .	S-21
+OTH	On the one hand , statistically meaningful data can be gathered from ( relatively ) small corpora , and not only for the most frequent words .	S-22
+OTH	On the other hand , SRs are generalized to new examples not present in the training set .	S-23
+OTH	Finally , the acquired SRs are more independent of the lexical choices made in the training corpus .	S-24
+AIM	We have developed and implemented a method for automatically extracting class-based SRs from on-line corpora .	S-25
+TXT	In sectionwe describe it while discussing other approaches .	S-26
+TXT	In sectionwe analyze some data about the performance of an experiment run in a Unix machine , on a corpus of 800,000 words .	S-27
+TXT	Finally , in sectionwe discuss the performance achieved , and suggest further refinements of the technique in order to solve some remaining problems .	S-28
+BKG	SRs have been used to express semantic constraints holding in different syntactic and functional configurations .	S-29
+AIM	However , in this paper we focus only in selectional restrictions holding between verbs and their complements .	S-30
+OTH	The method can be easily exported to other configurations .	S-31
+OTH	We won't distinguish the SRs imposed by verbs on arguments and adjuncts .	S-32
+OTH	We believe that few adjuncts are going to provide enough evidence in the corpus for creating SRs .	S-33
+TXT	In the following paragraphs we describe the functional specification of the system .	S-34
+OWN	Training set	S-35
+OWN	The input to the learning process is a list of co-occurrence triples codifying the co-occurrence of verbs and complement heads in the corpus : ( verb , syntactic relationship , noun ) .	S-36
+OWN	Verb and noun are the lemmas of the inflected forms appearing in text .	S-37
+OWN	Syntactic relationship codes the kind of complement : 0 subject , 1 object , or preposition in case it is a PP .	S-38
+TXT	A method to draw the co-occurrence triples from corpus is proposed in subsection.	S-39
+OWN	Output	S-40
+OWN	The result of the learning process is a set of syntactic SRs , ( verb , syntactic relationship , semantic class ) .	S-41
+OWN	Semantic classes are represented extensionally as sets of nouns .	S-42
+OWN	SRs are only acquired if there are enough cases in the corpus as to gather statistical evidence .	S-43
+OWN	As long as distinct uses of the same verb can have different SRs , we permit to extract more than one class for the same syntactic position .	S-44
+OWN	Nevertheless , they must be mutually disjoint , i.e. not related by hyperonymy .	S-45
+OWN	Previous knowledge used	S-46
+OWN	In the process of learning SRs , the system needs to know how words are clustered in semantic classes , and how semantic classes are hierarchically organized .	S-47
+OWN	Ambiguous words must be represented as having different hyperonym classes .	S-48
+TXT	In subsectionwe defend the use of a broad-coverage taxonomy .	S-49
+OWN	Learning process .	S-50
+OWN	The computational process is divided in three stages :	S-51
+OWN	Guessing the possible semantic classes , i.e. creation of the space of candidates .	S-52
+OWN	In principle , all the hyperonyms ( at all levels ) of the nouns appearing in the training set are candidates .	S-53
+OWN	Evaluation of the appropriateness of the candidates .	S-54
+OWN	In order to compare the different candidates , an statistical measure summarizing the relevance of the occurrence of each of the candidate classes is used .	S-55
+OWN	Selection of the most appropriate subset of the candidate space to convey the SRs , taking into account that the final classes must be mutually disjoint .	S-56
+TXT	While in subsectionan statistical measure to fulfill stageis presented , stagesandare discussed inthoroughly .	S-57
+BKG	In any process of learning from examples the accuracy of the training set is the base for the system to make correct predictions .	S-58
+OWN	In our case , where the semantic classes are hypothesized not univoquely from the examples , accuracy becomes fundamental .	S-59
+OTH	Different approaches to obtain lexical co-occurrences have been proposed in the literature,,.	S-60
+CTR	These approaches seem inappropriate for tackling our needs , either because they detect only local co-occurrences,, or because they extract many spurious co-occurrence triples,.	S-61
+OWN	On the one hand , our system intends to learn SRs on any kind of verb 's complements .	S-62
+CTR	On the other hand , the fact that these approaches extract co-occurrences without reliability on being verb-complements violates accuracy requirements .	S-63
+OWN	However , if the co-occurrences were extracted from a corpus annotated with structural syntactic information ( i.e. , part of speech and `` skeletal '' trees ) , the results would have considerably higher degrees of accuracy and representativity .	S-64
+OWN	In this way , it would be easy to detect all the relationships between verb and complements , and few non-related co-occurrences would be extracted .	S-65
+OWN	The most serious objection to this approach is that the task of producing syntactic analyzed corpora is very expensive .	S-66
+OWN	Nevertheless , lately there has been a growing interest to produce skeletally analyzed corpora .	S-67
+OWN	A parser , with some simple heuristics , would be enough to meet the requirements of representativeness and accuracy introduced above .	S-68
+OWN	On the other hand , it could be useful to represent the co-occurrence triples as holding between lemmas , in order to gather as much evidence as possible .	S-69
+OWN	A simple morphological analyzer that could get the lemma for a big percentage of the words appearing in the corpus would suffice .	S-70
+OTH	Of the two class-based approaches presented in section,'s technique uses a wide-coverage semantic taxonomy , whereasconsists in hand-tagging with a fixed set of semantic labels .	S-71
+CTR	The advantages and drawbacks of both approaches are diverse .	S-72
+OTH	On the one hand , inapproach , semantic classes relevant to the domain are chosen , and consequently , the adjustment of the classes to the corpus is quite nice .	S-73
+OTH	Nevertheless ,'s system is less constrained and is able to induce a most appropriate level for the SRs .	S-74
+CTR	On the other hand , whileimplies hand-coding all the relevant words with semantic tags ,needs a broad semantic taxonomy .	S-75
+BAS	However , there is already an available taxonomy , WordNet .	S-76
+BAS	We takeapproach because of the better results obtained , and the lower cost involved .	S-77
+OWN	When trying to choose a measure of the appropriateness of a semantic class , we have to consider the features of the problem :	S-78
+OWN	robustness in front of noise , and	S-79
+OWN	conservatism in order to be able to generalize only from positive examples , without having the tendency to over-generalize .	S-80
+OTH	Several statistical measures that accomplish these requirements have been proposed in the literature,,.	S-81
+BAS	We adopt's approach , which quantifies the statistical association between verbs and classes of nouns from their co-occurrence .	S-82
+OWN	However we adapt it taking into account the syntactic position of the relationship .	S-83
+OWN	Let	S-84
+OWN	be the sets of all verbs , nouns , syntactic positions , and possible noun classes , respectively .	S-85
+OWN	Given, Association Score , Assoc , between v and c in a syntactic position s is defined to be	S-86
+OWN	Where conditional probabilities are estimated by counting the number of observations of the joint event and dividing by the frequency of the given event , e.g.	S-87
+OWN	The two terms of Assoc try to capture different properties of the SR expressed by the candidate class .	S-88
+OWN	Mutual information ,, measures the strength of the statistical association between the given verb v and the candidate class c in the given syntactic position s .	S-89
+OWN	If there is a real relationship , then hopefully.	S-90
+OWN	On the other hand , the conditional probability ,, favors those classes that have more occurrences of nouns .	S-91
+OWN	The existence of noise in the training set introduces classes in the candidate space that can't be considered as expressing SRs .	S-92
+OWN	A common technique used for ignoring as far as possible this noise is to consider only those events that have a higher number of occurrences than a certain threshold .	S-93
+OWN	However , some erroneous classes may persist because they exceed the threshold .	S-94
+OWN	However , if candidate classes were ordered by the significance of their Assoc with the verb , it is likely that less appropriate classes ( introduced by noise ) would be ranked in the last positions of the candidate list .	S-95
+OWN	The algorithm to learn SRs is based in a search through all the classes with more instances in the training set than the given threshold .	S-96
+OWN	In different iterations over these candidate classes , two operations are performed : first , the class , c , having the best Assoc ( best class ) , is extracted for the final result ; and second , the remaining candidate classes are filtered from classes being hyper / hyponyms to the best class .	S-97
+OWN	This last step is made because the definitive classes must be mutually disjoint .	S-98
+OWN	The iterations are repeated until the candidate space has been run out .	S-99
+CTR	performed a similar learning process , but while he was only looking for the preferred class of object nouns , we are interested in all the possible classes ( SRs ) .	S-100
+OTH	He performed a best-first search on the candidate space .	S-101
+CTR	However , if the function to maximize doesn't have a monotone behavior ( as it is the case of Assoc ) the best-first search doesn't guarantee global optimals , but only local ones .	S-102
+OWN	This fact made us to decide for a global search , specially because the candidate space is not so big .	S-103
+OWN	In order to experiment the methodology presented , we implemented a system in a Unix machine .	S-104
+OWN	The corpus used for extracting co-occurrence triples is a fragment of parsed material from the Penn Treebank Corpus ( about 880,000 words and 35,000 sentences ) , consisting of articles of the Wall Street Journal , that has been tagged and parsed .	S-105
+OWN	We used Wordnet as the verb and noun lexicons for the lemmatizer , and also as the semantic taxonomy for clustering nouns in semantic classes .	S-106
+TXT	In this section we evaluate the performance of the methodology implemented :	S-107
+TXT	looking at the performance of the techniques used for extracting triples ,	S-108
+TXT	considering the coverage of the WordNet taxonomy regarding the noun senses appearing in Treebank , and	S-109
+TXT	analyzing the performance of the learning process .	S-110
+OWN	The total number of co-occurrence triples extracted amounts to 190,766 .	S-111
+OWN	Many of these triples ( 68,800 , 36.1 % ) were discarded before the lemmatizing process because the surface NP head wasn't a noun .	S-112
+OWN	The remaining 121,966 triples were processed through the lemmatizer .	S-113
+OWN	113,583 ( 93.1 % ) could be correctly mapped into their corresponding lemma form .	S-114
+OWN	In addition , we analyzed manually the results obtained for a subset of the extracted triples , looking at the sentences in the corpus where they occurred .	S-115
+OWN	The subset contains 2,658 examples of four average common verbs in the Treebank : rise , report , seek and present ( from now on , the testing sample ) .	S-116
+OWN	On the one hand , 235 ( 8.8 % ) of these triples were considered to be extracted erroneously because of the parser , and 51 ( 1.9 % ) because of the lemmatizer .	S-117
+OWN	Summarizing , 2,372 ( 89.2 % ) of the triples in the testing set were considered to be correctly extracted and lemmatized .	S-118
+OWN	When analyzing the coverage of WordNet taxonomy we considered two different ratios .	S-119
+OWN	On the one hand , how many of the noun occurrences have one or more senses included in the taxonomy : 113,583 of the 117,215 extracted triples ( 96.9 % ) .	S-120
+OWN	On the other hand , how many of the noun occurrences in the testing sample have the correct sense introduced in the taxonomy : 2,165 of the 2,372 well-extracted triples ( 92.3 % ) .	S-121
+OWN	These figures give a positive evaluation of the coverage of WordNet .	S-122
+OWN	In order to evaluate the performance of the learning process we inspected manually the SRs acquired on the testing-sample , assessing if they corresponded to the actual SRs imposed .	S-123
+OWN	A first way of evaluation is by means of measuring precision and recall ratios in the testing sample .	S-124
+OWN	In our case , we define precision as the proportion of triples appearing in syntactic positions with acquired SRs , which effectively fulfill one of those SRs .	S-125
+OWN	Precision amounts to 79.2 % .	S-126
+OWN	The remaining 20.8 % triples didn't belong to any of the classes induced for their syntactic positions .	S-127
+OWN	Some of them because they didn't have the correct sense included in the WordNet taxonomy , and others because the correct class had not been induced because there wasn't enough evidence .	S-128
+OWN	On the other hand , we define recall as the proportion of triples which fulfill one of the SRs acquired for their corresponding syntactic positions .	S-129
+OWN	Recall amounts to 75.7 .	S-130
+OWN	A second way of evaluating the performance of the abstraction process is to manually diagnose the reasons that have made the system to deduce the SRs obtained .	S-131
+OWN	Tableshows the SRs corresponding to the subject position of the verb seek .	S-132
+OWN	Type indicates the diagnostic about the class appropriateness .	S-133
+OWN	Assoc , the value of the association score .	S-134
+OWN	`` # n '' , the number of nouns appearing in the corpus that are contained in the class .	S-135
+OWN	Finally , `` # s '' indicates the number of actual noun senses used in the corpus which are contained in the class .	S-136
+OWN	In this table we can see some examples of the five types of manual diagnostic :	S-137
+OWN	Ok	S-138
+OWN	The acquired SR is correct according to the noun senses contained in the corpus .	S-139
+OWN	Abs	S-140
+OWN	The best level for stating the SR is not the one induced , but a lower one .	S-141
+OWN	It happens because erroneous senses , metonymies , ... , accumulate evidence for the higher class .	S-142
+OWN	Abs	S-143
+OWN	Some of the SRs could be best gathered in a unique class .	S-144
+OWN	We didn't find any such case .	S-145
+OWN	Senses	S-146
+OWN	The class has cropped up because it accumulates enough evidence , provided by erroneous senses .	S-147
+OWN	Noise	S-148
+OWN	The class accumulates enough evidence provided by erroneously extracted triples .	S-149
+OWN	Tableshows the incidence of the diagnostic types in the testing sample .	S-150
+OWN	Each row shows : the type of diagnostic , the number and percentage of classes that accomplish it , and the number and percentage of noun occurrences contained by these classes in the testing sample .	S-151
+OWN	Analyzing the results obtained from the testing sample ( some of which are shown in tablesand) we draw some positive (,) and some negative conclusions (,,and) :	S-152
+OWN	Almost one correct semantic class for each syntactic position in the sample is acquired .	S-153
+OWN	The technique achieves a good coverage , even with few co-occurrence triples .	S-154
+OWN	Although many of the classes acquired result from the accumulation of incorrect senses ( 73.3 % ) , it seems that their size tends to be smaller than classes in other categories , as they only contain a 51.4 % of the senses .	S-155
+OWN	There doesn't seem to be a clear co-relation between Assoc and the manual diagnostic .	S-156
+OWN	Specifically , the classes considered to be correct sometimes aren't ranked in the higher positions of the Assoc ( e.g. , Table) .	S-157
+OWN	The over-generalization seems to be produced because of little difference in the nouns included in the rival classes .	S-158
+OWN	Nevertheless this situation is rare .	S-159
+OWN	The impact of noise provided by erroneous extraction of co-occurrence triples , in the acquisition of wrong semantic classes , seems to be very moderate .	S-160
+OWN	Since different verb senses occur in the corpus , the SRs acquired appear mixed .	S-161
+OWN	Although performance of the technique presented is pretty good , some of the detected problems could possibly be solved .	S-162
+OWN	Specifically , there are various ways to explore in order to reduce the problems stated in pointsandabove :	S-163
+OWN	To measure the Assoc by means of Mutual Information between the pair v-s and c .	S-164
+OWN	In this way , the syntactic position also would provide information ( statistical evidence ) for measuring the most appropriate classes .	S-165
+OWN	To modify the Assoc in such a way that it was based in a likelihood ratio test.	S-166
+OWN	It seems that this kind of tests have a better performance than mutual information when the counts are small , as it is the case .	S-167
+OWN	To estimate the probabilities of classes , not directly from the frequencies of their noun members , but correcting this evidence by the number of senses of those nouns , e. g .	S-168
+OWN	In this way , the estimated function would be a probability distribution , and more interesting , nouns would provide evidence on the occurrence of their hyperonyms , inversely proportional to their degree of ambiguity .	S-169
+OWN	To collect a bigger number of examples for each verbal complement , projecting the complements in the internal arguments , using diathesis sub-categorization rules .	S-170
+OWN	Hopefully , Assoc would have a better performance if it was estimated on a bigger population .	S-171
+OWN	On the other hand , in this way it would be possible to detect the SRs holding on internal arguments .	S-172
+OWN	In order to solve point d above , we have foreseen two possibilities :	S-173
+OWN	To take into consideration the statistical significance of the alternatives involved , before doing a generalization step , climbing upwards ,	S-174
+OWN	To use the PPs that in the corpus are attached to other complements and not to the main verb as a source of `` implicit negative examples '' , in such a way that they would constrain the over-generalization .	S-175
+OWN	Finally , It would be interesting to investigate the solution to point f. One possible way would be to disambiguate the senses of the verbs appearing in the corpus , using the SRs already acquired and gathering evidence of the patterns corresponding to each sense by means of a technique similar to that used by.	S-176
+OWN	Therefore , once disambiguated the verb senses it would be possible to split the set of SRs acquired .	S-177
+OTH	Some of the future lines of research outlined above have been already investigated and their results included in.	S-178

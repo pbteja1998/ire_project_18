@@ -1,0 +1,174 @@
+AIM	Explanation-based generalization is used to extract a specialized grammar from the original one using a training corpus of parse trees .	A-0
+OWN	This allows very much faster parsing and gives a lower error rate , at the price of a small loss in coverage .	A-1
+CTR	Previously , it has been necessary to specify the tree-cutting criteria ( or operationality criteria ) manually ; here they are derived automatically from the training set and the desired coverage of the specialized grammar .	A-2
+OWN	This is done by assigning an entropy value to each node in the parse trees and cutting in the nodes with sufficiently high entropy values .	A-3
+OTH	Previous work byand the authorattempts to tailor an existing natural-language system to a specific application domain by extracting a specialized grammar from the original one using a large set of training examples .	S-0
+OTH	The training set is a treebank consisting of implicit parse trees that each specify a verified analysis of an input sentence .	S-1
+OTH	The parse trees are implicit in the sense that each node in the tree is the ( mnemonic ) name of the grammar rule resolved on at that point , rather than the syntactic category of the LHS of the grammar rule as is the case in an ordinary parse tree .	S-2
+OTH	Figureshows five examples of implicit parse trees .	S-3
+OTH	The analyses are verified in the sense that each analysis has been judged to be the preferred one for that input sentence by a human evaluator using a semi-automatic evaluation method .	S-4
+OTH	A new grammar is created by cutting up each implicit parse tree in the treebank at appropriate points , creating a set of new rules that consist of chunks of original grammar rules .	S-5
+OTH	The LHS of each new rule will be the LHS phrase of the original grammar rule at the root of the tree chunk and the RHS will be the RHS phrases of the rules in the leaves of the tree chunk .	S-6
+OTH	For example , cutting up the first parse tree of Figureat the NP of the rule vp_v_np yields rules 2 and 3 of Figure.	S-7
+OTH	The idea behind this is to create a specialized grammar that retains a high coverage but allows very much faster parsing .	S-8
+OTH	This has turned out to be possible -- speedups compared to using the original grammar of in median 60 times were achieved at a cost in coverage of about ten percent.	S-9
+OTH	Another benefit from the method is a decreased error rate when the system is required to select a preferred analysis .	S-10
+OTH	In these experiments the scheme was applied to the grammar of a version of the SRI Core Language Engineadapted to the ATIS domain for a speech-translation taskand large corpora of real user data collected using Wizard-of-Oz simulation .	S-11
+OTH	The resulting specialized grammar was compiled into LR parsing tables , and a special LR parser exploited their special properties.	S-12
+BAS	The technical vehicle previously used to extract the specialized grammar is explanation-based generalization ( EBG ).	S-13
+OTH	Very briefly , this consists of redoing the derivation of each training example top-down by letting the implicit parse tree drive a rule expansion process , and aborting the expansion of the specialized rule currently being extracted if the current node of the implicit parse tree meets a set of tree-cutting criteria .	S-14
+OTH	In this case the extraction process is invoked recursively to extract subrules rooted in the current node .	S-15
+OTH	The tree-cutting criteria can be local ( `` The LHS of the original grammar rule is an NP , '' ) or dependent on the rest of the parse tree ( `` that doesn't dominate the empty string only , '' ) and previous choices of nodes to cut at ( `` and there is no cut above the current node that is also labelled NP. '' ) .	S-16
+CTR	A problem not fully explored yet is how to arrive at an optimal choice of tree-cutting criteria .	S-17
+CTR	In the previous scheme , these must be specified manually , and the choice is left to the designer 's intuitions .	S-18
+AIM	This article addresses the problem of automating this process and presents a method where the nodes to cut at are selected automatically using the information-theoretical concept of entropy .	S-19
+OTH	Entropy is well-known from physics , but the concept of perplexity is perhaps better known in the speech-recognition and natural-language communities .	S-20
+TXT	For this reason , we will review the concept of entropy at this point , and discuss its relation to perplexity .	S-21
+BKG	Entropy is a measure of disorder .	S-22
+BKG	Assume for example that a physical system can be in any of N states , and that it will be in statewith probability.	S-23
+BKG	The entropy S of that system is then	S-24
+BKG	If each state has equal probability , i.e. iffor all i , then	S-25
+BKG	In this case the entropy is simply the logarithm of the number of states the system can be in .	S-26
+BKG	To take a linguistic example , assume that we are trying to predict the next word in a word string from the previous ones .	S-27
+BKG	Let the next word beand the previous word string.	S-28
+BKG	Assume further that we have a language model that estimates the probability of each possible next word ( conditional on the previous word string ) .	S-29
+BKG	Let these probabilities befor i = 1 , ... , N for the N possible next words, i.e..	S-30
+BKG	The entropy is then a measure of how hard this prediction problem is :	S-31
+BKG	If all words have equal probability , the entropy is the logarithm of the branching factor at this point in the input string .	S-32
+BKG	Perplexity is related to entropy as follows .	S-33
+BKG	The observed perplexityof a language model with respect to an ( imaginary ) infinite test sequenceis defined through the formula.	S-34
+BKG	Heredenotes the probability of the word string	S-35
+BKG	Since we cannot experimentally measure infinite limits , we terminate after a finite test string, arriving at the measured perplexity:	S-36
+BKG	Rewritingasgives us	S-37
+BKG	Let us call the exponential of the expectation value ofthe local perplexity, which can be used as a measure of the information content of the initial String .	S-38
+BKG	Hereis the expectation value ofand the summation is carried out over all N possible next words.	S-39
+BKG	Comparing this with the last equation of the previous section , we see that this is precisely the entropy S at point k in the input string .	S-40
+BKG	Thus , the entropy is the logarithm of the local perplexity at a given point in the word string .	S-41
+BKG	If all words are equally probable , then the local perplexity is simply the branching factor at this point .	S-42
+BKG	If the probabilities differ , the local perplexity can be viewed as a generalized branching factor that takes this into account .	S-43
+TXT	We now turn to the task of calculating the entropy of a node in a parse tree .	S-44
+OWN	This can be done in many different ways ; we will only describe two different ones here .	S-45
+OWN	Consider the small test and training sets of Figure.	S-46
+OWN	Assume that we wish to calculate the entropy of the phrases of the rule PPPrep NP , which is named pp_prep_np .	S-47
+OWN	In the training set , the LHS PP is attached to the RHS PP of the rule np_np_pp in two cases and to the RHS PP of the rule vp_vp_pp in one case , giving it the entropy.	S-48
+OWN	The RHS preposition Prep is always a lexical lookup , and the entropy is thus zero , while the RHS NP in one case attaches to the LHS of rule np_det_np , in one case to the LHS of rule np_num , and in one case is a lexical lookup , and the resulting entropy is thus.	S-49
+OWN	The complete table is given here :	S-50
+OWN	If we want to calculate the entropy of a particular node in a parse tree , we can either simply use the phrase entropy of the RHS node , or take the sum of the entropies of the two phrases that are unified in this node .	S-51
+OWN	For example , the entropy when the RHS NP of the rule pp_prep_np is unified with the LHS of the rule np_det_n will in the former case be 1.10 and in the latter case be 1.10 + 1.33 = 2.43 .	S-52
+OWN	In the following scheme , the desired coverage of the specialized grammar is prescribed , and the parse trees are cut up at appropriate places without having to specify the tree-cutting criteria manually :	S-53
+OWN	Index the treebank in an and-or tree where the or-nodes correspond to alternative choices of grammar rules to expand with and the and-nodes correspond to the RHS phrases of each grammar rule .	S-54
+OWN	Cutting up the parse trees will involve selecting a set of or-nodes in the and-or tree .	S-55
+OWN	Let us call these nodes `` cutnodes '' .	S-56
+OWN	Calculate the entropy of each or-node .	S-57
+OWN	We will cut at each node whose entropy exceeds a threshold value .	S-58
+OWN	The rationale for this is that we wish to cut up the parse trees where we can expect a lot of variation i.e. where it is difficult to predict which rule will be resolved on next .	S-59
+OWN	This corresponds exactly to the nodes in the and-or tree that exhibit high entropy values .	S-60
+OWN	The nodes of the and-or tree must be partitioned into equivalence classes dependent on the choice of cutnodes in order to avoid redundant derivations at parse time .	S-61
+OWN	Thus , selecting some particular node as a cutnode may cause other nodes to also become cutnodes , even though their entropies are not above the threshold .	S-62
+OWN	Determine a threshold entropy that yields the desired coverage .	S-63
+OWN	This can be done using for example interval bisection .	S-64
+OWN	Cut up the training examples by matching them against the and-or tree and cutting at the determined cutnodes .	S-65
+OWN	It is interesting to note that a textbook method for constructing decision trees for classification from attribute-value pairs is to minimize the ( weighted average of the ) remaining entropy over all possible choices of root attribute.	S-66
+OWN	First , the treebank is partitioned into a training set and a test set .	S-67
+OWN	The training set will be indexed in an and-or tree and used to extract the specialized rules .	S-68
+OWN	The test set will be used to check the coverage of the set of extracted rules .	S-69
+OWN	Then , the set of implicit parse trees is stored in an and-or tree .	S-70
+OWN	The parse trees have the general form of a rule identifier Id dominating a list of subtrees or a word of the training sentence .	S-71
+OWN	From the current or-node of the and-or tree there will be arcs labelled with rule identifiers corresponding to previously stored parse trees .	S-72
+OWN	From this or-node we follow an arc labelled Id , or add a new one if there is none .	S-73
+OWN	We then reach ( or add ) an and-node indicating the RHS phrases of the grammar rule named Id. Here we follow each arc leading out from this and-node in turn to accommodate all the subtrees in the list .	S-74
+OWN	Each such arc leads to an or-node .	S-75
+OWN	We have now reached a point of recursion and can index the corresponding subtree .	S-76
+OWN	The recursion terminates if Id is the special rule identifier lex and thus dominates a word of the training sentence , rather than a list of subtrees .	S-77
+OWN	Indexing the four training examples of Figurewill result in the and-or tree of Figure.	S-78
+OWN	Next , we find the set of nodes whose entropies exceed a threshold value .	S-79
+OWN	First we need to calculate the entropy of each or-node .	S-80
+OWN	We will here describe three different ways of doing this , but there are many others .	S-81
+OWN	Before doing this , though , we will discuss the question of redundancy in the resulting set of specialized rules .	S-82
+OWN	We must equate the cutnodes that correspond to the same type of phrase .	S-83
+OWN	This means that if we cut at a node corresponding to e.g. an NP , i.e. where the arcs incident from it are labelled with grammar rules whose left-hand-sides are NPs , we must allow all specialized NP rules to be potentially applicable at this point , not just the ones that are rooted in this node .	S-84
+OWN	This requires that we by transitivity equate the nodes that are dominated by a cutnode in a structurally equivalent way ; if there is a path from a cutnodeto a nodeand a path from a cutnodeto a nodewith an identical sequence of labels , the two nodesandmust be equated .	S-85
+OWN	Now ifis a cutnode , thenmust also be a cutnode even if it has a low entropy value .	S-86
+OWN	The following iterative scheme accomplishes this :	S-87
+OWN	Hereis the set of cutnodesaugmented with those induced in one step by selectingas the set of cutnodes .	S-88
+OWN	In practice this was accomplished by compiling an and-or graph from the and-or tree and the set of selected cutnodes , where each set of equated nodes constituted a vertex of the graph , and traversing it .	S-89
+OWN	In the simplest scheme for calculating the entropy of an or-node , only the RHS phrase of the parent rule , i.e. the dominating and-node , contributes to the entropy , and there is in fact no need to employ an and-or tree at all , since the tree-cutting criterion becomes local to the parse tree being cut up .	S-90
+OWN	In a slightly more elaborate scheme , we sum over the entropies of the nodes of the parse trees that match this node of the and-or tree .	S-91
+OWN	However , instead of letting each daughter node contribute with the full entropy of the LHS phrase of the corresponding grammar rule , these entropies are weighted with the relative frequency of use of each alternative choice of grammar rule .	S-92
+OWN	For example , the entropy of node n3 of the and-or tree of Figurewill be calculated as follows :	S-93
+OWN	The mother rule vp_v_np will contribute the entropy associated with the RHS NP , which is , referring to the table above , 0.64 .	S-94
+OWN	There are 2 choices of rules to resolve on , namely np_det_n and np_np_pp with relative frequenciesandrespectively .	S-95
+OWN	Again referring to the entropy table above , we find that the LHS phrases of these rules have entropy 1.33 and 0.00 respectively .	S-96
+OWN	This results in the following entropy for node n3 :	S-97
+OWN	The following function determines the set of cutnodes N that either exceed the entropy threshold , or are induced by structural equivalence :	S-98
+OWN	Here S (n) is the entropy of node n .	S-99
+OWN	In a third version of the scheme , the relative frequencies of the daughters of the or-nodes are used directly to calculate the node entropy :	S-100
+OWN	Here A is the set of arcs , andis an arc from n to.	S-101
+OWN	This is basically the entropy used in.	S-102
+OWN	Unfortunately , this tends to promote daughters of cutnodes to in turn become cutnodes , and also results in a problem with instability , especially in conjunction with the additional constraints discussed in a later section , since the entropy of each node is now dependent on the choice of cutnodes .	S-103
+OWN	We must redefine the function N(S) accordingly :	S-104
+OWN	Hereis the entropy of node n given that the set of cutnodes is.	S-105
+OWN	Convergence can be ensured by modifying the termination criterion to be	S-106
+OWN	for some appropriate set metric( e.g. the size of the symmetric difference ) and norm-like function( e.g. ten percent of the sum of the sizes ) , but this is to little avail , since we are not interested in solutions far away from the initial assignment of cutnodes .	S-107
+OWN	We will use a simple interval-bisection technique for finding the appropriate threshold value .	S-108
+OWN	We operate with a range where the lower bound gives at least the desired coverage , but where the higher bound doesn't .	S-109
+OWN	We will take the midpoint of the range , find the cutnodes corresponding to this value of the threshold , and check if this gives us the desired coverage .	S-110
+OWN	If it does , this becomes the new lower bound , otherwise it becomes the new upper bound .	S-111
+OWN	If the lower and upper bounds are close to each other , we stop and return the nodes corresponding to the lower bound .	S-112
+OWN	This termination criterion can of course be replaced with something more elaborate .	S-113
+OWN	This can be implemented as follows :	S-114
+OWN	Here C(N) is the coverage on the test set of the specialized grammar determined by the set of cutnodes N .	S-115
+OWN	Actually , we also need to handle the boundary case where no assignment of cutnodes gives the required coverage .	S-116
+OWN	Likewise , the coverages of the upper and lower bound may be far apart even though the entropy difference is small , and vice versa .	S-117
+OWN	These problems can readily be taken care of by modifying the termination criterion , but the solutions have been omitted for the sake of clarity .	S-118
+OWN	In the running example , using the weighted sum of the phrase entropies as the node entropy , if any threshold value less than 1.08 is chosen , this will yield any desired coverage , since the single test example of Figureis then covered .	S-119
+OWN	When retrieving the specialized rules , we will match each training example against the and-or tree .	S-120
+OWN	If the current node is a cutnode , we will cut at this point in the training example .	S-121
+OWN	The resulting rules will be the set of cut-up training examples .	S-122
+OWN	A threshold value of say 1.00 in our example will yield the set of cutnodesand result in the set of specialized rules of Figure.	S-123
+OWN	If we simply let the and-or tree determine the set of specialized rules , instead of using it to cut up the training examples , we will in general arrive at a larger number of rules , since some combinations of choices in the and-or tree may not correspond to any training example .	S-124
+OWN	If this latter strategy is used in our example , this will give us the two extra rules of Figure.	S-125
+OWN	Note that they not correspond to any training example .	S-126
+OWN	As mentioned at the beginning , the specialized grammar is compiled into LR parsing tables .	S-127
+OWN	Just finding any set of cutnodes that yields the desired coverage will not necessarily result in a grammar that is well suited for LR parsing .	S-128
+OWN	In particular , LR parsers , like any other parsers employing a bottom-up parsing strategy , do not blend well with empty productions .	S-129
+OWN	This is because without top-down filtering , any empty production is applicable at any point in the input string , and a naive bottom-up parser will loop indefinitely .	S-130
+OWN	The LR parsing tables constitute a type of top-down filtering , but this may not be sufficient to guarantee termination , and in any case , a lot of spurious applications of empty productions will most likely take place , degrading performance .	S-131
+OWN	For these reasons we will not allow learned rules whose RHSs are empty , but simply refrain from cutting in nodes of the parse trees that do not dominate at least one lexical lookup .	S-132
+OWN	Even so , the scheme described this far is not totally successful , the performance is not as good as using hand-coded tree-cutting criteria .	S-133
+OWN	This is conjectured to be an effect of the reduction lengths being far too short .	S-134
+OWN	The first reason for this is that for any spurious rule reduction to take place , the corresponding RHS phrases must be on the stack .	S-135
+OWN	The likelihood for this to happen by chance decreases drastically with increased rule length .	S-136
+OWN	A second reason for this is that the number of states visited will decrease with increasing reduction length .	S-137
+OWN	This can most easily be seen by noting that the number of states visited by a deterministic LR parser equals the number of shift actions plus the number of reductions , and equals the number of nodes in the corresponding parse tree , and the longer the reductions , the more shallow the parse tree .	S-138
+OWN	The hand-coded operationality criteria result in an average rule length of four , and a distribution of reduction lengths that is such that only 17 percent are of length one and 11 percent are of length two .	S-139
+OWN	This is in sharp contrast to what the above scheme accomplishes ; the corresponding figures are about 20 or 30 percent each for lengths one and two .	S-140
+OWN	An attempted solution to this problem is to impose restrictions on neighbouring cutnodes .	S-141
+OWN	This can be done in several ways ; one that has been tested is to select for each rule the RHS phrase with the least entropy , and prescribe that if a node corresponding to the LHS of the rule is chosen as a cutnode , then no node corresponding to this RHS phrase may be chosen as a cutnode , and vice versa .	S-142
+OWN	In case of such a conflict , the node ( class ) with the lowest entropy is removed from the set of cutnodes .	S-143
+OWN	We modify the functionto handle this :	S-144
+OWN	Hereis the set of nodes inthat should be removed to avoid violating the constraints on neighbouring cutnodes .	S-145
+OWN	It is also necessary to modify the termination criterion as was done for the functionabove .	S-146
+OWN	Now we can no longer safely assume that the coverage increases with decreased entropy , and we must also modify the interval-bisection scheme to handle this .	S-147
+OWN	It has proved reasonable to assume that the coverage is monotone on both sides of some maximum , which simplifies this task considerably .	S-148
+OWN	A module realizing this scheme has been implemented and applied to the very setup used for the previous experiments with the hand-coded tree-cutting criteria.	S-149
+OWN	2100 of the verified parse trees constituted the training set , while 230 of them were used for the test set .	S-150
+OWN	The table below summarizes the results for some grammars of different coverage extracted using :	S-151
+OWN	Hand-coded tree-cutting criteria .	S-152
+OWN	Induced tree-cutting criteria where the node entropy was taken to be the phrase entropy of the RHS phrase of the dominating grammar rule .	S-153
+OWN	Induced tree-cutting criteria where the node entropy was the sum of the phrase entropy of the RHS phrase of the dominating grammar rule and the weighted sum of the phrase entropies of the LHSs of the alternative choices of grammar rules to resolve on .	S-154
+OWN	In the latter two cases experiments were carried out both with and without the restrictions on neighbouring cutnodes discussed in the previous section .	S-155
+OWN	With the mixed entropy scheme it seems important to include the restrictions on neighbouring cutnodes , while this does not seem to be the case with the RHS phrase entropy scheme .	S-156
+OWN	A potential explanation for the significantly higher average parsing times for all grammars extracted using the induced tree-cutting criteria is that these are in general recursive , while the hand-coded criteria do not allow recursion , and thus only produce grammars that generate finite languages .	S-157
+OWN	Although the hand-coded tree-cutting criteria are substantially better than the induced ones , we must remember that the former produce a grammar that in median allows 60 times faster processing than the original grammar and parser do .	S-158
+OWN	This means that even if the induced criteria produce grammars that are a factor two or three slower than this , they are still approximately one and a half order of magnitude faster than the original setup .	S-159
+OWN	Also , this is by no means a closed research issue , but merely a first attempt to realize the scheme , and there is no doubt in my mind that it can be improved on most substantially .	S-160
+AIM	This article proposes a method for automatically finding the appropriate tree-cutting criteria in the EBG scheme , rather than having to hand-code them .	S-161
+BAS	The EBG scheme has previously proved most successful for tuning a natural-language grammar to a specific application domain and thereby achieve very much faster parsing , at the cost of a small reduction in coverage .	S-162
+OWN	Instruments have been developed and tested for controlling the coverage and for avoiding a large number of short reductions , which is argued to be the main source to poor parser performance .	S-163
+OWN	Although these instruments are currently slightly too blunt to enable producing grammars with the same high performance as the hand-coded tree-cutting criteria , they can most probably be sharpened by future research , and in particular refined to achieve the delicate balance between high coverage and a distribution of reduction lengths that is sufficiently biased towards long reductions .	S-164
+OWN	Also , banning recursion by category specialization , i.e. by for example distinguishing NPs that dominate other NPs from those that do not , will be investigated , since this is believed to be an important ingredient in the version of the scheme employing hand-coded tree-cutting criteria .	S-165
+OWN	This research was made possible by the basic research programme at the Swedish Institute of Computer Science ( SICS ) .	S-166
+OWN	I wish to thank Manny Rayner of SRI International , Cambridge , for help and support in matters pertaining to the treebank , and for enlightening discussions of the scheme as a whole .	S-167
+OWN	I also wish to thank the NLP group at SICS for contributing to a very conductive atmosphere to work in , and in particular Ivan Bretan for valuable comments on draft versions of this article .	S-168
+OWN	Finally , I wish to thank the anonymous reviewers for their comments .	S-169

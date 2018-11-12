@@ -3,12 +3,19 @@ import numpy as np
 import xml.etree.ElementTree as ET
 from nltk.corpus import stopwords 
 import Stemmer
+from passive_tagger import Tagger
 from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk import word_tokenize, pos_tag
+
 
 stemmer = Stemmer.Stemmer('english')
 headlines_val = ["Introduction", "Implementation", "Example", "Conclusion","Result",
             "Evaluation","Solution","Discussion","Further Work","Data","Related Work",
             "Experiment","Problems","Method","Problem Statement","Non-Prototypical"]
+t = None
+help_verbs = ['am', 'are', 'is', 'was', 'were', 'be', 'being', 'been', 'have',
+                'has', 'had', 'shall', 'will', 'do', 'does', 'did', 'may', 'must',
+                'might','can', 'could', 'would', 'should' ]
 
 class Features:
 
@@ -35,12 +42,51 @@ class Features:
                 if line == '':
                     continue
                 file_len += 1
+                #Feature Text
                 sen_feature['data'] = line.split('\t')[1]
+                #Feature Rhe Category
                 sen_feature['val'] = line.split('\t')[0]
+                #Feature sentence num
                 sen_feature['num'] = file_len
+                #Feature sentence num from XML
                 sen_feature['sid'] = line.split('\t')[2]
+                #Feature history
                 sen_feature['history'] = prev_his
                 prev_his = sen_feature['val']
+                sen_feature['voice'] = 'NOVERB'
+                sen_feature['tense'] = 'NOVERB'
+                sen_feature['modal'] = 'NOVERB'
+                #Feature Tense
+                verb_fl = 0
+                help_fl = 0
+                text1 = word_tokenize(sen_feature['data'])
+                tagged = pos_tag(text1)
+                for w in tagged:
+                    if w in help_verbs and verb_fl == 0:
+                        help_fl=1
+                    if verb_fl==1:
+                        continue
+                    if w not in help_verbs:
+                        if w[1] == 'MD':
+                            verb_fl=1
+                            sen_feature['tense'] = 'FUTURE'
+                        elif w[1] == 'VBP' or w[1] == 'VBZ' or w[1] == 'VBG':
+                            verb_fl=1
+                            sen_feature['tense'] = 'PRESENT'
+                        elif w[1] == 'VBD' or w[1] == 'VBN':
+                            sen_feature['tense'] = 'PAST'
+                            verb_fl=1
+                #Feature Modal
+                if help_fl==1 and verb_fl==1:
+                    sen_feature['modal'] = 'MODAL'
+                elif help_fl==0 and verb_fl==1:
+                    sen_feature['modal'] = 'NOMODAL'
+                #Feature Voice
+                if t.is_passive(sen_feature['data']) == True:
+                    sen_feature['voice'] = 'Passive'
+                elif verb_fl==1:
+                    sen_feature['voice'] = 'Active'
+                #Feature Length
                 len1 = len(re.sub(r'[^0-9A-Za-z\_\-]', ' ' , sen_feature['data']).split())
                 if len1 > 19:
                     sen_feature['len'] = 'YES'
@@ -53,6 +99,9 @@ class Features:
 
 
     def location(self):
+        '''
+        Feature Location
+        '''
         for key in self.feature_values:
             slen = len(self.feature_values[key]) / 20
             cur = 1
@@ -62,8 +111,10 @@ class Features:
                     cur+=1 
 
     def sec_location(self):
+        '''
+        Feature Section_Location, Paragraph Location, Title
+        '''
         for file in self.files:
-            # print file
             tree = ET.parse(file)
             root = tree.getroot()
             for abstract in root.iter('ABSTRACT'):
@@ -171,6 +222,9 @@ class Features:
                         break
 
     def headlines(self):
+        '''
+        Feature Headlines
+        '''
         for file in self.files:
             tree = ET.parse(file)
             root = tree.getroot()
@@ -196,7 +250,9 @@ class Features:
                         continue
 
     def tfIdf(self):
-        ''' '''
+        ''' 
+        Feature Tf Idf 
+        '''
         vectorizer = TfidfVectorizer(input='content', analyzer='word', stop_words='english', ngram_range=(1, 1), norm='l2')
         vectorizer.fit_transform(self.text)
         indices = np.argsort(vectorizer.idf_)[::-1]
@@ -220,6 +276,7 @@ class Features:
         self.tfIdf()
 
 if __name__ == '__main__':
+    t = Tagger()
     Feature_vector = Features()
     folder = sys.argv[1]
     xmlfolder = sys.argv[2]

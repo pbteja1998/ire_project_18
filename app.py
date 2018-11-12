@@ -14,3 +14,7 @@ def show_user_profile(subpath):
     # show the user profile for that user
     proc = subprocess.Popen(['python', 'summary.py',  subpath], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)    
     return proc.communicate()[0]
+
+if __name__ == '__main__':
+   port = int(os.environ.get("PORT", 5000))
+   app.run(debug=True, port=port)

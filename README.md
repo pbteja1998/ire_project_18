@@ -52,14 +52,14 @@ We have used ***Naive Bayes*** with the following distributions:
 | Test Dataset   | ***15 ( 20 % )***      |
 
 
-### Accuracies for NaiveBayes-based Sentence Classification
 
-| Distribution  | Accuracy (in %) |
-| ------------- | -------------   |
-| Bernoulli     |  ***84.64***   |
-| Gaussian      |  ***100***    |
-| Multinomial   |  ***80.89***   |
-| Complement    |  ***81.28***   |
+| Distribution      | Accuracy |
+|-----------| -------------    |
+| Bernoulli  | ***84.64***      |
+| Gaussian   | ***100***      |
+| Multinomial  | ***80.89***      |
+| Complement   | ***81.28***      |
+
 
 ### Plots:
 

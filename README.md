@@ -10,11 +10,12 @@ This project builds towards automatic summarisation of scientific papers. We aim
 
 Each of the statement in the paper is divided into following different categories-  
 **1. Aim** - Specific research goal of the current paper  
-**2. Own** - (Neutral) description of own work presented in current paper: Methodology, results, discussion  
-**3. Background** - Generally accepted scientific background  
-**4. Contrast** - Statements of comparison with or contrast to other work; weaknesses of other work  
-**5. Basis** - Statements of agreement with other work or continuation of other work  
-**6. Other** - (Neutral) description of other researchers’ work  
+**2. Textual** - Makes reference to the structure of the ownpaper 
+**3. Own** - (Neutral) description of own work presented in current paper: Methodology, results, discussion  
+**4. Background** - Generally accepted scientific background  
+**5. Contrast** - Statements of comparison with or contrast to other work; weaknesses of other work  
+**6. Basis** - Statements of agreement with other work or continuation of other work  
+**7. Other** - (Neutral) description of other researchers’ work  
 
 On basis of the above rhetorical categories we do the argumentative zoning of the sentences present in the papers. 
 

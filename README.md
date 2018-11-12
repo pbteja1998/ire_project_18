@@ -1,14 +1,14 @@
 ## Summarization of Scientific Texts: A Rhetorical Approach
 
-This project is the implementation of this [paper](https://www.mitpressjournals.org/doi/pdf/10.1162/089120102762671936)
+- This project is based on [Summarizing Scientific Articles: Experiments with Relevance and Rhetorical Status](https://www.mitpressjournals.org/doi/pdf/10.1162/089120102762671936)
 
-The main idea behind this paper is to use a rhetorical approach for classifying different statements present in a scientific paper on basis of argumentative zoning.
+- The main idea behind this paper is to use a rhetorical approach for classifying different statements present in a scientific paper on basis of argumentative zoning.
 
-This project builds towards automatic summarisation of scientific papers. We aim to classify each sentence within the research paper as one of the rhetorical categories.
+- This project builds towards automatic summarisation of scientific papers. We aim to classify each sentence within the research paper as one of the 7 rhetorical categories as mentioned below.
 
 ### Annotation Based on Argumentative Zoning
 
-Each of the statement in the paper is divided into following different categories-  
+Each of the statement in the paper is divided into following different categories
 - **Aim** - Specific research goal of the current paper  
 - **Textual** - Makes reference to the structure of the current paper    
 - **Own** - (Neutral) description of own work presented in current paper: Methodology, results, discussion  
@@ -19,7 +19,7 @@ Each of the statement in the paper is divided into following different categorie
 
 On basis of the above rhetorical categories we do the argumentative zoning of the sentences present in the papers. 
 
-### Features Used
+### Features of a sentence
 
 - **Location** - Where in the document the sentence occurs  
 - **Section Structure** - Where in the section does the sentence occurs, i.e. if a sentence is a first line of the section and so on.  
@@ -38,7 +38,7 @@ We used existing argumentative zoning dataset and on that we created different f
 
 We used ***NLTK*** and ***Scikit*** for writing the classifier. Since we used scikit learn we were able to test our model with multiple distributions. 
 
-We have used ***Naive Bayes*** with: 
+We have used ***Naive Bayes*** with the following distributions: 
 - ***Bernoulli Distribution***
 - ***Gaussian Distribution***
 - ***Multinomial Distribution***

@@ -1,0 +1,113 @@
+AIM	A comparison was made of vectors derived by using ordinary co-occurrence statistics from large text corpora and of vectors derived by measuring the inter-word distances in dictionary definitions .	A-0
+OWN	The precision of word sense disambiguation by using co-occurrence vectors from the 1987 Wall Street Journal ( 20 M total words ) was higher than that by using distance vectors from the Collins English Dictionary ( head words + definition words ) .	A-1
+OWN	However , other experimental results suggest that distance vectors contain some different semantic information from co-occurrence vectors .	A-2
+BKG	Word vectors reflecting word meanings are expected to enable numerical approaches to semantics .	S-0
+OTH	Some early attempts at vector representation in psycholinguistics were the semantic differential approachand the associative distribution approach.	S-1
+CTR	However , they were derived manually through psychological experiments .	S-2
+OTH	An early attempt at automation was made byusing co-occurrence statistics .	S-3
+OTH	Since then , there have been some promising results from using co-occurrence vectors , such as word sense disambiguation, and word clustering.	S-4
+CTR	However , using the co-occurrence statistics requires a huge corpus that covers even most rare words .	S-5
+OTH	We recently developed word vectors that are derived from an ordinary dictionary by measuring the inter-word distances in the word definitions.	S-6
+OTH	This method , by its nature , has no problem handling rare words .	S-7
+AIM	In this paper we examine the usefulness of these distance vectors as semantic representations by comparing them with co-occurrence vectors .	S-8
+OTH	A reference network of the words in a dictionary ( Fig.) is used to measure the distance between words .	S-9
+OTH	The network is a graph that shows which words are used in the definition of each word.	S-10
+OTH	The network shown in Fig.is for a very small portion of the reference network for the Collins English Dictionary ( 1979 edition ) in the CD-ROM I, with 60K head words + 1.6M definition words .	S-11
+OTH	For example , the definition for dictionary is `` a book in which the words of a language are listed alphabetically ... ''	S-12
+OTH	The word dictionary is thus linked to the words book , word , language , and alphabetical .	S-13
+OTH	A word vector is defined as the list of distances from a word to a certain set of selected words , which we call origins .	S-14
+OTH	The words in Fig.marked with( unit , book , and people ) are assumed to be origin words .	S-15
+OTH	In principle , origin words can be freely chosen .	S-16
+OTH	In our experiments we used middle frequency words : the 51st to 1050th most frequent words in the reference Collins English Dictionary ( CED ) .	S-17
+OTH	The distance vector for dictionary is derived as follows :	S-18
+OTH	The i-th element is the distance ( the length of the shortest path ) between dictionary and the i-th origin ,.	S-19
+OTH	To begin , we assume every link has a constant length of 1 .	S-20
+OTH	The actual definition for link length will be given later .	S-21
+OTH	If word A is used in the definition of word B , these words are expected to be strongly related .	S-22
+OTH	This is the basis of our hypothesis that the distances in the reference network reflect the associative distances between words.	S-23
+OTH	Use of Reference Networks	S-24
+OTH	Reference networks have been successfully used as neural networks ( byfor word sense disambiguation ) and as fields for artificial association , such as spreading activation ( byfor context-coherence measurement ) .	S-25
+OTH	The distance vector of a word can be considered to be a list of the activation strengths at the origin nodes when the word node is activated .	S-26
+OTH	Therefore , distance vectors can be expected to convey almost the same information as the entire network , and clearly they are much easier to handle .	S-27
+OTH	Dependence on Dictionaries	S-28
+OTH	As a semantic representation of words , distance vectors are expected to depend very weakly on the particular source dictionary .	S-29
+OTH	We compared two sets of distance vectors , one from LDOCEand the other from COBUILD, and verified that their difference is at least smaller than the difference of the word definitions themselves.	S-30
+TXT	We will now describe some technical details about the derivation of distance vectors .	S-31
+OTH	Link Length	S-32
+OTH	Distance measurement in a reference network depends on the definition of link length .	S-33
+OTH	Previously , we assumed for simplicity that every link has a constant length .	S-34
+CTR	However , this simple definition seems unnatural because it does not reflect word frequency .	S-35
+OWN	Because a path through low-frequency words ( rare words ) implies a strong relation , it should be measured as a shorter path .	S-36
+OWN	Therefore , we use the following definition of link length , which takes account of word frequency .	S-37
+OWN	This shows the length of the links between words Win Fig., where Ndenotes the total number of links from and to Wand n denotes the number of direct links between these two words .	S-38
+OWN	Normalization	S-39
+OWN	Distance vectors are normalized by first changing each coordinate into its deviation in the coordinate :	S-40
+OWN	whereare the average and the standard deviation of the distances from the- th origin .	S-41
+OWN	Next , each coordinate is changed into its deviation in the vector :	S-42
+OWN	whereare the average and the standard deviation of	S-43
+BAS	We use ordinary co-occurrence statistics and measure the co-occurrence likelihood between two words , X and Y , by the mutual information estimate.	S-44
+OWN	whereis the occurrence density of word X in a whole corpus , and the conditional probabilityis the density of X in a neighborhood of word Y. Here the neighborhood is defined as 50 words before or after any appearance of word Y .	S-45
+BAS	( There is a variety of neighborhood definitions such as `` 100 surrounding words ''and `` within a distance of no more than 3 words ignoring function words ''. )	S-46
+OWN	The logarithm with ` + ' is defined to be 0 for an argument less than 1 .	S-47
+OWN	Negative estimates were neglected because they are mostly accidental except when X and Y are frequent enough.	S-48
+OTH	A co-occurence vector of a word is defined as the list of co-occurrence likelihood of the word with a certain set of origin words .	S-49
+OTH	We used the same set of origin words as for the distance vectors .	S-50
+OTH	When the frequency of X or Y is zero , we can not measure their co-occurence likelihood , and such cases are not exceptional .	S-51
+OTH	This sparseness problem is well-known and serious in the co-occurrence statistics .	S-52
+BAS	We used as a corpus the 1987 Wall Street Journal in the CD-ROM I, which has a total of 20 M words .	S-53
+OWN	The number of words which appeared at least once was about 50 % of the total 62 K head words of CED , and the percentage of the word-origin pairs which appeared at least once was about 16 % of total 62 K1 K ( = 62 M ) pairs .	S-54
+OWN	When the co-occurrence likelihood can not be measured , the valuewas set to 0 .	S-55
+OWN	We compared the two vector representations by using them for the following two semantic tasks .	S-56
+OWN	The first is word sense disambiguation ( WSD ) based on the similarity of context vectors ; the second is the learning of or meanings from example words .	S-57
+OWN	With WSD , the precision by using co-occurrence vectors from a 20 M words corpus was higher than by using distance vectors from the CED .	S-58
+BKG	Word sense disambiguation is a serious semantic problem .	S-59
+BKG	A variety of approaches have been proposed for solving it .	S-60
+OTH	For example ,used reference networks as neural networks ,used ( shallow ) syntactic similarity between contexts ,used simulated annealing for quick parallel disambiguation , andused co-occurrence statistics between words and thesaurus categories .	S-61
+BAS	Our disambiguation method is based on the similarity of context vectors , which was originated by.	S-62
+OTH	In this method , a context vector is the sum of its constituent word vectors ( except the target word itself ) .	S-63
+OTH	That is , the context vector for context ,	S-64
+OTH	is	S-65
+OTH	The similarity of contexts is measured by the angle of their vectors ( or actually the inner product of their normalized vectors ) .	S-66
+OTH	Let word, and each sense have the following context examples .	S-67
+OTH	We infer that the sense of wordin an arbitrary contextis, is maximum among all the context examples .	S-68
+OTH	Another possible way to infer the sense is to choose sensesuch that the average ofoveris maximum .	S-69
+OWN	We selected the first method because a peculiarly similar example is more important than the average similarity .	S-70
+OWN	Figure( next page ) shows the disambiguation precision for 9 words .	S-71
+OWN	For each word , we selected two senses shown over each graph .	S-72
+OWN	These senses were chosen because they are clearly different and we could collect sufficient number ( more than 20 ) of context examples .	S-73
+OWN	The names of senses were chosen from the category names in Roget 's International Thesaurus , except organ 's .	S-74
+OWN	The results using distance vectors are shown by dots () , and using co-occurrence vectors from the 1987 WSJ ( 20 M words ) by circles () .	S-75
+OWN	A context size ( x-axis ) of , for example , 10 means 10 words before the target word and 10 words after the target word .	S-76
+OWN	We used 20 examples per sense ; they were taken from the 1988 WSJ .	S-77
+OWN	The test contexts were from the 1987 WSJ : The number of test contexts varies from word to word ( 100 to 1000 ) .	S-78
+OWN	The precision is the simple average of the respective precisions for the two senses .	S-79
+OWN	The results of Fig.show that the precision by using co-occurrence vectors are higher than that by using distance vectors except two cases , interest and customs .	S-80
+OWN	And we have not yet found a case where the distance vectors give higher precision .	S-81
+OWN	Therefore we conclude that co-occurrence vectors are advantageous over distance vectors to WSD based on the context similarity .	S-82
+OWN	The sparseness problem for co-occurrence vectors is not serious in this case because each context consists of plural words .	S-83
+OWN	Another experiment using the same two vector representations was done to measure the learning of or meanings .	S-84
+OWN	Figureshows the changes in the precision ( the percentage of agreement with the authors ' combined judgement ) .	S-85
+OWN	The x-axis indicates the number of example words for each or pair .	S-86
+OWN	Judgement was again done by using the nearest example .	S-87
+OWN	The example and test words are shown in Tablesand, respectively .	S-88
+OWN	In this case , the distance vectors were advantageous .	S-89
+OWN	The precision by using distance vectors increased to about 80 % and then leveled off , while the precision by using co-occurrence vectors stayed around 60 % .	S-90
+OWN	We can therefore conclude that the property of positive-or-negative is reflected in distance vectors more strongly than in co-occurrence vectors .	S-91
+OWN	The sparseness problem is supposed to be a major factor in this case .	S-92
+OWN	In the experiments discussed above , the corpus size for co-occurrence vectors was set to 20 M words ( ' 87 WSJ ) and the vector dimension for both co-occurrence and distance vectors was set to 1000 .	S-93
+OWN	Here we show some supplementary data that support these parameter settings	S-94
+OWN	Corpus size ( for co-occurrence vectors ) .	S-95
+OWN	Figureshows the change in disambiguation precision as the corpus size for co-occurrence statistics increases from 200 words to 20 M words .	S-96
+OWN	( The words are suit , issue and race , the context size is 10 , and the number of examples per sense is 10 . ) These three graphs level off after around 1 M words .	S-97
+OWN	Therefore , a corpus size of 20 M words is not too small .	S-98
+OWN	Vector Dimension .	S-99
+OWN	Figure( next page ) shows the dependence of disambiguation precision on the vector dimension for	S-100
+OWN	co-occurrence and	S-101
+OWN	distance vectors .	S-102
+OWN	As for co-occurrence vectors , the precision levels off near a dimension of 100 .	S-103
+OWN	Therefore , a dimension size of 1000 is sufficient or even redundant .	S-104
+OWN	However , in the distance vector 's case , it is not clear whether the precision is leveling or still increasing around 1000 dimension .	S-105
+AIM	A comparison was made of co-occurrence vectors from large text corpora and of distance vectors from dictionary definitions .	S-106
+CTR	For the word sense disambiguation based on the context similarity , co-occurrence vectors from the 1987 Wall Street Journal ( 20 M total words ) was advantageous over distance vectors from the Collins English Dictionary ( head words + definition words ) .	S-107
+CTR	For learning or meanings from example words , distance vectors gave remarkably higher precision than co-occurrence vectors .	S-108
+OWN	This suggests , though further investigation is required , that distance vectors contain some different semantic information from co-occurrence vectors .	S-109

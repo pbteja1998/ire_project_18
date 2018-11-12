@@ -19,7 +19,8 @@ help_verbs = ['am', 'are', 'is', 'was', 'were', 'be', 'being', 'been', 'have',
 
 class Features:
 
-    def __init__(self):
+    def __init__(self, t = Tagger()):
+        self.t = t
         self.files = []
         self.feature_values = dict()
         self.tags = []
@@ -84,7 +85,7 @@ class Features:
                 elif help_fl==0 and verb_fl==1:
                     sen_feature['modal'] = 'NOMODAL'
                 #Feature Voice
-                if t.is_passive(sen_feature['data']) == True:
+                if self.t.is_passive(sen_feature['data']) == True:
                     sen_feature['voice'] = 'Passive'
                 elif verb_fl==1:
                     sen_feature['voice'] = 'Active'

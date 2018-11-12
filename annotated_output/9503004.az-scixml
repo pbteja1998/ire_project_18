@@ -1,0 +1,173 @@
+OTH	We earlier described two taggers for French , a statistical one and a constraint-based one .	A-0
+OTH	The two taggers have the same tokeniser and morphological analyser .	A-1
+AIM	In this paper , we describe aspects of this work concerned with the definition of the tagset , the building of the lexicon , derived from an existing two-level morphological analyser , and the definition of a lexical transducer for guessing unknown words .	A-2
+BAS	We earlier described two taggers for French : the statistical one having an accuracy of 95 - 97 % and the constraint-based one 97 - 99 %,.	S-0
+AIM	The disambiguation has been already described , and here we discuss the other stages of the process , namely the definition of the tagset , transforming a current lexicon into a new one and guessing the words that do not appear in the lexicon .	S-1
+BAS	Our lexicon is based on a finite-state transducer lexicon.	S-2
+BAS	The French description was originally built byand, and later refined by.	S-3
+BAS	Related work on French can be found in.	S-4
+TXT	We describe in this section criteria for selecting the tagset .	S-5
+OWN	The following is based on what we noticed to be useful during the developing the taggers .	S-6
+OTH	Our basic French morphological analyser was not originally designed for a ( statistical ) tagger and the number of different tag combinations it has is quite high .	S-7
+OTH	The size of the tagset is only 88 .	S-8
+OTH	But because a word is typically associated with a sequence of tags , the number of different combinations is higher , 353 possible sequences for single French words .	S-9
+OTH	If we also consider words joined with clitics , the number of different combinations is much higher , namely 6525 .	S-10
+OTH	A big tagset does not cause trouble for a constraint-based tagger because one can refer to a combination of tags as easily as to a single tag .	S-11
+CTR	For a statistical tagger however , a big tagset may be a major problem .	S-12
+OWN	We therefore used two principles for forming the tagset :	S-13
+OWN	the tagset should not be big and	S-14
+OWN	the tagset should not introduce distinctions that cannot be resolved at this level of analysis .	S-15
+OWN	As distinctions that cannot be resolved at this level of analysis should be avoided , we do not have information about the tense of the verbs .	S-16
+OWN	Some of this information can be recovered later by performing another lexicon lookup after the analysis .	S-17
+OWN	Thus , if the verb tense is not ambiguous , we have not lost any information and , even if it is , a part-of-speech tagger could not resolve the ambiguity very reliably anyway .	S-18
+OWN	For instance , dort ( present ; sleeps ) and dormira ( future ; will sleep ) have the same tag VERB-SG-P 3 , because they are both singular , third-person forms and they can both be the main verb of a clause .	S-19
+OWN	If needed , we can do another lexicon lookup for words that have the tag VERB-SG-P 3 and assign a tense to them after the disambiguation .	S-20
+OWN	Therefore , the tagset and the lexicon together may make finer distinctions than the tagger alone .	S-21
+OWN	On the other hand , the same verb form dit can be third person singular present indicative or third person singular past historic ( pass simple ) of the verb dire ( to say ) .	S-22
+OWN	We do not introduce the distinction between those two forms , both tagged as VERB-SG-P 3 , because determining which of the two tenses is to be selected in a given context goes beyond the scope of the tagger .	S-23
+OWN	However , we do keep the distinction between dit as a finite verb ( present or past ) on one side and as a past participle on the other , because this distinction is properly handled with a limited contextual analysis .	S-24
+OWN	Morphological information concerning mood is also collapsed in the same way , so that a large class of ambiguity between present indicative and present subjunctive is not resolved : again this is motivated by the fact that the mood is determined by remote elements such as , among others , connectors that can be located at ( theoretically ) any distance from the verb .	S-25
+OWN	For instance , a conjunction like quoique requires the subjunctive mood :	S-26
+OWN	The polarity of the main verb to which a subordinate clause is attached also plays a role .	S-27
+OWN	For instance , compare :	S-28
+OWN	Consequently , forms like chante are tagged as VERB-P 3 SG regardless of their mood .	S-29
+OWN	In the case of faire ( to do , to make ) however , the mood information can easily be recovered as the third person plural are font and fassent for indicative and subjunctive moods respectively .	S-30
+OWN	The person seems to be problematic for a statistical tagger ( but not for a constraint-based tagger ) .	S-31
+OWN	For instance , the verb pense , ambiguous between the first - and third-person , in the sentence Je ne le pense pas ( I do not think so ) is disambiguated wrongly because the statistical tagger fails to see the first-person pronoun je and selects more common third-person reading for the verb .	S-32
+OWN	We made a choice to collapse the first - and second-person verbs together but not the third person .	S-33
+OWN	The reason why we cannot also collapse the third person is that we have an ambiguity class that contains adjective and first - or second-person verbs .	S-34
+OWN	In a sentence like Le secteur matires ( NOUN-PL ) plastiques ( ADJ-PL / NOUN-PL / VERB-P 1 P 2 ) ... the verb reading for plastiques is impossible .	S-35
+OWN	Because noun--third-person sequence is relatively common , collapsing also the third person would cause trouble in parsing .	S-36
+OWN	Because we use the same tag for first- and second-person verbs , the first- and second-person pronouns are also collapsed together to keep the system consistent .	S-37
+OWN	Determining the person after the analysis is also quite straightforward : the personal pronouns are not ambiguous , and the verb form , if it is ambiguous , can be recovered from its subject pronoun .	S-38
+OWN	Surface forms under a same lexical item were also collapsed when they can be attached to different lemmata ( lexical forms ) while sharing the same category , such as peignent derived from the verb peigner ( to comb ) or peindre ( to paint ) .	S-39
+OWN	Such coincidental situations are very rare in French.	S-40
+OWN	However , in the case of suis first person singular of the auxiliary tre ( to be ) or of the verb suivre ( to follow ) , the distinction is maintained , as we introduced special tags for auxiliaries .	S-41
+OWN	We have not introduced gender distinctions as far as nouns and adjectives ( and incidentally determiners ) are concerned .	S-42
+OWN	Thus a feminine noun like chaise ( chair ) and a masculine noun like tabouret ( stool ) both receive the same tag NOUN-SG .	S-43
+OWN	However , we have introduced distinctions between singular nouns ( NOUN-SG ) , plural nouns ( NOUN-PL ) and number-invariant nouns ( NOUN-INV ) such as taux ( rate / rates ) .	S-44
+OWN	Similar distinctions apply to adjectives and determiners .	S-45
+OWN	The main reason for this choice is that number , unlike gender , plays a major role in French with respect to subject / verb agreement , and the noun / verb ambiguity is one of the major cases that we want the tagger to resolve .	S-46
+OWN	Ignoring gender distinction for a French tagger is certainly counter intuitive .	S-47
+OWN	There are three major objections against this choice :	S-48
+OWN	Gender information would provide better disambiguation ,	S-49
+OWN	Gender ambiguous nouns should be resolved , and	S-50
+OWN	Displaying gender provides more information .	S-51
+OWN	There is obviously a strong objection against leaving out gender information as this information may provide a better disambiguation in some contexts .	S-52
+OWN	For instance in le diffuseur diffuse , the word diffuse is ambiguous as a verb or as a feminine adjective .	S-53
+OWN	This last category is unlikely after a masculine noun like diffuseur .	S-54
+OWN	However , one may observe that gender agreement between nouns and adjectives often involve long distance dependencies , due for instance to coordination or to the adjunction of noun complements as in une envie de soleil diffuse where the feminine adjective diffuse agrees with the feminine noun envie .	S-55
+OWN	In other words , introducing linguistically relevant information such as gender into the tagset is fine , but if this information is not used in the linguistically relevant context , the benefit is unclear .	S-56
+OWN	Therefore , if a ( statistical ) tagger is not able to use the relevant context , it may produce some extra errors by using the gender .	S-57
+OWN	An interesting , albeit minor interest of not introducing gender distinction , is that there is then no problem with tagging phrases like mon allusion ( my allusion ) where the masculine form of the possessive determiner mon precedes a feminine singular noun that begins with a vowel , for euphonic reasons .	S-58
+OWN	Our position is that situations where the gender distinction would help are rare , and that the expected improvement could well be impaired by new errors in some other contexts .	S-59
+OWN	On a test suiteextracted from the newspaper Le Monde ( 12 000 words ) tagged with either of our two taggers , we counted only three errors that violated gender agreement .	S-60
+OWN	Two could have been avoided by other means , i.e. they belong to other classes of tagging errors .	S-61
+OWN	The problematic sentence was :	S-62
+OWN	where interdit is mistakenly tagged as an adjective rather than a finite verb , while arme is a feminine noun and interdit a masculine adjective , which makes the noun-adjective sequence impossible in this particular sentence .	S-63
+OWN	Another argument in favour of gender distinction is that some nouns are ambiguously masculine or feminine , with possible differences in meaning , e.g. poste , garde , manche , tour , page .	S-64
+OWN	A tagger that would carry on the distinction would then provide sense disambiguation for such words .	S-65
+OWN	Actually , such gender-ambiguous words are not very frequent .	S-66
+OWN	On the same 12 000-word test corpus , we counted 46 occurrences of words which have different meanings for the masculine and the feminine noun readings .	S-67
+OWN	This number could be further reduced if extremely rare readings were removed from the lexicon , like masculine ombre ( a kind of fish while the feminine reading means shadow or shade ) or feminine litre ( a religious ornament ) .	S-68
+OWN	We also counted 325 occurrences of nouns ( proper nouns excluded ) which do not have different meanings in the masculine and the feminine readings , e.g. lve , camarade , jeune .	S-69
+OWN	A reason not to distinguish the gender of such nouns , besides their sparsity , is that the immediate context does not always suffice to resolve the ambiguity .	S-70
+OWN	Basically , disambiguation is possible if there is an unambiguous masculine or feminine modifier attached to the noun as in le poste vs. la poste .	S-71
+OWN	This is often not the case , especially for preposition + noun sequences and for plural forms , as plural determiners themselves are often ambiguous with respect to gender .	S-72
+OWN	For instance , in our test corpus , we find expressions like en 225 pages , leur tour , ces postes and pour les postes de responsabilit for which the contextual analysis does not help to disambiguate the gender of the head noun .	S-73
+OWN	Finally , carrying the gender information does not itself increase the disambiguation power of the tagger .	S-74
+OWN	A disambiguator that would explicitly mark gender distinctions in the tagset would not necessarily provide more information .	S-75
+OWN	A reasonable way to assess the disambiguating power of a tagger is to consider the ratio between the initial number of ambiguous tags vs. the final number of tags after disambiguation .	S-76
+OWN	For instance , it does not make any difference if the ambiguity class for a word like table is [ feminine-noun , finite-verb ] or [ noun , finite-verb ] , in both cases the tagger reduces the ambiguity by a ratio of 2 to 1 .	S-77
+OWN	The information that can be derived from this disambiguation is a matter of associating the tagged word with any relevant information like its base form , morphological features such as gender , or even its definition or its translation into some other language .	S-78
+OWN	This can be achieved by looking up the disambiguated word in the appropriate lexicon .	S-79
+OWN	Providing this derived information is not an intrinsic property of the tagger .	S-80
+OWN	Our point is that the objections do not hold very strongly .	S-81
+OWN	Gender information is certainly important in itself .	S-82
+OWN	We only argue that ignoring it at the level of part-of-speech tagging has no measurable effect on the overall quality of the tagger .	S-83
+OWN	On our test corpus of 12 000 words , only three errors violate gender agreement .	S-84
+OWN	This indicates how little the accuracy of the tagger could be improved by introducing gender distinction .	S-85
+OWN	On the other hand , we do not know how many errors would have been introduced if we had distinguished between the genders .	S-86
+OWN	We avoid categories that are too small , i.e. rare words that do not fit into an existing category are collapsed together .	S-87
+OWN	Making a distinction between categories is not useful if there are not enough occurrences of them in the training sample .	S-88
+OWN	We made a category MISC for all those miscellaneous words that do not fit into any existing category .	S-89
+OWN	This accounts for words such as : interjection oh , salutation bonjour , onomatopoeia miaou , wordparts i.e. words that only exist as part of a multi-word expression , such as priori , as part of a priori .	S-90
+OWN	In a few instances , we introduced new categories for words that have a specific syntactic distribution .	S-91
+OWN	For instance , we introduced a word-specific tag PREP-DE for words de , des and du , and tag PREP-A for words , au and aux .	S-92
+OWN	Word-specific tags for other prepositions could be considered too .	S-93
+OWN	The other readings of the words were not removed , e.g. de is , ambiguously , still a determiner as well as PREP-DE .	S-94
+OWN	When we have only one tag for all the prepositions , for example , a sequence like	S-95
+OWN	determiner noun noun / verb preposition	S-96
+OWN	is frequently disambiguated in the wrong way by the statistical tagger , e.g.	S-97
+OWN	The word part is ambiguous between a noun and a verb ( singular , third person ) , and the tagger seems to prefer the noun reading between a singular noun and a preposition .	S-98
+OWN	We succeeded in fixing this without modifying the tagset but the side-effect was that overall accuracy deteriorated .	S-99
+OWN	The main problem is that the preposition de , comparable to English of , is the most common preposition and also has a specific distribution .	S-100
+OWN	When we added new tags , say PREP-DE and PREP-A , for the specific prepositions while the other prepositions remained marked with PREP , we got the correct result , with no noticeable change in overall accuracy .	S-101
+BAS	We have a lexical transducer for Frenchwhich was built using Xerox Lexical Tools,.	S-102
+OWN	In our work we do not modify the corresponding source lexicon but we employ our finite-state calculus to map the lexical transducer into a new one .	S-103
+OWN	Writing rules that map a tag or a sequence of tags into a new tag is rather straightforward , but redefining the source lexicon would imply complex and time consuming work .	S-104
+OWN	The initial lexicon contains all the inflectional information .	S-105
+OWN	For instance , the word danses ( the plural of the noun danse or a second person form of the verb danser ( to dance ) has the following analyses :	S-106
+OWN	Forms that include clitics are analysed as a sequence of items separated by the symbolsordepending on whether the clitics precede or follow the head word .	S-107
+OWN	For instance vient-il ( does he come , lit. comes-he ) is analysed as :	S-108
+OWN	From this basic morphological transducer , we derived a new lexicon that matches the reduced tagset described above .	S-109
+OWN	This involved two major operations :	S-110
+OWN	handling cliticised forms appropriately for the tagger 's needs .	S-111
+OWN	switching tagsets	S-112
+OWN	In order to reduce the number of tags , cliticised items ( like vient-il are split into independent tokens for the tagging application .	S-113
+OWN	This splitting is performed at an early stage by the tokeniser , before dictionary lookup .	S-114
+OWN	Keeping track of the fact that the tokens were initially agglutinated reduces the overall ambiguity .	S-115
+OWN	For instance , if the word danses is derived from the expression danses-tu ( do you dance , lit. dance-you ) , then it can only be a verb reading .	S-116
+OWN	This is why forms like danses-tu are tokenised as danses - and tu , and forms like chante-t-il are tokenised as chante-t - and il .	S-117
+OWN	This in turn requires that forms like danses - and chante-t - be introduced into the new lexicon .	S-118
+OWN	With respect to switching tagsets , we use contextual two-level rules that turn the initial tags into new tags or to the void symbol if old tags must simply disappear .	S-119
+OWN	For instance , the symbol + Verb is transformed into + VERB-P 3 SG if the immediate left context consists of the symbols + SG + P 3 .	S-120
+OWN	The symbols + IndP , + SG and + P 3 are then transduced to the void symbol , so that vient ( or even the new token vient - ) gets analysed merely as + VERB-P 3 SG instead of + IndP + SG + P 3 + Verb .	S-121
+OWN	A final transformation consists in associating a given surface form with its ambiguity class , i.e. with the alphabetically ordered sequence of all its possible tags .	S-122
+OWN	For instance danses is associated with the ambiguity class [ + NOUN-PL + VERB-P 1 P 2 ] , i.e. it is either a plural noun or a verb form that belongs to the collapsed first or second person paradigm .	S-123
+OWN	Words not found in the lexicon are analysed by a separate finite-state transducer , the guesser .	S-124
+OWN	We developed a simple , extremely compact and efficient guesser for French .	S-125
+OWN	It is based on the general assumption that neologisms and uncommon words tend to follow regular inflectional patterns .	S-126
+OWN	The guesser is thus based on productive endings ( like ment for adverbs , ible for adjectives , er for verbs ) .	S-127
+OWN	A given ending may point to various categories , e.g. er identifies not only infinitive verbs but also nouns , due to possible borrowings from English .	S-128
+OWN	For instance , the ambiguity class for killer is [ NOUN-SG VERB-INF ] .	S-129
+OWN	These endings belong to the most frequent ending patterns in the lexicon , where every rare word weights as much as any frequent word .	S-130
+OWN	Endings are not selected according to their frequency in running texts , because highly frequent words tend to have irregular endings , as shown by adverbs like jamais , toujours , peut-tre , hier , souvent ( never , always , maybe ) .	S-131
+OWN	Similarly , verb neologisms belong to the regular conjugation paradigm characterised by the infinitive ending er , e.g. dballaduriser .	S-132
+OWN	With respect to nouns , we first selected productive endings ( iste , eau , eur , rice ) , until we realised a better choice was to assign a noun tag to all endings , with the exception of those previously assigned to other classes .	S-133
+OWN	In the latter case , two situations may arise : either the prefix is shared between nouns and some other category ( such as ment ) , or it must be barred from the list of noun endings ( such as aient , an inflectional marking of third person plural verbs ) .	S-134
+OWN	We in fact introduced some hierarchy into the endings : e.g. ment is shared by adverbs and nouns , while iquement is assigned to adverbs only .	S-135
+OWN	Guessing based on endings offers some side advantages : unknown words often result from alternations , which occur at the beginning of the word , the rest remaining the same , e.g. derivational prefixes as in isralo-jordano-palestinienne but also oral transcriptions such as les z 'oreilles ( the ears ) , with z ' marking the phonological liaison .	S-136
+OWN	Similarly , spelling errors which account for many of the unknown words actually affect the ending less than the internal structure of the word , e.g. the misspelt verb forms appellaient , geulait .	S-137
+OWN	Hyphens used to emphasise a word , e.g. har-mo-ni-ser , also leave endings unaltered .	S-138
+OWN	Those side advantages do not however operate when the alternation ( prefix , spelling error ) applies to a frequent word that does not follow regular ending patterns .	S-139
+OWN	For instance , the verb construit and the adverb trs are respectively misspelt as constuit and trs , and are not properly recognised .	S-140
+OWN	Generally , the guesser does not recognise words belonging to closed classes ( conjunctions , prepositions , etc. ) under the assumption that closed classes are fully described in the basic lexicon .	S-141
+OWN	A possible improvement to the guesser would be to incorporate frequent spelling errors for words that are not otherwise recognised .	S-142
+OWN	We extracted , from a corpus of newspaper articles ( Libration ) , a list of 13 500 words unknown to the basic lexicon .	S-143
+OWN	Of those unknown words , 9385 ( i.e. about 70 % ) are capitalised words , which are correctly and unambiguously analysed by the guesser as proper nouns with more than 95 % accuracy .	S-144
+OWN	Errors are mostly due to foreign capitalised words which are not proper nouns ( such as Eight ) and onomatopoeia ( such as Ooooh ) .	S-145
+OWN	The test on the remaining 4000 non-capitalised unknown words is more interesting .	S-146
+OWN	We randomly selected 800 of these words and ran the guesser on them. 1192 tags were assigned to those 800 words by the guesser , which gives an average of 1.5 tags per word .	S-147
+OWN	For 113 words , at least one required tag was missing ( 118 tags were missing as a whole , 4 words were lacking more than one tag : they are misspelt irregular verbs that have not been recognised as such ) .	S-148
+OWN	This means that 86 % of the words got all the required tags from the guesser .	S-149
+OWN	273 of the 1192 tags were classified as irrelevant .	S-150
+OWN	This concerned 244 words , which means that 70 % of the words did not get any irrelevant tags .	S-151
+OWN	Finally , 63 % of the words got all the required tags and only those .	S-152
+OWN	If we combine the evaluation on capitalised and non-capitalised words , 85 % of all unknown words are perfectly tagged by the guesser , and 92 % get all the necessary tags ( with possibly some unwanted ones ) .	S-153
+OWN	The test on the non-capitalised words was tough enough as we counted as irrelevant any tag that would be morphologically acceptable on general grounds , but which is not for a specific word .	S-154
+OWN	For instance , the misspelt word statisiticiens is tagged as [ ADJ-PL NOUN-PL ] ; we count the ADJ-PL tag as irrelevant , on the ground that the underlying correct word statisticiens is a noun only ( compare with the adjective platoniciens ) .	S-155
+OWN	The same occurs with words ending in ement that are systematically tagged as [ ADV NOUN-SG ] , unless a longer ending like iquement is recognised .	S-156
+OWN	This often , but not always , makes the NOUN-SG tag irrelevant .	S-157
+OWN	As for missing tags , more than half are adjective tags for words that are otherwise correctly tagged as nouns or past participles ( which somehow reduces the importance of the error , as the syntactic distribution of adjectives overlaps with those of nouns and past participles ) .	S-158
+OWN	The remaining words that lack at least one tag include misspelt words belonging to closed classes ( come , trs , vavec ) or to irregular verbs ( constuit ) , barbarisms resulting from the omission of blanks ( proposde ) , or from the adjunction of superfluous blanks or hyphens ( quand-mme , so cit ) .	S-159
+OWN	We also had a few examples of compound nouns improperly tagged as singular nouns , e.g. rencontres-tl , where the plural marking only appears on the first element of the compound .	S-160
+OWN	Finally , foreign words represent another class of problematic words , especially if they are not nouns .	S-161
+OWN	We found various English examples ( at , born , of , enough , easy ) but also Spanish , e.g. levantarse , and Italian ones , e.g. palazzi .	S-162
+AIM	We have described the tagset , lexicon and guesser that we built for our French tagger .	S-163
+OWN	In this work , we re-used an existing lexicon .	S-164
+OWN	We composed this lexicon with finite-state transducers ( mapping rules ) in order to produce a new lexical transducer with the new tagset .	S-165
+OWN	The guesser for words that are not in the lexicon is described in more detail .	S-166
+OWN	Some test results are given .	S-167
+BAS	The disambiguation itself is described in.	S-168
+OWN	This appendix contains an example of a tagged corpus .	S-169

@@ -35,7 +35,7 @@ def parse_files(folder_path, out_folder_path):
 
 if __name__ == '__main__':
 	folder_path = sys.argv[1]
-	out_folder_path = sys.argv[2]
-	if not os.path.exists(out_folder_path):
-		os.makedirs(out_folder_path)
+	out_folder_path = 'annotated_output'
+	if not os.path.exists('annotated_output'):
+		os.makedirs('annotated_output')
 	parse_files(folder_path, out_folder_path)

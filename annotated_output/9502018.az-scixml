@@ -1,0 +1,141 @@
+AIM	We describe a method for analysing the temporal structure of a discourse which takes into account the effects of tense , aspect , temporal adverbials and rhetorical structure and which minimises unnecessary ambiguity in the temporal structure .	A-0
+BAS	It is part of a discourse grammar implemented in's ALE formalism .	A-1
+OWN	The method for building up the temporal structure of the discourse combines constraints and preferences : we use constraints to reduce the number of possible structures , exploiting the HPSG type hierarchy and unification for this purpose ; and we apply preferences to choose between the remaining options using a temporal centering mechanism .	A-2
+OWN	We end by recommending that an underspecified representation of the structure using these techniques be used to avoid generating the temporal / rhetorical structure until higher-level information can be used to disambiguate .	A-3
+AIM	In this paper we describe a method for analysing the temporal structure of a discourse .	S-0
+OWN	This component was implemented as part of a discourse grammar for English .	S-1
+OWN	The goals of the temporal component were to yield a detailed representation of the temporal structure of the discourse , taking into account the effect of tense , aspect and temporal expressions while at the same time minimising unnecessary ambiguity in the temporal structure .	S-2
+BAS	The method combines a constraint-based approach with an approach based on preferences : we exploit the HPSG type hierarchy and unification to arrive at a temporal structure using constraints placed on that structure by tense , aspect , rhetorical structure and temporal expressions , and we use the temporal centering preferences described by,to rate the possibilities for temporal structure and choose the best among them .	S-3
+BAS	The starting point for this work was's discourse grammar,.	S-4
+BAS	For the implementation we extended the HPSG grammarwhichandfirst encoded in ALE.	S-5
+AIM	This paper will focus on our temporal processing algorithm , and in particular on our analysis of narrative progression , rhetorical structure , perfects and temporal expressions .	S-6
+OTH	Probably the best known algorithm for tracking narrative progression is that developed by,, and, which formalises the observation that an event will occur just after a preceding event , while a state will overlap with a preceding event .	S-7
+OTH	This algorithm gives the correct results in examples such as the following :	S-8
+OTH	Inthe event of Mary 's standing is understood to occur just after John enters the room , while inthe state in which Mary is seated is understood to overlap with the event of John 's entering the room .	S-9
+OTH	However , if there is a rhetorical relationship between two eventualities such as causation , elaboration or enablement , the temporal defaults can be overridden , as in the following examples :	S-10
+OTH	Inthere is a causal relationship between Mary 's pushing John and his falling , and the second event is understood to precede the first .	S-11
+CTR	In, the second sentence is an elaboration of the first , and they therefore refer to aspects of the same event rather than to two sequential events .	S-12
+OTH	It has been suggested that only world knowledge allows one to detect that the default is being overridden here .	S-13
+OTH	For example ,suggest that general knowledge postulates ( in the case of: that a pushing can cause a falling ) can be invoked to generate the backward movement reading .	S-14
+CTR	The problem for practical systems is twofold : we could assume that in the case of narrative the//algorithm is the default , but each time the default is applied we would need to check all our available world knowledge to see whether there isn't a world knowledge postulate which might be overriding this assumption .	S-15
+CTR	Clearly this would make the processing of text a very expensive operation .	S-16
+OWN	An alternative is to assume that the temporal ordering between events in two consecutive sentences can be any of the four possibilities ( just_after , precede , same-event and overlap ) .	S-17
+OWN	But then the resulting temporal structures will be highly ambiguous even in small discourses .	S-18
+OWN	And sometimes this ambiguity is unwarranted .	S-19
+OWN	Consider :	S-20
+OWN	Here , it would appear , only one reading is possible , i.e. the one where John gave Mary her slice of pizza just after she stared or started to stare at him .	S-21
+OWN	It would be undesirable for the temporal processing mechanism to postulate an ambiguity in this case .	S-22
+OWN	Of course , sometimes it is possible to take advantage of certain cue words which either indicate or constrain the rhetorical relation .	S-23
+OWN	For example , inthe order of the events is understood to be the reverse of that indue to the cue word because which signals a causal relationship between the events :	S-24
+OTH	Aspoints out , if forward movement of time is considered a default with consecutive event sentences , then the use of `` because '' inshould cause a temporal clash -- whereas it is perfectly felicitous .	S-25
+OWN	Temporal expressions such as at noon and the previous Thursday can have a similar effect : they too can override the default temporal relations and place constraints on tense	S-26
+OWN	In, for example , the default interpretation would be that John 's being in Detroit overlaps with his being in Boston , but the phrase the previous Thursday overrides this , giving the interpretation that John 's being in Detroit precedes his being in Boston :	S-27
+OWN	This suggests that the temporal information given by tense acts as a weaker constraint on temporal structure than the information given by temporal adverbials .	S-28
+OWN	The possibilities for rhetorical relations ( e.g. , whether something is narration , or elaboration , or a causal relation ) can be further constrained by aspect .	S-29
+OWN	For example , a state can elaborate another state or an event :	S-30
+OWN	But an event can only elaborate another event , as in:	S-31
+OWN	For the eventive second sentence ofto be an elaboration of the first sentence , it must occur in a stative form -- for example as a progressive ( i.e. , She was building a dog house ) .	S-32
+OWN	Because of considerations like these , our aim in the implementation work was to treat tense , aspect , cue words and rhetorical relations as mutually constraining , with more specific information such as explicit cue words having higher priority than less specific information such as tense .	S-33
+OWN	The main advantage of this approach is that it reduces temporal structure ambiguity without having to rely on detailed world knowledge postulates .	S-34
+OWN	Tablelists the possible temporal relations between the eventualities described by two consecutive sentences without temporal expressions or cue words , where the first sentence ( S) may have any tense and aspect and the second sentence ( S) expresses a simple past event .	S-35
+BAS	We constrain Sin this way because of lack of space ; additional constraints are given in.	S-36
+OWN	For example , if a simple past eventive sentence follows a simple past eventive sentence the second event can be understood to occur just after the first , to precede the first or to refer to the same event as the first ( an elaboration relation ) , but the two events cannot overlap ; these constraints are weaker , however , than explicit clues such as cue words to rhetorical relations and temporal expressions .	S-37
+OWN	When Sexpresses a state , it is possible for the temporal relation to hold between the event described by Sand the event or activity most closely preceding S, i.e. , the temporal focus of S, here referred to as TF.	S-38
+OWN	However , we haven't solved the problem completely at this point : although tense can provide a further constraint on the temporal structure of such discourses , it can also add a further ambiguity .	S-39
+OWN	Consider:	S-40
+OWN	Clearly , the event described by the past perfect sentence must precede the event described by the first , simple past sentence .	S-41
+OWN	However , if a third sentence is added , an ambiguity results .	S-42
+OWN	Consider the following possible continuations of:	S-43
+OWN	The temporal relation between these continuations and the portion of earlier text they attach to is constrained along the lines sketched before .	S-44
+OWN	The problem here is determining which thread inthey continue ;continues the thread in which Sam rings the bell , butcontinues the thread in which Sam loses the key .	S-45
+OWN	A further ambiguity is that when the third sentence is past perfect , it may be a continuation of a preceding thread or the start of a new thread itself .	S-46
+OWN	Consider :	S-47
+OWN	Inthe third sentence continues the thread about losing the key ; inthe third starts a new thread .	S-48
+BAS	For the problem with multi-sentence discourses , and the `` threads '' that sentences continue , we use an implementation of temporal centering,.	S-49
+BAS	This is a technique similar to the type of centering used for nominal anaphora,.	S-50
+OTH	Centering assumes that discourse understanding requires some notion of `` aboutness .	S-51
+OTH	'' While nominal centering assumes there is one object that the current discourse is `` about , '' temporal centering assumes that there is one thread that the discourse is currently following , and that , in addition to tense and aspect constraints , there is a preference for a new utterance to continue a thread which has a parallel tense or which is semantically related to it and a preference to continue the current thread rather than switching to another thread .	S-52
+OTH	confirmed these preferences when testing their ideas on the Brown corpus .	S-53
+OWN	As an example of how the temporal centering preference techniques can reduce ambiguity , recall exampleand the possible continuations shown in.	S-54
+OWN	The difficulty in these examples is determining whether the third sentence continues the thread begun by the first or second sentence .	S-55
+OWN	For example , inthe preference technique which allows us to choose the first thread over the second is one which assigns a higher rating to a thread whose tense is parallel to that of the new sentence ; in this case both Sam rang the bell and Hannah opened the door are in the simple past tense .	S-56
+OWN	In examplethe fact that the key is mentioned only in the second sentence oflinkswith the second thread .	S-57
+OWN	To handle an example like third , we employ a preference for relating a sentence to a thread that has content words that are rated as semantically `` close '' to that of the sentence :	S-58
+OWN	We store semantic patterns between words as a cheap and quick form of world knowledge ; these patterns are easier to provide than are the detailed world knowledge postulates required in some other approaches , and result in similar and sometimes more precise temporal structures with less processing overhead .	S-59
+OWN	Using the semantic patterns we know that key and keyring are semantically close , and through that semantic link between the second and third sentences we prefer to connect the third sentence to the thread begun by the second .	S-60
+BAS	The approach to representing semantic relationships we take is one used bywherein the words in the lexicon are associated with each other in a thesaurus-like fashion and given a rating according to how semantically `` close '' they are .	S-61
+OWN	We thus avoid relying on high-level inferences and very specific world knowledge postulates , our goal being to determine the temporal structure as much as possible prior to the application of higher-level inferences .	S-62
+BAS	Followingand, our model of discourse consists of units called Discourse Constituent Units ( DCUs ) which are related by various temporal and rhetorical relations .	S-63
+OTH	A basic DCU represents a sentence ( or clause ) , and complex DCUs are built up from basic and complex DCUs .	S-64
+OWN	In our ALE implementation , a DCU contains the following slots for temporal information :	S-65
+OWN	CUE_WORD : Cues to rhetorical structure , e.g. , `` because . ''	S-66
+OWN	V_AND_NP_LIST : Contains content words found in this DCU , and is used to compare the content words of the current DCU with those in previous threads , in order to rate the semantic `` closeness '' of the DCU to each thread .	S-67
+OWN	SEM_ASPECT : Contains the semantic aspect ( event , state , activity ) .	S-68
+OWN	We have extended theimplementation of the HPSG grammar so that semantic aspect is calculated compositionally ( and stored here ) .	S-69
+OWN	RHET_RELN : The relation between this DCU and a previous one .	S-70
+OWN	Lexical items and phrases such as cue words ( stored in CUE_WORD ) affect the value of this slot .	S-71
+OWN	TEMP_CENTER : Used for temporal centering ; Keeps track of the thread currently being followed ( since there is a preference for continuing the current thread ) and all the threads that have been constructed so far in the discourse .	S-72
+OWN	FWD_CENTER : Existing threads	S-73
+OWN	BKWD_CENTER : The thread currently being followed	S-74
+OWN	CLOSED_THREADS : Threads no longer available for continuation .	S-75
+OWN	TEMP_EXPR_RELNS : Stores the semantic interpretation of temporal expressions associated with this DCU .	S-76
+OWN	TEMP_RELNS : Stores the temporal relations between the eventualities in the discourse .	S-77
+OWN	TEMPFOC : The most recent event in the current thread which a subsequent eventuality may elaborate upon ( same-event ) , overlap , come just_after or precede .	S-78
+OWN	TENASP : Keeps track of the tense and syntactic aspect of the DCU ( if the DCU is simple ) .	S-79
+OWN	TENSE : past , pres , fut	S-80
+OWN	ASPECT : simple , perf , prog , perf_prog .	S-81
+OWN	To allow the above-mentioned types of information to mutually constrain each other , we employ a hierarchy of rhetorical and temporal relations ( illustrated in Figure) , using the ALE system in such a way that clues such as tense and cue words work together to reduce the number of possible temporal structures .	S-82
+CTR	This approach improves upon earlier work on discourse structure such asandin reducing the number of possible ambiguities ; it is also more precise than the//approach in that it takes into account ways in which the apparent defaults can be overridden and differentiates between events and activities , which behave differently in narrative progression .	S-83
+OWN	Tense , aspect , rhetorical relations and temporal expressions affect the value of the RHET_RELN type that expresses the relationship between two DCUs : cue words are lexically marked according to what rhetorical relation they specify , and this relation is passed on to the DCU .	S-84
+OWN	Explicit relation markers such as cue words and temporal relations must be consistent and take priority over indicators such as tense and aspect .	S-85
+OWN	For example , sentencewill be ruled out because the cue phrase as a result conflicts with the temporal expression ten minutes earlier :	S-86
+OWN	On the other hand , if temporal expressions indicate an overlap relation and cue words indicate a background relation as in, these contributions are consistent and the RHET_RELN type will contain a background value ( the more specific value of the two ) :	S-87
+OWN	For reasons of space it is difficult to give examples of the sign-based output of the grammar , or of the ALE rules , so we will restrict ourselves here to a summary of the algorithm and to a very limited rendition of the system output .	S-88
+OWN	The algorithm used for calculating the temporal structure of a discourse can be summarised as follows .	S-89
+OWN	It consists of two parts , the constraint-based portion and the preference-based portion :	S-90
+OWN	The possible temporal / rhetorical relations are constrained .	S-91
+OWN	If there is a temporal expression , it determines the temporal relationship of the new DCU to the previous ones , and defaults are ignored .	S-92
+OWN	Lexical items such as cue words influence the value of the RHET_RELN type ( See Figure) .	S-93
+OWN	If stepsandattempt to place conflicting values in the RHET_RELN slot , the parse will fail .	S-94
+OWN	If there is no temporal expression or cue phrase , tense and semantic aspect also influence the value of the RHET_RELN type ( See Table) , so that rhetorical relations , tense and aspect constrain each other .	S-95
+OWN	If more than one possibility exists , semantic preferences are used to choose between the possibilities .	S-96
+OWN	A `` semantic distance '' rating between the new DCU and each previous thread is determined .	S-97
+OWN	( If there are no existing threads a new thread is started . )	S-98
+BAS	Other preferences , such as a preference for relating the new DCU to a thread with parallel tense , are employed ( See,for details ) , and the resulting ratings are factored into the rating for each thread .	S-99
+OWN	If the thread currently being followed is among the highest rated threads , this thread is continued .	S-100
+OWN	( This corresponds to temporal centering 's preference to continue the current thread . )	S-101
+OWN	If not , the DCU may continue any of the highest rated threads , and each of these solutions is generated .	S-102
+OWN	Charts such as Tableprovide the observations we use to fill in the value of RHET_RELN .	S-103
+OWN	Those observations are summarised below .	S-104
+OWN	In what follows , the event variable associated withisand the TEMPFOC ofis the most recent event / activity processed , possibly eitself :	S-105
+OWN	can overlap with eif	S-106
+OWN	describes a state , or	S-107
+OWN	describes a state anddescribes an activity .	S-108
+OWN	can occur just-after the TEMPFOC of eif	S-109
+OWN	describes a simple tense event , or	S-110
+OWN	describes a complex tense clause anddescribes a complex tense event , or	S-111
+OWN	describes an event anddescribes an atelic or a simple tense state , or	S-112
+OWN	describes a state anddescribes a simple tense activity .	S-113
+OWN	can precede eif	S-114
+OWN	describes an event , or	S-115
+OWN	doesn't describe an activity anddescribes a past perfect stative .	S-116
+OWN	can elaborate onifdescribes an event , or	S-117
+OWN	describes an activity anddescribes an atelic , or	S-118
+OWN	anddescribe states and eitherdescribes a simple tense state or	S-119
+OWN	describes a complex tense state .	S-120
+OWN	Using this algorithm , we can precisely identify the rhetorical and temporal relations when cue words to rhetorical structure are present , as in:	S-121
+OWN	We can also narrow the possibilities when no cue word is present by using constraints based on observations of tense and aspect interactions such as those shown in Table.	S-122
+OWN	For example , ifrepresents a simple past eventive sentence anda past perfect eventive sentence , then in spite of the lack of rhetorical cues we know that eprecedes e, as in:	S-123
+OWN	Also , when several structures are possible we can narrow the possibilities by using preferences , as in the examples below :	S-124
+OWN	If we allow any of the four possible temporal relations between events , both continuations of sentencewould have 17 readings ( 4 x 4 + 1 reading in which the third sentence begins a new thread ) .	S-125
+OWN	Using constraints , we reduce the number of readings to 4 .	S-126
+OWN	Using preferences , we reduce that to 2 readings for each continuation .	S-127
+OWN	The correct temporal relations are shown in.	S-128
+OWN	By using constraints and preferences , we can considerably reduce the amount of ambiguity in the temporal / rhetorical structure of a discourse .	S-129
+OWN	However , explicit cues to rhetorical and temporal relations are not always available , and these cases result in more ambiguity than is desirable when processing large discourses .	S-130
+OWN	Consider , however , that instead of generating all the possible temporal / rhetorical structures , we could use the information available to fill in the most restrictive type possible in the type hierarchy of temporal / rhetorical relations shown in Figure.	S-131
+OWN	We can then avoid generating the structures until higher-level information can be applied to complete the disambiguation process .	S-132
+AIM	We presented a brief description of an algorithm for determining the temporal structure of discourse .	S-133
+BAS	The algorithm is part of an HPSG-style discourse grammar implemented in's ALE formalism .	S-134
+OWN	Its novel features are that it treats tense , aspect , temporal adverbials and rhetorical relations as mutually constraining ; it postulates less ambiguity than current temporal structuring algorithms do ; and it uses semantic closeness and other preference techniques rather than full-fledged world knowledge postulates to determine preferences over remaining ambiguities .	S-135
+OWN	We also recommended using an underspecified representation of temporal / rhetorical structure to avoid generating all solutions until higher-level knowledge can aid in reducing ambiguity .	S-136

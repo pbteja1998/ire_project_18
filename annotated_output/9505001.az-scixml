@@ -1,0 +1,159 @@
+BKG	In collaborative planning activities , since the agents are autonomous and heterogeneous , it is inevitable that conflicts arise in their beliefs during the planning process .	A-0
+BKG	In cases where such conflicts are relevant to the task at hand , the agents should engage in collaborative negotiation as an attempt to square away the discrepancies in their beliefs .	A-1
+AIM	This paper presents a computational strategy for detecting conflicts regarding proposed beliefs and for engaging in collaborative negotiation to resolve the conflicts that warrant resolution .	A-2
+OWN	Our model is capable of selecting the most effective aspect to address in its pursuit of conflict resolution in cases where multiple conflicts arise , and of selecting appropriate evidence to justify the need for such modification .	A-3
+OWN	Furthermore , by capturing the negotiation process in a recursive Propose-Evaluate-Modify cycle of actions , our model can successfully handle embedded negotiation subdialogues .	A-4
+BKG	In collaborative consultation dialogues , the consultant and the executing agent collaborate on developing a plan to achieve the executing agent 's domain goal .	S-0
+BKG	Since agents are autonomous and heterogeneous , it is inevitable that conflicts in their beliefs arise during the planning process .	S-1
+BKG	In such cases , collaborative agents should attempt to square awaythe conflicts by engaging in collaborative negotiation to determine what should constitute their shared plan of actions and shared beliefs .	S-2
+BKG	Collaborative negotiation differs from non-collaborative negotiation and argumentation mainly in the attitude of the participants , since collaborative agents are not self-centered , but act in a way as to benefit the agents as a group .	S-3
+BKG	Thus , when facing a conflict , a collaborative agent should not automatically reject a belief with which she does not agree ; instead , she should evaluate the belief and the evidence provided to her and adopt the belief if the evidence is convincing .	S-4
+BKG	On the other hand , if the evaluation indicates that the agent should maintain her original belief , she should attempt to provide sufficient justification to convince the other agent to adopt this belief if the belief is relevant to the task at hand .	S-5
+AIM	This paper presents a model for engaging in collaborative negotiation to resolve conflicts in agents ' beliefs about domain knowledge .	S-6
+OWN	Our model	S-7
+OWN	detects conflicts in beliefs and initiates a negotiation subdialogue only when the conflict is relevant to the current task ,	S-8
+OWN	selects the most effective aspect to address in its pursuit of conflict resolution when multiple conflicts exist ,	S-9
+OWN	selects appropriate evidence to justify the system 's proposed modification of the user 's beliefs , and	S-10
+OWN	captures the negotiation process in a recursive Propose-Evaluate-Modify cycle of actions , thus enabling the system to handle embedded negotiation subdialogues .	S-11
+CTR	Researchers have studied the analysis and generation of arguments,,,,,; however , agents engaging in argumentative dialogues are solely interested in winning an argument and thus exhibit different behavior from collaborative agents .	S-12
+CTR	,formulated an artificial language for modeling collaborative discourse using proposal / acceptance and proposal / rejection sequences ; however , her work is descriptive and does not specify response generation strategies for agents involved in collaborative interactions .	S-13
+OTH	have noted the importance of a cooperative system providing support for its responses .	S-14
+CTR	They identified strategies that a system can adopt in justifying its beliefs ; however , they did not specify the criteria under which each of these strategies should be selected .	S-15
+OTH	described a method of determining when to include optional warrants to justify a claim based on factors such as communication cost , inference cost , and cost of memory retrieval .	S-16
+CTR	However , her model focuses on determining when to include informationally redundant utterances , whereas our model determines whether or not justification is needed for a claim to be convincing and , if so , selects appropriate evidence from the system 's private beliefs to support the claim .	S-17
+OTH	,introduced the idea of utilizing a belief revision mechanismto predict whether a set of evidence is sufficient to change a user 's existing belief and to generate responses for information retrieval dialogues in a library domain .	S-18
+OTH	They argued that in the library dialogues they analyzed , `` in no cases does negotiation extend beyond the initial belief conflict and its immediate resolution . ''.	S-19
+CTR	However , our analysis of naturally-occurring consultation dialogues,shows that in other domains conflict resolution does extend beyond a single exchange of conflicting beliefs ; therefore we employ a recursive model for collaboration that captures extended negotiation and represents the structure of the discourse .	S-20
+CTR	Furthermore , their system deals with a single conflict , while our model selects a focus in its pursuit of conflict resolution when multiple conflicts arise .	S-21
+OWN	In addition , we provide a process for selecting among multiple possible pieces of evidence .	S-22
+BKG	Collaborative negotiation occurs when conflicts arise among agents developing a shared plan during collaborative planning .	S-23
+BKG	A collaborative agent is driven by the goal of developing a plan that best satisfies the interests of all the agents as a group , instead of one that maximizes his own interest .	S-24
+BKG	This results in several distinctive features of collaborative negotiation :	S-25
+BKG	A collaborative agent does not insist on winning an argument , and may change his beliefs if another agent presents convincing justification for an opposing belief .	S-26
+CTR	This differentiates collaborative negotiation from argumentation,,,.	S-27
+BKG	Agents involved in collaborative negotiation are open and honest with one another ; they will not deliberately present false information to other agents , present information in such a way as to mislead the other agents , or strategically hold back information from other agents for later use .	S-28
+CTR	This distinguishes collaborative negotiation from non-collaborative negotiation such as labor negotiation.	S-29
+BKG	Collaborative agents are interested in others ' beliefs in order to decide whether to revise their own beliefs so as to come to agreement.	S-30
+CTR	Although agents involved in argumentation and non-collaborative negotiation take other agents ' beliefs into consideration , they do so mainly to find weak points in their opponents ' beliefs and attack them to win the argument .	S-31
+OTH	In our earlier work , we built on's proposal / acceptance and proposal / rejection sequencesand developed a model that captures collaborative planning processes in a Propose-Evaluate-Modify cycle of actions.	S-32
+OTH	This model views collaborative planning as agent A proposing a set of actions and beliefs to be incorporated into the shared plan being developed , agent B evaluating the proposal to determine whether or not he accepts the proposal and , if not , agent B proposing a set of modifications to A 's original proposal .	S-33
+OTH	The proposed modifications will again be evaluated by A , and if conflicts arise , she may propose modifications to B 's previously proposed modifications , resulting in a recursive process .	S-34
+CTR	However , our research did not specify , in cases where multiple conflicts arise , how an agent should identify which part of an unaccepted proposal to address or how to select evidence to support the proposed modification .	S-35
+BAS	This paper extends that work by incorporating into the modification process a strategy to determine the aspect of the proposal that the agent will address in her pursuit of conflict resolution , as well as a means of selecting appropriate evidence to justify the need for such modification .	S-36
+BAS	In order to capture the agents ' intentions conveyed by their utterances , our model of collaborative negotiation utilizes an enhanced version of the dialogue model described into represent the current status of the interaction .	S-37
+OTH	The enhanced dialogue model has four levels : the domain level which consists of the domain plan being constructed for the user 's later execution , the problem-solving level which contains the actions being performed to construct the domain plan , the belief level which consists of the mutual beliefs pursued during the planning process in order to further the problem-solving intentions , and the discourse level which contains the communicative actions initiated to achieve the mutual beliefs.	S-38
+AIM	This paper focuses on the evaluation and modification of proposed beliefs , and details a strategy for engaging in collaborative negotiations .	S-39
+OWN	Our system maintains a set of beliefs about the domain and about the user 's beliefs .	S-40
+OWN	Associated with each belief is a strength that represents the agent 's confidence in holding that belief .	S-41
+BAS	We model the strength of a belief using endorsements , which are explicit records of factors that affect one 's certainty in a hypothesis, following,.	S-42
+OWN	Our endorsements are based on the semantics of the utterance used to convey a belief , the level of expertise of the agent conveying the belief , stereotypical knowledge , etc .	S-43
+OWN	The belief level of the dialogue model consists of mutual beliefs proposed by the agents ' discourse actions .	S-44
+OWN	When an agent proposes a new belief and gives ( optional ) supporting evidence for it , this set of proposed beliefs is represented as a belief tree , where the belief represented by a child node is intended to support that represented by its parent .	S-45
+OWN	The root nodes of these belief trees ( top-level beliefs ) contribute to problem-solving actions and thus affect the domain plan being developed .	S-46
+OWN	Given a set of newly proposed beliefs , the system must decide whether to accept the proposal or to initiate a negotiation dialogue to resolve conflicts .	S-47
+OWN	The evaluation of proposed beliefs starts at the leaf nodes of the proposed belief trees since acceptance of a piece of proposed evidence may affect acceptance of the parent belief it is intended to support .	S-48
+OWN	The process continues until the top-level proposed beliefs are evaluated .	S-49
+OWN	Conflict resolution strategies are invoked only if the top-level proposed beliefs are not accepted because if collaborative agents agree on a belief relevant to the domain plan being constructed , it is irrelevant whether they agree on the evidence for that belief.	S-50
+OWN	In determining whether to accept a proposed belief or evidential relationship , the evaluator first constructs an evidence set containing the system 's evidence that supports or attacks _bel and the evidence accepted by the system that was proposed by the user as support for _bel .	S-51
+OWN	Each piece of evidence contains a belief _bel, and an evidential relationship supports(_bel,_bel).	S-52
+BAS	Following's weakest link assumption the strength of the evidence is the weaker of the strength of the belief and the strength of the evidential relationship .	S-53
+BAS	The evaluator then employs a simplified version of's belief revision mechanismto compare the strengths of the evidence that supports and attacks _bel .	S-54
+OWN	If the strength of one set of evidence strongly outweighs that of the other , the decision to accept or reject _bel is easily made .	S-55
+OWN	However , if the difference in their strengths does not exceed a pre-determined threshold , the evaluator has insufficient information to determine whether to adopt _bel and therefore will initiate an information-sharing subdialogueto share information with the user so that each of them can knowledgably re-evaluate the user 's original proposal .	S-56
+OWN	If , during information-sharing , the user provides convincing support for a belief whose negation is held by the system , the system may adopt the belief after the re-evaluation process , thus resolving the conflict without negotiation .	S-57
+OWN	To illustrate the evaluation of proposed beliefs , consider the following utterances :	S-58
+OWN	Figureshows the belief and discourse levels of the dialogue model that captures utterancesand.	S-59
+OWN	The belief evaluation process will start with the belief at the leaf node of the proposed belief tree , On-Sabbatical(Smith,next year)) .	S-60
+OWN	The system will first gather its evidence pertaining to the belief , which includes	S-61
+OWN	a warranted belief that Dr. Smith has postponed his sabbatical until 1997(Postponed-Sabbatical(Smith,1997)) ,	S-62
+OWN	a warranted belief that Dr. Smith postponing his sabbatical until 1997 supports the belief that he is not going on sabbatical next year ( supports(Postponed-Sabbatical(Smith,1997),On-Sabbatical(Smith,next year)) ,	S-63
+OWN	a strong belief that Dr. Smith will not be a visitor at IBM next year (visitor(Smith,IBM,next year)) , and	S-64
+OWN	a warranted belief that Dr. Smith not being a visitor at IBM next year supports the belief that he is not going on sabbatical next year ( supports(visitor(Smith,IBM,next year),On-Sabbatical(Smith,next year)) , perhaps because Dr. Smith has expressed his desire to spend his sabbatical only at IBM ) .	S-65
+OWN	The belief revision mechanism will then be invoked to determine the system 's belief about On-Sabbatical(Smith,next year) based on the system 's own evidence and the user 's statement .	S-66
+OWN	Since beliefsandabove constitute a warranted piece of evidence against the proposed belief and beliefsandconstitute a strong piece of evidence against it , the system will not accept On-Sabbatical(Smith,next year) .	S-67
+OWN	The system believes that being on sabbatical implies a faculty member is not teaching any courses ; thus the proposed evidential relationship will be accepted .	S-68
+OWN	However , the system will not accept the top-level proposed belief ,Teaches(Smith,AI) , since the system has a prior belief to the contrary ( as expressed in utterance) and the only evidence provided by the user was an implication whose antecedent was not accepted .	S-69
+OTH	The collaborative planning principle in,suggests that `` conversants must provide evidence of a detected discrepancy in belief as soon as possible . ''	S-70
+OTH	Thus , once an agent detects a relevant conflict , she must notify the other agent of the conflict and initiate a negotiation subdialogue to resolve it -- to do otherwise is to fail in her responsibility as a collaborative agent .	S-71
+OWN	We capture the attempt to resolve a conflict with the problem-solving action Modify-Proposal , whose goal is to modify the proposal to a form that will potentially be accepted by both agents .	S-72
+OWN	When applied to belief modification , Modify-Proposal has two specializations : Correct-Node , for when a proposed belief is not accepted , and Correct-Relation , for when a proposed evidential relationship is not accepted .	S-73
+OWN	Figureshows the problem-solving recipes for Correct-Node and its subaction , Modify-Node , that is responsible for the actual modification of the proposal .	S-74
+OWN	The applicability conditions of Correct-Node specify that the action can only be invoked when _s1 believes that _node is not acceptable while _s2 believes that it is ( when _s1 and _s2 disagree about the proposed belief represented by _node ) .	S-75
+OWN	However , since this is a collaborative interaction , the actual modification can only be performed when both _s1 and _s2 believe that _node is not acceptable -- that is , the conflict between _s1 and _s2 must have been resolved .	S-76
+OWN	This is captured by the applicability condition and precondition of Modify-Node .	S-77
+OWN	The attempt to satisfy the precondition causes the system to post as a mutual belief to be achieved the belief that _node is not acceptable , leading the system to adopt discourse actions to change _s2 's beliefs , thus initiating a collaborative negotiation subdialogue .	S-78
+OWN	When multiple conflicts arise between the system and the user regarding the user 's proposal , the system must identify the aspect of the proposal on which it should focus in its pursuit of conflict resolution .	S-79
+OWN	For example , in the case where Correct-Node is selected as the specialization of Modify-Proposal , the system must determine how the parameter _node in Correct-Node should be instantiated .	S-80
+OWN	The goal of the modification process is to resolve the agents ' conflicts regarding the unaccepted top-level proposed beliefs .	S-81
+OWN	For each such belief , the system could provide evidence against the belief itself , address the unaccepted evidence proposed by the user to eliminate the user 's justification for the belief , or both .	S-82
+OWN	Since collaborative agents are expected to engage in effective and efficient dialogues , the system should address the unaccepted belief that it predicts will most quickly resolve the top-level conflict .	S-83
+OWN	Therefore , for each unaccepted top-level belief , our process for selecting the focus of modification involves two steps : identifying a candidate foci tree from the proposed belief tree , and selecting a focus from the candidate foci tree using the heuristic `` attack the belief ( s ) that will most likely resolve the conflict about the top-level belief . ''	S-84
+OWN	A candidate foci tree contains the pieces of evidence in a proposed belief tree which , if disbelieved by the user , might change the user 's view of the unaccepted top-level proposed belief ( the root node of that belief tree ) .	S-85
+OWN	It is identified by performing a depth-first search on the proposed belief tree .	S-86
+OWN	When a node is visited , both the belief and the evidential relationship between it and its parent are examined .	S-87
+OWN	If both the belief and relationship were accepted by the evaluator , the search on the current branch will terminate , since once the system accepts a belief , it is irrelevant whether it accepts the user 's support for that belief.	S-88
+OWN	Otherwise , this piece of evidence will be included in the candidate foci tree and the system will continue to search through the evidence in the belief tree proposed as support for the unaccepted belief and / or evidential relationship .	S-89
+OWN	Once a candidate foci tree is identified , the system should select the focus of modification based on the likelihood of each choice changing the user 's belief about the top-level belief .	S-90
+OWN	Figureshows our algorithm for this selection process .	S-91
+OWN	Given an unaccepted belief ( _bel ) and the beliefs proposed to support it , Select-Focus-Modification will annotate _bel with	S-92
+OWN	its focus of modification ( _bel focus ) , which contains a set of beliefs ( _bel and / or its descendents ) which , if disbelieved by the user , are predicted to cause him to disbelieve _bel , and	S-93
+OWN	the system 's evidence against _bel itself ( _bel s-attack ) .	S-94
+OWN	Select-Focus-Modification determines whether to attack _bel 's supporting evidence separately , thereby eliminating the user 's reasons for holding _bel , to attack _bel itself , or both .	S-95
+OWN	However , in evaluating the effectiveness of attacking the proposed evidence for _bel , the system must determine whether or not it is possible to successfully refute a piece of evidence ( i.e. , whether or not the system believes that sufficient evidence is available to convince the user that a piece of proposed evidence is invalid ) , and if so , whether it is more effective to attack the evidence itself or its support .	S-96
+OWN	Thus the algorithm recursively applies itself to the evidence proposed as support for _bel which was not accepted by the system ( step) .	S-97
+OWN	In this recursive process , the algorithm annotates each unaccepted belief or evidential relationship proposed to support _bel with its focus of modification ( _bel.focus ) and the system 's evidence against it ( _bel.s-attack ) .	S-98
+OWN	bel.focus contains the beliefs selected to be addressed in order to change the user 's belief about _bel, and its value will be nil if the system predicts that insufficient evidence is available to change the user 's belief about _bel.	S-99
+OWN	Based on the information obtained in step, Select-Focus-Modification decides whether to attack the evidence proposed to support _bel , or _bel itself ( step) .	S-100
+BAS	Its preference is to address the unaccepted evidence , because's focusing rules suggest that continuing a newly introduced topic ( about which there is more to be said ) is preferable to returning to a previous topic.	S-101
+OWN	Thus the algorithm first considers whether or not attacking the user 's support for _bel is sufficient to convince him of_bel ( step) .	S-102
+OWN	It does so by gathering ( in cand-set ) evidence proposed by the user as direct support for _bel but which was not accepted by the system and which the system predicts it can successfully refute ( i.e. , _bel.focus is not nil ) .	S-103
+OWN	The algorithm then hypothesizes that the user has changed his mind about each belief in cand-set and predicts how this will affect the user 's belief about _bel ( step) .	S-104
+OWN	If the user is predicted to accept_bel under this hypothesis , the algorithm invokes Select-Min-Set to select a minimum subset of cand-set as the unaccepted beliefs that it would actually pursue , and the focus of modification ( _bel.focus ) will be the union of the focus for each of the beliefs in this minimum subset .	S-105
+OWN	If attacking the evidence for _bel does not appear to be sufficient to convince the user of_bel , the algorithm checks whether directly attacking _bel will accomplish this goal .	S-106
+OWN	If providing evidence directly against _bel is predicted to be successful , then the focus of modification is _bel itself ( step) .	S-107
+OWN	If directly attacking _bel is also predicted to fail , the algorithm considers the effect of attacking both _bel and its unaccepted proposed evidence by combining the previous two prediction processes ( step) .	S-108
+OWN	If the combined evidence is still predicted to fail , the system does not have sufficient evidence to change the user 's view of _bel ; thus , the focus of modification for _bel is nil ( step) .	S-109
+BAS	Notice that stepsandof the algorithm invoke a function , Predict , that makes use of the belief revision mechanismdiscussed in Sectionto predict the user 's acceptance or unacceptance of _bel based on the system 's knowledge of the user 's beliefs and the evidence that could be presented to him.	S-110
+OWN	The result of Select-Focus-Modification is a set of user beliefs ( in _bel.focus ) that need to be modified in order to change the user 's belief about the unaccepted top-level belief .	S-111
+OWN	Thus , the negations of these beliefs will be posted by the system as mutual beliefs to be achieved in order to perform the Modify actions .	S-112
+OTH	Studies in communication and social psychology have shown that evidence improves the persuasiveness of a message,,,.	S-113
+OTH	Research on the quantity of evidence indicates that there is no optimal amount of evidence , but that the use of high-quality evidence is consistent with persuasive effects.	S-114
+OTH	On the other hand ,'s maxim of quantity specifies that one should not contribute more information than is required .	S-115
+OWN	Thus , it is important that a collaborative agent selects sufficient and effective , but not excessive , evidence to justify an intended mutual belief .	S-116
+OWN	To convince the user of a belief , _bel , our system selects appropriate justification by identifying beliefs that could be used to support _bel and applying filtering heuristics to them .	S-117
+OWN	The system must first determine whether justification for _bel is needed by predicting whether or not merely informing the user of _bel will be sufficient to convince him of _bel .	S-118
+OWN	If so , no justification will be presented .	S-119
+OWN	If justification is predicted to be necessary , the system will first construct the justification chains that could be used to support _bel .	S-120
+OWN	For each piece of evidence that could be used to directly support _bel , the system first predicts whether the user will accept the evidence without justification .	S-121
+OWN	If the user is predicted not to accept a piece of evidence ( evid) , the system will augment the evidence to be presented to the user by posting evidas a mutual belief to be achieved , and selecting propositions that could serve as justification for it .	S-122
+OWN	This results in a recursive process that returns a chain of belief justifications that could be used to support _bel .	S-123
+OWN	Once a set of beliefs forming justification chains is identified , the system must then select from this set those belief chains which , when presented to the user , are predicted to convince the user of _bel .	S-124
+OWN	Our system will first construct a singleton set for each such justification chain and select the sets containing justification which , when presented , is predicted to convince the user of _bel .	S-125
+OWN	If no single justification chain is predicted to be sufficient to change the user 's beliefs , new sets will be constructed by combining the single justification chains , and the selection process is repeated .	S-126
+OWN	This will produce a set of possible candidate justification chains , and three heuristics will then be applied to select from among them .	S-127
+BAS	The first heuristic prefers evidence in which the system is most confident since high-quality evidence produces more attitude change than any other evidence form.	S-128
+OWN	Furthermore , the system can better justify a belief in which it has high confidence should the user not accept it .	S-129
+BAS	The second heuristic prefers evidence that is novel to the user , since studies have shown that evidence is most persuasive if it is previously unknown to the hearer,.	S-130
+BAS	The third heuristic is based on's maxim of quantity and prefers justification chains that contain the fewest beliefs .	S-131
+OWN	After the evaluation of the dialogue model in Figure, Modify-Proposal is invoked because the top-level proposed belief is not accepted .	S-132
+OWN	In selecting the focus of modification , the system will first identify the candidate foci tree and then invoke the Select-Focus-Modification algorithm on the belief at the root node of the candidate foci tree .	S-133
+OWN	The candidate foci tree will be identical to the proposed belief tree in Figuresince both the top-level proposed belief and its proposed evidence were rejected during the evaluation process .	S-134
+OWN	This indicates that the focus of modification could be eitherTeaches(Smith,AI) or On-Sabbatical(Smith,next year) ( since the evidential relationship between them was accepted ) .	S-135
+OWN	When Select-Focus-Modification is applied toTeaches(Smith,AI) , the algorithm will first be recursively invoked on On-Sabbatical(Smith,next year) to determine the focus for modifying the child belief ( stepin Figure) .	S-136
+OWN	Since the system has two pieces of evidence against On-Sabbatical(Smith,next year) ,	S-137
+OWN	a warranted piece of evidence containing Postponed-Sabbatical(Smith,1997) and supports(Postponed-Sabbatical(Smith,1997) ,On-Sabbatical(Smith,next year)) , and	S-138
+OWN	a strong piece of evidence containingvisitor(Smith,IBM,next year) and supports(visitor(Smith,IBM,next year) ,On-Sabbatical(Smith,next year)) , the evidence is predicted to be sufficient to change the user 's belief in On-Sabbatical(Smith,next year) , and henceTeaches(Smith,AI) ; thus , the focus of modification will be On-Sabbatical(Smith,next year) .	S-139
+OWN	The Correct-Node specialization of Modify-Proposal will be invoked since the focus of modification is a belief , and in order to satisfy the precondition of Modify-Node(Figure) , MB(S,U,On-Sabbatical(Smith,next year)) will be posted as a mutual belief to be achieved .	S-140
+OWN	Since the user has a warranted belief in On-Sabbatical(Smith,next year) ( indicated by the semantic form of utterance) , the system will predict that merely informing the user of the intended mutual belief is not sufficient to change his belief ; therefore it will select justification from the two available pieces of evidence supportingOn-Sabbatical(Smith,next year) presented earlier .	S-141
+OWN	The system will predict that either piece of evidence combined with the proposed mutual belief is sufficient to change the user 's belief ; thus , the filtering heuristics are applied .	S-142
+OWN	The first heuristic will cause the system to select Postponed-Sabbatical(Smith,1997) and supports(Postponed-Sabbatical(Smith,1997) ,On-Sabbatical(Smith,next year)) as support , since it is the evidence in which the system is more confident .	S-143
+OWN	The system will try to establish the mutual beliefs as an attempt to satisfy the precondition of Modify-Node .	S-144
+OWN	This will cause the system to invoke Inform discourse actions to generate the following utterances :	S-145
+OWN	If the user accepts the system 's utterances,thus satisfying the precondition that the conflict be resolved , Modify-Node can be performed and changes made to the original proposed beliefs .	S-146
+OWN	Otherwise , the user may propose modifications to the system 's proposed modifications , resulting in an embedded negotiation subdialogue .	S-147
+AIM	This paper has presented a computational strategy for engaging in collaborative negotiation to square away conflicts in agents ' beliefs .	S-148
+OWN	The model captures features specific to collaborative negotiation .	S-149
+OWN	It also supports effective and efficient dialogues by identifying the focus of modification based on its predicted success in resolving the conflict about the top-level belief and by using heuristics motivated by research in social psychology to select a set of evidence to justify the proposed modification of beliefs .	S-150
+OWN	Furthermore , by capturing collaborative negotiation in a cycle of Propose-Evaluate-Modify actions , the evaluation and modification processes can be applied recursively to capture embedded negotiation subdialogues .	S-151
+	Discussions with Candy Sidner , Stephanie Elzer , and Kathy McCoy have been very helpful in the development of this work .	S-152
+	Comments from the anonymous reviewers have also been very useful in preparing the final version of this paper .	S-153

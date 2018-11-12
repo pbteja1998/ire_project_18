@@ -1,0 +1,129 @@
+AIM	We propose a bottom-up variant of Earley deduction .	A-0
+OWN	Bottom-up deduction is preferable to top-down deduction because it allows incremental processing ( even for head-driven grammars ) , it is data-driven , no subsumption check is needed , and preference values attached to lexical items can be used to guide best-first search .	A-1
+OWN	We discuss the scanning step for bottom-up Earley deduction and indexing schemes that help avoid useless deduction steps .	A-2
+BKG	Recently , there has been a lot of interest in Earley deductionwith applications to parsing and generation,,,.	S-0
+BAS	Earley deduction is a very attractive framwork for natural language processing because it has the following properties and applications .	S-1
+BAS	Memoization and reuse of partial results	S-2
+BAS	Incremental processing by addition of new items	S-3
+BAS	Hypothetical reasoning by keeping track of dependencies between items	S-4
+BAS	Best-first search by means of an agenda .	S-5
+OTH	Like's algorithm , all of these approaches operate top-down ( backward chaining ) .	S-6
+OTH	The interest has naturally focussed on top-down methods because they are at least to a certain degree goal-directed .	S-7
+AIM	In this paper , we present a bottom-up variant of Earley deduction , which we find advantageous for the following reasons :	S-8
+OWN	Incrementality :	S-9
+OWN	Portions of an input string can be analysed as soon as they are produced ( or generated as soon as the what-to-say component has decided to verbalize them ) , even for grammars where one cannot assume that the left-corner has been predicted before it is scanned .	S-10
+OWN	Data-Driven Processing :	S-11
+CTR	Top-down algorithms are not well suited for processing grammatical theories like Categorial Grammar or HPSG that would only allow very general predictions because they make use of general schemata instead of construction-specific rules .	S-12
+OWN	For these grammars data-driven bottom-up processing is more appropriate .	S-13
+OWN	The same is true for large-coverage rule-based grammars which lead to the creation of very many predictions .	S-14
+OWN	Subsumption Checking :	S-15
+OWN	Since the bottom-up algorithm does not have a prediction step , there is no need for the costly operation of subsumption checking .	S-16
+OWN	Search Strategy :	S-17
+OWN	In the case where lexical entries have been associated with preference information , this information can be exploited to guide the heuristic search .	S-18
+OTH	Earley deductionis based on grammars encoded as definite clauses .	S-19
+OWN	The instantiation ( prediction ) rule of top-down Earley deduction is not needed in bottom-up Earley deduction , because there is no prediction .	S-20
+OWN	There is only one inference rule , namely the reduction rule.	S-21
+OWN	In, X , G and G ' are literals ,is a ( possibly empty ) sequence of literals , andis the most general unifier of G and G ' .	S-22
+OWN	The leftmost literal in the body of a non-unit clause is always the selected literal .	S-23
+OWN	In principle , this rule can be applied to any pair of unit clauses and non-unit clauses of the program to derive any consequences of the program .	S-24
+OWN	In order to reduce this search space and achieve a more goal-directed behaviour , the rule is not applied to any pair of clauses , but clauses are only selected if they can contribute to a proof of the goal .	S-25
+OWN	The set of selected clauses is called the chart .	S-26
+TXT	The selection of clauses is guided by a scanning step ( section) and indexing of clauses ( section) .	S-27
+OTH	The purpose of the scanning step , which corresponds to lexical lookup in chart parsers , is to look up base cases of recursive definitions to serve as a starting point for bottom-up processing .	S-28
+OTH	The scanning step selects clauses that can appear as leaves in the proof tree for a given goal G .	S-29
+OTH	Consider the following simple definition of an HPSG , with the recursive definition of the predicate sign/1 .	S-30
+OTH	The predicate sign/1 is defined recursively , and the base case is the predicate lexical _ sign/1 .	S-31
+CTR	But , clearly it is not restrictive enough to find only the predicate name of the base case for a given goal .	S-32
+OWN	The base cases must also be instantiated in order to find those that are useful for proving a given goal .	S-33
+OWN	In the case of parsing , the lookup of base cases ( lexical items ) will depend on the words that are present in the input string .	S-34
+OWN	This is implied by the first goal of the predicate principles/3 , the constituent order principle , which determines how the PHON value of a constituent is constructed from the PHON values of its daughters .	S-35
+OWN	In general , we assume that the constituent order principle makes use of a linear and non-erasing operation for combining strings .	S-36
+OWN	If this is the case , then all the words contained in the PHON value of the goal can have their lexical items selected as unit clauses to start bottom-up processing .	S-37
+OTH	For generation , an analogous condition on logical forms has been proposed byas the `` semantic monotonicity condition , '' which requires that the logical form of every base case must subsume some portion of the goal 's logical form .	S-38
+OTH	Base case lookup must be defined specifically for different grammatical theories and directions of processing by the predicate lookup/2 , whose first argument is the goal and whose second argument is the selected base case .	S-39
+OTH	The following clause defines the lookup relation for parsing with HPSG .	S-40
+OTH	Note that the base case clauses can become further instantiated in this step .	S-41
+OTH	If concatenation ( of difference lists ) is used as the operation on strings , then each base case clause can be instantiated with the string that follows it .	S-42
+OTH	This avoids combination of items that are not adjacent in the input string .	S-43
+OWN	In bottom-up Earley deduction , the first step towards proving a goal is perform lookup for the goal , and to add all the resulting ( unit ) clauses to the chart .	S-44
+OWN	Also , all non-unit clauses of the program , which can appear as internal nodes in the proof tree of the goal , are added to the chart .	S-45
+OWN	The scanning step achieves a certain degree of goal-directedness for bottom-up algorithms because only those clauses which can appear as leaves in the proof tree of the goal are added to the chart .	S-46
+OTH	An item in normal context-free chart parsing can be regarded as a pairconsisting of a dotted rule R and the substring S that the item covers ( a pair of starting and ending position ) .	S-47
+OTH	The fundamental rule of chart parsing makes use of these string positions to ensure that only adjacent substrings are combined and that the result is the concatenation of the substrings .	S-48
+OTH	In grammar formalisms like DCG or HPSG , the complex nonterminals have an argument or a feature ( PHON ) that represents the covered substring explicitly .	S-49
+OTH	The combination of the substrings is explicit in the rules of the grammar .	S-50
+OTH	As a consequence , Earley deduction does not need to make use of string positions for its clauses , aspoint out .	S-51
+OTH	Moreover , the use of string positions known from chart parsing is too inflexible because it allows only concatenation of adjacent contiguous substrings .	S-52
+OTH	In linguistic theory , the interest has shifted from phrase structure rules that combine adjacent and contiguous constituents to	S-53
+OTH	principle-based approaches to grammar that state general well-formedness conditions instead of describing particular constructions ( e.g. HPSG )	S-54
+OTH	operations on strings that go beyond concatenation ( head wrapping, tree adjoining, sequence union) .	S-55
+OTH	The string positions known from chart parsing are also inadequate for generation , as pointed out byin whose generator all items go from position 0 to 0 so that any item can be combined with any item .	S-56
+OWN	However , the string positions are useful as an indexing of the items so that it can be easily detected whether their combination can contribute to a proof of the goal .	S-57
+OWN	This is especially important for a bottom-up algorithm which is not goal-directed like top-down processing .	S-58
+OWN	Without indexing , there are too many combinations of items which are useless for a proof of the goal , in fact there may be infinitely many items so that termination problems can arise .	S-59
+OWN	For example , in an order-monotonic grammar formalism that uses sequence union as the operation for combining strings , a combination of items would be useless which results in a sign in which the words are not in the same order as in the input string.	S-60
+OWN	We generalize the indexing scheme from chart parsing in order to allow different operations for the combination of strings .	S-61
+OWN	Indexing improves efficiency by detecting combinations that would fail anyway and by avoiding combinations of items that are useless for a proof of the goal .	S-62
+OWN	We define an item as a pair of a clause Cl and an index Idx , written as.	S-63
+TXT	Below , we give some examples of possible indexing schemes .	S-64
+OWN	Other indexing schemes can be used if they are needed .	S-65
+OWN	Non-reuse of Items :	S-66
+OWN	This is useful for LCFRS , where no word of the input string can be used twice in a proof , or for generation where no part of the goal logical form should be verbalized twice in a derivation .	S-67
+OWN	Non-adjacent combination :	S-68
+OWN	This indexing scheme is useful for order-monotonic grammars .	S-69
+OWN	Non-directional adjacent combination :	S-70
+OWN	This indexing is used if only adjacent constituents can be combined , but the order of combination is not prescribed ( e.g. non-directional basic categorial grammars ) .	S-71
+OWN	Directional adjacent combination :	S-72
+OWN	This is used for grammars with a `` context-free backbone .	S-73
+OWN	Free combination :	S-74
+OWN	Allows an item to be used several times in a proof , for example for the non-unit clauses of the program , which would be represented as items of the form.	S-75
+OWN	The following table summarizes the properties of these five combination schemes .	S-76
+OWN	Index 1 ( I1 ) is the index associated with the non-unit clause , Index 2 ( I2 ) is associated with the unit clause , andis the result of combining the indices .	S-77
+OWN	In case 2 ( `` non-adjacent combination '' ) , the indices X and Y consist of a set of string positions , and the operationis the union of these string positions , provided that no two string positions from X and Y do overlap .	S-78
+OWN	In, the reduction rule is augmented to handle indices .	S-79
+OWN	denotes the combination of the indices X and Y .	S-80
+OWN	With the use of indices , the lookup relation becomes a relation between goals and items .	S-81
+OWN	The following specification of the lookup relation provides indexing according to string positions as in a chart parser ( usable for combination schemes 2 , 3 , and 4 ) .	S-82
+OWN	In constraint-based grammars there are some predicates that are not adequately dealt with by bottom-up Earley deduction , for example the Head Feature Principle and the Subcategorization Principle of HPSG .	S-83
+OWN	The Head Feature Principle just unifies two variables , so that it can be executed at compile time and need not be called as a goal at runtime .	S-84
+OWN	The Subcategorization Principle involves an operation on lists ( append/3 or delete/3 in different formalizations ) that does not need bottom-up processing , but can better be evaluated by top-down resolution if its arguments are sufficiently instantiated .	S-85
+OWN	Creating and managing items for these proofs is too much of a computational overhead , and , moreover , a proof may not terminate in the bottom-up case because infinitely many consequences may be derived from the base case of a recursively defined relation .	S-86
+OWN	In order to deal with such goals , we associate the goals in the body of a clause with goal types .	S-87
+OWN	The goals that are relevant for bottom-up Earley deduction are called waiting goals because they wait until they are activated by a unit clause that unifies with the goal .	S-88
+OWN	Whenever a unit clause is combined with a non-unit clause all goals up to the first waiting goal of the resulting clause are proved according to their goal type , and then a new clause is added whose selected goal is the first waiting goal .	S-89
+OWN	In the following inference rule for clauses with mixed goal types ,is a ( possibly empty ) sequence of goals without any waiting goals , andis a ( possibly empty ) sequence of goals starting with a waiting goal .	S-90
+OWN	is the most general unifier of G and G ' , and the substitutionis the solution which results from proving the sequence of goals.	S-91
+OWN	In order to show the correctness of the system , we must show that the scanning step only adds consequences of the program to the chart , and that any items derived by the inference rule are consequences of the program clauses .	S-92
+OWN	The former is easy to show because all clauses added by the scanning step are instances of program clauses , and the inference rule performs a resolution step whose correctness is well-known in logic programming .	S-93
+OWN	The other goal types are also proved by resolution .	S-94
+OWN	There are two potential sources of incompleteness in the algorithm .	S-95
+OWN	One is that the scanning step may not add all the program clauses to the chart that are needed for proving a goal , and the other is that the indexing may prevent the derivation of a clause that is needed to prove the goal .	S-96
+OWN	In order to avoid incompleteness , the scanning step must add all program clauses that are needed for a proof of the goal to the chart , and the combination of indices may only fail for inference steps which are useless for a proof of the goal .	S-97
+OWN	That the lookup relation and the indexing scheme satisfy this property must be shown for particular grammar formalisms .	S-98
+OWN	In order to keep the search space small ( and finite to ensure termination ) the scanning step should ( ideally ) add only those items that are needed for proving the goal to the chart , and the indexing should be chosen in such a way that it excludes derived items that are useless for a proof of the goal .	S-99
+OWN	For practical NL applications , it is desirable to have a best-first search strategy , which follows the most promising paths in the search space first , and finds preferred solutions before the less preferred ones .	S-100
+OWN	There are often situations where the criteria to guide the search are available only for the base cases , for example	S-101
+OWN	weighted word hypotheses from a speech recognizer	S-102
+OWN	readings for ambigous words with probabilities , possibly assigned by a stochastic tagger.	S-103
+OWN	hypotheses for correction of string errors which should be delayed.	S-104
+OWN	Goals and clauses are associated with preference values that are intended to model the degree of confidence that a particular solution is the ` correct ' one .	S-105
+OWN	Unit clauses are associated with a numerical preference value , and non-unit clauses with a formula that determines how its preference value is computed from the preference values of the goals in the body of the clause .	S-106
+OWN	Preference values can ( but need not ) be interpreted as probabilities .	S-107
+OWN	The preference values are the basis for giving priorities to items .	S-108
+OWN	For unit clauses , the priority is identified with the preference value .	S-109
+OWN	For non-unit clauses , where the preference formula may contain uninstantiated variables , the priority is the value of the formula with the free variables instantiated to the highest possible preference value ( in case of an interpretation as probabilities : 1 ) , so that the priority is equal to the maximal possible preference value for the clause .	S-110
+OWN	The implementation of best-first search does not combine new items with the chart immediately , but makes use of an agenda, on which new items are ordered in order of descending priority .	S-111
+OWN	The following is the algorithm for bottom-up best-first Earley deduction .	S-112
+OWN	The algorithm is parametrized with respect to the relation lookup/2 and the choice of the indexing scheme , which are specific for different grammatical theories and directions of processing .	S-113
+OWN	The bottom-up Earley deduction algorithm described here has been implemented in Quintus Prolog as part of the GeLD system .	S-114
+OWN	GeLD ( Generalized Linguistic Deduction ) is an extension of Prolog which provides typed feature descriptions and preference values as additions to the expressivity of the language , and partial evaluation , top-down , head-driven , and bottom-up Earley deduction as processing strategies .	S-115
+OWN	Tests of the system with small grammars have shown promising results , and a medium-scale HPSG for German is presently being implemented in GeLD .	S-116
+OWN	The lookup relation and the choice of an indexing scheme must be specified by the user of the system .	S-117
+AIM	We have proposed bottom-up Earley deduction as a useful alternative to the top-down methods which require subsumption checking and restriction to avoid prediction loops .	S-118
+OWN	The proposed method should be improved in two directions .	S-119
+OWN	The first is that the lookup predicate should not have to be specified by the user , but automatically inferred from the program .	S-120
+OWN	The second problem is that all non-unit clauses of the program are added to the chart .	S-121
+OWN	The addition of non-unit clauses should be made dependent on the goal and the base cases in order to go from a purely bottom-up algorithm to a directed algorithm that combines the advantages of top-down and bottom-up processing .	S-122
+OTH	It has been repeatedly noted,,that directed methods are more efficient than pure top-down or bottom-up methods .	S-123
+CTR	However , it is not clear how well the directed methods are applicable to grammars which do not depend on concatenation and have no unique ` left corner ' which should be connected to the start symbol .	S-124
+OWN	It remains to be seen how bottom-up Earley deduction compares with ( and can be combined with ) the improved top-down Earley deduction of,and, and to head-driven methods with well-formed substring tables, and which methods are best suited for which kinds of problems ( e.g. parsing , generation , noisy input , incremental processing etc . )	S-125

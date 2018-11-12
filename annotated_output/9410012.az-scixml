@@ -1,0 +1,151 @@
+BKG	In part of speech tagging by Hidden Markov Model , a statistical model is used to assign grammatical categories to words in a text .	A-0
+OTH	Early work in the field relied on a corpus which had been tagged by a human annotator to train the model .	A-1
+OTH	More recently ,suggest that training can be achieved with a minimal lexicon and a limited amount of a priori information about probabilities , by using Baum-Welch re-estimation to automatically refine the model .	A-2
+AIM	In this paper , I report two experiments designed to determine how much manual training information is needed .	A-3
+OWN	The first experiment suggests that initial biasing of either lexical or transition probabilities is essential to achieve a good accuracy .	A-4
+OWN	The second experiment reveals that there are three distinct patterns of Baum-Welch re-estimation .	A-5
+OWN	In two of the patterns , the re-estimation ultimately reduces the accuracy of the tagging rather than improving it .	A-6
+OWN	The pattern which is applicable can be predicted from the quality of the initial model and the similarity between the tagged training corpus ( if any ) and the corpus to be tagged .	A-7
+OWN	Heuristics for deciding how to use re-estimation in an effective manner are given .	A-8
+CTR	The conclusions are broadly in agreement with those of, but give greater detail about the contributions of different parts of the model .	A-9
+BKG	Part-of-speech tagging is the process of assigning grammatical categories to individual words in a corpus .	S-0
+BKG	One widely used approach makes use of a statistical technique called a Hidden Markov Model ( HMM ) .	S-1
+BKG	The model is defined by two collections of parameters : the transition probabilities , which express the probability that a tag follows the preceding one ( or two for a second order model ) ; and the lexical probabilities , giving the probability that a word has a given tag without regard to words on either side of it .	S-2
+BKG	To tag a text , the tags with non-zero probability are hypothesised for each word , and the most probable sequence of tags given the sequence of words is determined from the probabilities .	S-3
+BKG	Two algorithms are commonly used , known as the Forward-Backward ( FB ) and Viterbi algorithms .	S-4
+BKG	FB assigns a probability to every tag on every word , while Viterbi prunes tags which cannot be chosen because their probability is lower than the ones of competing hypotheses , with a corresponding gain in computational efficiency .	S-5
+BKG	For an introduction to the algorithms , see, or the lucid description by.	S-6
+BKG	There are two principal sources for the parameters of the model .	S-7
+BKG	If a tagged corpus prepared by a human annotator is available , the transition and lexical probabilities can be estimated from the frequencies of pairs of tags and of tags associated with words .	S-8
+BKG	Alternatively , a procedure called Baum-Welch ( BW ) re-estimation may be used , in which an untagged corpus is passed through the FB algorithm with some initial model , and the resulting probabilities used to determine new values for the lexical and transition probabilities .	S-9
+BKG	By iterating the algorithm with the same corpus , the parameters of the model can be made to converge on values which are locally optimal for the given text .	S-10
+BKG	The degree of convergence can be measured using a perplexity measure , the sum of plogfor hypothesis probabilities p , which gives an estimate of the degree of disorder in the model .	S-11
+BKG	The algorithm is again described byand by, and a mathematical justification for it can be found in.	S-12
+OTH	The first major use of HMMs for part of speech tagging was in CLAWSin the 1970s .	S-13
+BKG	With the availability of large corpora and fast computers , there has been a recent resurgence of interest , and a number of variations on and alternatives to the FB , Viterbi and BW algorithms have been tried,,,and.	S-14
+OTH	One of the most effective taggers based on a pure HMM is that developed at Xerox.	S-15
+OTH	An important aspect of this tagger is that it will give good accuracy with a minimal amount of manually tagged training data .	S-16
+OTH	96 % accuracy correct assignment of tags to word token , compared with a human annotator , is quoted , over a 500000 word corpus .	S-17
+OTH	The Xerox tagger attempts to avoid the need for a hand-tagged training corpus as far as possible .	S-18
+OTH	Instead , an approximate model is constructed by hand , which is then improved by BW re-estimation on an untagged training corpus .	S-19
+OTH	In the above example , 8 iterations were sufficient .	S-20
+OTH	The initial model set up so that some transitions and some tags in the lexicon are favoured , and hence having a higher initial probability .	S-21
+OTH	Convergence of the model is improved by keeping the number of parameters in the model down .	S-22
+OTH	To assist in this , low frequency items in the lexicon are grouped together into equivalence classes , such that all words in a given equivalence class have the same tags and lexical probabilities , and whenever one of the words is looked up , then the data common to all of them is used .	S-23
+OTH	Re-estimation on any of the words in a class therefore counts towards re-estimation for all of them .	S-24
+OTH	The results of the Xerox experiment appear very encouraging .	S-25
+OTH	Preparing tagged corpora by hand is labour-intensive and potentially error-prone , and although a semi-automatic approach can be used, it is a good thing to reduce the human involvement as much as possible .	S-26
+CTR	However , some careful examination of the experiment is needed .	S-27
+CTR	In the first place ,do not compare the success rate in their work with that achieved from a hand-tagged training text with no re-estimation .	S-28
+CTR	Secondly , it is unclear how much the initial biasing contributes the success rate .	S-29
+CTR	If significant human intervention is needed to provide the biasing , then the advantages of automatic training become rather weaker , especially if such intervention is needed on each new text domain .	S-30
+CTR	The kind of biasingdescribe reflects linguistic insights combined with an understanding of the predictions a tagger could reasonably be expected to make and the ones it could not .	S-31
+AIM	The aim of this paper is to examine the role that training plays in the tagging process , by an experimental evaluation of how the accuracy of the tagger varies with the initial conditions .	S-32
+OWN	The results suggest that a completely unconstrained initial model does not produce good quality results , and that one accurately trained from a hand-tagged corpus will generally do better than using an approach based on re-estimation , even when the training comes from a different source .	S-33
+OWN	A second experiment shows that there are different patterns of re-estimation , and that these patterns vary more or less regularly with a broad characterisation of the initial conditions .	S-34
+OWN	The outcome of the two experiments together points to heuristics for making effective use of training and re-estimation , together with some directions for further research .	S-35
+OTH	Work similar to that described here has been carried out by, with broadly similar conclusions .	S-36
+TXT	We will discuss this work below .	S-37
+OTH	The principal contribution of this work is to separate the effect of the lexical and transition parameters of the model , and to show how the results vary with different degree of similarity between the training and test data .	S-38
+OWN	The experiments were conducted using two taggers , one written in C at Cambridge University Computer Laboratory , and the other in C ++ at Sharp Laboratories .	S-39
+OWN	Both taggers implement the FB , Viterbi and BW algorithms .	S-40
+OWN	For training from a hand-tagged corpus , the model is estimated by counting the number of transitions from each tag i to each tag j , the total occurrence of each tag i , and the total occurrence of word w with tag i .	S-41
+OWN	Writing these as,andrespectively , the transition probability from tag i to tag j is estimated asand the lexical probability as.	S-42
+OWN	Other estimation formulae have been used in the past .	S-43
+OTH	For example , CLAWSnormalises the lexical probabilities by the total frequency of the word rather than of the tag .	S-44
+CTR	Consulting the Baum-Welch re-estimation formulae suggests that the approach described is more appropriate , and this is confirmed by slightly greater tagging accuracy .	S-45
+OWN	Any transitions not seen in the training corpus are given a small , non-zero probability .	S-46
+OWN	The lexicon lists , for each word , all of tags seen in the training corpus with their probabilities .	S-47
+OWN	For words not found in the lexicon , all open-class tags are hypothesised , with equal probabilities .	S-48
+OWN	These words are added to the lexicon at the end of first iteration when re-estimation is being used , so that the probabilities of their hypotheses subsequently diverge from being uniform .	S-49
+OWN	To measure the accuracy of the tagger , we compare the chosen tag with one provided by a human annotator .	S-50
+OTH	Various methods of quoting accuracy have been used in the literature , the most common being the proportion of words ( tokens ) receiving the correct tag .	S-51
+CTR	A better measure is the proportion of ambiguous words which are given the correct tag , where by ambiguous we mean that more than one tag was hypothesised .	S-52
+OWN	The former figure looks more impressive , but the latter gives a better measure of how well the tagger is doing , since it factors out the trivial assignment of tags to non-ambiguous words .	S-53
+OWN	For a corpus in which a fraction a of the words are ambiguous , and p is the accuracy on ambiguous words , the overall accuracy can be recovered from 1-a + pa .	S-54
+OWN	All of the accuracy figures quoted below are for ambiguous words only .	S-55
+OWN	The training and test corpora were drawn from the LOB corpus and the Penn treebank .	S-56
+OWN	The hand tagging of these corpora is quite different .	S-57
+OWN	For example , the LOB tagset used 134 tags , while the Penn treebank tagset has 48 .	S-58
+OWN	The general pattern of the results presented does not vary greatly with the corpus and tagset used .	S-59
+OWN	The first experiment concerned the effect of the initial conditions on the accuracy using Baum-Welch re-estimation .	S-60
+OWN	A model was trained from a hand-tagged corpus in the manner described above , and then degraded in various ways to simulate the effect of poorer training , as follows :	S-61
+OWN	Lexicon	S-62
+OWN	D0 Un-degraded lexical probabilities , calculated from.	S-63
+OWN	D1 Lexical probabilities are correctly ordered , so that the most frequent tag has the highest lexical probability and so on , but the absolute values are otherwise unreliable .	S-64
+OWN	D2 Lexical probabilities are proportional to the overall tag frequencies , and are hence independent of the actual occurrence of the word in the training corpus .	S-65
+OWN	D3 All lexical probabilities have the same value , so that the lexicon contains no information other than the possible tags for each word .	S-66
+OWN	Transitions	S-67
+OWN	T0 Un-degraded transition probabilities , calculated from.	S-68
+OWN	T1 All transition probabilities have the same value .	S-69
+OWN	We could expect to achieve D1 from , say , a printed dictionary listing parts of speech in order of frequency .	S-70
+OWN	Perfect training is represented by case D0 + T0 .	S-71
+OTH	The Xerox experimentscorrespond to something between D1 and D2 , and between T0 and T1 , in that there is some initial biasing of the probabilities .	S-72
+OWN	For the test , four corpora were constructed from the LOB corpus : LOB-B from part B , LOB-L from part L , LOB-B-G from parts B to G inclusive and LOB-B-J from parts B to J inclusive .	S-73
+OWN	Corpus LOB-B-J was used to train the model , and LOB-B , LOB-L and LOB-B-G were passed through thirty iterations of the BW algorithm as untagged data .	S-74
+OWN	In each case , the best accuracy ( on ambiguous words , as usual ) from the FB algorithm was noted .	S-75
+OWN	As an additional test , we tried assigning the most probable tag from the D0 lexicon , completely ignoring tag-tag transitions .	S-76
+OWN	The results are summarised in table, for various corpora , where F denotes the `` most frequent tag '' test .	S-77
+OWN	As an example of how these figures relate to overall accuracies , LOB-B contains 32.35 % ambiguous tokens with respect to the lexicon from LOB-B-J , and the overall accuracy in the D0+T0 case is hence 98.69 % .	S-78
+OWN	The general pattern of the results is similar across the three test corpora , with the only difference of interest being that case D3 + T0 does better for LOB-L than for the other two cases , and in particular does better than cases D0 + T1 and D1 + T1 .	S-79
+OWN	A possible explanation is that in this case the test data does not overlap with the training data , and hence the good quality lexicons ( D0 and D1 ) have less of an influence .	S-80
+OWN	It is also interesting that D3 + T1 does better than D2 + T1 .	S-81
+OWN	The reasons for this are unclear , and the results are not always the same with other corpora , which suggests that they are not statistically significant .	S-82
+OWN	Several follow-up experiments were used to confirm the results : using corpora from the Penn treebank , using equivalence classes to ensure that all lexical entries have a total relative frequency of at least 0.01 , and using larger corpora .	S-83
+OWN	The specific accuracies were different in the various tests , but the overall patterns remained much the same , suggesting that they are not an artifact of the tagset or of details of the text .	S-84
+OWN	The observations we can make about these results are as follows .	S-85
+OWN	Firstly , two of the tests , D2 + T1 and D3 + T1 , give very poor performance .	S-86
+OWN	Their accuracy is not even as good as that achieved by picking the most frequent tag ( although this of course implies a lexicon of D0 or D1 quality ) .	S-87
+OWN	It follows that if Baum-Welch re-estimation is to be an effective technique , the initial data must have either biasing in the transitions ( the T0 cases ) or in the lexical probabilities ( cases D0+T1 and D1+T1 ) , but it is not necessary to have both ( D2 / D3 + T0 and D0 / D1+T1 ) .	S-88
+OWN	Secondly , training from a hand-tagged corpus ( case D0+T0 ) always does best , even when the test data is from a different source to the training data , as it is for LOB-L .	S-89
+OWN	So perhaps it is worth investing effort in hand-tagging training corpora after all , rather than just building a lexicon and letting re-estimation sort out the probabilities .	S-90
+OWN	But how can we ensure that re-estimation will produce a good quality model ?	S-91
+TXT	We look further at this issue in the next section .	S-92
+OWN	During the first experiment , it became apparent that Baum-Welch re-estimation sometimes decreases the accuracy as the iteration progresses .	S-93
+OWN	A second experiment was conducted to decide when it is appropriate to use Baum-Welch re-estimation at all .	S-94
+OWN	There seem to be three patterns of behaviour :	S-95
+OWN	Classical	S-96
+OWN	A general trend of rising accuracy on each iteration , with any falls in accuracy being local .	S-97
+OWN	It indicates that the model is converging towards an optimum which is better than its starting point .	S-98
+OWN	Initial maximum	S-99
+OWN	Highest accuracy on the first iteration , and falling thereafter .	S-100
+OWN	In this case the initial model is of better quality than BW can achieve .	S-101
+OWN	That is , while BW will converge on an optimum , the notion of optimality is with respect to the HMM rather than to the linguistic judgements about correct tagging .	S-102
+OWN	Early maximum	S-103
+OWN	Rising accuracy for a small number of iterations ( 2 - 4 ) , and then falling as in initial maximum .	S-104
+OWN	An example of each of the three behaviours is shown in figure.	S-105
+OWN	The values of the accuracies and the test conditions are unimportant here ; all we want to show is the general patterns .	S-106
+OWN	The second experiment had the aim of trying to discover which pattern applies under which circumstances , in order to help decide how to train the model .	S-107
+OWN	Clearly , if the expected pattern is initial maximum , we should not use BW at all , if early maximum , we should halt the process after a few iterations , and if classical , we should halt the process in a `` standard '' way , such as comparing the perplexity of successive models .	S-108
+OWN	The tests were conducted in a similar manner to those of the first experiment , by building a lexicon and transitions from a hand tagged training corpus , and then applying them to a test corpus with varying degrees of degradation .	S-109
+OWN	Firstly , four different degrees of degradation were used : no degradation at all , D2 degradation of the lexicon , T1 degradation of the transitions , and the two together .	S-110
+OWN	Secondly , we selected test corpora with varying degrees of similarity to the training corpus : the same text , text from a similar domain , and text which is significantly different .	S-111
+OWN	Two tests were conducted with each combination of the degradation and similarity , using different corpora ( from the Penn treebank ) ranging in size from approximately 50000 words to 500000 words .	S-112
+OWN	The re-estimation was allowed to run for ten iterations .	S-113
+OWN	The results appear in table, showing the best accuracy achieved ( on ambiguous words ) .	S-114
+OWN	the iteration at which it occurred , and the pattern of re-estimation ( I = initial maximum , E = early maximum , C = classical ) .	S-115
+OWN	The patterns are summarised in table, each entry in the table showing the patterns for the two tests under the given conditions .	S-116
+OWN	These tests gave an early peak , but the graphs of accuracy against number of iterations show the pattern to be classical rather than early maximum .	S-117
+OWN	Although there is some variations in the readings , for example in the `` similar / D0 + T0 '' case , we can draw some general conclusions about the patterns obtained from different sorts of data .	S-118
+OWN	When the lexicon is degraded ( D2 ) , the pattern is always classical .	S-119
+OWN	With a good lexicon but either degraded transitions or a test corpus differing from the training corpus , the pattern tends to be early maximum .	S-120
+OWN	When the test corpus is very similar to the model , then the pattern is initial maximum .	S-121
+OWN	Furthermore , examining the accuracies in table, in the cases of initial maximum and early maximum , the accuracy tends to be significantly higher than with classical behaviour .	S-122
+OWN	It seems likely that what is going on is that the model is converging to towards something of similar `` quality '' in each case , but when the pattern is classical , the convergence starts from a lower quality model and improves , and in the other cases , it starts from a higher quality one and deteriorates .	S-123
+OWN	In the case of early maximum , the few iterations where the accuracy is improving correspond to the creation of entries for unknown words and the fine tuning of ones for known ones , and these changes outweigh those produced by the re-estimation .	S-124
+OWN	From the observations in the previous section , we propose the following guidelines for how to train a HMM for use in tagging :	S-125
+OWN	If a hand-tagged training corpus is available , use it .	S-126
+OWN	If the test and training corpora are near-identical , do not use BW re-estimation ; otherwise use for a small number of iterations .	S-127
+OWN	If no such training corpus is available , but a lexicon with at least relative frequency data is available , use BW re-estimation for a small number of iterations .	S-128
+OWN	If neither training corpus nor lexicon are available , use BW re-estimation with standard convergence tests such as perplexity .	S-129
+OWN	Without a lexicon , some initial biasing of the transitions is needed if good results are to be obtained .	S-130
+OTH	Similar results are presented by, who describes experiments to compare the effect of training from a hand-tagged corpora and using the Baum-Welch algorithm with various initial conditions .	S-131
+OTH	As in the experiments above , BW re-estimation gave a decrease in accuracy when the starting point was derived from a significant amount of hand-tagged text .	S-132
+OTH	In addition , althoughdoes not highlight the point , BW re-estimation starting from less than 5000 words of hand-tagged text shows early maximum behaviour .	S-133
+OTH	's conclusion is that taggers should be trained using as much hand-tagged text as possible to begin with , and only then applying BW re-estimation with untagged text .	S-134
+OWN	The step forward taken in the work here is to show that there are three patterns of re-estimation behaviour , with differing guidelines for how to use BW effectively , and that to obtain a good starting point when a hand-tagged corpus is not available or is too small , either the lexicon or the transitions must be biased .	S-135
+OWN	While these may be useful heuristics from a practical point of view , the next step forward is to look for an automatic way of predicting the accuracy of the tagging process given a corpus and a model .	S-136
+OWN	Some preliminary experiments with using measures such as perplexity and the average probability of hypotheses show that , while they do give an indication of convergence during re-estimation , neither shows a strong correlation with the accuracy .	S-137
+OWN	Perhaps what is needed is a `` similarity measure '' between two models M and M ' , such that if a corpus were tagged with model M , M ' is the model obtained by training from the output corpus from the tagger as if it were a hand-tagged corpus .	S-138
+OWN	However , preliminary experiments using such measures as the Kullback-Liebler distance between the initial and new models have again showed that it does not give good predictions of accuracy .	S-139
+OWN	In the end it may turn out there is simply no way of making the prediction without a source of information extrinsic to both model and corpus .	S-140

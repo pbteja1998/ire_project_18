@@ -3,8 +3,10 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.naive_bayes import ComplementNB
 from sklearn.naive_bayes import BernoulliNB
+from passive_tagger import Tagger
 import sys
 import numpy as np
+import random
 np.random.seed(11)
 
 class NaiveBayes:
@@ -22,6 +24,9 @@ class NaiveBayes:
         self.SecLocations = ["FIRST", "SECOND", "THIRD", "LAST",
             "SECOND-LAST", "THIRD-LAST", "SOMEWHERE"
         ]
+        self.Tenses = ["PRESENT", "PAST", "FUTURE", "NOVERB"]
+        self.Modals = ["MODAL", "NOMODAL", "NOVERB"]
+        self.Voices = ["Active", "Passive", "NOVERB"]
         self.features = features
         self.transformFeatures()
         self.distribution = distribution
@@ -35,10 +40,9 @@ class NaiveBayes:
             self.nb = MultinomialNB()
         elif self.distribution == "Complement":
             self.nb = ComplementNB()
-        elif self.distribution == "Gaussian":
+        else:
             self.nb = GaussianNB()
         
-
     def splitData(self):
         print "Data split between train and test: " + str(self.split)
         papers = self.features.keys()
@@ -69,7 +73,10 @@ class NaiveBayes:
                 self.transformed_features[filename][sentId]['tfidf'] = self.YESorNO.index(self.features[filename][sentId]['tfidf'])
                 self.transformed_features[filename][sentId]['secloc'] = self.SecLocations.index(self.features[filename][sentId]['secloc'])
                 self.transformed_features[filename][sentId]['Headlines'] = self.Headlines.index(self.features[filename][sentId]['Headlines'])
-                self.transformed_features[filename][sentId]['history'] = self.Tags.index(self.features[filename][sentId]['history'])                
+                self.transformed_features[filename][sentId]['history'] = self.Tags.index(self.features[filename][sentId]['history'])
+                self.transformed_features[filename][sentId]['tense'] = self.Tenses.index(self.features[filename][sentId]['tense'])
+                self.transformed_features[filename][sentId]['voice'] = self.Voices.index(self.features[filename][sentId]['voice'])
+                self.transformed_features[filename][sentId]['modal'] = self.Modals.index(self.features[filename][sentId]['modal'])
         
     def getFeatures(self, filenames):
         X = []
@@ -81,6 +88,19 @@ class NaiveBayes:
         X = np.asarray(X)
         y = np.asarray(y)
         return X, y
+
+    def getSummary(self, filename):
+        summary = []        
+        for sentId in self.transformed_features[filename].keys():
+            feature = self.transformed_features[filename][sentId].values()
+            y = self.nb.predict([feature])
+            if y in [1, 2, 4, 6]:
+                summary.append(self.features[filename][sentId]['data'])
+            if y in [0, 1, 5]:
+                if random.uniform(0, 1) > 0.75:
+                    summary.append(self.features[filename][sentId]['data'])
+        print len(summary)
+        print "\n".join(summary)
                 
     def train(self):
         print "Train dataset: ", len(self.train_papers)
@@ -91,17 +111,17 @@ class NaiveBayes:
 
     def test(self):        
         print "Test dataset length: ", len(self.test_papers)
-        y_pred = self.nb.predict(self.test_X)        
+        y_pred = self.nb.predict(self.test_X)
         print "Mislabelled sentences: " + str((self.test_y != y_pred).sum()) + " out of " + str(self.test_X.shape[0])
         print "Test Accuracy: " + str(self.accuracy((self.test_y != y_pred).sum(), self.test_X.shape[0]))
 
     def accuracy(self, misclassifications, samples):
         return (1-(misclassifications/(samples*1.0)))*100.0
 
-if __name__ == '__main__':
+if __name__ == '__main__':    
     Feature_vector = Features()
-    folder = sys.argv[1]
-    xmlfolder = sys.argv[2]
+    folder = "annotated_output"
+    xmlfolder = "tagged"
     Feature_vector.run(folder, xmlfolder)
     
     print "=======Bernouli Distribution======="
@@ -129,4 +149,4 @@ if __name__ == '__main__':
     gnb = NaiveBayes(Feature_vector.feature_values, 0.8, "Gaussian")
     gnb.train()
     print ""
-    gnb.test()
+    gnb.test()    

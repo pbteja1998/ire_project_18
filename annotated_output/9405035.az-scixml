@@ -1,0 +1,92 @@
+AIM	We introduce the bilingual dual-coding theory as a model for bilingual mental representation .	A-0
+AIM	Based on this model , lexical selection neural networks are implemented for a connectionist transfer project in machine translation .	A-1
+OWN	Psycholinguistic knowledge would be greatly helpful , as we believe , in constructing an artificial language processing system .	S-0
+OWN	As for machine translation , we should take advantage of our understandings of	S-1
+OWN	how the languages are represented in human mind ;	S-2
+OWN	how the representation is mapped from one language to another ;	S-3
+OWN	how the representation and mapping are acquired by human .	S-4
+BAS	The bilingual dual-coding theorypartially answers the above questions .	S-5
+OTH	It depicts the verbal representations for two different languages as two separate but connected logogen systems , characterizes the translation process as the activation along the connections between the logogen systems , and attributes the acquisition of the representation to some unspecified statistical processes .	S-6
+AIM	We have explored an information theoretical neural networkthat can acquire the verbal associations in the dual-coding theory .	S-7
+OWN	It provides a learnable lexical selection sub-system for a connectionist transfer project in machine translation .	S-8
+BKG	There is a well-known debate in psycholinguistics concerning the bilingual mental representation : independence position assumes that bilingual memory is represented by two functionally independent storage and retrieval systems , whereas interdependence position hypothesizes that all information of languages exists in a common memory store .	S-9
+BKG	Studies on cross-language transfer and cross-language priming have provided evidence for both hypotheses,.	S-10
+OTH	Dual-coding theory explains the coexistence of independent and interdependent phenomena with separate but connected structures .	S-11
+OTH	The general dual-coding theory hypothesizes that human represents language with dual systems -- the verbal system and the imagery system .	S-12
+OTH	The elements of the verbal system are logogens for words in a language .	S-13
+OTH	The elements of the imagery system , called `` imagens '' , are connected to the logogens in the verbal systems via referential connections .	S-14
+OTH	Logogens in a verbal system are also interconnected with associative connections .	S-15
+OTH	The bilingual dual-coding theory proposes an architecture in which a common imagery system is connected to two verbal systems , and the two verbal systems are interconnected to each other via associative connections [ Figure] .	S-16
+OTH	Unlike the within-language associations , which are rich and diverse , these between-language associations involve primarily translation equivalent terms that are experienced together frequently .	S-17
+OTH	The interconnections among the three systems explain the interdependent functional behavior .	S-18
+OTH	On the other hand , the different characteristics of within-language and between-language associations account for the independent functional behavior .	S-19
+OTH	Based on the above structural assumption , dual-coding theory proposes a parallel set of processing assumptions .	S-20
+OTH	Activation of connections between referentially related imagens and logogens is called referential processing .	S-21
+OTH	Naming objects and imaging to words are prototypical examples .	S-22
+OTH	Activation of associative connections between logogens is called associative processing .	S-23
+OTH	Lexical translation is an example of associative processing between two languages .	S-24
+BKG	Lexical selection is the task of choosing target language words that accurately reflect the meaning of the corresponding source language words .	S-25
+BKG	It plays an important role in machine translation.	S-26
+BKG	A common lexical selection practice involves an intermediate representation .	S-27
+BKG	It disambiguates the source language words to entities in the intermediate representation , then maps from the entities to the target lexical entries .	S-28
+OTH	This intermediate representation may be Lexical Concept Structureor interlingua.	S-29
+CTR	This engineering approach requires great effort in designing the representation and the mapping rules .	S-30
+OTH	Currently , there are some efforts in statistical lexical selection .	S-31
+OTH	A target language word Wcan be selected with the posterior probability Pr ( W` | W) given the source language word W.	S-32
+OTH	Several target language lexical entries may be selected for a single source language word .	S-33
+OTH	Then the correct selections can be identified by the language model of the target language.	S-34
+OTH	This approach is learnable .	S-35
+CTR	However , the accuracy is low .	S-36
+OTH	One reason is that it does not use any structural information of a language .	S-37
+BAS	In next subsections , we propose information-theoretical networks based on the bilingual dual-coding theory for lexical selection .	S-38
+OTH	Information-theoretical network is a neural network formalism that is capable of doing associations between two layers of representations .	S-39
+OTH	The associations can be obtained statistically according to the network 's experiences .	S-40
+OTH	An information-theoretical network has two layers .	S-41
+OTH	Each unit of a layer represents an element in the input or output of a training pattern , which might be a logogen or a word .	S-42
+OTH	Units in different layers are connected .	S-43
+OTH	The weight of the connection between unit i in one layer and unit j in the other layer is assigned with the mutual information between the elements represented by the two units	S-44
+OTH	Each layer also contains a bias unit , which is always activated .	S-45
+OTH	The weight of the connection between the bias unit in one layer and unit j in the other layer is	S-46
+OTH	Both the information-theoretical network and the back-propagation network compute the posterior probabilities for an association task,.	S-47
+OTH	However , only the information-theoretical network is isomorphic to the directly interconnected verbal systems in the dual-coding theory .	S-48
+OTH	Besides , an information-theoretical network has the following advantages :	S-49
+OTH	it learns fast .	S-50
+OTH	The network can learn in a single pass without gradient decent .	S-51
+OTH	it is adaptive .	S-52
+OTH	It can incrementally adapt to new experiences simply by adding new data to the training samples and modifying the associations according to the changed statistics .	S-53
+OTH	These make the network more psychologically plausible .	S-54
+OWN	We tried to map source language f-structures to target language f-structure in a connectionist transfer project.	S-55
+OWN	Functionally , there were two sub-tasks :	S-56
+OWN	finding the target sub-structures , their phrasal categories and their corresponding source structures ;	S-57
+OWN	finding the head of a target structure .	S-58
+OWN	The second sub-task is a problem of lexical selection .	S-59
+OWN	It was first implemented with a back-propagation network .	S-60
+OWN	We replaced the back-propagation networks for lexical selection with information-theoretical networks simulating the associative process in the dual-coding theory .	S-61
+OWN	The networks have two layers of units .	S-62
+OWN	Each source ( target ) language lexical item is represented by a unit in the input ( output ) layer .	S-63
+OWN	One network is constructed for each phrasal category.	S-64
+OWN	The networks works in the following way : for a target-language f-structure to be generated , the transfer system knows its phrasal category and its corresponding source-language f-structure from the networks that perform the sub-task.	S-65
+OWN	It then activates the lexical selection network for that phrasal category with the input units that correspond to the heads of the source language f-structure and its sub-structures .	S-66
+OWN	Through the connections between the two layers , the output units are activated , and the lexical item that corresponds to the most active output unit is selected as the head of the target f-structure .	S-67
+OWN	The following example illustrates how the system selects the head anmelden for the German XCOMP sub-structure when it does the transfer from	S-68
+OWN	to	S-69
+OWN	Since the structure networks find that there is a VP sub-structure of XCOMP in the target structure whose corresponding input structure is EQN] , it activates the VP lexical selection network 's input units for I , register and conference .	S-70
+OWN	By propagating the activation via the associative connections , the unit for anmelden is the most active output .	S-71
+OWN	Therefore , ` anmelden ' is chosen as the head of the xcomp sub-structure .	S-72
+OWN	The domain of our work was the Conference Registration Telephony Conversations .	S-73
+OWN	The lexicon for the task contained about 500 English and 500 German words .	S-74
+OWN	There were 300 English / German f-structure pairs available from other research tasks.	S-75
+OWN	A separate set of 154 sentential f-structures was used to test the generalization performance of the system .	S-76
+OWN	The testing data was collected for an independent task.	S-77
+OWN	From the 300 sentential f-structure pairs , every German VP sub-structure is extracted and labeled with its English counterpart .	S-78
+OWN	The English counterpart 's head and its immediate sub-structures ' heads serve as the input in a sample of VP association , and the German f-structure 's head become the output of the association .	S-79
+OWN	For the above example , the associationis a sample drawn from the f-structures for the VP network .	S-80
+OWN	The training samples for all the other networks are created in the same way .	S-81
+OWN	The accuracy of our system with information-theoretical network lexical selection is lower than the one with back-propagation networks ( around 84 % versus around 92 % ) for the training data .	S-82
+OWN	However , the generalization performance on the unseen inputs is better ( around 70 % versus around 62 % ) .	S-83
+OWN	The information-theoretical networks do not over-learn as the back-propagation networks .	S-84
+OWN	This is partially due to the reduced number of free parameters in the information-theoretical networks .	S-85
+OWN	The lexical selection approach discussed here has two advantages .	S-86
+OWN	First , it is learnable .	S-87
+OWN	Little human effort on knowledge engineering is required .	S-88
+OWN	Secondly , it is psycholinguistically well-founded in that the approach adopts a local activation processing model instead of relies upon symbol passing , as symbolic systems usually do .	S-89

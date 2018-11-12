@@ -1,0 +1,187 @@
+AIM	This paper presents PROVERB a text planner for argumentative texts .	A-0
+AIM	PROVERB main feature is that it combines global hierarchical planning and unplanned organization of text with respect to local derivation relations in a complementary way .	A-1
+OWN	The former splits the task of presenting a particular proof into subtasks of presenting subproofs .	A-2
+OWN	The latter simulates how the next intermediate conclusion to be presented is chosen under the guidance of the local focus .	A-3
+AIM	This paper presents a text planner for the verbalization of natural deduction ( ND ) style proofs.	S-0
+OTH	Several similar attempts can be found in previous work .	S-1
+CTR	Developed before the era of NL generation , the system EXPOUND ofcan be characterized as an example of direct translation : Although a sophisticated linearization is applied on the input ND proofs , the steps are then translated locally in a template driven way .	S-2
+CTR	ND proofs were tested as input to an early version of the MUMBLE system of, the main aim however , was to show the feasibility of the architecture .	S-3
+CTR	A more recent attempt can be found in THINKER, which implements several interesting but isolated proof presentation strategies , without giving a comprehensive underlying model .	S-4
+AIM	Our computational model can therefore be viewed as the first serious attempt at a comprehensive computational model that produces adequate argumentative texts from ND style proofs .	S-5
+AIM	The main aim is to show how existing text planning techniques can be adapted for this particular application .	S-6
+OWN	To test its feasibility , this computational model is implemented in a system called PROVERB .	S-7
+OTH	Most current NL text planners assume that language generation is planned behavior and therefore adopt a hierarchical planning approach,,,.	S-8
+OTH	Nonetheless there is psychological evidence that language has an unplanned , spontaneous aspect as well.	S-9
+OTH	Based on this observation , researchers have exploited organizing text with respect to some local relations .	S-10
+OTH	implemented a system generating descriptions for objects with a strong domain structure , such as houses , chips and families .	S-11
+OTH	Once a discourse is started , local structures suggest the next objects available .	S-12
+OTH	Instead of planning globally , short-range strategies are employed to organize a short segment of text .	S-13
+OTH	From a computational point of view , a hierarchical planner elaborates recursively on the initial communicative goal until the final subgoals can be achieved by applying a primitive operator .	S-14
+OTH	A text generator based on the local organization , in contrast , repeatedly chooses a part of the remaining task and carries it out .	S-15
+OWN	The macroplanner of PROVERB combines hierarchical planning with local organization in a uniform planning framework .	S-16
+OWN	The hierarchical planning is realized by so-called top-down presentation operators that split the task of presenting a particular proof into subtasks of presenting subproofs .	S-17
+BAS	While the overall planning mechanism follows the RST-based planning approach,, the planning operators more closely resemble the schemata in schema-based planning,.	S-18
+OWN	Bottom-up presentation operators are devised to simulate the unplanned aspect , where the next intermediate conclusion to be presented is chosen under the guidance of the local focus mechanism in a more spontaneous way .	S-19
+OWN	Since top-down operators embody explicit communicative norms , they are always given a higher priority .	S-20
+OWN	Only when no top-down presentation operator is applicable , will a bottom-up presentation operator be chosen .	S-21
+BAS	This distinction between planned and unplanned presentation leads to a very natural segmentation of the discourse into an attentional hierarchy , since , following the theory of, there is a one-to-one correspondence between the intentional hierarchy and the attentional hierarchy .	S-22
+OWN	This attentional hierarchy is used to make reference choices for inference methods and for previously presented intermediate conclusions .	S-23
+OWN	The inference choices are the main concern of the microplanner of PROVERB.	S-24
+AIM	The text planner discussed in this paper is the macroplanner of PROVERB , which translates machine-found proofs in several steps into natural language .	S-25
+BAS	PROVERB adopts a reconstructive approach : Once a proof in a machine oriented formalism is generated in the proof development environment- MKRP , a new proof that more resembles those found in mathematical textbooks is reconstructed.	S-26
+OWN	The reconstructed proof is a proof tree , where proof nodes are derived from their children by applying an inference method ( also called a justification ) .	S-27
+OWN	Most of the steps are justified by the application of a definition or a theorem , the rest are justified by inference rules of the natural deduction ( ND ) calculus , such as the `` Case '' rule .	S-28
+OWN	Figureis an example of a segment of a possible input proof , where some nodes are labeled for convenience .	S-29
+OWN	The justifications `` Du '' , `` Dsubgr '' , `` Ds '' , `` Dg '' , and `` Tsol '' stand for the definitions of unit element , of subgroup , of subset , of group , and the theorem about solution , respectively .	S-30
+OWN	The input proof tree is also augmented with an ordered list of nodes , being roots of subproofs planned in this order .	S-31
+OWN	The proof in Figureis associated with the list : (,,,) .	S-32
+OWN	The macroplanner of PROVERB elaborates on communicative goals , selects and orders pieces of information to fulfill these goals .	S-33
+OWN	The output is an ordered sequence of proof communicative act intentions ( PCAs ) .	S-34
+OWN	PCAs can be viewed as speech acts in our domain of application .	S-35
+OWN	PROVERB combines the two above mentioned presentation modes by encoding communication knowledge for both top-down planning and bottom-up presentation in form of operators in a uniform planning framework .	S-36
+OWN	Since top-down presentation operators embody explicit communicative norms , they are given a higher priority .	S-37
+OWN	A bottom-up presentation is chosen only when no top-down presentation operator applies .	S-38
+OWN	The overall planning framework is realized by the function Present .	S-39
+OWN	Taking as input a subproof , Present repeatedly executes a basic planning cycle until the input subproof is conveyed .	S-40
+OWN	Each cycle carries out one presentation operator , where Present always tries first to choose and apply a top-down operator .	S-41
+OWN	If impossible , a bottom-up operator will be chosen .	S-42
+OWN	The function Present is first called with the entire proof as the presentation task .	S-43
+OWN	The execution of a top-down presentation operator may generate subtasks by calling it recursively .	S-44
+OWN	The discourse produced by each call to Present forms an attentional unit ( compare the subsection below ) .	S-45
+OWN	The discourse carried out so far is recorded in a discourse model .	S-46
+OWN	Rather than recording the semantic objects and their properties , our discourse model consists basically of the part of the input proof tree which has already been conveyed .	S-47
+OWN	The discourse model is also segmented into an attentional hierarchy , where subproofs posted by a top-down presentation operators as subtasks constitute attentional units .	S-48
+OWN	The following are some notions useful for the formulation of the presentation operators :	S-49
+OWN	Task is the subproof in the input proof whose presentation is the current task .	S-50
+OWN	Local focus is the intermediate conclusion last presented , while the semantic objects involved in the local focus are called the focal centers .	S-51
+OWN	PCAs are the primitive actions planned during the macroplanning to achieve communicative goals .	S-52
+OWN	Like speech acts , PCAs can be defined in terms of the communicative goals they fulfill as well as their possible verbalizations .	S-53
+OWN	Based on an analysis of proofs in mathematical textbooks , each PCA has as goal a combination of the following subgoals :	S-54
+OWN	Conveying a step of the derivation .	S-55
+OWN	The simplest PCA is the operator Derive .	S-56
+OWN	Instantiated as below :	S-57
+OWN	depending on the reference choices , a possible verbalization is given as following :	S-58
+OWN	`` Because a is an element ofandis a subset of, according to the definition of subset , a is an element of. ''	S-59
+OWN	Updates of the global attentional structure .	S-60
+OWN	These PCAs sometimes also convey a partial plan for the further presentation .	S-61
+OWN	Effects of this group of PCAs include : creating new attentional units , setting up partially premises and the goal of a new unit , closing the current unit , or reallocating the attention of the reader from one attentional unit to another .	S-62
+OWN	The PCA	S-63
+OWN	creates two attentional units with A and B as the assumptions , and Formula as the goal by producing the verbalization :	S-64
+OWN	`` To prove Formula , let us consider the two cases by assuming A and B. ''	S-65
+OWN	Thirteen PCAs are currently employed in PROVERB .	S-66
+OWN	Seefor more details .	S-67
+BAS	Although top-down and bottom-up presentation activities are of a conceptually different nature , the corresponding communication knowledge is uniformly encoded as presentation operators in a planning framework , similar to the plan operators in other generation systems,,,.	S-68
+OWN	In general , presentation operators map an original presentation task into a sequence of subtasks and finally into a sequence of PCAs .	S-69
+OWN	All of them have the following four slots :	S-70
+OWN	Proof : a proof schema , which characterizes the syntactical structure of a proof segment for which this operator is designed .	S-71
+OWN	It plays the role of the goal slot in the traditional planning framework .	S-72
+OWN	Applicability Condition : a predicate .	S-73
+OWN	Acts : a procedure which essentially carries out a sequence of presentation acts .	S-74
+OWN	They are either primitive PCAs , or are recursive calls to the procedure Present for subproofs .	S-75
+OWN	Features : a list of features which helps to select the best of a set of applicable operators .	S-76
+TXT	This section elaborates on the communicative norms concerning how a proof to be presented can be split into subproofs , as well as how the hierarchically-structured subproofs can be mapped onto some linear order for presentation .	S-77
+CTR	In contrast with operators employed in RST-based planners that split goals according to the rhetorical structures , our operators encode standard schemata for presenting proofs , which contain subgoals .	S-78
+OWN	The top-down presentation operators are roughly divided into two categories :	S-79
+OWN	schemata-based operators encoding complex schemata for the presentation of proofs of a specific pattern ( twelve of them are currently integrated in PROVERB ) ,	S-80
+OWN	general operators embodying general presentation norms , concerning splitting proofs and ordering subgoals .	S-81
+OWN	Let us first look at an operator devised for proof segments containing cases .	S-82
+OWN	The corresponding schema of such a proof tree is shown in Figure.	S-83
+OWN	Under two circumstances a writer may recognize that he is confronted with a proof segment containing cases .	S-84
+OWN	First , when the subproof that has the structure of Figureis the current presentation task , tested by ( task) .	S-85
+OWN	Second , when the disjunctionhas just been presented in the bottom-up mode , tested by ( local-focus) .	S-86
+OWN	Under both circumstances , a communication norm motivates the writer to first present the part leading to( in the second case this subgoal has already been achieved ) , and then to proceed with the two cases .	S-87
+OWN	It enforces also that certain PCAs be used to mediate between parts of proofs .	S-88
+OWN	This procedure is exactly captured by the presentation operator below .	S-89
+OWN	Case-Implicit	S-90
+OWN	Proof : as given in Figure	S-91
+OWN	Applicability Condition :	S-92
+OWN	Acts :	S-93
+OWN	ifhas not been conveyed , then present( subgoal 1 )	S-94
+OWN	a PCA with the verbalization : `` First , let us consider the first case by assuming F. ''	S-95
+OWN	present( subgoal 2 ) a PCA with the verbalization : `` Next , we consider the second case by assuming G . ''	S-96
+OWN	present( subgoal 3 ) markas conveyed	S-97
+OWN	features : ( top-down compulsory implicit ) .	S-98
+OWN	The feature values can be divided into two groups : those characterizing the style of the text this operator produces , and those concerning other planning aspects .	S-99
+OWN	`` Implicit '' is a stylistic feature value , indicating that the splitting of the proof into the three subgoals is not made explicit .	S-100
+OWN	In its explicit dual Case-Explicit a PCA is added to the beginning of the Acts slot , which produces the verbalization :	S-101
+OWN	`` To prove Q , let us first prove, and consider the two cases separately . ''	S-102
+OWN	The feature value `` compulsory '' indicates that if the applicability condition is satisfied , and the style of the operator conforms to the global style the text planner is committed to , this operator should be chosen .	S-103
+OWN	Two weaker values also reflect the specificity of plan operators : `` specific '' and `` general '' .	S-104
+OWN	General presentation operators perform a simple task according to some general text organization principles .	S-105
+OWN	They either	S-106
+OWN	enforce a linearization on subproofs to be presented , or	S-107
+OWN	split the task of the presentation of a proof with ordered subproofs into subtasks .	S-108
+OWN	The first ordering operator operationalizes a general ordering strategy called minimal load principle .	S-109
+OWN	This principle predicates that a writer usually presents shorter branches before longer ones .	S-110
+OWN	The argument of Levelt is rather simple : When one branch is chosen to be described first , the writer has to have the choice node flagged in his memory for return .	S-111
+OWN	If he follows the shorter branch first , the duration of the load will be shorter .	S-112
+OWN	The concrete operator is omitted .	S-113
+OWN	Note that , the subproofs being ordered are subproofs conceptually planned while the corresponding proof is constructed .	S-114
+OWN	There are two other ordering operators based on general ordering principles : the local focus principle and the proof time order principle.	S-115
+OWN	The invocation of an ordering operator is always followed by the invocation of a splitting operator , which actually posts subgoals by calling the function Present with the ordered goals subsequently .	S-116
+OWN	The bottom-up presentation process simulates the unplanned part of proof presentation .	S-117
+OWN	Instead of splitting presentation goals into subgoals according to standard schemata , it follows the local derivation relation to find a next proof node or subproof to be presented .	S-118
+BAS	In this sense , it is similar to the local organization techniques used in.	S-119
+OWN	When no top-down presentation operator applies , PROVERB chooses a bottom-up operator .	S-120
+OWN	The node to be presented next is suggested by the mechanism of local focus .	S-121
+OWN	Although logically any proof node having the local focus as a child could be chosen for the next step , usually the one with the greatest semantic overlapping with the focal centers is preferred .	S-122
+OWN	As mentioned above , focal centers are semantic objects mentioned in the proof node which is the local focus .	S-123
+OWN	This is based on the observation that if one has proved a property about some semantic objects , one tends to continue to talk about these particular objects before turning to new objects .	S-124
+OWN	Let us examine the situation when the proof below is awaiting presentation .	S-125
+OWN	Assume that nodeis the local focus , the setare the focal centers ,is a previously presented node and nodeis the current task .	S-126
+OWN	is chosen as the next node to be presented , since it does not ( re ) introduce any new semantic object and its overlap with the focal centers () is larger than those of() .	S-127
+OWN	Under different circumstances the derivation of the next-node is also presented in different ways .	S-128
+OWN	The corresponding presentation knowledge is encoded as bottom-up presentation operators .	S-129
+OWN	The one most frequently used presents one step of derivation :	S-130
+OWN	Derive-Bottom-Up .	S-131
+OWN	Proof :	S-132
+OWN	Applicability Condition :is suggested by the focus mechanism as the next node , and,,are conveyed .	S-133
+OWN	Acts : a PCA that conveys the fact thatis derived from the premises,,by applying.	S-134
+OWN	Features : ( bottom-up general explicit detailed ) .	S-135
+OWN	If the conclusion, the premises and the methodare instantiated to, (,) , def-subset respectively , the following verbalization can be produced :	S-136
+OWN	`` Since a is an element of, andis a subset of, a is an element ofaccording to the definition of subset . ''	S-137
+OWN	A trivial subproof may be presented as a single derivation by omitting the intermediate nodes .	S-138
+OWN	This next subproof is also suggested by the local focus .	S-139
+OWN	This is simulated by a bottom-up operator called Simplify-Bottom-Up .	S-140
+OWN	Currently seven bottom-up operators are integrated in PROVERB .	S-141
+OWN	Macroplanning produces a sequence of PCAs .	S-142
+OWN	Our microplanner is restricted to the treatment of the reference choices for the inference methods and for the previously presented intermediate conclusions .	S-143
+OWN	While the former depends on static salience relating to the domain knowledge , the latter is similar to subsequent references , and is therefore sensitive to the context , in particular to its segmentation into attentional hierarchy .	S-144
+OWN	Due to space restrictions , we only show the following piece of a preverbal message as an example , being a PCA enriched with reference choices for reasons and method by the microplanner,.	S-145
+OTH	Our surface generator TAG-GENproduces the utterance :	S-146
+OTH	`` Since a is an element of U , a is an element of F. ''	S-147
+OTH	Notice , only the reason labeled as `` explicit '' is verbalized .	S-148
+OWN	Finally , to demonstrate the type of proofs currently generated by PROVERB , below is the complete output for a proof constructed by- MKRP :	S-149
+OWN	Theorem :	S-150
+OWN	Let F be a group and U a subgroup of F , if 1 andare unit elements of F and U respectively , then.	S-151
+OWN	Proof :	S-152
+OWN	Let F be a group , U be a subgroup of F , 1 be a unit element of F andbe a unit element of U. According to the definition of unit element ,.	S-153
+OWN	Therefore there is an X ,.	S-154
+OWN	Now suppose thatis such an X .	S-155
+OWN	According to the definition of unit element ,.	S-156
+OWN	Since U is a subgroup of F ,.	S-157
+OWN	Therefore.	S-158
+OWN	Similarly, since.	S-159
+OWN	Since F is a group , F is a semigroup .	S-160
+OWN	Because,is a solution of the equation.	S-161
+OWN	Since 1 is a unit element of F ,.	S-162
+OWN	Since 1 is a unit element of F ,.	S-163
+OWN	Because, 1 is a solution of the equation.	S-164
+OWN	Since F is a group ,by the uniqueness of solution .	S-165
+OWN	This conclusion is independent of the choice of the element.	S-166
+AIM	This paper puts forward an architecture that combines several established NL generation techniques adapted for a particular application , namely the presentation of ND style proofs .	S-167
+OWN	We hope that this architecture is also of general interest beyond this particular application .	S-168
+AIM	The most important feature of this model is that hierarchical planning and unplanned spontaneous presentation are integrated in a uniform framework .	S-169
+OTH	Top-down hierarchical planning views language generation as planned behavior .	S-170
+OTH	Based on explicit communicative knowledge encoded as schemata , hierarchical planning splits a presentation task into subtasks .	S-171
+CTR	Although our overall presentation mechanism has much in common with that of RST-based text planners , the top-down planning operators contain mostly complex presentation schemata , like those in schema-based planning .	S-172
+OWN	Since schemata-based planning covers only proofs of some particular structure , it is complemented by a mechanism called bottom-up presentation .	S-173
+OWN	Bottom-up presentation aims at simulating the unplanned part of proof presentation , where a proof node or a subproof awaiting presentation is chosen as the next to be presented via the local derivation relations .	S-174
+OWN	Since more than one such node is often available , the local focus mechanism is employed to single out the candidate having the strongest semantic links with the focal centers .	S-175
+OWN	The distinction between planned and unplanned behavior enables a very natural segmentation of the discourse into an attentional hierarchy .	S-176
+BAS	This provide an appropriate basis for a discourse theory which handles reference choices.	S-177
+OWN	Compared with proofs found in mathematical textbooks , the output of PROVERB is still too tedious and inflexible .	S-178
+OWN	The tediousness is largely ascribed to the lack of plan level knowledge of the input proofs , which distinguishes crucial steps from unimportant details .	S-179
+OWN	Therefore , sophisticated plan recognition techniques are necessary .	S-180
+OWN	The inflexibility of text currently produced is partly inherited from the schemata-based approach , for which a fine-grained planning in terms of single PCAs might be a remedy .	S-181
+OWN	It is also partly due to the fixed lexicon choice , which we are currently reimplementing .	S-182

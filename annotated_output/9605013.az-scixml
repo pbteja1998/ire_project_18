@@ -1,0 +1,178 @@
+AIM	We address the problem of automatically acquiring case frame patterns ( selectional patterns ) from large corpus data .	A-0
+AIM	In particular , we propose a method of learning dependencies between case frame slots .	A-1
+OWN	We view the problem of learning case frame patterns as that of learning a multi-dimensional discrete joint distribution , where random variables represent case slots .	A-2
+OWN	We then formalize the dependencies between case slots as the probabilistic dependencies between these random variables .	A-3
+OWN	Since the number of parameters in a multi-dimensional joint distribution is exponential in general , it is infeasible to accurately estimate them in practice .	A-4
+OWN	To overcome this difficulty , we settle with approximating the target joint distribution by the product of low order component distributions , based on corpus data .	A-5
+BAS	In particular we propose to employ an efficient learning algorithm based on the MDL principle to realize this task .	A-6
+OWN	Our experimental results indicate that for certain classes of verbs , the accuracy achieved in a disambiguation experiment is improved by using the acquired knowledge of dependencies .	A-7
+AIM	We address the problem of automatically acquiring case frame patterns ( selectional patterns ) from large corpus data .	S-0
+BKG	The acquisition of case frame patterns normally involves the following three subproblems :	S-1
+BKG	Extracting case frames from corpus data ,	S-2
+BKG	Generalizing case frame slots within these case frames ,	S-3
+BKG	Learning dependencies that exist between these generalized case frame slots .	S-4
+AIM	In this paper , we propose a method of learning dependencies between case frame slots .	S-5
+BKG	By ` dependency ' is meant the relation that exists between case slots which constrains the possible values assumed by each of those case slots .	S-6
+BKG	As illustrative examples , consider the following sentences .	S-7
+BKG	We see that an ` airline company ' can be the subject of verb ` fly ' ( the value of slot ` arg 1 ' ) , when the direct object ( the value of slot ` arg 2 ' ) is an ` airplane ' but not when it is an ` airline company ' .	S-8
+BKG	These examples indicate that the possible values of case slots depend in general on those of the other case slots : that is , there exist ` dependencies ' between different case slots .	S-9
+OWN	The knowledge of such dependencies is useful in various tasks in natural language processing , especially in analysis of sentences involving multiple prepositional phrases , such as	S-10
+BKG	Note in the above example that the slot of ` from ' and that of ` to ' should be considered dependent and the attachment site of one of the prepositional phrases ( case slots ) can be determined by that of the other with high accuracy and confidence .	S-11
+CTR	There has been no method proposed to date , however , that learns dependencies between case slots in the natural language processing literature .	S-12
+OTH	In the past research , the distributional pattern of each case slot is learned independently , and methods of resolving ambiguity are also based on the assumption that case slots are independent,,,,,,, or dependencies between at most two case slots are considered,,.	S-13
+AIM	Thus , provision of an effective method of learning dependencies between case slots , as well as investigation of the usefulness of the acquired dependencies in disambiguation and other natural language processing tasks would be an important contribution to the field .	S-14
+OWN	In this paper , we view the problem of learning case frame patterns as that of learning a multi-dimensional discrete joint distribution , where random variables represent case slots .	S-15
+OWN	We then formalize the dependencies between case slots as the probabilistic dependencies between these random variables .	S-16
+OWN	Since the number of parameters that exist in a multi-dimensional joint distribution is exponential if we allow n-ary dependencies in general , it is infeasible to estimate them with high accuracy with a data size available in practice .	S-17
+OWN	It is also clear that relatively few of these random variables ( case slots ) are actually dependent on each other with any significance .	S-18
+OWN	Thus it is likely that the target joint distribution can be approximated reasonably well by the product of component distributions of low order , drastically reducing the number of parameters that need to be considered .	S-19
+OWN	This is indeed the approach we take in this paper .	S-20
+OWN	Now the problem is how to approximate a joint distribution by the product of lower order component distributions .	S-21
+OTH	Recently ,proposed an algorithm to approximately learn a multi-dimensional joint distribution expressible as a ` dendroid distribution , ' which is both efficient and theoretically sound.	S-22
+BAS	We employ's algorithm to learn case frame patterns as dendroid distributions .	S-23
+OWN	We conducted some experiments to automatically acquire case frame patterns from the Penn Tree Bank bracketed corpus .	S-24
+OWN	Our experimental results indicate that for some classes of verbs the accuracy achieved in a disambiguation experiment can be improved by using the acquired knowledge of dependencies between case slots .	S-25
+OWN	Suppose that we have data of the type shown in Figure, given by instances of the case frame of verb ` fly ' automatically extracted from a corpus , using conventional techniques .	S-26
+OWN	As explained in Introduction , the problem of learning case frame patterns can be viewed as that of estimating the underlying multi-dimensional joint distribution which gives rise to such data .	S-27
+OWN	In this research , we assume that case frame instances with the same head are generated by a joint distribution of type ,	S-28
+OWN	where index Y stands for the head , and each of the random variablesrepresents a case slot .	S-29
+OWN	In this paper , we use ` case slots ' to mean surface case slots , and we uniformly treat obligatory cases and optional cases .	S-30
+OWN	Thus the number n of the random variables is roughly equal to the number of prepositions in English ( and less than 100 ) .	S-31
+OWN	These models can be further classified into three types of probabilistic models according to the type of values each random variableassumes .	S-32
+OWN	Whenassumes a word or a special symbol ` 0 ' as its value , we refer to the corresponding modelas a ` word-based model ' .	S-33
+OWN	Here ` 0 ' indicates the absence of the case slot in question .	S-34
+OWN	Whenassumes a word-class or ` 0 ' as its value , the corresponding model is called a ` class-based model '.	S-35
+OWN	Whentakes on 1 or 0 as its value , we call the model a ` slot-based model '.	S-36
+OWN	Here the value of ` 1 ' indicates the presence of the case slot in question , and ` 0 ' absence .	S-37
+OWN	For example , the data in Figurecan be generated by a word-based model , and the data in Figureby a class-based model .	S-38
+OWN	Suppose for simplicity that there are only 4 possible case slots corresponding respectively to the subject , direct object , ` from ' phrase , and ` to ' phrase .	S-39
+OWN	Then ,	S-40
+OWN	is given a specific probability value by a word-based model .	S-41
+OWN	In contrast ,	S-42
+OWN	is given a specific probability by a class-based model , whereanddenote word classes .	S-43
+OWN	Finally ,	S-44
+OWN	is assigned a specific probability by a slot-based model .	S-45
+OWN	We then formulate the dependencies between case slots as the probabilistic dependencies between the random variables in each of these three models .	S-46
+OWN	In the absence of any constraints , however , the number of parameters in each of the above three models is exponential ( even the slot-based model hasparameters ) , and thus it is infeasible to estimate them in practice .	S-47
+OWN	A simplifying assumption that is often made to deal with this difficulty is that random variables ( case slots ) are mutually independent .	S-48
+OWN	Suppose for example that in the analysis of the sentence	S-49
+OWN	the following alternative interpretations are given .	S-50
+OWN	We wish to select the more appropriate of the two interpretations .	S-51
+OWN	A heuristic word-based method for disambiguation , in which the random variables ( case slots ) are assumed to be dependent , is to calculate the following values of word-based likelihood and to select the interpretation corresponding to the higher likelihood value .	S-52
+OTH	If on the other hand we assume that the random variables are independent , we only need to calculate and compare.	S-53
+OTH	and	S-54
+OTH	The independence assumption can also be made in the case of a class-based model or a slot-based model .	S-55
+OTH	For slot-based models , with the independence assumption , the following probabilities .	S-56
+OTH	are to be compared.	S-57
+OTH	Assuming that random variables ( case slots ) are mutually independent would drastically reduce the number of parameters .	S-58
+OTH	( Note that under the independence assumption the number of parameters in a slot-based model becomes O(n) . )	S-59
+CTR	As illustrated in Section, this assumption is not necessarily valid in practice .	S-60
+OWN	What seems to be true in practice is that some case slots are in fact dependent but overwhelming majority of them are independent , due partly to the fact that usually only a few case slots are obligatory and most others are optional .	S-61
+OWN	Thus the target joint distribution is likely to be approximable by the product of several component distributions of low order , and thus have in fact a reasonably small number of parameters .	S-62
+OWN	We are thus lead to the approach of approximating the target joint distribution by such a simplified model , based on corpus data .	S-63
+BKG	Without loss of generality , any n-dimensional joint distribution can be written as	S-64
+BKG	for some permutation () of 1,2 , .. , n , where we letdenote.	S-65
+BKG	A plausible assumption on the dependencies between random variables is intuitively that each variable directly depends on at most one other variable .	S-66
+BKG	( Note that this assumption is the simplest among those that relax the independence assumption . )	S-67
+BKG	For example , if a joint distributionover 3 random variablescan be written ( approximated ) as follows , it ( approximately ) satisfies such an assumption .	S-68
+BKG	Such distributions are referred to as ` dendroid distributions ' in the literature .	S-69
+BKG	A dendroid distribution can be represented by a dependency forest ( i.e. a set of dependency trees ) , whose nodes represent the random variables , and whose directed arcs represent the dependencies that exist between these random variables , each labeled with a number of parameters specifying the probabilistic dependency .	S-70
+BKG	( A dendroid distribution can also be considered as a restricted form of the Bayesian network. )	S-71
+BKG	It is not difficult to see that there are 7 and only 7 such representations for the joint distribution( See Figure) , disregarding the actual numerical values of the probabilistic parameters .	S-72
+OWN	Now we turn to the problem of how to select the best dendroid distribution from among all possible ones to approximate a target joint distribution based on input data ` generated ' by it .	S-73
+OTH	This problem has been investigated in the area of machine learning and related fields .	S-74
+OTH	A classical method is's algorithm for estimating a multi-dimensional joint distribution as a dependency tree , in a way which is both efficient and theoretically sound.	S-75
+OTH	More recentlyextended their algorithm so that it estimates the target joint distribution as a dendroid distribution or dependency forest, allowing for the possibility of learning one group of random variables to be completely independent of another .	S-76
+BAS	Since many of the random variables ( case slots ) in case frame patterns are essentially independent , this feature is crucial in our context , and we thus employ's algorithm for learning our case frame patterns .	S-77
+OTH	's algorithm first calculates the mutual information between all two nodes ( random variables ) , and it sorts the node pairs in descending order with respect to the mutual information .	S-78
+OTH	It then puts a link between a node pair with the largest mutual information value I , provided that I exceeds a certain threshold which depends on the node pair and adding that link will not create a loop in the current dependency graph .	S-79
+OTH	It repeats this process until no node pair is left unprocessed .	S-80
+OTH	Figureshows the detail of this algorithm , wheredenotes the number of possible values assumed by, N the input data size , anddenotes the logarithm to the base 2 .	S-81
+OTH	It is easy to see that the number of parameters in a dendroid distribution is of the order, where k is the maximum of all, and n is the number of random variables , and the time complexity of the algorithm is of the order.	S-82
+TXT	We will now show how the algorithm works by an illustrative example .	S-83
+OTH	Suppose that the data is given as in Figureand there are 4 nodes ( random variables ).	S-84
+OTH	The values of mutual information and thresholds for all node pairs are shown in Table.	S-85
+OTH	Based on this calculation the algorithm constructs the dependency forest shown in Figure, because the mutual information betweenand,andare large enough , but not the others .	S-86
+OTH	The result indicates that slot ` arg 2 ' and ` from ' should be considered dependent on ` to ' .	S-87
+OTH	Note that ` arg 2 ' and ` from ' should also be considered dependent via ` to ' but to a somewhat weaker degree .	S-88
+BAS	's algorithm is derived from the Minimum Description Length ( MDL ) principle,,,,which is a principle for statistical estimation in information theory .	S-89
+OTH	It is known that as a strategy of estimation , MDL is guaranteed to be near optimal .	S-90
+BAS	In applying MDL , we usually assume that the given data are generated by a probabilistic model that belongs to a certain class of models and selects a model within the class which best explains the data .	S-91
+BKG	It tends to be the case usually that a simpler model has a poorer fit to the data , and a more complex model has a better fit to the data .	S-92
+BKG	Thus there is a trade-off between the simplicity of a model and the goodness of fit to data .	S-93
+OTH	MDL resolves this trade-off in a disciplined way : It selects a model which is reasonably simple and fits the data satisfactorily as well .	S-94
+OWN	In our current problem , a simple model means a model with less dependencies , and thus MDL provides a theoretically sound way to learn only those dependencies that are statistically significant in the given data .	S-95
+OWN	An especially interesting feature of MDL is that it incorporates the input data size in its model selection criterion .	S-96
+OWN	This is reflected , in our case , in the derivation of the threshold.	S-97
+OWN	Note that when we do not have enough data ( i.e. for small N ) , the thresholds will be large and few nodes tend to be linked , resulting in a simple model in which most of the case slots are judged independent .	S-98
+OWN	This is reasonable since with a small data size most case slots cannot be determined to be dependent with any significance .	S-99
+OWN	We conducted some experiments to test the performance of the proposed method as a method of acquiring case frame patterns .	S-100
+OWN	In particular , we tested to see how effective the patterns acquired by our method are in a structural disambiguation experiment .	S-101
+TXT	We will describe the results of this experimentation in this section .	S-102
+OWN	In our first experiment , we tried to acquire slot-based case frame patterns .	S-103
+OWN	First , we extracted 181,250 case frames from the Wall Street Journal ( WSJ ) bracketed corpus of the Penn Tree Bankas training data .	S-104
+OWN	There were 357 verbs for which more than 50 case frame examples appeared in the training data .	S-105
+OWN	Tableshows the verbs that appeared in the data most frequently and the number of their occurrences .	S-106
+OWN	First we acquired the slot-based case frame patterns for all of the 357 verbs .	S-107
+OWN	We then conducted a ten-fold cross validation to evaluate the ` test data perplexity ' of the acquired case frame patterns , that is , we used nine tenth of the case frames for each verb as training data ( saving what remains as test data ) , to acquire case frame patterns , and then calculated perplexity using the test data .	S-108
+OWN	We repeated this process ten times and calculated the average perplexity .	S-109
+OWN	Tableshows the average perplexity obtained for some randomly selected verbs .	S-110
+OWN	We also calculated the average perplexity of the ` independent slot models ' acquired based on the assumption that each case slot is independent .	S-111
+OWN	Our experimental results shown in Tableindicate that the use of the dendroid models can achieve up toperplexity reduction as compared to the independent slot models .	S-112
+OWN	It seems safe to say therefore that the dendroid model is more suitable for representing the true model of case frames than the independent slot model .	S-113
+OWN	We also used the acquired dependency knowledge in a pp-attachment disambiguation experiment .	S-114
+OWN	We used the case frames of all 357 verbs as our training data .	S-115
+OWN	We used the entire bracketed corpus as training data because we wanted to utilize as many training data as possible .	S-116
+BAS	We extractedorpatterns from the WSJ tagged corpus as test data , using pattern matching techniques such as that described in.	S-117
+OWN	We took care to ensure that only the part of the tagged ( non-bracketed ) corpus which does not overlap with the bracketed corpus is used as test data .	S-118
+OWN	( The bracketed corpus does overlap with part of the tagged corpus . )	S-119
+OWN	We acquired case frame patterns using the training data .	S-120
+OWN	Figureshows an example of the results , which is part of the case frame pattern ( dendroid distribution ) for the verb ` buy .	S-121
+OWN	' Note in the model that the slots ` for , ' 'on , ' etc , are dependent on ` arg 2 , ' while ` arg 1 ' and ` from ' are independent .	S-122
+OWN	We found that there were 266 verbs , whose ` arg 2 ' slot is dependent on some of the other preposition slots .	S-123
+OWN	Tableshows 37 of the verbs whose dependencies between arg 2 and other case slots are positive and exceed a certain threshold , i.e. P ( arg 2 = 1 , prep = 1 ) # GT 0.25 .	S-124
+OWN	The dependencies found by our method seem to agree with human intuition in most cases .	S-125
+OWN	There were 93 examples in the test data (pattern ) in which the two slots ` arg 2 ' and prep of verb are determined to be positively dependent and their dependencies are stronger than the threshold of 0.25 .	S-126
+OWN	We forcibly attachedto verb for these 93 examples .	S-127
+BAS	For comparison , we also tested the disambiguation method based on the independence assumption proposed byon these examples .	S-128
+OWN	Tableshows the results of these experiments , where ` Dendroid ' stands for the former method and ` Independent ' the latter .	S-129
+CTR	We see that using the information on dependency we can significantly improve the disambiguation accuracy on this part of the data .	S-130
+OWN	Since we can use existing methods to perform disambiguation for the rest of the data , we can improve the disambiguation accuracy for the entire test data using this knowledge .	S-131
+OWN	Furthermore , we found that there were 140 verbs having inter-dependent preposition slots .	S-132
+OWN	Tableshows 22 out of these 140 verbs such that their case slots have positive dependency that exceeds a certain threshold , i.e..	S-133
+OWN	Again the dependencies found by our method seem to agree with human intuition .	S-134
+OWN	In the test data ( which are ofpattern ) , there were 21 examples that involves one of the above 22 verbs whose preposition slots show dependency exceeding 0.25 .	S-135
+OWN	We forcibly attached bothandto verb on these 21 examples , since the two slotsandare judged dependent .	S-136
+OWN	Tableshows the results of this experimentation , where ` Dendroid ' and ` Independent ' respectively represent the method of using and not using the dependencies .	S-137
+OWN	Again , we find that for the part of the test data in which dependency is present , the use of the dependency knowledge can be used to improve the accuracy of a disambiguation method , although our experimental results are inconclusive at this stage .	S-138
+OWN	We also used the 357 verbs and their case frames used in Experiment 1 to acquire class-based case frame patterns using the proposed method .	S-139
+OWN	We randomly selected 100 verbs among these 357 verbs and attempted to acquire their case frame patterns .	S-140
+OWN	We generalized the case slots within each of these case frames using the method proposed byto obtain class-based case slots , and then replaced the word-based case slots in the data with the obtained class-based case slots .	S-141
+OWN	What resulted are class-based case frame examples like those shown in Figure.	S-142
+OWN	We used these data as input to the learning algorithm and acquired case frame patterns for each of the 100 verbs .	S-143
+OWN	We found that no two case slots are determined as dependent in any of the case frame patterns .	S-144
+OWN	This is because the number of parameters in a class based model is very large compared to the size of the data we had available .	S-145
+OWN	Our experimental result verifies the validity in practice of the assumption widely made in statistical natural language processing that class-based case slots ( and also word-based case slots ) are mutually independent , at least when the data size available is that provided by the current version of the Penn Tree Bank .	S-146
+OWN	This is an empirical finding that is worth noting , since up to now the independence assumption was based solely on human intuition , to the best of our knowledge .	S-147
+OWN	To test how large a data size is required to estimate a class-based model , we conducted the following experiment .	S-148
+OWN	We defined an artificial class-based model and generated some data according to its distribution .	S-149
+OWN	We then used the data to estimate a class-based model ( dendroid distribution ) , and evaluated the estimated model by measuring the number of dependencies ( dependency arcs ) it has and the KL distance between the estimated model and the true model .	S-150
+OWN	We repeatedly generated data and observed the ` learning curve , ' namely the relationship between the number of dependencies in the estimated model and the data size used in estimation , and the relationship between the KL distance between the estimated and true model and the data size .	S-151
+OWN	We defined two other models and conducted the same experiments .	S-152
+OWN	Figureshows the results of these experiments for these three artificial models averaged over 10 trials .	S-153
+OWN	( The number of parameters in Model 1 , Model 2 , and Model 3 are 18 , 30 , and 44 respectively , while the number of dependencies are 1 , 3 , and 5 respectively . )	S-154
+OWN	We see that to accurately estimate a model the data size required is as large as 100 times the number of parameters .	S-155
+OWN	Since a class-based model tends to have more than 100 parameters usually , the current data size available in the Penn Tree Bank ( See Table) is not enough for accurate estimation of the dependencies within case frames of most verbs .	S-156
+TXT	We conclude this paper with the following remarks .	S-157
+AIM	The primary contribution of research reported in this paper is that we have proposed a method of learning dependencies between case frame slots , which is theoretically sound and efficient , thus providing an effective tool for acquiring case dependency information .	S-158
+OWN	For the slot-based model , sometimes case slots are found to be dependent .	S-159
+OWN	Experimental results demonstrate that using the dependency information , when dependency does exist , structural disambiguation results can be improved .	S-160
+OWN	For the word-based or class-based models , case slots are judged independent , with the data size currently available in the Penn Tree Bank .	S-161
+OWN	This empirical finding verifies the independence assumption widely made in practice in statistical natural language processing .	S-162
+OWN	We proposed to use dependency forests to represent case frame patterns .	S-163
+OWN	It is possible that more complicated probabilistic dependency graphs like Bayesian networks would be more appropriate for representing case frame patterns .	S-164
+OWN	This would require even more data and thus the problem of how to collect sufficient data would be a crucial issue , in addition to the methodology of learning case frame patterns as probabilistic dependency graphs .	S-165
+OWN	Finally the problem of how to determine obligatory / optional cases based on dependencies acquired from data should also be addressed .	S-166
+OWN	We thank Mr. K. Nakamura , Mr. T. Fujita , and Dr. K. Kobayashi of NEC C & C Res. Labs. for their constant encouragement .	S-167
+OWN	We thank Mr. R. Isotani of NEC Information Technology Res. Labs. for his comments .	S-168
+OWN	We thank Ms. Y. Yamaguchi of NIS for her programming effort .	S-169

@@ -1,0 +1,88 @@
+AIM	In this paper we present a semantic study of motion complexes ( ie. of a motion verb followed by a spatial preposition ) .	A-0
+OWN	We focus on the spatial and the temporal intrinsic semantic properties of the motion verbs , on the one hand , and of the spatial prepositions , on the other hand .	A-1
+AIM	Then we address the problem of combining these basic semantics in order to formally and automatically derive the spatiotemporal semantics of a motion complex from the spatiotemporal properties of its components .	A-2
+BKG	Most of natural languages provide two types of lexical items to describe the motion of an entity with respect to some location : motion verbs ( to run ; to enter ) and spatial prepositions ( from ; towards ) .	S-0
+BKG	Motion verbs can be used directly with a location , when they are transitive ( to cross the town ) or with a spatial preposition , when they are intransitive ( to go through the town ) .	S-1
+BKG	The latter case is more interesting : most of the French motion verbs are intransitive and the interaction between motion verbs and spatial prepositions gives detailed informations about the way human beeings mentally represent spatiotemporal aspects of a motion .	S-2
+BKG	When we describe a motion , the fact to choose a verb instead of another , a preposition instead of another , a syntactic structure instead of another , reveals our mental cognitive representation .	S-3
+OWN	We claim that natural languages can be considered as a trace of these representations , in which it is possible , with systematic and detailled linguistic studies , to light up the way spatiotemporal properties are represented and on which basic concepts these representations lie .	S-4
+AIM	We present such linguistic investigations on French motion verbs and spatial prepositions and the basic concepts we have found .	S-5
+OWN	We also address compositional semantics for motion complexes ( ie. a motion verb followed by a spatial preposition ) and show that the complexity and the refinements of the linguistic studies presented just before are justified and required at the compositional level in order to capture the different behaviours in the compositional processes that exist with the French language .	S-6
+OWN	We also compare with the English language and draw some conclusions on the benefits of our approach .	S-7
+BAS	Following,,, we approach motion verbs in terms of some `` localist semantical '' role labels .	S-8
+OTH	The linguistic study of French intransitive motion verbswe have realized has allowed the definition of an ontology for `` location '' in three basic concepts :	S-9
+OTH	locations which are concrete places ( a room ; a house ; a street ) ;	S-10
+OTH	positions which are parts of a location ( the position where I am in this room ) ;	S-11
+OTH	postures which are ways to be in a position ( to be standing , sitting , lying ) .	S-12
+BAS	With the help of this ontology we have realized a typology for intransitive motion verbs .	S-13
+OWN	We distinguish 4 categories on the basis of which kind of `` location '' they intrinsically refer to .	S-14
+OWN	Change of location ( CoL ) verbs ( entrer-to enter ; sortir-to go out ) denote a change of location .	S-15
+OWN	When we enter some place or go out of some place , we have different spatial relation with the location ( ie . inside / outside ) before and after the motion .	S-16
+OWN	Change of position verbs ( voyager-to travel ; courir-to run ) denote a change of position .	S-17
+OWN	When we travel or run , we go from some part to another part of a same global location .	S-18
+OWN	Such verbs do not behave all homogeneously .	S-19
+OWN	Some denote a change of position which always occur ( voyager-to travel ) .	S-20
+OWN	For example , we cannot say voyager sur place-to travel in place .	S-21
+OWN	We call these verbs change of position ( CoPs ) verbs .	S-22
+OWN	Others denote only possible change of position ( courir-to run ) .	S-23
+OWN	For example , we can say courir sur place-to run in place .	S-24
+OWN	We call these verbs inertial change of position ( ICoPs ) verbs .	S-25
+OWN	Change of posture ( CoPtu ) verbs ( s 'asseoir - to sit down ; se baisser-to bend down ) .	S-26
+OWN	They denote a change of the relations between the parts of an entity .	S-27
+OWN	For the following , we will focus on CoL verbs ( the Change of Location verbs ) , mainly because they are rich in spatiotemporal informations , but also because we have at disposal exhaustive lists of French CoL verbs .	S-28
+OWN	We have realized a systematic and fine linguistic study on these verbs , looking carefully at each of them , one by one ( and we have 440 CoL verbs in French ) , in order to extract their intrinsic spatiotemporal properties .	S-29
+OWN	These semantic properties can be characterized by a restructuration of the space induced by the so-called reference location ( lref ).	S-30
+OWN	This lref , implicitly suggested by each CoL verb , can be either the initial location ( as with partir-to leave ; sortir-to go out ) , or the path ( passer , traverser-to pass through ) or the final location ( arriver-to arrive ; entrer-to enter ) of the motion .	S-31
+OWN	Indeed , verbs like sortir intrinsically suggest a location of which we have gone out .	S-32
+OWN	This space , induced by the lref , is characterized by most of the authors in the literature by a two-part spatial system consisting in the inside and the outside of the lref .	S-33
+OWN	We propose to refine this structure with two new concepts , required to distinguish minimal pairs like sortir ( to go out ) / partir ( to leave ) , and entrer ( to enter ) / atterir ( to land ) .	S-34
+OWN	These concepts are :	S-35
+OWN	a limit of proximity distinguishing an outside of proximity from a far away outside ; indeed , if sortir simply requires to go out of the lref , partir in addition forces the mobile to go sufficiently far away from that lref .	S-36
+OWN	an external zone of contact required by verbs like atterir for which the final location is neither the lref ( in contrast with entrer ) or the outside ( or proximity outside ) of the lref ( in contrast with s 'approcher - to approach ) .	S-37
+OWN	We have so defined a structuration of the space based on 4 zones :	S-38
+OWN	the inside ;	S-39
+OWN	the external zone of contact ;	S-40
+OWN	the outside of proximity ;	S-41
+OWN	the far away outside .	S-42
+OTH	This structuration is close to the wayencode the space induced by the reference object introduced by a static spatial preposition .	S-43
+OWN	As we have come to these distinctions by examining different linguistic material , we conclude that language structures space in the same way whatever sort of lexical items ( motion verbs ( dynamic ) / ( static ) spatial prepositions ) we examine .	S-44
+OWN	This has allowed us to classify CoL verbs into 10 classes on the basis of which zones the mobile is inside , at the beginning and at the end of its motion .	S-45
+OWN	Note that all the geometrical possibilities are not lexicalized in French .	S-46
+OWN	We have followed the same approach with French spatial prepositions , but using a structuration of the space induced by the location introduced in the PP by the preposition , and not induced by the lref as for verbs .	S-47
+OWN	Following, we consider simple prepositions ( like in ) as well as prepositional phrases ( like in front of ) .	S-48
+OWN	We have classified 199 such French prepositions into 16 groups using in addition of our zones two other criteria :	S-49
+OWN	prepositions can be :	S-50
+OWN	positional ( like in )	S-51
+OWN	directional ( like into )	S-52
+OWN	directional prepositions can be :	S-53
+OWN	Initial ( like from )	S-54
+OWN	Medial ( like through )	S-55
+OWN	Final ( like to )	S-56
+OWN	depending if they focus on the initial location , on the path or on the final location of the motion .	S-57
+OWN	The linguistic studies , used for the typologies of CoL verbs and spatial prepositions , have been realized on verbs considered without any adjuncts , in their atemporal form and independently of any context , on the one hand , and on prepositions considered independently of any context , on the other .	S-58
+BAS	This methodology , discussed in, has allowed us to extract the intrinsic semantics of these lexical items .	S-59
+OTH	Since natural languages put together verbs and prepositions in a sentence , we have developped a formal calculus, based on these two typologies , which computes , in a compositional way , the spatiotemporal properties of a motion complex from the semantic properties of the verb and of the preposition .	S-60
+OTH	For reason of space we cannot detail our formalism here , but we intend to present it in the talk .	S-61
+OWN	The semantics of a motion complex is not the simple addition of the semantics of its constituents .	S-62
+OWN	On the contrary , it is the result of a complex interaction between these properties .	S-63
+OWN	It is often the case that from this interaction appear new properties that belong neither to the verb or the preposition .	S-64
+OWN	These new properties are only the result of the interaction of the verb with the preposition .	S-65
+OWN	Let us consider for example the following VP : sortir dans le jardin-to go out into the garden .	S-66
+OWN	The verb sortir-to go out implicitly suggests an initial location ; the preposition dans - ( which means in , but which is translated here by into ) is a positional preposition and , as so , only denotes the static spatial relation inside .	S-67
+OWN	The location le jardin-the garden is the final location of the motion .	S-68
+OWN	This final information was contained neither in the verb or in the preposition .	S-69
+OWN	This information is the result of the interaction of the verb sortir-to go out with the preposition dans-in / into .	S-70
+OWN	Note that the combination for such items does not behave the same in English , where the final information is explicitly brought by the preposition into , which is a directional preposition , and where this particular combination does not create new information .	S-71
+OWN	This shows the neccesity to take into account such language specific behaviour in natural languages understanding systems and in natural languages machine translation .	S-72
+OWN	We formalize with 11 axioms in a non-monotonic first order logic the behaviour of all possible kinds of verb-preposition association for the French language .	S-73
+OWN	We use non-monotonic logic in order to represent defeasible or generic rules and also in order to encode defaults about lexical entries .	S-74
+OWN	These axioms are based on the lexical semantics of CoL verbs and of spatial prepositions .	S-75
+OWN	They also take into account the syntactic structure of the sentence ( we have supposed an X-bar syntax with a VP internal subject , though this is not essential ) and the links which exist at the level of discours between this sentence and the previous and following sentences of the text .	S-76
+OWN	These links , called discourse relations , are basic concepts on which texts are structured.	S-77
+AIM	The study and the first results we have here presented cover from lexical semantics to discourse structures , with strong interactions between these two ends .	S-78
+OWN	Indeed , lexical informations can be used to disambiguate the structure of the discours , as well as discourse relations can be used to disambiguate lexical entries , as shown in.	S-79
+OWN	Our work is based on systematic and very detailed linguistic studies which lead to rather complex computations for calculating the spatiotemporal semantics of a motion complex .	S-80
+OWN	But we have seen that this level of detail and complexity is necessary if one want to understand , to formalize and to compute a right spatiotemporal semantics for motion complexes .	S-81
+OWN	We continue our investigations on two directions :	S-82
+OWN	we compare our results with similar works in course of realization on the Basquian language ( by) and on the Japanese language ( by) ;	S-83
+OWN	we use the results presented here for refining the notions of the Aktionsart , where the structuration of the space in 4 zones can be used to distinguish sub-classes inside the traditional well known classes of aspectual studies .	S-84

@@ -1,0 +1,330 @@
+AIM	In this paper I report on an investigation into the problem of assigning tones to pitch contours .	A-0
+OWN	The proposed model is intended to serve as a tool for phonologists working on instrumentally obtained pitch data from tone languages .	A-1
+OWN	Motivation and exemplification for the model is provided by data taken from my fieldwork on Bamileke Dschang ( Cameroon ) .	A-2
+BAS	Following recent work byand others , I provide a parametrised Fprediction functionwhich generates Fvalues from a tone sequence , and I explore the asymptotic behaviour of downstep .	A-3
+OWN	Next , I observe that transcribing a sequence X of pitch ( i.e. F) values amounts to finding a tone sequence T such that.	A-4
+OWN	This is a combinatorial optimisation problem , for which two non-deterministic search techniques are provided : a genetic algorithm and a simulated annealing algorithm .	A-5
+OWN	Finally , two implementations -- one for each technique -- are described and then compared using both artificial and real data for sequences of up to 20 tones .	A-6
+OWN	These programs can be adapted to other tone languages by adjusting the Fprediction function .	A-7
+BKG	The wealth of literature on tone and intonation has amply demonstrated that voice pitch ( F) in speech is under independent linguistic control .	S-0
+BKG	In English , voice pitch alone can signal the distinction between a statement and a question .	S-1
+BKG	Similarly , in many tone languages , voice pitch alone signals the tense of a verb .	S-2
+OTH	Phonologists usually describe a pitch contour much as they describe speech more generally , namely as a sequence of discrete units ( i.e. a transcription ) .	S-3
+OTH	This is illustrated in Figure, where L indicates a low tone andH indicates a downstepped high tone .	S-4
+AIM	The question addressed in this paper concerns how we should relate pitch contours to tone sequences .	S-5
+TXT	This paper is divided into four main sections , summarised in turn below .	S-6
+OWN	Tone Transcription	S-7
+TXT	In this section I present the problem of relating sequences of Fvalues to tone transcriptions .	S-8
+CTR	I argue that Hidden Markov Models are unsuited to the task and I demonstrate the importance of having a computational tool which allows phonologists to experiment with Fscaling parameters .	S-9
+OWN	FScaling	S-10
+TXT	This section gives a mathematical basis for a general approach to Fscaling which , it is hoped , will be applicable to any tone language .	S-11
+OWN	I derive an Fprediction function from first principles and show how the model offor the Nigerian language Igbo is a special case .	S-12
+OWN	Tone and Fin Bamileke Dschang	S-13
+TXT	Here I present some data from my own fieldwork and give a statistical analysis , using the same technique used by.	S-14
+TXT	I then show how the general model of the previous section is instantiated for this language .	S-15
+OWN	This demonstrates the versatility of the general model , since it can be applied to two very different tone languages .	S-16
+OWN	Implementations	S-17
+TXT	This section provides two non-deterministic techniques for transcribing an Fstring .	S-18
+OWN	The first method uses a genetic algorithm while the second method uses simulated annealing .	S-19
+OWN	The performance of both implementations is evaluated and compared on a range of artificial and real data .	S-20
+TXT	Finally , I give some examples of multiple , automatically-generated transcriptions of the same Fdata .	S-21
+BKG	A promising way of generating contours from tone sequences is to specify one or more pitch targets per tone and then to interpolate between the targets ; the task then becomes one of providing a suitable sequence of targets.	S-22
+BKG	It is perhaps less clear how we should go about recognising tone sequences from pitch contours .	S-23
+CTR	Hidden Markov Models ( HMMs )offer a powerful statistical approach to this problem , though it is unclear how they could be used to recognise the units of interest to phonologists .	S-24
+CTR	HMMs do not encode timing information in a way that would allow them to output , say , one tone per syllable ( or vowel ) .	S-25
+CTR	Moreover , the same section of a pitch contour may correspond to either H or L tones .	S-26
+CTR	For example , a H between two Hs looks just like an L between two Ls .	S-27
+CTR	There is no principled upper bound on the amount of context that needs to be inspected in order to resolve the ambiguity , leading to a multiplication of state information required by the HMM and problems for training it .	S-28
+AIM	In the present context , the emphasis is not on automatic speech recognition but on a tool to support phonologists working with tone .	S-29
+OWN	As we shall see in the next section , once the phonologist has identified the salient location to measure the ` Fvalue ' of a syllable ( or some other phonological unit ) , the task will be to automatically map a string of these values to a string of tones .	S-30
+OTH	have devised a set of heuristics for identifying key points in an Fcontour to record Fvalues, 21 ff .	S-31
+OTH	In the absence of a program which enshrines these heuristics , it was decided to develop a system for producing a tone transcription from a sequence of Fvalues .	S-32
+OTH	Apart from the obvious benefits of automating the process , such as speed and accuracy , it could show up cases where there is more than one possible tone transcription , possibly with different parameter settings for the Fscaling function .	S-33
+OTH	Having the set of tone transcriptions that are compatible with an utterance has considerable value to an analyst searching for invariances in the tonal assignments to individual morphemes .	S-34
+BKG	To exemplify this point , it is worth considering a recent example where an alternative transcription of some data proved valuable in providing a fresh analysis of the data .	S-35
+OTH	In their analyses of tone in Bamileke Dschang ,gives the transcription inwhilegives the one in, for the phrase meaning machete of dogs .	S-36
+OWN	These two possibilities exist because of different Fscaling parameters .	S-37
+OWN	These parameters determine the way in which the different tones are scaled relative to each other and to the speaker 's pitch range .	S-38
+OWN	This is illustrated in, adapting's earlier notation.	S-39
+OWN	Exampledisplays a kind of phonetic interpretation function .	S-40
+OWN	Immediately below the two rows of tones we see a row of numbers corresponding to the tones .	S-41
+OTH	For, L = 3 and H = 1 , while for, L = 2 and H = 1 .	S-42
+OTH	Observe in's example that a rising tone -- symbolised by a wedge above the i -- is modelled as an LH sequence in keeping with standard practice in African tone analysis .	S-43
+OWN	The second row of numbers corresponds to downstep () and upstep () .	S-44
+OTH	For's model , this row begins at 0 and is increased by 1 for each downstep encountered .	S-45
+OTH	For's model , this row begins at 1 and is increased by 1 for each downstep encountered and decreased by 1 for each upstep encountered .	S-46
+OWN	The two rows are summed vertically to give the last row of numbers .	S-47
+OWN	Observe that the last rows of's and's models are identical .	S-48
+OWN	The parameter which distinguishes the two approaches is partial vs. total downstep .	S-49
+OTH	treats Dschang as a partial downstep language , i.e. whereH appears as a mid tone ( with respect to the material to its left ) .	S-50
+OTH	treats it as a total downstep language , i.e. whereH appears as an L tone ( with respect to the material to its left ) .	S-51
+OTH	Whileandpresent rather different analyses of rather different looking transcriptions , we can see that they are really analyzing the same data , given the above interpretation function .	S-52
+CTR	Therefore , phonologists who do not wish to limit themselves to the transcriptions which result from certain parameter settings in the phonetic interpretation function would be better off working directly with number sequences like the last row in.	S-53
+AIM	This paper describes a tool which lets them do just that .	S-54
+OWN	Consider again the Fcontour in Figure.	S-55
+OWN	In particular , note that the Fdecay seems to be to a non-zero asymptote , and that H and L appear to have different asymptotes which we symbolise as h and l respectively .	S-56
+OWN	These observations are clearer in Figure, which ( roughly speaking ) displays the peaks and valleys from Figure.	S-57
+OWN	Although this is admittedly a rather artificial example , it remains true that there is no principled upper limit on the number of downsteps that can occur in an utterance, 540 , and so the asymptotic behaviour of Fscaling still needs to be addressed .	S-58
+OWN	Now suppose that we have a sequence T of tones whereis the ith tone ( H or L ) and a sequence X of Fvalues whereis the Fvalue corresponding to.	S-59
+OWN	Then we would like a formula which predictsgiven,and( i > 1 ) .	S-60
+OWN	We express this as follows :	S-61
+OWN	The question , now , is what should this function look like ?	S-62
+OWN	Suppose for sake of argument that the ratio of L to the immediately preceding H in Figureis constant , with respect to the baselines for H and L , namely h and l .	S-63
+OWN	Then we have :	S-64
+OWN	More generally , suppose that we have a sequence of two arbitrary tones .	S-65
+OWN	Ignoring the possibility of downstep for the present , we have a static two-tone system where HH and LL sequences are level and sequences like HLHLHL are realised as simple oscillation between two pitches .	S-66
+OWN	We can write the following formula , whereifandif.	S-67
+OWN	The situation becomes more interesting when we allow for downdrift and downstep .	S-68
+BKG	Downdrift is the automatic lowering of the second of two H tones when an L intervenes , so HLH is realised asrather than as, while downstep is the lowering of the second of two tones when an intervening L is lost , so HH is realised as.	S-69
+BKG	Bamileke Dschang has downstep but not downdrift while Igbo has downdrift but only very limited downstep .	S-70
+OWN	Now we defineifH ,H andifL ,L .	S-71
+OWN	Generalising our equation once more , we have the following , where R is a factor called the transition ratio .	S-72
+BAS	Now I shall show how this general equation relates to the equations for Igbo, reproduced below :	S-73
+OTH	can be instantiated to the set of equations inby setting R as follows :	S-74
+OWN	It will be helpful to introduce one more level of generality .	S-75
+OWN	relates adjacent Fvalues , but we would also like to relate non-adjacent values , given the sequence of intervening tones .	S-76
+OWN	Suppose thatis a tone sequence where the Fvalue ofis x .	S-77
+OWN	Then we shall write the Fvalue ofas.	S-78
+OWN	By repeated applications ofwe can write down the following expression for:	S-79
+OWN	where, n  >  2 .	S-80
+OWN	Now , suppose thatandare tone sequences and that,and.	S-81
+OWN	Then it is straightforward to show that.	S-82
+OWN	Notice also that iffor all x and ifthen.	S-83
+OWN	These results will be useful in the next section .	S-84
+OWN	Finally , it is worth comparingwith's and's interpretation functions which were illustrated in.	S-85
+OTH	As pointed out already ,'s is a partial downstep model while's is a total downstep model .	S-86
+OWN	Partial and total downstep can be visualised as follows , where the dotted lines indicate the abstract register inside which tones are scaled , and where downstep corresponds to lowering of the register .	S-87
+OWN	Observe that for partial downstep , it is necessary to have two downsteps before a high tone is at the level of a preceding low , while for total downstep , it is only necessary to have a single downstep for a high tone to be at the same level as the preceding low .	S-88
+OWN	We can express these observations about partial and total downstep in the model as follows .	S-89
+OWN	For partial downstep , we havewhile for total downstep we have.	S-90
+OWN	For both of these equations we are forced to have h = l which does not seem to be empirically justifiable in view of the data in Figure.	S-91
+OWN	It might be argued that this indicates a flaw in the model being presented here , since partial and total downstep are widely attested in the literature on tone languages .	S-92
+OWN	Unfortunately , it is not possible in general to provide a model for partial or total downstep which permits distinct asymptotes for H and L .	S-93
+OWN	Therefore , to the extent that Figureis typical of tone languages in having different H and L asymptotes , one must conclude that total and partial downstep are qualitative terms only .	S-94
+OWN	However , they may yet re-emerge in the model under a different guise , as we shall see later .	S-95
+OWN	The effect of the distinction between partial and total downstep is to allow different transcriptions of the same string , as we saw in.	S-96
+OWN	In general , we have the following mapping between transcriptions under the two views of downstep :	S-97
+OWN	It is clear that changing from one view of downstep to the other amounts to adding and deletingandwhile leaving the tones themselves unchanged .	S-98
+OWN	Thus , the model admits both transcription schemes that result from the two views of downstep , and another besides , as shown later in.	S-99
+TXT	This concludes the discussion of the Fprediction function .	S-100
+TXT	In the next section I shall investigate the phonetic interpretation of tone in Bamileke Dschang , and determine the values of R for this language .	S-101
+OWN	In a recent field trip to Western Cameroon to study the Bamileke Dschang noun associative construction , I was able to collect a small amount of data relating to Fscaling throughout a particular informant 's pitch range .	S-102
+BAS	Following, voice pitch was varied by getting the informant to speak at different volumes and by adjusting the recording level appropriately .	S-103
+OWN	However , rather than asking the informant to imagine speaking to a subject at different distances , I controlled the volume by having the informant wear headphones and played white noise from a detuned radio .	S-104
+OWN	Thus , I could set the informant 's voice pitch by using the volume control on my radio .	S-105
+OWN	My hypothesis is that this technique produces more consistent volume ( and hence , pitch scaling ) over long utterances and may make informants less self-conscious about speaking loudly than simply asking them to imagine speaking to subjects at various distances away .	S-106
+OWN	Measurements were taken from the following data .	S-107
+OWN	Regrettably , the LL data was only available from isolated disyllables , and other sequences such as LH and HH were not available at all .	S-108
+OWN	However , from the Fdata for the above utterances we can hypothesise the behaviour of these unseen sequences , and this can be tested in subsequent empirical work .	S-109
+OWN	The results for utterances involving HH and LL sequences are displayed in Figure, while results for LH and HL are displayed in Figure.	S-110
+OWN	The regression equations obtained from these data are displayed in, where the number of occurrences of each tone sequence is given in parentheses after the sequence .	S-111
+OWN	The third column gives the standard error for the gradient and intercept .	S-112
+OWN	From this , we conclude that HL is the only sequence with an intercept significantly different from zero , and thatfor HH and LL sequences .	S-113
+OWN	We also conclude that, ( l / h = 1.1 ) and.	S-114
+OWN	This last value will be referred to as the quantity d .	S-115
+OWN	We also see that l = 88 Hz and h = 96 Hz .	S-116
+OWN	Fortunately , these figures are sufficient to determine the R values for all other pairs of tones in Bamileke Dschang .	S-117
+BKG	A further observation is that Bamileke Dschang does not have downdrift , and so there is no Fdifference across HLH and LHL sequences .	S-118
+OWN	This is evident in Figure.	S-119
+OWN	Therefore , we can write, and by a result we showed above ,.	S-120
+OWN	Given thatit follows that.	S-121
+OWN	Concerning downstep , I shall assume that the magnitude of downstep is independent of the tones on either side , and so.	S-122
+OWN	A separate instrumental study supports this hypothesis.	S-123
+OWN	Therefore , we have, where s is any tone and t is H or L .	S-124
+OTH	Finally , it is important to briefly consider upstep , since it has been used in some analyses of Bamileke Dschang ( e.g.'s ) .	S-125
+OWN	Given that upstep and downstep are intended as inverses of each other , we have the identities, with s , t as before .	S-126
+OWN	We now have a complete table for R :	S-127
+OWN	Observe the symmetries in this table .	S-128
+OWN	The configuration of four R values that we find whenis not downstepped or upstepped ( the first two columns ) is reproduced in the columns for downstep ( multiplied by d ) and in the columns for upstep ( divided by d ) .	S-129
+OWN	Note also that the above table is dependent upon how the data inwas transcribed .	S-130
+OWN	Suppose that we had not used repetitions of HLH ( a transcription scheme based on partial downstep ) but HLH ( a scheme based on total downstep ) .	S-131
+OWN	Then we would have hadand.	S-132
+OWN	Accordingly , the table for R would be as follows :	S-133
+OWN	The fact that we have two possible tables for R is no cause for alarm .	S-134
+OWN	Recall that the transition between two tonesandalso involves the factor.	S-135
+OWN	This factor is manifested in tone transitions according to the following pattern :	S-136
+OWN	I therefore conclude that the presence of more than one table for R indicates an interplay between R values and the ratio h / l .	S-137
+OWN	This raises an interesting question .	S-138
+OWN	Suppose we have two tone sequencesand, and two interpretation functionsandbased on R and R ' respectively .	S-139
+OWN	Then under what circumstances is the phonetic interpretation of both sequences the same under their respective interpretation functions ?	S-140
+OWN	A sufficient condition for them to be the same is thatand that.	S-141
+OWN	The reader can check that these conditions are met by the mapping inand the two tables for R given above .	S-142
+OWN	Note that this observation holds for the model in general , not just for the specialised version of the model as applied to Bamileke Dschang .	S-143
+OWN	It can also be shown that R is completely determined onceis specified .	S-144
+OWN	A possible characterisation of total vs. partial downstep now arises : ifthen we have total downstep , but ifthen we have partial downstep .	S-145
+OWN	However , the interpretation of these terms must necessarily be different from the standard interpretation , since I have shown that the standard interpretation is not compatible with the present model .	S-146
+TXT	This concludes the discussion of Fscaling in Bamileke Dschang .	S-147
+TXT	I shall now present the implementations .	S-148
+TXT	In this section , I show how it is possible to get two programs to produce a sequence of tones T ( i.e. a tone transcription ) given a sequence of n Fvalues X .	S-149
+OWN	The programs make crucial use of the prediction functionin evaluating candidate tone transcriptions .	S-150
+OWN	Both programs involve search , and in general , the aim in searching is to discover the values forso as to optimise the value of a specified evaluation function.	S-151
+OWN	When f has many local optima , deterministic methods such as hill-climbing perform poorly .	S-152
+OWN	This is because they terminate in a local optimum and the particular one found depends heavily on the starting point in the search , and there is usually no way of choosing a good starting point .	S-153
+OWN	Exhaustive search for the global optimum is not an option when the search space is prohibitively large .	S-154
+OWN	In the present context , say for a sequence of 20 tones , the search space containspossible tone transcriptions , and for each of these there are thousands of possible parameter settings , too large a search space for exhaustive search in a reasonable amount of computation time .	S-155
+BKG	Non-deterministic search methods have been devised as a way of tackling large-scale combinatorial optimisation problems , problems that involve finding optima of functions of discrete variables .	S-156
+BKG	These methods are only designed to yield an approximate solution , but they do so in a reasonable amount of computation time .	S-157
+OTH	The best known such methods are genetic searchand annealing search.	S-158
+OTH	Recently , annealing search has been successfully applied to the learning of phonological constraints expressed as finite-state automata.	S-159
+BAS	In the following sections I describe a genetic algorithm and an annealing algorithm for the tone transcription problem .	S-160
+BAS	For a cogent introduction to genetic search and an explanation of why it works , the reader is referred to.	S-161
+TXT	Before presenting the version of the algorithm used in the implementation , I shall informally define the key data types it uses along with the standard operations on those types .	S-162
+OTH	gene	S-163
+OTH	A linear encoding of a solution .	S-164
+OTH	In the present setting , it is an array of n tones , where each tone is one of H ,H ,H , L ,L orL .	S-165
+OTH	A gene also contains 16 bit encodings of the parameters h , l and d .	S-166
+OTH	These encodings were scaled to be floating point numbers in the range [ 90,110 ] for h , [ 70,100 ] for l and [ 0.6,0.9 ] for d .	S-167
+OTH	gene pool	S-168
+OTH	An array of genes , P .	S-169
+OTH	One of the search parameters is the size of P , known as the population .	S-170
+OTH	The gene pool is renewed each generation , and the number of generations is another search parameter .	S-171
+OTH	evaluation	S-172
+OTH	A measure of the fitness of a gene as a solution to the problem .	S-173
+OTH	Suppose that X is the sequence of Fvalues we wish to transcribe .	S-174
+OTH	Suppose also that T is a particular gene .	S-175
+OTH	The the evaluation function is as follows :	S-176
+OTH	crossover	S-177
+OTH	This is an operation which takes two genes and produces a single gene as the result .	S-178
+OTH	Suppose thatand.	S-179
+OTH	Then the crossover functionis defined as follows , where r is the ( randomly selected ) crossover point () .	S-180
+OTH	In other words , the genes A and B are cut at a position determined by r and the first part of A is spliced with the second part of B to create a new gene .	S-181
+OTH	Crossover builds in the idea that good genes tend to produce good offspring .	S-182
+OTH	To see why this is so , suppose that the transcription contained in the first part of A is relatively good while the rest is poor , while the transcription contained in the first part of B is poor and the rest is relatively good .	S-183
+OTH	Then the offspring containing the first part of A and the second part of B will be an improvement on both A and B ; other possible offspring from A and B will be significantly worse and may not survive to the next generation .	S-184
+OTH	The program performs this kind of crossover for the parameters h , l and d , employing independent crossover points for each , and randomising the argument order inso that the high order bits in the offspring are equally likely to come from either parent .	S-185
+OTH	An extension to crossover allows more than one crossing point .	S-186
+OTH	The current model permits an arbitrary number of crossing points for crossover on the transcription string .	S-187
+OTH	The resulting gene is optimal since we choose the crossing points in such a way as to minimiseat each position .	S-188
+OTH	In developing the system , exploiting the decomposability of the evaluation function in this way caused a significant improvement in system performance over the version which used simple crossover .	S-189
+OTH	breeding	S-190
+OTH	For each generation , we create a new gene pool from the previous one .	S-191
+OTH	Each new gene is created by mating the best of three randomly chosen genes with the best of three other randomly chosen genes .	S-192
+OTH	mutation	S-193
+OTH	In order to maintain some genetic diversity and an element of randomness throughout the search ( rather than just in the initial configuration ) , a further operation is applied to each gene in every generation .	S-194
+OTH	With a certain probability ( known as the mutation probability ) , for each gene T and each tone in T , the tone is randomly set to any of the six possible tones .	S-195
+OTH	Likewise , the parameter encodings are mutated .	S-196
+OTH	The mutation rate is set to 0.005 but raised to 0.5 for a single generation if the evaluation of the best gene is no improvement on the evaluation of the best gene ten generations earlier .	S-197
+OTH	The best gene is never mutated .	S-198
+OTH	The building blocks of genetic search discussed above are structured into the following algorithm , expressed in pseudo-Pascal :	S-199
+OTH	The main loop is executed for each generation .	S-200
+OTH	Each time through this loop , the program checks performance over the last ten generations and if performance has been good , the mutation rate stays low , otherwise it is changed to high .	S-201
+OTH	Then it copies the best gene to the new pool .	S-202
+OTH	Now we reach the inner loop , which selects two genes , performs crossover , and mutates the result .	S-203
+OTH	Next , the current pool is updated , an evaluation is performed , and the program continues with the next generation .	S-204
+OTH	Once all the generations have been completed , the program displays the best gene from the final population and terminates .	S-205
+OTH	As with genetic algorithms , simulated annealingis a combinatorial optimisation technique based on an analogy with a natural process .	S-206
+OTH	Annealing is the heating and slow cooling of a solid which allows the formation of regular crystalline structure having a minimum of excess energy .	S-207
+OTH	In its early stages when the temperature is high , annealing search resembles random search .	S-208
+OTH	There is so much free energy in the system that a transition to a higher energy state is highly probable .	S-209
+OTH	As the temperature decreases the search begins to resemble hill-climbing .	S-210
+OTH	Now there is much less free energy and so transitions to higher energy states are less and less likely .	S-211
+TXT	In what follows , I explain some of the parameters of annealing search as used in the current implementation .	S-212
+OTH	temperature	S-213
+OTH	At the start of the search the temperature , t is set to 1 .	S-214
+OTH	During the search , the temperature is reduced at a rate set by the ` cooling rate ' parameter , until it reaches a value less than.	S-215
+OTH	perturbation	S-216
+OTH	At each step of the search , the current state is perturbed by an amount which depends on the temperature .	S-217
+OTH	The temperature determines the fraction of the search space that is covered by a single perturbation step .	S-218
+OTH	For a tone sequence of length n , we randomly reset the worst n .	S-219
+OTH	t tones according to.	S-220
+OTH	For the parameters we proceed as follows , here exemplified for h .	S-221
+OTH	First , set.	S-222
+OTH	Now , add to h a random number in the rangeand check that the result is still in the range.	S-223
+OTH	equilibrium	S-224
+OTH	At each temperature , the system is required to reach ` thermal equilibrium ' before the temperature is lowered .	S-225
+OTH	In the present context , equilibrium is reached if no more than one of the last eight perturbations yielded a new state that was accepted .	S-226
+OTH	free energy function	S-227
+OTH	This is the amount of available energy for transitions to higher energy states .	S-228
+OTH	In the current system , it is the distribution - 1000.t.log ( p ) , where p is a uniform random variable in the range ( 0,1 ] .	S-229
+OTH	If the energy differencebetween an old and a new state is less than the available energy , then the transition is accepted .	S-230
+OTH	The factor of 1000 is intended to scale the energy distribution to typical values of the evaluation function .	S-231
+OTH	Now the algorithm itself is presented :	S-232
+OTH	The program is made up of two loops .	S-233
+OTH	The outer loop simply iterates through the temperature range , beginning with a temperature of 1 and steadily decreasing it until it gets very close to zero .	S-234
+OTH	The nested loop performs the task of reaching thermal equilibrium at each temperature .	S-235
+OTH	The first step is to perturb the previous transcription to make a new one .	S-236
+OTH	Notice that the temperature t is a parameter of the perturb function .	S-237
+OTH	Next , the differencebetween the old and new evaluations is calculated .	S-238
+OTH	If the new transcription has a better evaluation than the old one , thenis negative .	S-239
+OTH	Next , the program accepts the new transcription if	S-240
+OTH	is negative or	S-241
+OTH	is positive and there is sufficient free energy in the system to allow the worse transcription to be accepted .	S-242
+OTH	Finally , we check if the new transcription is better than the best transcription found so far ( BestTrans ) and if so , we set BestTrans to be the new transcription .	S-243
+OTH	Once equilibrium is reached , the current transcription is set to be the best transcription found so far , and the search continues .	S-244
+OWN	Both the genetic and annealing search algorithms have been implemented in C++ .	S-245
+TXT	In this section , the performance of the two implementations is compared .	S-246
+OWN	Performance statistics are based on 1,200 executions of each program .	S-247
+OWN	Search parameters were set so that each execution took around 5 seconds on a Sun Sparc 10 .	S-248
+OWN	Three performance trials were undertaken .	S-249
+OWN	In the first trial , both programs generated random sequences of tones , then computed the corresponding Fsequence using, then set about transcribing the Fsequence .	S-250
+OWN	Since these sequences were ideal , the best possible evaluation for a transcription was zero .	S-251
+OWN	The performance of the programs could then be measured to see how close they came to finding the optimal solution .	S-252
+OWN	Each program was tested on Fsequences of length 5 , 10 , 15 and 20 .	S-253
+OWN	For each length , each program transcribed 100 randomly-generated sequences .	S-254
+OWN	The results are displayed in Figure.	S-255
+OWN	Each pair of bars corresponds to a given transcription length .	S-256
+OWN	The left member of each pair is for the genetic search program , while the right member is for the annealing search program .	S-257
+OWN	The heavily shaded bars corresponding to evaluations less than 1 are the most important .	S-258
+OWN	These indicate the number of times out of 100 that the programs found a transcription with an evaluation less than 1 .	S-259
+OWN	This evaluation means that the average of the squared difference between the predicted Fvalues and the actual Fvalues was less than 1 Hz. Observe that the annealing search program performs significantly better in all cases .	S-260
+OWN	Note that the mutation operation in the genetic search program treats each bit in the parameter encodings equally , while the perturbation operation in the annealing search program is sensitive to the distinction between more significant vs. less significant bits .	S-261
+OWN	This may explain the better convergence behaviour of the annealing search .	S-262
+OWN	Notice also in Figurethat performance does not degrade with transcription length as the length doubles from 10 to 20 .	S-263
+OWN	This is probably because a randomly generated sequence will contain downsteps on every second tone ( on average ) causing a general downtrend in the Fvalues and severely limiting the combinatorial explosion of possible transcriptions .	S-264
+OWN	Trial 2 was the same as trial 1 except that this time upstep was permitted as well .	S-265
+OWN	The results are displayed in Figure.	S-266
+OWN	Again the annealing program fares better than the genetic program .	S-267
+OWN	Consider again the bars corresponding to evaluations less than 1 .	S-268
+OWN	For both programs , however , observe that the performance degrades more uniformly than in trial 1 , probably because the inclusion of upstep greatly increases the number of possible transcriptions ( and hence , the number of local optima ) .	S-269
+OWN	The final trial involved real data , including data from the utterance given in Figure.	S-270
+OWN	This trial involved four subtrials .	S-271
+OWN	The first and second had Fsequences of length 10 , while the third and fourth had length 18 and 19 .	S-272
+OWN	The first and second sequences were taken by extracting the initial 10 Fvalues from the third and fourth sequences , thereby avoiding the asymptotic behaviour of the longer sequences .	S-273
+OWN	The data is tabulated below , and it comes from the sentences in.	S-274
+OWN	Performance results are given in Figure.	S-275
+OWN	Notice that the interpretation of the shading in this figure is different from that in previous figures .	S-276
+OWN	This is because evaluations near zero were less likely with real data .	S-277
+OWN	In fact , the annealing program never found an evaluation less than 3 while the genetic program never found an evaluation less than 4 .	S-278
+OWN	Since the programs performed about equally on finding transcriptions with an evaluation less than 7 , I shall display these transcriptions along with an indication of how many times each program found the transcription ( G = genetic , A = annealing ) .	S-279
+OWN	I give transcriptions which occurred at least twice in one of the programs , during 100 executions of each .	S-280
+OWN	The results from trial 1 deserve special attention .	S-281
+OWN	In trial 1 , three transcriptions were found by both programs .	S-282
+OWN	The best evaluations found are given below :	S-283
+OWN	It is striking to note that the first two transcriptions above are whatand( respectively ) would have given as transcriptions for the abstract Fsequence 1 3 2 4 3 5 4 6 5 7 .	S-284
+OWN	This is demonstrated in.	S-285
+OWN	The third transcription points to another possibility , given in.	S-286
+OWN	Therefore , there are encouraging signs that the program is living up to its promise of producing alternative , equally acceptable transcriptions , as desired from an analytical standpoint .	S-287
+OWN	Although we have seen more than one transcription for a given Fsequence , it is inconvenient to be required to run the programs several times in order to see if more than one solution can be found .	S-288
+OWN	Furthermore , the programs are designed not to get caught in local optima , which is a problem since interesting alternative transcriptions may actually be local optima .	S-289
+OWN	Therefore , both programs are set up to report the k best solutions , where the user specifies the number of solutions desired .	S-290
+OWN	The program ensures that the same area of the search space is not re-explored by subsequent searches .	S-291
+OWN	This is done by defining a distance metric on transcriptions which counts the number of tones in one transcription that have to be changed in order to make it identical to the other transcription .	S-292
+OWN	That part of the search space within a distance of n / 3 from any previously found solution is not explored again .	S-293
+OWN	The programs give up before finding k solutions if 5 randomly generated transcriptions all fall within distance n / 3 of previous solutions .	S-294
+OWN	Now , consider the following randomly generated sequence of tones :	S-295
+OWN	The annealing program was set the task of finding ten transcriptions of this tone sequence .	S-296
+OWN	The program was run only twice , and it reported the following solutions with evaluations less than or equal to 1 .	S-297
+OWN	Both runnings of the program found the same solutions , and in the same order .	S-298
+OWN	( Note that two transcriptions are taken to be the same if one or both begin with an initial upstep or downstep ; this has no effect on the phonetic interpretation ) .	S-299
+OWN	In the following displays , the predicted Fvalues are given below each solution to facilitate comparison with the input sequence .	S-300
+OWN	Since all executions to this point have been based on the first table of R values , it was decided to try a test with the second table of R values to see if the performance was different .	S-301
+OWN	Interestingly , the third solution in both of the above executions was not found , though two new solutions were found .	S-302
+OWN	Observe that the value of d in the above solutions clusters around 0.66 and 0.87 .	S-303
+OWN	Similar clustering may be occurring with the ratio h/l .	S-304
+OWN	However , an analysis of the relationship between the kinds of solutions found , the two R tables and the parameter values h , l and d has not been attempted .	S-305
+OWN	It is rather unsatisfying that the performance of the two programs is heavily dependent on the setting of several search parameters , and it seems to be a combinatorial optimisation problem in itself to find good parameter settings .	S-306
+OWN	My trial-and-error approach will not necessarily have found optimal parameter values , and so it would be premature to conclude from the performance comparison that annealing search is better than genetic search for the problem of tone transcription .	S-307
+OWN	A more thoroughgoing comparison of these two approaches to the problem needs to be undertaken .	S-308
+OWN	Since the parameters are continuous variables , and since the evaluation function -- which we could write as-- is a smoothly continuous function in h , l , d , it would be worthwhile to try other ( deterministic ) search methods for optimising h , l and d , once a candidate tone transcription T has been found .	S-309
+OWN	Finally , it would be interesting to integrate a system like either of the ones presented here into a speech workstation .	S-310
+OWN	As the phonologist identifies salient points with a cursor the system would do the transcription , incrementally and interactively .	S-311
+AIM	This paper began with a discussion of the problem of relating tone transcriptions to their physical counterparts , namely Ftraces .	S-312
+OWN	I showed that it is desirable for phonologists working on tone to use sequences of Fvalues as their primary data , rather than impressionistic transcriptions which make ( usually implicit ) assumptions about Fscaling .	S-313
+OWN	I provided an Fprediction functionwhich estimated the Fvalue of a tone , given the Fvalue of the previous tone and the identities of the two tones .	S-314
+OWN	I presented instrumental data from Bamileke Dschang and showed how the function could be specialised for this language .	S-315
+OWN	The function was then incorporated into the evaluation functions of two implemented non-deterministic search algorithms .	S-316
+OWN	The performance results were encouraging and demonstrate the promise of automated tone transcription .	S-317
+OWN	This research is funded by the UK Economic and Social Research Council , under grant R00023 4439 A Computational Model for the Phonology-Phonetics Interface in Tone Languages .	S-318
+OWN	I am indebted to SIL Cameroon for their logistical support on my field trip in September and October of 1993 , during which the data presented in the paper ( and much other data besides ) was gathered , and especially to Nancy Haynes , Gretchen Harro for helping me collect the data and Jean-Claude Gnintedem who endured many recording sessions .	S-319
+OWN	I am grateful to John Coleman , Michael Gasser and Marie South for helpful comments on an earlier version of this paper .	S-320
+OWN	The Fdata was extracted using the ESPS Waves + package in the Edinburgh University Phonetics Laboratory .	S-321

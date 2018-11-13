@@ -105,7 +105,7 @@ $ <b> python summary.py tagged/9405001.az-scixml </b>
 
 <pre>
 To Train, Test and get accuracy of the classification of sentences
-$ <b> python naive_bayes.py </b>
+$ <b> python src/naive_bayes.py </b>
 </pre>
 
 <pre>

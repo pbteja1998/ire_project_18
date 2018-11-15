@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT --chdir src app:app
+web: python src/app.py

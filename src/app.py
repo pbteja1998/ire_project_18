@@ -10,7 +10,11 @@ app = Flask(__name__)
 gnb = None
 
 @app.route('/')
-def index():
+def index():    
+    return 'Index Page'
+
+@app.route('/summary/<path:subpath>')
+def get_summary(subpath):
     path_to_app_dir = '/'.join(__file__.split("/")[:-1])
     if path_to_app_dir:
         os.chdir(path_to_app_dir)
@@ -19,11 +23,6 @@ def index():
     with open('gnb.pkl', 'rb') as fd:
         gnb = pickle.load(fd)
     print "Completed Loading Guassian Naive Bayes Model"
-    return 'Index Page'
-
-@app.route('/summary/<path:subpath>')
-def get_summary(subpath):
-    global gnb
     subpath = '../data/tagged/' + subpath
     return gnb.getSummary(subpath)
 

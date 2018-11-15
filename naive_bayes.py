@@ -167,8 +167,8 @@ class NaiveBayes:
 
 if __name__ == '__main__':    
     Feature_vector = Features()
-    folder = "../data/annotated_output"
-    xmlfolder = "../data/tagged"
+    folder = "annotated_output"
+    xmlfolder = "tagged"
     Feature_vector.run(folder, xmlfolder)
     
     print "=======Bernouli Distribution======="

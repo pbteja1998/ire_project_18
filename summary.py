@@ -8,8 +8,8 @@ if __name__ == '__main__':
     if len(sys.argv) > 2:
         distribution = sys.argv[2]
     Feature_vector = Features()
-    folder = "../data/annotated_output"
-    xmlfolder = "../data/tagged"    
+    folder = "annotated_output"
+    xmlfolder = "tagged"    
     Feature_vector.run(folder, xmlfolder)
     NB = NaiveBayes(Feature_vector.feature_values, 0.8, distribution, True)
     NB.train()

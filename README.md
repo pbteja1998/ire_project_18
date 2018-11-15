@@ -1,5 +1,5 @@
 ## Summarization of Scientific Texts: A Rhetorical Approach
-Test
+
 - This project is based on [Summarizing Scientific Articles: Experiments with Relevance and Rhetorical Status](https://www.mitpressjournals.org/doi/pdf/10.1162/089120102762671936)
 
 - The main idea behind this paper is to use a rhetorical approach for classifying different statements present in a scientific paper on basis of argumentative zoning.
@@ -97,16 +97,15 @@ We have used ***Naive Bayes*** with the following distributions:
 
 <pre>
 To Generate summary of a given file
-$ <b> cd src </b>
 $ <b> python summary.py {filename} </b>
 
 Example:
-$ <b> python summary.py ../data/tagged/9405001.az-scixml </b>
+$ <b> python summary.py tagged/9405001.az-scixml </b>
 </pre>
 
 <pre>
 To Train, Test and get accuracy of the classification of sentences
-$ <b> python src/naive_bayes.py </b>
+$ <b> python naive_bayes.py </b>
 </pre>
 
 <pre>

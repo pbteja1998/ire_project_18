@@ -15,6 +15,7 @@ import itertools
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import precision_recall_fscore_support
+import pickle
 np.random.seed(11)
 
 class NaiveBayes:
@@ -109,7 +110,7 @@ class NaiveBayes:
             if y in [0, 1, 5]:
                 if random.uniform(0, 1) > 0.75:
                     summary.append(self.features[filename][sentId]['data'])        
-        print "\n".join(summary)
+        return "\n".join(summary)
                 
     def train(self):
         if not self.isSummary:
@@ -181,6 +182,8 @@ if __name__ == '__main__':
     bnb = NaiveBayes(Feature_vector.feature_values, 0.8, "Bernoulli")
     bnb.train()
     print ""
+    with open('bnb.pkl', 'wb') as fid:
+        pickle.dump(bnb, fid, 2)
     bnb.test()
     # confusionMatrix = bnb.test()
     # bnb.plotConfusionMatrix(confusionMatrix, range(8))
@@ -190,6 +193,8 @@ if __name__ == '__main__':
     mnb = NaiveBayes(Feature_vector.feature_values, 0.8, "Multinomial")
     mnb.train()
     print ""
+    with open('mnb.pkl', 'wb') as fid:
+        pickle.dump(mnb, fid, 2)
     mnb.test()
     # confusionMatrix = mnb.test()
     # mnb.plotConfusionMatrix(confusionMatrix, range(8))
@@ -199,6 +204,8 @@ if __name__ == '__main__':
     cnb = NaiveBayes(Feature_vector.feature_values, 0.8, "Complement")
     cnb.train()
     print ""
+    with open('cnb.pkl', 'wb') as fid:
+        pickle.dump(cnb, fid, 2)
     cnb.test()
     # confusionMatrix = cnb.test()
     # cnb.plotConfusionMatrix(confusionMatrix, range(8))    
@@ -209,6 +216,8 @@ if __name__ == '__main__':
     gnb.train()
     print ""
     gnb.test()
+    with open('gnb.pkl', 'wb') as fid:
+        pickle.dump(gnb, fid, 2)
     # confusionMatrix = gnb.test()
     # gnb.plotConfusionMatrix(confusionMatrix, range(8))    
     print ""

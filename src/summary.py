@@ -17,5 +17,5 @@ if __name__ == '__main__':
     Feature_vector.run(folder, xmlfolder)
     NB = NaiveBayes(Feature_vector.feature_values, 0.8, distribution, True)
     NB.train()
-    NB.getSummary(filename)
+    print NB.getSummary(filename)
 

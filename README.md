@@ -97,12 +97,10 @@ We have used ***Naive Bayes*** with the following distributions:
 
 <pre>
 To Generate summary of a given file
-$ <b> cd src </b>
-$ <b> python summary.py {relative_path_of_file_from_summary.py} </b>
+$ <b> python src/summary.py {relative_path_of_file_from_summary.py} </b>
 
 Example:
-$ <b> cd src </b>
-$ <b> python summary.py ../data/tagged/9405001.az-scixml </b>
+$ <b> python src/summary.py ../data/tagged/9405001.az-scixml </b>
 </pre>
 
 <pre>

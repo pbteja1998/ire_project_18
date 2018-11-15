@@ -5,8 +5,11 @@ from sklearn.naive_bayes import ComplementNB
 from sklearn.naive_bayes import BernoulliNB
 from passive_tagger import Tagger
 import sys
+import os
 import numpy as np
 import random
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import itertools
 from sklearn.metrics import accuracy_score
@@ -15,7 +18,7 @@ from sklearn.metrics import precision_recall_fscore_support
 np.random.seed(11)
 
 class NaiveBayes:
-    def __init__(self, features={}, split=0.8, distribution="Bernoulli", isSummary=False):
+    def __init__(self, features={}, split=0.8, distribution="Bernoulli", isSummary=False):        
         self.Tags = ["OTH", "BKG", "CTR", "NA", "AIM", "OWN", "BAS", "TXT", "", "BEGIN"]
         self.Locations = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
         self.ParaLocations = ["INITIAL", "MEDIAL", "FINAL"]        
@@ -165,7 +168,10 @@ class NaiveBayes:
     def getConfusionMatrix(self, y_true, y_pred):
         return confusion_matrix(y_true, y_pred)
 
-if __name__ == '__main__':    
+if __name__ == '__main__':
+    path_to_app_dir = '/'.join(__file__.split("/")[:-1])
+    if path_to_app_dir:
+        os.chdir(path_to_app_dir)
     Feature_vector = Features()
     folder = "../data/annotated_output"
     xmlfolder = "../data/tagged"

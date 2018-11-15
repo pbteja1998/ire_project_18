@@ -20,6 +20,9 @@ help_verbs = ['am', 'are', 'is', 'was', 'were', 'be', 'being', 'been', 'have',
 class Features:
 
     def __init__(self, t = Tagger()):
+        path_to_app_dir = '/'.join(__file__.split("/")[:-1])
+        if path_to_app_dir:
+            os.chdir(path_to_app_dir)
         self.t = t
         self.files = []
         self.feature_values = dict()

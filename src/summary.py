@@ -1,8 +1,12 @@
 from naive_bayes import NaiveBayes
 from generate_feature import Features
 import sys
+import os
 
 if __name__ == '__main__':
+    path_to_app_dir = '/'.join(__file__.split("/")[:-1])
+    if path_to_app_dir:
+        os.chdir(path_to_app_dir)
     filename = sys.argv[1]    
     distribution = "Gaussian"
     if len(sys.argv) > 2:

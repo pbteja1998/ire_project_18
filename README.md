@@ -97,15 +97,17 @@ We have used ***Naive Bayes*** with the following distributions:
 
 <pre>
 To Generate summary of a given file
-$ <b> python summary.py {filename} </b>
+$ <b> cd src </b>
+$ <b> python summary.py {relative_path_of_file_from_summary.py} </b>
 
 Example:
-$ <b> python summary.py tagged/9405001.az-scixml </b>
+$ <b> cd src </b>
+$ <b> python summary.py ../data/tagged/9405001.az-scixml </b>
 </pre>
 
 <pre>
 To Train, Test and get accuracy of the classification of sentences
-$ <b> python naive_bayes.py </b>
+$ <b> python src/naive_bayes.py </b>
 </pre>
 
 <pre>
@@ -116,7 +118,7 @@ $ <b> sudo pip install virtualenv </b>
 $ <b> virtualenv -p python venv </b>
 $ <b> source venv/bin/activate </b>
 $ <b> pip install -r requirements.txt </b>
-$ <b> export FLASK_APP=app.py </b>
+$ <b> export FLASK_APP=src/app.py </b>
 $ <b> flask run </b>
 
 </pre>
@@ -127,7 +129,7 @@ After running the above commands, to view summary in the flask app, go the the f
  <b> <a href="http://127.0.0.1:5000/summary/{file_name}"> http://127.0.0.1:5000/summary/{file_name} </a> </b>
 
 Example:
- <b> <a href="http://127.0.0.1:5000/summary/tagged/9405001.az-scixml"> http://127.0.0.1:5000/summary/tagged/9405001.az-scixml </a> </b>
+ <b> <a href="http://127.0.0.1:5000/summary/9405001.az-scixml"> http://127.0.0.1:5000/summary/9405001.az-scixml </a> </b>
  
 </pre>
 

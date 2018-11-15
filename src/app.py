@@ -32,4 +32,4 @@ def get_summary(subpath):
 if __name__ == '__main__':
     from naive_bayes import NaiveBayes
     port = int(os.environ.get("PORT", 5000))
-    app.run(debug=True, port=port)
+    app.run(debug=True)

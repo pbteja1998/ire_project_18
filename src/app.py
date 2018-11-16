@@ -11,7 +11,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
-    # return 'Index Page'
 
 @app.route('/summary', methods=['POST','GET'])
 def get_summary():

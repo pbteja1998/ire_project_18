@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Summary</title>
+
+    <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font: 16px Arial;  
+            }
+            
+            .autocomplete {
+              /*the container must be positioned relative:*/
+              position: relative;
+              display: inline-block;
+            }
+            
+            input {
+              border: 1px solid transparent;
+              background-color: #f1f1f1;
+              padding: 10px;
+              font-size: 16px;
+            }
+            
+            input[type=text] {
+              background-color: #f1f1f1;
+              width: 100%;
+            }
+            
+            input[type=submit] {
+              background-color: DodgerBlue;
+              color: #fff;
+              cursor: pointer;
+            }
+            
+            .autocomplete-items {
+              position: absolute;
+              border: 1px solid #d4d4d4;
+              border-bottom: none;
+              border-top: none;
+              z-index: 99;
+              /*position the autocomplete items to be the same width as the container:*/
+              top: 100%;
+              left: 0;
+              right: 0;
+            }
+            
+            .autocomplete-items div {
+              padding: 10px;
+              cursor: pointer;
+              background-color: #fff; 
+              border-bottom: 1px solid #d4d4d4; 
+            }
+            
+            .autocomplete-items div:hover {
+              /*when hovering an item:*/
+              background-color: #e9e9e9; 
+            }
+            
+            .autocomplete-active {
+              /*when navigating through the items using the arrow keys:*/
+              background-color: DodgerBlue !important; 
+              color: #ffffff; 
+            }
+            </style>
+
+  </head>
+  <body>
+    <div class="container p-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">Summarization</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://pbteja1998.github.io/ire_project_18/">Github Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/pbteja1998/ire_project_18">Github Repo</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/1vHWchFuHMZl6nWFZC4PgrvcbPaJvzake/view?usp=sharing">Report</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/1IeXTOERlhueRgWLh-heKeMkz6vVgeblG/view">Video</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <form action="/summary" method="POST" class="p-5">            
+            <div class="form-group">
+              <label>Naive Bayes Distribution</label>
+              <select name="model" class="form-control">
+                <option value="B">Bernoulli</option>
+                <option value="G">Guassian</option>
+                <option value="M">Multinomial</option>
+                <option value="C">Complement</option>                
+              </select>
+            </div>
+            <div class="form-group autocomplete" style="width: 100%;">
+                <label>File Name</label>
+                <input type="text" class="form-control" name="file_name" id="myInput" placeholder="9405001.az-scixml" required>
+            </div>            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+            function autocomplete(inp, arr) {
+              /*the autocomplete function takes two arguments,
+              the text field element and an array of possible autocompleted values:*/
+              var currentFocus;
+              /*execute a function when someone writes in the text field:*/
+              inp.addEventListener("input", function(e) {
+                  var a, b, i, val = this.value;
+                  /*close any already open lists of autocompleted values*/
+                  closeAllLists();
+                  if (!val) { return false;}
+                  currentFocus = -1;
+                  /*create a DIV element that will contain the items (values):*/
+                  a = document.createElement("DIV");
+                  a.setAttribute("id", this.id + "autocomplete-list");
+                  a.setAttribute("class", "autocomplete-items");
+                  /*append the DIV element as a child of the autocomplete container:*/
+                  this.parentNode.appendChild(a);
+                  /*for each item in the array...*/
+                  for (i = 0; i < arr.length; i++) {
+                    /*check if the item starts with the same letters as the text field value:*/
+                    if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                      /*create a DIV element for each matching element:*/
+                      b = document.createElement("DIV");
+                      /*make the matching letters bold:*/
+                      b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                      b.innerHTML += arr[i].substr(val.length);
+                      /*insert a input field that will hold the current array item's value:*/
+                      b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                      /*execute a function when someone clicks on the item value (DIV element):*/
+                      b.addEventListener("click", function(e) {
+                          /*insert the value for the autocomplete text field:*/
+                          inp.value = this.getElementsByTagName("input")[0].value;
+                          /*close the list of autocompleted values,
+                          (or any other open lists of autocompleted values:*/
+                          closeAllLists();
+                      });
+                      a.appendChild(b);
+                    }
+                  }
+              });
+              /*execute a function presses a key on the keyboard:*/
+              inp.addEventListener("keydown", function(e) {
+                  var x = document.getElementById(this.id + "autocomplete-list");
+                  if (x) x = x.getElementsByTagName("div");
+                  if (e.keyCode == 40) {
+                    /*If the arrow DOWN key is pressed,
+                    increase the currentFocus variable:*/
+                    currentFocus++;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                  } else if (e.keyCode == 38) { //up
+                    /*If the arrow UP key is pressed,
+                    decrease the currentFocus variable:*/
+                    currentFocus--;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                  } else if (e.keyCode == 13) {
+                    /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                    e.preventDefault();
+                    if (currentFocus > -1) {
+                      /*and simulate a click on the "active" item:*/
+                      if (x) x[currentFocus].click();
+                    }
+                  }
+              });
+              function addActive(x) {
+                /*a function to classify an item as "active":*/
+                if (!x) return false;
+                /*start by removing the "active" class on all items:*/
+                removeActive(x);
+                if (currentFocus >= x.length) currentFocus = 0;
+                if (currentFocus < 0) currentFocus = (x.length - 1);
+                /*add class "autocomplete-active":*/
+                x[currentFocus].classList.add("autocomplete-active");
+              }
+              function removeActive(x) {
+                /*a function to remove the "active" class from all autocomplete items:*/
+                for (var i = 0; i < x.length; i++) {
+                  x[i].classList.remove("autocomplete-active");
+                }
+              }
+              function closeAllLists(elmnt) {
+                /*close all autocomplete lists in the document,
+                except the one passed as an argument:*/
+                var x = document.getElementsByClassName("autocomplete-items");
+                for (var i = 0; i < x.length; i++) {
+                  if (elmnt != x[i] && elmnt != inp) {
+                    x[i].parentNode.removeChild(x[i]);
+                  }
+                }
+              }
+              /*execute a function when someone clicks in the document:*/
+              document.addEventListener("click", function (e) {
+                  closeAllLists(e.target);
+              });
+            }
+            
+            /*An array containing all the country names in the world:*/
+            var file_names = ["9405001.az-scixml","9405002.az-scixml","9405004.az-scixml","9405010.az-scixml","9405013.az-scixml","9405022.az-scixml","9405023.az-scixml","9405028.az-scixml","9405033.az-scixml","9405035.az-scixml","9407011.az-scixml","9408003.az-scixml","9408004.az-scixml","9408006.az-scixml","9408011.az-scixml","9408014.az-scixml","9409004.az-scixml","9410001.az-scixml","9410005.az-scixml","9410006.az-scixml","9410008.az-scixml","9410008.az-scixml","9410012.az-scixml","9410022.az-scixml","9410032.az-scixml","9410033.az-scixml","9411019.az-scixml","9411021.az-scixml","9411023.az-scixml","9412005.az-scixml","9412008.az-scixml","9502004.az-scixml","9502005.az-scixml","9502006.az-scixml","9502009.az-scixml","9502014.az-scixml","9502015.az-scixml","9502018.az-scixml","9502021.az-scixml","9502023.az-scixml","9502024.az-scixml","9502031.az-scixml","9502033.az-scixml","9502035.az-scixml","9502037.az-scixml","9502038.az-scixml","9502039.az-scixml","9503002.az-scixml","9503004.az-scixml","9503005.az-scixml","9503007.az-scixml","9503009.az-scixml","9503013.az-scixml","9503014.az-scixml","9503015.az-scixml","9503017.az-scixml","9503018.az-scixml","9503023.az-scixml","9503025.az-scixml","9504002.az-scixml","9504006.az-scixml","9504007.az-scixml","9504017.az-scixml","9504024.az-scixml","9504026.az-scixml","9504027.az-scixml","9504030.az-scixml","9504033.az-scixml","9504034.az-scixml","9505001.az-scixml","9506004.az-scixml","9511001.az-scixml","9511006.az-scixml","9601004.az-scixml","9604019.az-scixml","9604022.az-scixml","9605013.az-scixml","9605014.az-scixml","9605016.az-scixml"];
+            
+            /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+            autocomplete(document.getElementById("myInput"), file_names);
+            </script>
+            
+  </body>
+</html>

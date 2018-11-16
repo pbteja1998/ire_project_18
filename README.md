@@ -116,19 +116,15 @@ $ <b> sudo pip install virtualenv </b>
 $ <b> virtualenv -p python venv </b>
 $ <b> source venv/bin/activate </b>
 $ <b> pip install -r requirements.txt </b>
-$ <b> export FLASK_APP=src/app.py </b>
-$ <b> flask run </b>
+$ <b> gunicorn -b :$PORT --chdir src app:app </b>
 
 </pre>
 
 <pre>
 
-After running the above commands, to view summary in the flask app, go the the following url
- <b> <a href="http://127.0.0.1:5000/summary/{file_name}"> http://127.0.0.1:5000/summary/{file_name} </a> </b>
+After running the above commands, go the the following url
+ <b> <a href="http://0.0.0.0:5000/"> http://0.0.0.0:5000/ </a> </b>
 
-Example:
- <b> <a href="http://127.0.0.1:5000/summary/9405001.az-scixml"> http://127.0.0.1:5000/summary/9405001.az-scixml </a> </b>
- 
 </pre>
 
 ### References

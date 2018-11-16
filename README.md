@@ -116,6 +116,7 @@ $ <b> sudo pip install virtualenv </b>
 $ <b> virtualenv -p python venv </b>
 $ <b> source venv/bin/activate </b>
 $ <b> pip install -r requirements.txt </b>
+$ <b> export PORT=5000 </b>
 $ <b> gunicorn -b :$PORT --chdir src app:app </b>
 
 </pre>

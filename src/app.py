@@ -22,7 +22,7 @@ def get_summary():
             os.chdir(path_to_app_dir)
         print "Loading " + model + " Naive Bayes Model"
         if model == "G":
-            model = "Guassian"
+            model = "Gaussian"
             with open('gnb.pkl', 'rb') as fd:
                 nb = pickle.load(fd)
         elif model == "C":

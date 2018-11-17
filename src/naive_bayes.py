@@ -108,7 +108,7 @@ class NaiveBayes:
             if y in [1, 2, 4, 6]:
                 summary.append(self.features[filename][sentId]['data'])
             if y in [0, 1, 5]:
-                if random.uniform(0, 1) > 0.75:
+                if random.uniform(0, 1) > 0.96:
                     summary.append(self.features[filename][sentId]['data'])        
         return "\n".join(summary)
                 

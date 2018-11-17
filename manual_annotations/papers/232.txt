@@ -1,0 +1,257 @@
+Prevalence of attention-deficit/hyperactivity disorder among children with vision impairment.
+
+Abstract
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+bDepartment of Optometry, School of Optometry, University of Alabama at Birmingham
+
+cDepartment of Vision Science, School of Optometry, University of Alabama at Birmingham
+
+dDepartment of Epidemiology, School of Public Health, University of Alabama at Birmingham
+
+eAlabama Institute for Deaf and Blind
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+dDepartment of Epidemiology, School of Public Health, University of Alabama at Birmingham
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+To evaluate the prevalence of parent-reported attention-deficit/hyperactivity disorder (ADHD) in two clinics in Alabama serving children with vision impairment.
+
+The medical records of children 4–17 years of age attending the Alabama School for the Blind (ASB) during the 2010–2011 school year or seen at the University of Alabama at Birmingham (UAB) Center for Low Vision Rehabilitation between 2006 and 2010 were retrospectively reviewed. Sociodemographics, ocular characteristics, and parental report of ADHD diagnosis were obtained. The prevalence of ADHD was compared to national and state figures for age-similar children regardless of comorbidities. The prevalence of ADHD, sociodemographic, and ocular characteristics was also compared between clinical sites.
+
+A total of 264 children participated in the study (95 from ASB and 169 from UAB). The prevalence of ADHD among children with visual acuity better than hand motion (n = 245) was 22.9%, which is higher than reported state (14.3%) and national prevalence (9.5%) for children in this age range. The prevalence was similar at ASB (22.4%) and UAB (23.1%). Those with ADHD were similar to those without ADHD with respect to age, sex, and race. Children with ADHD were significantly less likely to have nystagmus and more likely to have better visual acuity (P < 0.05). The prevalence of ADHD among the 19 participants with total or near total vision loss (all from ASB) was 10.5%.
+
+Our analyses suggest that children with vision impairment may be more likely to be diagnosed with ADHD than children in the general population.
+
+Methods
+
+This was a cross-sectional study of pediatric low vision patients seen in the University of Alabama at Birmingham (UAB) Center for Low Vision Rehabilitation or in the Low Vision Clinic at the Alabama School for the Blind (ASB). Institutional Review Board approval was obtained from UAB, and Human Rights Committee approval was obtained from the Alabama Institute for Deaf and Blind (AIDB), the parent organization of ASB.
+
+The medical records of children 4–17 years of age seen at the UAB Center for Low Vision Rehabilitation between 2006 and 2010 or attending ASB during the 2010–11 school year were retrospectively reviewed. Data access issues limited the ASB study period to one academic year; however, many of the students in the ASB sample would have attended ASB over the entire time frame of the UAB study period. The UAB sample consisted of children referred for vision rehabilitation primarily by pediatric ophthalmologists or teachers of the visually impaired. Children attended public or private day-school or were home schooled. ASB offers both residential and day school programs. Children with multiple impairments (eg, vision and hearing impairment or cognitive and vision impairment) attend the Helen Keller School, another division of AIDB and were not included in this study. Exclusion criteria for both samples included multiple (physical or cognitive) disabilities, psychiatric disorders other than ADHD, traumatic brain injury, and incomplete medical history. Those with total or near total blindness (no light perception, light perception, or hand-motion vision) were considered separately because children who are blind use different accommodations than those who are low vision.
+
+The following information was collected: age, race, sex, primary ocular diagnosis, presence or absence of nystagmus, and best-corrected visual acuity in each eye. A parent completed a history form that explicitly asked whether their child had ever had a diagnosis of ADHD.
+
+National and statewide prevalence data were obtained from the NSCH.15 Eligible participants were identified through the State and Local Area Integrated Telephone Survey Program (SLAITS) using random-digit-dialed telephone surveys and computer-assisted telephone interview. Each state had a minimum of 1,700 participants. As part of the survey, participants were asked, “Has a doctor or other health care provider ever told you that [child’s name] had Attention Deficit Disorder or Attention Deficit Hyperactive Disorder, that is, ADD or ADHD?”
+
+Variables were summarized using descriptive statistics for the entire sample and for subgroups based on clinic setting (ASB vs UAB) and ADHD diagnosis (ever vs never). Differences between groups were assessed using t tests for continuous variables and the Fisher exact test for categorical variables. The significance level was set at P < 0.05 (two-tailed).
+
+Results
+
+Of 325 records reviewed, 264 met the inclusion criteria. Of the 61 excluded subjects, 26 had missing or incomplete parent-completed history, 8 had acquired brain injury or psychiatric diagnosis other than ADHD, and 27 had cognitive impairment secondary to prematurity and intraventricular hemorrhage, cortical vision impairment, cerebral palsy or a genetic syndrome (eg, Dandy-Walker syndrome or Sanfilippo syndrome). Of the 264 included subjects, 19 were considered separately because they had no functional vision and the focus of this study was on children with low vision, and 245 were retained in the primary analysis, 76 from the ASB sample and 169 from the UAB sample.
+
+Demographic and clinical characteristics of all participants as well as by ADHD status are presented in Table 1. The overall prevalence of parent-reported ADHD was 22.9% (56/245). Those with a parent-reported diagnosis of ADHD were similar to those without a diagnosis of ADHD with respect to age, sex, and race. Participants who had ever had an ADHD diagnosis were significantly less likely to have nystagmus and more likely to have better acuity in the better- and the poorer-seeing eye (Table 1). The prevalence of parent-reported ADHD diagnosis among 19 students with near total or total vision loss was 10.5% (2/19).
+
+Demographic and ocular characteristics for the entire sample and for the subgroups of those who have ever had an ADHD diagnosis as well as those who have never had an ADHD diagnosis
+
+ADHD, attention deficit hyperactivity disorder; logMAR, log minimum angle of resolution; VA, visual acuity.
+
+Table 2 shows the demographic and clinical characteristics by clinic setting (ASB clinic for students attending a blind school and UAB clinic for students in all other school settings). The prevalence of ADHD was 22.4% (17/76) in the ASB sample and 23.1% (39/169) in the UAB sample. The difference in prevalence of ADHD between the two samples was not statistically significant; however, students at ASB had significantly poorer visual acuity in the better eye and were more likely to be older, nonwhite, and to have nystagmus.
+
+Characteristics of the sample divided by school setting: ASB versus all other school settings
+
+ASB, Alabama School for the Blind; logMAR, log minimum angle of resolution; UAB, University of Alabama at Birmingham Center for Low Vision Rehabilitation; VA, visual acuity.
+
+The most common ocular diagnosis was albinism (n = 40 [16.3%]) followed by retinopathy of prematurity (n = 26 [10.6%]) and optic nerve hypoplasia (n = 25 [10.2%]). The prevalence of ADHD in those groups was 20.0%, 15.4%, and 20.0%, respectively. The diagnoses were varied, so diagnoses were placed into one of six broad categories: albinism and congenital nystagmus, congenital malformations, retinal degenerative disorders, optic nerve disorders, retinopathy of prematurity and other. There were no statistical differences (P = 0.7) in ADHD prevalence between categories.
+
+The 2007 National Survey of Children’s Health (NSCH) found a national prevalence of ADHD in school aged (ages 4–17) children in the United States of 9.5% and a statewide prevalence in Alabama of 14.3%.6 The prevalence of ADHD among children with vision impairment in this study is 1.5 times that of the state of Alabama and 2.3 times the national prevalence of ADHD.
+
+Discussion
+
+The prevalence of ADHD was higher among our study cohort compared to the nationwide and statewide general populations. Previous research has suggested that visual disorders can mimic the complex and subjective diagnostic criteria of ADHD.11 In particular, convergence insufficiency has been shown to be a confounder in tests for ADHD.10 It seems reasonable then, if visual disorders that are not associated with decreased vision can mimic attention deficit, that vision impairment can also mimic attention deficit.
+
+The accommodations received by children with vision impairment in the school setting are highly variable and per parent report not always adequate.16 Additionally, children with vision impairment often require additional time to complete detailed or extended visual work. If the accommodations are not adequate, and children cannot see well enough to do the tasks they are asked to do, or if they cannot complete their assignments in a timely manner because of visual problems, they may be inappropriately diagnosed with ADHD.
+
+The prevalence of ADHD in the overall sample in this study is similar to that found in another study of people with albinism (22.7%),9 suggesting that this finding is not unique to our sample. In our study the prevalence of ADHD in those with albinism was only slightly lower, at 20% (8/40). The study on ADHD in albinism failed to find a relationship between best-corrected visual acuity and ADHD diagnosis. The present study found that among children with vision impairment from a variety of causes, those with better visual acuity were more likely to be diagnosed with ADHD. One possible explanation is that those with worse visual acuity also had a more visible ocular defect that served as a reminder of the vision impairment.
+
+We found that children with nystagmus are less likely to be diagnosed with ADHD. Nystagmus is a visible manifestation of an ocular disorder. It is possible that the visible reminder of the child’s impairment prevents those who are truly not ADHD from being mislabeled. The presence of nystagmus in the context of childhood vision impairment means that the impairment was present at or near birth. Perhaps those with very early-onset vision impairment are less susceptible to ADHD. It is also possible that this is a spurious association because all people with albinism have nystagmus (of varying amplitude and frequency) yet the prevalence of ADHD in this subgroup was similar to the overall prevalence of ADHD.
+
+Although preterm birth is known to be associated with ADHD,17 there was not an increased prevalence of ADHD beyond that of other children with visual impairment among the group with retinopathy of prematurity (ROP). It is important to note that children with multiple disabilities, some of whom had ROP, were excluded from our study.
+
+Those with total or near total vision loss were analyzed separately because they would use nonvisual means to complete tasks in school as well as activities of daily living. This group had the lowest prevalence of ADHD, which was nearly equal to the national average. Again, this supports the possibility that the visible evidence of the child’s primary impairment serves as a reminder to the observer that the child’s behavior is strongly influenced by his or her poor vision.
+
+Reporting bias is an unlikely source of the difference between the general population and our sample. Both the NSCH and the current study relied on parent report of ADHD diagnosis. Parent-reported ADHD prevalence has been shown to have convergent validity with ADHD prevalence determined using medical records and well-defined criteria.18
+
+A strength of this study is the relatively large sample size of the study population (n = 264), given the low incidence of pediatric visual impairment. The study is limited by the possibility of selection bias. Parents who are motivated to have their child attend either a school for the blind or to have a clinical low vision evaluation may also be more likely to investigate other etiologies for behavior issues. They may be more likely to report symptoms of inattention to their pediatrician than those parents of children with visual impairment who do not seek specialized vision services for their child. Additionally, they may be more willing to accept a diagnosis of ADHD. Conversely, some parents may attribute all behavior issues to visual impairment and not seek or accept an ADHD diagnosis. If present, selection bias would likely bias our study away from the null. Our study was also limited to one geographic region in the United States.
+
+In conclusion, the prevalence of parent-reported ADHD among children with vision impairment in the present study is considerably higher than that reported by the Centers for Disease Control and Prevention. Additional studies considering age at time of diagnosis and method of ADHD diagnosis as well as symptoms present and treatment for ADHD among children with visual impairment are underway. These studies will further elucidate the association between vision impairment and ADHD.
+
+Acknowledgments
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+bDepartment of Optometry, School of Optometry, University of Alabama at Birmingham
+
+cDepartment of Vision Science, School of Optometry, University of Alabama at Birmingham
+
+dDepartment of Epidemiology, School of Public Health, University of Alabama at Birmingham
+
+eAlabama Institute for Deaf and Blind
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+dDepartment of Epidemiology, School of Public Health, University of Alabama at Birmingham
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+To evaluate the prevalence of parent-reported attention-deficit/hyperactivity disorder (ADHD) in two clinics in Alabama serving children with vision impairment.
+
+The medical records of children 4–17 years of age attending the Alabama School for the Blind (ASB) during the 2010–2011 school year or seen at the University of Alabama at Birmingham (UAB) Center for Low Vision Rehabilitation between 2006 and 2010 were retrospectively reviewed. Sociodemographics, ocular characteristics, and parental report of ADHD diagnosis were obtained. The prevalence of ADHD was compared to national and state figures for age-similar children regardless of comorbidities. The prevalence of ADHD, sociodemographic, and ocular characteristics was also compared between clinical sites.
+
+A total of 264 children participated in the study (95 from ASB and 169 from UAB). The prevalence of ADHD among children with visual acuity better than hand motion (n = 245) was 22.9%, which is higher than reported state (14.3%) and national prevalence (9.5%) for children in this age range. The prevalence was similar at ASB (22.4%) and UAB (23.1%). Those with ADHD were similar to those without ADHD with respect to age, sex, and race. Children with ADHD were significantly less likely to have nystagmus and more likely to have better visual acuity (P < 0.05). The prevalence of ADHD among the 19 participants with total or near total vision loss (all from ASB) was 10.5%.
+
+Our analyses suggest that children with vision impairment may be more likely to be diagnosed with ADHD than children in the general population.
+
+One of the most commonly diagnosed pediatric neurobehavioral disorders, attention-deficit/hyperactivity disorder (ADHD) is characterized by developmentally inappropriate levels of inattention and hyperactivity resulting in functional impairment in multiple settings. There are three types of ADHD: (1) combined ADHD, involving both inattention and hyperactivity; (2) inattentive ADHD (previously known as ADD), which has symptoms primarily of impaired attention and concentration; and (3) hyperactive-impulsive ADHD, which is characterized primarily by hyperactivity without inattentiveness.1 ADHD is an ongoing public health concern because of its cross-cultural nature, negative labeling, and costly treatment.2–5 A systematic review of the literature reported a worldwide prevalence of ADHD of approximately 5.3%.3 The 2007 National Survey of Children’s Health (NSCH), conducted by the Centers for Disease Control and Prevention (CDC), found a national prevalence of parent-reported ADHD in school-aged children (aged 4–17 years) in the United States of 9.5% and a statewide prevalence in Alabama of 14.3%.6
+
+Sensory impairments in children are associated with a higher prevalence of ADHD.7 The prevalence of ADHD was found to be higher in children with acquired hearing impairment than in hearing children or children with inherited hearing impairment.8 Using a convenience sample of children and young adults with albinism, Kutzbach and colleagues9 reported a 22% prevalence of ADHD, which is considerably higher than the prevalence within the general population.
+
+Children with convergence and accommodation anomalies frequently complain of a diminished ability or a complete inability to focus while reading or listening to lectures in a classroom environment and have been reported to be misdiagnosed as having ADHD.10,11 The prevalence of ADHD among children with vision impairment regardless of etiology is not known.
+
+ADHD is diagnosed based on behavioral checklists that consider school performance, interaction with peers, attentiveness, impulsivity, and hyperactivity as well as testing to rule out organic causes such as lead intoxication.12 Since there is no definitive test for ADHD, it is plausible that other conditions with similar symptoms may be misdiagnosed as ADHD.7 Furthermore, many children are diagnosed without a thorough evaluation that meets the standards of the American Academy of Pediatrics Clinical Practice Guideline for the diagnosis of ADHD.13 To further emphasize the difficulties with diagnosing ADHD, one study suggested that there was a significant possibility that almost 1 million children entering kindergarten diagnosed with ADHD did not have the disorder. They found that children born closest to the cut-off date for entry to kindergarten had a significantly greater rate of diagnosis of ADHD than their older classmates, suggesting that the younger children may have been overdiagnosed or, conversely, that the older children were underdiagnosed.14
+
+The purpose of this study was to investigate whether the prevalence of ADHD diagnosis in a cohort of pediatric low vision subjects was similar to that reported for the general population. We hypothesized that visual impairment in some children could have been mistaken for lack of attention, resulting in an inaccurate diagnosis of ADHD. If so, then the prevalence of ADHD among students attending a school for the blind, where the environment is completely tailored for their visual needs, should be more similar to the general population than those children attending public or private schools. On the other hand, children attending a school for the blind may be overdiagnosed because the class sizes are generally smaller and there is more opportunity for close scrutiny of behaviors. Therefore, we also evaluated the prevalence of a parent-reported ADHD diagnosis in this setting.
+
+This was a cross-sectional study of pediatric low vision patients seen in the University of Alabama at Birmingham (UAB) Center for Low Vision Rehabilitation or in the Low Vision Clinic at the Alabama School for the Blind (ASB). Institutional Review Board approval was obtained from UAB, and Human Rights Committee approval was obtained from the Alabama Institute for Deaf and Blind (AIDB), the parent organization of ASB.
+
+The medical records of children 4–17 years of age seen at the UAB Center for Low Vision Rehabilitation between 2006 and 2010 or attending ASB during the 2010–11 school year were retrospectively reviewed. Data access issues limited the ASB study period to one academic year; however, many of the students in the ASB sample would have attended ASB over the entire time frame of the UAB study period. The UAB sample consisted of children referred for vision rehabilitation primarily by pediatric ophthalmologists or teachers of the visually impaired. Children attended public or private day-school or were home schooled. ASB offers both residential and day school programs. Children with multiple impairments (eg, vision and hearing impairment or cognitive and vision impairment) attend the Helen Keller School, another division of AIDB and were not included in this study. Exclusion criteria for both samples included multiple (physical or cognitive) disabilities, psychiatric disorders other than ADHD, traumatic brain injury, and incomplete medical history. Those with total or near total blindness (no light perception, light perception, or hand-motion vision) were considered separately because children who are blind use different accommodations than those who are low vision.
+
+The following information was collected: age, race, sex, primary ocular diagnosis, presence or absence of nystagmus, and best-corrected visual acuity in each eye. A parent completed a history form that explicitly asked whether their child had ever had a diagnosis of ADHD.
+
+National and statewide prevalence data were obtained from the NSCH.15 Eligible participants were identified through the State and Local Area Integrated Telephone Survey Program (SLAITS) using random-digit-dialed telephone surveys and computer-assisted telephone interview. Each state had a minimum of 1,700 participants. As part of the survey, participants were asked, “Has a doctor or other health care provider ever told you that [child’s name] had Attention Deficit Disorder or Attention Deficit Hyperactive Disorder, that is, ADD or ADHD?”
+
+Variables were summarized using descriptive statistics for the entire sample and for subgroups based on clinic setting (ASB vs UAB) and ADHD diagnosis (ever vs never). Differences between groups were assessed using t tests for continuous variables and the Fisher exact test for categorical variables. The significance level was set at P < 0.05 (two-tailed).
+
+Of 325 records reviewed, 264 met the inclusion criteria. Of the 61 excluded subjects, 26 had missing or incomplete parent-completed history, 8 had acquired brain injury or psychiatric diagnosis other than ADHD, and 27 had cognitive impairment secondary to prematurity and intraventricular hemorrhage, cortical vision impairment, cerebral palsy or a genetic syndrome (eg, Dandy-Walker syndrome or Sanfilippo syndrome). Of the 264 included subjects, 19 were considered separately because they had no functional vision and the focus of this study was on children with low vision, and 245 were retained in the primary analysis, 76 from the ASB sample and 169 from the UAB sample.
+
+Demographic and clinical characteristics of all participants as well as by ADHD status are presented in Table 1. The overall prevalence of parent-reported ADHD was 22.9% (56/245). Those with a parent-reported diagnosis of ADHD were similar to those without a diagnosis of ADHD with respect to age, sex, and race. Participants who had ever had an ADHD diagnosis were significantly less likely to have nystagmus and more likely to have better acuity in the better- and the poorer-seeing eye (Table 1). The prevalence of parent-reported ADHD diagnosis among 19 students with near total or total vision loss was 10.5% (2/19).
+
+Demographic and ocular characteristics for the entire sample and for the subgroups of those who have ever had an ADHD diagnosis as well as those who have never had an ADHD diagnosis
+
+ADHD, attention deficit hyperactivity disorder; logMAR, log minimum angle of resolution; VA, visual acuity.
+
+Table 2 shows the demographic and clinical characteristics by clinic setting (ASB clinic for students attending a blind school and UAB clinic for students in all other school settings). The prevalence of ADHD was 22.4% (17/76) in the ASB sample and 23.1% (39/169) in the UAB sample. The difference in prevalence of ADHD between the two samples was not statistically significant; however, students at ASB had significantly poorer visual acuity in the better eye and were more likely to be older, nonwhite, and to have nystagmus.
+
+Characteristics of the sample divided by school setting: ASB versus all other school settings
+
+ASB, Alabama School for the Blind; logMAR, log minimum angle of resolution; UAB, University of Alabama at Birmingham Center for Low Vision Rehabilitation; VA, visual acuity.
+
+The most common ocular diagnosis was albinism (n = 40 [16.3%]) followed by retinopathy of prematurity (n = 26 [10.6%]) and optic nerve hypoplasia (n = 25 [10.2%]). The prevalence of ADHD in those groups was 20.0%, 15.4%, and 20.0%, respectively. The diagnoses were varied, so diagnoses were placed into one of six broad categories: albinism and congenital nystagmus, congenital malformations, retinal degenerative disorders, optic nerve disorders, retinopathy of prematurity and other. There were no statistical differences (P = 0.7) in ADHD prevalence between categories.
+
+The 2007 National Survey of Children’s Health (NSCH) found a national prevalence of ADHD in school aged (ages 4–17) children in the United States of 9.5% and a statewide prevalence in Alabama of 14.3%.6 The prevalence of ADHD among children with vision impairment in this study is 1.5 times that of the state of Alabama and 2.3 times the national prevalence of ADHD.
+
+The prevalence of ADHD was higher among our study cohort compared to the nationwide and statewide general populations. Previous research has suggested that visual disorders can mimic the complex and subjective diagnostic criteria of ADHD.11 In particular, convergence insufficiency has been shown to be a confounder in tests for ADHD.10 It seems reasonable then, if visual disorders that are not associated with decreased vision can mimic attention deficit, that vision impairment can also mimic attention deficit.
+
+The accommodations received by children with vision impairment in the school setting are highly variable and per parent report not always adequate.16 Additionally, children with vision impairment often require additional time to complete detailed or extended visual work. If the accommodations are not adequate, and children cannot see well enough to do the tasks they are asked to do, or if they cannot complete their assignments in a timely manner because of visual problems, they may be inappropriately diagnosed with ADHD.
+
+The prevalence of ADHD in the overall sample in this study is similar to that found in another study of people with albinism (22.7%),9 suggesting that this finding is not unique to our sample. In our study the prevalence of ADHD in those with albinism was only slightly lower, at 20% (8/40). The study on ADHD in albinism failed to find a relationship between best-corrected visual acuity and ADHD diagnosis. The present study found that among children with vision impairment from a variety of causes, those with better visual acuity were more likely to be diagnosed with ADHD. One possible explanation is that those with worse visual acuity also had a more visible ocular defect that served as a reminder of the vision impairment.
+
+We found that children with nystagmus are less likely to be diagnosed with ADHD. Nystagmus is a visible manifestation of an ocular disorder. It is possible that the visible reminder of the child’s impairment prevents those who are truly not ADHD from being mislabeled. The presence of nystagmus in the context of childhood vision impairment means that the impairment was present at or near birth. Perhaps those with very early-onset vision impairment are less susceptible to ADHD. It is also possible that this is a spurious association because all people with albinism have nystagmus (of varying amplitude and frequency) yet the prevalence of ADHD in this subgroup was similar to the overall prevalence of ADHD.
+
+Although preterm birth is known to be associated with ADHD,17 there was not an increased prevalence of ADHD beyond that of other children with visual impairment among the group with retinopathy of prematurity (ROP). It is important to note that children with multiple disabilities, some of whom had ROP, were excluded from our study.
+
+Those with total or near total vision loss were analyzed separately because they would use nonvisual means to complete tasks in school as well as activities of daily living. This group had the lowest prevalence of ADHD, which was nearly equal to the national average. Again, this supports the possibility that the visible evidence of the child’s primary impairment serves as a reminder to the observer that the child’s behavior is strongly influenced by his or her poor vision.
+
+Reporting bias is an unlikely source of the difference between the general population and our sample. Both the NSCH and the current study relied on parent report of ADHD diagnosis. Parent-reported ADHD prevalence has been shown to have convergent validity with ADHD prevalence determined using medical records and well-defined criteria.18
+
+A strength of this study is the relatively large sample size of the study population (n = 264), given the low incidence of pediatric visual impairment. The study is limited by the possibility of selection bias. Parents who are motivated to have their child attend either a school for the blind or to have a clinical low vision evaluation may also be more likely to investigate other etiologies for behavior issues. They may be more likely to report symptoms of inattention to their pediatrician than those parents of children with visual impairment who do not seek specialized vision services for their child. Additionally, they may be more willing to accept a diagnosis of ADHD. Conversely, some parents may attribute all behavior issues to visual impairment and not seek or accept an ADHD diagnosis. If present, selection bias would likely bias our study away from the null. Our study was also limited to one geographic region in the United States.
+
+In conclusion, the prevalence of parent-reported ADHD among children with vision impairment in the present study is considerably higher than that reported by the Centers for Disease Control and Prevention. Additional studies considering age at time of diagnosis and method of ADHD diagnosis as well as symptoms present and treatment for ADHD among children with visual impairment are underway. These studies will further elucidate the association between vision impairment and ADHD.
+
+Supported by NEI K 23 EY018864 (DKD); EyeSight Foundation of Alabama (DKD, GM, CO); Research to Prevent Blindness (DKD, GM, CO); Able Trust (CO); Alfreda J. Schueler Trust (CO).
+
+Footnotes
+
+
+
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+
+
+
+References
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+bDepartment of Optometry, School of Optometry, University of Alabama at Birmingham
+
+cDepartment of Vision Science, School of Optometry, University of Alabama at Birmingham
+
+dDepartment of Epidemiology, School of Public Health, University of Alabama at Birmingham
+
+eAlabama Institute for Deaf and Blind
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+dDepartment of Epidemiology, School of Public Health, University of Alabama at Birmingham
+
+aDepartment of Ophthalmology, School of Medicine, University of Alabama at Birmingham
+
+To evaluate the prevalence of parent-reported attention-deficit/hyperactivity disorder (ADHD) in two clinics in Alabama serving children with vision impairment.
+
+The medical records of children 4–17 years of age attending the Alabama School for the Blind (ASB) during the 2010–2011 school year or seen at the University of Alabama at Birmingham (UAB) Center for Low Vision Rehabilitation between 2006 and 2010 were retrospectively reviewed. Sociodemographics, ocular characteristics, and parental report of ADHD diagnosis were obtained. The prevalence of ADHD was compared to national and state figures for age-similar children regardless of comorbidities. The prevalence of ADHD, sociodemographic, and ocular characteristics was also compared between clinical sites.
+
+A total of 264 children participated in the study (95 from ASB and 169 from UAB). The prevalence of ADHD among children with visual acuity better than hand motion (n = 245) was 22.9%, which is higher than reported state (14.3%) and national prevalence (9.5%) for children in this age range. The prevalence was similar at ASB (22.4%) and UAB (23.1%). Those with ADHD were similar to those without ADHD with respect to age, sex, and race. Children with ADHD were significantly less likely to have nystagmus and more likely to have better visual acuity (P < 0.05). The prevalence of ADHD among the 19 participants with total or near total vision loss (all from ASB) was 10.5%.
+
+Our analyses suggest that children with vision impairment may be more likely to be diagnosed with ADHD than children in the general population.
+
+One of the most commonly diagnosed pediatric neurobehavioral disorders, attention-deficit/hyperactivity disorder (ADHD) is characterized by developmentally inappropriate levels of inattention and hyperactivity resulting in functional impairment in multiple settings. There are three types of ADHD: (1) combined ADHD, involving both inattention and hyperactivity; (2) inattentive ADHD (previously known as ADD), which has symptoms primarily of impaired attention and concentration; and (3) hyperactive-impulsive ADHD, which is characterized primarily by hyperactivity without inattentiveness.1 ADHD is an ongoing public health concern because of its cross-cultural nature, negative labeling, and costly treatment.2–5 A systematic review of the literature reported a worldwide prevalence of ADHD of approximately 5.3%.3 The 2007 National Survey of Children’s Health (NSCH), conducted by the Centers for Disease Control and Prevention (CDC), found a national prevalence of parent-reported ADHD in school-aged children (aged 4–17 years) in the United States of 9.5% and a statewide prevalence in Alabama of 14.3%.6
+
+Sensory impairments in children are associated with a higher prevalence of ADHD.7 The prevalence of ADHD was found to be higher in children with acquired hearing impairment than in hearing children or children with inherited hearing impairment.8 Using a convenience sample of children and young adults with albinism, Kutzbach and colleagues9 reported a 22% prevalence of ADHD, which is considerably higher than the prevalence within the general population.
+
+Children with convergence and accommodation anomalies frequently complain of a diminished ability or a complete inability to focus while reading or listening to lectures in a classroom environment and have been reported to be misdiagnosed as having ADHD.10,11 The prevalence of ADHD among children with vision impairment regardless of etiology is not known.
+
+ADHD is diagnosed based on behavioral checklists that consider school performance, interaction with peers, attentiveness, impulsivity, and hyperactivity as well as testing to rule out organic causes such as lead intoxication.12 Since there is no definitive test for ADHD, it is plausible that other conditions with similar symptoms may be misdiagnosed as ADHD.7 Furthermore, many children are diagnosed without a thorough evaluation that meets the standards of the American Academy of Pediatrics Clinical Practice Guideline for the diagnosis of ADHD.13 To further emphasize the difficulties with diagnosing ADHD, one study suggested that there was a significant possibility that almost 1 million children entering kindergarten diagnosed with ADHD did not have the disorder. They found that children born closest to the cut-off date for entry to kindergarten had a significantly greater rate of diagnosis of ADHD than their older classmates, suggesting that the younger children may have been overdiagnosed or, conversely, that the older children were underdiagnosed.14
+
+The purpose of this study was to investigate whether the prevalence of ADHD diagnosis in a cohort of pediatric low vision subjects was similar to that reported for the general population. We hypothesized that visual impairment in some children could have been mistaken for lack of attention, resulting in an inaccurate diagnosis of ADHD. If so, then the prevalence of ADHD among students attending a school for the blind, where the environment is completely tailored for their visual needs, should be more similar to the general population than those children attending public or private schools. On the other hand, children attending a school for the blind may be overdiagnosed because the class sizes are generally smaller and there is more opportunity for close scrutiny of behaviors. Therefore, we also evaluated the prevalence of a parent-reported ADHD diagnosis in this setting.
+
+This was a cross-sectional study of pediatric low vision patients seen in the University of Alabama at Birmingham (UAB) Center for Low Vision Rehabilitation or in the Low Vision Clinic at the Alabama School for the Blind (ASB). Institutional Review Board approval was obtained from UAB, and Human Rights Committee approval was obtained from the Alabama Institute for Deaf and Blind (AIDB), the parent organization of ASB.
+
+The medical records of children 4–17 years of age seen at the UAB Center for Low Vision Rehabilitation between 2006 and 2010 or attending ASB during the 2010–11 school year were retrospectively reviewed. Data access issues limited the ASB study period to one academic year; however, many of the students in the ASB sample would have attended ASB over the entire time frame of the UAB study period. The UAB sample consisted of children referred for vision rehabilitation primarily by pediatric ophthalmologists or teachers of the visually impaired. Children attended public or private day-school or were home schooled. ASB offers both residential and day school programs. Children with multiple impairments (eg, vision and hearing impairment or cognitive and vision impairment) attend the Helen Keller School, another division of AIDB and were not included in this study. Exclusion criteria for both samples included multiple (physical or cognitive) disabilities, psychiatric disorders other than ADHD, traumatic brain injury, and incomplete medical history. Those with total or near total blindness (no light perception, light perception, or hand-motion vision) were considered separately because children who are blind use different accommodations than those who are low vision.
+
+The following information was collected: age, race, sex, primary ocular diagnosis, presence or absence of nystagmus, and best-corrected visual acuity in each eye. A parent completed a history form that explicitly asked whether their child had ever had a diagnosis of ADHD.
+
+National and statewide prevalence data were obtained from the NSCH.15 Eligible participants were identified through the State and Local Area Integrated Telephone Survey Program (SLAITS) using random-digit-dialed telephone surveys and computer-assisted telephone interview. Each state had a minimum of 1,700 participants. As part of the survey, participants were asked, “Has a doctor or other health care provider ever told you that [child’s name] had Attention Deficit Disorder or Attention Deficit Hyperactive Disorder, that is, ADD or ADHD?”
+
+Variables were summarized using descriptive statistics for the entire sample and for subgroups based on clinic setting (ASB vs UAB) and ADHD diagnosis (ever vs never). Differences between groups were assessed using t tests for continuous variables and the Fisher exact test for categorical variables. The significance level was set at P < 0.05 (two-tailed).
+
+Of 325 records reviewed, 264 met the inclusion criteria. Of the 61 excluded subjects, 26 had missing or incomplete parent-completed history, 8 had acquired brain injury or psychiatric diagnosis other than ADHD, and 27 had cognitive impairment secondary to prematurity and intraventricular hemorrhage, cortical vision impairment, cerebral palsy or a genetic syndrome (eg, Dandy-Walker syndrome or Sanfilippo syndrome). Of the 264 included subjects, 19 were considered separately because they had no functional vision and the focus of this study was on children with low vision, and 245 were retained in the primary analysis, 76 from the ASB sample and 169 from the UAB sample.
+
+Demographic and clinical characteristics of all participants as well as by ADHD status are presented in Table 1. The overall prevalence of parent-reported ADHD was 22.9% (56/245). Those with a parent-reported diagnosis of ADHD were similar to those without a diagnosis of ADHD with respect to age, sex, and race. Participants who had ever had an ADHD diagnosis were significantly less likely to have nystagmus and more likely to have better acuity in the better- and the poorer-seeing eye (Table 1). The prevalence of parent-reported ADHD diagnosis among 19 students with near total or total vision loss was 10.5% (2/19).
+
+Demographic and ocular characteristics for the entire sample and for the subgroups of those who have ever had an ADHD diagnosis as well as those who have never had an ADHD diagnosis
+
+ADHD, attention deficit hyperactivity disorder; logMAR, log minimum angle of resolution; VA, visual acuity.
+
+Table 2 shows the demographic and clinical characteristics by clinic setting (ASB clinic for students attending a blind school and UAB clinic for students in all other school settings). The prevalence of ADHD was 22.4% (17/76) in the ASB sample and 23.1% (39/169) in the UAB sample. The difference in prevalence of ADHD between the two samples was not statistically significant; however, students at ASB had significantly poorer visual acuity in the better eye and were more likely to be older, nonwhite, and to have nystagmus.
+
+Characteristics of the sample divided by school setting: ASB versus all other school settings
+
+ASB, Alabama School for the Blind; logMAR, log minimum angle of resolution; UAB, University of Alabama at Birmingham Center for Low Vision Rehabilitation; VA, visual acuity.
+
+The most common ocular diagnosis was albinism (n = 40 [16.3%]) followed by retinopathy of prematurity (n = 26 [10.6%]) and optic nerve hypoplasia (n = 25 [10.2%]). The prevalence of ADHD in those groups was 20.0%, 15.4%, and 20.0%, respectively. The diagnoses were varied, so diagnoses were placed into one of six broad categories: albinism and congenital nystagmus, congenital malformations, retinal degenerative disorders, optic nerve disorders, retinopathy of prematurity and other. There were no statistical differences (P = 0.7) in ADHD prevalence between categories.
+
+The 2007 National Survey of Children’s Health (NSCH) found a national prevalence of ADHD in school aged (ages 4–17) children in the United States of 9.5% and a statewide prevalence in Alabama of 14.3%.6 The prevalence of ADHD among children with vision impairment in this study is 1.5 times that of the state of Alabama and 2.3 times the national prevalence of ADHD.
+
+The prevalence of ADHD was higher among our study cohort compared to the nationwide and statewide general populations. Previous research has suggested that visual disorders can mimic the complex and subjective diagnostic criteria of ADHD.11 In particular, convergence insufficiency has been shown to be a confounder in tests for ADHD.10 It seems reasonable then, if visual disorders that are not associated with decreased vision can mimic attention deficit, that vision impairment can also mimic attention deficit.
+
+The accommodations received by children with vision impairment in the school setting are highly variable and per parent report not always adequate.16 Additionally, children with vision impairment often require additional time to complete detailed or extended visual work. If the accommodations are not adequate, and children cannot see well enough to do the tasks they are asked to do, or if they cannot complete their assignments in a timely manner because of visual problems, they may be inappropriately diagnosed with ADHD.
+
+The prevalence of ADHD in the overall sample in this study is similar to that found in another study of people with albinism (22.7%),9 suggesting that this finding is not unique to our sample. In our study the prevalence of ADHD in those with albinism was only slightly lower, at 20% (8/40). The study on ADHD in albinism failed to find a relationship between best-corrected visual acuity and ADHD diagnosis. The present study found that among children with vision impairment from a variety of causes, those with better visual acuity were more likely to be diagnosed with ADHD. One possible explanation is that those with worse visual acuity also had a more visible ocular defect that served as a reminder of the vision impairment.
+
+We found that children with nystagmus are less likely to be diagnosed with ADHD. Nystagmus is a visible manifestation of an ocular disorder. It is possible that the visible reminder of the child’s impairment prevents those who are truly not ADHD from being mislabeled. The presence of nystagmus in the context of childhood vision impairment means that the impairment was present at or near birth. Perhaps those with very early-onset vision impairment are less susceptible to ADHD. It is also possible that this is a spurious association because all people with albinism have nystagmus (of varying amplitude and frequency) yet the prevalence of ADHD in this subgroup was similar to the overall prevalence of ADHD.
+
+Although preterm birth is known to be associated with ADHD,17 there was not an increased prevalence of ADHD beyond that of other children with visual impairment among the group with retinopathy of prematurity (ROP). It is important to note that children with multiple disabilities, some of whom had ROP, were excluded from our study.
+
+Those with total or near total vision loss were analyzed separately because they would use nonvisual means to complete tasks in school as well as activities of daily living. This group had the lowest prevalence of ADHD, which was nearly equal to the national average. Again, this supports the possibility that the visible evidence of the child’s primary impairment serves as a reminder to the observer that the child’s behavior is strongly influenced by his or her poor vision.
+
+Reporting bias is an unlikely source of the difference between the general population and our sample. Both the NSCH and the current study relied on parent report of ADHD diagnosis. Parent-reported ADHD prevalence has been shown to have convergent validity with ADHD prevalence determined using medical records and well-defined criteria.18
+
+A strength of this study is the relatively large sample size of the study population (n = 264), given the low incidence of pediatric visual impairment. The study is limited by the possibility of selection bias. Parents who are motivated to have their child attend either a school for the blind or to have a clinical low vision evaluation may also be more likely to investigate other etiologies for behavior issues. They may be more likely to report symptoms of inattention to their pediatrician than those parents of children with visual impairment who do not seek specialized vision services for their child. Additionally, they may be more willing to accept a diagnosis of ADHD. Conversely, some parents may attribute all behavior issues to visual impairment and not seek or accept an ADHD diagnosis. If present, selection bias would likely bias our study away from the null. Our study was also limited to one geographic region in the United States.
+
+In conclusion, the prevalence of parent-reported ADHD among children with vision impairment in the present study is considerably higher than that reported by the Centers for Disease Control and Prevention. Additional studies considering age at time of diagnosis and method of ADHD diagnosis as well as symptoms present and treatment for ADHD among children with visual impairment are underway. These studies will further elucidate the association between vision impairment and ADHD.
+
+Supported by NEI K 23 EY018864 (DKD); EyeSight Foundation of Alabama (DKD, GM, CO); Research to Prevent Blindness (DKD, GM, CO); Able Trust (CO); Alfreda J. Schueler Trust (CO).
+
+http://www.ncbi.nlm.nih.gov/pubmed/24568975

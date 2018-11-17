@@ -1,0 +1,424 @@
+Fermented milk containing Lactobacillus casei strain Shirota preserves the diversity of the gut microbiota and relieves abdominal dysfunction in healthy medical students exposed to academic stress.
+
+ABSTRACT
+
+Stress-induced abdominal dysfunction is an attractive target for probiotics. To investigate the effects of the probiotic Lactobacillus casei strain Shirota on abdominal dysfunction, a double-blind, placebo-controlled trial was conducted with healthy medical students undertaking an authorized nationwide examination for academic advancement. For 8 weeks, until the day before the examination, 23 and 24 subjects consumed an L. casei strain Shirota-fermented milk and a placebo milk daily, respectively. In addition to assessments of abdominal symptoms, psychophysical state, and salivary stress markers, gene expression changes in peripheral blood leukocytes and composition of the gut microbiota were analyzed using DNA microarray analysis and 16S rRNA gene amplicon sequence analysis, respectively, before and after the intervention. Stress-induced increases in a visual analog scale measuring feelings of stress, the total score of abdominal dysfunction, and the number of genes with changes in expression of more than 2-fold in leukocytes were significantly suppressed in the L. casei strain Shirota group compared with those in the placebo group. A significant increase in salivary cortisol levels before the examination was observed only in the placebo group. The administration of L. casei strain Shirota, but not placebo, significantly reduced gastrointestinal symptoms. Moreover, 16S rRNA gene amplicon sequencing demonstrated that the L. casei strain Shirota group had significantly higher numbers of species, a marker of the alpha-diversity index, in their gut microbiota and a significantly lower percentage of Bacteroidaceae than the placebo group. Our findings indicate that the daily consumption of probiotics, such as L. casei strain Shirota, preserves the diversity of the gut microbiota and may relieve stress-associated responses of abdominal dysfunction in healthy subjects exposed to stressful situations.
+
+IMPORTANCE A novel clinical trial was conducted with healthy medical students under examination stress conditions. It was demonstrated that the daily consumption of lactic acid bacteria provided health benefits to prevent the onset of stress-associated abdominal symptoms and a good change of gut microbiota in healthy medical students.
+
+INTRODUCTION
+
+The gut microbiota, a large, diverse, and dynamic ecosystem that generates cross talk between the gut and host, can communicate with the host by modulating the gut-brain axis, which is a bidirectional neurohumoral communication system between the gut and brain. That is, signals from the brain modify the motor, sensory, and secretory modalities of the gastrointestinal tract; in turn, signals from the gut can affect emotional behavior and stress and pain modulation systems through neural, endocrine, and immune pathways (1,–3). Thus, the gut-brain axis has now been expanded to the microbiota-gut-brain axis (3).
+
+It is particularly interesting to consider the possibility that probiotics (4), which are live microorganisms, can affect emotion in health and disease by modulating the microbiota-gut-brain axis (5) and confer a health benefit in the host. Previous animal studies have demonstrated that the administration of probiotics maintains mucosal barrier function under stressful situations (6, 7) and mitigates stress-induced glucocorticoid and inflammatory cytokine responses in association with a reduction of depression- and anxiety-related behavior (7,–12). Probiotics have also been shown to reduce the mRNA expression of the gamma-aminobutyric acid (GABA) receptor and c-Fos in the brain (10, 12), possibly by modulating the gut-brain axis via vagal pathways (10, 11). Clinical trials have demonstrated that probiotics have beneficial effects by alleviating psychological distress in healthy subjects (9) and normalizing the stress-induced reduction of natural killer (NK) cell numbers (13) and gastrointestinal symptoms (14). A brief naturalistic stress, such as an academic examination, has been employed frequently to examine psychological stress responses (13, 15,–21). This model was also used to assess stress-associated alteration of the gut microbiota (16) and the effects of prebiotics or probiotics on gastrointestinal dysfunction and/or upper respiratory tract infections (18, 20).
+
+Lactobacillus casei strain Shirota is a well-known probiotic strain that has been approved and is generally recognized as safe by the Food and Drug Administration of the United States. L. casei strain Shirota has been suggested to provide health benefits by balancing the gut microbiota, improving gastrointestinal dysfunction, preventing infection and cancer, and modulating inflammatory and immune responses (22). Previous studies have demonstrated that L. casei strain Shirota improves mood disturbances in the elderly (23) and decreases anxiety symptoms in patients with chronic fatigue syndrome (24), and in a pilot trial, it suppressed the onset of physical symptoms in healthy students exposed to academic stress (21). However, it has not been examined fully whether L. casei strain Shirota relieves psychological stress-induced responses associated with the microbiota-gut-brain axis of healthy subjects.
+
+This double-blind, placebo-controlled, and parallel-group clinical trial was conducted to examine the effect of a fermented milk containing L. casei strain Shirota on stress-induced abdominal dysfunction as a primary endpoint as well as on psychophysical state, salivary stress markers, gene expression changes in peripheral leukocytes, and 16S rRNA gene amplicon sequencing of the gut microbiota in healthy medical students undertaking an authorized nationwide examination for academic advancement.
+
+MATERIALS AND METHODS
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+Stress-induced abdominal dysfunction is an attractive target for probiotics. To investigate the effects of the probiotic Lactobacillus casei strain Shirota on abdominal dysfunction, a double-blind, placebo-controlled trial was conducted with healthy medical students undertaking an authorized nationwide examination for academic advancement. For 8 weeks, until the day before the examination, 23 and 24 subjects consumed an L. casei strain Shirota-fermented milk and a placebo milk daily, respectively. In addition to assessments of abdominal symptoms, psychophysical state, and salivary stress markers, gene expression changes in peripheral blood leukocytes and composition of the gut microbiota were analyzed using DNA microarray analysis and 16S rRNA gene amplicon sequence analysis, respectively, before and after the intervention. Stress-induced increases in a visual analog scale measuring feelings of stress, the total score of abdominal dysfunction, and the number of genes with changes in expression of more than 2-fold in leukocytes were significantly suppressed in the L. casei strain Shirota group compared with those in the placebo group. A significant increase in salivary cortisol levels before the examination was observed only in the placebo group. The administration of L. casei strain Shirota, but not placebo, significantly reduced gastrointestinal symptoms. Moreover, 16S rRNA gene amplicon sequencing demonstrated that the L. casei strain Shirota group had significantly higher numbers of species, a marker of the alpha-diversity index, in their gut microbiota and a significantly lower percentage of Bacteroidaceae than the placebo group. Our findings indicate that the daily consumption of probiotics, such as L. casei strain Shirota, preserves the diversity of the gut microbiota and may relieve stress-associated responses of abdominal dysfunction in healthy subjects exposed to stressful situations.
+
+IMPORTANCE A novel clinical trial was conducted with healthy medical students under examination stress conditions. It was demonstrated that the daily consumption of lactic acid bacteria provided health benefits to prevent the onset of stress-associated abdominal symptoms and a good change of gut microbiota in healthy medical students.
+
+The gut microbiota, a large, diverse, and dynamic ecosystem that generates cross talk between the gut and host, can communicate with the host by modulating the gut-brain axis, which is a bidirectional neurohumoral communication system between the gut and brain. That is, signals from the brain modify the motor, sensory, and secretory modalities of the gastrointestinal tract; in turn, signals from the gut can affect emotional behavior and stress and pain modulation systems through neural, endocrine, and immune pathways (1,–3). Thus, the gut-brain axis has now been expanded to the microbiota-gut-brain axis (3).
+
+It is particularly interesting to consider the possibility that probiotics (4), which are live microorganisms, can affect emotion in health and disease by modulating the microbiota-gut-brain axis (5) and confer a health benefit in the host. Previous animal studies have demonstrated that the administration of probiotics maintains mucosal barrier function under stressful situations (6, 7) and mitigates stress-induced glucocorticoid and inflammatory cytokine responses in association with a reduction of depression- and anxiety-related behavior (7,–12). Probiotics have also been shown to reduce the mRNA expression of the gamma-aminobutyric acid (GABA) receptor and c-Fos in the brain (10, 12), possibly by modulating the gut-brain axis via vagal pathways (10, 11). Clinical trials have demonstrated that probiotics have beneficial effects by alleviating psychological distress in healthy subjects (9) and normalizing the stress-induced reduction of natural killer (NK) cell numbers (13) and gastrointestinal symptoms (14). A brief naturalistic stress, such as an academic examination, has been employed frequently to examine psychological stress responses (13, 15,–21). This model was also used to assess stress-associated alteration of the gut microbiota (16) and the effects of prebiotics or probiotics on gastrointestinal dysfunction and/or upper respiratory tract infections (18, 20).
+
+Lactobacillus casei strain Shirota is a well-known probiotic strain that has been approved and is generally recognized as safe by the Food and Drug Administration of the United States. L. casei strain Shirota has been suggested to provide health benefits by balancing the gut microbiota, improving gastrointestinal dysfunction, preventing infection and cancer, and modulating inflammatory and immune responses (22). Previous studies have demonstrated that L. casei strain Shirota improves mood disturbances in the elderly (23) and decreases anxiety symptoms in patients with chronic fatigue syndrome (24), and in a pilot trial, it suppressed the onset of physical symptoms in healthy students exposed to academic stress (21). However, it has not been examined fully whether L. casei strain Shirota relieves psychological stress-induced responses associated with the microbiota-gut-brain axis of healthy subjects.
+
+This double-blind, placebo-controlled, and parallel-group clinical trial was conducted to examine the effect of a fermented milk containing L. casei strain Shirota on stress-induced abdominal dysfunction as a primary endpoint as well as on psychophysical state, salivary stress markers, gene expression changes in peripheral leukocytes, and 16S rRNA gene amplicon sequencing of the gut microbiota in healthy medical students undertaking an authorized nationwide examination for academic advancement.
+Test beverages. 
+
+
+
+Test beverages included milk fermented with L. casei strain Shirota YIT 9029, obtained from the Culture Collection Research Laboratory of Yakult Central Institute (Tokyo, Japan), and placebo milk, i.e., nonfermented milk with the same nutritional content, color, flavor, taste, and pH as the L. casei strain Shirota-fermented milk (see Table S1 in the supplemental material) (21). The beverages were distributed and stored at 0 to 10°C. The L. casei strain Shirota-fermented milk contained L. casei strain Shirota at more than 1.0 × 1011 CFU per 100-ml bottle during the intervention.
+Subjects. 
+
+
+
+This study was conducted according to the guidelines laid down in the Declaration of Helsinki, and all procedures involving human subjects were approved by the Institutional Review Board of Tokushima University Hospital, Tokushima, Japan. Written informed consent was obtained from all subjects prior to enrollment. Subjects included 54 4th-grade medical students at Tokushima University, Japan, undertaking an authorized nationwide (computer-based) examination for academic advancement, covering all subjects in basic and clinical medicine. As described previously (17, 19, 21), in Japan, passing the examination is required for promotion to the clinical bedside training level (the 5th grade). This 1-day examination is one of the most stressful events for all Japanese medical students. Of the 54 students recruited, 5 were excluded on the basis of the following criteria: age of >30 years, habitual smoking, taking medication for 3 months prior to enrollment, mental disease and/or other diseases, or milk or other food allergies. Thus, 49 students (27 males and 22 females) participated in this study. During the trial, the subjects complied with dietary restrictions to avoid the consumption of other fermented milks, yogurt, lactic acid bacteria beverages, and probiotic or prebiotic products. Medications and hospital visits were allowed and were recorded in a diary.
+Design. 
+
+
+
+A double-blind, placebo-controlled, and parallel-group trial was registered to the university hospital medical information network (UMIN) clinical trials registry. The registered number was UMIN000011926. The trial was conducted from October 2013 to January 2014. According to its randomized design, the subjects were allocated to the L. casei strain Shirota or placebo group based on their background data as shown in Table 1. A 100-ml bottle of either fermented milk containing L. casei strain Shirota or placebo milk was taken daily for 8 weeks until the day before the examination. Daily consumption was self-recorded in a diary to check the compliance rate of consumption. The trial was composed of a preintervention period of 2 weeks, an intervention period of 8 weeks, and a postintervention period (postexamination period) of 2 weeks (Fig. 1).
+
+Backgrounds of the subjectsa
+
+Experimental design.
+Abdominal dysfunction. 
+
+
+
+The subjects answered a questionnaire to evaluate five common abdominal symptoms, “abdominal discomfort and pain,” “feeling of incomplete evacuation,” “abdominal distention,” “straining during bowel movement,” and “gastric pain,” with scoring for each symptom in every week during the experimental period as follows: 0, none; 1, light; 2, medium; 3, severe; and 4, very severe. Every 2 weeks during the experimental period, the total abdominal dysfunction score, which was the sum of each score, for each subject was analyzed as the primary endpoint. Each symptom score was also analyzed as a sub-endpoint of abdominal dysfunction. Moreover, gastrointestinal dysfunction was evaluated using the gastrointestinal symptom rating scale (GSRS) (Japanese version) (25), showing that higher scores indicate more severe symptoms. The total score and five subscale scores on the GSRS—acid reflux syndrome, abdominal pain syndrome, indigestion syndrome, diarrhea syndrome, and constipation syndrome—were analyzed every 2 weeks during the experimental period.
+Psychological parameters. 
+
+
+
+The subjects answered questionnaires from the Japanese version of the State-Trait Anxiety Inventory (STAI) (26) to evaluate state and trait anxiety levels during the experimental period and the Japanese version of the NEO Five-Factor Inventory (NEO-FFI) (27) to evaluate five personality traits (neuroticism, extraversion, openness, agreeableness, and conscientiousness) at the time of screening. Feelings of stress were surveyed using a visual analog scale (VAS) from 0 mm for no stress to 100 mm for the most severe stress with an intolerable feeling every 2 weeks during the experimental period.
+Salivary cortisol and alpha-amylase. 
+
+
+
+Saliva was collected for 2 min between 16:00 and 17:00 to avoid diurnal fluctuations using a Salivette sampling device (Sarstedt, Inc., Rommelsdorf, Germany) prior to blood collection (17). After storage at −80°C, salivary cortisol levels and alpha-amylase activity were assayed using a commercial enzyme-linked immunosorbent assay kit (Salimetrics LLC, Carlsbad, CA, USA).
+NK cells in blood. 
+
+
+
+Peripheral venous blood was taken between 16:00 and 17:00 after the collection of saliva. NK cell activity was analyzed and the number of NK cells (CD3− CD16+ CD56+) in peripheral blood mononuclear cells was determined by chromium release assay using 51Cr-labeled K562 as a target cell and by flow cytometry, respectively, as described previously (28).
+DNA microarray. 
+
+
+
+According to the previously reported method (29), gene expression and pathway analyses in peripheral leukocytes were conducted for 12 male subjects in each group. DNA microarray analysis was performed using high-quality total RNA purified leukocytes, a whole human genome oligonucleotide DNA microarray (SurePrint G3 Human GE 8 × 60K v2; Agilent), a G2565BA microarray scanner (Agilent), and Feature Extraction 10 software (Agilent). Using GeneSpring GX 10 (v11.5.1; Agilent), 19,194 probes with fluorescence intensities higher than the cutoff value of 50 among all samples were analyzed. The total number of genes that changed their mean expression levels by more than 2-fold compared (P < 0.05, unpaired Student's t test) with the baseline was counted. Pathway analysis was performed using the Ingenuity pathway analysis (IPA) software (http://www.ingenuity.com/products/ipa) to identify biological functions related to differentially expressed genes.
+Living fecal Lactobacillus casei strain Shirota. 
+
+
+
+According to the previously reported method (21), the numbers of living fecal L. casei strain Shirota CFU per gram of feces, collected 8 weeks before (baseline), 2 weeks before, 3 to 1 days before, and 2 weeks after the examination, were determined by the culture method using a lactitol-LBS-vancomycin (LLV) agar medium, and the strain was identified by colony PCR using an L. casei strain Shirota-specific PCR primer set.
+Amplicon sequencing of the gut microbiota targeting the 16S rRNA gene. 
+
+
+
+The gut microbiota was analyzed by amplicon analysis targeting the 16S rRNA gene. A DNA library was prepared from the collected fecal samples, sequenced, and analyzed. Briefly, the V1 to V2 region of the 16S rRNA gene of the gut microbiota was amplified using the primer set 27Fmod2-MiSeqV2 and 338RMiSeqV2-001 (see Table S2 in the supplemental material) (30) to monitor DNA amplification in a 7500 real-time PCR (Applied Biosystems, Life Technologies Japan, Tokyo, Japan). PCR was terminated before the amplification curves reached a plateau. The amplified DNA was purified using an Agencourt AMPure XP kit (Beckman Coulter, Tokyo, Japan), quantified using a Quant-iT PicoGreen double-stranded DNA (dsDNA) assay kit (Life Technologies Japan), diluted, and sequenced using a MiSeq system (Illumina, Tokyo, Japan). Composition and the number of observed species of gut microbiota were determined using QIIME software (31).
+Questionnaires about lifestyle and general health. 
+
+
+
+At the time of screening, lifestyle was assessed with a questionnaire using the Japanese version of the health practice index (HPI) (32). General health was evaluated with a questionnaire using the Japanese version of the General Health Questionnaire-28 (GHQ-28) during the experimental period (33).
+Other questionnaires. 
+
+
+
+At the end of the trial, questionnaires were administered regarding influenza vaccination, habitual consumption of probiotics or yogurt before starting the trial, and the feeling of the severity of examination grind. The question “Which do you think you took, active or placebo?” was also asked.
+Statistical analysis. 
+
+
+
+The data are shown as means plus or minus standard errors (SEs). All data were analyzed using SAS preclinical package v5.0 (SAS Institute Japan, Tokyo, Japan). Questionnaire data at each point were analyzed by Wilcoxon's rank sum test between the groups and by Dunnett's multiple-comparison test within a group. Questionnaire data and feelings of stress according to VAS were analyzed by two-way analysis of variance (ANOVA) between the groups during the experimental period. The salivary and fecal data were analyzed by the unpaired Student's t test between the groups and by Dunnett's multiple-comparison test within a group. The relative change of gene expression was also analyzed by the unpaired Student's t test within a group. The number of subjects in the questionnaire data and genes with expression changes were analyzed by Fisher's exact test within and between the groups. Data from the 16S rRNA gene amplicon sequencing were analyzed by Wilcoxon's signed-rank test within a group and by the Mann-Whitney U test between the groups. Two-sided P values of less than 0.05 were considered to indicate statistical significance.
+
+RESULTS
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+Stress-induced abdominal dysfunction is an attractive target for probiotics. To investigate the effects of the probiotic Lactobacillus casei strain Shirota on abdominal dysfunction, a double-blind, placebo-controlled trial was conducted with healthy medical students undertaking an authorized nationwide examination for academic advancement. For 8 weeks, until the day before the examination, 23 and 24 subjects consumed an L. casei strain Shirota-fermented milk and a placebo milk daily, respectively. In addition to assessments of abdominal symptoms, psychophysical state, and salivary stress markers, gene expression changes in peripheral blood leukocytes and composition of the gut microbiota were analyzed using DNA microarray analysis and 16S rRNA gene amplicon sequence analysis, respectively, before and after the intervention. Stress-induced increases in a visual analog scale measuring feelings of stress, the total score of abdominal dysfunction, and the number of genes with changes in expression of more than 2-fold in leukocytes were significantly suppressed in the L. casei strain Shirota group compared with those in the placebo group. A significant increase in salivary cortisol levels before the examination was observed only in the placebo group. The administration of L. casei strain Shirota, but not placebo, significantly reduced gastrointestinal symptoms. Moreover, 16S rRNA gene amplicon sequencing demonstrated that the L. casei strain Shirota group had significantly higher numbers of species, a marker of the alpha-diversity index, in their gut microbiota and a significantly lower percentage of Bacteroidaceae than the placebo group. Our findings indicate that the daily consumption of probiotics, such as L. casei strain Shirota, preserves the diversity of the gut microbiota and may relieve stress-associated responses of abdominal dysfunction in healthy subjects exposed to stressful situations.
+
+IMPORTANCE A novel clinical trial was conducted with healthy medical students under examination stress conditions. It was demonstrated that the daily consumption of lactic acid bacteria provided health benefits to prevent the onset of stress-associated abdominal symptoms and a good change of gut microbiota in healthy medical students.
+
+The gut microbiota, a large, diverse, and dynamic ecosystem that generates cross talk between the gut and host, can communicate with the host by modulating the gut-brain axis, which is a bidirectional neurohumoral communication system between the gut and brain. That is, signals from the brain modify the motor, sensory, and secretory modalities of the gastrointestinal tract; in turn, signals from the gut can affect emotional behavior and stress and pain modulation systems through neural, endocrine, and immune pathways (1,–3). Thus, the gut-brain axis has now been expanded to the microbiota-gut-brain axis (3).
+
+It is particularly interesting to consider the possibility that probiotics (4), which are live microorganisms, can affect emotion in health and disease by modulating the microbiota-gut-brain axis (5) and confer a health benefit in the host. Previous animal studies have demonstrated that the administration of probiotics maintains mucosal barrier function under stressful situations (6, 7) and mitigates stress-induced glucocorticoid and inflammatory cytokine responses in association with a reduction of depression- and anxiety-related behavior (7,–12). Probiotics have also been shown to reduce the mRNA expression of the gamma-aminobutyric acid (GABA) receptor and c-Fos in the brain (10, 12), possibly by modulating the gut-brain axis via vagal pathways (10, 11). Clinical trials have demonstrated that probiotics have beneficial effects by alleviating psychological distress in healthy subjects (9) and normalizing the stress-induced reduction of natural killer (NK) cell numbers (13) and gastrointestinal symptoms (14). A brief naturalistic stress, such as an academic examination, has been employed frequently to examine psychological stress responses (13, 15,–21). This model was also used to assess stress-associated alteration of the gut microbiota (16) and the effects of prebiotics or probiotics on gastrointestinal dysfunction and/or upper respiratory tract infections (18, 20).
+
+Lactobacillus casei strain Shirota is a well-known probiotic strain that has been approved and is generally recognized as safe by the Food and Drug Administration of the United States. L. casei strain Shirota has been suggested to provide health benefits by balancing the gut microbiota, improving gastrointestinal dysfunction, preventing infection and cancer, and modulating inflammatory and immune responses (22). Previous studies have demonstrated that L. casei strain Shirota improves mood disturbances in the elderly (23) and decreases anxiety symptoms in patients with chronic fatigue syndrome (24), and in a pilot trial, it suppressed the onset of physical symptoms in healthy students exposed to academic stress (21). However, it has not been examined fully whether L. casei strain Shirota relieves psychological stress-induced responses associated with the microbiota-gut-brain axis of healthy subjects.
+
+This double-blind, placebo-controlled, and parallel-group clinical trial was conducted to examine the effect of a fermented milk containing L. casei strain Shirota on stress-induced abdominal dysfunction as a primary endpoint as well as on psychophysical state, salivary stress markers, gene expression changes in peripheral leukocytes, and 16S rRNA gene amplicon sequencing of the gut microbiota in healthy medical students undertaking an authorized nationwide examination for academic advancement.
+Inclusion of subjects. 
+
+
+
+Of the 54 subjects who consented, 5 were excluded due to habitual smoking (2 students), an age of 30 years or older (2 students), and abnormally high scores for the STAI-trait and GHQ-28 (1 student). The remaining 49 subjects were allocated to the placebo group (25 subjects) or the L. casei strain Shirota group (24 subjects). There were no differences between the two groups in the following background data at the time of screening: age, sex, body mass index (BMI), STAI-state score, STAI-trait score, GHQ-28 score, HPI score, NEO-FFI score, and salivary cortisol level. In addition, 2 students dropped out before consumption of the test beverages for personal reasons. Finally, 24 and 23 students, who took the test beverages, were included in the placebo and L. casei strain Shirota groups, respectively. There were no significant differences in the background data between the two groups, and no subjects had abnormal background data at the time of screening (Table 1).
+Compliance and living fecal Lactobacillus casei strain Shirota. 
+
+
+
+The compliance rates for the consumption of placebo and L. casei strain Shirota milk were 99% and 99%, respectively. As shown in Table 2, in the L. casei strain Shirota group, living L. casei strain Shirota was detected in all fecal samples collected at 2 weeks and a few days before the examination. The mean logarithmic CFU value per gram of feces was 7.5. In contrast, in the placebo group, living L. casei strain Shirota was detected in 1 to 3 subjects during the trial. Their mean logarithmic CFU values per gram of feces ranged from 3.5 to 4.3. There were no significant differences in the numbers of L. casei strain Shirota-positive subjects and the average numbers of L. casei strain Shirota CFU between the two groups before and at 2 weeks after intervention. The average number of L. casei strain Shirota CFU in the L. casei strain Shirota group approximately coincided with that in a previous report (21, 34), indicating that this trial was performed in compliance with the consumption of test beverages in subjects.
+
+Time-dependent changes in the number of living L. casei strain Shirota CFU in fecesa
+Psychological and physiological parameters. 
+
+
+
+Figure 2A through ​throughDD show the time-dependent changes in the STAI-state scores, feelings of stress according to the VAS, salivary cortisol levels, and alpha-amylase activities in saliva, respectively, during the experimental period. In the two groups, the STAI-state scores were within normal levels 8 weeks before the examination (baseline), were significantly elevated by approximately 10 points 1 day before the examination compared with baseline scores (each P < 0.05, Dunnett's multiple-comparison test), and returned to baseline scores at 2 weeks after the examination. There was no significant difference in the STAI-state scores between the two groups. The VAS measuring feelings of stress also peaked at 7 to 8 weeks (corresponding to 0 to 2 weeks before the examination) and decreased rapidly after the examination. During the experimental period, the administration of L. casei strain Shirota significantly lowered VAS results compared with those of the placebo control (P < 0.05, two-way ANOVA). Salivary cortisol levels increased significantly (P < 0.05, Dunnett's multiple-comparison test) 1 day before the examination in the placebo group compared with the baseline levels, while no significant elevation of salivary cortisol was observed in the L. casei strain Shirota group during the experimental period. There was no significant change in alpha-amylase activity in saliva at each time point in the two groups during the experimental period.
+
+Effect on the time-dependent changes of psychological and physiological stress markers during the experimental period. STAI-state score (A), VAS measure feelings of stress (B), salivary cortisol (C), and salivary alpha-amylase activity (D). One subject in the L. casei strain Shirota (LcS) group was excluded from the analysis because no questionnaires were collected. Values indicate the means ± SE. Data were analyzed by Dunnett's multiple-comparison test within a group and two-way ANOVA between the groups. #, P < 0.05 between the two groups; *, P < 0.05; and **, P < 0.01 versus baseline.
+Abdominal dysfunction and the GSRS. 
+
+
+
+Figure 3A and ​andBB show the time-dependent changes in the total scores of abdominal dysfunction and GSRS, respectively. Although the total score seemed to increase at 7 to 8 weeks (1 to 2 weeks before the examination) in the placebo group, there was no significant change in this score. In contrast, the administration of L. casei strain Shirota gradually reduced abdominal dysfunction; the abdominal dysfunction score was significantly lower in the L. casei strain Shirota group than in the placebo group during the experimental period (P < 0.05, two-way ANOVA). In a similar manner, the total GSRS score remained constant in the placebo group, while it decreased after starting L. casei strain Shirota administration and was significantly lower at 5 to 6 weeks and during the postintervention period than the baseline score (preintervention) (each P < 0.05, Dunnett's multiple-comparison test).
+
+Effect on the time-dependent changes of abdominal dysfunction during the experimental period. Total scores of abdominal dysfunction (A), total GSRS scores (B), changed score of “abdominal discomfort and pain” from the preintervention period in subjects without symptoms during the preintervention period (the placebo group, n = 9; the L. casei strain Shirota [LcS] group, n = 14) (C), and changed score of “abdominal discomfort and pain” from the preintervention period in subjects with symptoms during the preintervention period (the placebo group, n = 15; the L. casei strain Shirota group, n = 8) (D). One subject in the L. casei strain Shirota group was excluded from the analysis because no questionnaires were collected. Values indicate the means ± SE. Data were analyzed by Dunnett's multiple-comparison test within a group and two-way ANOVA between the groups. #, P < 0.05; ##, P < 0.01 between both groups; *, P < 0.05 versus preintervention period.
+
+The changes in the scores of “abdominal discomfort and pain” were analyzed separately in the symptom-free subjects during the preintervention period (the placebo group, n = 9; the L. casei strain Shirota group, n = 14) (Fig. 3C) and in subjects who already complained of these symptoms at that time (the placebo group, n = 15; the L. casei strain Shirota group, n = 8) (Fig. 3D). In the subjects without symptoms during the preintervention period, scores increased in the placebo group but not in the L. casei strain Shirota group during the experimental period. Consequently, the scores were significantly lower in the L. casei strain Shirota group than in the placebo group during the intervention and postintervention periods (P < 0.01, two-way ANOVA). Furthermore, in the subjects with symptoms during the preintervention period, scores did not change in the placebo group during the intervention period, while they decreased in the L. casei strain Shirota group. Consequently, scores were significantly lower in the L. casei strain Shirota group than in the placebo group during the intervention and postintervention periods (P < 0.05, two-way ANOVA).
+Effects on NK cells. 
+
+
+
+As shown in Table 3, the changes in NK cell activity were similar in the two groups, increasing at 2 weeks before the examination, decreasing immediately after the examination, and partially recovering at 2 weeks after the examination. Significantly reduced NK cell activity was observed immediately after the examination compared with baseline activity at 8 weeks before the examination in the placebo group (P < 0.05, Dunnett's multiple-comparison test) but not in the L. casei strain Shirota group. Also, significantly reduced NK cell numbers were observed 2 weeks before, immediately after, and 2 weeks after the examination in the placebo group compared with the baseline numbers (P < 0.05, 0.01, and 0.01, respectively, Dunnett's multiple-comparison test), whereas this was the case only immediately after the examination in the L. casei strain Shirota group (P < 0.01, Dunnett's multiple-comparison test). However, there were no significant differences in the activity and numbers of NK cells between the two groups at any time point.
+
+Time-dependent changes in the activity and number of NK cells in blooda
+DNA microarray. 
+
+
+
+To analyze changes in gene expression in circulating leukocytes during the experimental period, we assessed gene expression profiles 8 weeks before (baseline) or 2 weeks after the examination to identify a suitable control. In the two groups, the relative changes in gene expression became more extensive 2 weeks after the examination compared with that at baseline, suggesting that the altered gene expression in leukocytes did not return fully to baseline at 2 weeks after the examination (Fig. 4A). Therefore, the baseline was used as a control in the subsequent analysis.
+
+Effects on the changes of gene expression in peripheral blood leukocytes. Normalized intensity of gene expression changes (A) and the number of genes with a change in expression of more than 2-fold compared with that at baseline (P < 0.05, unpaired Student's t test) (B). Gene expression change in peripheral blood leukocytes was determined by microarray analysis, and 19,194 probes, having fluorescence intensities higher than the cutoff value of 50 among all samples, were analyzed. Data were analyzed by Fisher's exact test. #, P < 0.05; ###, P < 0.001 between the two groups. LcS, L. casei strain Shirota.
+
+The stressful situation significantly changed the expression levels of >100 genes during the preexamination period that then started to return to the baseline profile immediately after the examination in the placebo group. One day before the examination, the 179 differentially expressed genes in the placebo group were subjected to canonical pathway and functional enrichment analyses using the IPA software. IPA ranked “FXR/RXR activation” and “adipogenesis pathway” as the top two canonical pathways and “lipid metabolism” as the top of the diseases and bio-functions (see Tables S3 and S4 in the supplemental material). Expression of a similar group of genes was changed in the L. casei strain Shirota group (Table S3). However, L. casei strain Shirota administration significantly reduced the number of stress-responsive genes 1 day before (86 genes in the L. casei strain Shirota group versus 179 genes in placebo group; P < 0.001, Fisher's exact test) and immediately after the examination (1 gene in the L. casei strain Shirota group versus 8 genes in placebo group; P < 0.05, Fisher's exact test) (Fig. 4B; Table S3).
+Gut microbiota. 
+
+
+
+Figure 5A through ​throughDD show changes in the fecal microbiota as the composition of phyla, the number of observed species as a marker of the alpha-diversity index, the percentage of Bacteroidetes in the phyla, and the percentage of Bacteroidaceae in the families, respectively, at a few days before intervention (baseline) and at a few days before the examination. Firmicutes, Bacteroidetes, and Actinobacteria were the main phyla of gut microbiota in the two groups at each analyzed point. Although there was no significant difference between the two groups at each time point, the percentage of Bacteroidetes in the phyla tended to increase between baseline and before the examination in the placebo group (P = 0.079, Wilcoxon's rank sum test) but not in the L. casei strain Shirota group. Furthermore, before the examination, the percentage of Bacteroidaceae was significantly lower in the L. casei strain Shirota group than in the placebo group (P < 0.05, Mann-Whitney U test). Moreover, the number of observed species was significantly higher in the L. casei strain Shirota group than in the placebo group before the examination (P < 0.05, Mann-Whitney U test) but not at baseline. Finally, there was a significantly higher value of phylogenic diversity, as another measure of the alpha-diversity index, in the L. casei strain Shirota group than in the placebo group before the examination (P < 0.05, Mann-Whitney U test) but not at baseline (data not shown).
+
+Effects on the composition of the gut microbiota. Composition of phyla (A), number of observed species (B), percentage of Bacteroidetes in the phyla (C), and percentage of Bacteroidaceae in the families (D). (B to D) Values indicate the means ± SE. Data were analyzed by Wilcoxon's signed-rank test within a group and Mann-Whitney U test between the groups. #, P < 0.05 between the two groups. LcS, L. casei strain Shirota.
+
+The correlation coefficients between the change in the number of observed species and the change in other markers during the intervention period were analyzed. Although the change in the number of observed species was significantly and positively correlated with that of the percentage of Firmicutes (P < 0.001, Pearson product-moment correlation coefficient), the other parameters did not show significant correlation with the number of observed species (data not shown).
+
+To further understand the biological meanings of the changes in gut microbiota, the Shannon index was calculated, as another measure of the alpha-diversity index, separately in the symptom-free subjects during the preintervention period (9 students in the placebo group and 14 students in the L. casei strain Shirota group) and in subjects who already complained of abdominal symptoms at that time (15 students in the placebo group and 8 students in the L. casei strain Shirota group). As shown in Table S5 in the supplemental material, in the absence of preexisting abdominal symptoms, the Shannon index decreased during the preexamination period in the placebo group (P < 0.05, Wilcoxon signed-rank test), whereas it remained constant in the L. casei strain Shirota group. Consequently, the Shannon index was significantly different between the two groups (P < 0.05 by Mann-Whitney U test) (Table S5). In contrast, we did not detect such differences in subjects who already complained of abdominal symptoms during the preintervention period (Table S5).
+Other questionnaires. 
+
+
+
+There were no significant time-dependent changes in the total score of the GHQ-28 in each group and between the two groups at each time point. Subanalysis found that the score for anxiety and insomnia increased significantly immediately after the examination in only the placebo group, while it was at a constant level in the L. casei strain Shirota group during the experimental period (P < 0.05, Dunnett's multiple-comparison test) (see Table S6 in the supplemental material). However, there was no significant difference between the two groups (Wilcoxon's rank sum test).
+
+Between the two groups, there were no significant differences in the rate of vaccination against influenza, the habitual consumption of probiotics and yogurt before the trial, and the feeling of the severity of examination grind. For the question “Which did you take, active or placebo?” at the end of the trial, the numbers of subjects who answered active, placebo, and unknown were 10, 7, and 7, respectively, in the placebo group (n = 24) and 7, 7, and 9, respectively, in the L. casei strain Shirota group (n = 23), suggesting that there was no significant difference in the accuracy rates of the answers between the two groups (P > 0.1, Fisher's exact test) (see Table S7 in the supplemental material). Moreover, there was no significant difference in the examination pass rates between the two groups (data not shown). Thus, we confirmed that there was no bias in this double-blind trial.
+
+DISCUSSION
+
+A double-blind, placebo-controlled, and parallel-group trial was conducted to examine the effects of a fermented milk containing the probiotic L. casei strain Shirota on the psychological, physiological, and physical stress responses of healthy medical students undertaking an authorized, nationwide examination for academic advancement, which has been used as a brief naturalistic stress model (17, 19, 21). We focused on stress-induced abdominal dysfunction as the primary endpoint. In addition, we examined whether L. casei strain Shirota administration affected gene expression profiles in peripheral leukocytes and how L. casei strain Shirota modified the stress-induced changes in the composition of the gut microbiota. The present study demonstrated that the daily consumption of L. casei strain Shirota significantly reduced abdominal dysfunction, the VAS measuring feelings of stress, and gene expression changes and preserved the alpha-diversity index of the gut microbiota compared with those of the placebo control.
+
+In the placebo group, the STAI-state score, the VAS measuring feelings of stress, and the salivary cortisol level increased with a peak at 1 day before the examination. Consistent with previous studies (17, 19, 21), the psychological and physiological stress parameters observed in this study also support the observation that students display maximum stress responses on the day before an examination, demonstrating the validity of the present stress model.
+
+The GSRS is used widely to assess the symptoms of irritable bowel syndrome (IBS) and functional dyspepsia, both of which are aggravated under stressful conditions (25). In fact, brief naturalistic stress is directly related to the onset of symptoms of gastrointestinal dysfunction (14, 18). Subanalysis of the items of abdominal dysfunction (see Table S8 in the supplemental material) and the GSRS (see Table S9 in the supplemental material) showed that the scores for “abdominal discomfort and pain” in the former as well as for “indigestion” and “diarrhea” in the latter increased at 1 to 2 weeks before the examination in the placebo group and that the daily consumption of L. casei strain Shirota resulted in a tendency toward improvement in “abdominal discomfort and pain” as assessed by the abdominal dysfunction score and a significant improvement of “indigestion” as assessed by the GSRS score. Moreover, stratified analysis of “abdominal discomfort and pain” revealed that the daily consumption of L. casei strain Shirota not only prevented its onset in the symptom-free subjects but also improved “abdominal discomfort and pain” in those subjects who already complained of these symptoms during the preintervention period. In addition, the augmentation of salivary cortisol level was suppressed in the L. casei strain Shirota group in this study. Therefore, direct action of L. casei strain Shirota on stress responses may be involved in the alleviation of gastrointestinal dysfunction in healthy medical students exposed to academic stress.
+
+The serotonergic system may be one of the potential nodes in the regulation of the gut-brain axis (35). Recently, the gut microbiota was reported to influence tryptophan metabolism and serotonin biosynthesis (35, 36). In addition, 16S rRNA gene amplicon sequence analysis of gut microbiota showed that IBS patients had reduced diversity in the gut microbiota (37, 38) and higher percentages of Bacteroidetes at the phylum level of microbiota in lower intestinal mucosa compared with those of healthy controls and that probiotic treatment increased the percentage to the healthy control level (38). Moreover, the gut microbiota of patients with depression reportedly shows higher percentages of Bacteroidaceae and lower percentages of Lachnospiraceae at the family level compared with those of healthy controls (39). On the basis of these findings, we examined the effects of L. casei strain Shirota on the gut microbiota by 16S rRNA gene amplicon sequence analysis and found that the percentage of Bacteroidetes at the phylum level tended to increase before the examination only in the placebo group. The daily consumption of L. casei strain Shirota significantly reduced the percentage of Bacteroidaceae at the family level. The L. casei strain Shirota-induced changes in Bacteroidaceae may be associated with the improvement of abdominal dysfunction in our subjects. The present study also revealed that the number of microbiota species, observed as a measure of the alpha-diversity index, was significantly higher in the L. casei strain Shirota group than in the placebo group before the examination, which was similar between the two groups before the intervention. A recent report demonstrated that probiotic treatment increases the Shannon index in healthy subjects (40). Additional analysis in the present study demonstrated that the consumption of L. casei strain Shirota suppressed not only the onset of abdominal dysfunction but also the decrease in Shannon index under academic examination stress compared with consumption of a placebo; however, these effects were observed in the 23 subjects who were symptom free during the preintervention period but not in the 24 subjects who already complained of abdominal symptoms at that time. Therefore, it is possible to speculate that the onset of abdominal dysfunction may be associated with the decrease in alpha diversity of gut microbiota in healthy, abdominal symptom-free adults. Thus, the alpha-diversity index may be a potential marker for the association between the gut microbiota and physiological changes not only in IBS patients but also in healthy young adults exposed to brief naturalistic stressors.
+
+We also assessed the stress response in a different way by measuring the time-dependent changes in gene expression in peripheral leukocytes using a whole human genome array. The expression levels of approximately 100 genes changed by 2-fold in the L. casei strain Shirota and placebo groups compared with those measured at 2 weeks before the examination. In the placebo group, the number of stress-responsive genes increased to 179 genes, whereas the daily consumption of L. casei strain Shirota almost completely prevented the additional changes in gene expression. The pathway analysis of the 179 stress-responsive genes showed that the academic examination preferentially affected a group of genes related to lipid metabolism (e.g., ERCC2, FGF1, PPARGC1A, RARA, SREBF1). Interestingly, our previous study revealed that L. casei strain Shirota attenuated lipid metabolism via suppression of sympathetic nerve activity (41). The L. casei strain Shirota administration prevented the additional changes in gene expression levels, including those of lipid metabolism-related genes (ERCC2, FGF1, PPARGC1A). These results suggest that L. casei strain Shirota administration may suppress the systemic stress response when confronted with academic stress, which may be associated with the reduction of feelings of stress assessed by the VAS and abdominal dysfunction.
+
+The activity of NK cells is also known to be changed by acute psychological stress (42) and to be reduced by an increase in cortisol levels (43). In the present study, NK cell activity was maintained at a relatively high level during the preexamination period but was reduced immediately after the examination in the two groups. Although there was no significant difference in NK cell activity between groups, L. casei strain Shirota consumption prevented the significant reduction of NK cell activity immediately after the examination and the significant decline of NK cell numbers at 2 weeks before and 2 weeks after the examination, all of which were observed in the placebo group. It has been demonstrated that L. casei strain Shirota recovers NK cell activity in subjects with low NK cell activity (44). Therefore, it is possible to speculate that daily L. casei strain Shirota consumption may preserve NK cell function under stressful situations.
+
+The major limitation of this study was its lack of statistical power because of its small sample of participants. Around 100 students in each medical school in Japan are challenging the examination for academic advancement every year, and about half of the students are cooperative. Hence, further studies with larger numbers of participants, such as pooled analysis based on repeated trials, are necessary to clarify the effect of L. casei strain Shirota on stress-induced abdominal dysfunction, changes in NK cell activity and gut microbiota, and the associations between these effects. Moreover, because of the complex interactions existing between probiotics and the host, the complete mechanisms of action for L. casei strain Shirota remain unknown. Further studies are needed to establish the stress-relieving effects of L. casei strain Shirota.
+
+In conclusion, the daily consumption of probiotics, such as L. casei strain Shirota, preserves the diversity of the gut microbiota and may relieve the stress-associated psychological, physiological, and physical stress responses to prevent the onset of common abdominal dysfunction and to maintain the quality of life in healthy subjects exposed to brief naturalistic stressors.
+
+Supplementary Material
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+Stress-induced abdominal dysfunction is an attractive target for probiotics. To investigate the effects of the probiotic Lactobacillus casei strain Shirota on abdominal dysfunction, a double-blind, placebo-controlled trial was conducted with healthy medical students undertaking an authorized nationwide examination for academic advancement. For 8 weeks, until the day before the examination, 23 and 24 subjects consumed an L. casei strain Shirota-fermented milk and a placebo milk daily, respectively. In addition to assessments of abdominal symptoms, psychophysical state, and salivary stress markers, gene expression changes in peripheral blood leukocytes and composition of the gut microbiota were analyzed using DNA microarray analysis and 16S rRNA gene amplicon sequence analysis, respectively, before and after the intervention. Stress-induced increases in a visual analog scale measuring feelings of stress, the total score of abdominal dysfunction, and the number of genes with changes in expression of more than 2-fold in leukocytes were significantly suppressed in the L. casei strain Shirota group compared with those in the placebo group. A significant increase in salivary cortisol levels before the examination was observed only in the placebo group. The administration of L. casei strain Shirota, but not placebo, significantly reduced gastrointestinal symptoms. Moreover, 16S rRNA gene amplicon sequencing demonstrated that the L. casei strain Shirota group had significantly higher numbers of species, a marker of the alpha-diversity index, in their gut microbiota and a significantly lower percentage of Bacteroidaceae than the placebo group. Our findings indicate that the daily consumption of probiotics, such as L. casei strain Shirota, preserves the diversity of the gut microbiota and may relieve stress-associated responses of abdominal dysfunction in healthy subjects exposed to stressful situations.
+
+IMPORTANCE A novel clinical trial was conducted with healthy medical students under examination stress conditions. It was demonstrated that the daily consumption of lactic acid bacteria provided health benefits to prevent the onset of stress-associated abdominal symptoms and a good change of gut microbiota in healthy medical students.
+
+The gut microbiota, a large, diverse, and dynamic ecosystem that generates cross talk between the gut and host, can communicate with the host by modulating the gut-brain axis, which is a bidirectional neurohumoral communication system between the gut and brain. That is, signals from the brain modify the motor, sensory, and secretory modalities of the gastrointestinal tract; in turn, signals from the gut can affect emotional behavior and stress and pain modulation systems through neural, endocrine, and immune pathways (1,–3). Thus, the gut-brain axis has now been expanded to the microbiota-gut-brain axis (3).
+
+It is particularly interesting to consider the possibility that probiotics (4), which are live microorganisms, can affect emotion in health and disease by modulating the microbiota-gut-brain axis (5) and confer a health benefit in the host. Previous animal studies have demonstrated that the administration of probiotics maintains mucosal barrier function under stressful situations (6, 7) and mitigates stress-induced glucocorticoid and inflammatory cytokine responses in association with a reduction of depression- and anxiety-related behavior (7,–12). Probiotics have also been shown to reduce the mRNA expression of the gamma-aminobutyric acid (GABA) receptor and c-Fos in the brain (10, 12), possibly by modulating the gut-brain axis via vagal pathways (10, 11). Clinical trials have demonstrated that probiotics have beneficial effects by alleviating psychological distress in healthy subjects (9) and normalizing the stress-induced reduction of natural killer (NK) cell numbers (13) and gastrointestinal symptoms (14). A brief naturalistic stress, such as an academic examination, has been employed frequently to examine psychological stress responses (13, 15,–21). This model was also used to assess stress-associated alteration of the gut microbiota (16) and the effects of prebiotics or probiotics on gastrointestinal dysfunction and/or upper respiratory tract infections (18, 20).
+
+Lactobacillus casei strain Shirota is a well-known probiotic strain that has been approved and is generally recognized as safe by the Food and Drug Administration of the United States. L. casei strain Shirota has been suggested to provide health benefits by balancing the gut microbiota, improving gastrointestinal dysfunction, preventing infection and cancer, and modulating inflammatory and immune responses (22). Previous studies have demonstrated that L. casei strain Shirota improves mood disturbances in the elderly (23) and decreases anxiety symptoms in patients with chronic fatigue syndrome (24), and in a pilot trial, it suppressed the onset of physical symptoms in healthy students exposed to academic stress (21). However, it has not been examined fully whether L. casei strain Shirota relieves psychological stress-induced responses associated with the microbiota-gut-brain axis of healthy subjects.
+
+This double-blind, placebo-controlled, and parallel-group clinical trial was conducted to examine the effect of a fermented milk containing L. casei strain Shirota on stress-induced abdominal dysfunction as a primary endpoint as well as on psychophysical state, salivary stress markers, gene expression changes in peripheral leukocytes, and 16S rRNA gene amplicon sequencing of the gut microbiota in healthy medical students undertaking an authorized nationwide examination for academic advancement.
+
+ACKNOWLEDGMENTS
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+Stress-induced abdominal dysfunction is an attractive target for probiotics. To investigate the effects of the probiotic Lactobacillus casei strain Shirota on abdominal dysfunction, a double-blind, placebo-controlled trial was conducted with healthy medical students undertaking an authorized nationwide examination for academic advancement. For 8 weeks, until the day before the examination, 23 and 24 subjects consumed an L. casei strain Shirota-fermented milk and a placebo milk daily, respectively. In addition to assessments of abdominal symptoms, psychophysical state, and salivary stress markers, gene expression changes in peripheral blood leukocytes and composition of the gut microbiota were analyzed using DNA microarray analysis and 16S rRNA gene amplicon sequence analysis, respectively, before and after the intervention. Stress-induced increases in a visual analog scale measuring feelings of stress, the total score of abdominal dysfunction, and the number of genes with changes in expression of more than 2-fold in leukocytes were significantly suppressed in the L. casei strain Shirota group compared with those in the placebo group. A significant increase in salivary cortisol levels before the examination was observed only in the placebo group. The administration of L. casei strain Shirota, but not placebo, significantly reduced gastrointestinal symptoms. Moreover, 16S rRNA gene amplicon sequencing demonstrated that the L. casei strain Shirota group had significantly higher numbers of species, a marker of the alpha-diversity index, in their gut microbiota and a significantly lower percentage of Bacteroidaceae than the placebo group. Our findings indicate that the daily consumption of probiotics, such as L. casei strain Shirota, preserves the diversity of the gut microbiota and may relieve stress-associated responses of abdominal dysfunction in healthy subjects exposed to stressful situations.
+
+IMPORTANCE A novel clinical trial was conducted with healthy medical students under examination stress conditions. It was demonstrated that the daily consumption of lactic acid bacteria provided health benefits to prevent the onset of stress-associated abdominal symptoms and a good change of gut microbiota in healthy medical students.
+
+The gut microbiota, a large, diverse, and dynamic ecosystem that generates cross talk between the gut and host, can communicate with the host by modulating the gut-brain axis, which is a bidirectional neurohumoral communication system between the gut and brain. That is, signals from the brain modify the motor, sensory, and secretory modalities of the gastrointestinal tract; in turn, signals from the gut can affect emotional behavior and stress and pain modulation systems through neural, endocrine, and immune pathways (1,–3). Thus, the gut-brain axis has now been expanded to the microbiota-gut-brain axis (3).
+
+It is particularly interesting to consider the possibility that probiotics (4), which are live microorganisms, can affect emotion in health and disease by modulating the microbiota-gut-brain axis (5) and confer a health benefit in the host. Previous animal studies have demonstrated that the administration of probiotics maintains mucosal barrier function under stressful situations (6, 7) and mitigates stress-induced glucocorticoid and inflammatory cytokine responses in association with a reduction of depression- and anxiety-related behavior (7,–12). Probiotics have also been shown to reduce the mRNA expression of the gamma-aminobutyric acid (GABA) receptor and c-Fos in the brain (10, 12), possibly by modulating the gut-brain axis via vagal pathways (10, 11). Clinical trials have demonstrated that probiotics have beneficial effects by alleviating psychological distress in healthy subjects (9) and normalizing the stress-induced reduction of natural killer (NK) cell numbers (13) and gastrointestinal symptoms (14). A brief naturalistic stress, such as an academic examination, has been employed frequently to examine psychological stress responses (13, 15,–21). This model was also used to assess stress-associated alteration of the gut microbiota (16) and the effects of prebiotics or probiotics on gastrointestinal dysfunction and/or upper respiratory tract infections (18, 20).
+
+Lactobacillus casei strain Shirota is a well-known probiotic strain that has been approved and is generally recognized as safe by the Food and Drug Administration of the United States. L. casei strain Shirota has been suggested to provide health benefits by balancing the gut microbiota, improving gastrointestinal dysfunction, preventing infection and cancer, and modulating inflammatory and immune responses (22). Previous studies have demonstrated that L. casei strain Shirota improves mood disturbances in the elderly (23) and decreases anxiety symptoms in patients with chronic fatigue syndrome (24), and in a pilot trial, it suppressed the onset of physical symptoms in healthy students exposed to academic stress (21). However, it has not been examined fully whether L. casei strain Shirota relieves psychological stress-induced responses associated with the microbiota-gut-brain axis of healthy subjects.
+
+This double-blind, placebo-controlled, and parallel-group clinical trial was conducted to examine the effect of a fermented milk containing L. casei strain Shirota on stress-induced abdominal dysfunction as a primary endpoint as well as on psychophysical state, salivary stress markers, gene expression changes in peripheral leukocytes, and 16S rRNA gene amplicon sequencing of the gut microbiota in healthy medical students undertaking an authorized nationwide examination for academic advancement.
+
+We thank all of the volunteers who enrolled in the clinical trial. We also thank Masashi Sakai for his helpful advice in the discussion and Chiaki Takahashi for her helpful support in the analysis of some data.
+
+This study was performed based on a collaboration between Yakult Central Institute in Yakult Honsha Co., Ltd. and Tokushima University Graduate School with the sponsorship and supply of test beverages from Yakult Honsha Co., Ltd. The sponsor provided support in the form of salaries for authors Akito Kato-Kataoka, Mai Takada, Mitsuhisa Kawai, Hiroko Kikuchi-Hayakawa, Kazunori Suda, Hiroshi Ishikawa, Yusuke Gondo, Kensuke Shimizu, Takahiro Matsuki, Akira Kushiro, Ryoutaro Hoshi, Osamu Watanabe, Tomoki Igarashi, and Kouji Miyazaki but did not have any additional role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+All remaining authors declare no potential conflicts of interest with respect to the authorship and publication of this article.
+
+Akito Kato-Kataoka, Kensei Nishida, and Kazuhito Rokutan conceived and designed the experiments. Akito Kato-Kataoka, Hiroko Kikuchi-Hayakawa, Kazunori Suda, Hiroshi Ishikawa, Yusuke Gondo, Kensuke Shimizu, Takahiro Matsuki, Akira Kushiro, and Yuki Kuwano performed the experiments. Mai Takada, Mitsuhisa Kawai, and Kensei Nishida analyzed the data. Ryoutaro Hoshi, Osamu Watanabe, and Tomoki Igarashi contributed materials. Akito Kato-Kataoka, Kensei Nishida, Kouji Miyazaki, and Kazuhito Rokutan contributed to the writing of the manuscript.
+
+Footnotes
+
+
+
+Supplemental material for this article may be found at http://dx.doi.org/10.1128/AEM.04134-15.
+
+
+
+REFERENCES
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+cDevelopment Department, Yakult Honsha Co., Ltd., Higashi-Shimbashi, Minato, Tokyo, Japan
+
+aYakult Central Institute, Izumi, Kunitachi, Tokyo, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+bDepartment of Pathophysiology, Institute of Biomedical Sciences, Tokushima University Graduate School, Kuramoto, Tokushima, Japan
+
+Stress-induced abdominal dysfunction is an attractive target for probiotics. To investigate the effects of the probiotic Lactobacillus casei strain Shirota on abdominal dysfunction, a double-blind, placebo-controlled trial was conducted with healthy medical students undertaking an authorized nationwide examination for academic advancement. For 8 weeks, until the day before the examination, 23 and 24 subjects consumed an L. casei strain Shirota-fermented milk and a placebo milk daily, respectively. In addition to assessments of abdominal symptoms, psychophysical state, and salivary stress markers, gene expression changes in peripheral blood leukocytes and composition of the gut microbiota were analyzed using DNA microarray analysis and 16S rRNA gene amplicon sequence analysis, respectively, before and after the intervention. Stress-induced increases in a visual analog scale measuring feelings of stress, the total score of abdominal dysfunction, and the number of genes with changes in expression of more than 2-fold in leukocytes were significantly suppressed in the L. casei strain Shirota group compared with those in the placebo group. A significant increase in salivary cortisol levels before the examination was observed only in the placebo group. The administration of L. casei strain Shirota, but not placebo, significantly reduced gastrointestinal symptoms. Moreover, 16S rRNA gene amplicon sequencing demonstrated that the L. casei strain Shirota group had significantly higher numbers of species, a marker of the alpha-diversity index, in their gut microbiota and a significantly lower percentage of Bacteroidaceae than the placebo group. Our findings indicate that the daily consumption of probiotics, such as L. casei strain Shirota, preserves the diversity of the gut microbiota and may relieve stress-associated responses of abdominal dysfunction in healthy subjects exposed to stressful situations.
+
+IMPORTANCE A novel clinical trial was conducted with healthy medical students under examination stress conditions. It was demonstrated that the daily consumption of lactic acid bacteria provided health benefits to prevent the onset of stress-associated abdominal symptoms and a good change of gut microbiota in healthy medical students.
+
+The gut microbiota, a large, diverse, and dynamic ecosystem that generates cross talk between the gut and host, can communicate with the host by modulating the gut-brain axis, which is a bidirectional neurohumoral communication system between the gut and brain. That is, signals from the brain modify the motor, sensory, and secretory modalities of the gastrointestinal tract; in turn, signals from the gut can affect emotional behavior and stress and pain modulation systems through neural, endocrine, and immune pathways (1,–3). Thus, the gut-brain axis has now been expanded to the microbiota-gut-brain axis (3).
+
+It is particularly interesting to consider the possibility that probiotics (4), which are live microorganisms, can affect emotion in health and disease by modulating the microbiota-gut-brain axis (5) and confer a health benefit in the host. Previous animal studies have demonstrated that the administration of probiotics maintains mucosal barrier function under stressful situations (6, 7) and mitigates stress-induced glucocorticoid and inflammatory cytokine responses in association with a reduction of depression- and anxiety-related behavior (7,–12). Probiotics have also been shown to reduce the mRNA expression of the gamma-aminobutyric acid (GABA) receptor and c-Fos in the brain (10, 12), possibly by modulating the gut-brain axis via vagal pathways (10, 11). Clinical trials have demonstrated that probiotics have beneficial effects by alleviating psychological distress in healthy subjects (9) and normalizing the stress-induced reduction of natural killer (NK) cell numbers (13) and gastrointestinal symptoms (14). A brief naturalistic stress, such as an academic examination, has been employed frequently to examine psychological stress responses (13, 15,–21). This model was also used to assess stress-associated alteration of the gut microbiota (16) and the effects of prebiotics or probiotics on gastrointestinal dysfunction and/or upper respiratory tract infections (18, 20).
+
+Lactobacillus casei strain Shirota is a well-known probiotic strain that has been approved and is generally recognized as safe by the Food and Drug Administration of the United States. L. casei strain Shirota has been suggested to provide health benefits by balancing the gut microbiota, improving gastrointestinal dysfunction, preventing infection and cancer, and modulating inflammatory and immune responses (22). Previous studies have demonstrated that L. casei strain Shirota improves mood disturbances in the elderly (23) and decreases anxiety symptoms in patients with chronic fatigue syndrome (24), and in a pilot trial, it suppressed the onset of physical symptoms in healthy students exposed to academic stress (21). However, it has not been examined fully whether L. casei strain Shirota relieves psychological stress-induced responses associated with the microbiota-gut-brain axis of healthy subjects.
+
+This double-blind, placebo-controlled, and parallel-group clinical trial was conducted to examine the effect of a fermented milk containing L. casei strain Shirota on stress-induced abdominal dysfunction as a primary endpoint as well as on psychophysical state, salivary stress markers, gene expression changes in peripheral leukocytes, and 16S rRNA gene amplicon sequencing of the gut microbiota in healthy medical students undertaking an authorized nationwide examination for academic advancement.
+
+http://www.ncbi.nlm.nih.gov/pubmed/27208120

@@ -1,0 +1,1846 @@
+Case definitions integrating empiric and consensus perspectives.
+
+Abstract
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Newcastle University
+
+Oslo University Hospital
+
+There has been considerable controversy regarding how to name and
+define the illnesses known as myalgic encephalomyelitis (ME) and chronic
+fatigue syndrome (CFS). The IOM report has proposed a new clinical criteria
+and name for this illness, but aspects of these recommendations have been
+scrutinized by patients and scientists.
+
+It is possible that both empiric and consensus approaches could be
+used to help settle some of these diagnostic challenges. Using patient
+samples collected in the United States, Great Britain, and Norway
+(N=556), the current study attempted to categorize patients using
+more general as well as more restricted case definitions.
+
+Overall, the outcomes suggest that there might be four groupings of
+patients, with the broadest category involving those with chronic fatigue
+(N=62), defined by 6 or more months of fatigue which can be cannot
+be explained by medical or psychiatric conditions. A second category
+involves those patients that have chronic fatigue that can be explained by a
+medical or psychiatric condition (N=47). A third category involves
+more specific criteria that have been posited both by the IOM report, a
+Canadian Clinical Case criteria, a ME-ICC criteria and a more empiric
+approach. These efforts have specified domains of substantial reductions of
+activity, post-exertional malaise, neurocognitive impairment, and sleep
+dysfunction (N=346). Patients with these characteristics were more
+functionally impaired than those meeting just chronic fatigue criteria,
+p < .05. Finally, those meeting even more
+restrictive ME criteria proposed by Ramsay, identified a smaller and even
+more impaired group, p < .05.
+
+The advantages of using such empirical and consensus approaches to
+develop reliable classification and diagnostic efforts are discussed.
+
+Method
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Newcastle University
+
+Oslo University Hospital
+
+There has been considerable controversy regarding how to name and
+define the illnesses known as myalgic encephalomyelitis (ME) and chronic
+fatigue syndrome (CFS). The IOM report has proposed a new clinical criteria
+and name for this illness, but aspects of these recommendations have been
+scrutinized by patients and scientists.
+
+It is possible that both empiric and consensus approaches could be
+used to help settle some of these diagnostic challenges. Using patient
+samples collected in the United States, Great Britain, and Norway
+(N=556), the current study attempted to categorize patients using
+more general as well as more restricted case definitions.
+
+Overall, the outcomes suggest that there might be four groupings of
+patients, with the broadest category involving those with chronic fatigue
+(N=62), defined by 6 or more months of fatigue which can be cannot
+be explained by medical or psychiatric conditions. A second category
+involves those patients that have chronic fatigue that can be explained by a
+medical or psychiatric condition (N=47). A third category involves
+more specific criteria that have been posited both by the IOM report, a
+Canadian Clinical Case criteria, a ME-ICC criteria and a more empiric
+approach. These efforts have specified domains of substantial reductions of
+activity, post-exertional malaise, neurocognitive impairment, and sleep
+dysfunction (N=346). Patients with these characteristics were more
+functionally impaired than those meeting just chronic fatigue criteria,
+p < .05. Finally, those meeting even more
+restrictive ME criteria proposed by Ramsay, identified a smaller and even
+more impaired group, p < .05.
+
+The advantages of using such empirical and consensus approaches to
+develop reliable classification and diagnostic efforts are discussed.
+
+Chronic fatigue syndrome (CFS) has been defined by 20 case definitions, and the
+large number of case definitions provide both researchers and clinicians challenges in
+both diagnosing and treating patients. [1] The Fukuda et al. [2] case definition of CFS has been the most frequently used, and
+epidemiologic studies can provide clues for approaches to categorize patients. According
+to one community-based epidemiologic study by Jason et al. [3], about 4% of the population experience 6
+or more months of fatigue. Within this group, 19% meet Fukuda et al. criteria,
+27% do not meet these Fukuda et al. criteria, and 54% of this group have
+a medical or psychiatric (melancholic depression, bipolar disorders, anorexia nervosa or
+bulimia nervosa, psychotic disorders, drug or alcohol related disorders) exclusionary
+illness.
+
+Unfortunately, the Fukuda et al. [2] criteria have been assessed with different instruments and
+operationalized differently. As a result, the rates of CFS prevalence in community-based
+samples have ranged widely, from .004 to .0087%, .24%, and .42%
+to 2.54% of the population. [3–6] For example,
+Reeves et al. [7] attempted to
+operationalize the Fukuda et al. [2] criteria, but this effort resulted in broadening of the case
+definition. [8] In addition, the
+polythetic criteria of Fukuda et al. [2] have been criticized as not requiring fundamental symptoms including
+post-exertional malaise. [9] As a
+reaction to these criticisms, the Clinical Canadian ME/CFS criteria [10] developed by a group of researchers and
+clinicians, which required seven symptoms including post-exertional malaise and
+neurocognitive impairment. Later, the Myalgic Encephalomyelitis International Consensus
+criteria (ME-ICC) [11] were
+developed and they required eight symptoms.
+
+The history of this illness began with an outbreak of epidemic neuromysthenia in
+L.A. County [12–13] In a 1956 editorial in the
+Lancet, the term “benign myalgic encephalomyelitis”
+was coined. [14] Later, Ramsay
+[15] published a definition
+of this illness using the term “myalgic encephalomyelitis” (ME) and the
+term “benign” was dropped due to the seriousness of the disability.
+[16] There were later efforts
+to operationalize Ramsay’s [15] ME case definition with what are now known as the London criteria.
+[17–19]
+
+In one community-based study, these London ME criteria were found to select a
+smaller and more symptomatic group of patients than the CFS Fukuda et al [2] criteria. [20] In an effort to better operationalize these ME
+criteria based on the work of a number of theorists and practitioners, Jason,
+Damrongvachiraphan, et al. [21]
+used more precise frequency and severity criteria of symptoms for post-exertional
+malaise, neurological manifestation, and autonomic dysfunction. Patients also needed to
+have an acute onset to meet this ME criteria. When Jason, Brown et al. [22] applied these revised ME criteria to a
+data set of patients in a tertiary sample diagnosed with CFS using the Fukuda et al.
+[2] criteria, only 24%
+met these ME criteria, and they were more functionally impaired than those that just met
+the Fukuda et al. criteria. Later, Jason, Evans, Brown, Sunnquist, and Newton
+[23] found that 29.6%
+of a CFS sample in the US, and 17.7% of a CFS sample in England met these ME
+criteria. The more restrictive ME criteria appear to select a smaller group of patients
+than the Fukuda et al. [2]
+criteria, and those selected with ME are more impaired.
+
+The Canadian Clinical ME/CFS Criteria [10] in contrast to the Fukuda et al. [2] criteria has been found to select cases with less
+psychiatric comorbidity, more physical functioning impairment, more fatigue or weakness,
+and more neuropsychiatric and neurological symptoms [24], and comparable findings emerged in another study
+by Jason, Brown, et al. [25].
+When Jason, Brown, Evans, Sunnquist, and Newton [26] utilized three different samples of patients, each collected
+through a different case ascertainment method, 87 to 96% of the samples met the
+Fukuda et al. [2] case definition
+criteria, whereas only 73 to 77% met the Canadian ME/CFS criteria.
+Unfortunately, a study by Johnston, Brenu, Staines, and Marshall-Gradisnik’s
+[27] found that only one
+study reported prevalence rates according to these Canadian Consensus criteria.
+
+The more recently developed ME-ICC criteria [11] also identified a group of patients with more
+functional impairments and physical, mental, and cognitive problems than the larger
+group of patients who met the Fukuda et al. criteria. [28] In a larger study with samples from the US and
+Great Britain, Jason, Sunnquist, Brown, Evans, and Newton [29] found from 57 to 58% met the ME-ICC case
+definition, whereas the Fukuda et al. criteria identified a larger group of patients.
+Johnston, Brenu, Hardcastle, Huth, Staines, and Marshall-Gradisnik [30] also found that patients fulfilling the
+ME-ICC criteria reported significantly lower scores for physical functioning, role
+physical, bodily pain, social functioning as well as greater disability than those who
+met the Fukuda et al. [2]
+criteria.
+
+These different definitions and criteria provide substantial problems for
+investigators, because if case definitions have different symptoms, which are measured
+in different ways, then criterion variance is introduced. If diagnostic categories are
+unreliable, then this will have problematic consequences for estimating prevalence rates
+or finding biological markers. Empirical approaches might help specify which symptoms
+and domains have both the needed sensitivity and specificity for the case definitions.
+More empirical methods have been used to identify symptoms that differentiate CFS
+samples from controls. [31–32] For example, Jason, Kot, et al.
+[33] used data mining
+techniques to separate patients with CFS from controls. Outcomes from these analyses
+suggest that individuals identified using fewer, but empirically selected, symptoms
+(i.e., fatigue or extreme tiredness, physically drained/sick after mild activity,
+difficulty finding the right word to say or expressing thoughts, and unrefreshing sleep)
+could accurately identify patients and controls. Hawk, Jason and Torres-Harding
+[34] also found these domains
+were able to successfully differentiate patients with CFS from Major Depressive
+Disorder. Although a moderate percentage of the CFS group reports other important
+symptoms within pain, autonomic, immune, and neuroendocrine domains, they are less
+prominent.
+
+Using factor analytic approaches, Brown and Jason [35] found a three-factor solution: Neuroendocrine,
+Autonomic, and Immune Dysfunction; Neurological/Cognitive Dysfunction; and
+Post-Exertional Malaise. In a more recent study with a large data set of 788 patients,
+Jason, Sunnquist et al. [36]
+found a 4-factor solution. Three of these factors, cognitive dysfunction,
+post-exertional malaise, and sleep, fit well with previous literature indicating that
+these are cardinal symptom clusters. A combined factor involving neuroendocrine,
+autonomic and immune dysfunction symptoms suggests that neuroendocrine, autonomic, and
+immune areas that occur at lower rates than the more core domains might be better
+thought of as subtypes of the illness. These investigators next used an exploratory
+factor analysis to examine solely the items within this heterogeneous factor. The
+results indicate that circulatory/neuroendocrine impairment, orthostatic intolerance,
+and gastro-intestinal distress could be thought of as subtypes.
+
+A new name for CFS and a new clinical criteria has recently been proposed by the
+Institute of Medicine [37] in the
+US. The new name is Systemic Exertion Intolerance Disease (SEID), and the new clinical
+criteria requires the following four symptoms: substantial reduction or impairment in
+the ability to engage in pre-illness levels of occupational, educational, social, or
+personal activities; post-exertional malaise; unrefreshing sleep; and at least one of
+the two following symptoms: cognitive impairment or orthostatic intolerance. SEID is
+clinical criteria and was designed for clinicians who may require less rigor in their
+diagnostic assessment of patients with CFS. Jason, Sunnquist, and Brown et al.
+[38] analyzed archival
+samples from tertiary care settings which included seven hundred and ninety-six patients
+from the USA, Great Britain, and Norway. If investigators begin to compare and contrast
+the SEID criteria with other existing criteria, it would be of some importance for the
+scientific community to be informed of the consequences. For example, our findings
+indicated that the SEID criteria identified 88% of participants in the samples
+analyzed, which was comparable to the 92% that met the Fukuda criteria. However,
+the samples selected had already been screened for exclusionary illnesses. Because the
+SEID criteria have few exclusionary conditions, when other data sets were examined that
+had other illness groups, a study by Jason, Sunnquist et al. [39] found that the SEID prevalence rate would be 2.8
+times as great as the rate found when the Fukuda et al. [2] criteria were applied. In addition, the erroneous
+inclusion of individuals with primary psychiatric conditions in SEID samples would have
+detrimental consequences for the interpretation of epidemiologic, etiologic, and
+treatment efficacy findings for people with this illness. For example, 47% of a
+sample of individuals with melancholic depression met SEID criteria. It should be noted
+that these studies were not prospective, and the SEID criteria were not directly
+assessed in these patients; instead, symptoms meant to represent the criteria were
+examined in a cohort that was diagnosed using different diagnostic criteria.
+
+In the large sample described by Jason, Sunnquist et al. [39], the four-item empiric criteria
+[40] identified only
+61% of patients whereas ME criteria identified even fewer at 20%. It
+appears that the Fukuda et al. [2]
+criteria includes more patients, with fewer being identified with the Canadian
+ME/CFS[10], ME-ICC criteria
+[11], or empiric criteria
+[40], with still fewer
+meeting the London ME criteria described by Jason, Damrongvachiraphan, et al.
+[21].
+
+The present study classified patients into four groupings of patients. The
+exclusionary condition is composed of patients that have chronic fatigue which can be
+explained by a medical or psychiatric factor. At the Chronic Fatigue Syndrome Advisory
+Committee (CFSAC) in August of 2015, a recommendation was voted on and approved
+regarding treating exclusionary illnesses as has occurred with other case definitions,
+which is a departure from the IOM report. [2, 10, 37] A second grouping is chronic fatigue, which
+involves 6 or more months of fatigue which cannot be explained by a medical or
+psychiatric factor. A third category involves more specific criteria that have been
+posited both by the IOM report, a Canadian Clinical Case criteria, a ME-ICC criteria and
+a more empiric approach [10–11, 40] specifying domains of post-exertional malaise, neurocognitive
+impairment, and sleep dysfunction, as well as substantial reductions in activity; we
+hypothesized that this group was more functionally impaired than those meeting just
+chronic fatigue criteria. Finally, those meeting more restrictive ME criteria proposed
+by Ramsay [15] and the London
+criteria [17] were hypothesized
+to identify a smaller more impaired group.
+Research Participants
+
+
+
+An international convenience sample of adults self-identifying as
+having CFS, ME/CFS, or ME was recruited. To be eligible, an individual
+needed to be at least 18, capable of reading and writing English, and have a
+self-reported, current diagnosis of ME, CFS, or ME/CFS. Following approval
+from DePaul University’s Institutional Review Board, participants
+were recruited from a variety of sources: postings on internet forums,
+support group visits, re-contacting individuals who had participated in the
+DePaul research team’s studies in the past, and contacting
+individuals who had emailed the team in the past with interest in future
+studies.
+
+Participants were given three options for completing study measures:
+an electronic survey, a hard-copy survey, or a verbal survey over the
+telephone. All participants were given the opportunity to complete these
+surveys at home or in person at DePaul University. Participants were not
+given a timeline for survey completion, as this illness can be unpredictable
+and result in a rapid decline of functioning on any given day. The first one
+hundred individuals who completed the survey received a $5.00 gift
+card to Amazon.com for their participation. Of the 217 individuals who
+participated, 216 were included in the present study; one participant was
+excluded due to incomplete data.
+
+Demographically, the sample was 84.2% female and
+15.8% male. This sample was predominantly (97.7%) Caucasian,
+while 0.5% identified as Asian, and the remaining 1.9%
+selected ‘Other’ as their race. Only 13.5% of the
+sample was working full- or part-time, and 56.7% of the sample was
+on disability. With regard to educational level, 40.5% of the sample
+held a graduate or professional degree; 34.4% held a standard
+college degree; 18.1% had attended college for at least one year;
+and 7.0% completed high school or had a GED. The mean age of the
+sample was 52.0 (SD = 11.3).
+
+
+
+Participants in the Newcastle sample had been referred for a medical
+assessment at the Newcastle-upon-Tyne Royal Victoria Infirmary clinic due to
+a suspected diagnosis of CFS. An experienced physician performed a
+comprehensive medical history and examination, and individuals who met
+eligibility criteria completed a written informed consent process. A total
+of one hundred participants completed study measures by hard copy, but three
+were excluded due to incomplete data.
+
+The Newcastle sample was 99.0% Caucasian and 1.0%
+multiracial, and 82.5% of participants were female. Of this sample,
+37.5% of participants were working either part- or full-time, and
+30.2% were on disability. With regard to education level,
+20.9% had a graduate or professional degree; 29.7% had a
+college degree; 24.2% had completed at least one year of college;
+14.3% had a high school degree; and 11.0% had not completed
+high school. The average age of the sample was 45.6 (SD
+= 14.0).
+
+
+
+Individuals with CFS were invited to participate in a randomized
+controlled trial of a CFS self-management program. Participants were
+recruited from four mid-sized towns in southern Norway, two suburbs of Oslo,
+and some surrounding communities. Recruitment sources included: healthcare
+professionals, the waiting list for a patient education program, and CFS
+patient organizations. Information about the study was disseminated through
+brochures and personal communication. In addition, study announcements for
+participants were placed on the Oslo University Hospital website.
+
+Participants were required to be older than 18 years of age and
+diagnosed with CFS by a physician or medical specialist. In addition,
+participants could not be pregnant and needed to be physically able to
+attend the self-management program. Those who were interested in
+participation were given additional information by telephone. Participants
+completed a consent form that provided permission to request confirmation of
+their CFS diagnosis from their physician or medical specialist. The study
+gained approval from the Regional Committee for Medical Research Ethics
+(Health Region North) and the Privacy Ombudsman for Research at Oslo
+University Hospital. Of the 176 participants, 175 were included in this
+study; one participant was excluded due to missing data.
+
+This sample was 86.8% female and 13.2% male. Almost
+all participants were Caucasian (99.4%); one participant selected
+‘Other’ when asked about race. Only 9.7% of
+participants were working, while 84.0% were on disability. Regarding
+education, 9.9% of participants had a graduate or professional
+degree, 40.1% a standard college degree, 41.9% a high school
+degree, and the remainder had not completed high school. The mean age of the
+sample was 43.4 years (SD = 11.7).
+
+
+
+Participants were recruited from an inpatient medical ward for
+severely ill patients as well as from the outpatient clinic at a
+multidisciplinary CFS/ME Center. To be eligible for inclusion, participants
+needed to be between 18 and 65 years old and capable of reading and writing
+Norwegian. Individuals with a suspected diagnosis of CFS were referred for
+evaluation and completed the study measures. All participants took part in a
+comprehensive medical history interview and a detailed medical examination
+conducted by experienced consultant physicians and a psychologist. The
+examinations were conducted to rule out exclusionary medical and psychiatric
+conditions. Participants completed a written informed consent, and the study
+measures were completed by hard copy. The project gained approval from the
+Privacy Ombudsman for research at Oslo University Hospital. Of the 64 total
+participants, 63 were included in this study; one was excluded due to
+missing data.
+
+This sample was 82.5% female and 17.5% male. The
+majority of the sample identified as Caucasian, but 1.6% identified
+as Asian, and 3.3% as ‘Other.’ Most participants
+(76.2%) were on disability, while 19.0% were working. With
+regard to education, 11.1% held a graduate or professional degree;
+25.4% held a standard college degree; 46.0% had a high
+school degree; and 17.5% had not completed high school. The mean age
+of the sample was 34.9 years (SD = 11.6).
+
+
+
+An international convenience sample of adults self-identifying as
+having CFS, ME/CFS, or ME was recruited. To be eligible, an individual
+needed to be at least 18, capable of reading and writing English, and have a
+self-reported, current diagnosis of ME, CFS, or ME/CFS. Following approval
+from DePaul University’s Institutional Review Board, participants
+were recruited from a variety of sources: postings on internet forums,
+support group visits, re-contacting individuals who had participated in the
+DePaul research team’s studies in the past, and contacting
+individuals who had emailed the team in the past with interest in future
+studies.
+
+Participants were given three options for completing study measures:
+an electronic survey, a hard-copy survey, or a verbal survey over the
+telephone. All participants were given the opportunity to complete these
+surveys at home or in person at DePaul University. Participants were not
+given a timeline for survey completion, as this illness can be unpredictable
+and result in a rapid decline of functioning on any given day. The first one
+hundred individuals who completed the survey received a $5.00 gift
+card to Amazon.com for their participation. Of the 217 individuals who
+participated, 216 were included in the present study; one participant was
+excluded due to incomplete data.
+
+Demographically, the sample was 84.2% female and
+15.8% male. This sample was predominantly (97.7%) Caucasian,
+while 0.5% identified as Asian, and the remaining 1.9%
+selected ‘Other’ as their race. Only 13.5% of the
+sample was working full- or part-time, and 56.7% of the sample was
+on disability. With regard to educational level, 40.5% of the sample
+held a graduate or professional degree; 34.4% held a standard
+college degree; 18.1% had attended college for at least one year;
+and 7.0% completed high school or had a GED. The mean age of the
+sample was 52.0 (SD = 11.3).
+
+
+
+Participants in the Newcastle sample had been referred for a medical
+assessment at the Newcastle-upon-Tyne Royal Victoria Infirmary clinic due to
+a suspected diagnosis of CFS. An experienced physician performed a
+comprehensive medical history and examination, and individuals who met
+eligibility criteria completed a written informed consent process. A total
+of one hundred participants completed study measures by hard copy, but three
+were excluded due to incomplete data.
+
+The Newcastle sample was 99.0% Caucasian and 1.0%
+multiracial, and 82.5% of participants were female. Of this sample,
+37.5% of participants were working either part- or full-time, and
+30.2% were on disability. With regard to education level,
+20.9% had a graduate or professional degree; 29.7% had a
+college degree; 24.2% had completed at least one year of college;
+14.3% had a high school degree; and 11.0% had not completed
+high school. The average age of the sample was 45.6 (SD
+= 14.0).
+
+
+
+Individuals with CFS were invited to participate in a randomized
+controlled trial of a CFS self-management program. Participants were
+recruited from four mid-sized towns in southern Norway, two suburbs of Oslo,
+and some surrounding communities. Recruitment sources included: healthcare
+professionals, the waiting list for a patient education program, and CFS
+patient organizations. Information about the study was disseminated through
+brochures and personal communication. In addition, study announcements for
+participants were placed on the Oslo University Hospital website.
+
+Participants were required to be older than 18 years of age and
+diagnosed with CFS by a physician or medical specialist. In addition,
+participants could not be pregnant and needed to be physically able to
+attend the self-management program. Those who were interested in
+participation were given additional information by telephone. Participants
+completed a consent form that provided permission to request confirmation of
+their CFS diagnosis from their physician or medical specialist. The study
+gained approval from the Regional Committee for Medical Research Ethics
+(Health Region North) and the Privacy Ombudsman for Research at Oslo
+University Hospital. Of the 176 participants, 175 were included in this
+study; one participant was excluded due to missing data.
+
+This sample was 86.8% female and 13.2% male. Almost
+all participants were Caucasian (99.4%); one participant selected
+‘Other’ when asked about race. Only 9.7% of
+participants were working, while 84.0% were on disability. Regarding
+education, 9.9% of participants had a graduate or professional
+degree, 40.1% a standard college degree, 41.9% a high school
+degree, and the remainder had not completed high school. The mean age of the
+sample was 43.4 years (SD = 11.7).
+
+
+
+Participants were recruited from an inpatient medical ward for
+severely ill patients as well as from the outpatient clinic at a
+multidisciplinary CFS/ME Center. To be eligible for inclusion, participants
+needed to be between 18 and 65 years old and capable of reading and writing
+Norwegian. Individuals with a suspected diagnosis of CFS were referred for
+evaluation and completed the study measures. All participants took part in a
+comprehensive medical history interview and a detailed medical examination
+conducted by experienced consultant physicians and a psychologist. The
+examinations were conducted to rule out exclusionary medical and psychiatric
+conditions. Participants completed a written informed consent, and the study
+measures were completed by hard copy. The project gained approval from the
+Privacy Ombudsman for research at Oslo University Hospital. Of the 64 total
+participants, 63 were included in this study; one was excluded due to
+missing data.
+
+This sample was 82.5% female and 17.5% male. The
+majority of the sample identified as Caucasian, but 1.6% identified
+as Asian, and 3.3% as ‘Other.’ Most participants
+(76.2%) were on disability, while 19.0% were working. With
+regard to education, 11.1% held a graduate or professional degree;
+25.4% held a standard college degree; 46.0% had a high
+school degree; and 17.5% had not completed high school. The mean age
+of the sample was 34.9 years (SD = 11.6).
+
+Measures
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Newcastle University
+
+Oslo University Hospital
+
+There has been considerable controversy regarding how to name and
+define the illnesses known as myalgic encephalomyelitis (ME) and chronic
+fatigue syndrome (CFS). The IOM report has proposed a new clinical criteria
+and name for this illness, but aspects of these recommendations have been
+scrutinized by patients and scientists.
+
+It is possible that both empiric and consensus approaches could be
+used to help settle some of these diagnostic challenges. Using patient
+samples collected in the United States, Great Britain, and Norway
+(N=556), the current study attempted to categorize patients using
+more general as well as more restricted case definitions.
+
+Overall, the outcomes suggest that there might be four groupings of
+patients, with the broadest category involving those with chronic fatigue
+(N=62), defined by 6 or more months of fatigue which can be cannot
+be explained by medical or psychiatric conditions. A second category
+involves those patients that have chronic fatigue that can be explained by a
+medical or psychiatric condition (N=47). A third category involves
+more specific criteria that have been posited both by the IOM report, a
+Canadian Clinical Case criteria, a ME-ICC criteria and a more empiric
+approach. These efforts have specified domains of substantial reductions of
+activity, post-exertional malaise, neurocognitive impairment, and sleep
+dysfunction (N=346). Patients with these characteristics were more
+functionally impaired than those meeting just chronic fatigue criteria,
+p < .05. Finally, those meeting even more
+restrictive ME criteria proposed by Ramsay, identified a smaller and even
+more impaired group, p < .05.
+
+The advantages of using such empirical and consensus approaches to
+develop reliable classification and diagnostic efforts are discussed.
+
+Chronic fatigue syndrome (CFS) has been defined by 20 case definitions, and the
+large number of case definitions provide both researchers and clinicians challenges in
+both diagnosing and treating patients. [1] The Fukuda et al. [2] case definition of CFS has been the most frequently used, and
+epidemiologic studies can provide clues for approaches to categorize patients. According
+to one community-based epidemiologic study by Jason et al. [3], about 4% of the population experience 6
+or more months of fatigue. Within this group, 19% meet Fukuda et al. criteria,
+27% do not meet these Fukuda et al. criteria, and 54% of this group have
+a medical or psychiatric (melancholic depression, bipolar disorders, anorexia nervosa or
+bulimia nervosa, psychotic disorders, drug or alcohol related disorders) exclusionary
+illness.
+
+Unfortunately, the Fukuda et al. [2] criteria have been assessed with different instruments and
+operationalized differently. As a result, the rates of CFS prevalence in community-based
+samples have ranged widely, from .004 to .0087%, .24%, and .42%
+to 2.54% of the population. [3–6] For example,
+Reeves et al. [7] attempted to
+operationalize the Fukuda et al. [2] criteria, but this effort resulted in broadening of the case
+definition. [8] In addition, the
+polythetic criteria of Fukuda et al. [2] have been criticized as not requiring fundamental symptoms including
+post-exertional malaise. [9] As a
+reaction to these criticisms, the Clinical Canadian ME/CFS criteria [10] developed by a group of researchers and
+clinicians, which required seven symptoms including post-exertional malaise and
+neurocognitive impairment. Later, the Myalgic Encephalomyelitis International Consensus
+criteria (ME-ICC) [11] were
+developed and they required eight symptoms.
+
+The history of this illness began with an outbreak of epidemic neuromysthenia in
+L.A. County [12–13] In a 1956 editorial in the
+Lancet, the term “benign myalgic encephalomyelitis”
+was coined. [14] Later, Ramsay
+[15] published a definition
+of this illness using the term “myalgic encephalomyelitis” (ME) and the
+term “benign” was dropped due to the seriousness of the disability.
+[16] There were later efforts
+to operationalize Ramsay’s [15] ME case definition with what are now known as the London criteria.
+[17–19]
+
+In one community-based study, these London ME criteria were found to select a
+smaller and more symptomatic group of patients than the CFS Fukuda et al [2] criteria. [20] In an effort to better operationalize these ME
+criteria based on the work of a number of theorists and practitioners, Jason,
+Damrongvachiraphan, et al. [21]
+used more precise frequency and severity criteria of symptoms for post-exertional
+malaise, neurological manifestation, and autonomic dysfunction. Patients also needed to
+have an acute onset to meet this ME criteria. When Jason, Brown et al. [22] applied these revised ME criteria to a
+data set of patients in a tertiary sample diagnosed with CFS using the Fukuda et al.
+[2] criteria, only 24%
+met these ME criteria, and they were more functionally impaired than those that just met
+the Fukuda et al. criteria. Later, Jason, Evans, Brown, Sunnquist, and Newton
+[23] found that 29.6%
+of a CFS sample in the US, and 17.7% of a CFS sample in England met these ME
+criteria. The more restrictive ME criteria appear to select a smaller group of patients
+than the Fukuda et al. [2]
+criteria, and those selected with ME are more impaired.
+
+The Canadian Clinical ME/CFS Criteria [10] in contrast to the Fukuda et al. [2] criteria has been found to select cases with less
+psychiatric comorbidity, more physical functioning impairment, more fatigue or weakness,
+and more neuropsychiatric and neurological symptoms [24], and comparable findings emerged in another study
+by Jason, Brown, et al. [25].
+When Jason, Brown, Evans, Sunnquist, and Newton [26] utilized three different samples of patients, each collected
+through a different case ascertainment method, 87 to 96% of the samples met the
+Fukuda et al. [2] case definition
+criteria, whereas only 73 to 77% met the Canadian ME/CFS criteria.
+Unfortunately, a study by Johnston, Brenu, Staines, and Marshall-Gradisnik’s
+[27] found that only one
+study reported prevalence rates according to these Canadian Consensus criteria.
+
+The more recently developed ME-ICC criteria [11] also identified a group of patients with more
+functional impairments and physical, mental, and cognitive problems than the larger
+group of patients who met the Fukuda et al. criteria. [28] In a larger study with samples from the US and
+Great Britain, Jason, Sunnquist, Brown, Evans, and Newton [29] found from 57 to 58% met the ME-ICC case
+definition, whereas the Fukuda et al. criteria identified a larger group of patients.
+Johnston, Brenu, Hardcastle, Huth, Staines, and Marshall-Gradisnik [30] also found that patients fulfilling the
+ME-ICC criteria reported significantly lower scores for physical functioning, role
+physical, bodily pain, social functioning as well as greater disability than those who
+met the Fukuda et al. [2]
+criteria.
+
+These different definitions and criteria provide substantial problems for
+investigators, because if case definitions have different symptoms, which are measured
+in different ways, then criterion variance is introduced. If diagnostic categories are
+unreliable, then this will have problematic consequences for estimating prevalence rates
+or finding biological markers. Empirical approaches might help specify which symptoms
+and domains have both the needed sensitivity and specificity for the case definitions.
+More empirical methods have been used to identify symptoms that differentiate CFS
+samples from controls. [31–32] For example, Jason, Kot, et al.
+[33] used data mining
+techniques to separate patients with CFS from controls. Outcomes from these analyses
+suggest that individuals identified using fewer, but empirically selected, symptoms
+(i.e., fatigue or extreme tiredness, physically drained/sick after mild activity,
+difficulty finding the right word to say or expressing thoughts, and unrefreshing sleep)
+could accurately identify patients and controls. Hawk, Jason and Torres-Harding
+[34] also found these domains
+were able to successfully differentiate patients with CFS from Major Depressive
+Disorder. Although a moderate percentage of the CFS group reports other important
+symptoms within pain, autonomic, immune, and neuroendocrine domains, they are less
+prominent.
+
+Using factor analytic approaches, Brown and Jason [35] found a three-factor solution: Neuroendocrine,
+Autonomic, and Immune Dysfunction; Neurological/Cognitive Dysfunction; and
+Post-Exertional Malaise. In a more recent study with a large data set of 788 patients,
+Jason, Sunnquist et al. [36]
+found a 4-factor solution. Three of these factors, cognitive dysfunction,
+post-exertional malaise, and sleep, fit well with previous literature indicating that
+these are cardinal symptom clusters. A combined factor involving neuroendocrine,
+autonomic and immune dysfunction symptoms suggests that neuroendocrine, autonomic, and
+immune areas that occur at lower rates than the more core domains might be better
+thought of as subtypes of the illness. These investigators next used an exploratory
+factor analysis to examine solely the items within this heterogeneous factor. The
+results indicate that circulatory/neuroendocrine impairment, orthostatic intolerance,
+and gastro-intestinal distress could be thought of as subtypes.
+
+A new name for CFS and a new clinical criteria has recently been proposed by the
+Institute of Medicine [37] in the
+US. The new name is Systemic Exertion Intolerance Disease (SEID), and the new clinical
+criteria requires the following four symptoms: substantial reduction or impairment in
+the ability to engage in pre-illness levels of occupational, educational, social, or
+personal activities; post-exertional malaise; unrefreshing sleep; and at least one of
+the two following symptoms: cognitive impairment or orthostatic intolerance. SEID is
+clinical criteria and was designed for clinicians who may require less rigor in their
+diagnostic assessment of patients with CFS. Jason, Sunnquist, and Brown et al.
+[38] analyzed archival
+samples from tertiary care settings which included seven hundred and ninety-six patients
+from the USA, Great Britain, and Norway. If investigators begin to compare and contrast
+the SEID criteria with other existing criteria, it would be of some importance for the
+scientific community to be informed of the consequences. For example, our findings
+indicated that the SEID criteria identified 88% of participants in the samples
+analyzed, which was comparable to the 92% that met the Fukuda criteria. However,
+the samples selected had already been screened for exclusionary illnesses. Because the
+SEID criteria have few exclusionary conditions, when other data sets were examined that
+had other illness groups, a study by Jason, Sunnquist et al. [39] found that the SEID prevalence rate would be 2.8
+times as great as the rate found when the Fukuda et al. [2] criteria were applied. In addition, the erroneous
+inclusion of individuals with primary psychiatric conditions in SEID samples would have
+detrimental consequences for the interpretation of epidemiologic, etiologic, and
+treatment efficacy findings for people with this illness. For example, 47% of a
+sample of individuals with melancholic depression met SEID criteria. It should be noted
+that these studies were not prospective, and the SEID criteria were not directly
+assessed in these patients; instead, symptoms meant to represent the criteria were
+examined in a cohort that was diagnosed using different diagnostic criteria.
+
+In the large sample described by Jason, Sunnquist et al. [39], the four-item empiric criteria
+[40] identified only
+61% of patients whereas ME criteria identified even fewer at 20%. It
+appears that the Fukuda et al. [2]
+criteria includes more patients, with fewer being identified with the Canadian
+ME/CFS[10], ME-ICC criteria
+[11], or empiric criteria
+[40], with still fewer
+meeting the London ME criteria described by Jason, Damrongvachiraphan, et al.
+[21].
+
+The present study classified patients into four groupings of patients. The
+exclusionary condition is composed of patients that have chronic fatigue which can be
+explained by a medical or psychiatric factor. At the Chronic Fatigue Syndrome Advisory
+Committee (CFSAC) in August of 2015, a recommendation was voted on and approved
+regarding treating exclusionary illnesses as has occurred with other case definitions,
+which is a departure from the IOM report. [2, 10, 37] A second grouping is chronic fatigue, which
+involves 6 or more months of fatigue which cannot be explained by a medical or
+psychiatric factor. A third category involves more specific criteria that have been
+posited both by the IOM report, a Canadian Clinical Case criteria, a ME-ICC criteria and
+a more empiric approach [10–11, 40] specifying domains of post-exertional malaise, neurocognitive
+impairment, and sleep dysfunction, as well as substantial reductions in activity; we
+hypothesized that this group was more functionally impaired than those meeting just
+chronic fatigue criteria. Finally, those meeting more restrictive ME criteria proposed
+by Ramsay [15] and the London
+criteria [17] were hypothesized
+to identify a smaller more impaired group.
+The DePaul Symptom Questionnaire
+
+All participants completed the DePaul Symptom Questionnaire (DSQ), a
+self-report measure of ME and CFS symptomatology, demographics, and medical,
+occupational and social history. [41] This measure was developed to classify individuals by a
+variety of ME and CFS case definitions, but the list of 54 symptoms was based
+upon a revised approach to the Clinical Canadian criteria. [10] Participants rate each
+symptom’s frequency over the past six months on a 5-point Likert scale:
+0=none of the time, 1=a little of the time, 2=about half
+the time, 3=most of the time, and 4=all of the time. Likewise,
+participants rate each symptom’s severity over the past six months on a
+5-point Likert scale: 0=symptom not present, 1=mild,
+2=moderate, 3=severe, 4=very severe. Frequency and
+severity scores were multiplied by 25 to create 100-point scales. The 100-point
+frequency and severity scores for each symptom were averaged to create one
+composite score per symptom. The DSQ has evidenced good test-retest reliability
+among both patient and control groups. [42] A factor analysis of these symptoms resulted in a
+three-factor solution, and these factors evidenced good internal consistency.
+[35] The DSQ is
+available in the shared library of Research Electronic Data Capture (REDCap)
+[43], hosted at
+DePaul University: https://redcap.is.depaul.edu/surveys/?s=tRxytSPVVw
+Medical Outcomes Study 36-Item Short-Form Health Survey (SF-36 or RAND
+Questionnaire)
+
+The SF-36 measures the impact of participants’ health on
+physical and mental functioning. [44] The measure results in eight subscales: Physical
+Functioning, Role Physical, Bodily Pain, General Health, Social Functioning,
+Mental Health, Role Emotional, and Vitality. Higher subscale scores indicate
+less impairment. The SF-36 evidences strong psychometric properties, including
+good internal consistency and discriminant validity. [45]
+Case Definitions
+
+
+
+The first category refers to those with chronic fatigue, which
+involves 6 or more months of fatigue but cannot be explained by an
+exclusionary medical or psychiatric factors, and does not include
+individuals classified by the three categories below.
+
+
+
+A second category involves more specific criteria that have been
+posited both by the IOM report, a Canadian Clinical Case criteria, a ME-ICC
+criteria and a more empiric approach specifying domains of post-exertional
+malaise, neurocognitive impairment, and sleep dysfunction. [10–11, 37,
+40] The diagnosis NDS is
+a general term that could represent findings that been suggested by several
+groups of researchers. But it should not be thought as of representing the
+IOM report, as those criteria had considerable fewer exclusionary
+conditions, and tended to prefer the use of comorbidities (in this article,
+we have made a separate category for the illnesses that had been considered
+exclusionary by prior case definitions). We decided to us the term NDS
+rather than CFS or SEID, as neither of these names were recommended by the
+CFSAC at the meeting in August of 2015. The term ME/CFS has been suggested
+as well, but such a term can be confusing as the Canadian criteria has used
+this particular diagnostic label. [10] The NDS label was initially proposed at the CFSAC in
+2003 by the Name Change workgroup. Post-exertional malaise items included:
+soreness after mild activity, feeling drained or sick after mild activity,
+minimum exercise makes you tired, muscle weakness, a dead or heavy feeling
+after exercise, and feeling mentally tired after the slightest effort.
+Neurocognitive items included: difficulty paying attention, difficulty
+expressing thoughts, problems remembering, absent-mindedness, can only focus
+on one thing at a time, slowness of thought, and difficulty understanding.
+We did not include Orthostatic Intolerance (OI), as our prior work found
+that almost all patients who met the cognitive dysfunction domain would
+include those with OI. Sleep dysfunction symptoms included: unrefreshing
+sleep, problems staying asleep, problems falling asleep, waking up early,
+and need to nap daily. Frequency and severity criteria as recommended by the
+IOM report were used. Finally, these patients must have had a substantial
+reduction in functioning as measured by meeting at least two of the three
+following criteria on the SF-36: Role Physical score ≤ 50, Social
+Functioning score ≤ 62.5, and Vitality score ≤ 35.
+
+
+
+ME criteria proposed by Ramsay [15] were operationalized by Jason,
+Damrongvachiraphan, et al. [21] based on past case definitions. This included
+Ramsay’s definition, Dowsett et al.’s
+“London” criteria, Hyde’s Nightingale definition,
+and Goudsmit et al.’s criteria. [13, 17,
+19] Patients also
+categorized their onset as sudden or gradual, and were asked: “Over
+what period of time did your fatigue related illness develop?” The
+responses included the following answers: within 24 hours, over 1 week, over
+1 month, over 2–6 months, and so on. To meet ME sudden onset
+criteria, patients needed to indicate a sudden onset and that their illness
+developed either within 24 hours or over 1 week. The major symptom
+categories of ME in the revised case definition included: post-exertional
+malaise, neurological manifestations, and autonomic dysfunction.
+Post-exertional malaise was described as prolonged restoration of muscle
+power following either mental or physical exertion with recovery often
+taking 2–24 hours or longer. Neurological manifestations included at
+least one of the following symptoms: short-term memory loss, loss of
+concentration, cognitive dysfunction, increased irritability, confusion, and
+perceptual difficulties. Autonomic dysfunction included at least one of the
+following: neutrally mediated hypotension, postural orthostatic tachycardia,
+delayed postural hypotension, palpitations with or without cardiac
+arrhythmias, dizziness, feeling unsteady on ones feet, disturbed balance,
+cold extremities, hypersensitivity to climate change, cardiac irregularity,
+Raynaud’s phenomenon, circulating blood volume decrease, and
+shortness of breath. Secondary features of ME included: pain, endocrine
+manifestations, immune manifestations, and sleep dysfunction. To meet full
+criteria of ME, patients must have had an acute onset and qualify for the
+three major ME symptom categories (post-exertional malaise, neurological
+manifestations, and autonomic manifestations).
+
+
+
+The fourth category refers to those with chronic fatigue that can be
+explained by a number of medical or psychiatric factors, as indicated by
+other case definitions such as Fukuda et al. Methods of obtaining this
+information did vary by sample, as for samples with a physician diagnosis
+(Newcastle and Norway) would be obtained after a medical examination,
+whereas with those who just completed the DSQ for the DePaul sample,
+symptoms were obtained by self-report.
+
+
+
+The first category refers to those with chronic fatigue, which
+involves 6 or more months of fatigue but cannot be explained by an
+exclusionary medical or psychiatric factors, and does not include
+individuals classified by the three categories below.
+
+
+
+A second category involves more specific criteria that have been
+posited both by the IOM report, a Canadian Clinical Case criteria, a ME-ICC
+criteria and a more empiric approach specifying domains of post-exertional
+malaise, neurocognitive impairment, and sleep dysfunction. [10–11, 37,
+40] The diagnosis NDS is
+a general term that could represent findings that been suggested by several
+groups of researchers. But it should not be thought as of representing the
+IOM report, as those criteria had considerable fewer exclusionary
+conditions, and tended to prefer the use of comorbidities (in this article,
+we have made a separate category for the illnesses that had been considered
+exclusionary by prior case definitions). We decided to us the term NDS
+rather than CFS or SEID, as neither of these names were recommended by the
+CFSAC at the meeting in August of 2015. The term ME/CFS has been suggested
+as well, but such a term can be confusing as the Canadian criteria has used
+this particular diagnostic label. [10] The NDS label was initially proposed at the CFSAC in
+2003 by the Name Change workgroup. Post-exertional malaise items included:
+soreness after mild activity, feeling drained or sick after mild activity,
+minimum exercise makes you tired, muscle weakness, a dead or heavy feeling
+after exercise, and feeling mentally tired after the slightest effort.
+Neurocognitive items included: difficulty paying attention, difficulty
+expressing thoughts, problems remembering, absent-mindedness, can only focus
+on one thing at a time, slowness of thought, and difficulty understanding.
+We did not include Orthostatic Intolerance (OI), as our prior work found
+that almost all patients who met the cognitive dysfunction domain would
+include those with OI. Sleep dysfunction symptoms included: unrefreshing
+sleep, problems staying asleep, problems falling asleep, waking up early,
+and need to nap daily. Frequency and severity criteria as recommended by the
+IOM report were used. Finally, these patients must have had a substantial
+reduction in functioning as measured by meeting at least two of the three
+following criteria on the SF-36: Role Physical score ≤ 50, Social
+Functioning score ≤ 62.5, and Vitality score ≤ 35.
+
+
+
+ME criteria proposed by Ramsay [15] were operationalized by Jason,
+Damrongvachiraphan, et al. [21] based on past case definitions. This included
+Ramsay’s definition, Dowsett et al.’s
+“London” criteria, Hyde’s Nightingale definition,
+and Goudsmit et al.’s criteria. [13, 17,
+19] Patients also
+categorized their onset as sudden or gradual, and were asked: “Over
+what period of time did your fatigue related illness develop?” The
+responses included the following answers: within 24 hours, over 1 week, over
+1 month, over 2–6 months, and so on. To meet ME sudden onset
+criteria, patients needed to indicate a sudden onset and that their illness
+developed either within 24 hours or over 1 week. The major symptom
+categories of ME in the revised case definition included: post-exertional
+malaise, neurological manifestations, and autonomic dysfunction.
+Post-exertional malaise was described as prolonged restoration of muscle
+power following either mental or physical exertion with recovery often
+taking 2–24 hours or longer. Neurological manifestations included at
+least one of the following symptoms: short-term memory loss, loss of
+concentration, cognitive dysfunction, increased irritability, confusion, and
+perceptual difficulties. Autonomic dysfunction included at least one of the
+following: neutrally mediated hypotension, postural orthostatic tachycardia,
+delayed postural hypotension, palpitations with or without cardiac
+arrhythmias, dizziness, feeling unsteady on ones feet, disturbed balance,
+cold extremities, hypersensitivity to climate change, cardiac irregularity,
+Raynaud’s phenomenon, circulating blood volume decrease, and
+shortness of breath. Secondary features of ME included: pain, endocrine
+manifestations, immune manifestations, and sleep dysfunction. To meet full
+criteria of ME, patients must have had an acute onset and qualify for the
+three major ME symptom categories (post-exertional malaise, neurological
+manifestations, and autonomic manifestations).
+
+
+
+The fourth category refers to those with chronic fatigue that can be
+explained by a number of medical or psychiatric factors, as indicated by
+other case definitions such as Fukuda et al. Methods of obtaining this
+information did vary by sample, as for samples with a physician diagnosis
+(Newcastle and Norway) would be obtained after a medical examination,
+whereas with those who just completed the DSQ for the DePaul sample,
+symptoms were obtained by self-report.
+
+Results
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Newcastle University
+
+Oslo University Hospital
+
+There has been considerable controversy regarding how to name and
+define the illnesses known as myalgic encephalomyelitis (ME) and chronic
+fatigue syndrome (CFS). The IOM report has proposed a new clinical criteria
+and name for this illness, but aspects of these recommendations have been
+scrutinized by patients and scientists.
+
+It is possible that both empiric and consensus approaches could be
+used to help settle some of these diagnostic challenges. Using patient
+samples collected in the United States, Great Britain, and Norway
+(N=556), the current study attempted to categorize patients using
+more general as well as more restricted case definitions.
+
+Overall, the outcomes suggest that there might be four groupings of
+patients, with the broadest category involving those with chronic fatigue
+(N=62), defined by 6 or more months of fatigue which can be cannot
+be explained by medical or psychiatric conditions. A second category
+involves those patients that have chronic fatigue that can be explained by a
+medical or psychiatric condition (N=47). A third category involves
+more specific criteria that have been posited both by the IOM report, a
+Canadian Clinical Case criteria, a ME-ICC criteria and a more empiric
+approach. These efforts have specified domains of substantial reductions of
+activity, post-exertional malaise, neurocognitive impairment, and sleep
+dysfunction (N=346). Patients with these characteristics were more
+functionally impaired than those meeting just chronic fatigue criteria,
+p < .05. Finally, those meeting even more
+restrictive ME criteria proposed by Ramsay, identified a smaller and even
+more impaired group, p < .05.
+
+The advantages of using such empirical and consensus approaches to
+develop reliable classification and diagnostic efforts are discussed.
+
+Chronic fatigue syndrome (CFS) has been defined by 20 case definitions, and the
+large number of case definitions provide both researchers and clinicians challenges in
+both diagnosing and treating patients. [1] The Fukuda et al. [2] case definition of CFS has been the most frequently used, and
+epidemiologic studies can provide clues for approaches to categorize patients. According
+to one community-based epidemiologic study by Jason et al. [3], about 4% of the population experience 6
+or more months of fatigue. Within this group, 19% meet Fukuda et al. criteria,
+27% do not meet these Fukuda et al. criteria, and 54% of this group have
+a medical or psychiatric (melancholic depression, bipolar disorders, anorexia nervosa or
+bulimia nervosa, psychotic disorders, drug or alcohol related disorders) exclusionary
+illness.
+
+Unfortunately, the Fukuda et al. [2] criteria have been assessed with different instruments and
+operationalized differently. As a result, the rates of CFS prevalence in community-based
+samples have ranged widely, from .004 to .0087%, .24%, and .42%
+to 2.54% of the population. [3–6] For example,
+Reeves et al. [7] attempted to
+operationalize the Fukuda et al. [2] criteria, but this effort resulted in broadening of the case
+definition. [8] In addition, the
+polythetic criteria of Fukuda et al. [2] have been criticized as not requiring fundamental symptoms including
+post-exertional malaise. [9] As a
+reaction to these criticisms, the Clinical Canadian ME/CFS criteria [10] developed by a group of researchers and
+clinicians, which required seven symptoms including post-exertional malaise and
+neurocognitive impairment. Later, the Myalgic Encephalomyelitis International Consensus
+criteria (ME-ICC) [11] were
+developed and they required eight symptoms.
+
+The history of this illness began with an outbreak of epidemic neuromysthenia in
+L.A. County [12–13] In a 1956 editorial in the
+Lancet, the term “benign myalgic encephalomyelitis”
+was coined. [14] Later, Ramsay
+[15] published a definition
+of this illness using the term “myalgic encephalomyelitis” (ME) and the
+term “benign” was dropped due to the seriousness of the disability.
+[16] There were later efforts
+to operationalize Ramsay’s [15] ME case definition with what are now known as the London criteria.
+[17–19]
+
+In one community-based study, these London ME criteria were found to select a
+smaller and more symptomatic group of patients than the CFS Fukuda et al [2] criteria. [20] In an effort to better operationalize these ME
+criteria based on the work of a number of theorists and practitioners, Jason,
+Damrongvachiraphan, et al. [21]
+used more precise frequency and severity criteria of symptoms for post-exertional
+malaise, neurological manifestation, and autonomic dysfunction. Patients also needed to
+have an acute onset to meet this ME criteria. When Jason, Brown et al. [22] applied these revised ME criteria to a
+data set of patients in a tertiary sample diagnosed with CFS using the Fukuda et al.
+[2] criteria, only 24%
+met these ME criteria, and they were more functionally impaired than those that just met
+the Fukuda et al. criteria. Later, Jason, Evans, Brown, Sunnquist, and Newton
+[23] found that 29.6%
+of a CFS sample in the US, and 17.7% of a CFS sample in England met these ME
+criteria. The more restrictive ME criteria appear to select a smaller group of patients
+than the Fukuda et al. [2]
+criteria, and those selected with ME are more impaired.
+
+The Canadian Clinical ME/CFS Criteria [10] in contrast to the Fukuda et al. [2] criteria has been found to select cases with less
+psychiatric comorbidity, more physical functioning impairment, more fatigue or weakness,
+and more neuropsychiatric and neurological symptoms [24], and comparable findings emerged in another study
+by Jason, Brown, et al. [25].
+When Jason, Brown, Evans, Sunnquist, and Newton [26] utilized three different samples of patients, each collected
+through a different case ascertainment method, 87 to 96% of the samples met the
+Fukuda et al. [2] case definition
+criteria, whereas only 73 to 77% met the Canadian ME/CFS criteria.
+Unfortunately, a study by Johnston, Brenu, Staines, and Marshall-Gradisnik’s
+[27] found that only one
+study reported prevalence rates according to these Canadian Consensus criteria.
+
+The more recently developed ME-ICC criteria [11] also identified a group of patients with more
+functional impairments and physical, mental, and cognitive problems than the larger
+group of patients who met the Fukuda et al. criteria. [28] In a larger study with samples from the US and
+Great Britain, Jason, Sunnquist, Brown, Evans, and Newton [29] found from 57 to 58% met the ME-ICC case
+definition, whereas the Fukuda et al. criteria identified a larger group of patients.
+Johnston, Brenu, Hardcastle, Huth, Staines, and Marshall-Gradisnik [30] also found that patients fulfilling the
+ME-ICC criteria reported significantly lower scores for physical functioning, role
+physical, bodily pain, social functioning as well as greater disability than those who
+met the Fukuda et al. [2]
+criteria.
+
+These different definitions and criteria provide substantial problems for
+investigators, because if case definitions have different symptoms, which are measured
+in different ways, then criterion variance is introduced. If diagnostic categories are
+unreliable, then this will have problematic consequences for estimating prevalence rates
+or finding biological markers. Empirical approaches might help specify which symptoms
+and domains have both the needed sensitivity and specificity for the case definitions.
+More empirical methods have been used to identify symptoms that differentiate CFS
+samples from controls. [31–32] For example, Jason, Kot, et al.
+[33] used data mining
+techniques to separate patients with CFS from controls. Outcomes from these analyses
+suggest that individuals identified using fewer, but empirically selected, symptoms
+(i.e., fatigue or extreme tiredness, physically drained/sick after mild activity,
+difficulty finding the right word to say or expressing thoughts, and unrefreshing sleep)
+could accurately identify patients and controls. Hawk, Jason and Torres-Harding
+[34] also found these domains
+were able to successfully differentiate patients with CFS from Major Depressive
+Disorder. Although a moderate percentage of the CFS group reports other important
+symptoms within pain, autonomic, immune, and neuroendocrine domains, they are less
+prominent.
+
+Using factor analytic approaches, Brown and Jason [35] found a three-factor solution: Neuroendocrine,
+Autonomic, and Immune Dysfunction; Neurological/Cognitive Dysfunction; and
+Post-Exertional Malaise. In a more recent study with a large data set of 788 patients,
+Jason, Sunnquist et al. [36]
+found a 4-factor solution. Three of these factors, cognitive dysfunction,
+post-exertional malaise, and sleep, fit well with previous literature indicating that
+these are cardinal symptom clusters. A combined factor involving neuroendocrine,
+autonomic and immune dysfunction symptoms suggests that neuroendocrine, autonomic, and
+immune areas that occur at lower rates than the more core domains might be better
+thought of as subtypes of the illness. These investigators next used an exploratory
+factor analysis to examine solely the items within this heterogeneous factor. The
+results indicate that circulatory/neuroendocrine impairment, orthostatic intolerance,
+and gastro-intestinal distress could be thought of as subtypes.
+
+A new name for CFS and a new clinical criteria has recently been proposed by the
+Institute of Medicine [37] in the
+US. The new name is Systemic Exertion Intolerance Disease (SEID), and the new clinical
+criteria requires the following four symptoms: substantial reduction or impairment in
+the ability to engage in pre-illness levels of occupational, educational, social, or
+personal activities; post-exertional malaise; unrefreshing sleep; and at least one of
+the two following symptoms: cognitive impairment or orthostatic intolerance. SEID is
+clinical criteria and was designed for clinicians who may require less rigor in their
+diagnostic assessment of patients with CFS. Jason, Sunnquist, and Brown et al.
+[38] analyzed archival
+samples from tertiary care settings which included seven hundred and ninety-six patients
+from the USA, Great Britain, and Norway. If investigators begin to compare and contrast
+the SEID criteria with other existing criteria, it would be of some importance for the
+scientific community to be informed of the consequences. For example, our findings
+indicated that the SEID criteria identified 88% of participants in the samples
+analyzed, which was comparable to the 92% that met the Fukuda criteria. However,
+the samples selected had already been screened for exclusionary illnesses. Because the
+SEID criteria have few exclusionary conditions, when other data sets were examined that
+had other illness groups, a study by Jason, Sunnquist et al. [39] found that the SEID prevalence rate would be 2.8
+times as great as the rate found when the Fukuda et al. [2] criteria were applied. In addition, the erroneous
+inclusion of individuals with primary psychiatric conditions in SEID samples would have
+detrimental consequences for the interpretation of epidemiologic, etiologic, and
+treatment efficacy findings for people with this illness. For example, 47% of a
+sample of individuals with melancholic depression met SEID criteria. It should be noted
+that these studies were not prospective, and the SEID criteria were not directly
+assessed in these patients; instead, symptoms meant to represent the criteria were
+examined in a cohort that was diagnosed using different diagnostic criteria.
+
+In the large sample described by Jason, Sunnquist et al. [39], the four-item empiric criteria
+[40] identified only
+61% of patients whereas ME criteria identified even fewer at 20%. It
+appears that the Fukuda et al. [2]
+criteria includes more patients, with fewer being identified with the Canadian
+ME/CFS[10], ME-ICC criteria
+[11], or empiric criteria
+[40], with still fewer
+meeting the London ME criteria described by Jason, Damrongvachiraphan, et al.
+[21].
+
+The present study classified patients into four groupings of patients. The
+exclusionary condition is composed of patients that have chronic fatigue which can be
+explained by a medical or psychiatric factor. At the Chronic Fatigue Syndrome Advisory
+Committee (CFSAC) in August of 2015, a recommendation was voted on and approved
+regarding treating exclusionary illnesses as has occurred with other case definitions,
+which is a departure from the IOM report. [2, 10, 37] A second grouping is chronic fatigue, which
+involves 6 or more months of fatigue which cannot be explained by a medical or
+psychiatric factor. A third category involves more specific criteria that have been
+posited both by the IOM report, a Canadian Clinical Case criteria, a ME-ICC criteria and
+a more empiric approach [10–11, 40] specifying domains of post-exertional malaise, neurocognitive
+impairment, and sleep dysfunction, as well as substantial reductions in activity; we
+hypothesized that this group was more functionally impaired than those meeting just
+chronic fatigue criteria. Finally, those meeting more restrictive ME criteria proposed
+by Ramsay [15] and the London
+criteria [17] were hypothesized
+to identify a smaller more impaired group.
+Demographic Characteristics
+
+Table 1 provides a comparison of
+the demographic characteristics of the patient in each diagnostic category.
+There were no significant differences on any of the demographic characteristics
+between illness groups, p > .05.
+
+Demographic information for patients in each illness subtype (N=556)
+Illness Groups
+
+
+
+Table 2 provides a comparison
+of the presence of symptoms and symptom domains of the patients in each
+illness group with at least moderate severity and presence at least half of
+the time in the past six months. Significance of χ2 tests
+are displayed in the table. Symptoms were significantly more likely to be
+present in the NDS, ME, and Exclusion groups as compared to the CF group.
+The ME group was more likely to have pain [χ2 (1)
+= 4.02, p < .05] and orthostatic
+intolerance [χ2 (1) = 4.05,
+p < .05] present compared to the NDS
+group.
+
+Percentage of patients with each symptom present at 2/2 threshold or above
+(N=556)
+
+Similar letters denote significance
+
+
+
+Table 3 provides a comparison
+of the mean and standard deviations of symptom and domain composites for
+patients in each illness group. There were significant effects of illness
+groups on mean composite scores (p < .05) in each domain
+and individual symptom, with the exception of the low temperature symptom.
+Using the Games-Howell post hoc comparison, it was determined that the CF
+group differed significantly from the Exclusions, NDS, and ME groups with
+regard to the symptom severity and frequency. The analyses determined the CF
+group experiences less severe, less frequent symptoms compared to the other
+three groups.
+
+Mean composite scores of symptoms in each domain for patients in each illness
+subtype (N=556)
+
+Similar letters denote significant differences
+
+
+
+Table 4 provides a comparison
+of the means and standard deviations for each illness group on the SF-36
+subscales. The CF group has significantly higher scores in the physical
+functioning, role physical, bodily pain, general health, social functioning,
+and vitality subscales compared to the other three groups indicating these
+patients have better overall functioning. Additionally, patients in the NDS
+group have significantly higher scores on the physical functioning subscale
+compared to the ME group, p < .05. This indicates that
+the ME group has worse physical functioning compared to the NDS group.
+
+MANOVA results for mean (SD) differences on SF-36 Subscales between illness
+subtypes (N=524)
+
+
+
+Table 5 provides a comparison
+of illness characteristics between each illness group. As shown in this
+table, the ME group has been sicker significantly longer than the NDS group,
+p < .001. The ME group was also more likely to
+indicate an infectious illness occurred prior to the onset of becoming ill
+compared to the NDS group [χ2 (1) = 4.95,
+p < .05] and the CF group
+[χ2 (1) = 4.82, p
+< .05]. Additionally, the NDS and Exclusions groups reported
+having symptoms predating their illness significantly more than the ME
+group, p < .05.
+
+Illness characteristics of patients in each subtype (N=556)
+Table 2
+
+
+
+Table 2 provides a comparison
+of the presence of symptoms and symptom domains of the patients in each
+illness group with at least moderate severity and presence at least half of
+the time in the past six months. Significance of χ2 tests
+are displayed in the table. Symptoms were significantly more likely to be
+present in the NDS, ME, and Exclusion groups as compared to the CF group.
+The ME group was more likely to have pain [χ2 (1)
+= 4.02, p < .05] and orthostatic
+intolerance [χ2 (1) = 4.05,
+p < .05] present compared to the NDS
+group.
+
+Percentage of patients with each symptom present at 2/2 threshold or above
+(N=556)
+
+Similar letters denote significance
+Table 3
+
+
+
+Table 3 provides a comparison
+of the mean and standard deviations of symptom and domain composites for
+patients in each illness group. There were significant effects of illness
+groups on mean composite scores (p < .05) in each domain
+and individual symptom, with the exception of the low temperature symptom.
+Using the Games-Howell post hoc comparison, it was determined that the CF
+group differed significantly from the Exclusions, NDS, and ME groups with
+regard to the symptom severity and frequency. The analyses determined the CF
+group experiences less severe, less frequent symptoms compared to the other
+three groups.
+
+Mean composite scores of symptoms in each domain for patients in each illness
+subtype (N=556)
+
+Similar letters denote significant differences
+Table 4
+
+
+
+Table 4 provides a comparison
+of the means and standard deviations for each illness group on the SF-36
+subscales. The CF group has significantly higher scores in the physical
+functioning, role physical, bodily pain, general health, social functioning,
+and vitality subscales compared to the other three groups indicating these
+patients have better overall functioning. Additionally, patients in the NDS
+group have significantly higher scores on the physical functioning subscale
+compared to the ME group, p < .05. This indicates that
+the ME group has worse physical functioning compared to the NDS group.
+
+MANOVA results for mean (SD) differences on SF-36 Subscales between illness
+subtypes (N=524)
+Table 5
+
+
+
+Table 5 provides a comparison
+of illness characteristics between each illness group. As shown in this
+table, the ME group has been sicker significantly longer than the NDS group,
+p < .001. The ME group was also more likely to
+indicate an infectious illness occurred prior to the onset of becoming ill
+compared to the NDS group [χ2 (1) = 4.95,
+p < .05] and the CF group
+[χ2 (1) = 4.82, p
+< .05]. Additionally, the NDS and Exclusions groups reported
+having symptoms predating their illness significantly more than the ME
+group, p < .05.
+
+Illness characteristics of patients in each subtype (N=556)
+
+Discussion
+
+Our study suggests that there might be different groupings of patients who
+have significant limitations in energy and endurance. The most consistent finding
+was that those with CF were the most differentiated from the other three groups on
+both symptoms and functional limitations. Although the differences in symptoms are
+not too surprising as the CF group did not have ratings of frequency or severity of
+symptoms to meet the NDS and ME criteria. Among the NDS, ME and exclusionary group,
+the latter had directionally more functional limitations and had the highest percent
+of patients who were bedbound. However, this group is rather diverse, as it is
+composed of individuals with multiple types of medical and psychiatric illnesses.
+The ME group had more functional limitations than the NDS group, and fewer symptoms
+that predated their fatiguing illness. Overall, this investigation suggests that
+both consensus efforts to differentiate illness groups as well as more empiric
+efforts does appear to have some validity.
+
+The study suggests that the term CF could be used to designate a broad
+criteria, as has been used in the US and Britain. The term NDS (or ME/CFS as
+proposed by the CFSAC at the August 2015 meeting) has comparable symptoms to the
+SEID criteria, and these core symptoms are also within the Canadian ME/CFS criteria,
+the ME-ICC criteria or the more empirically based ME criteria. [10–11, 37, 40] The ME criteria identify a much smaller
+percent of patients with more sudden onset of infectious symptoms, with fewer
+predating symptoms. In addition, whereas the Fukuda et al. [2] CFS criteria, the ME/CFS Canadian criteria
+[10] and the ME-ICC
+criteria [11] excluded other
+medical and psychiatric conditions that might have produced the fatigue and other
+symptoms, the new IOM [37]
+criteria regarded most other illnesses as comorbid rather than exclusionary.
+[39] This issue is still
+being debated, but the CFSAC meeting of August 2015 has recommended maintaining the
+exclusionary criteria, somewhat comparable to previous case definitions. The CFSAC
+is represented by scientists, patients, and government officials and makes
+recommendations on CFS and ME to the Secretary of Health and Human Resources.
+
+The differences in CF and NDS might also help us better understand why
+tertiary care samples appear to be more impaired than those from community-based
+samples. [46] In a CDC
+community-based epidemiology study in Wichita, Kansas [5], Nisenbaum et al. [47] provided percentages of symptoms for 65
+individuals classified as having CFS. Unusual fatigue post-exertion was found in
+78.5%, and difficulty thinking/concentrating or memory problems was found in
+76.9%. The percentages of these classic CFS symptoms tend to be low,
+suggesting an identified CFS group with fewer core symptoms. In Wessely et
+al.’s [48] British
+community based sample, 36 individuals were diagnosed as having CFS. Among this
+group, only 64% had sleep disturbances and 63% had post-exertional
+malaise. These percentages are again rather low, as both symptoms are critical
+features of CFS. It is quite possible that these individuals have CF rather than
+NDS, and this is reflected in other findings as well suggesting less impairment. For
+example, in the CDC study, 58 patients with CFS were brought back for a two day
+inpatient study that occurred from December 2002 to July 2003, and only 16
+(28% of the original group diagnosed with CFS) had a current diagnosis of
+CFS. But within tertiary care settings, less than 10% of patients with CFS
+recovery, so it is very possible that some of the patients within the
+community-based samples had CF rather than NDS. [5, 47, 49–50]
+
+It is also possible that because those with CF are less impaired that than
+those with NDS, they might be more likely to benefit from the non-pharmacologic
+interventions. In addition, those with psychiatric reasons for their fatigue might
+also be more likely to benefit from the non-pharmacologic interventions. In support
+of this proposition, Jason et al. [51] found that those with the most severe immune baseline
+characteristics tended to be non-improvers within non-pharmacologic interventions.
+Jason et al. [52] also found
+that patients with CFS with normal baseline cortisol evidenced improvements on a
+number of immunologic and self-report measures, whereas patients most impaired on
+hypothalamic-pituitary-adrenal (HPA) functioning at baseline were least able to
+improve when provided rehabilitation interventions. If those with a more severe
+illness, such as having NDS and ME, are mixed with those with CF and those with
+exclusionary illnesses, it might be more difficult to determine therapeutic outcomes
+for clinical studies.
+
+There is a need for more studies to use the new criteria of the IOM.
+[37] The present study
+used some of these criteria, except for one symptom involving cognitive impairment
+or orthostatic intolerance (but similar results would have been found if we had used
+this criteria). In addition, the IOM criteria regard most other illnesses as
+comorbid rather than exclusionary, and as this issue is still being debated. Our
+current study suggests that the exclusionary group might be different in some
+important ways from those with just the other IOM criteria, and perhaps for the
+research criteria that are developed, eliminating patients with these exclusionary
+illnesses very likely would reduce subject heterogeneity.
+
+The current study has several limitations. Most notably, the patient samples
+merged were from convenience samples as well as from samples that were evaluated by
+a medical specialist. We have published another paper that suggests that there are
+differences between our British and US samples. [53] We did analyze the Norway, Great Britain, and
+US samples separately, and found comparable results, although reduced power did
+affect some significant findings. In general, we felt that it was important to merge
+samples for the current study, and demographic differences as well as differences in
+ways cases were ascertained provided us a more generalizable data set, increasing
+external validity.
+
+The IOM diagnostic criteria are clinical rather than research criteria. Even
+though the IOM SEID was developed to be a clinical diagnostic criteria, and not a
+research criteria, as we know, the Fukuda et al. CFS criteria tended to be used both
+for research and clinical purposes, although that was not the original intention of
+it. In addition, when the Canadian clinical criteria were developed, they have also
+been used for both purposes. So, when only one type of criteria is announced and
+disseminated, there is always the possibility of it being used for both clinical and
+research purposes. Clearly, what is needed is both a research and clinical criteria,
+and there would probably be less confusion had both been worked on and disseminated
+at the same time. We do need both a research and clinical criteria, and hopefully
+this will occur in the future.
+
+Of course one might criticize the use of self-report in the DePaul sample
+for making the diagnosis of a psychiatric exclusion, however, research
+[54] has found that
+physicians are likely to report high rates of overdiagnosis and misdiagnosis as
+well. That said, having all patients complete a structured clinical interview is
+best practice and the absence of this type of interview is a study limitation.
+
+Our scientific enterprise depends on valid methods of classifying patients
+into diagnostic categories, and this basic research has important implications for
+research in areas such as etiology, pathophysiology, and treatment. It is only
+through ongoing data collection that we can provide the perspectives and analyses
+that can be used by gatekeepers representing scientists, patients and government
+groups to make the types of recommendations that will provide a sturdier foundation
+for identify cases. We continue to believe that cardinal factors including cognitive
+dysfunction, post-exertional malaise, and sleep help us identify those with more
+severe illness versus those with milder CF. [29, 55] In addition, even
+within this broader NDS category, there might very well be those who are represent
+either a separate illness category or are more severe cases, and such individuals
+might represent those within what Ramsay [15] called ME. Those with more general criteria of NDS could
+represent a clinical criteria, which is what the IOM attempted to identify, whereas
+those with a more research criteria could be represented by either the Canadian
+criteria, which was recommended by the CFSAC at their August 2015 meeting, or a more
+sudden onset ME group that was described in the current study. [10, 15,
+37] Whatever diagnostic system
+that is ultimately specified, it is critical that scientists world-wide develop
+consensus on how to identify and classify patients using clinical and research
+criteria, and one day develop subtypes within such categories.
+
+Acknowledgments
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Newcastle University
+
+Oslo University Hospital
+
+There has been considerable controversy regarding how to name and
+define the illnesses known as myalgic encephalomyelitis (ME) and chronic
+fatigue syndrome (CFS). The IOM report has proposed a new clinical criteria
+and name for this illness, but aspects of these recommendations have been
+scrutinized by patients and scientists.
+
+It is possible that both empiric and consensus approaches could be
+used to help settle some of these diagnostic challenges. Using patient
+samples collected in the United States, Great Britain, and Norway
+(N=556), the current study attempted to categorize patients using
+more general as well as more restricted case definitions.
+
+Overall, the outcomes suggest that there might be four groupings of
+patients, with the broadest category involving those with chronic fatigue
+(N=62), defined by 6 or more months of fatigue which can be cannot
+be explained by medical or psychiatric conditions. A second category
+involves those patients that have chronic fatigue that can be explained by a
+medical or psychiatric condition (N=47). A third category involves
+more specific criteria that have been posited both by the IOM report, a
+Canadian Clinical Case criteria, a ME-ICC criteria and a more empiric
+approach. These efforts have specified domains of substantial reductions of
+activity, post-exertional malaise, neurocognitive impairment, and sleep
+dysfunction (N=346). Patients with these characteristics were more
+functionally impaired than those meeting just chronic fatigue criteria,
+p < .05. Finally, those meeting even more
+restrictive ME criteria proposed by Ramsay, identified a smaller and even
+more impaired group, p < .05.
+
+The advantages of using such empirical and consensus approaches to
+develop reliable classification and diagnostic efforts are discussed.
+
+Chronic fatigue syndrome (CFS) has been defined by 20 case definitions, and the
+large number of case definitions provide both researchers and clinicians challenges in
+both diagnosing and treating patients. [1] The Fukuda et al. [2] case definition of CFS has been the most frequently used, and
+epidemiologic studies can provide clues for approaches to categorize patients. According
+to one community-based epidemiologic study by Jason et al. [3], about 4% of the population experience 6
+or more months of fatigue. Within this group, 19% meet Fukuda et al. criteria,
+27% do not meet these Fukuda et al. criteria, and 54% of this group have
+a medical or psychiatric (melancholic depression, bipolar disorders, anorexia nervosa or
+bulimia nervosa, psychotic disorders, drug or alcohol related disorders) exclusionary
+illness.
+
+Unfortunately, the Fukuda et al. [2] criteria have been assessed with different instruments and
+operationalized differently. As a result, the rates of CFS prevalence in community-based
+samples have ranged widely, from .004 to .0087%, .24%, and .42%
+to 2.54% of the population. [3–6] For example,
+Reeves et al. [7] attempted to
+operationalize the Fukuda et al. [2] criteria, but this effort resulted in broadening of the case
+definition. [8] In addition, the
+polythetic criteria of Fukuda et al. [2] have been criticized as not requiring fundamental symptoms including
+post-exertional malaise. [9] As a
+reaction to these criticisms, the Clinical Canadian ME/CFS criteria [10] developed by a group of researchers and
+clinicians, which required seven symptoms including post-exertional malaise and
+neurocognitive impairment. Later, the Myalgic Encephalomyelitis International Consensus
+criteria (ME-ICC) [11] were
+developed and they required eight symptoms.
+
+The history of this illness began with an outbreak of epidemic neuromysthenia in
+L.A. County [12–13] In a 1956 editorial in the
+Lancet, the term “benign myalgic encephalomyelitis”
+was coined. [14] Later, Ramsay
+[15] published a definition
+of this illness using the term “myalgic encephalomyelitis” (ME) and the
+term “benign” was dropped due to the seriousness of the disability.
+[16] There were later efforts
+to operationalize Ramsay’s [15] ME case definition with what are now known as the London criteria.
+[17–19]
+
+In one community-based study, these London ME criteria were found to select a
+smaller and more symptomatic group of patients than the CFS Fukuda et al [2] criteria. [20] In an effort to better operationalize these ME
+criteria based on the work of a number of theorists and practitioners, Jason,
+Damrongvachiraphan, et al. [21]
+used more precise frequency and severity criteria of symptoms for post-exertional
+malaise, neurological manifestation, and autonomic dysfunction. Patients also needed to
+have an acute onset to meet this ME criteria. When Jason, Brown et al. [22] applied these revised ME criteria to a
+data set of patients in a tertiary sample diagnosed with CFS using the Fukuda et al.
+[2] criteria, only 24%
+met these ME criteria, and they were more functionally impaired than those that just met
+the Fukuda et al. criteria. Later, Jason, Evans, Brown, Sunnquist, and Newton
+[23] found that 29.6%
+of a CFS sample in the US, and 17.7% of a CFS sample in England met these ME
+criteria. The more restrictive ME criteria appear to select a smaller group of patients
+than the Fukuda et al. [2]
+criteria, and those selected with ME are more impaired.
+
+The Canadian Clinical ME/CFS Criteria [10] in contrast to the Fukuda et al. [2] criteria has been found to select cases with less
+psychiatric comorbidity, more physical functioning impairment, more fatigue or weakness,
+and more neuropsychiatric and neurological symptoms [24], and comparable findings emerged in another study
+by Jason, Brown, et al. [25].
+When Jason, Brown, Evans, Sunnquist, and Newton [26] utilized three different samples of patients, each collected
+through a different case ascertainment method, 87 to 96% of the samples met the
+Fukuda et al. [2] case definition
+criteria, whereas only 73 to 77% met the Canadian ME/CFS criteria.
+Unfortunately, a study by Johnston, Brenu, Staines, and Marshall-Gradisnik’s
+[27] found that only one
+study reported prevalence rates according to these Canadian Consensus criteria.
+
+The more recently developed ME-ICC criteria [11] also identified a group of patients with more
+functional impairments and physical, mental, and cognitive problems than the larger
+group of patients who met the Fukuda et al. criteria. [28] In a larger study with samples from the US and
+Great Britain, Jason, Sunnquist, Brown, Evans, and Newton [29] found from 57 to 58% met the ME-ICC case
+definition, whereas the Fukuda et al. criteria identified a larger group of patients.
+Johnston, Brenu, Hardcastle, Huth, Staines, and Marshall-Gradisnik [30] also found that patients fulfilling the
+ME-ICC criteria reported significantly lower scores for physical functioning, role
+physical, bodily pain, social functioning as well as greater disability than those who
+met the Fukuda et al. [2]
+criteria.
+
+These different definitions and criteria provide substantial problems for
+investigators, because if case definitions have different symptoms, which are measured
+in different ways, then criterion variance is introduced. If diagnostic categories are
+unreliable, then this will have problematic consequences for estimating prevalence rates
+or finding biological markers. Empirical approaches might help specify which symptoms
+and domains have both the needed sensitivity and specificity for the case definitions.
+More empirical methods have been used to identify symptoms that differentiate CFS
+samples from controls. [31–32] For example, Jason, Kot, et al.
+[33] used data mining
+techniques to separate patients with CFS from controls. Outcomes from these analyses
+suggest that individuals identified using fewer, but empirically selected, symptoms
+(i.e., fatigue or extreme tiredness, physically drained/sick after mild activity,
+difficulty finding the right word to say or expressing thoughts, and unrefreshing sleep)
+could accurately identify patients and controls. Hawk, Jason and Torres-Harding
+[34] also found these domains
+were able to successfully differentiate patients with CFS from Major Depressive
+Disorder. Although a moderate percentage of the CFS group reports other important
+symptoms within pain, autonomic, immune, and neuroendocrine domains, they are less
+prominent.
+
+Using factor analytic approaches, Brown and Jason [35] found a three-factor solution: Neuroendocrine,
+Autonomic, and Immune Dysfunction; Neurological/Cognitive Dysfunction; and
+Post-Exertional Malaise. In a more recent study with a large data set of 788 patients,
+Jason, Sunnquist et al. [36]
+found a 4-factor solution. Three of these factors, cognitive dysfunction,
+post-exertional malaise, and sleep, fit well with previous literature indicating that
+these are cardinal symptom clusters. A combined factor involving neuroendocrine,
+autonomic and immune dysfunction symptoms suggests that neuroendocrine, autonomic, and
+immune areas that occur at lower rates than the more core domains might be better
+thought of as subtypes of the illness. These investigators next used an exploratory
+factor analysis to examine solely the items within this heterogeneous factor. The
+results indicate that circulatory/neuroendocrine impairment, orthostatic intolerance,
+and gastro-intestinal distress could be thought of as subtypes.
+
+A new name for CFS and a new clinical criteria has recently been proposed by the
+Institute of Medicine [37] in the
+US. The new name is Systemic Exertion Intolerance Disease (SEID), and the new clinical
+criteria requires the following four symptoms: substantial reduction or impairment in
+the ability to engage in pre-illness levels of occupational, educational, social, or
+personal activities; post-exertional malaise; unrefreshing sleep; and at least one of
+the two following symptoms: cognitive impairment or orthostatic intolerance. SEID is
+clinical criteria and was designed for clinicians who may require less rigor in their
+diagnostic assessment of patients with CFS. Jason, Sunnquist, and Brown et al.
+[38] analyzed archival
+samples from tertiary care settings which included seven hundred and ninety-six patients
+from the USA, Great Britain, and Norway. If investigators begin to compare and contrast
+the SEID criteria with other existing criteria, it would be of some importance for the
+scientific community to be informed of the consequences. For example, our findings
+indicated that the SEID criteria identified 88% of participants in the samples
+analyzed, which was comparable to the 92% that met the Fukuda criteria. However,
+the samples selected had already been screened for exclusionary illnesses. Because the
+SEID criteria have few exclusionary conditions, when other data sets were examined that
+had other illness groups, a study by Jason, Sunnquist et al. [39] found that the SEID prevalence rate would be 2.8
+times as great as the rate found when the Fukuda et al. [2] criteria were applied. In addition, the erroneous
+inclusion of individuals with primary psychiatric conditions in SEID samples would have
+detrimental consequences for the interpretation of epidemiologic, etiologic, and
+treatment efficacy findings for people with this illness. For example, 47% of a
+sample of individuals with melancholic depression met SEID criteria. It should be noted
+that these studies were not prospective, and the SEID criteria were not directly
+assessed in these patients; instead, symptoms meant to represent the criteria were
+examined in a cohort that was diagnosed using different diagnostic criteria.
+
+In the large sample described by Jason, Sunnquist et al. [39], the four-item empiric criteria
+[40] identified only
+61% of patients whereas ME criteria identified even fewer at 20%. It
+appears that the Fukuda et al. [2]
+criteria includes more patients, with fewer being identified with the Canadian
+ME/CFS[10], ME-ICC criteria
+[11], or empiric criteria
+[40], with still fewer
+meeting the London ME criteria described by Jason, Damrongvachiraphan, et al.
+[21].
+
+The present study classified patients into four groupings of patients. The
+exclusionary condition is composed of patients that have chronic fatigue which can be
+explained by a medical or psychiatric factor. At the Chronic Fatigue Syndrome Advisory
+Committee (CFSAC) in August of 2015, a recommendation was voted on and approved
+regarding treating exclusionary illnesses as has occurred with other case definitions,
+which is a departure from the IOM report. [2, 10, 37] A second grouping is chronic fatigue, which
+involves 6 or more months of fatigue which cannot be explained by a medical or
+psychiatric factor. A third category involves more specific criteria that have been
+posited both by the IOM report, a Canadian Clinical Case criteria, a ME-ICC criteria and
+a more empiric approach [10–11, 40] specifying domains of post-exertional malaise, neurocognitive
+impairment, and sleep dysfunction, as well as substantial reductions in activity; we
+hypothesized that this group was more functionally impaired than those meeting just
+chronic fatigue criteria. Finally, those meeting more restrictive ME criteria proposed
+by Ramsay [15] and the London
+criteria [17] were hypothesized
+to identify a smaller more impaired group.
+
+The authors appreciate the funding provided by NIAID (grant numbers AI 49720 & AI
+055735).
+
+Contributor Information
+
+Leonard A. Jason,  Center for Community Research, DePaul University, Chicago, IL USA.
+
+Stephanie McManimen,  Center for Community Research, DePaul University, Chicago, IL USA.
+
+Madison Sunnquist,  Center for Community Research, DePaul University, Chicago, IL USA.
+
+Abigail Brown,  Center for Community Research, DePaul University, Chicago, IL USA.
+
+Jacob Furst,  Center for Community Research, DePaul University, Chicago, IL USA.
+
+Julia L. Newton,  Newcastle University.
+
+Elin Bolle Strand,  Oslo University Hospital.
+
+References
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Center for Community Research, DePaul University, Chicago, IL USA
+
+Newcastle University
+
+Oslo University Hospital
+
+There has been considerable controversy regarding how to name and
+define the illnesses known as myalgic encephalomyelitis (ME) and chronic
+fatigue syndrome (CFS). The IOM report has proposed a new clinical criteria
+and name for this illness, but aspects of these recommendations have been
+scrutinized by patients and scientists.
+
+It is possible that both empiric and consensus approaches could be
+used to help settle some of these diagnostic challenges. Using patient
+samples collected in the United States, Great Britain, and Norway
+(N=556), the current study attempted to categorize patients using
+more general as well as more restricted case definitions.
+
+Overall, the outcomes suggest that there might be four groupings of
+patients, with the broadest category involving those with chronic fatigue
+(N=62), defined by 6 or more months of fatigue which can be cannot
+be explained by medical or psychiatric conditions. A second category
+involves those patients that have chronic fatigue that can be explained by a
+medical or psychiatric condition (N=47). A third category involves
+more specific criteria that have been posited both by the IOM report, a
+Canadian Clinical Case criteria, a ME-ICC criteria and a more empiric
+approach. These efforts have specified domains of substantial reductions of
+activity, post-exertional malaise, neurocognitive impairment, and sleep
+dysfunction (N=346). Patients with these characteristics were more
+functionally impaired than those meeting just chronic fatigue criteria,
+p < .05. Finally, those meeting even more
+restrictive ME criteria proposed by Ramsay, identified a smaller and even
+more impaired group, p < .05.
+
+The advantages of using such empirical and consensus approaches to
+develop reliable classification and diagnostic efforts are discussed.
+
+Chronic fatigue syndrome (CFS) has been defined by 20 case definitions, and the
+large number of case definitions provide both researchers and clinicians challenges in
+both diagnosing and treating patients. [1] The Fukuda et al. [2] case definition of CFS has been the most frequently used, and
+epidemiologic studies can provide clues for approaches to categorize patients. According
+to one community-based epidemiologic study by Jason et al. [3], about 4% of the population experience 6
+or more months of fatigue. Within this group, 19% meet Fukuda et al. criteria,
+27% do not meet these Fukuda et al. criteria, and 54% of this group have
+a medical or psychiatric (melancholic depression, bipolar disorders, anorexia nervosa or
+bulimia nervosa, psychotic disorders, drug or alcohol related disorders) exclusionary
+illness.
+
+Unfortunately, the Fukuda et al. [2] criteria have been assessed with different instruments and
+operationalized differently. As a result, the rates of CFS prevalence in community-based
+samples have ranged widely, from .004 to .0087%, .24%, and .42%
+to 2.54% of the population. [3–6] For example,
+Reeves et al. [7] attempted to
+operationalize the Fukuda et al. [2] criteria, but this effort resulted in broadening of the case
+definition. [8] In addition, the
+polythetic criteria of Fukuda et al. [2] have been criticized as not requiring fundamental symptoms including
+post-exertional malaise. [9] As a
+reaction to these criticisms, the Clinical Canadian ME/CFS criteria [10] developed by a group of researchers and
+clinicians, which required seven symptoms including post-exertional malaise and
+neurocognitive impairment. Later, the Myalgic Encephalomyelitis International Consensus
+criteria (ME-ICC) [11] were
+developed and they required eight symptoms.
+
+The history of this illness began with an outbreak of epidemic neuromysthenia in
+L.A. County [12–13] In a 1956 editorial in the
+Lancet, the term “benign myalgic encephalomyelitis”
+was coined. [14] Later, Ramsay
+[15] published a definition
+of this illness using the term “myalgic encephalomyelitis” (ME) and the
+term “benign” was dropped due to the seriousness of the disability.
+[16] There were later efforts
+to operationalize Ramsay’s [15] ME case definition with what are now known as the London criteria.
+[17–19]
+
+In one community-based study, these London ME criteria were found to select a
+smaller and more symptomatic group of patients than the CFS Fukuda et al [2] criteria. [20] In an effort to better operationalize these ME
+criteria based on the work of a number of theorists and practitioners, Jason,
+Damrongvachiraphan, et al. [21]
+used more precise frequency and severity criteria of symptoms for post-exertional
+malaise, neurological manifestation, and autonomic dysfunction. Patients also needed to
+have an acute onset to meet this ME criteria. When Jason, Brown et al. [22] applied these revised ME criteria to a
+data set of patients in a tertiary sample diagnosed with CFS using the Fukuda et al.
+[2] criteria, only 24%
+met these ME criteria, and they were more functionally impaired than those that just met
+the Fukuda et al. criteria. Later, Jason, Evans, Brown, Sunnquist, and Newton
+[23] found that 29.6%
+of a CFS sample in the US, and 17.7% of a CFS sample in England met these ME
+criteria. The more restrictive ME criteria appear to select a smaller group of patients
+than the Fukuda et al. [2]
+criteria, and those selected with ME are more impaired.
+
+The Canadian Clinical ME/CFS Criteria [10] in contrast to the Fukuda et al. [2] criteria has been found to select cases with less
+psychiatric comorbidity, more physical functioning impairment, more fatigue or weakness,
+and more neuropsychiatric and neurological symptoms [24], and comparable findings emerged in another study
+by Jason, Brown, et al. [25].
+When Jason, Brown, Evans, Sunnquist, and Newton [26] utilized three different samples of patients, each collected
+through a different case ascertainment method, 87 to 96% of the samples met the
+Fukuda et al. [2] case definition
+criteria, whereas only 73 to 77% met the Canadian ME/CFS criteria.
+Unfortunately, a study by Johnston, Brenu, Staines, and Marshall-Gradisnik’s
+[27] found that only one
+study reported prevalence rates according to these Canadian Consensus criteria.
+
+The more recently developed ME-ICC criteria [11] also identified a group of patients with more
+functional impairments and physical, mental, and cognitive problems than the larger
+group of patients who met the Fukuda et al. criteria. [28] In a larger study with samples from the US and
+Great Britain, Jason, Sunnquist, Brown, Evans, and Newton [29] found from 57 to 58% met the ME-ICC case
+definition, whereas the Fukuda et al. criteria identified a larger group of patients.
+Johnston, Brenu, Hardcastle, Huth, Staines, and Marshall-Gradisnik [30] also found that patients fulfilling the
+ME-ICC criteria reported significantly lower scores for physical functioning, role
+physical, bodily pain, social functioning as well as greater disability than those who
+met the Fukuda et al. [2]
+criteria.
+
+These different definitions and criteria provide substantial problems for
+investigators, because if case definitions have different symptoms, which are measured
+in different ways, then criterion variance is introduced. If diagnostic categories are
+unreliable, then this will have problematic consequences for estimating prevalence rates
+or finding biological markers. Empirical approaches might help specify which symptoms
+and domains have both the needed sensitivity and specificity for the case definitions.
+More empirical methods have been used to identify symptoms that differentiate CFS
+samples from controls. [31–32] For example, Jason, Kot, et al.
+[33] used data mining
+techniques to separate patients with CFS from controls. Outcomes from these analyses
+suggest that individuals identified using fewer, but empirically selected, symptoms
+(i.e., fatigue or extreme tiredness, physically drained/sick after mild activity,
+difficulty finding the right word to say or expressing thoughts, and unrefreshing sleep)
+could accurately identify patients and controls. Hawk, Jason and Torres-Harding
+[34] also found these domains
+were able to successfully differentiate patients with CFS from Major Depressive
+Disorder. Although a moderate percentage of the CFS group reports other important
+symptoms within pain, autonomic, immune, and neuroendocrine domains, they are less
+prominent.
+
+Using factor analytic approaches, Brown and Jason [35] found a three-factor solution: Neuroendocrine,
+Autonomic, and Immune Dysfunction; Neurological/Cognitive Dysfunction; and
+Post-Exertional Malaise. In a more recent study with a large data set of 788 patients,
+Jason, Sunnquist et al. [36]
+found a 4-factor solution. Three of these factors, cognitive dysfunction,
+post-exertional malaise, and sleep, fit well with previous literature indicating that
+these are cardinal symptom clusters. A combined factor involving neuroendocrine,
+autonomic and immune dysfunction symptoms suggests that neuroendocrine, autonomic, and
+immune areas that occur at lower rates than the more core domains might be better
+thought of as subtypes of the illness. These investigators next used an exploratory
+factor analysis to examine solely the items within this heterogeneous factor. The
+results indicate that circulatory/neuroendocrine impairment, orthostatic intolerance,
+and gastro-intestinal distress could be thought of as subtypes.
+
+A new name for CFS and a new clinical criteria has recently been proposed by the
+Institute of Medicine [37] in the
+US. The new name is Systemic Exertion Intolerance Disease (SEID), and the new clinical
+criteria requires the following four symptoms: substantial reduction or impairment in
+the ability to engage in pre-illness levels of occupational, educational, social, or
+personal activities; post-exertional malaise; unrefreshing sleep; and at least one of
+the two following symptoms: cognitive impairment or orthostatic intolerance. SEID is
+clinical criteria and was designed for clinicians who may require less rigor in their
+diagnostic assessment of patients with CFS. Jason, Sunnquist, and Brown et al.
+[38] analyzed archival
+samples from tertiary care settings which included seven hundred and ninety-six patients
+from the USA, Great Britain, and Norway. If investigators begin to compare and contrast
+the SEID criteria with other existing criteria, it would be of some importance for the
+scientific community to be informed of the consequences. For example, our findings
+indicated that the SEID criteria identified 88% of participants in the samples
+analyzed, which was comparable to the 92% that met the Fukuda criteria. However,
+the samples selected had already been screened for exclusionary illnesses. Because the
+SEID criteria have few exclusionary conditions, when other data sets were examined that
+had other illness groups, a study by Jason, Sunnquist et al. [39] found that the SEID prevalence rate would be 2.8
+times as great as the rate found when the Fukuda et al. [2] criteria were applied. In addition, the erroneous
+inclusion of individuals with primary psychiatric conditions in SEID samples would have
+detrimental consequences for the interpretation of epidemiologic, etiologic, and
+treatment efficacy findings for people with this illness. For example, 47% of a
+sample of individuals with melancholic depression met SEID criteria. It should be noted
+that these studies were not prospective, and the SEID criteria were not directly
+assessed in these patients; instead, symptoms meant to represent the criteria were
+examined in a cohort that was diagnosed using different diagnostic criteria.
+
+In the large sample described by Jason, Sunnquist et al. [39], the four-item empiric criteria
+[40] identified only
+61% of patients whereas ME criteria identified even fewer at 20%. It
+appears that the Fukuda et al. [2]
+criteria includes more patients, with fewer being identified with the Canadian
+ME/CFS[10], ME-ICC criteria
+[11], or empiric criteria
+[40], with still fewer
+meeting the London ME criteria described by Jason, Damrongvachiraphan, et al.
+[21].
+
+The present study classified patients into four groupings of patients. The
+exclusionary condition is composed of patients that have chronic fatigue which can be
+explained by a medical or psychiatric factor. At the Chronic Fatigue Syndrome Advisory
+Committee (CFSAC) in August of 2015, a recommendation was voted on and approved
+regarding treating exclusionary illnesses as has occurred with other case definitions,
+which is a departure from the IOM report. [2, 10, 37] A second grouping is chronic fatigue, which
+involves 6 or more months of fatigue which cannot be explained by a medical or
+psychiatric factor. A third category involves more specific criteria that have been
+posited both by the IOM report, a Canadian Clinical Case criteria, a ME-ICC criteria and
+a more empiric approach [10–11, 40] specifying domains of post-exertional malaise, neurocognitive
+impairment, and sleep dysfunction, as well as substantial reductions in activity; we
+hypothesized that this group was more functionally impaired than those meeting just
+chronic fatigue criteria. Finally, those meeting more restrictive ME criteria proposed
+by Ramsay [15] and the London
+criteria [17] were hypothesized
+to identify a smaller more impaired group.
+
+http://www.ncbi.nlm.nih.gov/pubmed/27088059

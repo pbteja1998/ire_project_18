@@ -1,0 +1,415 @@
+Selected vitamin D metabolic gene variants and risk for autism spectrum disorder in the CHARGE Study.
+
+Abstract
+
+aDepartment of Public Health Sciences, University of California Davis School of Medicine, Davis, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+cDepartment of Pediatrics, University of California Davis School of Medicine, Davis, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+eGraduate Group in Epidemiology, University of California Davis, Davis, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+gDepartments of Preventive Medicine and Pediatrics, Zilkha Neurogenetic Institute, Keck School of Medicine, Children’s Hospital Los Angeles, University of Southern California, Los Angeles, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+Vitamin D is essential for proper neurodevelopment and cognitive and behavioral function. We examined associations between autism spectrum disorder (ASD) and common, functional polymorphisms in vitamin D pathways.
+
+Children aged 24–60 months enrolled from 2003 to 2009 in the population-based CHARGE case–control study were evaluated clinically and confirmed to have ASD (n = 474) or typical development (TD, n = 281). Maternal, paternal, and child DNA samples for 384 (81%) families of children with ASD and 234 (83%) families of TD children were genotyped for: TaqI, BsmI, FokI, and Cdx2 in the vitamin D receptor (VDR) gene, and CYP27B1 rs4646536, GC rs4588, and CYP2R1 rs10741657. Case–control logistic regression, family-based log-linear, and hybrid log-linear analyses were conducted to produce risk estimates and 95% confidence intervals (CI) for each allelic variant.
+
+Paternal VDR TaqI homozygous variant genotype was significantly associated with ASD in case–control analysis (odds ratio [OR] [CI]: 6.3 [1.9–20.7]) and there was a trend towards increased risk associated with VDR BsmI (OR [CI]: 4.7 [1.6–13.4]). Log-linear triad analyses detected parental imprinting, with greater effects of paternally-derived VDR alleles. Child GC AA-genotype/A-allele was associated with ASD in log-linear and ETDT analyses. A significant association between decreased ASD risk and child CYP2R1 AA-genotype was found in hybrid log-linear analysis. There were limitations of low statistical power for less common alleles due to missing paternal genotypes.
+
+This study provides preliminary evidence that paternal and child vitamin D metabolism could play a role in the etiology of ASD; further research in larger study populations is warranted.
+
+1. Introduction
+
+Autism spectrum disorder (ASD) consists of a range of neurodevelopmental disorders characterized by the presence of social deficits, language impairments, and stereotyped or repetitive behaviors and interests. The etiology of ASD in most cases remains unclear, though combinations of multiple genetic and environmental factors are likely to play a role. Vitamin D deficiency was hypothesized to contribute to the increase in the incidence of ASD based on studies showing increased rates of autism among dark-skinned immigrants displaced into northern latitudes, and differences in autism prevalence across season and latitude [1], potentially reflecting changes in sunlight exposure and absorbed vitamin D. These findings have been attributed to a potential effect of maternal vitamin D status on the child’s risk for ASD. The biologic plausibility for a link between vitamin D and autism is ample, as previously reviewed [1,2]. Animal studies show long-lasting neurodevelopmental effects of transient vitamin D deficiency during gestation leading to autism-relevant structural and functional changes in the brain and behaviors of the offspring [3–5]. Gene variants within the vitamin D pathway can determine uptake and utilization of vitamin D. Genetic susceptibility to inefficient vitamin D uptake and metabolism has yet to be explored in relation to autism. Thus, this study examined common, functional vitamin D-relevant gene variants in maternal, paternal and child samples in relation to risk for ASD in the child.
+
+2. Methods
+
+aDepartment of Public Health Sciences, University of California Davis School of Medicine, Davis, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+cDepartment of Pediatrics, University of California Davis School of Medicine, Davis, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+eGraduate Group in Epidemiology, University of California Davis, Davis, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+gDepartments of Preventive Medicine and Pediatrics, Zilkha Neurogenetic Institute, Keck School of Medicine, Children’s Hospital Los Angeles, University of Southern California, Los Angeles, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+Vitamin D is essential for proper neurodevelopment and cognitive and behavioral function. We examined associations between autism spectrum disorder (ASD) and common, functional polymorphisms in vitamin D pathways.
+
+Children aged 24–60 months enrolled from 2003 to 2009 in the population-based CHARGE case–control study were evaluated clinically and confirmed to have ASD (n = 474) or typical development (TD, n = 281). Maternal, paternal, and child DNA samples for 384 (81%) families of children with ASD and 234 (83%) families of TD children were genotyped for: TaqI, BsmI, FokI, and Cdx2 in the vitamin D receptor (VDR) gene, and CYP27B1 rs4646536, GC rs4588, and CYP2R1 rs10741657. Case–control logistic regression, family-based log-linear, and hybrid log-linear analyses were conducted to produce risk estimates and 95% confidence intervals (CI) for each allelic variant.
+
+Paternal VDR TaqI homozygous variant genotype was significantly associated with ASD in case–control analysis (odds ratio [OR] [CI]: 6.3 [1.9–20.7]) and there was a trend towards increased risk associated with VDR BsmI (OR [CI]: 4.7 [1.6–13.4]). Log-linear triad analyses detected parental imprinting, with greater effects of paternally-derived VDR alleles. Child GC AA-genotype/A-allele was associated with ASD in log-linear and ETDT analyses. A significant association between decreased ASD risk and child CYP2R1 AA-genotype was found in hybrid log-linear analysis. There were limitations of low statistical power for less common alleles due to missing paternal genotypes.
+
+This study provides preliminary evidence that paternal and child vitamin D metabolism could play a role in the etiology of ASD; further research in larger study populations is warranted.
+
+Autism spectrum disorder (ASD) consists of a range of neurodevelopmental disorders characterized by the presence of social deficits, language impairments, and stereotyped or repetitive behaviors and interests. The etiology of ASD in most cases remains unclear, though combinations of multiple genetic and environmental factors are likely to play a role. Vitamin D deficiency was hypothesized to contribute to the increase in the incidence of ASD based on studies showing increased rates of autism among dark-skinned immigrants displaced into northern latitudes, and differences in autism prevalence across season and latitude [1], potentially reflecting changes in sunlight exposure and absorbed vitamin D. These findings have been attributed to a potential effect of maternal vitamin D status on the child’s risk for ASD. The biologic plausibility for a link between vitamin D and autism is ample, as previously reviewed [1,2]. Animal studies show long-lasting neurodevelopmental effects of transient vitamin D deficiency during gestation leading to autism-relevant structural and functional changes in the brain and behaviors of the offspring [3–5]. Gene variants within the vitamin D pathway can determine uptake and utilization of vitamin D. Genetic susceptibility to inefficient vitamin D uptake and metabolism has yet to be explored in relation to autism. Thus, this study examined common, functional vitamin D-relevant gene variants in maternal, paternal and child samples in relation to risk for ASD in the child.
+2.1. Participants, eligibility and diagnostic criteria
+
+Individuals included in this study were participants in the CHARGE (CHildhood Autism Risks from Genetics and the Environment) case–control study [6]. Eligibility criteria for children were: 1) age of 24 to 60 months at time of enrollment, 2) birth in California, 3) residence with at least one biologic parent who speaks English or Spanish, and 4) residence in the catchment areas of a specified list of California Regional Centers that coordinate services for persons with developmental disabilities. Children with autism, intellectual disability, or developmental delay were identified through the California Regional Centers as having received services for one or more of these conditions. Autism cases were also referred from the MIND Institute and other health or service providers, or self-referred from the CHARGE Study website. General population controls identified from state birth files were frequency matched to the age and catchment area distribution of the autism cases, and a 4:1 male-to-female ratio reflective of that seen for ASD.
+
+All children were assessed for cognitive function using the Mullen Scales of Early Learning (MSEL) [7] and for adaptive function using the Vineland Adaptive Behavior Scales (VABS) [8]. For children with autism, the primary caregiver completed the Autism Diagnostic Interview —Revised (ADI-R) [9], and children were assessed using the Autism Diagnostic Observation Schedule — Generic (ADOS) [10] to confirm the child’s diagnosis. The children of families recruited from the general population or with developmental delay/intellectual disability were screened for evidence of ASD using the Social Communication Questionnaire (SCQ) and if they scored above 15, were evaluated for autism. Final ASD case status was defined as 1) scoring at least 7 on ADOS Module 1 or at least 8 on ADOS Module 2; 2) meeting the cutoff value for section A or B and scoring above or within 2 points of the cutoff value on A or B (whichever did not meet cutoff value) in ADI-R; and 3) meeting the cutoff value on section D in ADI-R. Typical development (TD) required being recruited from the general population, screening negative for evidence of ASD on the SCQ, and scoring 70 or above on both the MSEL and VABS. These analyses included only the first child per family recruited into the study. The University of California—Davis Institutional Review Board and the State of California Committee for the Protection of Human Subjects approved this study and the CHARGE Study protocols. Neither data nor specimens were collected until written informed consent was obtained from the parents.
+2.2. Genotyping methods
+
+Genomic DNA was isolated using standard procedures (Puregene kit; Gentra Inc.) from peripheral blood plasma leukocytes collected as part of CHARGE protocol. Genotyping was conducted blinded to case status using TaqMan Single Nucleotide Polymorphism (SNP) Genotyping Assays (Applied Biosystems) for the following variants: VDR TaqI (rs731236), BsmI (rs1544410), Cdx2 (rs11568820), and FokI (rs10735810), CYP27B1 T2838C (rs464536), GC (VBP, DBP) G716A (rs4588), and CYP2R1 rs10741657. Variants were chosen from key regulatory genes for the pathway of interest with priority given to common variants that altered gene function and/or were associated with altered vitamin D status.
+
+Ancestry Informative Markers (AIMs) were also genotyped for a subset of participants, including 281 (73%) families of children with ASD, and 161 (69%) families of children with TD. We identified 100 SNPs based on inherited allele frequencies determined from four parental populations (African, European, American Indian, and East Asian) to empirically estimate the proportion of ancestry attributable to a particular founding population for each individual using the program Structure. In our analyses, the proportion of variance from the European group was used as a reference with the additional three variables reflecting ancestral heritage included as covariates.
+2.3. Statistical analysis
+
+
+
+Odds ratios (OR) and 95% confidence intervals (CI) were estimated for associations between the gene variants and ASD, adjusted for confounders, using logistic regression analysis applied to a case–control design using SAS 9.4. Potential confounders included: maternal, paternal, and child race and ethnicity (self-reported by parents, derived for child from parental information), private insurance vs. public payment for delivery, maternal and paternal age, maternal birthplace (US, Mexico, other), education, pre-pregnancy body mass index, and child sex and birth year. Ancestral heritage derived from the AIMs was also examined as potential confounders on the subset of participants with this data available (earlier participants). We began by fitting a full model containing potential confounders identified in the bivariate analyses as being broadly associated (P < 0.2) with both ASD and each genetic variant. Variables were then excluded using backward selection, retaining in the model variables that caused ≥10% change in the parameter estimates for the gene variants of interest. Because biologic samples were not available for some participants and many fathers, sensitivity analyses assessed the impact of missing data, using multiple imputation via the Markov Chain Monte Carlo algorithm [11]. To account for the multiplicity of hypotheses being assessed, we controlled the false discovery rate (FDR) at 5% [12].
+
+Interaction effects were examined between gene variants and race and ethnicity, parental age, maternal birthplace, pre-pregnancy body mass index, and child sex. In addition, because nutrient data from vitamins, supplements and cereals for the three months before and during pregnancy was available for these study participants, we conducted exploratory analyses examining multiplicative interactions between maternal supplemental vitamin D intake above and below the mean/median for the TD group (400 IU) and child gene variants that were associated with increased risk for ASD in the case–control or hybrid log-linear analyses, and that were not vulnerable to population structure bias.
+
+
+
+Linear regression models were fit for associations between genotypes and continuous assessment scores in secondary (post-hoc) analyses. The multiple linear regression coefficients represent adjusted mean differences in continuous scores across genotype. The continuous assessment scores included: age-standardized MSEL composite score, VABS composite score, SCQ total score, and the ADOS-2 comparison (severity) score [13]. T-tests were also preformed to compare mean assessment scores by genotype.
+
+
+
+Log-linear analysis was applied to both a case–parent triad design [14] and, when population structures allowed, a hybrid design that combined the case–parent triad and case–control designs [15].
+
+
+
+The case–parent log-linear approach was used to assess the association between ASD and both maternal and infant genotypes with the case–parent triad as the unit of analysis [14]. This approach provided likelihood-ratio tests (LRTs) and maximum-likelihood estimators of the genetic effects, allowing for different relative risks (RRs) corresponding to carrying one and carrying two copies of a susceptibility-related allele, relative to no copies [14]. The expectation–maximization (EM) algorithm was applied to allow the use of families with a missing parental genotype [16]. In simulation studies, the log-linear approach is more powerful than other transmission/disequilibrium tests under a dominant or a recessive model [17]. An extension of the original 2 × 2 transmission/disequilibrium test (ETDT) for multi-allele marker loci in case–parent triads [18] was also used to verify the results of the log-linear analyses.
+
+
+
+In the hybrid design, genotype information for case infants and their parents was supplemented with genetic information for the parents of the control infants for additional power [15]. Relative risk parameters were estimated through log-linear, likelihood-based analysis that allowed stratification by parental mating types. Asymmetry in parental mating and population structure bias were tested as described by Weinberg and Umbach [15]. If P-values were low (<0.10) for either a 5 degree-of-freedom LRT or a more sensitive 1 degree-of-freedom trend test for population stratification bias, indicating vulnerability to bias due to population structure for the case–control analyses, results were confined to the case–parent triad study design. Hybrid analyses were performed using the LEM (log-linear and event history analysis with missing data using the EM algorithm) software [19].
+
+
+
+Odds ratios (OR) and 95% confidence intervals (CI) were estimated for associations between the gene variants and ASD, adjusted for confounders, using logistic regression analysis applied to a case–control design using SAS 9.4. Potential confounders included: maternal, paternal, and child race and ethnicity (self-reported by parents, derived for child from parental information), private insurance vs. public payment for delivery, maternal and paternal age, maternal birthplace (US, Mexico, other), education, pre-pregnancy body mass index, and child sex and birth year. Ancestral heritage derived from the AIMs was also examined as potential confounders on the subset of participants with this data available (earlier participants). We began by fitting a full model containing potential confounders identified in the bivariate analyses as being broadly associated (P < 0.2) with both ASD and each genetic variant. Variables were then excluded using backward selection, retaining in the model variables that caused ≥10% change in the parameter estimates for the gene variants of interest. Because biologic samples were not available for some participants and many fathers, sensitivity analyses assessed the impact of missing data, using multiple imputation via the Markov Chain Monte Carlo algorithm [11]. To account for the multiplicity of hypotheses being assessed, we controlled the false discovery rate (FDR) at 5% [12].
+
+Interaction effects were examined between gene variants and race and ethnicity, parental age, maternal birthplace, pre-pregnancy body mass index, and child sex. In addition, because nutrient data from vitamins, supplements and cereals for the three months before and during pregnancy was available for these study participants, we conducted exploratory analyses examining multiplicative interactions between maternal supplemental vitamin D intake above and below the mean/median for the TD group (400 IU) and child gene variants that were associated with increased risk for ASD in the case–control or hybrid log-linear analyses, and that were not vulnerable to population structure bias.
+
+
+
+Linear regression models were fit for associations between genotypes and continuous assessment scores in secondary (post-hoc) analyses. The multiple linear regression coefficients represent adjusted mean differences in continuous scores across genotype. The continuous assessment scores included: age-standardized MSEL composite score, VABS composite score, SCQ total score, and the ADOS-2 comparison (severity) score [13]. T-tests were also preformed to compare mean assessment scores by genotype.
+
+
+
+Log-linear analysis was applied to both a case–parent triad design [14] and, when population structures allowed, a hybrid design that combined the case–parent triad and case–control designs [15].
+
+
+
+The case–parent log-linear approach was used to assess the association between ASD and both maternal and infant genotypes with the case–parent triad as the unit of analysis [14]. This approach provided likelihood-ratio tests (LRTs) and maximum-likelihood estimators of the genetic effects, allowing for different relative risks (RRs) corresponding to carrying one and carrying two copies of a susceptibility-related allele, relative to no copies [14]. The expectation–maximization (EM) algorithm was applied to allow the use of families with a missing parental genotype [16]. In simulation studies, the log-linear approach is more powerful than other transmission/disequilibrium tests under a dominant or a recessive model [17]. An extension of the original 2 × 2 transmission/disequilibrium test (ETDT) for multi-allele marker loci in case–parent triads [18] was also used to verify the results of the log-linear analyses.
+
+
+
+In the hybrid design, genotype information for case infants and their parents was supplemented with genetic information for the parents of the control infants for additional power [15]. Relative risk parameters were estimated through log-linear, likelihood-based analysis that allowed stratification by parental mating types. Asymmetry in parental mating and population structure bias were tested as described by Weinberg and Umbach [15]. If P-values were low (<0.10) for either a 5 degree-of-freedom LRT or a more sensitive 1 degree-of-freedom trend test for population stratification bias, indicating vulnerability to bias due to population structure for the case–control analyses, results were confined to the case–parent triad study design. Hybrid analyses were performed using the LEM (log-linear and event history analysis with missing data using the EM algorithm) software [19].
+
+
+
+The case–parent log-linear approach was used to assess the association between ASD and both maternal and infant genotypes with the case–parent triad as the unit of analysis [14]. This approach provided likelihood-ratio tests (LRTs) and maximum-likelihood estimators of the genetic effects, allowing for different relative risks (RRs) corresponding to carrying one and carrying two copies of a susceptibility-related allele, relative to no copies [14]. The expectation–maximization (EM) algorithm was applied to allow the use of families with a missing parental genotype [16]. In simulation studies, the log-linear approach is more powerful than other transmission/disequilibrium tests under a dominant or a recessive model [17]. An extension of the original 2 × 2 transmission/disequilibrium test (ETDT) for multi-allele marker loci in case–parent triads [18] was also used to verify the results of the log-linear analyses.
+
+
+
+In the hybrid design, genotype information for case infants and their parents was supplemented with genetic information for the parents of the control infants for additional power [15]. Relative risk parameters were estimated through log-linear, likelihood-based analysis that allowed stratification by parental mating types. Asymmetry in parental mating and population structure bias were tested as described by Weinberg and Umbach [15]. If P-values were low (<0.10) for either a 5 degree-of-freedom LRT or a more sensitive 1 degree-of-freedom trend test for population stratification bias, indicating vulnerability to bias due to population structure for the case–control analyses, results were confined to the case–parent triad study design. Hybrid analyses were performed using the LEM (log-linear and event history analysis with missing data using the EM algorithm) software [19].
+
+3. Results
+
+aDepartment of Public Health Sciences, University of California Davis School of Medicine, Davis, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+cDepartment of Pediatrics, University of California Davis School of Medicine, Davis, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+eGraduate Group in Epidemiology, University of California Davis, Davis, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+gDepartments of Preventive Medicine and Pediatrics, Zilkha Neurogenetic Institute, Keck School of Medicine, Children’s Hospital Los Angeles, University of Southern California, Los Angeles, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+Vitamin D is essential for proper neurodevelopment and cognitive and behavioral function. We examined associations between autism spectrum disorder (ASD) and common, functional polymorphisms in vitamin D pathways.
+
+Children aged 24–60 months enrolled from 2003 to 2009 in the population-based CHARGE case–control study were evaluated clinically and confirmed to have ASD (n = 474) or typical development (TD, n = 281). Maternal, paternal, and child DNA samples for 384 (81%) families of children with ASD and 234 (83%) families of TD children were genotyped for: TaqI, BsmI, FokI, and Cdx2 in the vitamin D receptor (VDR) gene, and CYP27B1 rs4646536, GC rs4588, and CYP2R1 rs10741657. Case–control logistic regression, family-based log-linear, and hybrid log-linear analyses were conducted to produce risk estimates and 95% confidence intervals (CI) for each allelic variant.
+
+Paternal VDR TaqI homozygous variant genotype was significantly associated with ASD in case–control analysis (odds ratio [OR] [CI]: 6.3 [1.9–20.7]) and there was a trend towards increased risk associated with VDR BsmI (OR [CI]: 4.7 [1.6–13.4]). Log-linear triad analyses detected parental imprinting, with greater effects of paternally-derived VDR alleles. Child GC AA-genotype/A-allele was associated with ASD in log-linear and ETDT analyses. A significant association between decreased ASD risk and child CYP2R1 AA-genotype was found in hybrid log-linear analysis. There were limitations of low statistical power for less common alleles due to missing paternal genotypes.
+
+This study provides preliminary evidence that paternal and child vitamin D metabolism could play a role in the etiology of ASD; further research in larger study populations is warranted.
+
+Autism spectrum disorder (ASD) consists of a range of neurodevelopmental disorders characterized by the presence of social deficits, language impairments, and stereotyped or repetitive behaviors and interests. The etiology of ASD in most cases remains unclear, though combinations of multiple genetic and environmental factors are likely to play a role. Vitamin D deficiency was hypothesized to contribute to the increase in the incidence of ASD based on studies showing increased rates of autism among dark-skinned immigrants displaced into northern latitudes, and differences in autism prevalence across season and latitude [1], potentially reflecting changes in sunlight exposure and absorbed vitamin D. These findings have been attributed to a potential effect of maternal vitamin D status on the child’s risk for ASD. The biologic plausibility for a link between vitamin D and autism is ample, as previously reviewed [1,2]. Animal studies show long-lasting neurodevelopmental effects of transient vitamin D deficiency during gestation leading to autism-relevant structural and functional changes in the brain and behaviors of the offspring [3–5]. Gene variants within the vitamin D pathway can determine uptake and utilization of vitamin D. Genetic susceptibility to inefficient vitamin D uptake and metabolism has yet to be explored in relation to autism. Thus, this study examined common, functional vitamin D-relevant gene variants in maternal, paternal and child samples in relation to risk for ASD in the child.
+
+Individuals included in this study were participants in the CHARGE (CHildhood Autism Risks from Genetics and the Environment) case–control study [6]. Eligibility criteria for children were: 1) age of 24 to 60 months at time of enrollment, 2) birth in California, 3) residence with at least one biologic parent who speaks English or Spanish, and 4) residence in the catchment areas of a specified list of California Regional Centers that coordinate services for persons with developmental disabilities. Children with autism, intellectual disability, or developmental delay were identified through the California Regional Centers as having received services for one or more of these conditions. Autism cases were also referred from the MIND Institute and other health or service providers, or self-referred from the CHARGE Study website. General population controls identified from state birth files were frequency matched to the age and catchment area distribution of the autism cases, and a 4:1 male-to-female ratio reflective of that seen for ASD.
+
+All children were assessed for cognitive function using the Mullen Scales of Early Learning (MSEL) [7] and for adaptive function using the Vineland Adaptive Behavior Scales (VABS) [8]. For children with autism, the primary caregiver completed the Autism Diagnostic Interview —Revised (ADI-R) [9], and children were assessed using the Autism Diagnostic Observation Schedule — Generic (ADOS) [10] to confirm the child’s diagnosis. The children of families recruited from the general population or with developmental delay/intellectual disability were screened for evidence of ASD using the Social Communication Questionnaire (SCQ) and if they scored above 15, were evaluated for autism. Final ASD case status was defined as 1) scoring at least 7 on ADOS Module 1 or at least 8 on ADOS Module 2; 2) meeting the cutoff value for section A or B and scoring above or within 2 points of the cutoff value on A or B (whichever did not meet cutoff value) in ADI-R; and 3) meeting the cutoff value on section D in ADI-R. Typical development (TD) required being recruited from the general population, screening negative for evidence of ASD on the SCQ, and scoring 70 or above on both the MSEL and VABS. These analyses included only the first child per family recruited into the study. The University of California—Davis Institutional Review Board and the State of California Committee for the Protection of Human Subjects approved this study and the CHARGE Study protocols. Neither data nor specimens were collected until written informed consent was obtained from the parents.
+
+Genomic DNA was isolated using standard procedures (Puregene kit; Gentra Inc.) from peripheral blood plasma leukocytes collected as part of CHARGE protocol. Genotyping was conducted blinded to case status using TaqMan Single Nucleotide Polymorphism (SNP) Genotyping Assays (Applied Biosystems) for the following variants: VDR TaqI (rs731236), BsmI (rs1544410), Cdx2 (rs11568820), and FokI (rs10735810), CYP27B1 T2838C (rs464536), GC (VBP, DBP) G716A (rs4588), and CYP2R1 rs10741657. Variants were chosen from key regulatory genes for the pathway of interest with priority given to common variants that altered gene function and/or were associated with altered vitamin D status.
+
+Ancestry Informative Markers (AIMs) were also genotyped for a subset of participants, including 281 (73%) families of children with ASD, and 161 (69%) families of children with TD. We identified 100 SNPs based on inherited allele frequencies determined from four parental populations (African, European, American Indian, and East Asian) to empirically estimate the proportion of ancestry attributable to a particular founding population for each individual using the program Structure. In our analyses, the proportion of variance from the European group was used as a reference with the additional three variables reflecting ancestral heritage included as covariates.
+3.1. Case–control logistic regression models
+
+Table 1 presents ORs for associations between each variant and ASD from case–control analyses. Paternal homozygous variant genotypes for the TaqI and BsmI polymorphisms on the VDR gene, and CYP27B1 rs4646536 were associated with increased risk for ASD when compared to the combination of homozygous wild type and heterozygous genotypes (OR = 6.3, 95% confidence interval [CI]: 1.9–20.7; OR = 4.7, 95% CI: 1.6–13.4; and OR = 2.2, 95% CI: 1.0–4.9, respectively), though CYP27B1 rs4646536 was no longer significant and VDR BsmI was only a trend after correcting for multiple comparisons (Table 3). There were more families of ASD children than TD families with fathers who were homozygous for both VDR TaqI and BsmI variants (eTable 3); this combination of VDR TaqI CC and BsmI AA paternal genotype was associated with increased ASD (OR = 5.4, 95% CI: 1.6–18.3) (eTable 4). Effect estimates using multiple imputation for missing values via the Markov Chain Monte Carlo algorithm demonstrated similar findings (eTable 5) and sensitivity analyses with imputed values for missing genotypes showed the paternal TaqI association was robust and held even when missings were intentionally assigned such that no association was present in this group (eTable 5). Results were similar when analyses were limited to non-Hispanic white participants (eTable 6). There was no confounding by self-reported race, or other demographic variables. There was also no significant confounding by ‘biologic’ race determined by the AIMs (eTables 7 and 8), although no fathers of TD children had the paternal TaqI CC or BsmI AA genotypes in the subgroup with AIMs, so confounding by AIMs could not be assessed for these variants.
+
+Odds ratios (OR) and 95% confidence intervals (CI) for Associations between maternal, paternal, and child genotypes and ASD using logistic regression case–control analysis.
+
+Extended transmission disequilibrium test for ASD.
+
+Mean standardized composite scores on the MSEL and the VABS differed by paternal VDR TaqI and BsmI genotypes, and CYP27B1 genotype, all with significantly lower (poorer) cognitive functioning and lower (poorer) (only a trend for CYP27B1 genotype) adaptive behavior scores associated with the homozygous variant genotype (eTables 9–13). The child CYP2R1 AA-genotype tended to be associated with lower MSEL composite score. Among children with ASD diagnoses, those with the VDR TaqI CC variant genotype had lower (less severe) ADOS-2 comparison scores.
+3.2. Log-linear models
+
+
+
+Log-linear case–parent triad results are presented in Table 2 in order to show a) the SNPs that demonstrated significant or near-significant parental imprinting effects, since these were not accounted for in the hybrid analysis, and b) to show the results for the SNPs in GC and CYP27B1 that were vulnerable to population structure bias and for which the case–control analysis and hybrid approach may not be appropriate.
+
+Risk ratios (RR) and 95% confidence intervals (CI) for imprinting, maternal, paternal, and child genotype effects using log-linear analysis of case–parent triads.
+
+Two SNPs were subject to parental imprinting effects, with significant maternal imprinting (paternally derived copy is associated with a greater change in risk for ASD than a maternally derived copy) identified for TaqI and BsmI, and a trend towards maternal imprinting in CYP27B1. These parental imprinting effects were accounted for in the family-based log-linear analysis results. Child GC rs4588 homozygous variant genotype was associated with increased risk for ASD in the child, and the finding for GC was verified in the ETDT analyses (Table 3). There was a trend towards reduced risk for ASD associated with the homozygous variant child CYP2R1 rs10741657 genotype.
+
+
+
+Significant associations between decreased risk for ASD, and child CYP2R1 rs10741657 and VDR BsmI homozygous genotypes were found in the more powerful hybrid log-linear analysis (Table 4).
+
+Risk ratios (RR) and 95% confidence intervals (CI) for Maternal, paternal, and child genotype effects from hybrid log-linear analysis.
+
+
+
+A significant interaction for child CYP2R1 AA genotype was found (P = 0.01) such that it was associated with significantly decreased risk for ASD only when the mother reported intake of less than 400 IU average vitamin D per day during pregnancy (Table 5). No interaction was observed for child VDR BsmI and ASD diagnosis. When we examined these interaction effects in relation to continuous measures of social communication, autism severity, cognitive ability, and adaptive functioning (eTables 14–15), we found similar significant interaction effects between child CYP2R1 AA genotype and maternal vitamin D intake, such that the AA genotype was associated with different outcomes when the mother consumed less than 400 IU vitamin D compared to when she consumed 400 IU or more.
+
+Odds ratios (OR) and 95% confidence intervals (CI) for associations between ASD and combinations of child (proband) genotypes and maternal supplemental vitamin D.
+Table 2
+
+
+
+Log-linear case–parent triad results are presented in Table 2 in order to show a) the SNPs that demonstrated significant or near-significant parental imprinting effects, since these were not accounted for in the hybrid analysis, and b) to show the results for the SNPs in GC and CYP27B1 that were vulnerable to population structure bias and for which the case–control analysis and hybrid approach may not be appropriate.
+
+Risk ratios (RR) and 95% confidence intervals (CI) for imprinting, maternal, paternal, and child genotype effects using log-linear analysis of case–parent triads.
+
+Two SNPs were subject to parental imprinting effects, with significant maternal imprinting (paternally derived copy is associated with a greater change in risk for ASD than a maternally derived copy) identified for TaqI and BsmI, and a trend towards maternal imprinting in CYP27B1. These parental imprinting effects were accounted for in the family-based log-linear analysis results. Child GC rs4588 homozygous variant genotype was associated with increased risk for ASD in the child, and the finding for GC was verified in the ETDT analyses (Table 3). There was a trend towards reduced risk for ASD associated with the homozygous variant child CYP2R1 rs10741657 genotype.
+Table 4
+
+
+
+Significant associations between decreased risk for ASD, and child CYP2R1 rs10741657 and VDR BsmI homozygous genotypes were found in the more powerful hybrid log-linear analysis (Table 4).
+
+Risk ratios (RR) and 95% confidence intervals (CI) for Maternal, paternal, and child genotype effects from hybrid log-linear analysis.
+Table 5
+
+
+
+A significant interaction for child CYP2R1 AA genotype was found (P = 0.01) such that it was associated with significantly decreased risk for ASD only when the mother reported intake of less than 400 IU average vitamin D per day during pregnancy (Table 5). No interaction was observed for child VDR BsmI and ASD diagnosis. When we examined these interaction effects in relation to continuous measures of social communication, autism severity, cognitive ability, and adaptive functioning (eTables 14–15), we found similar significant interaction effects between child CYP2R1 AA genotype and maternal vitamin D intake, such that the AA genotype was associated with different outcomes when the mother consumed less than 400 IU vitamin D compared to when she consumed 400 IU or more.
+
+Odds ratios (OR) and 95% confidence intervals (CI) for associations between ASD and combinations of child (proband) genotypes and maternal supplemental vitamin D.
+
+4. Discussion
+
+aDepartment of Public Health Sciences, University of California Davis School of Medicine, Davis, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+cDepartment of Pediatrics, University of California Davis School of Medicine, Davis, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+eGraduate Group in Epidemiology, University of California Davis, Davis, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+gDepartments of Preventive Medicine and Pediatrics, Zilkha Neurogenetic Institute, Keck School of Medicine, Children’s Hospital Los Angeles, University of Southern California, Los Angeles, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+Vitamin D is essential for proper neurodevelopment and cognitive and behavioral function. We examined associations between autism spectrum disorder (ASD) and common, functional polymorphisms in vitamin D pathways.
+
+Children aged 24–60 months enrolled from 2003 to 2009 in the population-based CHARGE case–control study were evaluated clinically and confirmed to have ASD (n = 474) or typical development (TD, n = 281). Maternal, paternal, and child DNA samples for 384 (81%) families of children with ASD and 234 (83%) families of TD children were genotyped for: TaqI, BsmI, FokI, and Cdx2 in the vitamin D receptor (VDR) gene, and CYP27B1 rs4646536, GC rs4588, and CYP2R1 rs10741657. Case–control logistic regression, family-based log-linear, and hybrid log-linear analyses were conducted to produce risk estimates and 95% confidence intervals (CI) for each allelic variant.
+
+Paternal VDR TaqI homozygous variant genotype was significantly associated with ASD in case–control analysis (odds ratio [OR] [CI]: 6.3 [1.9–20.7]) and there was a trend towards increased risk associated with VDR BsmI (OR [CI]: 4.7 [1.6–13.4]). Log-linear triad analyses detected parental imprinting, with greater effects of paternally-derived VDR alleles. Child GC AA-genotype/A-allele was associated with ASD in log-linear and ETDT analyses. A significant association between decreased ASD risk and child CYP2R1 AA-genotype was found in hybrid log-linear analysis. There were limitations of low statistical power for less common alleles due to missing paternal genotypes.
+
+This study provides preliminary evidence that paternal and child vitamin D metabolism could play a role in the etiology of ASD; further research in larger study populations is warranted.
+
+Autism spectrum disorder (ASD) consists of a range of neurodevelopmental disorders characterized by the presence of social deficits, language impairments, and stereotyped or repetitive behaviors and interests. The etiology of ASD in most cases remains unclear, though combinations of multiple genetic and environmental factors are likely to play a role. Vitamin D deficiency was hypothesized to contribute to the increase in the incidence of ASD based on studies showing increased rates of autism among dark-skinned immigrants displaced into northern latitudes, and differences in autism prevalence across season and latitude [1], potentially reflecting changes in sunlight exposure and absorbed vitamin D. These findings have been attributed to a potential effect of maternal vitamin D status on the child’s risk for ASD. The biologic plausibility for a link between vitamin D and autism is ample, as previously reviewed [1,2]. Animal studies show long-lasting neurodevelopmental effects of transient vitamin D deficiency during gestation leading to autism-relevant structural and functional changes in the brain and behaviors of the offspring [3–5]. Gene variants within the vitamin D pathway can determine uptake and utilization of vitamin D. Genetic susceptibility to inefficient vitamin D uptake and metabolism has yet to be explored in relation to autism. Thus, this study examined common, functional vitamin D-relevant gene variants in maternal, paternal and child samples in relation to risk for ASD in the child.
+
+Individuals included in this study were participants in the CHARGE (CHildhood Autism Risks from Genetics and the Environment) case–control study [6]. Eligibility criteria for children were: 1) age of 24 to 60 months at time of enrollment, 2) birth in California, 3) residence with at least one biologic parent who speaks English or Spanish, and 4) residence in the catchment areas of a specified list of California Regional Centers that coordinate services for persons with developmental disabilities. Children with autism, intellectual disability, or developmental delay were identified through the California Regional Centers as having received services for one or more of these conditions. Autism cases were also referred from the MIND Institute and other health or service providers, or self-referred from the CHARGE Study website. General population controls identified from state birth files were frequency matched to the age and catchment area distribution of the autism cases, and a 4:1 male-to-female ratio reflective of that seen for ASD.
+
+All children were assessed for cognitive function using the Mullen Scales of Early Learning (MSEL) [7] and for adaptive function using the Vineland Adaptive Behavior Scales (VABS) [8]. For children with autism, the primary caregiver completed the Autism Diagnostic Interview —Revised (ADI-R) [9], and children were assessed using the Autism Diagnostic Observation Schedule — Generic (ADOS) [10] to confirm the child’s diagnosis. The children of families recruited from the general population or with developmental delay/intellectual disability were screened for evidence of ASD using the Social Communication Questionnaire (SCQ) and if they scored above 15, were evaluated for autism. Final ASD case status was defined as 1) scoring at least 7 on ADOS Module 1 or at least 8 on ADOS Module 2; 2) meeting the cutoff value for section A or B and scoring above or within 2 points of the cutoff value on A or B (whichever did not meet cutoff value) in ADI-R; and 3) meeting the cutoff value on section D in ADI-R. Typical development (TD) required being recruited from the general population, screening negative for evidence of ASD on the SCQ, and scoring 70 or above on both the MSEL and VABS. These analyses included only the first child per family recruited into the study. The University of California—Davis Institutional Review Board and the State of California Committee for the Protection of Human Subjects approved this study and the CHARGE Study protocols. Neither data nor specimens were collected until written informed consent was obtained from the parents.
+
+Genomic DNA was isolated using standard procedures (Puregene kit; Gentra Inc.) from peripheral blood plasma leukocytes collected as part of CHARGE protocol. Genotyping was conducted blinded to case status using TaqMan Single Nucleotide Polymorphism (SNP) Genotyping Assays (Applied Biosystems) for the following variants: VDR TaqI (rs731236), BsmI (rs1544410), Cdx2 (rs11568820), and FokI (rs10735810), CYP27B1 T2838C (rs464536), GC (VBP, DBP) G716A (rs4588), and CYP2R1 rs10741657. Variants were chosen from key regulatory genes for the pathway of interest with priority given to common variants that altered gene function and/or were associated with altered vitamin D status.
+
+Ancestry Informative Markers (AIMs) were also genotyped for a subset of participants, including 281 (73%) families of children with ASD, and 161 (69%) families of children with TD. We identified 100 SNPs based on inherited allele frequencies determined from four parental populations (African, European, American Indian, and East Asian) to empirically estimate the proportion of ancestry attributable to a particular founding population for each individual using the program Structure. In our analyses, the proportion of variance from the European group was used as a reference with the additional three variables reflecting ancestral heritage included as covariates.
+4.1. Study strengths and limitations
+
+We examined a Northern California study population using three different approaches, each having unique strengths. The case–control logistic regression analyses allowed us to compare case families to unrelated families of typical controls while controlling for a number of potential confounding factors. This is a powerful approach with straightforward interpretation of parent and child genotype effects; however, case–control comparisons of genotype effects can be biased by differences in population structure. We were able to test for these differences and focus on the family-based log-linear findings for genes that were susceptible, like CYP27B1 and GC. In addition, we were able to adjust most gene variant associations for AIM-derived race indicators that were available for the majority of the participants, and found no significant effect on the case–control logistic regression results. The case–parent triad log-linear analysis examines risk associated with alleles transmitted to the child and by using internal controls (untransmitted alleles), thereby eliminating the potential for population structure bias. This approach also allowed evaluation of parental imprinting or parent of origin effects, which were observed to play a role for the VDR gene variants. Finally, the hybrid log-linear approach combines the strengths of the previous two approaches, when the vulnerability of the case–control comparison to population structure bias is low, for a more powerful examination of gene effects.
+
+Differences in findings we observed across the three approaches can be attributed to the inherent differences between the approaches. The associations found in the case–control analyses with paternal VDR TaqI and BsmI came across in the log-linear analysis as significant parent-of-origin effects, with a larger effect associated with the paternally-derived allele since the father’s genotype was associated with increased risk. The effect size for the association between the paternal VDR TaqI and BsmI and ASD is likely inflated due to the low number of controls with the homozygous variant genotypes. The percentage of control fathers with the variant genotype did not increase when we genotyped additional participants (including controls) to add to the number of controls in this cell. The lack of associations found for these paternal VDR gene variants in the hybrid log-linear analysis could have resulted from having no evaluation of parent of origin effects in this analysis, or could suggest a spurious finding in the case–control analyses.
+
+The increased risk associated with paternal CYP27B1 rs4646536 in the case–control analysis was not significant after controlling for multiple comparisons, after limiting to non-Hispanic Whites, nor after adjustment for AIM-derived race, and was not observed in the log-linear case–parent triad or the hybrid log-linear analysis; thus this finding likely resulted from population structure bias. Similarly, the significant association between child VDR BsmI AA genotype and decreased risk for ASD observed in the hybrid log-linear analysis was not observed in either the case–control or the case–parent trio analyses which accounted for parent of origin effects, and thus offers inconsistent evidence for an effect.
+
+This study was limited by missing data on paternal genotypes (~24% of ASD and ~51% of TD probands), and inadequate sample size for examining gene × gene and gene × exposure interactions for less common gene variants, particularly in fathers. The difference between case and control families in the percentage of fathers with missing genotypes would primarily affect the case–control analyses; however, imputation for missing genotypes yielded similar findings. In addition, though we incorporated maternal vitamin D intake from vitamins, supplements, and cereals, we did not include other dietary sources of vitamin D, nor paternal vitamin D intake. Sun exposure, a major source of vitamin D [26], was also not taken into account. Finally, we tested parental and child associations for five gene SNPs using multiple approaches, which raises issues of multiple comparisons and chance findings; however the strongest findings remained significant when we controlled the FDR at 5%.
+4.2. Potential biologic mechanisms
+
+There are several potential biological mechanisms for vitamin D to influence brain development and related outcomes. Physiological concentrations of vitamin D3 have been shown to delay cell proliferation and induce cell differentiation of embryonic hippocampal cells in mice [27]. Long-lasting effects of transient gestational vitamin D deficiency include decreased expression of many genes involved in neuronal structures and neurotransmission [28], a disrupted balance between neuronal stem cell proliferation and programmed cell death in offspring [3] and abnormal brain development leading to morphological, cellular, and molecular changes in the brain [4], including the hippocampus [5], and altered behaviors in the offspring [5]. Many of the effects of transient vitamin D deficiency during early development include changes that are relevant to autism, including enlarged lateral ventricles and dysregulation of numerous brain proteins within biological pathways implicated in autism, including redox balance, calcium homeostasis, neurotransmission, and synaptic plasticity [29].
+
+Mechanisms behind these neurodevelopmental effects are still being explored. An impaired synaptic network might result from mitochondrial dysfunction [29] or altered expression of nerve growth factors [4]. Altered dopamine turnover in neonatal rat forebrain induced by vitamin D deficiency [30] could also play a role, given dopamine’s importance during neurodevelopment and potential role in ASD. Vitamin D insufficiency during pregnancy is also potentially associated with increased risk of preeclampsia, insulin resistance and gestational diabetes mellitus [31], which are themselves associated with increased risk for neurodevelopmental effects including autism [32].
+
+The effects of paternal homozygous VDR TaqI and BsmI variants were not expected, but have some evidence for a biologic basis. The vitamin D receptor and vitamin D metabolizing enzymes are expressed in the human male reproductive tract [33], and animal studies demonstrate a role of VDR in the production and transport of sperm [34,35]. Vitamin D is also positively associated with sperm motility and increased intra-cellular calcium in human spermatozoa [36]. During the late stages of spermatogenesis, which, in man, typically starts about 64 days prior to conception, vitamin D receptor and vitamin D metabolizing enzymes are co-expressed in the neck of mature spermatozoa [33]. Poor sperm motility has been significantly associated with higher numbers of aneuploid sperm and sperm with other chromosomal and DNA abnormalities [37], which then may negatively affect embryo development [37]. Some hypothesize that the role of VDR in the production and transport of sperm overlaps the role of VDR as a member of the steroid receptor superfamily, which has high-affinity binding to the nuclear matrix and subsequently plays a critical role in the organization of DNA, transcription, and replication [34]. Interestingly, recent work suggests that de novo genetic variation contributes greatly to the development of ASD [38] and that in sporadic (non-familial) cases of autism, de novo point mutations in protein-coding regions are overwhelmingly paternal in origin with a 4:1 paternal bias [39]. The potential role of vitamin D and the VDR in DNA repair [40] and sperm quality, both of which can affect embryogenesis from a very early stage, could potentially lead to longer-term developmental consequences.
+
+5. Conclusions
+
+This study provides preliminary evidence that paternal and child vitamin D metabolism could play a role in the etiology of ASD. Independent replication of this study’s findings in larger study samples is needed to determine whether certain paternal and/or child vitamin D gene variants influencing vitamin D update and metabolism can increase risk for ASD, and provide additional information on specific characteristics affected. In addition, studies of populations with more complete data on vitamin D status, including sun exposure, should assess the contribution of vitamin D as it interacts with genetic susceptibility.
+
+Acknowledgments
+
+aDepartment of Public Health Sciences, University of California Davis School of Medicine, Davis, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+cDepartment of Pediatrics, University of California Davis School of Medicine, Davis, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+eGraduate Group in Epidemiology, University of California Davis, Davis, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+gDepartments of Preventive Medicine and Pediatrics, Zilkha Neurogenetic Institute, Keck School of Medicine, Children’s Hospital Los Angeles, University of Southern California, Los Angeles, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+Vitamin D is essential for proper neurodevelopment and cognitive and behavioral function. We examined associations between autism spectrum disorder (ASD) and common, functional polymorphisms in vitamin D pathways.
+
+Children aged 24–60 months enrolled from 2003 to 2009 in the population-based CHARGE case–control study were evaluated clinically and confirmed to have ASD (n = 474) or typical development (TD, n = 281). Maternal, paternal, and child DNA samples for 384 (81%) families of children with ASD and 234 (83%) families of TD children were genotyped for: TaqI, BsmI, FokI, and Cdx2 in the vitamin D receptor (VDR) gene, and CYP27B1 rs4646536, GC rs4588, and CYP2R1 rs10741657. Case–control logistic regression, family-based log-linear, and hybrid log-linear analyses were conducted to produce risk estimates and 95% confidence intervals (CI) for each allelic variant.
+
+Paternal VDR TaqI homozygous variant genotype was significantly associated with ASD in case–control analysis (odds ratio [OR] [CI]: 6.3 [1.9–20.7]) and there was a trend towards increased risk associated with VDR BsmI (OR [CI]: 4.7 [1.6–13.4]). Log-linear triad analyses detected parental imprinting, with greater effects of paternally-derived VDR alleles. Child GC AA-genotype/A-allele was associated with ASD in log-linear and ETDT analyses. A significant association between decreased ASD risk and child CYP2R1 AA-genotype was found in hybrid log-linear analysis. There were limitations of low statistical power for less common alleles due to missing paternal genotypes.
+
+This study provides preliminary evidence that paternal and child vitamin D metabolism could play a role in the etiology of ASD; further research in larger study populations is warranted.
+
+Autism spectrum disorder (ASD) consists of a range of neurodevelopmental disorders characterized by the presence of social deficits, language impairments, and stereotyped or repetitive behaviors and interests. The etiology of ASD in most cases remains unclear, though combinations of multiple genetic and environmental factors are likely to play a role. Vitamin D deficiency was hypothesized to contribute to the increase in the incidence of ASD based on studies showing increased rates of autism among dark-skinned immigrants displaced into northern latitudes, and differences in autism prevalence across season and latitude [1], potentially reflecting changes in sunlight exposure and absorbed vitamin D. These findings have been attributed to a potential effect of maternal vitamin D status on the child’s risk for ASD. The biologic plausibility for a link between vitamin D and autism is ample, as previously reviewed [1,2]. Animal studies show long-lasting neurodevelopmental effects of transient vitamin D deficiency during gestation leading to autism-relevant structural and functional changes in the brain and behaviors of the offspring [3–5]. Gene variants within the vitamin D pathway can determine uptake and utilization of vitamin D. Genetic susceptibility to inefficient vitamin D uptake and metabolism has yet to be explored in relation to autism. Thus, this study examined common, functional vitamin D-relevant gene variants in maternal, paternal and child samples in relation to risk for ASD in the child.
+
+Individuals included in this study were participants in the CHARGE (CHildhood Autism Risks from Genetics and the Environment) case–control study [6]. Eligibility criteria for children were: 1) age of 24 to 60 months at time of enrollment, 2) birth in California, 3) residence with at least one biologic parent who speaks English or Spanish, and 4) residence in the catchment areas of a specified list of California Regional Centers that coordinate services for persons with developmental disabilities. Children with autism, intellectual disability, or developmental delay were identified through the California Regional Centers as having received services for one or more of these conditions. Autism cases were also referred from the MIND Institute and other health or service providers, or self-referred from the CHARGE Study website. General population controls identified from state birth files were frequency matched to the age and catchment area distribution of the autism cases, and a 4:1 male-to-female ratio reflective of that seen for ASD.
+
+All children were assessed for cognitive function using the Mullen Scales of Early Learning (MSEL) [7] and for adaptive function using the Vineland Adaptive Behavior Scales (VABS) [8]. For children with autism, the primary caregiver completed the Autism Diagnostic Interview —Revised (ADI-R) [9], and children were assessed using the Autism Diagnostic Observation Schedule — Generic (ADOS) [10] to confirm the child’s diagnosis. The children of families recruited from the general population or with developmental delay/intellectual disability were screened for evidence of ASD using the Social Communication Questionnaire (SCQ) and if they scored above 15, were evaluated for autism. Final ASD case status was defined as 1) scoring at least 7 on ADOS Module 1 or at least 8 on ADOS Module 2; 2) meeting the cutoff value for section A or B and scoring above or within 2 points of the cutoff value on A or B (whichever did not meet cutoff value) in ADI-R; and 3) meeting the cutoff value on section D in ADI-R. Typical development (TD) required being recruited from the general population, screening negative for evidence of ASD on the SCQ, and scoring 70 or above on both the MSEL and VABS. These analyses included only the first child per family recruited into the study. The University of California—Davis Institutional Review Board and the State of California Committee for the Protection of Human Subjects approved this study and the CHARGE Study protocols. Neither data nor specimens were collected until written informed consent was obtained from the parents.
+
+Genomic DNA was isolated using standard procedures (Puregene kit; Gentra Inc.) from peripheral blood plasma leukocytes collected as part of CHARGE protocol. Genotyping was conducted blinded to case status using TaqMan Single Nucleotide Polymorphism (SNP) Genotyping Assays (Applied Biosystems) for the following variants: VDR TaqI (rs731236), BsmI (rs1544410), Cdx2 (rs11568820), and FokI (rs10735810), CYP27B1 T2838C (rs464536), GC (VBP, DBP) G716A (rs4588), and CYP2R1 rs10741657. Variants were chosen from key regulatory genes for the pathway of interest with priority given to common variants that altered gene function and/or were associated with altered vitamin D status.
+
+Ancestry Informative Markers (AIMs) were also genotyped for a subset of participants, including 281 (73%) families of children with ASD, and 161 (69%) families of children with TD. We identified 100 SNPs based on inherited allele frequencies determined from four parental populations (African, European, American Indian, and East Asian) to empirically estimate the proportion of ancestry attributable to a particular founding population for each individual using the program Structure. In our analyses, the proportion of variance from the European group was used as a reference with the additional three variables reflecting ancestral heritage included as covariates.
+
+Funding support
+
+The National Institutes of Health (NIH); grant numbers: R01-ES015359, P01-11269, and 2K12HD051958-06.
+
+The United States Environmental Protection Agency STAR program; grant numbers: R-829388 & R833292.
+
+The University of California Davis MIND (Medical Investigations of Neurodevelopmental Disorders) Institute.
+
+Autism Speaks; Environmental Sciences Pilot Grant 4933.
+
+The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+The authors would like to thank Dr. Irva Hertz-Picciotto for providing the CHARGE Study databases and samples necessary for conducting this research. We appreciate input from Dr. Daniel Tancredi on the statistical methods. We would also like to thank the CHARGE investigators, staff, and most of all, the participants for their valuable contributions.
+
+Finally, we thank The University of Washington Helen Riaboff Whiteley Center, Friday Harbor, Washington, USA, for providing a tranquil work environment for the completion of this manuscript.
+
+Abbreviations
+
+Footnotes
+
+☆This work has been presented at the following scientific meetings: International Meeting for Autism Research, San Diego, CA; May 12, 2011. BIRCWH Directors and Scholars Meeting, Rockville, MD; Nov 14, 2012. Interdisciplinary Women’s Health Research Symposium, Bethesda, MD; Nov 15, 2012.
+
+
+
+Supplementary data to this article can be found online at http://dx.doi.org/10.1016/j.earlhumdev.2015.05.008.
+
+
+
+ 
+
+Conflict of interest statement
+
+None declared.
+
+
+
+Authors’ contributions
+
+References
+
+aDepartment of Public Health Sciences, University of California Davis School of Medicine, Davis, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+cDepartment of Pediatrics, University of California Davis School of Medicine, Davis, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+dDepartment of Preventive Medicine, Institute for Genetic Medicine, University of Southern California Keck School of Medicine, Los Angeles, CA, USA
+
+eGraduate Group in Epidemiology, University of California Davis, Davis, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+gDepartments of Preventive Medicine and Pediatrics, Zilkha Neurogenetic Institute, Keck School of Medicine, Children’s Hospital Los Angeles, University of Southern California, Los Angeles, CA, USA
+
+bMedical Investigation of Neurodevelopmental Disorders (M.I.N.D.) Institute, University of California Davis, Sacramento, CA, USA
+
+fDepartment of Biochemistry and Molecular Medicine, University of California Davis School of Medicine, Davis, CA, USA
+
+Vitamin D is essential for proper neurodevelopment and cognitive and behavioral function. We examined associations between autism spectrum disorder (ASD) and common, functional polymorphisms in vitamin D pathways.
+
+Children aged 24–60 months enrolled from 2003 to 2009 in the population-based CHARGE case–control study were evaluated clinically and confirmed to have ASD (n = 474) or typical development (TD, n = 281). Maternal, paternal, and child DNA samples for 384 (81%) families of children with ASD and 234 (83%) families of TD children were genotyped for: TaqI, BsmI, FokI, and Cdx2 in the vitamin D receptor (VDR) gene, and CYP27B1 rs4646536, GC rs4588, and CYP2R1 rs10741657. Case–control logistic regression, family-based log-linear, and hybrid log-linear analyses were conducted to produce risk estimates and 95% confidence intervals (CI) for each allelic variant.
+
+Paternal VDR TaqI homozygous variant genotype was significantly associated with ASD in case–control analysis (odds ratio [OR] [CI]: 6.3 [1.9–20.7]) and there was a trend towards increased risk associated with VDR BsmI (OR [CI]: 4.7 [1.6–13.4]). Log-linear triad analyses detected parental imprinting, with greater effects of paternally-derived VDR alleles. Child GC AA-genotype/A-allele was associated with ASD in log-linear and ETDT analyses. A significant association between decreased ASD risk and child CYP2R1 AA-genotype was found in hybrid log-linear analysis. There were limitations of low statistical power for less common alleles due to missing paternal genotypes.
+
+This study provides preliminary evidence that paternal and child vitamin D metabolism could play a role in the etiology of ASD; further research in larger study populations is warranted.
+
+Autism spectrum disorder (ASD) consists of a range of neurodevelopmental disorders characterized by the presence of social deficits, language impairments, and stereotyped or repetitive behaviors and interests. The etiology of ASD in most cases remains unclear, though combinations of multiple genetic and environmental factors are likely to play a role. Vitamin D deficiency was hypothesized to contribute to the increase in the incidence of ASD based on studies showing increased rates of autism among dark-skinned immigrants displaced into northern latitudes, and differences in autism prevalence across season and latitude [1], potentially reflecting changes in sunlight exposure and absorbed vitamin D. These findings have been attributed to a potential effect of maternal vitamin D status on the child’s risk for ASD. The biologic plausibility for a link between vitamin D and autism is ample, as previously reviewed [1,2]. Animal studies show long-lasting neurodevelopmental effects of transient vitamin D deficiency during gestation leading to autism-relevant structural and functional changes in the brain and behaviors of the offspring [3–5]. Gene variants within the vitamin D pathway can determine uptake and utilization of vitamin D. Genetic susceptibility to inefficient vitamin D uptake and metabolism has yet to be explored in relation to autism. Thus, this study examined common, functional vitamin D-relevant gene variants in maternal, paternal and child samples in relation to risk for ASD in the child.
+
+Individuals included in this study were participants in the CHARGE (CHildhood Autism Risks from Genetics and the Environment) case–control study [6]. Eligibility criteria for children were: 1) age of 24 to 60 months at time of enrollment, 2) birth in California, 3) residence with at least one biologic parent who speaks English or Spanish, and 4) residence in the catchment areas of a specified list of California Regional Centers that coordinate services for persons with developmental disabilities. Children with autism, intellectual disability, or developmental delay were identified through the California Regional Centers as having received services for one or more of these conditions. Autism cases were also referred from the MIND Institute and other health or service providers, or self-referred from the CHARGE Study website. General population controls identified from state birth files were frequency matched to the age and catchment area distribution of the autism cases, and a 4:1 male-to-female ratio reflective of that seen for ASD.
+
+All children were assessed for cognitive function using the Mullen Scales of Early Learning (MSEL) [7] and for adaptive function using the Vineland Adaptive Behavior Scales (VABS) [8]. For children with autism, the primary caregiver completed the Autism Diagnostic Interview —Revised (ADI-R) [9], and children were assessed using the Autism Diagnostic Observation Schedule — Generic (ADOS) [10] to confirm the child’s diagnosis. The children of families recruited from the general population or with developmental delay/intellectual disability were screened for evidence of ASD using the Social Communication Questionnaire (SCQ) and if they scored above 15, were evaluated for autism. Final ASD case status was defined as 1) scoring at least 7 on ADOS Module 1 or at least 8 on ADOS Module 2; 2) meeting the cutoff value for section A or B and scoring above or within 2 points of the cutoff value on A or B (whichever did not meet cutoff value) in ADI-R; and 3) meeting the cutoff value on section D in ADI-R. Typical development (TD) required being recruited from the general population, screening negative for evidence of ASD on the SCQ, and scoring 70 or above on both the MSEL and VABS. These analyses included only the first child per family recruited into the study. The University of California—Davis Institutional Review Board and the State of California Committee for the Protection of Human Subjects approved this study and the CHARGE Study protocols. Neither data nor specimens were collected until written informed consent was obtained from the parents.
+
+Genomic DNA was isolated using standard procedures (Puregene kit; Gentra Inc.) from peripheral blood plasma leukocytes collected as part of CHARGE protocol. Genotyping was conducted blinded to case status using TaqMan Single Nucleotide Polymorphism (SNP) Genotyping Assays (Applied Biosystems) for the following variants: VDR TaqI (rs731236), BsmI (rs1544410), Cdx2 (rs11568820), and FokI (rs10735810), CYP27B1 T2838C (rs464536), GC (VBP, DBP) G716A (rs4588), and CYP2R1 rs10741657. Variants were chosen from key regulatory genes for the pathway of interest with priority given to common variants that altered gene function and/or were associated with altered vitamin D status.
+
+Ancestry Informative Markers (AIMs) were also genotyped for a subset of participants, including 281 (73%) families of children with ASD, and 161 (69%) families of children with TD. We identified 100 SNPs based on inherited allele frequencies determined from four parental populations (African, European, American Indian, and East Asian) to empirically estimate the proportion of ancestry attributable to a particular founding population for each individual using the program Structure. In our analyses, the proportion of variance from the European group was used as a reference with the additional three variables reflecting ancestral heritage included as covariates.
+
+http://www.ncbi.nlm.nih.gov/pubmed/26073892

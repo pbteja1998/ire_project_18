@@ -1,0 +1,476 @@
+Cytokine profiles by peripheral blood monocytes are associated with changes in behavioral symptoms following immune insults in a subset of ASD subjects: an inflammatory subtype?
+
+Abstract
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Departments of Public Health, New Jersey Medical School-Rutgers University, 185 South Orange Ave., Newark, NJ 07101 USA 
+
+Some children with autism spectrum disorders (ASD) are characterized by fluctuating behavioral symptoms following immune insults, persistent gastrointestinal (GI) symptoms, and a lack of response to the first-line intervention measures. These children have been categorized as the ASD-inflammatory subtype (ASD-IS) for this study. We reported a high prevalence of non-IgE mediated food allergy (NFA) in young ASD children before, but not all ASD/NFA children reveal such clinical features of ASD-IS. This study addressed whether behavioral changes of ASD-IS are associated with innate immune abnormalities manifested in isolated peripheral blood (PB) monocytes (Mo), major innate immune cells in the PB.
+
+This study includes three groups of ASD subjects (ASD-IS subjects (N = 24), ASD controls with a history of NFA (ASD/NFA (N = 20), and ASD/non-NFA controls (N = 20)) and three groups of non-ASD controls (non-ASD/NFA subjects (N = 16), those diagnosed with pediatric acute onset-neuropsychiatric syndrome (PANS, N = 18), and normal controls without NFA or PANS (N = 16)). Functions of purified PB Mo were assessed by measuring the production of inflammatory and counter-regulatory cytokines with or without stimuli of innate immunity (lipopolysaccharide (LPS), zymosan, CL097, and candida heat extracts as a source of β-lactam). In ASD-IS and PANS subjects, these assays were done in the state of behavioral exacerbation (‘flare’) and in the stable (‘non-flare’) condition. ASD-IS children in the ‘flare’ state revealed worsening irritability, lethargy and hyperactivity.
+
+‘Flare’ ASD-IS PB Mo produced higher amounts of inflammatory cytokines (IL-1β and IL-6) without stimuli than ‘non-flare’ ASD-IS cells. With zymosan, ‘flare’ ASD-IS cells produced more IL-1β than most control cells, despite spontaneous production of large amounts of IL-1ß. Moreover, ‘flare’ ASD-IS Mo produced less IL-10, a counterregulatory cytokine, in response to stimuli than ‘non-flare’ cells or other control cells. These changes were not observed in PANS cells.
+
+We observed an imbalance in the production of inflammatory (IL-1ß and IL-6) and counterregulatory (IL-10) cytokines by ‘flare’ ASD-IS monocytes, which may indicate an association between intrinsic abnormalities of PB Mo and changes in behavioral symptoms in the ASD-IS subjects.
+
+Background
+
+ASD are a behaviorally defined syndrome that consists of a heterogeneous group of neurodevelopmental disorders [1]. Various gene mutations or microdeletion syndromes are known to cause ASD behavioral symptoms; however, single gene mutations are likely to account for only a small fraction of ASD cases [2]. In the majority of ASD subjects, no causative gene mutations have been identified. In these cases, it is more likely that complex interactions among multiple genetic and environmental factors contribute to the onset and progress of ASD, as seen in other polygenic diseases.
+
+Currently, first-line treatment measures for ASD are behavioral and pharmacological interventions. Unfortunately, favorable responses to these measures are not universally achieved; some ASD patients respond well to these measures, while others do not. This is partly attributed to both the heterogeneity of the ASD population [1] and a high frequency of comorbid medical conditions that may affect behavioral symptoms through pain and discomfort [3]. At this time, there are no objective biomarkers for identifying the children who will not be responsive to the first-line therapeutic measures.
+
+Although there are alternative treatments, including those proposed by practitioners of complementary and alternative medicines (CAM) [4,5], these are not universally effective either, and research has not shown which are beneficial to what types (subgroups) of ASD subjects. There is also a lack of both reliable objective biomarkers and understanding of the mechanisms of actions [6]. Parents of ASD children may turn to such CAM treatments, hoping for the best. There is an urgent need for identifying objective biomarkers that may guide optimal effective measures for ASD children who fail to respond to the first-line intervention measures.
+
+However, the etiology of poor responses is also multifactorial, and it is extremely difficult to identify biomarkers by focusing on ‘poor responders’ to conventional first line treatments. Previous genetic workups indicate that mutational analysis may not be practical for segregating ASD subjects who have an apparent involvement of multiple genes [1]. Instead, it may be more feasible to focus on ASD children who are not only poor responders but also have objective clinical and laboratory characteristics that are distinguishable from other ASD subjects. The ASD-IS children described in our previous studies, as detailed in the next paragraph, may be ideal for such a purpose
+
+In our pediatric allergy/immunology (AI) clinic, we have evaluated a substantial number of ASD children for possible food allergy (FA) and underlying immune condition. Evaluations of these ASD children led us to recognize that some of them manifest clinical features indicating immunodysregulation and/or chronic inflammation. Namely, these children exhibit chronic and/or recurrent sino-pulmonary infection; adverse reactions to multiple medications; persistent GI symptoms with high frequency of NFA; and prolonged courses of illness. Moreover, these children do not respond well to pharmacological and behavioral intervention measures per parental report [7,8]. In this study, we categorized such ASD subjects as ASD-IS. Further studies of these children, using peripheral blood mononuclear cells (PBMCs), revealed abnormalities of innate immune responses that were distinguishable from both ASD and normal controls [9]. Changes in transcriptional profiles of isolated PB Mo, which did not overlap with those found in either the ASD and normal controls, were also found [9]. Based on these findings, we hypothesized that ASD-IS children have distinguishable innate immune abnormalities, which can be associated with behavioral changes following immune insults, typically microbial infection.
+
+It should also be noted that our previous results revealed discrepancies between transcriptional profiles of PB Mo and protein levels of cytokine produced by PBMCs, a mixture of lymphocytes, PB Mo, and other lineage cells. Despite the upregulation of mRNA of various cytokines by PB Mo, the production of such cytokines by PBMCs was lower in ASD-IS subjects; stimulants used were targeted to PB Mo [9]. This could be associated with the influence of cells other than PB Mo, such as regulatory T cells (Treg cells) or suppressive (tolerizing) dendritic cells (DCs) contained in PBMCs. Alternatively, post-transcriptional regulation in PB Mo, such as those exerted by microRNA (miRNA) [10,11], may also affect the protein levels of cytokines depending on the stage of PB Mo activation. We hypothesized that if intrinsic post-translational regulation has a role in the discrepancy between protein and mRNA expression of cytokines, isolated PB Mo may reveal distinct patterns of cytokine production depending on the activated state of PB Mo. That is, post-transcriptional regulation exerted by miRNA and other factors are expected to change rapidly depending on the activated stage of PB Mo [10]. It should also be noted that such changes of post-transcriptional regulation may affect the neuroimmune network [12]. Interestingly, in our observation, ASD-IS children are characterized by rapid changes in behavioral symptoms following immune insults, as observed in PANS children [13].
+
+To test our hypothesis, we examined cytokine production by purified PB Mo from ASD-IS and control ASD and non-ASD subjects. We have reported previously reported a high prevalence of NFA in young ASD children with chronic GI symptoms, including ASD-IS children [7]. Since the presence of NFA may indicate innate immune abnormalities that predispose to NFA at least in the gut mucosa [14], ASD and non-ASD controls were further separated into two subgroups, children with or without NFA. In addition, non-ASD/PANS subjects were added to the non-ASD control groups, since the ASD-IS children we recruited are often diagnosed with PANS by CAM practitioners prior to entrance into this study.
+
+Materials and methods
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Departments of Public Health, New Jersey Medical School-Rutgers University, 185 South Orange Ave., Newark, NJ 07101 USA 
+
+Some children with autism spectrum disorders (ASD) are characterized by fluctuating behavioral symptoms following immune insults, persistent gastrointestinal (GI) symptoms, and a lack of response to the first-line intervention measures. These children have been categorized as the ASD-inflammatory subtype (ASD-IS) for this study. We reported a high prevalence of non-IgE mediated food allergy (NFA) in young ASD children before, but not all ASD/NFA children reveal such clinical features of ASD-IS. This study addressed whether behavioral changes of ASD-IS are associated with innate immune abnormalities manifested in isolated peripheral blood (PB) monocytes (Mo), major innate immune cells in the PB.
+
+This study includes three groups of ASD subjects (ASD-IS subjects (N = 24), ASD controls with a history of NFA (ASD/NFA (N = 20), and ASD/non-NFA controls (N = 20)) and three groups of non-ASD controls (non-ASD/NFA subjects (N = 16), those diagnosed with pediatric acute onset-neuropsychiatric syndrome (PANS, N = 18), and normal controls without NFA or PANS (N = 16)). Functions of purified PB Mo were assessed by measuring the production of inflammatory and counter-regulatory cytokines with or without stimuli of innate immunity (lipopolysaccharide (LPS), zymosan, CL097, and candida heat extracts as a source of β-lactam). In ASD-IS and PANS subjects, these assays were done in the state of behavioral exacerbation (‘flare’) and in the stable (‘non-flare’) condition. ASD-IS children in the ‘flare’ state revealed worsening irritability, lethargy and hyperactivity.
+
+‘Flare’ ASD-IS PB Mo produced higher amounts of inflammatory cytokines (IL-1β and IL-6) without stimuli than ‘non-flare’ ASD-IS cells. With zymosan, ‘flare’ ASD-IS cells produced more IL-1β than most control cells, despite spontaneous production of large amounts of IL-1ß. Moreover, ‘flare’ ASD-IS Mo produced less IL-10, a counterregulatory cytokine, in response to stimuli than ‘non-flare’ cells or other control cells. These changes were not observed in PANS cells.
+
+We observed an imbalance in the production of inflammatory (IL-1ß and IL-6) and counterregulatory (IL-10) cytokines by ‘flare’ ASD-IS monocytes, which may indicate an association between intrinsic abnormalities of PB Mo and changes in behavioral symptoms in the ASD-IS subjects.
+
+ASD are a behaviorally defined syndrome that consists of a heterogeneous group of neurodevelopmental disorders [1]. Various gene mutations or microdeletion syndromes are known to cause ASD behavioral symptoms; however, single gene mutations are likely to account for only a small fraction of ASD cases [2]. In the majority of ASD subjects, no causative gene mutations have been identified. In these cases, it is more likely that complex interactions among multiple genetic and environmental factors contribute to the onset and progress of ASD, as seen in other polygenic diseases.
+
+Currently, first-line treatment measures for ASD are behavioral and pharmacological interventions. Unfortunately, favorable responses to these measures are not universally achieved; some ASD patients respond well to these measures, while others do not. This is partly attributed to both the heterogeneity of the ASD population [1] and a high frequency of comorbid medical conditions that may affect behavioral symptoms through pain and discomfort [3]. At this time, there are no objective biomarkers for identifying the children who will not be responsive to the first-line therapeutic measures.
+
+Although there are alternative treatments, including those proposed by practitioners of complementary and alternative medicines (CAM) [4,5], these are not universally effective either, and research has not shown which are beneficial to what types (subgroups) of ASD subjects. There is also a lack of both reliable objective biomarkers and understanding of the mechanisms of actions [6]. Parents of ASD children may turn to such CAM treatments, hoping for the best. There is an urgent need for identifying objective biomarkers that may guide optimal effective measures for ASD children who fail to respond to the first-line intervention measures.
+
+However, the etiology of poor responses is also multifactorial, and it is extremely difficult to identify biomarkers by focusing on ‘poor responders’ to conventional first line treatments. Previous genetic workups indicate that mutational analysis may not be practical for segregating ASD subjects who have an apparent involvement of multiple genes [1]. Instead, it may be more feasible to focus on ASD children who are not only poor responders but also have objective clinical and laboratory characteristics that are distinguishable from other ASD subjects. The ASD-IS children described in our previous studies, as detailed in the next paragraph, may be ideal for such a purpose
+
+In our pediatric allergy/immunology (AI) clinic, we have evaluated a substantial number of ASD children for possible food allergy (FA) and underlying immune condition. Evaluations of these ASD children led us to recognize that some of them manifest clinical features indicating immunodysregulation and/or chronic inflammation. Namely, these children exhibit chronic and/or recurrent sino-pulmonary infection; adverse reactions to multiple medications; persistent GI symptoms with high frequency of NFA; and prolonged courses of illness. Moreover, these children do not respond well to pharmacological and behavioral intervention measures per parental report [7,8]. In this study, we categorized such ASD subjects as ASD-IS. Further studies of these children, using peripheral blood mononuclear cells (PBMCs), revealed abnormalities of innate immune responses that were distinguishable from both ASD and normal controls [9]. Changes in transcriptional profiles of isolated PB Mo, which did not overlap with those found in either the ASD and normal controls, were also found [9]. Based on these findings, we hypothesized that ASD-IS children have distinguishable innate immune abnormalities, which can be associated with behavioral changes following immune insults, typically microbial infection.
+
+It should also be noted that our previous results revealed discrepancies between transcriptional profiles of PB Mo and protein levels of cytokine produced by PBMCs, a mixture of lymphocytes, PB Mo, and other lineage cells. Despite the upregulation of mRNA of various cytokines by PB Mo, the production of such cytokines by PBMCs was lower in ASD-IS subjects; stimulants used were targeted to PB Mo [9]. This could be associated with the influence of cells other than PB Mo, such as regulatory T cells (Treg cells) or suppressive (tolerizing) dendritic cells (DCs) contained in PBMCs. Alternatively, post-transcriptional regulation in PB Mo, such as those exerted by microRNA (miRNA) [10,11], may also affect the protein levels of cytokines depending on the stage of PB Mo activation. We hypothesized that if intrinsic post-translational regulation has a role in the discrepancy between protein and mRNA expression of cytokines, isolated PB Mo may reveal distinct patterns of cytokine production depending on the activated state of PB Mo. That is, post-transcriptional regulation exerted by miRNA and other factors are expected to change rapidly depending on the activated stage of PB Mo [10]. It should also be noted that such changes of post-transcriptional regulation may affect the neuroimmune network [12]. Interestingly, in our observation, ASD-IS children are characterized by rapid changes in behavioral symptoms following immune insults, as observed in PANS children [13].
+
+To test our hypothesis, we examined cytokine production by purified PB Mo from ASD-IS and control ASD and non-ASD subjects. We have reported previously reported a high prevalence of NFA in young ASD children with chronic GI symptoms, including ASD-IS children [7]. Since the presence of NFA may indicate innate immune abnormalities that predispose to NFA at least in the gut mucosa [14], ASD and non-ASD controls were further separated into two subgroups, children with or without NFA. In addition, non-ASD/PANS subjects were added to the non-ASD control groups, since the ASD-IS children we recruited are often diagnosed with PANS by CAM practitioners prior to entrance into this study.
+
+The study follows the protocols approved by the Institutional Review Board at Rutgers-New Jersey Medical School. Informed consent was obtained prior to blood sample obtainment.
+Study subjects
+
+ASD subjects were recruited in the Pediatric Allergy/Immunology clinic. Diagnosis of ASD in the study subjects was made at various autism diagnostic centers, including ours. The ASD diagnosis was based on the Autism Diagnostic Observation Scale (ADOS) and/or the Autism Diagnostic Inventory-Revisited (ADI-R), and these diagnoses were verified by the medical records. For those whose ADOS and ADI-R records were not verified, the ADOS and/or ADI-R was administered to confirm the diagnosis.
+
+Any subjects with impaired hearing/eyesight, any motor disability, such as cerebral palsy, or medical conditions with known gene mutations were excluded from the study. ASD subjects were also evaluated for their behavioral symptoms, sleep habits, and adaptive skills by using the Aberrant Behavior Checklist (ABC) [15], the Children’s Sleep Habits Questionnaires (CSHQ)[16], and the Vineland Adaptive Behavior Scale (VABS) [17], respectively. For ASD subjects with limited expressive language, the presence of physical pain was assessed by using the Non-communicating Children’s Pain Checklist (NCCPC) [18].
+
+ASD subjects were further subdivided into three groups (ASD-IS, ASD/NFA, and ASD/non-NFA) and each group was defined as follows;
+
+
+
+Non-ASD controls included 3 groups as indicated in the abstracts (Non-ASD/NFA subject, PANS subjects, and normal controls without NFA or PANS) and each group was defined as follows;
+
+
+Diagnosis of asthma and allergic rhinitis
+
+Allergic rhinitis (AR) and allergic conjunctivitis (AC) were diagnosed with positive skin prick test reactivity and/or presence of allergen-specific IgE in the serum accompanied by clinical features consistent with AR and AC [21,22]. Asthma diagnosis was based on the guidelines from the Expert Panel Report 3 [23]. Asthma without skin test reactivity to allergens and/or allergen-specific IgE antibodies was categorized as non-atopic asthma [22].
+Antibody deficiency syndrome
+
+Specific polysaccharide antibody deficiency (SPAD) was diagnosed with detectable antibody (Ab) titers (more than 1.3 μg/ml) to fewer than 3 of 14 serotypes of Streptococcus pneumonia in response to Pneumovax™ [24], a standard diagnostic measure for SPAD.
+
+Demographic information of the study subjects is summarized in Table 1 and comorbid conditions are summarized in Table 2.
+
+
+Demographics of the study subjects
+
+
+
+aAge when the subject enrolled in the study.
+
+
+bAbbreviations used: AA, African-American; ASD, autism spectrum disorder; ASD-IS, ASD-inflammatory subtype; F, female; M, male; NFA, non-IgE mediated food allergy; PDD, pervasive developmental disorder, PANS, pediatric acute-onset neuropsychiatric disorder; W, Caucasian.
+
+
+cIn addition to one PDD subject, two ASD/non-NFA subjects were diagnosed with Asperger syndrome.
+
+
+Comorbid conditions of the study subjects
+
+
+
+aOne subject was diagnosed with psoriasis and another subject was diagnosed with anti-phospholipid syndrome.
+
+
+bAll subjects diagnosed with antibody deficiency syndrome were on IVIG treatment at the time of sample obtainment. All the subjects were shown to have severely impaired responses to Pneumovax™.
+
+
+c
+Abbreviations used; Ab, antibody; ASD, autism spectrum disorder; ASD-IS, ASD-inflammatory subtype; NFA, non-IgE mediated food allergy; PANS, pediatric acute onset neuropsychiatric syndrome.
+Sample obtainment
+
+PB samples were obtained by venipuncture after informed consent was obtained. Efforts were made to obtain the PB samples at the time of routine blood work in order to minimize the number of venipunctures. For most of the non-ASD/NFA, normal control, ASD/non-NFA, and ASD/NFA groups, only one blood sample was taken. For PANS and ASD-IS subjects, more than one blood sample was obtained in an effort to have blood samples taken during times when subject was in stable condition (‘non-flare’ samples) and when flare-ups of behavioral symptoms following immune insults (‘flare’ samples) occurred. Venipuncture was conducted by the physician, and if requested, the site of venipuncture was numbed by the application of topical lidocaine (Emla cream™).
+Cell cultures
+
+PBMCs were isolated by Ficoll-Hypaque density gradient centrifugation. PB Mo were purified by negatively selecting PB Mo depleting T, B, natural killer, and DCs, using magnetic beads labeled with anti-CD3, CD7, CD16, CD19, CD56, CD123, and glycophorin A (Monocyte Isolation Kit II, human; MILTENYI BIOTEC, Cambridge, MA, USA).
+
+Innate immune responses were assessed by incubating purified PB Mo (2.5×105 cells/ml) overnight with toll-like receptor (TLR) 4 agonist (LPS; 0.1 μg/ml, GIBCO-BRL, Gaithersburg, MD, USA), TLR2/6 agonist (zymosan; 50 μg/ml, Sigma-Aldrich, St. Louis, MO, USA), TLR7/8 agonist (CL097, water-soluble derivative of imidazoquinoline, 20 μM, InvivoGen, San Diego, CA, USA), and dectin 1 agonist (heat killed Candida albicans as a source of ß-lactam (109 cells/ml) - 10 μl/ml, InvivoGen) in RPMI 1640 with additives as previously described [25]. Overnight incubation was adequate to induce the optimal responses in this setting.
+
+Levels of proinflammatory (tumor necrosis factor-α (TNF-α), interleukin-1ß (IL-1β), IL-6, IL-12p40, and IL-23) and counter-regulatory (IL-10, transforming growth factor-ß (TGF-ß) and soluble TNF receptor II (sTNFRII)) cytokines in the culture supernatant were then measured by enzyme-linked immunosorbent assay (ELISA). For ELISA, OptEIA™ Reagent Sets (BD Biosciences) were used for IFN-γ, IL-1ß, IL-5, IL-6, IL-10, IL-12p40, and TNF-α, and ELISA reagent set (R & D, Minneapolis, MN, USA) were used for sTNFRII, IL-17 (IL-17A), and TGF-ß. IL-23 ELISA kit was purchased from eBiosciences (San Diego, CA, USA). Intra- and intervariation of cytokine levels were less than 5%.
+Statistics
+
+For comparison of test values with control values, a Wilcoxon rank sum test was used. Differences in frequency were tested with a Chi square (χ2) test and the correlation was tested using linear regression analysis. These tests were performed using R.3.1 (R-Development Core Team 2011). A p value of <0.05 was considered to be statistically significant.
+
+Results
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Departments of Public Health, New Jersey Medical School-Rutgers University, 185 South Orange Ave., Newark, NJ 07101 USA 
+
+Some children with autism spectrum disorders (ASD) are characterized by fluctuating behavioral symptoms following immune insults, persistent gastrointestinal (GI) symptoms, and a lack of response to the first-line intervention measures. These children have been categorized as the ASD-inflammatory subtype (ASD-IS) for this study. We reported a high prevalence of non-IgE mediated food allergy (NFA) in young ASD children before, but not all ASD/NFA children reveal such clinical features of ASD-IS. This study addressed whether behavioral changes of ASD-IS are associated with innate immune abnormalities manifested in isolated peripheral blood (PB) monocytes (Mo), major innate immune cells in the PB.
+
+This study includes three groups of ASD subjects (ASD-IS subjects (N = 24), ASD controls with a history of NFA (ASD/NFA (N = 20), and ASD/non-NFA controls (N = 20)) and three groups of non-ASD controls (non-ASD/NFA subjects (N = 16), those diagnosed with pediatric acute onset-neuropsychiatric syndrome (PANS, N = 18), and normal controls without NFA or PANS (N = 16)). Functions of purified PB Mo were assessed by measuring the production of inflammatory and counter-regulatory cytokines with or without stimuli of innate immunity (lipopolysaccharide (LPS), zymosan, CL097, and candida heat extracts as a source of β-lactam). In ASD-IS and PANS subjects, these assays were done in the state of behavioral exacerbation (‘flare’) and in the stable (‘non-flare’) condition. ASD-IS children in the ‘flare’ state revealed worsening irritability, lethargy and hyperactivity.
+
+‘Flare’ ASD-IS PB Mo produced higher amounts of inflammatory cytokines (IL-1β and IL-6) without stimuli than ‘non-flare’ ASD-IS cells. With zymosan, ‘flare’ ASD-IS cells produced more IL-1β than most control cells, despite spontaneous production of large amounts of IL-1ß. Moreover, ‘flare’ ASD-IS Mo produced less IL-10, a counterregulatory cytokine, in response to stimuli than ‘non-flare’ cells or other control cells. These changes were not observed in PANS cells.
+
+We observed an imbalance in the production of inflammatory (IL-1ß and IL-6) and counterregulatory (IL-10) cytokines by ‘flare’ ASD-IS monocytes, which may indicate an association between intrinsic abnormalities of PB Mo and changes in behavioral symptoms in the ASD-IS subjects.
+
+ASD are a behaviorally defined syndrome that consists of a heterogeneous group of neurodevelopmental disorders [1]. Various gene mutations or microdeletion syndromes are known to cause ASD behavioral symptoms; however, single gene mutations are likely to account for only a small fraction of ASD cases [2]. In the majority of ASD subjects, no causative gene mutations have been identified. In these cases, it is more likely that complex interactions among multiple genetic and environmental factors contribute to the onset and progress of ASD, as seen in other polygenic diseases.
+
+Currently, first-line treatment measures for ASD are behavioral and pharmacological interventions. Unfortunately, favorable responses to these measures are not universally achieved; some ASD patients respond well to these measures, while others do not. This is partly attributed to both the heterogeneity of the ASD population [1] and a high frequency of comorbid medical conditions that may affect behavioral symptoms through pain and discomfort [3]. At this time, there are no objective biomarkers for identifying the children who will not be responsive to the first-line therapeutic measures.
+
+Although there are alternative treatments, including those proposed by practitioners of complementary and alternative medicines (CAM) [4,5], these are not universally effective either, and research has not shown which are beneficial to what types (subgroups) of ASD subjects. There is also a lack of both reliable objective biomarkers and understanding of the mechanisms of actions [6]. Parents of ASD children may turn to such CAM treatments, hoping for the best. There is an urgent need for identifying objective biomarkers that may guide optimal effective measures for ASD children who fail to respond to the first-line intervention measures.
+
+However, the etiology of poor responses is also multifactorial, and it is extremely difficult to identify biomarkers by focusing on ‘poor responders’ to conventional first line treatments. Previous genetic workups indicate that mutational analysis may not be practical for segregating ASD subjects who have an apparent involvement of multiple genes [1]. Instead, it may be more feasible to focus on ASD children who are not only poor responders but also have objective clinical and laboratory characteristics that are distinguishable from other ASD subjects. The ASD-IS children described in our previous studies, as detailed in the next paragraph, may be ideal for such a purpose
+
+In our pediatric allergy/immunology (AI) clinic, we have evaluated a substantial number of ASD children for possible food allergy (FA) and underlying immune condition. Evaluations of these ASD children led us to recognize that some of them manifest clinical features indicating immunodysregulation and/or chronic inflammation. Namely, these children exhibit chronic and/or recurrent sino-pulmonary infection; adverse reactions to multiple medications; persistent GI symptoms with high frequency of NFA; and prolonged courses of illness. Moreover, these children do not respond well to pharmacological and behavioral intervention measures per parental report [7,8]. In this study, we categorized such ASD subjects as ASD-IS. Further studies of these children, using peripheral blood mononuclear cells (PBMCs), revealed abnormalities of innate immune responses that were distinguishable from both ASD and normal controls [9]. Changes in transcriptional profiles of isolated PB Mo, which did not overlap with those found in either the ASD and normal controls, were also found [9]. Based on these findings, we hypothesized that ASD-IS children have distinguishable innate immune abnormalities, which can be associated with behavioral changes following immune insults, typically microbial infection.
+
+It should also be noted that our previous results revealed discrepancies between transcriptional profiles of PB Mo and protein levels of cytokine produced by PBMCs, a mixture of lymphocytes, PB Mo, and other lineage cells. Despite the upregulation of mRNA of various cytokines by PB Mo, the production of such cytokines by PBMCs was lower in ASD-IS subjects; stimulants used were targeted to PB Mo [9]. This could be associated with the influence of cells other than PB Mo, such as regulatory T cells (Treg cells) or suppressive (tolerizing) dendritic cells (DCs) contained in PBMCs. Alternatively, post-transcriptional regulation in PB Mo, such as those exerted by microRNA (miRNA) [10,11], may also affect the protein levels of cytokines depending on the stage of PB Mo activation. We hypothesized that if intrinsic post-translational regulation has a role in the discrepancy between protein and mRNA expression of cytokines, isolated PB Mo may reveal distinct patterns of cytokine production depending on the activated state of PB Mo. That is, post-transcriptional regulation exerted by miRNA and other factors are expected to change rapidly depending on the activated stage of PB Mo [10]. It should also be noted that such changes of post-transcriptional regulation may affect the neuroimmune network [12]. Interestingly, in our observation, ASD-IS children are characterized by rapid changes in behavioral symptoms following immune insults, as observed in PANS children [13].
+
+To test our hypothesis, we examined cytokine production by purified PB Mo from ASD-IS and control ASD and non-ASD subjects. We have reported previously reported a high prevalence of NFA in young ASD children with chronic GI symptoms, including ASD-IS children [7]. Since the presence of NFA may indicate innate immune abnormalities that predispose to NFA at least in the gut mucosa [14], ASD and non-ASD controls were further separated into two subgroups, children with or without NFA. In addition, non-ASD/PANS subjects were added to the non-ASD control groups, since the ASD-IS children we recruited are often diagnosed with PANS by CAM practitioners prior to entrance into this study.
+
+The study follows the protocols approved by the Institutional Review Board at Rutgers-New Jersey Medical School. Informed consent was obtained prior to blood sample obtainment.
+
+ASD subjects were recruited in the Pediatric Allergy/Immunology clinic. Diagnosis of ASD in the study subjects was made at various autism diagnostic centers, including ours. The ASD diagnosis was based on the Autism Diagnostic Observation Scale (ADOS) and/or the Autism Diagnostic Inventory-Revisited (ADI-R), and these diagnoses were verified by the medical records. For those whose ADOS and ADI-R records were not verified, the ADOS and/or ADI-R was administered to confirm the diagnosis.
+
+Any subjects with impaired hearing/eyesight, any motor disability, such as cerebral palsy, or medical conditions with known gene mutations were excluded from the study. ASD subjects were also evaluated for their behavioral symptoms, sleep habits, and adaptive skills by using the Aberrant Behavior Checklist (ABC) [15], the Children’s Sleep Habits Questionnaires (CSHQ)[16], and the Vineland Adaptive Behavior Scale (VABS) [17], respectively. For ASD subjects with limited expressive language, the presence of physical pain was assessed by using the Non-communicating Children’s Pain Checklist (NCCPC) [18].
+
+ASD subjects were further subdivided into three groups (ASD-IS, ASD/NFA, and ASD/non-NFA) and each group was defined as follows;
+Clinical findings
+
+The prevalence of comorbid conditions is summarized in Table 2. Seizure disorders requiring daily anti-seizure medications were reported in 4/24 ASD-IS, 2/20 ASD/NFA, and 1/20 ASD/non-NFA subjects, respectively (Table 2). None of the non-ASD subjects were diagnosed with seizure disorders. Autoimmune diseases were reported in only two ASD-IS female subjects (anti-phospholipid syndrome and psoriasis, respectively). Allergic rhinitis was reported in 2/24 ASD-IS, 3/20 ASD/NFA, 3/16 normal controls, and 3/17 PAN S subjects. Thus the prevalence of well-described autoimmune diseases or IgE mediated atopic disorders was not high in any of the study groups. In addition, the frequency of non-atopic asthma was not high in any of the study groups as well (Table 2). Antibody deficiency syndrome, as defined in the methods section, was diagnosed in 3/24 ASD-IS subjects and 2/18 PANS subjects.
+
+A developmental evaluation using either the Woodcock-Johnson III test (WJIII) or school-reported IQ evaluation in the year prior to the enrollment revealed that the general intellectual ability (GIA) of most ASD subjects is <1st percentile rank. However, the GIA of a few ASD subjects ranked within the normal range (>5th percentile rank). One Asperger subject in the ASD/non-NFA group had a GIA ranked as the 98th percentile, although his adaptive skills were in the 6th percentile based on the VABS. There were no difference in scores of CSHQ, standardized adaptive skills composition by VABS, and subscale behavioral scores by ABC among the ASD subjects (Table 3). However, when ABC scores from the ASD-IS subjects were compared during the ‘flare’ versus ‘non-flare’ states as defined in the method section, ASD-IS subjects experiencing ‘flares’ revealed significantly higher scores in the ABC subdomains I (irritability) (P <0.005), II (lethargy) (P <0.01), and IV (hyperactivity) (P <0.005) (Figure 1).
+
+
+Summary of the Aberrant Behavior Checklist (ABC), the Vineland Adaptive Behavioral Scale (VABS), and the Children’s Sleep Habit Questionnaire (CSHQ) results
+
+
+
+aABC subscales I, II, III in the ASD study groups were shown since ASD-IS children revealed changes in these scales during ‘flare’ states as detailed in the results section and Figure. There are no significant differences in subscales III and V among the ASD groups.
+
+
+bResults of the ABC subscale and CSHQ total scores are expressed as average value ± standard deviation (SD).
+
+
+cResults of the VABS was expressed as a number of subjects whose adaptive scale are <1st percentile rank (PR).
+
+
+d
+Abbreviations used; ASD, autism spectrum disorder; ASD-IS; ASD-inflammatory subtype; NFA, non-IgE mediated food allergy.
+
+
+In autism spectrum disorder-inflammatory subtype
+(ASD-IS) children, significant differences were observed in the scores of the Aberrant Behavior Checklist (ABC) subdomains I (irritability), II (lethargy), III (stereotypy), and IV (hyperactivity) between the ‘flare’ and ‘non-flare’ states (
+P
+<0.005 for subdomains I and IV and
+P
+<0.01 for subdomain II by a paired Wilcoxon rank sum test.
+
+Cytokine production by peripheral blood mononuclear cells versus peripheral blood monocytes
+
+Initially, we tested whether purified PB Mo revealed cytokine production profiles similar to those we had seen before with the use of PBMCs. The concentration of PB Mo cells (0.25 × 106 cells/ml) was adjusted to be approximately equivalent to the concentrations of PB Mo in PBMC cell cultures (106 PBMCs/ml). PB Mo spontaneously produced significantly higher amounts of most cytokines measured, except for TGF-ß, than PBMCs (Figure 2).
+
+
+Comparison of production of cytokines (TNF-α, IL-1β, IL-10, IL-12p40, sTNRII, and TGF-β) (Panel A) and IL-6 (Panel B) by purified peripheral blood monocytes (PB Mo) (0.25 × 10
+6
+cells/ml) and peripheral blood mononuclear cells (PBMCs) (10
+6
+cells/ml) from the same blood samples of randomly selected subjects from all the study groups (N = 21). Each data point was shown as a mean cytokine level ± SD. The concentration of PB Mo and PBMC monocytes in culture were set to be approximately the same. *; P <0.001, **; P <0.005 (Wilcoxon rank sum test).
+Cytokine production by peripheral blood monocytes without stimuli or in responses to stimuli
+
+Since significant changes in ABC subscale scores between the ‘flare’ and ‘non-flare’ states were observed in ASD-IS subjects (Figure 1), we examined if changes in cytokine production also occurred in ‘flare’ versus ‘non-flare’ states in ASD-IS subjects.
+
+Spontaneous production of IL-1ß and IL-6 by ‘flare’ ASD-IS cells was higher than ‘non-flare’ ASD-IS cells in matched pair analysis (Tables 4 and ​and55 and Figure 3). These levels were also higher than in most of the control cells (Tables 4 and ​and5).5). It should be noted that PANS cells revealed higher spontaneous production of IL-1β, but there were no difference in the spontaneous production of IL-1β or IL-10 between ‘flare’ versus ‘non-flare’ states (P >0.05). The same definition described for ASD-IS subjects, was used when assessing ‘flare’ versus ‘non-flare’ states in PANS subjects. In all the PANS subjects, ‘flare’ states were induced by microbial infection (mainly viral syndrome).
+
+
+IL-1β production by purified peripheral blood monocytes in the study groups
+
+
+
+aSpontaneous production of IL-1β is higher in ‘flare’ ASD-IS cells than in ‘non-flare’ ASD-IS cells in matched pair analysis as shown in Figure 3. IL-β levels produced spontaneously is also higher than those produced by normal, ASD/NFA, and ASD/non-NFA (P <0.02 for ‘flare’ ASD-IS cells and P <0.05 for PANS cells).
+
+
+bIL-1ß levels produced by ‘flare’ ASD-IS cells in response to LPS and zymosan are higher than those by non-flare ASD-IS cells by matched pair analysis as shown in Figure 4. These levels are also higher than those produced by other control cells except for PANS cells.
+
+
+cIL-1ß production by ASD/NFA cells in response to LPS, zymosan, and CL097 are lowest among the study groups (P <0.001).
+
+
+d
+Abbreviations used; ASD, autism spectrum disorders, ASD-IS; ASD-inflammatory subtype, IL, interleukin; LPS, lipopolysaccharide; NFA, non-IgE mediated food allergy; PANS, pediatric acute-onset neuropsychiatric syndrome.
+
+
+IL-6 production by purified peripheral blood monocytes in the study groups
+
+
+
+aSpontaneous IL-6 production by ‘flare’ ASD-IS cells was higher than ‘non-flare’ cells in matched pair analysis, as shown in Figure 4 and also higher than those produced by ASD/NFA and normal control cells.
+
+
+bIL-6 production by ‘flare’ ASD-IS cells in response to zymosan was lower than those produced by normal control cells (P <0.02) and also lower than the ‘non-flare’ ASD-IS cells in matched pair analysis (P <0.01).
+
+
+c
+Abbreviations used; ASD, autism spectrum disorder; ASD-IS, ASD-inflammatory subtype; IL, interleukin; LPS, lipopolysaccharide; NFA, non-IgE mediated food allergy; PANS, pediatric acute-onset neuropsychiatric syndrome.
+
+
+Production of IL-1ß (Panel A) and IL-6 (panel B) by autism spectrum disorder-inflammatory subtype
+(ASD-IS) cells in ‘flare’ and non-flare’ states. Levels of IL-1ß and IL-6 produced spontaneously by peripheral blood monocytes (PB Mo) were higher when in ‘flare’ than during ‘non-flare’ states in ASD-IS children (P < 0.01for IL-1ß and P <0.005 for IL-6).
+
+Because of the high levels of spontaneous cytokine production by PB Mo, levels of most of the cytokines produced by PB Mo in response to stimuli were evaluated after subtracting the values of the cytokines produced spontaneously. The notable differences between the ‘flare’ versus ‘non-flare’ states of ASD-IS subjects were seen in the production of IL-1ß and IL-6, as summarized in Tables 4 and ​and5.5. Namely, IL-1ß production in response to LPS and zymosan was higher in the ‘flare’ ASD-IS cells than non-flare cells by matched-pair analysis (Figure 4) and also higher than cells from most control groups except for PANS cells. Although PANS cells tended to produce larger amounts of IL-1ß with stimuli, there were no significant differences in IL-1ß production in the ‘flare’ versus ‘non-flare’ states (Table 4). It should be noted that, among the study groups tested, the lowest production of IL-1ß was observed in the ASD/NFA subjects (Table 4). In contrast, IL-6 production in response to stimuli was lower in response to zymosan in ‘flare’ ASD-IS cells than in ‘non-flare’ ASD-IS cells (Figure 4 and Table 5), and this was also lower than that in normal control cells.
+
+
+IL-1ß produced in response to lipopolysaccharide (LPS) (Panel A) and zymosan (Panel B) and IL-6 in response to zymosan (Panel C) by ‘flare’ and ‘non-flare’ autism spectrum disorder-inflammatory subtype
+(ASD-IS) cells. The values were expressed as IL-1ß or IL-10 produced with stimuli minus the values of IL-1ß or IL-10 produced spontaneously. IL-1ß production was higher by ‘flare’ ASD-IS cells than in ASD-IS ‘non-flare’ cells (P <0.005 and P <0.01, respectively). IL-6 production was lower in ‘flare’ ASD-IS cells than ‘non-flare’ cells (P <0.01) by Wilcoxin rank sum test.
+
+For the analysis of the IL-10 data, subtracting the spontaneous production of IL-10 could not be done. This is because IL-10 production with stimuli, especially with CL097 (TLR7/8 agonist), was lower than spontaneous IL-10 production in substantial numbers of study subjects. Thus, the results of IL-10 production were analyzed using the ratio of IL-10 produced with stimuli and IL-10 produced in the absence of stimuli. When the results were analyzed in this way, we found lower ratios of IL-10 in the ‘flare’ state of ASD-IS cells in response to LPS, zymosan, and CL097 than most control groups (Table 6). Matched-pair analysis also revealed significantly lower IL-1 ratio in the ‘flare’ ASD-IS cells than by ‘’non-flare’ ASD-IS cells (Figure 5). That is, ASD-IS ‘flare’ cells revealed significantly lower production of IL-10 as compared to all the control groups.
+
+
+IL-10 production by purified peripheral blood monocytes in the study groups
+
+
+
+aIL-10 production in response to LPS, zymosan, and CL097 were expressed as a ratio of IL-10 produced in these stimulants/IL-10 produced in the absence of stimuli. It should be noted that IL-10 production tends to be lower in the presence of CL097 in most of the study groups.
+
+
+bIL-10 production by ‘flare’ ASD-IS cells were lower than ‘non-flare’ ASD-IS cells with matched pair analysis as detailed in Figure IL-10 production by ‘flare’ ASD-IS cells in response to LPS and zymosan were also lower than ASD/NFA and normal control cells (P <0.01). IL-10 production by ‘flare’ ASD-IS cells in response to CL097 cells were also lower than those produced by PANS cells (P <0.01).
+
+
+c
+Abbreviations used; ASD, autism spectrum disorder; ASD-IS, ASD-inflammatory subtype; IL, interleukin; LPS, lipopolysaccharide; NFA, non-IgE mediated food allergy; PANS, pediatric acute-onset neuropsychiatric syndrome.
+
+
+Production of IL-10 in response to lipopoloysaccharide (LPS) (Panel A), zymosan (Panel B), and CL097 (Panel C) by autism spectrum disorder-inflammatory subtype (ASD-IS) peripheral blood (PB) monocytes. The data are expressed as ratios of IL-10 produced with stimuli divided by IL-10 produced in the absence of stimuli. ASD-IS cells revealed lower values in the ‘flare’ state than in the ‘non-flare’ state (P <0.005 for LPS, P <0.05 for zymosan and CL097 by Wilcoxon rank sum test).
+Table 4
+
+Spontaneous production of IL-1ß and IL-6 by ‘flare’ ASD-IS cells was higher than ‘non-flare’ ASD-IS cells in matched pair analysis (Tables 4 and ​and55 and Figure 3). These levels were also higher than in most of the control cells (Tables 4 and ​and5).5). It should be noted that PANS cells revealed higher spontaneous production of IL-1β, but there were no difference in the spontaneous production of IL-1β or IL-10 between ‘flare’ versus ‘non-flare’ states (P >0.05). The same definition described for ASD-IS subjects, was used when assessing ‘flare’ versus ‘non-flare’ states in PANS subjects. In all the PANS subjects, ‘flare’ states were induced by microbial infection (mainly viral syndrome).
+
+
+IL-1β production by purified peripheral blood monocytes in the study groups
+
+
+
+aSpontaneous production of IL-1β is higher in ‘flare’ ASD-IS cells than in ‘non-flare’ ASD-IS cells in matched pair analysis as shown in Figure 3. IL-β levels produced spontaneously is also higher than those produced by normal, ASD/NFA, and ASD/non-NFA (P <0.02 for ‘flare’ ASD-IS cells and P <0.05 for PANS cells).
+
+
+bIL-1ß levels produced by ‘flare’ ASD-IS cells in response to LPS and zymosan are higher than those by non-flare ASD-IS cells by matched pair analysis as shown in Figure 4. These levels are also higher than those produced by other control cells except for PANS cells.
+
+
+cIL-1ß production by ASD/NFA cells in response to LPS, zymosan, and CL097 are lowest among the study groups (P <0.001).
+
+
+d
+Abbreviations used; ASD, autism spectrum disorders, ASD-IS; ASD-inflammatory subtype, IL, interleukin; LPS, lipopolysaccharide; NFA, non-IgE mediated food allergy; PANS, pediatric acute-onset neuropsychiatric syndrome.
+
+
+IL-6 production by purified peripheral blood monocytes in the study groups
+
+
+
+aSpontaneous IL-6 production by ‘flare’ ASD-IS cells was higher than ‘non-flare’ cells in matched pair analysis, as shown in Figure 4 and also higher than those produced by ASD/NFA and normal control cells.
+
+
+bIL-6 production by ‘flare’ ASD-IS cells in response to zymosan was lower than those produced by normal control cells (P <0.02) and also lower than the ‘non-flare’ ASD-IS cells in matched pair analysis (P <0.01).
+
+
+c
+Abbreviations used; ASD, autism spectrum disorder; ASD-IS, ASD-inflammatory subtype; IL, interleukin; LPS, lipopolysaccharide; NFA, non-IgE mediated food allergy; PANS, pediatric acute-onset neuropsychiatric syndrome.
+
+
+Production of IL-1ß (Panel A) and IL-6 (panel B) by autism spectrum disorder-inflammatory subtype
+(ASD-IS) cells in ‘flare’ and non-flare’ states. Levels of IL-1ß and IL-6 produced spontaneously by peripheral blood monocytes (PB Mo) were higher when in ‘flare’ than during ‘non-flare’ states in ASD-IS children (P < 0.01for IL-1ß and P <0.005 for IL-6).
+Table 6
+
+Because of the high levels of spontaneous cytokine production by PB Mo, levels of most of the cytokines produced by PB Mo in response to stimuli were evaluated after subtracting the values of the cytokines produced spontaneously. The notable differences between the ‘flare’ versus ‘non-flare’ states of ASD-IS subjects were seen in the production of IL-1ß and IL-6, as summarized in Tables 4 and ​and5.5. Namely, IL-1ß production in response to LPS and zymosan was higher in the ‘flare’ ASD-IS cells than non-flare cells by matched-pair analysis (Figure 4) and also higher than cells from most control groups except for PANS cells. Although PANS cells tended to produce larger amounts of IL-1ß with stimuli, there were no significant differences in IL-1ß production in the ‘flare’ versus ‘non-flare’ states (Table 4). It should be noted that, among the study groups tested, the lowest production of IL-1ß was observed in the ASD/NFA subjects (Table 4). In contrast, IL-6 production in response to stimuli was lower in response to zymosan in ‘flare’ ASD-IS cells than in ‘non-flare’ ASD-IS cells (Figure 4 and Table 5), and this was also lower than that in normal control cells.
+
+
+IL-1ß produced in response to lipopolysaccharide (LPS) (Panel A) and zymosan (Panel B) and IL-6 in response to zymosan (Panel C) by ‘flare’ and ‘non-flare’ autism spectrum disorder-inflammatory subtype
+(ASD-IS) cells. The values were expressed as IL-1ß or IL-10 produced with stimuli minus the values of IL-1ß or IL-10 produced spontaneously. IL-1ß production was higher by ‘flare’ ASD-IS cells than in ASD-IS ‘non-flare’ cells (P <0.005 and P <0.01, respectively). IL-6 production was lower in ‘flare’ ASD-IS cells than ‘non-flare’ cells (P <0.01) by Wilcoxin rank sum test.
+
+For the analysis of the IL-10 data, subtracting the spontaneous production of IL-10 could not be done. This is because IL-10 production with stimuli, especially with CL097 (TLR7/8 agonist), was lower than spontaneous IL-10 production in substantial numbers of study subjects. Thus, the results of IL-10 production were analyzed using the ratio of IL-10 produced with stimuli and IL-10 produced in the absence of stimuli. When the results were analyzed in this way, we found lower ratios of IL-10 in the ‘flare’ state of ASD-IS cells in response to LPS, zymosan, and CL097 than most control groups (Table 6). Matched-pair analysis also revealed significantly lower IL-1 ratio in the ‘flare’ ASD-IS cells than by ‘’non-flare’ ASD-IS cells (Figure 5). That is, ASD-IS ‘flare’ cells revealed significantly lower production of IL-10 as compared to all the control groups.
+
+
+IL-10 production by purified peripheral blood monocytes in the study groups
+
+
+
+aIL-10 production in response to LPS, zymosan, and CL097 were expressed as a ratio of IL-10 produced in these stimulants/IL-10 produced in the absence of stimuli. It should be noted that IL-10 production tends to be lower in the presence of CL097 in most of the study groups.
+
+
+bIL-10 production by ‘flare’ ASD-IS cells were lower than ‘non-flare’ ASD-IS cells with matched pair analysis as detailed in Figure IL-10 production by ‘flare’ ASD-IS cells in response to LPS and zymosan were also lower than ASD/NFA and normal control cells (P <0.01). IL-10 production by ‘flare’ ASD-IS cells in response to CL097 cells were also lower than those produced by PANS cells (P <0.01).
+
+
+c
+Abbreviations used; ASD, autism spectrum disorder; ASD-IS, ASD-inflammatory subtype; IL, interleukin; LPS, lipopolysaccharide; NFA, non-IgE mediated food allergy; PANS, pediatric acute-onset neuropsychiatric syndrome.
+
+
+Production of IL-10 in response to lipopoloysaccharide (LPS) (Panel A), zymosan (Panel B), and CL097 (Panel C) by autism spectrum disorder-inflammatory subtype (ASD-IS) peripheral blood (PB) monocytes. The data are expressed as ratios of IL-10 produced with stimuli divided by IL-10 produced in the absence of stimuli. ASD-IS cells revealed lower values in the ‘flare’ state than in the ‘non-flare’ state (P <0.005 for LPS, P <0.05 for zymosan and CL097 by Wilcoxon rank sum test).
+
+Discussion
+
+This study addressed cytokine production profiles by PB Mo in subgroups of ASD subjects categorized on the basis of clinical features and allergy/immunology s as detailed in the method section. To our knowledge, previous studies addressing PB Mo functions in ASD children did not subdivide ASD subjects and involved smaller numbers of ASD subjects than this study [26]. Also novel to this study, three non-ASD controls groups were included, that is, non-ASD/NFA, PANS, and typically developing normal controls without NFA or PANS. This experimental design permits us to dissect what findings are specific for the ASD-IS subjects. In addition, we analyzed the data depending on the ‘flare’ versus ‘non-flare’ states in the ASD-IS and PANS subjects. This is for testing our hypothesis that changes in cytokine production profiles in PB Mo can be associated with fluctuating behavioral symptoms following immune insults in the ASD-IS and PANS children.
+
+In this study, parental impression of behavioral changes in ASD-IS children following immune insults were verified first, using the ABC and CSHQ. Behavioral symptoms, per parental reports, would typically ‘flare’ for a prolonged period following immune insults in ASD-IS children, despite resolution of acute physical symptoms such as fever or other signs of acute inflammation. When these results were compared to baseline data obtained during ‘non-flare’ states, we found significantly higher scores in subdomains I (irritability), II (lethargy), and IV (hyperactivity) in ABC scores (Table 3 and Figure 1) during ‘flares’ in ASD-IS children. These findings support parental impression of worsening behavioral symptoms in the ‘flare’ state following immune insults. In the ASD-IS children, ABC scores were assessed after resolution of acute symptoms of immune insults such as upper respiratory infection. Therefore, it is unlikely that behavioral changes are solely attributed to the pain and/or discomfort associated with acute illnesses.
+
+Mounting evidence indicates that in other neuropsychiatric conditions such as schizophrenia, inflammatory cytokines such as IL-1β and IL-6 have a role in onset and progress of neuropsychiatric symptoms [27-31]. We have reported previously that PBMCs obtained from ASD-IS children produced reduced amounts of pro-inflammatory cytokines (IL-1β and IL-6) and IL-10, a counter-regulatory cytokine [1]. In these studies, most samples were obtained when ASD-IS children were in the ‘non-flare’ states. Thus, the altered PB Mo functions following a ‘flare’ may have not been captured in our previous study. Alternatively, other lineage cells, other than PB Mo, may have suppressed the functions of PB Mo. In order to address these functions of PB Mo more precisely, this study employed purified PB Mo from ASD-IS children in the ‘flare’ versus ‘non-flare’ states.
+
+First, we assessed the differences in cytokine production profiles between PBMCs and PB Mo. We measured cytokine production by PBMCs and PB Mo prepared from the same blood samples in 21 subjects randomly selected from all the study groups. As shown in Figure 2, PB Mo spontaneously produced higher amounts of most cytokines measured except for TGF-β. The concentration of PB Mo in the monocyte cultures was then adjusted to be roughly equivalent to that of the monocyte concentration in PBMC cultures. Thus, it is very unlikely that changes in cell concentrations are responsible for the differences in spontaneous production of cytokines by PBMCs and PB Mo. Instead, it is more likely that cytokine production by PB Mo is suppressed by other lineage cells present in PBMCs. For example, counter-regulatory cytokines such as TGF-β and IL-10 produced by inducible regulatory T (Treg) cells are known to suppress functions of effecter cells including Mo [32]. The fact that production of TGF-β, one of the major regulatory cytokines in the periphery, was higher than that produced by PB Mo indicates a possibility that TGF-β produced by other lineage cells suppress spontaneous cytokine production by PB Mo. Based on these findings, we reasoned that the use of purified PB Mo will likely yield more information regarding changes in monocyte function in ASD-IS children.
+
+Spontaneous production of cytokines by PB Mo was then analyzed in all the study groups. The data from ASD-IS and PANS children were analyzed in the ‘flare’ versus ‘non-flare’ states. PANS children are characterized by acute onset neuropsychiatric changes following immune insults (typically microbial infection) [18]. In our experience, ASD-IS children are often diagnosed with PANS on the basis of their fluctuating behavioral symptoms following immune insults. In the PANS children recruited to this study, triggers of acute onset of neuropsychiatric symptoms varied from viral infection to bacterial infection, and none of them qualified for diagnosis of PANDAS (pediatric autoimmune neuropsychiatric diseases associated with streptococci) [13].
+
+Our results of monocyte cytokine profiles revealed higher spontaneous production of inflammatory cytokines (IL-6, and IL-1β) in the ‘flare’ state than in the ‘non-flare’ states in ASD-IS children (Tables 4 and ​and5).5). In PANS children, such changes were not observed. When purified PB Mo were further stimulated by various stimuli of innate immunity, we found that despite increased spontaneous production of IL-1β, ‘flare’ ASD-IS cells are still capable of producing higher amounts of IL-1ß in response to LPS and zymosan than ‘non-flare’ ASD-IS cells. IL-1ß production by ‘flare’ ASD-IS cells are also higher than other ASD/non-ASD control cells, except for PANS cells. In contrast, IL-6 production by ‘flare’ ASD-IS cells in response to stimuli was equivalent or even lower than that of ‘non-flare’ ASD-IS cells (Table 5 and Figure 4-C). It should also be emphasized that such changes were not observed in PANS children in ‘flare’ versus ‘non-flare’ states, although they tended to exhibit increased production of IL-1ß by PB Mo.
+
+When in an inflammatory state or when subjects are recovering from inflammation, proinflammatory immune responses are generally suppressed by intrinsic suppressive mechanisms of cells or by other lineages cells with suppressive functions. This will help self-limit the inflammatory processes. However, our results indicates that ASD-IS PB Mo are still capable of producing significant amounts of IL-1ß in response to stimuli even in the ‘flare state, despite spontaneous production of high amounts of IL-1ß. Since our assay used the purified PB Mo, our results indicate that ASD-IS monocytes have impaired suppressive mechanisms for IL-1ß production following activation. IL-6 production did not increase in response to stimuli in ‘flare’ ASD-IS cells. Production of functional IL-1ß requires additional enzymatic steps as opposed to other cytokines [33]. Therefore, it is possible that ASD-IS children have impaired regulation in the specific steps of IL-1ß production.
+
+Dysregulated production of IL-1β and IL-6 has been known to lead to chronic inflammatory conditions of the CNS, joints, and GI tracts. For example, in cryopyrin associated periodic fever syndrome (CAPS), autosomal dominant mutation of cryopyrin leads to excessive production of IL-1β, leading to chronic systemic inflammatory condition affecting the CNS, joints, and other organs [34]. In juvenile idiopathic arthritis (JIA), excessive production of IL-6 and IL-1β (for systemic JIA) has been implicated in their pathogenesis [35]. In these conditions, blockers of these inflammatory cytokines have been effective for treating these conditions [35,36]. Interestingly, in a rodent maternal immune activation (MIA) model for autism, a single injection of IL-6 to pregnant mice at gestational age of 12.5 days was reported to result in deficits in certain behaviors in the adult offspring [37]. Likewise, increased serum levels of IL-1β in offspring have also been reported in MIA models [38]. In patients with primary autoinflammatory conditions causing excessive action of IL-1ß, CNS symptoms that partly resemble ASD behavioral symptoms are well controlled by exogenous IL-1 blockers [34]. These reports along with our results indicate a possibility that changes in IL-1ß responses may be associated with changes in behavioral symptoms observed in ASD-IS children following immune insults. These findings further support the need for mechanistic studies to assess the feasibility for IL-1ß and/or IL-6 blockage strategy as a strategy for treating ASD-IS children.
+
+In chronic inflammation, IL-10, a counterregulatory cytokine, is generally upregulated as part of the immunoregulatory actions [39]. However, in the ASD-IS children, spontaneous IL-10 production did not differ between the ‘flare’ and ‘non-flare’ states. In addition, we found a significant decrease in IL-10 production by ‘flare’ ASD-IS cells in response to stimuli of innate immunity as compared to ‘non-flare’ ASD-IS cells (Figure 5). This was not found in PANS children. Production of IL-10, one of the key regulators of inflammatory responses, by PB Mo is an important intrinsic regulatory mechanism for controlling excessive inflammation [39]. In the state of microbial infection, IL-10 production is often downregulated to mount an immune defense effectively. However, excessive, prolonged downregulation of IL-10 could cause dysregulated, prolonged inflammation. Thus, our results indicate a possibility that monocytes from ASD-IS children also have intrinsic defects in regulatory mechanisms of IL-10 production.
+
+Lastly, it should be noted that the cytokine production profiles in PB Mo differed between ASD-IS and PANS subjects in this study. This finding indicates that although fluctuating behavioral symptoms are somewhat overlapping in ASD-IS and PANS subjects, underlying mechanisms may not be identical in these two groups.
+
+Conclusions
+
+In summary, studies of purified PB Mo from ASD-IS children indicate that they have dysregulated innate immune responses. Specifically, these relate to the production of IL-1ß and IL-10, revealing significant changes in ‘flare’ versus ‘non-flare’ states. These responses, for the most part, were not observed in ASD/non-ASD controls. These results indicate that further analysis of the regulatory mechanisms of PB Mo in ASD-IS subjects may lead to the identification of biomarkers and even treatment options for ASD-IS subjects who typically do not respond well to the first-line therapeutic measures.
+
+Acknowledgements
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Departments of Public Health, New Jersey Medical School-Rutgers University, 185 South Orange Ave., Newark, NJ 07101 USA 
+
+Some children with autism spectrum disorders (ASD) are characterized by fluctuating behavioral symptoms following immune insults, persistent gastrointestinal (GI) symptoms, and a lack of response to the first-line intervention measures. These children have been categorized as the ASD-inflammatory subtype (ASD-IS) for this study. We reported a high prevalence of non-IgE mediated food allergy (NFA) in young ASD children before, but not all ASD/NFA children reveal such clinical features of ASD-IS. This study addressed whether behavioral changes of ASD-IS are associated with innate immune abnormalities manifested in isolated peripheral blood (PB) monocytes (Mo), major innate immune cells in the PB.
+
+This study includes three groups of ASD subjects (ASD-IS subjects (N = 24), ASD controls with a history of NFA (ASD/NFA (N = 20), and ASD/non-NFA controls (N = 20)) and three groups of non-ASD controls (non-ASD/NFA subjects (N = 16), those diagnosed with pediatric acute onset-neuropsychiatric syndrome (PANS, N = 18), and normal controls without NFA or PANS (N = 16)). Functions of purified PB Mo were assessed by measuring the production of inflammatory and counter-regulatory cytokines with or without stimuli of innate immunity (lipopolysaccharide (LPS), zymosan, CL097, and candida heat extracts as a source of β-lactam). In ASD-IS and PANS subjects, these assays were done in the state of behavioral exacerbation (‘flare’) and in the stable (‘non-flare’) condition. ASD-IS children in the ‘flare’ state revealed worsening irritability, lethargy and hyperactivity.
+
+‘Flare’ ASD-IS PB Mo produced higher amounts of inflammatory cytokines (IL-1β and IL-6) without stimuli than ‘non-flare’ ASD-IS cells. With zymosan, ‘flare’ ASD-IS cells produced more IL-1β than most control cells, despite spontaneous production of large amounts of IL-1ß. Moreover, ‘flare’ ASD-IS Mo produced less IL-10, a counterregulatory cytokine, in response to stimuli than ‘non-flare’ cells or other control cells. These changes were not observed in PANS cells.
+
+We observed an imbalance in the production of inflammatory (IL-1ß and IL-6) and counterregulatory (IL-10) cytokines by ‘flare’ ASD-IS monocytes, which may indicate an association between intrinsic abnormalities of PB Mo and changes in behavioral symptoms in the ASD-IS subjects.
+
+ASD are a behaviorally defined syndrome that consists of a heterogeneous group of neurodevelopmental disorders [1]. Various gene mutations or microdeletion syndromes are known to cause ASD behavioral symptoms; however, single gene mutations are likely to account for only a small fraction of ASD cases [2]. In the majority of ASD subjects, no causative gene mutations have been identified. In these cases, it is more likely that complex interactions among multiple genetic and environmental factors contribute to the onset and progress of ASD, as seen in other polygenic diseases.
+
+Currently, first-line treatment measures for ASD are behavioral and pharmacological interventions. Unfortunately, favorable responses to these measures are not universally achieved; some ASD patients respond well to these measures, while others do not. This is partly attributed to both the heterogeneity of the ASD population [1] and a high frequency of comorbid medical conditions that may affect behavioral symptoms through pain and discomfort [3]. At this time, there are no objective biomarkers for identifying the children who will not be responsive to the first-line therapeutic measures.
+
+Although there are alternative treatments, including those proposed by practitioners of complementary and alternative medicines (CAM) [4,5], these are not universally effective either, and research has not shown which are beneficial to what types (subgroups) of ASD subjects. There is also a lack of both reliable objective biomarkers and understanding of the mechanisms of actions [6]. Parents of ASD children may turn to such CAM treatments, hoping for the best. There is an urgent need for identifying objective biomarkers that may guide optimal effective measures for ASD children who fail to respond to the first-line intervention measures.
+
+However, the etiology of poor responses is also multifactorial, and it is extremely difficult to identify biomarkers by focusing on ‘poor responders’ to conventional first line treatments. Previous genetic workups indicate that mutational analysis may not be practical for segregating ASD subjects who have an apparent involvement of multiple genes [1]. Instead, it may be more feasible to focus on ASD children who are not only poor responders but also have objective clinical and laboratory characteristics that are distinguishable from other ASD subjects. The ASD-IS children described in our previous studies, as detailed in the next paragraph, may be ideal for such a purpose
+
+In our pediatric allergy/immunology (AI) clinic, we have evaluated a substantial number of ASD children for possible food allergy (FA) and underlying immune condition. Evaluations of these ASD children led us to recognize that some of them manifest clinical features indicating immunodysregulation and/or chronic inflammation. Namely, these children exhibit chronic and/or recurrent sino-pulmonary infection; adverse reactions to multiple medications; persistent GI symptoms with high frequency of NFA; and prolonged courses of illness. Moreover, these children do not respond well to pharmacological and behavioral intervention measures per parental report [7,8]. In this study, we categorized such ASD subjects as ASD-IS. Further studies of these children, using peripheral blood mononuclear cells (PBMCs), revealed abnormalities of innate immune responses that were distinguishable from both ASD and normal controls [9]. Changes in transcriptional profiles of isolated PB Mo, which did not overlap with those found in either the ASD and normal controls, were also found [9]. Based on these findings, we hypothesized that ASD-IS children have distinguishable innate immune abnormalities, which can be associated with behavioral changes following immune insults, typically microbial infection.
+
+It should also be noted that our previous results revealed discrepancies between transcriptional profiles of PB Mo and protein levels of cytokine produced by PBMCs, a mixture of lymphocytes, PB Mo, and other lineage cells. Despite the upregulation of mRNA of various cytokines by PB Mo, the production of such cytokines by PBMCs was lower in ASD-IS subjects; stimulants used were targeted to PB Mo [9]. This could be associated with the influence of cells other than PB Mo, such as regulatory T cells (Treg cells) or suppressive (tolerizing) dendritic cells (DCs) contained in PBMCs. Alternatively, post-transcriptional regulation in PB Mo, such as those exerted by microRNA (miRNA) [10,11], may also affect the protein levels of cytokines depending on the stage of PB Mo activation. We hypothesized that if intrinsic post-translational regulation has a role in the discrepancy between protein and mRNA expression of cytokines, isolated PB Mo may reveal distinct patterns of cytokine production depending on the activated state of PB Mo. That is, post-transcriptional regulation exerted by miRNA and other factors are expected to change rapidly depending on the activated stage of PB Mo [10]. It should also be noted that such changes of post-transcriptional regulation may affect the neuroimmune network [12]. Interestingly, in our observation, ASD-IS children are characterized by rapid changes in behavioral symptoms following immune insults, as observed in PANS children [13].
+
+To test our hypothesis, we examined cytokine production by purified PB Mo from ASD-IS and control ASD and non-ASD subjects. We have reported previously reported a high prevalence of NFA in young ASD children with chronic GI symptoms, including ASD-IS children [7]. Since the presence of NFA may indicate innate immune abnormalities that predispose to NFA at least in the gut mucosa [14], ASD and non-ASD controls were further separated into two subgroups, children with or without NFA. In addition, non-ASD/PANS subjects were added to the non-ASD control groups, since the ASD-IS children we recruited are often diagnosed with PANS by CAM practitioners prior to entrance into this study.
+
+The study follows the protocols approved by the Institutional Review Board at Rutgers-New Jersey Medical School. Informed consent was obtained prior to blood sample obtainment.
+
+ASD subjects were recruited in the Pediatric Allergy/Immunology clinic. Diagnosis of ASD in the study subjects was made at various autism diagnostic centers, including ours. The ASD diagnosis was based on the Autism Diagnostic Observation Scale (ADOS) and/or the Autism Diagnostic Inventory-Revisited (ADI-R), and these diagnoses were verified by the medical records. For those whose ADOS and ADI-R records were not verified, the ADOS and/or ADI-R was administered to confirm the diagnosis.
+
+Any subjects with impaired hearing/eyesight, any motor disability, such as cerebral palsy, or medical conditions with known gene mutations were excluded from the study. ASD subjects were also evaluated for their behavioral symptoms, sleep habits, and adaptive skills by using the Aberrant Behavior Checklist (ABC) [15], the Children’s Sleep Habits Questionnaires (CSHQ)[16], and the Vineland Adaptive Behavior Scale (VABS) [17], respectively. For ASD subjects with limited expressive language, the presence of physical pain was assessed by using the Non-communicating Children’s Pain Checklist (NCCPC) [18].
+
+ASD subjects were further subdivided into three groups (ASD-IS, ASD/NFA, and ASD/non-NFA) and each group was defined as follows;
+
+The authors are thankful to Dr. Lisa Huguenin for critically reviewing this manuscript. This study was funded by the Jonty Foundation, St. Paul, MN, Autism Research Institute, San Diego, CA, and the Governor’s Council for Medical Research and Treatment of Autism, NJ.
+
+Abbreviations
+
+Footnotes
+
+
+
+Competing interests
+
+The authors declare that they have no competing interests.
+
+
+
+
+
+Authors’ contributions
+
+HJ is the PI of this study and all the experimental design was done by her along with obtainment of the IRB approval, recruitment of study subjects in the clinic, sample obtainment, supervision of bioassays, data analysis, and manuscript preparation. GL conducted most part of bioassay conducted in this study under the supervision of HJ and helped data analysis and manuscript preparation by HJ. AD is a statistician and mainly contributed to statistical analysis, discussing data analysis and data presentation with the PI. All authors read and approved the final manuscript.
+
+
+
+
+
+Authors’ information
+
+HJ has been conducting studies in ASD subjects with apparent inflammatory components. This study is an extension of her previous studies.
+
+
+
+Contributor Information
+
+Harumi Jyonouchi, Email: moc.husreteptnias@ihcuonoyjh.
+
+Lee Geng, Email: moc.oohay@gnegleel.
+
+Amy L Davidow, Email: ude.sregtur.smjn@laodivad.
+
+References
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Department of Pediatrics, Saint Peter’s University Hospital, 254 Easton Ave., New Brunswick, NJ 08873 USA 
+
+Departments of Public Health, New Jersey Medical School-Rutgers University, 185 South Orange Ave., Newark, NJ 07101 USA 
+
+Some children with autism spectrum disorders (ASD) are characterized by fluctuating behavioral symptoms following immune insults, persistent gastrointestinal (GI) symptoms, and a lack of response to the first-line intervention measures. These children have been categorized as the ASD-inflammatory subtype (ASD-IS) for this study. We reported a high prevalence of non-IgE mediated food allergy (NFA) in young ASD children before, but not all ASD/NFA children reveal such clinical features of ASD-IS. This study addressed whether behavioral changes of ASD-IS are associated with innate immune abnormalities manifested in isolated peripheral blood (PB) monocytes (Mo), major innate immune cells in the PB.
+
+This study includes three groups of ASD subjects (ASD-IS subjects (N = 24), ASD controls with a history of NFA (ASD/NFA (N = 20), and ASD/non-NFA controls (N = 20)) and three groups of non-ASD controls (non-ASD/NFA subjects (N = 16), those diagnosed with pediatric acute onset-neuropsychiatric syndrome (PANS, N = 18), and normal controls without NFA or PANS (N = 16)). Functions of purified PB Mo were assessed by measuring the production of inflammatory and counter-regulatory cytokines with or without stimuli of innate immunity (lipopolysaccharide (LPS), zymosan, CL097, and candida heat extracts as a source of β-lactam). In ASD-IS and PANS subjects, these assays were done in the state of behavioral exacerbation (‘flare’) and in the stable (‘non-flare’) condition. ASD-IS children in the ‘flare’ state revealed worsening irritability, lethargy and hyperactivity.
+
+‘Flare’ ASD-IS PB Mo produced higher amounts of inflammatory cytokines (IL-1β and IL-6) without stimuli than ‘non-flare’ ASD-IS cells. With zymosan, ‘flare’ ASD-IS cells produced more IL-1β than most control cells, despite spontaneous production of large amounts of IL-1ß. Moreover, ‘flare’ ASD-IS Mo produced less IL-10, a counterregulatory cytokine, in response to stimuli than ‘non-flare’ cells or other control cells. These changes were not observed in PANS cells.
+
+We observed an imbalance in the production of inflammatory (IL-1ß and IL-6) and counterregulatory (IL-10) cytokines by ‘flare’ ASD-IS monocytes, which may indicate an association between intrinsic abnormalities of PB Mo and changes in behavioral symptoms in the ASD-IS subjects.
+
+ASD are a behaviorally defined syndrome that consists of a heterogeneous group of neurodevelopmental disorders [1]. Various gene mutations or microdeletion syndromes are known to cause ASD behavioral symptoms; however, single gene mutations are likely to account for only a small fraction of ASD cases [2]. In the majority of ASD subjects, no causative gene mutations have been identified. In these cases, it is more likely that complex interactions among multiple genetic and environmental factors contribute to the onset and progress of ASD, as seen in other polygenic diseases.
+
+Currently, first-line treatment measures for ASD are behavioral and pharmacological interventions. Unfortunately, favorable responses to these measures are not universally achieved; some ASD patients respond well to these measures, while others do not. This is partly attributed to both the heterogeneity of the ASD population [1] and a high frequency of comorbid medical conditions that may affect behavioral symptoms through pain and discomfort [3]. At this time, there are no objective biomarkers for identifying the children who will not be responsive to the first-line therapeutic measures.
+
+Although there are alternative treatments, including those proposed by practitioners of complementary and alternative medicines (CAM) [4,5], these are not universally effective either, and research has not shown which are beneficial to what types (subgroups) of ASD subjects. There is also a lack of both reliable objective biomarkers and understanding of the mechanisms of actions [6]. Parents of ASD children may turn to such CAM treatments, hoping for the best. There is an urgent need for identifying objective biomarkers that may guide optimal effective measures for ASD children who fail to respond to the first-line intervention measures.
+
+However, the etiology of poor responses is also multifactorial, and it is extremely difficult to identify biomarkers by focusing on ‘poor responders’ to conventional first line treatments. Previous genetic workups indicate that mutational analysis may not be practical for segregating ASD subjects who have an apparent involvement of multiple genes [1]. Instead, it may be more feasible to focus on ASD children who are not only poor responders but also have objective clinical and laboratory characteristics that are distinguishable from other ASD subjects. The ASD-IS children described in our previous studies, as detailed in the next paragraph, may be ideal for such a purpose
+
+In our pediatric allergy/immunology (AI) clinic, we have evaluated a substantial number of ASD children for possible food allergy (FA) and underlying immune condition. Evaluations of these ASD children led us to recognize that some of them manifest clinical features indicating immunodysregulation and/or chronic inflammation. Namely, these children exhibit chronic and/or recurrent sino-pulmonary infection; adverse reactions to multiple medications; persistent GI symptoms with high frequency of NFA; and prolonged courses of illness. Moreover, these children do not respond well to pharmacological and behavioral intervention measures per parental report [7,8]. In this study, we categorized such ASD subjects as ASD-IS. Further studies of these children, using peripheral blood mononuclear cells (PBMCs), revealed abnormalities of innate immune responses that were distinguishable from both ASD and normal controls [9]. Changes in transcriptional profiles of isolated PB Mo, which did not overlap with those found in either the ASD and normal controls, were also found [9]. Based on these findings, we hypothesized that ASD-IS children have distinguishable innate immune abnormalities, which can be associated with behavioral changes following immune insults, typically microbial infection.
+
+It should also be noted that our previous results revealed discrepancies between transcriptional profiles of PB Mo and protein levels of cytokine produced by PBMCs, a mixture of lymphocytes, PB Mo, and other lineage cells. Despite the upregulation of mRNA of various cytokines by PB Mo, the production of such cytokines by PBMCs was lower in ASD-IS subjects; stimulants used were targeted to PB Mo [9]. This could be associated with the influence of cells other than PB Mo, such as regulatory T cells (Treg cells) or suppressive (tolerizing) dendritic cells (DCs) contained in PBMCs. Alternatively, post-transcriptional regulation in PB Mo, such as those exerted by microRNA (miRNA) [10,11], may also affect the protein levels of cytokines depending on the stage of PB Mo activation. We hypothesized that if intrinsic post-translational regulation has a role in the discrepancy between protein and mRNA expression of cytokines, isolated PB Mo may reveal distinct patterns of cytokine production depending on the activated state of PB Mo. That is, post-transcriptional regulation exerted by miRNA and other factors are expected to change rapidly depending on the activated stage of PB Mo [10]. It should also be noted that such changes of post-transcriptional regulation may affect the neuroimmune network [12]. Interestingly, in our observation, ASD-IS children are characterized by rapid changes in behavioral symptoms following immune insults, as observed in PANS children [13].
+
+To test our hypothesis, we examined cytokine production by purified PB Mo from ASD-IS and control ASD and non-ASD subjects. We have reported previously reported a high prevalence of NFA in young ASD children with chronic GI symptoms, including ASD-IS children [7]. Since the presence of NFA may indicate innate immune abnormalities that predispose to NFA at least in the gut mucosa [14], ASD and non-ASD controls were further separated into two subgroups, children with or without NFA. In addition, non-ASD/PANS subjects were added to the non-ASD control groups, since the ASD-IS children we recruited are often diagnosed with PANS by CAM practitioners prior to entrance into this study.
+
+The study follows the protocols approved by the Institutional Review Board at Rutgers-New Jersey Medical School. Informed consent was obtained prior to blood sample obtainment.
+
+ASD subjects were recruited in the Pediatric Allergy/Immunology clinic. Diagnosis of ASD in the study subjects was made at various autism diagnostic centers, including ours. The ASD diagnosis was based on the Autism Diagnostic Observation Scale (ADOS) and/or the Autism Diagnostic Inventory-Revisited (ADI-R), and these diagnoses were verified by the medical records. For those whose ADOS and ADI-R records were not verified, the ADOS and/or ADI-R was administered to confirm the diagnosis.
+
+Any subjects with impaired hearing/eyesight, any motor disability, such as cerebral palsy, or medical conditions with known gene mutations were excluded from the study. ASD subjects were also evaluated for their behavioral symptoms, sleep habits, and adaptive skills by using the Aberrant Behavior Checklist (ABC) [15], the Children’s Sleep Habits Questionnaires (CSHQ)[16], and the Vineland Adaptive Behavior Scale (VABS) [17], respectively. For ASD subjects with limited expressive language, the presence of physical pain was assessed by using the Non-communicating Children’s Pain Checklist (NCCPC) [18].
+
+ASD subjects were further subdivided into three groups (ASD-IS, ASD/NFA, and ASD/non-NFA) and each group was defined as follows;
+
+http://www.ncbi.nlm.nih.gov/pubmed/25344730

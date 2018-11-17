@@ -1,0 +1,446 @@
+Systematic Review and Meta-Analysis of Circulating S100B Blood Levels in Schizophrenia.
+
+Abstract
+
+S100B is a calcium-binding protein secreted in central nervous system from astrocytes and other glia cells. High blood S100B levels have been linked to brain damage and psychiatric disorders. S100B levels have been reported to be higher in schizophrenics than healthy controls. To quantify the relationship between S100B blood levels and schizophrenia a systematic literature review of case-control studies published on this topic within July 3rd 2014 was carried out using three bibliographic databases: Medline, Scopus and Web of Science. Studies reporting mean and standard deviation of S100B blood levels both in cases and controls were included in the meta-analysis. The meta-Mean Ratio (mMR) of S100B blood levels in cases compared to controls was used as a measure of effect along with its 95% Confidence Intervals (CI). 20 studies were included totaling for 994 cases and 785 controls. Schizophrenia patients showed 76% higher S100B blood levels than controls with mMR = 1.76 95% CI: 1.44–2.15. No difference could be found between drug-free patients with mMR = 1.84 95%CI: 1.24–2.74 and patients on antipsychotic medication with mMR = 1.75 95% CI: 1.41–2.16). Similarly, ethnicity and stage of disease didn't affect results. Although S100B could be regarded as a possible biomarker of schizophrenia, limitations should be accounted when interpreting results, especially because of the high heterogeneity that remained >70%, even after carrying out subgroups analyses. These results point out that approaches based on traditional categorical diagnoses may be too restrictive and new approaches based on the characterization of new complex phenotypes should be considered.
+
+Introduction
+
+S100B is a calcium (Ca2+)-binding protein secreted mainly by glial cells; it belongs to the S100 proteins family [1], [2] and it is also expressed outside the central nervous system [3]. It modulates the proliferation and differentiation of neurons and glia [1], [4] and is involved in signal transduction via inhibition of protein phosphorylation, as well as regulation of enzyme activity and of Ca2+ homeostasis. Besides, S100B protein contributes to the regulation of cell morphology by interacting with cytoplasmic cytoskeleton. S100B is also regarded as having important functions during development, tissue homeostasis and inflammation via its interaction with the receptor for advanced glycation endproducts (RAGE) [5].
+
+At intracellular level S100B exerts a proliferative function, but effects of extra-cellular S100B depends upon its concentration, as in nanomolar concentrations it promotes cell promotion and differentiation, while in higher (micromolar) concentrations it induces cellular death [6], [7], [8]. It may cross the blood–brain barrier and concentrations of S100B detected in serum and/or cerebrospinal fluid (CSF) are regarded as a marker of brain damage [9], [10].
+
+S100B secretion is increased by pro-inflammatory cytokines [11] and this protein could be involved in the imbalanced inflammatory response observed in several brain disorders, including Alzheimer's disease, major depression and schizophrenia [12], [13], [14]. The inflammatory response in the central nervous system (CNS) includes microglial and astroglial activation, after which these glial cells release a variety of pro-inflammatory mediators potentially contributing to neuronal dysfunction and CNS pathology progression [15].
+
+Due to its functions, trophic actions on neurons and astrocytes and involvement in inflammatory response, S100B seems to be linked to neurodevelopemental and inflammatory hypothesis of schizophrenia pathogenesis [1], [16], [17], [18], [19], [20], [21]. In this perspective, effects of immune and glia driven inflammation due to elevation of cytokines are considered to play a pivotal role in mediating manifestations of altered neurodevelopment in schizophrenia patients.
+
+Also, a S100B gene haplotype involved in increased S100B expression is associated with schizophrenia [22], so levels of S100B could be expected to be altered in schizophrenia, either primary or secondary to the disease.
+
+Many studies in the last years showed increased S100B levels in the serum/plasma of patients with schizophrenia, as reported in older meta-analyses by Schroeter et al. [23], [24], who report in addition no differences in S100B levels in medicated end drug-free patients and take into account the effect of age including only studies with age-matched controls.
+
+New studies on the relationship between S100B blood levels and schizophrenia have been carried out after Schroeter et al. meta-analyses of 2009, enabling us to carry out an updated review and stratify subgroups of patients taking into account the effect of potential effect modifiers, not only treatment and age, but also ethnicity, stage of disease, and factors related to the methodology of included studies, like selection of cases and controls, comparability between cases and controls and S100B measurement.
+
+S100B could be considered a biomarker for glia alterations and neuroplasticity, that can be easily obtained from peripheral human blood. Accordingly, S100B blood levels could be regarded as an intermediate phenotype useful for disease stratification.
+
+In order to assess the relationship between circulating blood levels of S100B and schizophrenia, we carried out a systematic review and meta-analyses of case-control studies on this topic. We aim at quantifying the difference in S100B peripheral blood levels in cases and controls and at exploring if this difference is modified by factors linked to ethnicity, stage of disease, treatment and methodological characteristics of the included studies.
+
+Methods
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 2  Area of Systems Approaches and Non Communicable Diseases, Unit of Clinical and Molecular Epidemiology, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+ 3  Deputy Scientific Director and Systems Medicine Coordinator, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 2  Area of Systems Approaches and Non Communicable Diseases, Unit of Clinical and Molecular Epidemiology, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+Analyzed the data: AF EL KA. Contributed to the writing of the manuscript: KA EL SB AC SB AF.
+
+S100B is a calcium-binding protein secreted in central nervous system from astrocytes and other glia cells. High blood S100B levels have been linked to brain damage and psychiatric disorders. S100B levels have been reported to be higher in schizophrenics than healthy controls. To quantify the relationship between S100B blood levels and schizophrenia a systematic literature review of case-control studies published on this topic within July 3rd 2014 was carried out using three bibliographic databases: Medline, Scopus and Web of Science. Studies reporting mean and standard deviation of S100B blood levels both in cases and controls were included in the meta-analysis. The meta-Mean Ratio (mMR) of S100B blood levels in cases compared to controls was used as a measure of effect along with its 95% Confidence Intervals (CI). 20 studies were included totaling for 994 cases and 785 controls. Schizophrenia patients showed 76% higher S100B blood levels than controls with mMR = 1.76 95% CI: 1.44–2.15. No difference could be found between drug-free patients with mMR = 1.84 95%CI: 1.24–2.74 and patients on antipsychotic medication with mMR = 1.75 95% CI: 1.41–2.16). Similarly, ethnicity and stage of disease didn't affect results. Although S100B could be regarded as a possible biomarker of schizophrenia, limitations should be accounted when interpreting results, especially because of the high heterogeneity that remained >70%, even after carrying out subgroups analyses. These results point out that approaches based on traditional categorical diagnoses may be too restrictive and new approaches based on the characterization of new complex phenotypes should be considered.
+
+S100B is a calcium (Ca2+)-binding protein secreted mainly by glial cells; it belongs to the S100 proteins family [1], [2] and it is also expressed outside the central nervous system [3]. It modulates the proliferation and differentiation of neurons and glia [1], [4] and is involved in signal transduction via inhibition of protein phosphorylation, as well as regulation of enzyme activity and of Ca2+ homeostasis. Besides, S100B protein contributes to the regulation of cell morphology by interacting with cytoplasmic cytoskeleton. S100B is also regarded as having important functions during development, tissue homeostasis and inflammation via its interaction with the receptor for advanced glycation endproducts (RAGE) [5].
+
+At intracellular level S100B exerts a proliferative function, but effects of extra-cellular S100B depends upon its concentration, as in nanomolar concentrations it promotes cell promotion and differentiation, while in higher (micromolar) concentrations it induces cellular death [6], [7], [8]. It may cross the blood–brain barrier and concentrations of S100B detected in serum and/or cerebrospinal fluid (CSF) are regarded as a marker of brain damage [9], [10].
+
+S100B secretion is increased by pro-inflammatory cytokines [11] and this protein could be involved in the imbalanced inflammatory response observed in several brain disorders, including Alzheimer's disease, major depression and schizophrenia [12], [13], [14]. The inflammatory response in the central nervous system (CNS) includes microglial and astroglial activation, after which these glial cells release a variety of pro-inflammatory mediators potentially contributing to neuronal dysfunction and CNS pathology progression [15].
+
+Due to its functions, trophic actions on neurons and astrocytes and involvement in inflammatory response, S100B seems to be linked to neurodevelopemental and inflammatory hypothesis of schizophrenia pathogenesis [1], [16], [17], [18], [19], [20], [21]. In this perspective, effects of immune and glia driven inflammation due to elevation of cytokines are considered to play a pivotal role in mediating manifestations of altered neurodevelopment in schizophrenia patients.
+
+Also, a S100B gene haplotype involved in increased S100B expression is associated with schizophrenia [22], so levels of S100B could be expected to be altered in schizophrenia, either primary or secondary to the disease.
+
+Many studies in the last years showed increased S100B levels in the serum/plasma of patients with schizophrenia, as reported in older meta-analyses by Schroeter et al. [23], [24], who report in addition no differences in S100B levels in medicated end drug-free patients and take into account the effect of age including only studies with age-matched controls.
+
+New studies on the relationship between S100B blood levels and schizophrenia have been carried out after Schroeter et al. meta-analyses of 2009, enabling us to carry out an updated review and stratify subgroups of patients taking into account the effect of potential effect modifiers, not only treatment and age, but also ethnicity, stage of disease, and factors related to the methodology of included studies, like selection of cases and controls, comparability between cases and controls and S100B measurement.
+
+S100B could be considered a biomarker for glia alterations and neuroplasticity, that can be easily obtained from peripheral human blood. Accordingly, S100B blood levels could be regarded as an intermediate phenotype useful for disease stratification.
+
+In order to assess the relationship between circulating blood levels of S100B and schizophrenia, we carried out a systematic review and meta-analyses of case-control studies on this topic. We aim at quantifying the difference in S100B peripheral blood levels in cases and controls and at exploring if this difference is modified by factors linked to ethnicity, stage of disease, treatment and methodological characteristics of the included studies.
+Bibliographic search and Inclusion criteria
+
+Studies were identified through MEDLINE, Scopus and Web of Knowledge sources from their inception up to July 3rd 2014 using the following search terms: (schizophrenia AND (S100 OR S-100)), without any restriction on language. The references of retrieved articles were also checked in order to search for additional articles. Studies were included in the systematic review if they were case-control studies comparing the serum or plasma S100B levels between schizophrenia patients and healthy controls.
+Data extraction
+
+Data from papers that were eligible for the meta-analysis were extracted by two authors (K.A and A. F) independently. For each study we extracted the following information: first author's name, year, country, number of cases and characteristics, medication status, disease phase (chronic/acute), case definition, number of controls and characteristics, percentage of males, age (years), mean and standard deviation (SD) of S100B plasma/serum level in cases and controls.
+
+If more than one article was published by the same author groups, we contacted the corresponding author (CA) in order to check if patients and controls were different. If more than one article was published by the same author using the same case series, we selected the study with the largest number of subjects. In the case were the number of controls was not written in the article but it was stated that controls were age and sex matched, we assumed that case and controls had been recruited in the same number. When mean and SD of S100B blood levels for schizophrenic patients and healthy controls were not reported in the paper, we contacted the CA to ask the data; in cases where we were not able to retrieve it we excluded the study from the meta-analysis; when S100B blood levels were reported only separately for subgroups of patients we calculated pooled mean and SD from the published data; when data were expressed as Mean±Standard Error (SE), SD was calculated from SE using the formula: SD = SE×√n; in two cases where it was not stated if data were reported as mean±SD or ±SE, we asked CA for the information; in one case we used a more conservative approach and assumed that data were reported as mean±SD, as we were not provided with the information by the CA.
+Quality assessment
+
+Critical appraisal of studies included in meta-analysis was performed according to the Newcastle-Ottawa scale (NOS) [25]. For case-controls studies NOS assigns a score to each study for selection (case definition, representativeness of cases, selection of controls), comparability (comparability of cases and controls on the basis of the design and analysis), exposure (ascertainment of exposure, same method of ascertainment for cases and controls, non-response rate). According to NOS we considered a study as employing age- and gender- matched controls if either cases and controls were matched in the design, not considering sufficient the statement that there were no differences between groups. We modified the exposure criterion in order to adapt it to serological measures, allotting the maximum score for the ascertainment of exposure if S100B determinations were carried out by laboratory staff who was blind to case/control status and giving the score for non-response rate if the percentage of missing values was reported. Scores range from 0 to 9. Two investigators (AK and AF) assessed quality independently and discordances were solved by discussion.
+Statistical analysis
+
+For each study a Mean Ratio (MR) with 95% Confidence Intervals (CI) was calculated and a pooled estimate, meta-MR, was computed weighting MRs according to the variance and the number of participants in the study [26], [27].
+
+In order to test heterogeneity chi-square analyses were performed [26]; inconsistencies across studies and their impact on the analysis were quantified by using the I2 statistic. In order to take into account possible sources of heterogeneity a conservative random-effects approach, that model takes into account the inter-study effect variance, was adopted [28].
+
+To rule out the presence of publication bias formal testing and graphical evaluation were used [29]. A sensitivity analysis to evaluate if single studies could affect meta estimates was carried out by removing studies one by one.
+
+The Stata statistical software (StataCorp. 2013. Stata Statistical Software: Release 13. College Station, TX: StataCorp LP) was employed for all statistical analyses.
+Data reporting
+
+The manuscript has been drafted according to PRISMA statement [30].
+
+Results
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 2  Area of Systems Approaches and Non Communicable Diseases, Unit of Clinical and Molecular Epidemiology, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+ 3  Deputy Scientific Director and Systems Medicine Coordinator, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 2  Area of Systems Approaches and Non Communicable Diseases, Unit of Clinical and Molecular Epidemiology, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+Analyzed the data: AF EL KA. Contributed to the writing of the manuscript: KA EL SB AC SB AF.
+
+S100B is a calcium-binding protein secreted in central nervous system from astrocytes and other glia cells. High blood S100B levels have been linked to brain damage and psychiatric disorders. S100B levels have been reported to be higher in schizophrenics than healthy controls. To quantify the relationship between S100B blood levels and schizophrenia a systematic literature review of case-control studies published on this topic within July 3rd 2014 was carried out using three bibliographic databases: Medline, Scopus and Web of Science. Studies reporting mean and standard deviation of S100B blood levels both in cases and controls were included in the meta-analysis. The meta-Mean Ratio (mMR) of S100B blood levels in cases compared to controls was used as a measure of effect along with its 95% Confidence Intervals (CI). 20 studies were included totaling for 994 cases and 785 controls. Schizophrenia patients showed 76% higher S100B blood levels than controls with mMR = 1.76 95% CI: 1.44–2.15. No difference could be found between drug-free patients with mMR = 1.84 95%CI: 1.24–2.74 and patients on antipsychotic medication with mMR = 1.75 95% CI: 1.41–2.16). Similarly, ethnicity and stage of disease didn't affect results. Although S100B could be regarded as a possible biomarker of schizophrenia, limitations should be accounted when interpreting results, especially because of the high heterogeneity that remained >70%, even after carrying out subgroups analyses. These results point out that approaches based on traditional categorical diagnoses may be too restrictive and new approaches based on the characterization of new complex phenotypes should be considered.
+
+S100B is a calcium (Ca2+)-binding protein secreted mainly by glial cells; it belongs to the S100 proteins family [1], [2] and it is also expressed outside the central nervous system [3]. It modulates the proliferation and differentiation of neurons and glia [1], [4] and is involved in signal transduction via inhibition of protein phosphorylation, as well as regulation of enzyme activity and of Ca2+ homeostasis. Besides, S100B protein contributes to the regulation of cell morphology by interacting with cytoplasmic cytoskeleton. S100B is also regarded as having important functions during development, tissue homeostasis and inflammation via its interaction with the receptor for advanced glycation endproducts (RAGE) [5].
+
+At intracellular level S100B exerts a proliferative function, but effects of extra-cellular S100B depends upon its concentration, as in nanomolar concentrations it promotes cell promotion and differentiation, while in higher (micromolar) concentrations it induces cellular death [6], [7], [8]. It may cross the blood–brain barrier and concentrations of S100B detected in serum and/or cerebrospinal fluid (CSF) are regarded as a marker of brain damage [9], [10].
+
+S100B secretion is increased by pro-inflammatory cytokines [11] and this protein could be involved in the imbalanced inflammatory response observed in several brain disorders, including Alzheimer's disease, major depression and schizophrenia [12], [13], [14]. The inflammatory response in the central nervous system (CNS) includes microglial and astroglial activation, after which these glial cells release a variety of pro-inflammatory mediators potentially contributing to neuronal dysfunction and CNS pathology progression [15].
+
+Due to its functions, trophic actions on neurons and astrocytes and involvement in inflammatory response, S100B seems to be linked to neurodevelopemental and inflammatory hypothesis of schizophrenia pathogenesis [1], [16], [17], [18], [19], [20], [21]. In this perspective, effects of immune and glia driven inflammation due to elevation of cytokines are considered to play a pivotal role in mediating manifestations of altered neurodevelopment in schizophrenia patients.
+
+Also, a S100B gene haplotype involved in increased S100B expression is associated with schizophrenia [22], so levels of S100B could be expected to be altered in schizophrenia, either primary or secondary to the disease.
+
+Many studies in the last years showed increased S100B levels in the serum/plasma of patients with schizophrenia, as reported in older meta-analyses by Schroeter et al. [23], [24], who report in addition no differences in S100B levels in medicated end drug-free patients and take into account the effect of age including only studies with age-matched controls.
+
+New studies on the relationship between S100B blood levels and schizophrenia have been carried out after Schroeter et al. meta-analyses of 2009, enabling us to carry out an updated review and stratify subgroups of patients taking into account the effect of potential effect modifiers, not only treatment and age, but also ethnicity, stage of disease, and factors related to the methodology of included studies, like selection of cases and controls, comparability between cases and controls and S100B measurement.
+
+S100B could be considered a biomarker for glia alterations and neuroplasticity, that can be easily obtained from peripheral human blood. Accordingly, S100B blood levels could be regarded as an intermediate phenotype useful for disease stratification.
+
+In order to assess the relationship between circulating blood levels of S100B and schizophrenia, we carried out a systematic review and meta-analyses of case-control studies on this topic. We aim at quantifying the difference in S100B peripheral blood levels in cases and controls and at exploring if this difference is modified by factors linked to ethnicity, stage of disease, treatment and methodological characteristics of the included studies.
+
+Studies were identified through MEDLINE, Scopus and Web of Knowledge sources from their inception up to July 3rd 2014 using the following search terms: (schizophrenia AND (S100 OR S-100)), without any restriction on language. The references of retrieved articles were also checked in order to search for additional articles. Studies were included in the systematic review if they were case-control studies comparing the serum or plasma S100B levels between schizophrenia patients and healthy controls.
+
+Data from papers that were eligible for the meta-analysis were extracted by two authors (K.A and A. F) independently. For each study we extracted the following information: first author's name, year, country, number of cases and characteristics, medication status, disease phase (chronic/acute), case definition, number of controls and characteristics, percentage of males, age (years), mean and standard deviation (SD) of S100B plasma/serum level in cases and controls.
+
+If more than one article was published by the same author groups, we contacted the corresponding author (CA) in order to check if patients and controls were different. If more than one article was published by the same author using the same case series, we selected the study with the largest number of subjects. In the case were the number of controls was not written in the article but it was stated that controls were age and sex matched, we assumed that case and controls had been recruited in the same number. When mean and SD of S100B blood levels for schizophrenic patients and healthy controls were not reported in the paper, we contacted the CA to ask the data; in cases where we were not able to retrieve it we excluded the study from the meta-analysis; when S100B blood levels were reported only separately for subgroups of patients we calculated pooled mean and SD from the published data; when data were expressed as Mean±Standard Error (SE), SD was calculated from SE using the formula: SD = SE×√n; in two cases where it was not stated if data were reported as mean±SD or ±SE, we asked CA for the information; in one case we used a more conservative approach and assumed that data were reported as mean±SD, as we were not provided with the information by the CA.
+
+Critical appraisal of studies included in meta-analysis was performed according to the Newcastle-Ottawa scale (NOS) [25]. For case-controls studies NOS assigns a score to each study for selection (case definition, representativeness of cases, selection of controls), comparability (comparability of cases and controls on the basis of the design and analysis), exposure (ascertainment of exposure, same method of ascertainment for cases and controls, non-response rate). According to NOS we considered a study as employing age- and gender- matched controls if either cases and controls were matched in the design, not considering sufficient the statement that there were no differences between groups. We modified the exposure criterion in order to adapt it to serological measures, allotting the maximum score for the ascertainment of exposure if S100B determinations were carried out by laboratory staff who was blind to case/control status and giving the score for non-response rate if the percentage of missing values was reported. Scores range from 0 to 9. Two investigators (AK and AF) assessed quality independently and discordances were solved by discussion.
+
+For each study a Mean Ratio (MR) with 95% Confidence Intervals (CI) was calculated and a pooled estimate, meta-MR, was computed weighting MRs according to the variance and the number of participants in the study [26], [27].
+
+In order to test heterogeneity chi-square analyses were performed [26]; inconsistencies across studies and their impact on the analysis were quantified by using the I2 statistic. In order to take into account possible sources of heterogeneity a conservative random-effects approach, that model takes into account the inter-study effect variance, was adopted [28].
+
+To rule out the presence of publication bias formal testing and graphical evaluation were used [29]. A sensitivity analysis to evaluate if single studies could affect meta estimates was carried out by removing studies one by one.
+
+The Stata statistical software (StataCorp. 2013. Stata Statistical Software: Release 13. College Station, TX: StataCorp LP) was employed for all statistical analyses.
+
+The manuscript has been drafted according to PRISMA statement [30].
+Study selection
+
+The search of MEDLINE provided 114 results, while 88 papers were retrieved from Web of Science and 83 from Scopus. After reading abstracts, 26 studies from MEDLINE, 20 from Scopus and 21 from Web of Science were selected for inclusion in the systematic review. Studies selected from the three bibliographic databases overlapped except for one study. No eligible additional paper was found by checking bibliographic references of the selected studies. After reading papers, 2 studies were excluded as they were reviews [24], [31]. After excluding 3 studies with overlapping datasets [32], [33], [34] and 1 study because mean and SD for cases and controls was not available [35], 20 studies were included in the meta-analysis [36], [37], [38], [39], [40], [41], [42], [43], [44], [45], [46], [47], [48], [49], [50], [51], [52], [53], [54], [55] (Figure 1).
+Study characteristics
+
+All studies included in the meta-analysis were case-control studies and were written in English. Twelve studies were performed in Europe [39], [41], [42], [43], [44], [47], [48], [49], [50], [51], [53], [54], 6 in Asia [38], [40], [45], [46], [52], [55] and 2 in Brazil [36], [37]. The total number of patients was 994 ranging from 12 [44], [50] to 162 [55]. Cases were in most cases diagnosed according to the DSM-IV [56] criteria only (or DSM-IV-TR [57] for 1 study [39]) or together with ICD-10 [58], except in 1 study [42] where only ICD-10 criteria had been used. The total number of controls was 785 ranging from 12 [44] to 141 [53]. Details are reported in Table 1.
+
+Age and sex matched controls were recruited in 13 studies [37], [39], [40], [41], [42], [43], [44], [45], [46], [49], [50], [51], [54]. As for the source of controls, 4 studies enrolled local community controls [39], [40], [53], [55] 1 study used hospital controls [50] and 4 studies took controls from hospital staff [38], [46], [48], [49], 4 studies used healthy blood donors [41], [42], [43], [54] whilst in the remaining 7 studies the source of the controls was not mentioned [36], [37], [44], [45], [47], [51], [52,]. Five studies detected S100B levels in plasma [36], [38], [41], [52], [54] and 15 in serum [37], [39], [40], [42], [43], [44], [45], [46], [47], [48], [49], [50], [51], [53], [55].
+
+Separate data on medicated patients were reported in 15 studies [36], [38], [39], [40], [41], [42], [45], [46], [47], [48], [49], [50], [51], [54], [55] whilst 5 studies reported separate data on drug-free patients [37], [38], [41], [43], [45], [48], [52], [55]; 3 studies were conducted only on drug-free patients [37], [43], [52], whilst 2 studies [44], [53] reported data for medicated and drug-free patients only in an aggregate form.
+
+Regarding the disease stage, 6 studies used chronic schizophrenia patients [36], [40], [45], [47], [48], [49], 4 studies used acute stage patients [41], [43], [44], [51], 3 studies used recent-onset patients [45], [50], [55] and in 8 cases this data was not reported [37], [38], [39], [42], [46], [52], [53], [54].
+
+Psychopathology was assessed by using Scale for Assessment of Positive Symptoms (SAPS)/ Scale for Assessment of Negative Symptoms SANS [59], [60] in 3 studies [46], [39], [49], Negative Symptoms Rating scale [61] in 1 study [36], Positive and Negative Syndrome Scale (PANSS) [62] in 12 studies [37], [38], [40], [41], [42], [43], [44], [50], [51], [52], [53], [55] and Brief Psychiatric Rating Scale (BPRS) [63] in 5 studies [36], [39], [46], [48], [49]. Additional psychopathological scales were employed in 2 studies: Sarandol et al., 2007 [46] used Calgary Depression Scale for Schizophrenia [64] and Schmitt et al 2005 [47] used Hamilton Rating scale for Depression [65].
+
+The overall quality score of studies according to NOS is reported on Table 2 and ranged from 2 [36] to 9 [55].
+Overall estimates for S100B blood levels in case and controls
+
+In the meta-analysis of studies including both drug-free and chronically medicated patients cases showed higher S100B blood level than controls, with meta-MR = 1.76 (95% CI: 1.44-2.15), Q test for heterogeneity = 342.3, p<0.001, I2 = 94.4%. Results are reported in Figure 2 and Table 3.
+
+Stratified meta-analyses revealed similar higher values in cases than controls, with no evidence of difference in subgroups regarding detection of S100B in plasma or serum, medication status, stage of the disease, ethnicity, selection of cases and controls and source of controls (Table 3).
+Assessment of biases and between studies variability
+
+After removing studies one by one in a sensitivity analysis no study showed to affect meta-analyses estimates. Visual analysis of funnel plots and Egger's test revealed the absence of publication bias (p<0.914).
+
+When considering the quality of studies included in the meta-analysis the NOS scores ranged from 2 to 9. After including in the meta-analysis only studies with a NOS score >5 [37], [40], [41], [42], [43], [45], [48], [49], [54], [55] we found a meta-Mean Ratio of 1.973 (95% CI 1.63–2.38), Q value for heterogeneity 201.2, p<0.001, I2 = 92.5%.
+
+Discussion
+
+S100B in peripheral blood was significantly increased in schizophrenia patients, with an almost double level in cases than controls.
+
+During the last twenty years the S100B protein has gained attention in the research area for peripheral biomarkers of schizophrenia [66].
+
+We carried out a meta-analysis including both the studies considered in those of Schroeter et al., 2009 [23], [24] and seven new studies [39], [40], [45], [51], [52], [53], [55]. Our results confirmed the increased S100B values in cases than controls found by Schroeter et al; in addition, we could carry out sensitivity and stratified analyses in order to assess the presence of confounding factors and effect modifiers.
+
+Subgroups analyses showed that S100B levels were similarly higher in cases than controls regardless of medication status and stage of disease. Results of single studies were controversial with studies reporting higher levels in medicated than drug-free schizophrenics [45], [48], studies reporting lower levels in treated than untreated patients [38], [46], [55] and other reporting that antipsychotic treatment doesn't affect S100B blood levels [41].
+
+Moreover, S100B circulating blood levels have been reported to be both positively correlated with illness duration [52] or not correlated at all [36], [45], [46], [48], [50], [54].
+
+On the contrary, results on the relationship between S100B blood levels and psychopathology remained inconclusive, with studies reporting in turn no correlation [36], [39], [40], [23], [50], [51], [55], a negative correlation [47] and a positive correlation with negative symptomatology [38], [41], [42], [46]. In addition, patients with deficit syndrome [67] present higher S100B serum [48] and elevated serum S100B levels have linked to memory impairment [68].
+
+As psychiatric symptomatology is assessed in the various studies by using different rating scales much more standardization should be necessary. Finally, cumulative quantitative analyses of psychopathological data and blood S100B levels should have required the access to individual patient data.
+
+S100 proteins can be regarded as trophic regulation factors [69] and could have a clinical role in the assessment of brain injury [70].
+
+In animal models, elevate S100B levels may lead to greater susceptibility to environmental stimuli by means of increased plasticity at brain level, particularly hippocampus [71]. In humans, S100B may induce plasticity effects in the brain, and an imaging study demonstrated a high S100B expression in human corpus callosum [72], so opening new perspectives for future studies investigating schizophrenia and other major neuropsychiatric disorders. S100B might be regarded not only as a marker of brain damage, but the over-expression of this protein in the brain could make individuals more sensitive to environmental stressors, due to enhanced neural plasticity, so increasing the risk of developing psychiatric disorders in stressful environments.
+
+Last but not least, when interpreting results on S100B concentrations and schizophrenia a number of limitations should be considered.
+
+The extent of heterogeneity between studies was high and it remained considerable (>70%) [73] and statistically significant even after carrying out separate analyses for subgroups of studies, namely for ethnicity, medication status, disease stage, selection of cases, source and matching of controls and overall quality score.
+
+Even if subgroups analyses didn't reveal difference in the meta-estimates according to cases and controls selection, the large discrepancies between studies regarding cases and controls selection should be considered; in particular not all studies enrolled consecutive cases, community controls, age- and gender-matched controls and only 2 studies [40]; [55] clearly stated that laboratory analyses were blind about the case or control state.
+
+Heterogeneity between studies could reflect the underlining high level of etiologic heterogeneity of neuropsychiatric disorders. Giving that psychiatry diagnoses essentially rely on symptoms checklists and that neuropsychiatric disorders are complex with often overlapping symptoms, the need for diagnostic tools, that are as much possible objective and specific, strongly emerges [74], [75].
+
+A promising path of research in the effort of overcoming heterogeneity is to go beyond the classical diagnostic phenotypes and to consider diseases characteristics in a dimensional way.
+
+Regarding this, even if data on the relationship between S100B levels and psychopathology are different across studies, it is an interesting finding that most studies found a correlation with S100B plasma/serum levels and psychopatology, particularly with negative symptomatology [38], [41], [46], [48], [53], even in the case where they report no differences in blood levels of S100B in cases and controls [53].
+
+A new generation of biomarkers could be discovered if the traditional reductionist assessments based on single-pathways analyses and categorical diagnoses is overcome in order to adopt a Systems Medicine approach. System-level models of interactions between measurements carried out at tissue, cellular and molecular levels coupled with clinical features, are currently developed aimed at identifying new disease phenotypes [76]. Clinical platforms of extensively characterized patients are being developed for supporting Systems Medicine studies [77].
+
+This ideally would significantly enhance the chances to discover new complex phenotypes and, hinging on a new re-defined taxonomy, to possibly find (panel of) biomarkers with solid clinical utility for diagnosis, treatment and rehabilitation planning and prevention in the context of preventive, predictive, personalized and participatory -P4- medicine integrative strategies [78].
+
+Supporting Information
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 2  Area of Systems Approaches and Non Communicable Diseases, Unit of Clinical and Molecular Epidemiology, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+ 3  Deputy Scientific Director and Systems Medicine Coordinator, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 2  Area of Systems Approaches and Non Communicable Diseases, Unit of Clinical and Molecular Epidemiology, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+Analyzed the data: AF EL KA. Contributed to the writing of the manuscript: KA EL SB AC SB AF.
+
+S100B is a calcium-binding protein secreted in central nervous system from astrocytes and other glia cells. High blood S100B levels have been linked to brain damage and psychiatric disorders. S100B levels have been reported to be higher in schizophrenics than healthy controls. To quantify the relationship between S100B blood levels and schizophrenia a systematic literature review of case-control studies published on this topic within July 3rd 2014 was carried out using three bibliographic databases: Medline, Scopus and Web of Science. Studies reporting mean and standard deviation of S100B blood levels both in cases and controls were included in the meta-analysis. The meta-Mean Ratio (mMR) of S100B blood levels in cases compared to controls was used as a measure of effect along with its 95% Confidence Intervals (CI). 20 studies were included totaling for 994 cases and 785 controls. Schizophrenia patients showed 76% higher S100B blood levels than controls with mMR = 1.76 95% CI: 1.44–2.15. No difference could be found between drug-free patients with mMR = 1.84 95%CI: 1.24–2.74 and patients on antipsychotic medication with mMR = 1.75 95% CI: 1.41–2.16). Similarly, ethnicity and stage of disease didn't affect results. Although S100B could be regarded as a possible biomarker of schizophrenia, limitations should be accounted when interpreting results, especially because of the high heterogeneity that remained >70%, even after carrying out subgroups analyses. These results point out that approaches based on traditional categorical diagnoses may be too restrictive and new approaches based on the characterization of new complex phenotypes should be considered.
+
+S100B is a calcium (Ca2+)-binding protein secreted mainly by glial cells; it belongs to the S100 proteins family [1], [2] and it is also expressed outside the central nervous system [3]. It modulates the proliferation and differentiation of neurons and glia [1], [4] and is involved in signal transduction via inhibition of protein phosphorylation, as well as regulation of enzyme activity and of Ca2+ homeostasis. Besides, S100B protein contributes to the regulation of cell morphology by interacting with cytoplasmic cytoskeleton. S100B is also regarded as having important functions during development, tissue homeostasis and inflammation via its interaction with the receptor for advanced glycation endproducts (RAGE) [5].
+
+At intracellular level S100B exerts a proliferative function, but effects of extra-cellular S100B depends upon its concentration, as in nanomolar concentrations it promotes cell promotion and differentiation, while in higher (micromolar) concentrations it induces cellular death [6], [7], [8]. It may cross the blood–brain barrier and concentrations of S100B detected in serum and/or cerebrospinal fluid (CSF) are regarded as a marker of brain damage [9], [10].
+
+S100B secretion is increased by pro-inflammatory cytokines [11] and this protein could be involved in the imbalanced inflammatory response observed in several brain disorders, including Alzheimer's disease, major depression and schizophrenia [12], [13], [14]. The inflammatory response in the central nervous system (CNS) includes microglial and astroglial activation, after which these glial cells release a variety of pro-inflammatory mediators potentially contributing to neuronal dysfunction and CNS pathology progression [15].
+
+Due to its functions, trophic actions on neurons and astrocytes and involvement in inflammatory response, S100B seems to be linked to neurodevelopemental and inflammatory hypothesis of schizophrenia pathogenesis [1], [16], [17], [18], [19], [20], [21]. In this perspective, effects of immune and glia driven inflammation due to elevation of cytokines are considered to play a pivotal role in mediating manifestations of altered neurodevelopment in schizophrenia patients.
+
+Also, a S100B gene haplotype involved in increased S100B expression is associated with schizophrenia [22], so levels of S100B could be expected to be altered in schizophrenia, either primary or secondary to the disease.
+
+Many studies in the last years showed increased S100B levels in the serum/plasma of patients with schizophrenia, as reported in older meta-analyses by Schroeter et al. [23], [24], who report in addition no differences in S100B levels in medicated end drug-free patients and take into account the effect of age including only studies with age-matched controls.
+
+New studies on the relationship between S100B blood levels and schizophrenia have been carried out after Schroeter et al. meta-analyses of 2009, enabling us to carry out an updated review and stratify subgroups of patients taking into account the effect of potential effect modifiers, not only treatment and age, but also ethnicity, stage of disease, and factors related to the methodology of included studies, like selection of cases and controls, comparability between cases and controls and S100B measurement.
+
+S100B could be considered a biomarker for glia alterations and neuroplasticity, that can be easily obtained from peripheral human blood. Accordingly, S100B blood levels could be regarded as an intermediate phenotype useful for disease stratification.
+
+In order to assess the relationship between circulating blood levels of S100B and schizophrenia, we carried out a systematic review and meta-analyses of case-control studies on this topic. We aim at quantifying the difference in S100B peripheral blood levels in cases and controls and at exploring if this difference is modified by factors linked to ethnicity, stage of disease, treatment and methodological characteristics of the included studies.
+
+Studies were identified through MEDLINE, Scopus and Web of Knowledge sources from their inception up to July 3rd 2014 using the following search terms: (schizophrenia AND (S100 OR S-100)), without any restriction on language. The references of retrieved articles were also checked in order to search for additional articles. Studies were included in the systematic review if they were case-control studies comparing the serum or plasma S100B levels between schizophrenia patients and healthy controls.
+
+Data from papers that were eligible for the meta-analysis were extracted by two authors (K.A and A. F) independently. For each study we extracted the following information: first author's name, year, country, number of cases and characteristics, medication status, disease phase (chronic/acute), case definition, number of controls and characteristics, percentage of males, age (years), mean and standard deviation (SD) of S100B plasma/serum level in cases and controls.
+
+If more than one article was published by the same author groups, we contacted the corresponding author (CA) in order to check if patients and controls were different. If more than one article was published by the same author using the same case series, we selected the study with the largest number of subjects. In the case were the number of controls was not written in the article but it was stated that controls were age and sex matched, we assumed that case and controls had been recruited in the same number. When mean and SD of S100B blood levels for schizophrenic patients and healthy controls were not reported in the paper, we contacted the CA to ask the data; in cases where we were not able to retrieve it we excluded the study from the meta-analysis; when S100B blood levels were reported only separately for subgroups of patients we calculated pooled mean and SD from the published data; when data were expressed as Mean±Standard Error (SE), SD was calculated from SE using the formula: SD = SE×√n; in two cases where it was not stated if data were reported as mean±SD or ±SE, we asked CA for the information; in one case we used a more conservative approach and assumed that data were reported as mean±SD, as we were not provided with the information by the CA.
+
+Critical appraisal of studies included in meta-analysis was performed according to the Newcastle-Ottawa scale (NOS) [25]. For case-controls studies NOS assigns a score to each study for selection (case definition, representativeness of cases, selection of controls), comparability (comparability of cases and controls on the basis of the design and analysis), exposure (ascertainment of exposure, same method of ascertainment for cases and controls, non-response rate). According to NOS we considered a study as employing age- and gender- matched controls if either cases and controls were matched in the design, not considering sufficient the statement that there were no differences between groups. We modified the exposure criterion in order to adapt it to serological measures, allotting the maximum score for the ascertainment of exposure if S100B determinations were carried out by laboratory staff who was blind to case/control status and giving the score for non-response rate if the percentage of missing values was reported. Scores range from 0 to 9. Two investigators (AK and AF) assessed quality independently and discordances were solved by discussion.
+
+For each study a Mean Ratio (MR) with 95% Confidence Intervals (CI) was calculated and a pooled estimate, meta-MR, was computed weighting MRs according to the variance and the number of participants in the study [26], [27].
+
+In order to test heterogeneity chi-square analyses were performed [26]; inconsistencies across studies and their impact on the analysis were quantified by using the I2 statistic. In order to take into account possible sources of heterogeneity a conservative random-effects approach, that model takes into account the inter-study effect variance, was adopted [28].
+
+To rule out the presence of publication bias formal testing and graphical evaluation were used [29]. A sensitivity analysis to evaluate if single studies could affect meta estimates was carried out by removing studies one by one.
+
+The Stata statistical software (StataCorp. 2013. Stata Statistical Software: Release 13. College Station, TX: StataCorp LP) was employed for all statistical analyses.
+
+The manuscript has been drafted according to PRISMA statement [30].
+
+The search of MEDLINE provided 114 results, while 88 papers were retrieved from Web of Science and 83 from Scopus. After reading abstracts, 26 studies from MEDLINE, 20 from Scopus and 21 from Web of Science were selected for inclusion in the systematic review. Studies selected from the three bibliographic databases overlapped except for one study. No eligible additional paper was found by checking bibliographic references of the selected studies. After reading papers, 2 studies were excluded as they were reviews [24], [31]. After excluding 3 studies with overlapping datasets [32], [33], [34] and 1 study because mean and SD for cases and controls was not available [35], 20 studies were included in the meta-analysis [36], [37], [38], [39], [40], [41], [42], [43], [44], [45], [46], [47], [48], [49], [50], [51], [52], [53], [54], [55] (Figure 1).
+
+All studies included in the meta-analysis were case-control studies and were written in English. Twelve studies were performed in Europe [39], [41], [42], [43], [44], [47], [48], [49], [50], [51], [53], [54], 6 in Asia [38], [40], [45], [46], [52], [55] and 2 in Brazil [36], [37]. The total number of patients was 994 ranging from 12 [44], [50] to 162 [55]. Cases were in most cases diagnosed according to the DSM-IV [56] criteria only (or DSM-IV-TR [57] for 1 study [39]) or together with ICD-10 [58], except in 1 study [42] where only ICD-10 criteria had been used. The total number of controls was 785 ranging from 12 [44] to 141 [53]. Details are reported in Table 1.
+
+Age and sex matched controls were recruited in 13 studies [37], [39], [40], [41], [42], [43], [44], [45], [46], [49], [50], [51], [54]. As for the source of controls, 4 studies enrolled local community controls [39], [40], [53], [55] 1 study used hospital controls [50] and 4 studies took controls from hospital staff [38], [46], [48], [49], 4 studies used healthy blood donors [41], [42], [43], [54] whilst in the remaining 7 studies the source of the controls was not mentioned [36], [37], [44], [45], [47], [51], [52,]. Five studies detected S100B levels in plasma [36], [38], [41], [52], [54] and 15 in serum [37], [39], [40], [42], [43], [44], [45], [46], [47], [48], [49], [50], [51], [53], [55].
+
+Separate data on medicated patients were reported in 15 studies [36], [38], [39], [40], [41], [42], [45], [46], [47], [48], [49], [50], [51], [54], [55] whilst 5 studies reported separate data on drug-free patients [37], [38], [41], [43], [45], [48], [52], [55]; 3 studies were conducted only on drug-free patients [37], [43], [52], whilst 2 studies [44], [53] reported data for medicated and drug-free patients only in an aggregate form.
+
+Regarding the disease stage, 6 studies used chronic schizophrenia patients [36], [40], [45], [47], [48], [49], 4 studies used acute stage patients [41], [43], [44], [51], 3 studies used recent-onset patients [45], [50], [55] and in 8 cases this data was not reported [37], [38], [39], [42], [46], [52], [53], [54].
+
+Psychopathology was assessed by using Scale for Assessment of Positive Symptoms (SAPS)/ Scale for Assessment of Negative Symptoms SANS [59], [60] in 3 studies [46], [39], [49], Negative Symptoms Rating scale [61] in 1 study [36], Positive and Negative Syndrome Scale (PANSS) [62] in 12 studies [37], [38], [40], [41], [42], [43], [44], [50], [51], [52], [53], [55] and Brief Psychiatric Rating Scale (BPRS) [63] in 5 studies [36], [39], [46], [48], [49]. Additional psychopathological scales were employed in 2 studies: Sarandol et al., 2007 [46] used Calgary Depression Scale for Schizophrenia [64] and Schmitt et al 2005 [47] used Hamilton Rating scale for Depression [65].
+
+The overall quality score of studies according to NOS is reported on Table 2 and ranged from 2 [36] to 9 [55].
+
+In the meta-analysis of studies including both drug-free and chronically medicated patients cases showed higher S100B blood level than controls, with meta-MR = 1.76 (95% CI: 1.44-2.15), Q test for heterogeneity = 342.3, p<0.001, I2 = 94.4%. Results are reported in Figure 2 and Table 3.
+
+Stratified meta-analyses revealed similar higher values in cases than controls, with no evidence of difference in subgroups regarding detection of S100B in plasma or serum, medication status, stage of the disease, ethnicity, selection of cases and controls and source of controls (Table 3).
+
+After removing studies one by one in a sensitivity analysis no study showed to affect meta-analyses estimates. Visual analysis of funnel plots and Egger's test revealed the absence of publication bias (p<0.914).
+
+When considering the quality of studies included in the meta-analysis the NOS scores ranged from 2 to 9. After including in the meta-analysis only studies with a NOS score >5 [37], [40], [41], [42], [43], [45], [48], [49], [54], [55] we found a meta-Mean Ratio of 1.973 (95% CI 1.63–2.38), Q value for heterogeneity 201.2, p<0.001, I2 = 92.5%.
+
+S100B in peripheral blood was significantly increased in schizophrenia patients, with an almost double level in cases than controls.
+
+During the last twenty years the S100B protein has gained attention in the research area for peripheral biomarkers of schizophrenia [66].
+
+We carried out a meta-analysis including both the studies considered in those of Schroeter et al., 2009 [23], [24] and seven new studies [39], [40], [45], [51], [52], [53], [55]. Our results confirmed the increased S100B values in cases than controls found by Schroeter et al; in addition, we could carry out sensitivity and stratified analyses in order to assess the presence of confounding factors and effect modifiers.
+
+Subgroups analyses showed that S100B levels were similarly higher in cases than controls regardless of medication status and stage of disease. Results of single studies were controversial with studies reporting higher levels in medicated than drug-free schizophrenics [45], [48], studies reporting lower levels in treated than untreated patients [38], [46], [55] and other reporting that antipsychotic treatment doesn't affect S100B blood levels [41].
+
+Moreover, S100B circulating blood levels have been reported to be both positively correlated with illness duration [52] or not correlated at all [36], [45], [46], [48], [50], [54].
+
+On the contrary, results on the relationship between S100B blood levels and psychopathology remained inconclusive, with studies reporting in turn no correlation [36], [39], [40], [23], [50], [51], [55], a negative correlation [47] and a positive correlation with negative symptomatology [38], [41], [42], [46]. In addition, patients with deficit syndrome [67] present higher S100B serum [48] and elevated serum S100B levels have linked to memory impairment [68].
+
+As psychiatric symptomatology is assessed in the various studies by using different rating scales much more standardization should be necessary. Finally, cumulative quantitative analyses of psychopathological data and blood S100B levels should have required the access to individual patient data.
+
+S100 proteins can be regarded as trophic regulation factors [69] and could have a clinical role in the assessment of brain injury [70].
+
+In animal models, elevate S100B levels may lead to greater susceptibility to environmental stimuli by means of increased plasticity at brain level, particularly hippocampus [71]. In humans, S100B may induce plasticity effects in the brain, and an imaging study demonstrated a high S100B expression in human corpus callosum [72], so opening new perspectives for future studies investigating schizophrenia and other major neuropsychiatric disorders. S100B might be regarded not only as a marker of brain damage, but the over-expression of this protein in the brain could make individuals more sensitive to environmental stressors, due to enhanced neural plasticity, so increasing the risk of developing psychiatric disorders in stressful environments.
+
+Last but not least, when interpreting results on S100B concentrations and schizophrenia a number of limitations should be considered.
+
+The extent of heterogeneity between studies was high and it remained considerable (>70%) [73] and statistically significant even after carrying out separate analyses for subgroups of studies, namely for ethnicity, medication status, disease stage, selection of cases, source and matching of controls and overall quality score.
+
+Even if subgroups analyses didn't reveal difference in the meta-estimates according to cases and controls selection, the large discrepancies between studies regarding cases and controls selection should be considered; in particular not all studies enrolled consecutive cases, community controls, age- and gender-matched controls and only 2 studies [40]; [55] clearly stated that laboratory analyses were blind about the case or control state.
+
+Heterogeneity between studies could reflect the underlining high level of etiologic heterogeneity of neuropsychiatric disorders. Giving that psychiatry diagnoses essentially rely on symptoms checklists and that neuropsychiatric disorders are complex with often overlapping symptoms, the need for diagnostic tools, that are as much possible objective and specific, strongly emerges [74], [75].
+
+A promising path of research in the effort of overcoming heterogeneity is to go beyond the classical diagnostic phenotypes and to consider diseases characteristics in a dimensional way.
+
+Regarding this, even if data on the relationship between S100B levels and psychopathology are different across studies, it is an interesting finding that most studies found a correlation with S100B plasma/serum levels and psychopatology, particularly with negative symptomatology [38], [41], [46], [48], [53], even in the case where they report no differences in blood levels of S100B in cases and controls [53].
+
+A new generation of biomarkers could be discovered if the traditional reductionist assessments based on single-pathways analyses and categorical diagnoses is overcome in order to adopt a Systems Medicine approach. System-level models of interactions between measurements carried out at tissue, cellular and molecular levels coupled with clinical features, are currently developed aimed at identifying new disease phenotypes [76]. Clinical platforms of extensively characterized patients are being developed for supporting Systems Medicine studies [77].
+
+This ideally would significantly enhance the chances to discover new complex phenotypes and, hinging on a new re-defined taxonomy, to possibly find (panel of) biomarkers with solid clinical utility for diagnosis, treatment and rehabilitation planning and prevention in the context of preventive, predictive, personalized and participatory -P4- medicine integrative strategies [78].
+
+
+PRISMA Checklist.
+
+
+(DOC)
+
+Funding Statement
+
+The authors have no support or funding to report.
+
+Data Availability
+
+The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information files.
+
+References
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 2  Area of Systems Approaches and Non Communicable Diseases, Unit of Clinical and Molecular Epidemiology, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+ 3  Deputy Scientific Director and Systems Medicine Coordinator, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+ 1  Institute of Public Health, Section of Hygiene, Department of Public Health, Università Cattolica del Sacro Cuore, Rome, Italy,   
+
+ 2  Area of Systems Approaches and Non Communicable Diseases, Unit of Clinical and Molecular Epidemiology, IRCCS San Raffaele Pisana, Rome, Italy,   
+
+Analyzed the data: AF EL KA. Contributed to the writing of the manuscript: KA EL SB AC SB AF.
+
+S100B is a calcium-binding protein secreted in central nervous system from astrocytes and other glia cells. High blood S100B levels have been linked to brain damage and psychiatric disorders. S100B levels have been reported to be higher in schizophrenics than healthy controls. To quantify the relationship between S100B blood levels and schizophrenia a systematic literature review of case-control studies published on this topic within July 3rd 2014 was carried out using three bibliographic databases: Medline, Scopus and Web of Science. Studies reporting mean and standard deviation of S100B blood levels both in cases and controls were included in the meta-analysis. The meta-Mean Ratio (mMR) of S100B blood levels in cases compared to controls was used as a measure of effect along with its 95% Confidence Intervals (CI). 20 studies were included totaling for 994 cases and 785 controls. Schizophrenia patients showed 76% higher S100B blood levels than controls with mMR = 1.76 95% CI: 1.44–2.15. No difference could be found between drug-free patients with mMR = 1.84 95%CI: 1.24–2.74 and patients on antipsychotic medication with mMR = 1.75 95% CI: 1.41–2.16). Similarly, ethnicity and stage of disease didn't affect results. Although S100B could be regarded as a possible biomarker of schizophrenia, limitations should be accounted when interpreting results, especially because of the high heterogeneity that remained >70%, even after carrying out subgroups analyses. These results point out that approaches based on traditional categorical diagnoses may be too restrictive and new approaches based on the characterization of new complex phenotypes should be considered.
+
+S100B is a calcium (Ca2+)-binding protein secreted mainly by glial cells; it belongs to the S100 proteins family [1], [2] and it is also expressed outside the central nervous system [3]. It modulates the proliferation and differentiation of neurons and glia [1], [4] and is involved in signal transduction via inhibition of protein phosphorylation, as well as regulation of enzyme activity and of Ca2+ homeostasis. Besides, S100B protein contributes to the regulation of cell morphology by interacting with cytoplasmic cytoskeleton. S100B is also regarded as having important functions during development, tissue homeostasis and inflammation via its interaction with the receptor for advanced glycation endproducts (RAGE) [5].
+
+At intracellular level S100B exerts a proliferative function, but effects of extra-cellular S100B depends upon its concentration, as in nanomolar concentrations it promotes cell promotion and differentiation, while in higher (micromolar) concentrations it induces cellular death [6], [7], [8]. It may cross the blood–brain barrier and concentrations of S100B detected in serum and/or cerebrospinal fluid (CSF) are regarded as a marker of brain damage [9], [10].
+
+S100B secretion is increased by pro-inflammatory cytokines [11] and this protein could be involved in the imbalanced inflammatory response observed in several brain disorders, including Alzheimer's disease, major depression and schizophrenia [12], [13], [14]. The inflammatory response in the central nervous system (CNS) includes microglial and astroglial activation, after which these glial cells release a variety of pro-inflammatory mediators potentially contributing to neuronal dysfunction and CNS pathology progression [15].
+
+Due to its functions, trophic actions on neurons and astrocytes and involvement in inflammatory response, S100B seems to be linked to neurodevelopemental and inflammatory hypothesis of schizophrenia pathogenesis [1], [16], [17], [18], [19], [20], [21]. In this perspective, effects of immune and glia driven inflammation due to elevation of cytokines are considered to play a pivotal role in mediating manifestations of altered neurodevelopment in schizophrenia patients.
+
+Also, a S100B gene haplotype involved in increased S100B expression is associated with schizophrenia [22], so levels of S100B could be expected to be altered in schizophrenia, either primary or secondary to the disease.
+
+Many studies in the last years showed increased S100B levels in the serum/plasma of patients with schizophrenia, as reported in older meta-analyses by Schroeter et al. [23], [24], who report in addition no differences in S100B levels in medicated end drug-free patients and take into account the effect of age including only studies with age-matched controls.
+
+New studies on the relationship between S100B blood levels and schizophrenia have been carried out after Schroeter et al. meta-analyses of 2009, enabling us to carry out an updated review and stratify subgroups of patients taking into account the effect of potential effect modifiers, not only treatment and age, but also ethnicity, stage of disease, and factors related to the methodology of included studies, like selection of cases and controls, comparability between cases and controls and S100B measurement.
+
+S100B could be considered a biomarker for glia alterations and neuroplasticity, that can be easily obtained from peripheral human blood. Accordingly, S100B blood levels could be regarded as an intermediate phenotype useful for disease stratification.
+
+In order to assess the relationship between circulating blood levels of S100B and schizophrenia, we carried out a systematic review and meta-analyses of case-control studies on this topic. We aim at quantifying the difference in S100B peripheral blood levels in cases and controls and at exploring if this difference is modified by factors linked to ethnicity, stage of disease, treatment and methodological characteristics of the included studies.
+
+Studies were identified through MEDLINE, Scopus and Web of Knowledge sources from their inception up to July 3rd 2014 using the following search terms: (schizophrenia AND (S100 OR S-100)), without any restriction on language. The references of retrieved articles were also checked in order to search for additional articles. Studies were included in the systematic review if they were case-control studies comparing the serum or plasma S100B levels between schizophrenia patients and healthy controls.
+
+Data from papers that were eligible for the meta-analysis were extracted by two authors (K.A and A. F) independently. For each study we extracted the following information: first author's name, year, country, number of cases and characteristics, medication status, disease phase (chronic/acute), case definition, number of controls and characteristics, percentage of males, age (years), mean and standard deviation (SD) of S100B plasma/serum level in cases and controls.
+
+If more than one article was published by the same author groups, we contacted the corresponding author (CA) in order to check if patients and controls were different. If more than one article was published by the same author using the same case series, we selected the study with the largest number of subjects. In the case were the number of controls was not written in the article but it was stated that controls were age and sex matched, we assumed that case and controls had been recruited in the same number. When mean and SD of S100B blood levels for schizophrenic patients and healthy controls were not reported in the paper, we contacted the CA to ask the data; in cases where we were not able to retrieve it we excluded the study from the meta-analysis; when S100B blood levels were reported only separately for subgroups of patients we calculated pooled mean and SD from the published data; when data were expressed as Mean±Standard Error (SE), SD was calculated from SE using the formula: SD = SE×√n; in two cases where it was not stated if data were reported as mean±SD or ±SE, we asked CA for the information; in one case we used a more conservative approach and assumed that data were reported as mean±SD, as we were not provided with the information by the CA.
+
+Critical appraisal of studies included in meta-analysis was performed according to the Newcastle-Ottawa scale (NOS) [25]. For case-controls studies NOS assigns a score to each study for selection (case definition, representativeness of cases, selection of controls), comparability (comparability of cases and controls on the basis of the design and analysis), exposure (ascertainment of exposure, same method of ascertainment for cases and controls, non-response rate). According to NOS we considered a study as employing age- and gender- matched controls if either cases and controls were matched in the design, not considering sufficient the statement that there were no differences between groups. We modified the exposure criterion in order to adapt it to serological measures, allotting the maximum score for the ascertainment of exposure if S100B determinations were carried out by laboratory staff who was blind to case/control status and giving the score for non-response rate if the percentage of missing values was reported. Scores range from 0 to 9. Two investigators (AK and AF) assessed quality independently and discordances were solved by discussion.
+
+For each study a Mean Ratio (MR) with 95% Confidence Intervals (CI) was calculated and a pooled estimate, meta-MR, was computed weighting MRs according to the variance and the number of participants in the study [26], [27].
+
+In order to test heterogeneity chi-square analyses were performed [26]; inconsistencies across studies and their impact on the analysis were quantified by using the I2 statistic. In order to take into account possible sources of heterogeneity a conservative random-effects approach, that model takes into account the inter-study effect variance, was adopted [28].
+
+To rule out the presence of publication bias formal testing and graphical evaluation were used [29]. A sensitivity analysis to evaluate if single studies could affect meta estimates was carried out by removing studies one by one.
+
+The Stata statistical software (StataCorp. 2013. Stata Statistical Software: Release 13. College Station, TX: StataCorp LP) was employed for all statistical analyses.
+
+The manuscript has been drafted according to PRISMA statement [30].
+
+The search of MEDLINE provided 114 results, while 88 papers were retrieved from Web of Science and 83 from Scopus. After reading abstracts, 26 studies from MEDLINE, 20 from Scopus and 21 from Web of Science were selected for inclusion in the systematic review. Studies selected from the three bibliographic databases overlapped except for one study. No eligible additional paper was found by checking bibliographic references of the selected studies. After reading papers, 2 studies were excluded as they were reviews [24], [31]. After excluding 3 studies with overlapping datasets [32], [33], [34] and 1 study because mean and SD for cases and controls was not available [35], 20 studies were included in the meta-analysis [36], [37], [38], [39], [40], [41], [42], [43], [44], [45], [46], [47], [48], [49], [50], [51], [52], [53], [54], [55] (Figure 1).
+
+All studies included in the meta-analysis were case-control studies and were written in English. Twelve studies were performed in Europe [39], [41], [42], [43], [44], [47], [48], [49], [50], [51], [53], [54], 6 in Asia [38], [40], [45], [46], [52], [55] and 2 in Brazil [36], [37]. The total number of patients was 994 ranging from 12 [44], [50] to 162 [55]. Cases were in most cases diagnosed according to the DSM-IV [56] criteria only (or DSM-IV-TR [57] for 1 study [39]) or together with ICD-10 [58], except in 1 study [42] where only ICD-10 criteria had been used. The total number of controls was 785 ranging from 12 [44] to 141 [53]. Details are reported in Table 1.
+
+Age and sex matched controls were recruited in 13 studies [37], [39], [40], [41], [42], [43], [44], [45], [46], [49], [50], [51], [54]. As for the source of controls, 4 studies enrolled local community controls [39], [40], [53], [55] 1 study used hospital controls [50] and 4 studies took controls from hospital staff [38], [46], [48], [49], 4 studies used healthy blood donors [41], [42], [43], [54] whilst in the remaining 7 studies the source of the controls was not mentioned [36], [37], [44], [45], [47], [51], [52,]. Five studies detected S100B levels in plasma [36], [38], [41], [52], [54] and 15 in serum [37], [39], [40], [42], [43], [44], [45], [46], [47], [48], [49], [50], [51], [53], [55].
+
+Separate data on medicated patients were reported in 15 studies [36], [38], [39], [40], [41], [42], [45], [46], [47], [48], [49], [50], [51], [54], [55] whilst 5 studies reported separate data on drug-free patients [37], [38], [41], [43], [45], [48], [52], [55]; 3 studies were conducted only on drug-free patients [37], [43], [52], whilst 2 studies [44], [53] reported data for medicated and drug-free patients only in an aggregate form.
+
+Regarding the disease stage, 6 studies used chronic schizophrenia patients [36], [40], [45], [47], [48], [49], 4 studies used acute stage patients [41], [43], [44], [51], 3 studies used recent-onset patients [45], [50], [55] and in 8 cases this data was not reported [37], [38], [39], [42], [46], [52], [53], [54].
+
+Psychopathology was assessed by using Scale for Assessment of Positive Symptoms (SAPS)/ Scale for Assessment of Negative Symptoms SANS [59], [60] in 3 studies [46], [39], [49], Negative Symptoms Rating scale [61] in 1 study [36], Positive and Negative Syndrome Scale (PANSS) [62] in 12 studies [37], [38], [40], [41], [42], [43], [44], [50], [51], [52], [53], [55] and Brief Psychiatric Rating Scale (BPRS) [63] in 5 studies [36], [39], [46], [48], [49]. Additional psychopathological scales were employed in 2 studies: Sarandol et al., 2007 [46] used Calgary Depression Scale for Schizophrenia [64] and Schmitt et al 2005 [47] used Hamilton Rating scale for Depression [65].
+
+The overall quality score of studies according to NOS is reported on Table 2 and ranged from 2 [36] to 9 [55].
+
+In the meta-analysis of studies including both drug-free and chronically medicated patients cases showed higher S100B blood level than controls, with meta-MR = 1.76 (95% CI: 1.44-2.15), Q test for heterogeneity = 342.3, p<0.001, I2 = 94.4%. Results are reported in Figure 2 and Table 3.
+
+Stratified meta-analyses revealed similar higher values in cases than controls, with no evidence of difference in subgroups regarding detection of S100B in plasma or serum, medication status, stage of the disease, ethnicity, selection of cases and controls and source of controls (Table 3).
+
+After removing studies one by one in a sensitivity analysis no study showed to affect meta-analyses estimates. Visual analysis of funnel plots and Egger's test revealed the absence of publication bias (p<0.914).
+
+When considering the quality of studies included in the meta-analysis the NOS scores ranged from 2 to 9. After including in the meta-analysis only studies with a NOS score >5 [37], [40], [41], [42], [43], [45], [48], [49], [54], [55] we found a meta-Mean Ratio of 1.973 (95% CI 1.63–2.38), Q value for heterogeneity 201.2, p<0.001, I2 = 92.5%.
+
+S100B in peripheral blood was significantly increased in schizophrenia patients, with an almost double level in cases than controls.
+
+During the last twenty years the S100B protein has gained attention in the research area for peripheral biomarkers of schizophrenia [66].
+
+We carried out a meta-analysis including both the studies considered in those of Schroeter et al., 2009 [23], [24] and seven new studies [39], [40], [45], [51], [52], [53], [55]. Our results confirmed the increased S100B values in cases than controls found by Schroeter et al; in addition, we could carry out sensitivity and stratified analyses in order to assess the presence of confounding factors and effect modifiers.
+
+Subgroups analyses showed that S100B levels were similarly higher in cases than controls regardless of medication status and stage of disease. Results of single studies were controversial with studies reporting higher levels in medicated than drug-free schizophrenics [45], [48], studies reporting lower levels in treated than untreated patients [38], [46], [55] and other reporting that antipsychotic treatment doesn't affect S100B blood levels [41].
+
+Moreover, S100B circulating blood levels have been reported to be both positively correlated with illness duration [52] or not correlated at all [36], [45], [46], [48], [50], [54].
+
+On the contrary, results on the relationship between S100B blood levels and psychopathology remained inconclusive, with studies reporting in turn no correlation [36], [39], [40], [23], [50], [51], [55], a negative correlation [47] and a positive correlation with negative symptomatology [38], [41], [42], [46]. In addition, patients with deficit syndrome [67] present higher S100B serum [48] and elevated serum S100B levels have linked to memory impairment [68].
+
+As psychiatric symptomatology is assessed in the various studies by using different rating scales much more standardization should be necessary. Finally, cumulative quantitative analyses of psychopathological data and blood S100B levels should have required the access to individual patient data.
+
+S100 proteins can be regarded as trophic regulation factors [69] and could have a clinical role in the assessment of brain injury [70].
+
+In animal models, elevate S100B levels may lead to greater susceptibility to environmental stimuli by means of increased plasticity at brain level, particularly hippocampus [71]. In humans, S100B may induce plasticity effects in the brain, and an imaging study demonstrated a high S100B expression in human corpus callosum [72], so opening new perspectives for future studies investigating schizophrenia and other major neuropsychiatric disorders. S100B might be regarded not only as a marker of brain damage, but the over-expression of this protein in the brain could make individuals more sensitive to environmental stressors, due to enhanced neural plasticity, so increasing the risk of developing psychiatric disorders in stressful environments.
+
+Last but not least, when interpreting results on S100B concentrations and schizophrenia a number of limitations should be considered.
+
+The extent of heterogeneity between studies was high and it remained considerable (>70%) [73] and statistically significant even after carrying out separate analyses for subgroups of studies, namely for ethnicity, medication status, disease stage, selection of cases, source and matching of controls and overall quality score.
+
+Even if subgroups analyses didn't reveal difference in the meta-estimates according to cases and controls selection, the large discrepancies between studies regarding cases and controls selection should be considered; in particular not all studies enrolled consecutive cases, community controls, age- and gender-matched controls and only 2 studies [40]; [55] clearly stated that laboratory analyses were blind about the case or control state.
+
+Heterogeneity between studies could reflect the underlining high level of etiologic heterogeneity of neuropsychiatric disorders. Giving that psychiatry diagnoses essentially rely on symptoms checklists and that neuropsychiatric disorders are complex with often overlapping symptoms, the need for diagnostic tools, that are as much possible objective and specific, strongly emerges [74], [75].
+
+A promising path of research in the effort of overcoming heterogeneity is to go beyond the classical diagnostic phenotypes and to consider diseases characteristics in a dimensional way.
+
+Regarding this, even if data on the relationship between S100B levels and psychopathology are different across studies, it is an interesting finding that most studies found a correlation with S100B plasma/serum levels and psychopatology, particularly with negative symptomatology [38], [41], [46], [48], [53], even in the case where they report no differences in blood levels of S100B in cases and controls [53].
+
+A new generation of biomarkers could be discovered if the traditional reductionist assessments based on single-pathways analyses and categorical diagnoses is overcome in order to adopt a Systems Medicine approach. System-level models of interactions between measurements carried out at tissue, cellular and molecular levels coupled with clinical features, are currently developed aimed at identifying new disease phenotypes [76]. Clinical platforms of extensively characterized patients are being developed for supporting Systems Medicine studies [77].
+
+This ideally would significantly enhance the chances to discover new complex phenotypes and, hinging on a new re-defined taxonomy, to possibly find (panel of) biomarkers with solid clinical utility for diagnosis, treatment and rehabilitation planning and prevention in the context of preventive, predictive, personalized and participatory -P4- medicine integrative strategies [78].
+
+
+PRISMA Checklist.
+
+
+(DOC)
+
+The authors have no support or funding to report.
+
+The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information files.
+
+http://www.ncbi.nlm.nih.gov/pubmed/25202915

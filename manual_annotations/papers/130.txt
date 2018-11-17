@@ -1,0 +1,163 @@
+Borderline Intracranial Hypertension Manifesting as Chronic Fatigue Syndrome Treated by Venous Sinus Stenting.
+
+Abstract
+
+Chronic fatigue syndrome and cases of idiopathic intracranial hypertension without signs of raised intracranial pressure can be impossible to distinguish without direct measurement of intracranial pressure. Moreover, lumbar puncture, the usual method of measuring intracranial pressure, can produce a similar respite from symptoms in patients with chronic fatigue as it does in idiopathic intracranial hypertension. This suggests a connection between them, with chronic fatigue syndrome representing a forme fruste variant of idiopathic intracranial hypertension. If this were the case, then treatments available for idiopathic intracranial hypertension might be appropriate for chronic fatigue. We describe a 49-year-old woman with a long and debilitating history of chronic fatigue syndrome who was targeted for investigation of intracranial pressure because of headache, then diagnosed with borderline idiopathic intracranial hypertension after lumbar puncture and cerebrospinal fluid drainage. Further investigation showed narrowings at the anterior ends of the transverse sinuses, typical of those seen in idiopathic intracranial hypertension and associated with pressure gradients. Stenting of both transverse sinuses brought about a life-changing remission of symptoms with no regression in 2 years of follow-up. This result invites study of an alternative approach to the investigation and management of chronic fatigue.
+
+Introduction
+
+The particular nature of chronic fatigue syndrome and the continuing failure to establish a cause has bred scepticism over whether it truly represents an organic disorder.1 Yet it has striking similarities with idiopathic intracranial hypertension (IIH), a condition that is also of unknown cause but one in which the physiologic disturbance can be measured.2
+3 Thus headache, which is the cardinal feature of IIH, is common in chronic fatigue. Fatigue, the defining feature of chronic fatigue syndrome, is common in IIH. Depression, dizziness, joint pains, impaired memory, and concentration are found in both4
+5 with chronic fatigue syndrome defined by symptoms alone, whereas IIH is recognized by signs of raised intracranial pressure.
+
+These similarities might not be important if one could rely on the clinical signs of raised intracranial pressure (mainly papilledema) to tease out patients with IIH from those who otherwise satisfy the criteria for chronic fatigue syndrome. However, some patients with IIH betray no signs of raised intracranial pressure, and these would be impossible to differentiate from other patients with chronic fatigue syndrome on clinical grounds because, like all patients with chronic fatigue, they would have no clinical signs.6 Rather, they would need lumbar puncture and direct measurement of intracranial pressure to establish the diagnosis.
+
+Even this would not be particularly important except that current clinical practice makes it inevitable that cases of IIH will be routinely missed in patients whose primary complaint is fatigue. In the first place there is a reluctance to look for IIH without papilledema because it is thought to be rare. Second there is the idea that lumbar puncture represents an overinvestigation of patients with a settled diagnosis of chronic fatigue syndrome.7
+
+
+The issue at stake, however, may be more than just a failure to pick up cases of IIH in patients with chronic fatigue. Is it possible the two conditions are related? Without question, IIH in its fully developed form is an easily recognizable clinical condition, readily confirmed by lumbar puncture. Nevertheless, the definition of IIH requires only that intracranial pressure is elevated and that the cause is unknown; there need be no clinical signs and no symptoms that might normally be attributed to the condition.3 Yet even this definition, which allows that IIH may appear in several guises, is arbitrary because it is based on reference values for intracranial pressure that assume a clear demarcation between what is normal and what is abnormal.
+
+These reference values are convenient for defining patient groups for academic study but provide no guidance on the diagnosis or management of patients who are suspected of having IIH but whose intracranial pressures are not high enough to match them. On this note, the criteria on intracranial pressure that define patients with IIH without papilledema are identical for those with papilledema.8 Yet these patients generally have lower pressures than patients with the syndrome in full, suggesting there is a disease spectrum in which the absence of papilledema implies a milder form.9 Could chronic fatigue syndrome therefore represent a variant of IIH further along this spectrum, effectively indistinguishable from IIH without papilledema except that intracranial pressures fail to reach the requisite criteria?
+
+We describe a case of chronic fatigue syndrome investigated and treated according to a protocol being developed at our institution, as if the patient had a disorder of raised intracranial pressure similar to IIH, with results that should encourage a reappraisal of this clinical problem.
+
+Case Report
+
+A 49-year-old woman presented to the clinic with a 20-year history of fatigue developing after a viral illness. She remembered being unable to keep awake in the first 3 months. This was followed by a level of fatigue that had fluctuated over the years, but she had rarely been able to work full time and was currently signed down by her doctor to 15 hours per week. She had put on 40 kg during this period taking her from an ideal body weight into the severely obese range (body mass index: 37). A recent endocrine assessment had been normal. There was evidence of previous exposure to Epstein-Barr virus.
+
+On presentation, she complained of being tired all the time, near constant headache, fogginess in the head, an inability to concentrate, muscle and joint aches, shortness of breath, and a sore throat.
+
+Clinical examination was unremarkable. There was no papilledema. All further blood tests were normal, and satisfying the requisite criteria,1 she was diagnosed with chronic fatigue syndrome.
+
+She refused cognitive behavioral therapy. However, under a protocol being developed at our institution for patients with chronic fatigue and headache,10
+11 she was also offered investigations to exclude raised intracranial pressure that she accepted.
+
+Computed tomographic (CT) venography showed narrowing at the anterior ends of both transverse venous sinuses (Fig. 1) consistent with raised intracranial pressure. Lumbar puncture revealed an opening pressure of 20 cm H2O. A total of 15 mL cerebrospinal fluid (CSF) were drained, after which her head became clear and her headache resolved. She then felt exceptionally well—headache free, less tired, and reduced body pains—for 4 days before reverting to her baseline state.
+
+
+Axial computed tomographic venogram. This shows narrowing at the anterior ends of both transverse sinuses (arrows).
+
+With this response to lumbar puncture she was now diagnosed with IIH (albeit in a mild form) and was offered catheter venography to establish whether there was intracranial venous hypertension with a view to venous sinus stenting. Midsagittal sinus pressure was 23 cm H2O, and there was a focal 10 cm H2O pressure at the anterior end of the transverse sinus on the side on which it was measured (Fig. 2). She subsequently had both transverse sinuses stented simultaneously in a separate procedure under general anesthesia (Figs. 3a, b).
+
+
+Catheter venogram, frontal view. Injection of radiographic contrast through a microcatheter into the superior sagittal sinus (SSS) outlines the transverse sinuses (TS), sigmoid sinuses (SS), and jugular veins (JV) on both sides and a right occipital sinus (OS). There are narrowings at the anterior ends of both transverse sinuses (arrows).
+
+
+Stenting procedure. (A) Unsubtracted frontal view shows stents (arrows) in both transverse sinuses just after deployment. (B) The same frontal view, subtracted, comprising a composite of two frames 0.5 seconds apart, following injection of radiographic contrast into the superior sagittal sinus shows the narrowed segments on venous outflow expanded by the stents (arrows).
+
+At 3-month follow-up she described occasional sharp headaches easily controlled with a small dose of amitriptyline. Her pressure headaches and fatigue had resolved. Her aches and pains were improved. She could concentrate normally. CT venography showed that the stents and venous sinuses were all widely patent (Fig. 4). Lumbar puncture revealed an opening pressure of 19 cm H2O.
+
+
+Axial computed tomographic venogram. This shows widely patent stents in both transverse sinuses (arrows).
+
+At 12- and 24-month follow-up she was still taking 20 mg amitriptyline at night for minor residual headaches. There had been no recurrence of fatigue or other symptoms. She was working full time and had lost 9 kg in weight.
+
+Discussion
+
+Similarities between chronic fatigue syndrome and IIH have prompted us to look specifically for IIH in cases of chronic fatigue syndrome where headache is a prominent symptom.10
+11
+12 This is on the basis that there are no particular features of a headache that exclude raised intracranial pressure and that IIH may be associated with no clinical signs.8 Raised intracranial pressure in these patients therefore can only be ruled out by direct measurement.
+
+Most of the patients we have investigated in this way have had intracranial pressures that fail to make the cut-off for IIH, but a number have been borderline and in some the intracranial hypertension has been unequivocal.10 Regardless of the absolute value of the CSF pressure, however, we have found that most respond clinically to CSF withdrawal,11
+12 an observation suggesting that a disturbance of intracranial pressure is a critical component of their clinical condition.
+
+The patient we describe in this report is a typical example. An opening pressure of 20 cm H2O in someone without papilledema might provoke argument about whether or not this was outside the normal range, but the response to CSF withdrawal links headache (and other symptoms) to intracranial pressure and supports a diagnosis of IIH.8
+
+
+IIH is still a condition of unknown etiology, but there is no question that it is an organic syndrome with a hierarchy of treatment options that can be applied according to clinical need. Venous sinus stenting was first put forward as an alternative to other invasive procedures in cases of severe refractory IIH, that is, in patients with severe symptoms, sometimes at risk of blindness.13 Since then, however, its application in IIH has widened as experience has shown that it is no less effective than alternative surgical approaches and may be safer.14
+
+
+By definition, chronic fatigue syndrome cannot present in an equivalent acute form as is sometimes seen in IIH where a patient can be rendered blind over the course of days without treatment. Yet it still represents a condition that can be chronically and severely disabling, a condition in which the application of the more invasive procedures used to treat resistant IIH might be appropriate.2
+7
+
+
+With respect to the treatment that might be offered to patients whose primary symptom is fatigue and specifically with regard to venous sinus stenting, there has been debate over whether the transverse sinus narrowing seen in IIH represents the cause of raised intracranial pressure or whether it is simply an epiphenomenon, that is, the result of compression of the venous sinuses by raised intracranial pressure from a cause still unknown.15 The debate is unresolved, but in the meantime, stenting the venous narrowing has been shown to bring clear clinical benefit.13
+14
+
+
+If this case adds to the debate, it is notable that the relief of symptoms after stenting was profound, yet there was only a minimal reduction in CSF pressure at follow-up. Does this simply mean that very minor changes in intracranial pressure can give rise to significant symptoms? Or does it reinforce the notion that CSF pressure is of secondary importance, inevitably influenced by intracranial venous pressure, but leaving intracranial venous pressure itself as the principal determinant of the clinical picture?16
+
+
+In this latter scenario, with intracranial venous hypertension as the primary pathology, high CSF pressures and a positive response to CSF drainage would be no more than clues to the presence of underlying venous disease but equally clues that may be absent. Thus it might be inappropriate to fix on a threshold value of CSF pressure that would exclude problems with cranial venous outflow or even to require a response to CSF withdrawal in this situation.16 A positive clinical response to CSF withdrawal, however, would be encouragement to pursue investigation of venous pathology even in patients whose opening CSF pressures fell well within the normal range.
+
+Conclusion
+
+The notion that chronic fatigue syndrome might represent a disorder of intracranial pressure similar to IIH is new in the medical literature and challenges preconceptions regarding the boundaries between normal and abnormal intracranial pressure. Although the cause of IIH is equally unknown or debated, the specifics of this case also raise questions regarding the relationship between intracranial venous pressures and CSF pressure and the relative importance of each in the development of symptoms. The unequivocally favorable outcome suggests that this is an area ripe for further study.
+
+References
+
+Chronic fatigue syndrome and cases of idiopathic intracranial hypertension without signs of raised intracranial pressure can be impossible to distinguish without direct measurement of intracranial pressure. Moreover, lumbar puncture, the usual method of measuring intracranial pressure, can produce a similar respite from symptoms in patients with chronic fatigue as it does in idiopathic intracranial hypertension. This suggests a connection between them, with chronic fatigue syndrome representing a forme fruste variant of idiopathic intracranial hypertension. If this were the case, then treatments available for idiopathic intracranial hypertension might be appropriate for chronic fatigue. We describe a 49-year-old woman with a long and debilitating history of chronic fatigue syndrome who was targeted for investigation of intracranial pressure because of headache, then diagnosed with borderline idiopathic intracranial hypertension after lumbar puncture and cerebrospinal fluid drainage. Further investigation showed narrowings at the anterior ends of the transverse sinuses, typical of those seen in idiopathic intracranial hypertension and associated with pressure gradients. Stenting of both transverse sinuses brought about a life-changing remission of symptoms with no regression in 2 years of follow-up. This result invites study of an alternative approach to the investigation and management of chronic fatigue.
+
+The particular nature of chronic fatigue syndrome and the continuing failure to establish a cause has bred scepticism over whether it truly represents an organic disorder.1 Yet it has striking similarities with idiopathic intracranial hypertension (IIH), a condition that is also of unknown cause but one in which the physiologic disturbance can be measured.2
+3 Thus headache, which is the cardinal feature of IIH, is common in chronic fatigue. Fatigue, the defining feature of chronic fatigue syndrome, is common in IIH. Depression, dizziness, joint pains, impaired memory, and concentration are found in both4
+5 with chronic fatigue syndrome defined by symptoms alone, whereas IIH is recognized by signs of raised intracranial pressure.
+
+These similarities might not be important if one could rely on the clinical signs of raised intracranial pressure (mainly papilledema) to tease out patients with IIH from those who otherwise satisfy the criteria for chronic fatigue syndrome. However, some patients with IIH betray no signs of raised intracranial pressure, and these would be impossible to differentiate from other patients with chronic fatigue syndrome on clinical grounds because, like all patients with chronic fatigue, they would have no clinical signs.6 Rather, they would need lumbar puncture and direct measurement of intracranial pressure to establish the diagnosis.
+
+Even this would not be particularly important except that current clinical practice makes it inevitable that cases of IIH will be routinely missed in patients whose primary complaint is fatigue. In the first place there is a reluctance to look for IIH without papilledema because it is thought to be rare. Second there is the idea that lumbar puncture represents an overinvestigation of patients with a settled diagnosis of chronic fatigue syndrome.7
+
+
+The issue at stake, however, may be more than just a failure to pick up cases of IIH in patients with chronic fatigue. Is it possible the two conditions are related? Without question, IIH in its fully developed form is an easily recognizable clinical condition, readily confirmed by lumbar puncture. Nevertheless, the definition of IIH requires only that intracranial pressure is elevated and that the cause is unknown; there need be no clinical signs and no symptoms that might normally be attributed to the condition.3 Yet even this definition, which allows that IIH may appear in several guises, is arbitrary because it is based on reference values for intracranial pressure that assume a clear demarcation between what is normal and what is abnormal.
+
+These reference values are convenient for defining patient groups for academic study but provide no guidance on the diagnosis or management of patients who are suspected of having IIH but whose intracranial pressures are not high enough to match them. On this note, the criteria on intracranial pressure that define patients with IIH without papilledema are identical for those with papilledema.8 Yet these patients generally have lower pressures than patients with the syndrome in full, suggesting there is a disease spectrum in which the absence of papilledema implies a milder form.9 Could chronic fatigue syndrome therefore represent a variant of IIH further along this spectrum, effectively indistinguishable from IIH without papilledema except that intracranial pressures fail to reach the requisite criteria?
+
+We describe a case of chronic fatigue syndrome investigated and treated according to a protocol being developed at our institution, as if the patient had a disorder of raised intracranial pressure similar to IIH, with results that should encourage a reappraisal of this clinical problem.
+
+A 49-year-old woman presented to the clinic with a 20-year history of fatigue developing after a viral illness. She remembered being unable to keep awake in the first 3 months. This was followed by a level of fatigue that had fluctuated over the years, but she had rarely been able to work full time and was currently signed down by her doctor to 15 hours per week. She had put on 40 kg during this period taking her from an ideal body weight into the severely obese range (body mass index: 37). A recent endocrine assessment had been normal. There was evidence of previous exposure to Epstein-Barr virus.
+
+On presentation, she complained of being tired all the time, near constant headache, fogginess in the head, an inability to concentrate, muscle and joint aches, shortness of breath, and a sore throat.
+
+Clinical examination was unremarkable. There was no papilledema. All further blood tests were normal, and satisfying the requisite criteria,1 she was diagnosed with chronic fatigue syndrome.
+
+She refused cognitive behavioral therapy. However, under a protocol being developed at our institution for patients with chronic fatigue and headache,10
+11 she was also offered investigations to exclude raised intracranial pressure that she accepted.
+
+Computed tomographic (CT) venography showed narrowing at the anterior ends of both transverse venous sinuses (Fig. 1) consistent with raised intracranial pressure. Lumbar puncture revealed an opening pressure of 20 cm H2O. A total of 15 mL cerebrospinal fluid (CSF) were drained, after which her head became clear and her headache resolved. She then felt exceptionally well—headache free, less tired, and reduced body pains—for 4 days before reverting to her baseline state.
+
+
+Axial computed tomographic venogram. This shows narrowing at the anterior ends of both transverse sinuses (arrows).
+
+With this response to lumbar puncture she was now diagnosed with IIH (albeit in a mild form) and was offered catheter venography to establish whether there was intracranial venous hypertension with a view to venous sinus stenting. Midsagittal sinus pressure was 23 cm H2O, and there was a focal 10 cm H2O pressure at the anterior end of the transverse sinus on the side on which it was measured (Fig. 2). She subsequently had both transverse sinuses stented simultaneously in a separate procedure under general anesthesia (Figs. 3a, b).
+
+
+Catheter venogram, frontal view. Injection of radiographic contrast through a microcatheter into the superior sagittal sinus (SSS) outlines the transverse sinuses (TS), sigmoid sinuses (SS), and jugular veins (JV) on both sides and a right occipital sinus (OS). There are narrowings at the anterior ends of both transverse sinuses (arrows).
+
+
+Stenting procedure. (A) Unsubtracted frontal view shows stents (arrows) in both transverse sinuses just after deployment. (B) The same frontal view, subtracted, comprising a composite of two frames 0.5 seconds apart, following injection of radiographic contrast into the superior sagittal sinus shows the narrowed segments on venous outflow expanded by the stents (arrows).
+
+At 3-month follow-up she described occasional sharp headaches easily controlled with a small dose of amitriptyline. Her pressure headaches and fatigue had resolved. Her aches and pains were improved. She could concentrate normally. CT venography showed that the stents and venous sinuses were all widely patent (Fig. 4). Lumbar puncture revealed an opening pressure of 19 cm H2O.
+
+
+Axial computed tomographic venogram. This shows widely patent stents in both transverse sinuses (arrows).
+
+At 12- and 24-month follow-up she was still taking 20 mg amitriptyline at night for minor residual headaches. There had been no recurrence of fatigue or other symptoms. She was working full time and had lost 9 kg in weight.
+
+Similarities between chronic fatigue syndrome and IIH have prompted us to look specifically for IIH in cases of chronic fatigue syndrome where headache is a prominent symptom.10
+11
+12 This is on the basis that there are no particular features of a headache that exclude raised intracranial pressure and that IIH may be associated with no clinical signs.8 Raised intracranial pressure in these patients therefore can only be ruled out by direct measurement.
+
+Most of the patients we have investigated in this way have had intracranial pressures that fail to make the cut-off for IIH, but a number have been borderline and in some the intracranial hypertension has been unequivocal.10 Regardless of the absolute value of the CSF pressure, however, we have found that most respond clinically to CSF withdrawal,11
+12 an observation suggesting that a disturbance of intracranial pressure is a critical component of their clinical condition.
+
+The patient we describe in this report is a typical example. An opening pressure of 20 cm H2O in someone without papilledema might provoke argument about whether or not this was outside the normal range, but the response to CSF withdrawal links headache (and other symptoms) to intracranial pressure and supports a diagnosis of IIH.8
+
+
+IIH is still a condition of unknown etiology, but there is no question that it is an organic syndrome with a hierarchy of treatment options that can be applied according to clinical need. Venous sinus stenting was first put forward as an alternative to other invasive procedures in cases of severe refractory IIH, that is, in patients with severe symptoms, sometimes at risk of blindness.13 Since then, however, its application in IIH has widened as experience has shown that it is no less effective than alternative surgical approaches and may be safer.14
+
+
+By definition, chronic fatigue syndrome cannot present in an equivalent acute form as is sometimes seen in IIH where a patient can be rendered blind over the course of days without treatment. Yet it still represents a condition that can be chronically and severely disabling, a condition in which the application of the more invasive procedures used to treat resistant IIH might be appropriate.2
+7
+
+
+With respect to the treatment that might be offered to patients whose primary symptom is fatigue and specifically with regard to venous sinus stenting, there has been debate over whether the transverse sinus narrowing seen in IIH represents the cause of raised intracranial pressure or whether it is simply an epiphenomenon, that is, the result of compression of the venous sinuses by raised intracranial pressure from a cause still unknown.15 The debate is unresolved, but in the meantime, stenting the venous narrowing has been shown to bring clear clinical benefit.13
+14
+
+
+If this case adds to the debate, it is notable that the relief of symptoms after stenting was profound, yet there was only a minimal reduction in CSF pressure at follow-up. Does this simply mean that very minor changes in intracranial pressure can give rise to significant symptoms? Or does it reinforce the notion that CSF pressure is of secondary importance, inevitably influenced by intracranial venous pressure, but leaving intracranial venous pressure itself as the principal determinant of the clinical picture?16
+
+
+In this latter scenario, with intracranial venous hypertension as the primary pathology, high CSF pressures and a positive response to CSF drainage would be no more than clues to the presence of underlying venous disease but equally clues that may be absent. Thus it might be inappropriate to fix on a threshold value of CSF pressure that would exclude problems with cranial venous outflow or even to require a response to CSF withdrawal in this situation.16 A positive clinical response to CSF withdrawal, however, would be encouragement to pursue investigation of venous pathology even in patients whose opening CSF pressures fell well within the normal range.
+
+The notion that chronic fatigue syndrome might represent a disorder of intracranial pressure similar to IIH is new in the medical literature and challenges preconceptions regarding the boundaries between normal and abnormal intracranial pressure. Although the cause of IIH is equally unknown or debated, the specifics of this case also raise questions regarding the relationship between intracranial venous pressures and CSF pressure and the relative importance of each in the development of symptoms. The unequivocally favorable outcome suggests that this is an area ripe for further study.
+
+http://www.ncbi.nlm.nih.gov/pubmed/26623235

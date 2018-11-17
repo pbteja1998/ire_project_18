@@ -1,0 +1,505 @@
+Metabolic features of chronic fatigue syndrome.
+
+Significance
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+cDepartment of Pediatrics, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+dDepartment of Pathology, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+eDepartment of Neurosciences, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+Author contributions: R.K.N., N.N., W.A., and E.G. designed research; R.K.N., J.C.N., K.L., A.T.B., L.W., A.B., N.N., W.A., and E.G. performed research; R.K.N., J.C.N., K.L., A.T.B., W.A.A., and L.W. contributed new reagents/analytic tools; R.K.N. wrote and managed the human subjects protocol; J.C.N. recruited subjects and developed methods; K.L. developed methods; A.T.B. created the pathway database and developed new bioinformatic methods; W.A.A. prepared the Cytoscape pathway visualizations; A.B. coordinated patient recruitment, medical histories, and clinical data; N.N., W.A., and E.G. identified and recruited patients; R.K.N., J.C.N., K.L., A.T.B., N.N., and E.G. analyzed data; and R.K.N., J.C.N., K.L., A.T.B., and W.A.A. wrote the paper.
+
+Chronic fatigue syndrome is a multisystem disease that causes long-term pain and disability. It is difficult to diagnose because of its protean symptoms and the lack of a diagnostic laboratory test. We report that targeted, broad-spectrum metabolomics of plasma not only revealed a characteristic chemical signature but also revealed an unexpected underlying biology. Metabolomics showed that chronic fatigue syndrome is a highly concerted hypometabolic response to environmental stress that traces to mitochondria and was similar to the classically studied developmental state of dauer. This discovery opens a fresh path for the rational development of new therapeutics and identifies metabolomics as a powerful tool to identify the chemical differences that contribute to health and disease.
+
+Abstract
+
+More than 2 million people in the United States have myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). We performed targeted, broad-spectrum metabolomics to gain insights into the biology of CFS. We studied a total of 84 subjects using these methods. Forty-five subjects (n = 22 men and 23 women) met diagnostic criteria for ME/CFS by Institute of Medicine, Canadian, and Fukuda criteria. Thirty-nine subjects (n = 18 men and 21 women) were age- and sex-matched normal controls. Males with CFS were 53 (±2.8) y old (mean ± SEM; range, 21–67 y). Females were 52 (±2.5) y old (range, 20–67 y). The Karnofsky performance scores were 62 (±3.2) for males and 54 (±3.3) for females. We targeted 612 metabolites in plasma from 63 biochemical pathways by hydrophilic interaction liquid chromatography, electrospray ionization, and tandem mass spectrometry in a single-injection method. Patients with CFS showed abnormalities in 20 metabolic pathways. Eighty percent of the diagnostic metabolites were decreased, consistent with a hypometabolic syndrome. Pathway abnormalities included sphingolipid, phospholipid, purine, cholesterol, microbiome, pyrroline-5-carboxylate, riboflavin, branch chain amino acid, peroxisomal, and mitochondrial metabolism. Area under the receiver operator characteristic curve analysis showed diagnostic accuracies of 94% [95% confidence interval (CI), 84–100%] in males using eight metabolites and 96% (95% CI, 86–100%) in females using 13 metabolites. Our data show that despite the heterogeneity of factors leading to CFS, the cellular metabolic response in patients was homogeneous, statistically robust, and chemically similar to the evolutionarily conserved persistence response to environmental stress known as dauer.
+
+Results
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+cDepartment of Pediatrics, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+dDepartment of Pathology, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+eDepartment of Neurosciences, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+Author contributions: R.K.N., N.N., W.A., and E.G. designed research; R.K.N., J.C.N., K.L., A.T.B., L.W., A.B., N.N., W.A., and E.G. performed research; R.K.N., J.C.N., K.L., A.T.B., W.A.A., and L.W. contributed new reagents/analytic tools; R.K.N. wrote and managed the human subjects protocol; J.C.N. recruited subjects and developed methods; K.L. developed methods; A.T.B. created the pathway database and developed new bioinformatic methods; W.A.A. prepared the Cytoscape pathway visualizations; A.B. coordinated patient recruitment, medical histories, and clinical data; N.N., W.A., and E.G. identified and recruited patients; R.K.N., J.C.N., K.L., A.T.B., N.N., and E.G. analyzed data; and R.K.N., J.C.N., K.L., A.T.B., and W.A.A. wrote the paper.
+
+Chronic fatigue syndrome is a multisystem disease that causes long-term pain and disability. It is difficult to diagnose because of its protean symptoms and the lack of a diagnostic laboratory test. We report that targeted, broad-spectrum metabolomics of plasma not only revealed a characteristic chemical signature but also revealed an unexpected underlying biology. Metabolomics showed that chronic fatigue syndrome is a highly concerted hypometabolic response to environmental stress that traces to mitochondria and was similar to the classically studied developmental state of dauer. This discovery opens a fresh path for the rational development of new therapeutics and identifies metabolomics as a powerful tool to identify the chemical differences that contribute to health and disease.
+
+More than 2 million people in the United States have myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). We performed targeted, broad-spectrum metabolomics to gain insights into the biology of CFS. We studied a total of 84 subjects using these methods. Forty-five subjects (n = 22 men and 23 women) met diagnostic criteria for ME/CFS by Institute of Medicine, Canadian, and Fukuda criteria. Thirty-nine subjects (n = 18 men and 21 women) were age- and sex-matched normal controls. Males with CFS were 53 (±2.8) y old (mean ± SEM; range, 21–67 y). Females were 52 (±2.5) y old (range, 20–67 y). The Karnofsky performance scores were 62 (±3.2) for males and 54 (±3.3) for females. We targeted 612 metabolites in plasma from 63 biochemical pathways by hydrophilic interaction liquid chromatography, electrospray ionization, and tandem mass spectrometry in a single-injection method. Patients with CFS showed abnormalities in 20 metabolic pathways. Eighty percent of the diagnostic metabolites were decreased, consistent with a hypometabolic syndrome. Pathway abnormalities included sphingolipid, phospholipid, purine, cholesterol, microbiome, pyrroline-5-carboxylate, riboflavin, branch chain amino acid, peroxisomal, and mitochondrial metabolism. Area under the receiver operator characteristic curve analysis showed diagnostic accuracies of 94% [95% confidence interval (CI), 84–100%] in males using eight metabolites and 96% (95% CI, 86–100%) in females using 13 metabolites. Our data show that despite the heterogeneity of factors leading to CFS, the cellular metabolic response in patients was homogeneous, statistically robust, and chemically similar to the evolutionarily conserved persistence response to environmental stress known as dauer.
+
+Chronic fatigue syndrome (CFS) is a complex, multiorgan system disease for which no single diagnostic test yet exists. The disease is characterized by profound fatigue and disability lasting for at least 6 mo, episodes of cognitive dysfunction, sleep disturbance, autonomic abnormalities, chronic or intermittent pain syndromes, microbiome abnormalities (1), cerebral cytokine dysregulation (2), natural killer cell dysfunction (3), and other symptoms that are made worse by exertion of any kind (4). The Institute of Medicine (IOM) recently published an update of the diagnostic criteria recommended for CFS (4). These are listed in Box 1.
+
+Complex diseases like CFS are often difficult and expensive to diagnose. Although individual tests may be affordable and possibly covered by medical insurance, many patients undergo a diagnostic odyssey that results in substantial personal expenditures that can exceed $100,000 over years of searching, absence from the workplace, and significant reductions in quality of life. The societal cost of CFS is estimated to be up to $24 billion annually (4). Health care professionals are also frustrated by the lack of an objective technology that can assist with diagnosis. Attempts to use a small number of biomarkers, whether analytes in blood, cerebrospinal fluid, or a handful of genetic loci, have not yielded diagnostically useful tests for CFS.
+
+Metabolomics has several advantages over genomics for the diagnosis of complex chronic disease and for the growing interest in precision medicine (5). First, fewer than 2,000 metabolites constitute the majority of the parent molecules in the blood that are used for cell-to-cell communication and metabolism, compared with 6 billion bases in the diploid human genome. Second, metabolites reflect the current functional state of the individual. Collective cellular chemistry represents the functional interaction of genes and environment. This is metabolism. In contrast, the genome represents an admixture of ancestral genotypes that were selected for fitness in ancestral environments. The metabolic state of an individual at the time of illness is produced by both current conditions, age, and the aggregate history, timing, and magnitude of exposures to physical and emotional stress, trauma, diet, exercise, infections, and the microbiome recorded as metabolic memory (6, 7). Analysis of metabolites may provide a more technically and bioinformatically tractable, physiologically relevant, chemically comprehensive, and cost-effective method of diagnosis of complex chronic diseases. In addition, because metabolomics provides direct small-molecule information, the results can provide immediately actionable treatment information using readily available small-molecule nutrients, cofactors, and lifestyle interventions. Our results show that CFS has an objectively identifiable chemical signature in both men and women and that targeted metabolomics can be used to uncover biological insights that may prove useful for both diagnosis and personalized treatment.
+Demographics. 
+
+
+
+The 84 subjects in this study were recruited from 51 zip codes around the United States and Canada (SI Appendix, Fig. S1). Eighty subjects were from California. All CFS subjects met the 2015 diagnostic criteria published by the IOM (4), the Canadian working group (8), and Fukuda et al. (9). The IOM criteria are listed in Box 1. Although the IOM has suggested the use of the new name, “systemic exertion intolerance disease” (SEID), we will use the term “CFS” to refer to the same disease meeting the above criteria. The average age of men with CFS in this study was 53 (±2.8) (Table 1). The average age of the women with CFS was 52 (±2.5). The average age of onset was 30 (±2.6) y for the men and 33 (±2.3) y for the women. The average duration of illness was 21 (±3.0) y for men and 17 (±2.3) y for women. The Karnofsky quality of life performance score (10) for men was 62 (±3.2) and 54 (±3.3) for women (Table 1).
+
+Demographics
+A Homogeneous Metabolic Response to Heterogeneous Triggers. 
+
+
+
+Although the current study was not designed to examine the role of different triggering events, we collected some basic data. Possible triggering events fell broadly into five groups: biological (viral, bacterial, fungal/mold, and parasitic infections), chemical exposures, physical trauma, psychological trauma, and unknown. The specific biological and chemical exposures and the precise nature of the physical and psychological traumas were diverse, numbering more than a dozen in just this small sample. Several patients had multiple triggers that converged in the same year. Although biological triggers were most common, no single infectious agent or other stressor was statistically more prevalent, and comprehensive testing for biological exposures in the control group was beyond the scope of this study.
+
+Despite the heterogeneity of triggers, the cellular response to these environmental stressors in patients who developed CFS was homogeneous and statistically robust. These data supported the notion that it is the unified cellular response, and not the specific trigger, that lies at the root of the metabolic features of CFS.
+Metabolomics Revealed a Chemical Signature of CFS. 
+
+
+
+Multivariate analysis was used to identify the pattern of chemical abnormalities in CFS compared with healthy controls. In the three-dimensional plot of the results (Fig. 1 A and B), we found that both males and females with chronic fatigue had a chemical signature that was distinct from healthy controls. The relative pathway impact and statistical significance were visualized in Fig. 1 C and D. Diagnostic and personalized metabolites are illustrated in Fig. 1E. The nine biochemical pathway disturbances that were common to both males and females with CFS were visualized in a Venn diagram (Fig. 1E). Eleven pathways were represented by metabolite disturbances that showed a degree of sex specificity. The biochemical pathways and metabolites that were altered in CFS were then ranked and tabulated (Tables 2 and ​and33 and SI Appendix, Figs. S2 A and B and S3 A and B) and visualized by Cytoscape pathway analysis (SI Appendix, Fig. S4 A and B). The dominant finding from the pathway analysis was that sphingolipid abnormalities constituted close to 50% of all of the metabolic disturbances associated with CFS in both males and females. Phospholipid abnormalities constituted 16% of the metabolic disturbances in males and 26% in females (Tables 2 and ​and33).
+
+Metabolomic diagnosis of CFS. (A) Males. (B) Females. Multivariate analysis using PLSDA clearly distinguished controls and patients with chronic fatigue in both males and females. (C) Biochemical pathway impact analysis—males, The top five pathway disturbances in males were responsible for 82% of the metabolic impact. These were sphingolipids (49%); phospholipids (16%); P5C, Arg, and proline (Pro) (7%); glycosphingolipids (6%); and cholesterol (4%). (D) Females. The top six pathway disturbances in females were responsible for 83% of the metabolic impact. These were sphingolipids (35%); phospholipids (26%); glycosphingolipids (9%); purines (5%); microbiome (5%); and P5C, Arg, and Pro (3%). (E) Metabolic pathways disturbed in CFS. A total of 20 pathways were disturbed in males and females with CFS. Nine of these were common to both, and 11 showed gender differences. (F) Diagnostic and individualized metabolite abnormalities—females. The number of abnormal metabolites that were diagnostic for CFS, as determined by multivariate analysis, is indicated in green. The number of metabolites that are abnormal (≥2 SD above or below the control mean) but are not specifically characteristic of CFS is indicated in red.
+
+Biochemical pathway abnormalities in CFS, males
+
+Biochemical pathway abnormalities in CFS, females
+Metabolites Correlated with the Clinical Severity of CFS. 
+
+
+
+We next examined how each of the top 25 metabolite abnormalities was related to clinical functional status by Spearman correlation analysis. Each of these metabolites was found to have false discovery rates (FDRs) of less than 10% (SI Appendix, Table S1 A and B). A list of the top 61 metabolites appears in SI Appendix, Table S1 C and D. Twenty-one of the top 25 (84%) discriminating metabolites were low. These findings were consistent with the notion that CFS is a coordinated hypometabolic state.
+Sphingolipids and Glycosphingolipids Were Decreased. 
+
+
+
+The largest disturbances in the chemical signature of CFS were produced by widespread decrease in plasma sphingo- and glycosphingolipids (Fig. 1 C and D and Tables 2 and ​and3).3). Thirty molecular species of sphingolipids were decreased in males, and 21 were decreased in females. Sphingolipid and glycosphingolipid abnormalities explained 55% of the metabolic impact in males and 44% in females (Tables 2 and ​and3).3). Measured glycosphingolipids included glucosyl- (GC), dihexosyl- (DHC), and trihexosyl- (THC) ceramides. In males, over 50% (16/30) of the sphingolipids that were decreased were ceramides, and 47% (14/30) were sphingomyelin species. In females, 86% (18/21) were ceramides and 14% (3/21) were sphingomyelins in females (SI Appendix, Table S1 A–D). In general, females with chronic fatigue retained more sphingomyelin species in the normal range than males. The low sphingolipid profile in CFS appears to be an adaptive response that is opposite to the increased sphingolipids observed in metabolic syndrome (11) and the acute cell danger response (CDR) (7) and ultimately may represent a fundamental response to oppose the spread of persistent viral and intracellular bacterial infections.
+Phospholipids Were Decreased. 
+
+
+
+Several plasma phosphatidylcholine (PC) phospholipids were decreased in both males and females with CFS (Tables 2 and ​and3).3). In contrast, we found that a very specific molecular species of phospholipid, PC(18:1/22:6), containing the essential omega 3 fatty acid docosahexaenoic acid (DHA, C22:6) and oleic acid (C18:1) was increased. This pattern is opposite to that seen in response to acute infection and the CDR (12) and metabolic syndrome (13).
+Purines Were Decreased. 
+
+
+
+Plasma uric acid was decreased in males with CFS (Table 2, Males). Uric acid is the end product of purine metabolism and an important antioxidant molecule (14, 15). Plasma adenosine was decreased in females (Table 3, Females). Plasma adenosine is produced from ATP and ADP released from cell surface ectonucleotidases, and by S-adenosylhomocysteine hydrolase (SAHH), during acute infection, inflammation, or stress (16, 17). The decrease in plasma purines in CFS is consistent with decreased synthesis and/or turnover (flux) of ATP and GTP and decreased reserve capacity caused in part by a generalized decrease in the ability to restore high-energy phosphate stores after exertion.
+Aromatic Amino Acid Metabolites from the Microbiome Were Decreased. 
+
+
+
+Plasma 4-hydroxyphenyllactic acid (HPLA) was decreased in males with CFS (Table 2, Males). Plasma phenyllactic acid (PLA) was decreased in females (Table 3, Females). HPLA is a microbiome metabolite of tyrosine. PLA is a microbiome metabolite of phenylalanine. This pattern is also opposite of what is found during acute inflammation and infection (18).
+Flavin Adenine Dinucleotide (FAD) Was Decreased. 
+
+
+
+Plasma FAD was decreased in both males and females with CFS (Tables 2 and ​and3).3). FAD is synthesized from riboflavin (vitamin B2) and ATP. The gastrointestinal absorption, distribution, and transporter-mediated uptake of FAD are carefully regulated during health and disease (19). FAD is mobilized from tissues, increased in the plasma, and renal secretion is increased under conditions of stress or infection (20). FAD is an important cofactor for fatty acid oxidation and sterol synthesis and is required for activation and oxidation of vitamin B6 (pyridoxine); lipoic acid metabolism (E3 subunit) needed for pyruvate, alpha-ketoglutarate, and branched chain amino acid oxidation; vitamin A activation; 5-methyltetrahydrofolic acid synthesis; niacin and NAD synthesis; and glutathione reduction. Functional deficiency of riboflavin can be produced by dietary and environmental factors (21). Severe riboflavin deficiency can present with a plasma acyl-carnitine pattern similar to multiple acyl-CoA dehydrogenase deficiency (MADD), also known as glutaric aciduria type II (GAII) (22). GAII-like acyl-carnitine abnormalities did not appear in CFS patients.
+Cholesterol and Bile Acid Synthesis Through the Lathosterol Pathway Were Decreased. 
+
+
+
+Plasma lathosterol was decreased in both males and females with CFS (Tables 2 and ​and3).3). Total plasma cholesterol, desmosterol, cortisol, and aldosterone were normal in both males and females with CFS. Two pathways are used in mammalian cells to synthesize cholesterol. These are the Kandutsch–Russell (K–R) pathway through lathosterol and the Bloch pathway through desmosterol (23). The K–R pathway is preferred for cholesterol synthesis in the brain, heart, skeletal muscle, and skin, making up as much as 80% of cholesterol synthesis in these tissues under baseline conditions (23). The Bloch pathway is normally used preferentially in certain metabolic stress-response tissues like the gonads, spleen, adrenal glands, kidney, and adipose tissue. Under baseline conditions of health, the liver uses a nearly equal blend of Bloch and K–R pathways. Our data are consistent with increased flux through the desmosterol pathway to maintain normal cellular levels of cholesterol. The desmosterol pathway corresponds to the stress-inducible arm of de novo cholesterol and sterol synthesis.
+
+Plasma chenodeoxycholic acid (CDCA) was decreased in females (Table 3, Females). CDCA is a primary bile acid made from cholesterol. Decreased cholesterol flux can result in decreased substrate for bile acid synthesis needed for normal fat digestion and microbiome signaling (24). The absence of adequate bile acid delivery can lead to a loss in intestinal mucosal integrity and leaky gut via a cascade of events stemming in part from disrupted farnesoid X receptor signaling (25).
+Pyrroline-5-Carboxylate and Arginine Were Increased. 
+
+
+
+Pyrroline-5-carboxylic acid (P5C) was increased in both males and females with CFS (Tables 2 and ​and3).3). P5C production is a well-studied response to stress in plants (26) and mammals (27, 28). P5C can be produced by the stress-induced oxidation of proline and hydroxyproline from collagen turnover via the enzyme proline oxidase or from glutamate oxidation via P5C synthase (P5CS). P5C is converted to glutamate semialdehyde (GSA) nonenzymatically, then to ornithine under stress conditions. This reaction is catalyzed by what is often considered the reverse reaction of the mitochondrial enzyme, ornithine amino transferase (OAT). Hydroxyproline was increased in females with chronic fatigue (Table 3, Females). Hydroxyproline is converted to proline, then to P5C and GSA, which is then used as the precursor for arginine (Arg) synthesis from ornithine in the epithelium of the small intestine under conditions of decreased calorie or protein intake (28). Another metabolic fate of hydroxyproline is glyoxylate, which can be transaminated in mitochondria to produce glycine and metabolized in peroxisomes to oxalate and peroxide for cell defense and innate and antiviral immunity (29).
+
+Plasma Arg levels were also increased in chronic fatigue males and females. Arg is both a source of urea by arginase in the urea cycle, but more importantly, it is an activator of N-acetylglutamate (NAG) synthesis. NAG is the obligate activator of carbamoyl phosphate synthetase I (CPS-I). CPS-I is required for the introduction of ammonia into the urea cycle via the synthesis of citrulline from ornithine and carbamoylphosphate by ornithine transcarbamoylase (OTC). Citrulline, ornithine, proline, glutamine, and glutamate levels were all normal. Under stress conditions, proline from collagen breakdown is shunted to Arg synthesis to spare nitrogen from other amino acids and limit wasting during periods of decreased calorie and or protein intake. Increased Arg might theoretically be used for nitric oxide (NO) synthesis and contribute to vascular headaches or migraines, however the linkage between Arg and migraine is complex (30), and this use would run counter to the nitrogen sparing use of Arg needed during times of environmental stress. Another metabolic fate of Arg is the NO inhibitor, asymmetric dimethylarginine (ADMA). CFS patients did not have an increase in plasma ADMA. Increased Arg is associated with a decreased risk of infection after operative stress (31) and is used to synthesize the antimicrobial molecule agmatine under conditions of active infection (32).
+Branch Chain Amino Acid Metabolic Intermediates Were Decreased. 
+
+
+
+2-Hydoxyisocaproic acid (HICA) is derived from alpha ketoisocaproic acid, the transamination product of leucine. HICA was decreased in both males and females with CFS. This is consistent with decreased gut absorption, increased renal excretion, increased mitochondrial oxidation, or a combination of the three. HICA has antibacterial and antifungal activity (33).
+Diagnostic vs. Personalized Metabolic Disturbances. 
+
+
+
+We classified all of the metabolite abnormalities in each patient as either being one of the abnormalities that defined CFS patients as a group (Fig. 1F, Tables 2 and ​and3,3, and SI Appendix, Table S1 A–D) or as abnormalities that differed from controls but did not contribute to the CFS diagnosis. CFS patients had an average of 10 (±1.0) metabolite abnormalities that contributed to the CFS diagnosis and 30 (±2.0) metabolites that were abnormal but noncontributory for purposes of CFS diagnosis (Fig. 1F and SI Appendix, Fig. S5). This means that 75% of the chemical abnormalities identified by metabolomic analysis were personalized, and 25% provided diagnostic group information. Our clinical experience suggests that symptom improvements can be achieved more reliably by addressing the personalized abnormalities rather than by assuming a chemical abnormality without actual measurement.
+Assessment of Metabolomics as a Diagnostic Test in CFS. 
+
+
+
+After identifying over 60 metabolites that differed between CFS and controls in both males and females (SI Appendix, Table S1 A–D), we set out to find smaller sets of analytes that could be used for diagnosis. Samples of 5–15 of the top 60 metabolites were manually selected to broadly interrogate several of the discriminating biochemical pathways (Tables 2 and ​and3)3) in males and females. The performance of each classifier set of metabolites was then tested by area under the receiver operator characteristic (AUROC) curve analysis. We found that the exact specification of metabolites in the classifier was flexible. Using both forward selection and backward elimination methods (34), we found that once a set of 5–15 analytes was found, the addition or removal of one or a few analytes had little effect on the overall quality of the classifier. In males, we found a set of 8 analytes performed well (Fig. 2A). In females, we found a set of 13 analytes performed well (Fig. 2B). We found that even single-analyte classification methods performed surprisingly well in this small sample of 84 subjects (Table 4). However, single biomarkers are biologically implausible as a diagnostic test for complex diseases like CFS and are likely to perform poorly in larger populations. By using classifiers constructed from 5 to 15 metabolites, natural biological variation is more readily accommodated and diagnostic accuracy is more robust. We also performed a principal components analysis (PCA) to identify orthogonal components of the metabolomic signature (SI Appendix, Table S4 A and B and Fig. S7 A and B). However, we have found PCA to be less robust than partial least squares discriminant analysis (PLSDA) and random forest (RF) analysis in identifying diagnostically useful metabolites in independent clinical settings.
+
+The diagnostic performance of targeted metabolomics in CFS; AUROC curve analysis. (A) Males. Eight metabolites were selected and tested by bootstrap resampling as an example of one possible multianalyte diagnostic classifier. Training set overfitting was minimized by using RF decision tree analysis (61). The eight metabolites selected were phosphatidyl choline PC(16:0/16:0), glucosylceramide GC(18:1/16:0), 1-P5C, FAD, pyroglutamic acid (also known as 5-oxoproline), 2-hydroxyisocaproic acid (HICA), l-serine, and lathosterol. The diagnostic accuracy measured as the AUROC curve was 0.94 [95% confidence interval (CI), 0.84–1.0]. (B) Females. Thirteen metabolites were selected as a diagnostic classifier in females as described above. The 13 metabolites were THC(18:1/24:0), phosphatidyl choline PC(16:0/16:0), hydroxyproline, ceramide(d18:1/22:2), lathosterol, adenosine, phosphatidylinositol PI(16:0/16:0), FAD, 2-octenoylcarnitine, phosphatidyl choline plasmalogen PC(22:6/P18:0), phosphatidyl choline PC(18:1/22:6), 1-P5C, and CDCA. The diagnostic accuracy measured as the AUROC curve was 0.96 (95% CI, 0.86–1.0). n = 18 control males and 22 CFS males, and n = 21 control females and 23 CFS females.
+
+Diagnostic accuracy of targeted plasma metabolomics in CFS
+
+n = 18 control males and 22 CFS males, and n = 21 control females and 23 CFS females.
+Metabolic Similarities Between CFS and Dauer. 
+
+
+
+Many of the pathways and metabolites that were abnormal in CFS are also known to be features of dauer, a well-studied, long-lived survival and persistence state triggered by environmental stress (35, 36) (Table 5). Interestingly, we found that the direction of CFS abnormalities was opposite to metabolic syndrome (37) and opposite to the metabolic response to infection, inflammation, or environmental stress that has been called the CDR (7). For example, cholesterol, phospholipid, sphingolipid, and purine metabolism are all decreased in CFS and dauer but are increased in metabolic syndrome and the stereotyped CDR (Table 5). These facts suggest that CFS is an evolutionarily conserved, genetically regulated, hypometabolic state similar to dauer that permits survival and persistence under conditions of environmental stress but at the cost of severely curtailed function and quality of life.
+
+Metabolic similarities and contrasts between CFS and Dauer, cell danger and metabolic syndrome
+
+Discussion
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+cDepartment of Pediatrics, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+dDepartment of Pathology, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+eDepartment of Neurosciences, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+Author contributions: R.K.N., N.N., W.A., and E.G. designed research; R.K.N., J.C.N., K.L., A.T.B., L.W., A.B., N.N., W.A., and E.G. performed research; R.K.N., J.C.N., K.L., A.T.B., W.A.A., and L.W. contributed new reagents/analytic tools; R.K.N. wrote and managed the human subjects protocol; J.C.N. recruited subjects and developed methods; K.L. developed methods; A.T.B. created the pathway database and developed new bioinformatic methods; W.A.A. prepared the Cytoscape pathway visualizations; A.B. coordinated patient recruitment, medical histories, and clinical data; N.N., W.A., and E.G. identified and recruited patients; R.K.N., J.C.N., K.L., A.T.B., N.N., and E.G. analyzed data; and R.K.N., J.C.N., K.L., A.T.B., and W.A.A. wrote the paper.
+
+Chronic fatigue syndrome is a multisystem disease that causes long-term pain and disability. It is difficult to diagnose because of its protean symptoms and the lack of a diagnostic laboratory test. We report that targeted, broad-spectrum metabolomics of plasma not only revealed a characteristic chemical signature but also revealed an unexpected underlying biology. Metabolomics showed that chronic fatigue syndrome is a highly concerted hypometabolic response to environmental stress that traces to mitochondria and was similar to the classically studied developmental state of dauer. This discovery opens a fresh path for the rational development of new therapeutics and identifies metabolomics as a powerful tool to identify the chemical differences that contribute to health and disease.
+
+More than 2 million people in the United States have myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). We performed targeted, broad-spectrum metabolomics to gain insights into the biology of CFS. We studied a total of 84 subjects using these methods. Forty-five subjects (n = 22 men and 23 women) met diagnostic criteria for ME/CFS by Institute of Medicine, Canadian, and Fukuda criteria. Thirty-nine subjects (n = 18 men and 21 women) were age- and sex-matched normal controls. Males with CFS were 53 (±2.8) y old (mean ± SEM; range, 21–67 y). Females were 52 (±2.5) y old (range, 20–67 y). The Karnofsky performance scores were 62 (±3.2) for males and 54 (±3.3) for females. We targeted 612 metabolites in plasma from 63 biochemical pathways by hydrophilic interaction liquid chromatography, electrospray ionization, and tandem mass spectrometry in a single-injection method. Patients with CFS showed abnormalities in 20 metabolic pathways. Eighty percent of the diagnostic metabolites were decreased, consistent with a hypometabolic syndrome. Pathway abnormalities included sphingolipid, phospholipid, purine, cholesterol, microbiome, pyrroline-5-carboxylate, riboflavin, branch chain amino acid, peroxisomal, and mitochondrial metabolism. Area under the receiver operator characteristic curve analysis showed diagnostic accuracies of 94% [95% confidence interval (CI), 84–100%] in males using eight metabolites and 96% (95% CI, 86–100%) in females using 13 metabolites. Our data show that despite the heterogeneity of factors leading to CFS, the cellular metabolic response in patients was homogeneous, statistically robust, and chemically similar to the evolutionarily conserved persistence response to environmental stress known as dauer.
+
+Chronic fatigue syndrome (CFS) is a complex, multiorgan system disease for which no single diagnostic test yet exists. The disease is characterized by profound fatigue and disability lasting for at least 6 mo, episodes of cognitive dysfunction, sleep disturbance, autonomic abnormalities, chronic or intermittent pain syndromes, microbiome abnormalities (1), cerebral cytokine dysregulation (2), natural killer cell dysfunction (3), and other symptoms that are made worse by exertion of any kind (4). The Institute of Medicine (IOM) recently published an update of the diagnostic criteria recommended for CFS (4). These are listed in Box 1.
+
+Complex diseases like CFS are often difficult and expensive to diagnose. Although individual tests may be affordable and possibly covered by medical insurance, many patients undergo a diagnostic odyssey that results in substantial personal expenditures that can exceed $100,000 over years of searching, absence from the workplace, and significant reductions in quality of life. The societal cost of CFS is estimated to be up to $24 billion annually (4). Health care professionals are also frustrated by the lack of an objective technology that can assist with diagnosis. Attempts to use a small number of biomarkers, whether analytes in blood, cerebrospinal fluid, or a handful of genetic loci, have not yielded diagnostically useful tests for CFS.
+
+Metabolomics has several advantages over genomics for the diagnosis of complex chronic disease and for the growing interest in precision medicine (5). First, fewer than 2,000 metabolites constitute the majority of the parent molecules in the blood that are used for cell-to-cell communication and metabolism, compared with 6 billion bases in the diploid human genome. Second, metabolites reflect the current functional state of the individual. Collective cellular chemistry represents the functional interaction of genes and environment. This is metabolism. In contrast, the genome represents an admixture of ancestral genotypes that were selected for fitness in ancestral environments. The metabolic state of an individual at the time of illness is produced by both current conditions, age, and the aggregate history, timing, and magnitude of exposures to physical and emotional stress, trauma, diet, exercise, infections, and the microbiome recorded as metabolic memory (6, 7). Analysis of metabolites may provide a more technically and bioinformatically tractable, physiologically relevant, chemically comprehensive, and cost-effective method of diagnosis of complex chronic diseases. In addition, because metabolomics provides direct small-molecule information, the results can provide immediately actionable treatment information using readily available small-molecule nutrients, cofactors, and lifestyle interventions. Our results show that CFS has an objectively identifiable chemical signature in both men and women and that targeted metabolomics can be used to uncover biological insights that may prove useful for both diagnosis and personalized treatment.
+Hypometabolism, Dauer, and CFS. 
+
+
+
+Our results show that the metabolic features of CFS are consistent with a hypometabolic state. Sphingolipids, glycosphingolipids, phospholipids, purines, microbiome aromatic amino acid and branch chain amino acid metabolites, FAD, and lathosterol were decreased. The decreases in these metabolites correlated with disease severity as measured by Karnofsky scores (SI Appendix, Table S1 A–D). Much research has been done on the hypometabolic phenotype in other biologic systems, including dauer (35), diapause (40), hibernation (41), estivation (42), torpor (43), ischemic preconditioning (44), ER stress (45), the unfolded protein response (46), autophagy (47, 48), and caloric restriction (49). Dauer, which means persistence or long-lived in German, is an example of one well-studied system. The developmental stage of dauer is a hypometabolic state capable of living efficiently by altering a number of basic mitochondrial functions, fuel preferences, behavior, and physical features. Dauer is comprised of an evolutionarily conserved and synergistic suite of metabolic and structural changes that are triggered by exposure to adverse environmental conditions. Entry into dauer confers a survival advantage in harsh conditions (35). When the dauer response is blocked by certain mutations (dauer defectives), animals are short-lived when exposed to environmental stress. These mutations show that the latent ability to enter into a hypometabolic state during times of environmental threat is adaptive, even though it comes at the cost of decreasing the optimal functional capacity. Similar to dauer, CFS appears to represent a hypometabolic survival state that is triggered by environmental stress. The metabolic features of CFS and dauer correspond to the same pathways that characterize the acute CDR and metabolic syndrome (50) but are regulated in the opposite direction. For example, cholesterol, phospholipids, and uric acid are often elevated in the acute CDR and metabolic syndrome, but these metabolites were decreased in CFS patients. A prediction based on these findings is that patients with CFS would be more resistant to the constellation of hypertension, dyslipidemia, central obesity, and insulin resistance that increase all-cause mortality associated with metabolic syndrome (37), but at the cost of significant long-term disability, pain, and suffering.
+The Importance of Mitochondria, Redox, and NADPH Metabolism in Chronic Fatigue. 
+
+
+
+All of the metabolic abnormalities that we identified in CFS were either directly regulated by redox or the availability of NADPH. About 60% of NADPH is produced by the pentose phosphate pathway under baseline conditions. The other 40% is produced by the combined flux through five NADP+ dependent enzymes: (i) malic enzyme (ME), (ii) isocitrate dehydrogenase (IDH), (iii) glutamate dehydrogenase (GDH), (iv) nicotinamide nucleotide transhydrogenase (NNT), and (v) methylene tetrahydrofolate dehydrogenase 2-like protein (MTHFD2L). Each of these enzymes has at least one mitochondrial isoform and is known to be up-regulated under conditions of environmental or developmental stress. It has recently been shown that mitochondrial MTHFD2L is responsible for producing 20–40% of cellular NADPH by the oxidation of methylene tetrahydrofolic acid to 10-formyl tetrahydrofolate (51). These data show that folates are important not only in methylation reactions but also in regulating intracellular redox and NADPH levels (SI Appendix, Fig. S6). A number of single nucleotide polymorphisms (SNPs) have been identified in the MTHFD2L gene that correlate with the CDR and interleukin 1β (IL1β) production triggered by smallpox vaccination (52). Mitochondrial pools of NADPH are in continuous communication with NADH levels through the enzyme NNT. Therefore, NADPH acts as a global barometer of cellular fuel status by interrogating both mitochondrial electron (NADH) consumption and the availability of cytoplasmic reducing equivalents as NADPH. When mitochondrial electron transport decreases for any reason, fewer molecules of oxygen are converted to water (H2O) by cytochrome c oxidase. If capillary delivery of oxygen to the cell is unchanged, the concentration of dissolved oxygen rises in the cell like water in a bowl in response to instantaneous decreases in mitochondrial oxygen consumption. This activates scores of enzymes that are kinetically regulated by the availability of dissolved oxygen and can act as oxygen sensors. Some of these include NADPH oxidases like Nox4 (53) that make hydrogen peroxide (H2O2) from the excess diatomic oxygen (O2) to initiate the oxidative shielding response (6). When reduced (NADPH) and total (NADPH plus NADP+) pools are low, sterol, fatty acid, protein, and nucleotide synthesis fall to baseline survival levels. When NADPH levels are higher, metabolism is shifted from persistence to normal cell function and growth, anabolic pathways are stimulated, biomass is created, and carbons and electrons are stored as biopolymers for cell growth and repair in the form of lipids, protein, glycogen, glycans, and nucleic acids.
+
+It is important to emphasize that NADPH is neither the problem nor the solution by itself. It is a messenger and cofactor. NADPH cannot work without the availability of hundreds of carbon skeletons of intermediary metabolism needed to carry out the message—the signal that fuel stores are either replete or limiting and metabolism must be adjusted accordingly. Specifically, NADPH cannot be simply added as a nutritional supplement to produce the tidal change in metabolism needed to shift the dauer state of CFS to normal health. Incremental improvements in NADPH production could theoretically be supported by interventions directed at folate, B12, glycine, and serine pools, and B6 metabolism (SI Appendix, Fig. S6), however the safety and efficacy of these manipulations have not yet been tested in a rigorously designed clinical trial. Ultimately, effective treatments for CFS are likely to be achieved by careful attention to nutrition, metabolism, triggers, stressors, and physical activity as an integrated system, combined with a systems biological understanding of the triggers of the CDR (7) and dauer entry and exit (35).
+
+Conclusions
+
+CFS has a chemical signature that can be identified using targeted plasma metabolomics. Receiver operator characteristic (ROC) curve analysis showed a diagnostic accuracy that exceeded 90%. The pattern and directionality of these changes showed that CFS is a conserved, hypometabolic response to environmental stress similar to dauer (35). Only about 25% of the metabolite disturbances found in each person were needed for the diagnosis of CFS. About 75% of the metabolite abnormalities were unique to the individual and useful in guiding personalized treatment. The study of larger cohorts from diverse geographical areas, and comparison with related medical disorders like depression and posttraumatic stress disorder, will be needed to validate the universality and specificity of these findings. The finding of an objective chemical signature in CFS helps to remove diagnostic uncertainty, will help clinicians monitor individualized responses to treatment, and will facilitate multicenter clinical trials.
+
+Materials and Methods
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+cDepartment of Pediatrics, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+dDepartment of Pathology, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+eDepartment of Neurosciences, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+Author contributions: R.K.N., N.N., W.A., and E.G. designed research; R.K.N., J.C.N., K.L., A.T.B., L.W., A.B., N.N., W.A., and E.G. performed research; R.K.N., J.C.N., K.L., A.T.B., W.A.A., and L.W. contributed new reagents/analytic tools; R.K.N. wrote and managed the human subjects protocol; J.C.N. recruited subjects and developed methods; K.L. developed methods; A.T.B. created the pathway database and developed new bioinformatic methods; W.A.A. prepared the Cytoscape pathway visualizations; A.B. coordinated patient recruitment, medical histories, and clinical data; N.N., W.A., and E.G. identified and recruited patients; R.K.N., J.C.N., K.L., A.T.B., N.N., and E.G. analyzed data; and R.K.N., J.C.N., K.L., A.T.B., and W.A.A. wrote the paper.
+
+Chronic fatigue syndrome is a multisystem disease that causes long-term pain and disability. It is difficult to diagnose because of its protean symptoms and the lack of a diagnostic laboratory test. We report that targeted, broad-spectrum metabolomics of plasma not only revealed a characteristic chemical signature but also revealed an unexpected underlying biology. Metabolomics showed that chronic fatigue syndrome is a highly concerted hypometabolic response to environmental stress that traces to mitochondria and was similar to the classically studied developmental state of dauer. This discovery opens a fresh path for the rational development of new therapeutics and identifies metabolomics as a powerful tool to identify the chemical differences that contribute to health and disease.
+
+More than 2 million people in the United States have myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). We performed targeted, broad-spectrum metabolomics to gain insights into the biology of CFS. We studied a total of 84 subjects using these methods. Forty-five subjects (n = 22 men and 23 women) met diagnostic criteria for ME/CFS by Institute of Medicine, Canadian, and Fukuda criteria. Thirty-nine subjects (n = 18 men and 21 women) were age- and sex-matched normal controls. Males with CFS were 53 (±2.8) y old (mean ± SEM; range, 21–67 y). Females were 52 (±2.5) y old (range, 20–67 y). The Karnofsky performance scores were 62 (±3.2) for males and 54 (±3.3) for females. We targeted 612 metabolites in plasma from 63 biochemical pathways by hydrophilic interaction liquid chromatography, electrospray ionization, and tandem mass spectrometry in a single-injection method. Patients with CFS showed abnormalities in 20 metabolic pathways. Eighty percent of the diagnostic metabolites were decreased, consistent with a hypometabolic syndrome. Pathway abnormalities included sphingolipid, phospholipid, purine, cholesterol, microbiome, pyrroline-5-carboxylate, riboflavin, branch chain amino acid, peroxisomal, and mitochondrial metabolism. Area under the receiver operator characteristic curve analysis showed diagnostic accuracies of 94% [95% confidence interval (CI), 84–100%] in males using eight metabolites and 96% (95% CI, 86–100%) in females using 13 metabolites. Our data show that despite the heterogeneity of factors leading to CFS, the cellular metabolic response in patients was homogeneous, statistically robust, and chemically similar to the evolutionarily conserved persistence response to environmental stress known as dauer.
+
+Chronic fatigue syndrome (CFS) is a complex, multiorgan system disease for which no single diagnostic test yet exists. The disease is characterized by profound fatigue and disability lasting for at least 6 mo, episodes of cognitive dysfunction, sleep disturbance, autonomic abnormalities, chronic or intermittent pain syndromes, microbiome abnormalities (1), cerebral cytokine dysregulation (2), natural killer cell dysfunction (3), and other symptoms that are made worse by exertion of any kind (4). The Institute of Medicine (IOM) recently published an update of the diagnostic criteria recommended for CFS (4). These are listed in Box 1.
+
+Complex diseases like CFS are often difficult and expensive to diagnose. Although individual tests may be affordable and possibly covered by medical insurance, many patients undergo a diagnostic odyssey that results in substantial personal expenditures that can exceed $100,000 over years of searching, absence from the workplace, and significant reductions in quality of life. The societal cost of CFS is estimated to be up to $24 billion annually (4). Health care professionals are also frustrated by the lack of an objective technology that can assist with diagnosis. Attempts to use a small number of biomarkers, whether analytes in blood, cerebrospinal fluid, or a handful of genetic loci, have not yielded diagnostically useful tests for CFS.
+
+Metabolomics has several advantages over genomics for the diagnosis of complex chronic disease and for the growing interest in precision medicine (5). First, fewer than 2,000 metabolites constitute the majority of the parent molecules in the blood that are used for cell-to-cell communication and metabolism, compared with 6 billion bases in the diploid human genome. Second, metabolites reflect the current functional state of the individual. Collective cellular chemistry represents the functional interaction of genes and environment. This is metabolism. In contrast, the genome represents an admixture of ancestral genotypes that were selected for fitness in ancestral environments. The metabolic state of an individual at the time of illness is produced by both current conditions, age, and the aggregate history, timing, and magnitude of exposures to physical and emotional stress, trauma, diet, exercise, infections, and the microbiome recorded as metabolic memory (6, 7). Analysis of metabolites may provide a more technically and bioinformatically tractable, physiologically relevant, chemically comprehensive, and cost-effective method of diagnosis of complex chronic diseases. In addition, because metabolomics provides direct small-molecule information, the results can provide immediately actionable treatment information using readily available small-molecule nutrients, cofactors, and lifestyle interventions. Our results show that CFS has an objectively identifiable chemical signature in both men and women and that targeted metabolomics can be used to uncover biological insights that may prove useful for both diagnosis and personalized treatment.
+Patients and Controls. 
+
+
+
+This study was approved the by the University of California, San Diego Institutional Review Board (IRB Project 140072) and conformed to the World Medical Association Declaration of Helsinki: Ethical Principles for Medical Research Involving Human Subjects (54). Patients and controls were recruited prospectively over a 1-y period, June 2014–May 2015. Signed informed consent was obtained from all subjects. All CFS patients met the 2015 IOM (4), Canadian (8), and Fukuda (9) diagnostic criteria for CFS. Healthy controls were age- and sex-matched volunteers without CFS. The total number of subjects analyzed in this study was 84. This included 23 females and 22 males with CFS and 18 male and 21 female controls.
+Metabolomics. 
+
+
+
+Targeted, broad-spectrum, chemometric analysis of 612 metabolites from 63 biochemical pathways was performed as described (55) with minor modifications. Over 420 metabolites were detectable in all plasma samples. Regular quality control experiments showed metabolite AUC correlations over 0.98 and relative SDs of 9–12% (SI Appendix, Tables S2 and S3). See SI Appendix, SI Methods for details.
+Data Analysis. 
+
+
+
+Metabolomic data were log-transformed, scaled by control SDs, and analyzed by multivariate PLSDA, PCA, t test, univariate ANOVA with pairwise comparisons, and post hoc correction for multiple hypothesis testing using Fisher’s least significant difference method in MetaboAnalyst (56), or the FDR method of Benjamini and Hochberg (57). Metabolites with variable importance in projection (VIP) scores determined by PLSDA that were greater than 1.5 were considered significant. Metabolite correlations with Karnofsky performance scores were calculated by Pearson parametric and Spearman nonparametric methods implemented in Stata (Stata/SE12.1, StataCorp), Prism (Prism 6, GraphPad Software), or R. Significant metabolites were grouped into pathways and their VIP scores summed to determine the rank-ordered significance of each biochemical pathway. Sets of 5–15 metabolites were selected manually from the top 60 significant metabolites as candidate diagnostic classifiers using two multivariate methods: RFs (58) and linear support vector machine (SVM) implemented in MetabolAnalyst (56). The diagnostic performance of the selected classifiers was then visualized and quantified by AUROC curve analysis (34). Classifier robustness was estimated by repeated double cross-validation (rdCV) (59) and permutation testing 1,000 times in MetaboAnalyst. Confidence intervals for the ROC curves were calculated by bootstrap resampling. Sensitivity, specificity, accuracy, positive predictive value, negative predictive value, and number of misclassifications (60) were estimated by conventional 2 × 2 contingency table analysis and P values calculated by Fisher’s exact test in Prism.
+
+Supplementary Material
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+cDepartment of Pediatrics, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+dDepartment of Pathology, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+eDepartment of Neurosciences, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+Author contributions: R.K.N., N.N., W.A., and E.G. designed research; R.K.N., J.C.N., K.L., A.T.B., L.W., A.B., N.N., W.A., and E.G. performed research; R.K.N., J.C.N., K.L., A.T.B., W.A.A., and L.W. contributed new reagents/analytic tools; R.K.N. wrote and managed the human subjects protocol; J.C.N. recruited subjects and developed methods; K.L. developed methods; A.T.B. created the pathway database and developed new bioinformatic methods; W.A.A. prepared the Cytoscape pathway visualizations; A.B. coordinated patient recruitment, medical histories, and clinical data; N.N., W.A., and E.G. identified and recruited patients; R.K.N., J.C.N., K.L., A.T.B., N.N., and E.G. analyzed data; and R.K.N., J.C.N., K.L., A.T.B., and W.A.A. wrote the paper.
+
+Chronic fatigue syndrome is a multisystem disease that causes long-term pain and disability. It is difficult to diagnose because of its protean symptoms and the lack of a diagnostic laboratory test. We report that targeted, broad-spectrum metabolomics of plasma not only revealed a characteristic chemical signature but also revealed an unexpected underlying biology. Metabolomics showed that chronic fatigue syndrome is a highly concerted hypometabolic response to environmental stress that traces to mitochondria and was similar to the classically studied developmental state of dauer. This discovery opens a fresh path for the rational development of new therapeutics and identifies metabolomics as a powerful tool to identify the chemical differences that contribute to health and disease.
+
+More than 2 million people in the United States have myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). We performed targeted, broad-spectrum metabolomics to gain insights into the biology of CFS. We studied a total of 84 subjects using these methods. Forty-five subjects (n = 22 men and 23 women) met diagnostic criteria for ME/CFS by Institute of Medicine, Canadian, and Fukuda criteria. Thirty-nine subjects (n = 18 men and 21 women) were age- and sex-matched normal controls. Males with CFS were 53 (±2.8) y old (mean ± SEM; range, 21–67 y). Females were 52 (±2.5) y old (range, 20–67 y). The Karnofsky performance scores were 62 (±3.2) for males and 54 (±3.3) for females. We targeted 612 metabolites in plasma from 63 biochemical pathways by hydrophilic interaction liquid chromatography, electrospray ionization, and tandem mass spectrometry in a single-injection method. Patients with CFS showed abnormalities in 20 metabolic pathways. Eighty percent of the diagnostic metabolites were decreased, consistent with a hypometabolic syndrome. Pathway abnormalities included sphingolipid, phospholipid, purine, cholesterol, microbiome, pyrroline-5-carboxylate, riboflavin, branch chain amino acid, peroxisomal, and mitochondrial metabolism. Area under the receiver operator characteristic curve analysis showed diagnostic accuracies of 94% [95% confidence interval (CI), 84–100%] in males using eight metabolites and 96% (95% CI, 86–100%) in females using 13 metabolites. Our data show that despite the heterogeneity of factors leading to CFS, the cellular metabolic response in patients was homogeneous, statistically robust, and chemically similar to the evolutionarily conserved persistence response to environmental stress known as dauer.
+
+Chronic fatigue syndrome (CFS) is a complex, multiorgan system disease for which no single diagnostic test yet exists. The disease is characterized by profound fatigue and disability lasting for at least 6 mo, episodes of cognitive dysfunction, sleep disturbance, autonomic abnormalities, chronic or intermittent pain syndromes, microbiome abnormalities (1), cerebral cytokine dysregulation (2), natural killer cell dysfunction (3), and other symptoms that are made worse by exertion of any kind (4). The Institute of Medicine (IOM) recently published an update of the diagnostic criteria recommended for CFS (4). These are listed in Box 1.
+
+Complex diseases like CFS are often difficult and expensive to diagnose. Although individual tests may be affordable and possibly covered by medical insurance, many patients undergo a diagnostic odyssey that results in substantial personal expenditures that can exceed $100,000 over years of searching, absence from the workplace, and significant reductions in quality of life. The societal cost of CFS is estimated to be up to $24 billion annually (4). Health care professionals are also frustrated by the lack of an objective technology that can assist with diagnosis. Attempts to use a small number of biomarkers, whether analytes in blood, cerebrospinal fluid, or a handful of genetic loci, have not yielded diagnostically useful tests for CFS.
+
+Metabolomics has several advantages over genomics for the diagnosis of complex chronic disease and for the growing interest in precision medicine (5). First, fewer than 2,000 metabolites constitute the majority of the parent molecules in the blood that are used for cell-to-cell communication and metabolism, compared with 6 billion bases in the diploid human genome. Second, metabolites reflect the current functional state of the individual. Collective cellular chemistry represents the functional interaction of genes and environment. This is metabolism. In contrast, the genome represents an admixture of ancestral genotypes that were selected for fitness in ancestral environments. The metabolic state of an individual at the time of illness is produced by both current conditions, age, and the aggregate history, timing, and magnitude of exposures to physical and emotional stress, trauma, diet, exercise, infections, and the microbiome recorded as metabolic memory (6, 7). Analysis of metabolites may provide a more technically and bioinformatically tractable, physiologically relevant, chemically comprehensive, and cost-effective method of diagnosis of complex chronic diseases. In addition, because metabolomics provides direct small-molecule information, the results can provide immediately actionable treatment information using readily available small-molecule nutrients, cofactors, and lifestyle interventions. Our results show that CFS has an objectively identifiable chemical signature in both men and women and that targeted metabolomics can be used to uncover biological insights that may prove useful for both diagnosis and personalized treatment.
+
+Acknowledgments
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+cDepartment of Pediatrics, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+dDepartment of Pathology, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+eDepartment of Neurosciences, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+Author contributions: R.K.N., N.N., W.A., and E.G. designed research; R.K.N., J.C.N., K.L., A.T.B., L.W., A.B., N.N., W.A., and E.G. performed research; R.K.N., J.C.N., K.L., A.T.B., W.A.A., and L.W. contributed new reagents/analytic tools; R.K.N. wrote and managed the human subjects protocol; J.C.N. recruited subjects and developed methods; K.L. developed methods; A.T.B. created the pathway database and developed new bioinformatic methods; W.A.A. prepared the Cytoscape pathway visualizations; A.B. coordinated patient recruitment, medical histories, and clinical data; N.N., W.A., and E.G. identified and recruited patients; R.K.N., J.C.N., K.L., A.T.B., N.N., and E.G. analyzed data; and R.K.N., J.C.N., K.L., A.T.B., and W.A.A. wrote the paper.
+
+Chronic fatigue syndrome is a multisystem disease that causes long-term pain and disability. It is difficult to diagnose because of its protean symptoms and the lack of a diagnostic laboratory test. We report that targeted, broad-spectrum metabolomics of plasma not only revealed a characteristic chemical signature but also revealed an unexpected underlying biology. Metabolomics showed that chronic fatigue syndrome is a highly concerted hypometabolic response to environmental stress that traces to mitochondria and was similar to the classically studied developmental state of dauer. This discovery opens a fresh path for the rational development of new therapeutics and identifies metabolomics as a powerful tool to identify the chemical differences that contribute to health and disease.
+
+More than 2 million people in the United States have myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). We performed targeted, broad-spectrum metabolomics to gain insights into the biology of CFS. We studied a total of 84 subjects using these methods. Forty-five subjects (n = 22 men and 23 women) met diagnostic criteria for ME/CFS by Institute of Medicine, Canadian, and Fukuda criteria. Thirty-nine subjects (n = 18 men and 21 women) were age- and sex-matched normal controls. Males with CFS were 53 (±2.8) y old (mean ± SEM; range, 21–67 y). Females were 52 (±2.5) y old (range, 20–67 y). The Karnofsky performance scores were 62 (±3.2) for males and 54 (±3.3) for females. We targeted 612 metabolites in plasma from 63 biochemical pathways by hydrophilic interaction liquid chromatography, electrospray ionization, and tandem mass spectrometry in a single-injection method. Patients with CFS showed abnormalities in 20 metabolic pathways. Eighty percent of the diagnostic metabolites were decreased, consistent with a hypometabolic syndrome. Pathway abnormalities included sphingolipid, phospholipid, purine, cholesterol, microbiome, pyrroline-5-carboxylate, riboflavin, branch chain amino acid, peroxisomal, and mitochondrial metabolism. Area under the receiver operator characteristic curve analysis showed diagnostic accuracies of 94% [95% confidence interval (CI), 84–100%] in males using eight metabolites and 96% (95% CI, 86–100%) in females using 13 metabolites. Our data show that despite the heterogeneity of factors leading to CFS, the cellular metabolic response in patients was homogeneous, statistically robust, and chemically similar to the evolutionarily conserved persistence response to environmental stress known as dauer.
+
+Chronic fatigue syndrome (CFS) is a complex, multiorgan system disease for which no single diagnostic test yet exists. The disease is characterized by profound fatigue and disability lasting for at least 6 mo, episodes of cognitive dysfunction, sleep disturbance, autonomic abnormalities, chronic or intermittent pain syndromes, microbiome abnormalities (1), cerebral cytokine dysregulation (2), natural killer cell dysfunction (3), and other symptoms that are made worse by exertion of any kind (4). The Institute of Medicine (IOM) recently published an update of the diagnostic criteria recommended for CFS (4). These are listed in Box 1.
+
+Complex diseases like CFS are often difficult and expensive to diagnose. Although individual tests may be affordable and possibly covered by medical insurance, many patients undergo a diagnostic odyssey that results in substantial personal expenditures that can exceed $100,000 over years of searching, absence from the workplace, and significant reductions in quality of life. The societal cost of CFS is estimated to be up to $24 billion annually (4). Health care professionals are also frustrated by the lack of an objective technology that can assist with diagnosis. Attempts to use a small number of biomarkers, whether analytes in blood, cerebrospinal fluid, or a handful of genetic loci, have not yielded diagnostically useful tests for CFS.
+
+Metabolomics has several advantages over genomics for the diagnosis of complex chronic disease and for the growing interest in precision medicine (5). First, fewer than 2,000 metabolites constitute the majority of the parent molecules in the blood that are used for cell-to-cell communication and metabolism, compared with 6 billion bases in the diploid human genome. Second, metabolites reflect the current functional state of the individual. Collective cellular chemistry represents the functional interaction of genes and environment. This is metabolism. In contrast, the genome represents an admixture of ancestral genotypes that were selected for fitness in ancestral environments. The metabolic state of an individual at the time of illness is produced by both current conditions, age, and the aggregate history, timing, and magnitude of exposures to physical and emotional stress, trauma, diet, exercise, infections, and the microbiome recorded as metabolic memory (6, 7). Analysis of metabolites may provide a more technically and bioinformatically tractable, physiologically relevant, chemically comprehensive, and cost-effective method of diagnosis of complex chronic diseases. In addition, because metabolomics provides direct small-molecule information, the results can provide immediately actionable treatment information using readily available small-molecule nutrients, cofactors, and lifestyle interventions. Our results show that CFS has an objectively identifiable chemical signature in both men and women and that targeted metabolomics can be used to uncover biological insights that may prove useful for both diagnosis and personalized treatment.
+
+R.K.N. thanks the patients and families who donated their time and effort in helping to make this study possible. The authors thank Carla-Rae Lukens for assistance with clinical coordination. We thank Dr. Paul Cheney for guidance, critical comments, and observations. We thank Dr. Phil Morgan and Jon Gangoiti for critical review and comments on the manuscript. R.K.N. thanks all the individuals and the foundations who helped make this project possible with their support. This work was supported in part by the UCSD Christini Fund, The Wright Family Foundation, The Lennox Foundation, The It Takes Guts Foundation, The UCSD Mitochondrial Disease Research Fund, and gifts from Mr. Tom Eames and Ms. Tonye Marie Castenada. Funding for the mass spectrometers used in this study was provided by a gift from the Jane Botsford Johnson Foundation.
+
+Footnotes
+
+
+
+The authors declare no conflict of interest.
+
+
+
+
+
+This article is a PNAS Direct Submission.
+
+
+
+
+
+Data deposition: The data reported in this paper have been deposited in the NIH Metabolomics Data Repository and Coordinating Center (DRCC) (accession no. ST000450).
+
+
+
+
+
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.1073/pnas.1607571113/-/DCSupplemental.
+
+
+
+References
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+cDepartment of Pediatrics, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+dDepartment of Pathology, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+eDepartment of Neurosciences, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+aThe Mitochondrial and Metabolic Disease Center, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+bDepartment of Medicine, University of California, San Diego School of Medicine, San Diego, CA,  92103-8467;
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+fGordon Medical Associates, Santa Rosa, CA,  95403
+
+Author contributions: R.K.N., N.N., W.A., and E.G. designed research; R.K.N., J.C.N., K.L., A.T.B., L.W., A.B., N.N., W.A., and E.G. performed research; R.K.N., J.C.N., K.L., A.T.B., W.A.A., and L.W. contributed new reagents/analytic tools; R.K.N. wrote and managed the human subjects protocol; J.C.N. recruited subjects and developed methods; K.L. developed methods; A.T.B. created the pathway database and developed new bioinformatic methods; W.A.A. prepared the Cytoscape pathway visualizations; A.B. coordinated patient recruitment, medical histories, and clinical data; N.N., W.A., and E.G. identified and recruited patients; R.K.N., J.C.N., K.L., A.T.B., N.N., and E.G. analyzed data; and R.K.N., J.C.N., K.L., A.T.B., and W.A.A. wrote the paper.
+
+Chronic fatigue syndrome is a multisystem disease that causes long-term pain and disability. It is difficult to diagnose because of its protean symptoms and the lack of a diagnostic laboratory test. We report that targeted, broad-spectrum metabolomics of plasma not only revealed a characteristic chemical signature but also revealed an unexpected underlying biology. Metabolomics showed that chronic fatigue syndrome is a highly concerted hypometabolic response to environmental stress that traces to mitochondria and was similar to the classically studied developmental state of dauer. This discovery opens a fresh path for the rational development of new therapeutics and identifies metabolomics as a powerful tool to identify the chemical differences that contribute to health and disease.
+
+More than 2 million people in the United States have myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). We performed targeted, broad-spectrum metabolomics to gain insights into the biology of CFS. We studied a total of 84 subjects using these methods. Forty-five subjects (n = 22 men and 23 women) met diagnostic criteria for ME/CFS by Institute of Medicine, Canadian, and Fukuda criteria. Thirty-nine subjects (n = 18 men and 21 women) were age- and sex-matched normal controls. Males with CFS were 53 (±2.8) y old (mean ± SEM; range, 21–67 y). Females were 52 (±2.5) y old (range, 20–67 y). The Karnofsky performance scores were 62 (±3.2) for males and 54 (±3.3) for females. We targeted 612 metabolites in plasma from 63 biochemical pathways by hydrophilic interaction liquid chromatography, electrospray ionization, and tandem mass spectrometry in a single-injection method. Patients with CFS showed abnormalities in 20 metabolic pathways. Eighty percent of the diagnostic metabolites were decreased, consistent with a hypometabolic syndrome. Pathway abnormalities included sphingolipid, phospholipid, purine, cholesterol, microbiome, pyrroline-5-carboxylate, riboflavin, branch chain amino acid, peroxisomal, and mitochondrial metabolism. Area under the receiver operator characteristic curve analysis showed diagnostic accuracies of 94% [95% confidence interval (CI), 84–100%] in males using eight metabolites and 96% (95% CI, 86–100%) in females using 13 metabolites. Our data show that despite the heterogeneity of factors leading to CFS, the cellular metabolic response in patients was homogeneous, statistically robust, and chemically similar to the evolutionarily conserved persistence response to environmental stress known as dauer.
+
+Chronic fatigue syndrome (CFS) is a complex, multiorgan system disease for which no single diagnostic test yet exists. The disease is characterized by profound fatigue and disability lasting for at least 6 mo, episodes of cognitive dysfunction, sleep disturbance, autonomic abnormalities, chronic or intermittent pain syndromes, microbiome abnormalities (1), cerebral cytokine dysregulation (2), natural killer cell dysfunction (3), and other symptoms that are made worse by exertion of any kind (4). The Institute of Medicine (IOM) recently published an update of the diagnostic criteria recommended for CFS (4). These are listed in Box 1.
+
+Complex diseases like CFS are often difficult and expensive to diagnose. Although individual tests may be affordable and possibly covered by medical insurance, many patients undergo a diagnostic odyssey that results in substantial personal expenditures that can exceed $100,000 over years of searching, absence from the workplace, and significant reductions in quality of life. The societal cost of CFS is estimated to be up to $24 billion annually (4). Health care professionals are also frustrated by the lack of an objective technology that can assist with diagnosis. Attempts to use a small number of biomarkers, whether analytes in blood, cerebrospinal fluid, or a handful of genetic loci, have not yielded diagnostically useful tests for CFS.
+
+Metabolomics has several advantages over genomics for the diagnosis of complex chronic disease and for the growing interest in precision medicine (5). First, fewer than 2,000 metabolites constitute the majority of the parent molecules in the blood that are used for cell-to-cell communication and metabolism, compared with 6 billion bases in the diploid human genome. Second, metabolites reflect the current functional state of the individual. Collective cellular chemistry represents the functional interaction of genes and environment. This is metabolism. In contrast, the genome represents an admixture of ancestral genotypes that were selected for fitness in ancestral environments. The metabolic state of an individual at the time of illness is produced by both current conditions, age, and the aggregate history, timing, and magnitude of exposures to physical and emotional stress, trauma, diet, exercise, infections, and the microbiome recorded as metabolic memory (6, 7). Analysis of metabolites may provide a more technically and bioinformatically tractable, physiologically relevant, chemically comprehensive, and cost-effective method of diagnosis of complex chronic diseases. In addition, because metabolomics provides direct small-molecule information, the results can provide immediately actionable treatment information using readily available small-molecule nutrients, cofactors, and lifestyle interventions. Our results show that CFS has an objectively identifiable chemical signature in both men and women and that targeted metabolomics can be used to uncover biological insights that may prove useful for both diagnosis and personalized treatment.
+
+http://www.ncbi.nlm.nih.gov/pubmed/27573827

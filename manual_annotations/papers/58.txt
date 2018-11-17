@@ -1,0 +1,291 @@
+Obesity in adolescents with chronic fatigue syndrome: an observational study.
+
+Abstract
+
+Identify the prevalence of obesity in patients with chronic fatigue syndrome (CFS) compared with healthy adolescents, and those identified with CFS in a population cohort.
+
+Cross-sectional analysis of multiple imputed data.
+
+Data from UK paediatric CFS/myalgic encephalomyelitis (CFS/ME) services compared with data collected at two time points in the Avon Longitudinal Study of Parents and Children (ALSPAC).
+
+1685 adolescents who attended a CFS/ME specialist service between 2004 and 2014 and 13 978 adolescents aged approximately 13 years and 16 years participating in the ALSPAC study.
+
+Body mass index (BMI) (kg/m2), sex-specific and age-specific BMI Z-scores (relative to the International Obesity Task Force cut-offs) and prevalence of obesity (%).
+
+Adolescents who had attended specialist CFS/ME services had a higher prevalence of obesity (age 13 years: 9.28%; age 16 years: 16.43%) compared with both adolescents classified as CFS/ME in ALSPAC (age 13 years: 3.72%; age 16 years: 5.46%) and those non-CFS in ALSPAC (age 13 years: 4.18%; age 16 years: 4.46%). The increased odds of obesity in those who attended specialist services (relative to non-CFS in ALSPAC) was apparent at both 13 years (OR: 2.31 (1.54 to 3.48)) and 16 years, with a greater likelihood observed at 16 years (OR: 4.07 (2.04 to 8.11)).
+
+We observed an increased prevalence of obesity in adolescents who were affected severely enough to be referred to a specialist CFS/ME service. Further longitudinal research is required in order to identify the temporal relationship between the two conditions.
+
+Introduction
+
+Little research has been conducted investigating the relationship between chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME) and obesity, especially in adolescents. The few cross-sectional studies which have been conducted have provided conflicting findings,1–4 while a large longitudinal study found no association between obesity at 10 years and self-reported CFS diagnosis by the age of 30 years.5
+
+Obesity is an important comorbidity as it contributes an important risk for the development of a range of metabolic disorders (eg, type II diabetes, dyslipidaemia, hypertension and coronary heart disease).6–9
+
+Adolescents with CFS/ME may have an increased susceptibility for the development of obesity, via decreased levels of physical activity and/or increased time spent doing sedentary activities3
+10 and it is plausible that greater risk will be observed in those with more debilitating CFS/ME. As obesity has been observed to track from youth into adulthood,11
+12 maintaining the associated increased risk for metabolic sequelae across the life course, it is important to identify whether a diagnosis of CFS/ME in adolescence is associated with the prevalence of obesity, so appropriate interventions can be implemented.
+
+The objective of this study was to obtain prevalence estimates for obesity at two time points during adolescence (ages 13 years and 16 years), in three groups of adolescents representing a continuum of CFS/ME severity (healthy population, CFS/ME based on responses to questionnaires and clinically diagnosed CFS/ME).
+
+Methods
+
+Identify the prevalence of obesity in patients with chronic fatigue syndrome (CFS) compared with healthy adolescents, and those identified with CFS in a population cohort.
+
+Cross-sectional analysis of multiple imputed data.
+
+Data from UK paediatric CFS/myalgic encephalomyelitis (CFS/ME) services compared with data collected at two time points in the Avon Longitudinal Study of Parents and Children (ALSPAC).
+
+Body mass index (BMI) (kg/m2), sex-specific and age-specific BMI Z-scores (relative to the International Obesity Task Force cut-offs) and prevalence of obesity (%).
+
+Adolescents who had attended specialist CFS/ME services had a higher prevalence of obesity (age 13 years: 9.28%; age 16 years: 16.43%) compared with both adolescents classified as CFS/ME in ALSPAC (age 13 years: 3.72%; age 16 years: 5.46%) and those non-CFS in ALSPAC (age 13 years: 4.18%; age 16 years: 4.46%). The increased odds of obesity in those who attended specialist services (relative to non-CFS in ALSPAC) was apparent at both 13 years (OR: 2.31 (1.54 to 3.48)) and 16 years, with a greater likelihood observed at 16 years (OR: 4.07 (2.04 to 8.11)).
+
+We observed an increased prevalence of obesity in adolescents who were affected severely enough to be referred to a specialist CFS/ME service. Further longitudinal research is required in order to identify the temporal relationship between the two conditions.
+
+Little research has been conducted investigating the relationship between chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME) and obesity, especially in adolescents. The few cross-sectional studies which have been conducted have provided conflicting findings,1–4 while a large longitudinal study found no association between obesity at 10 years and self-reported CFS diagnosis by the age of 30 years.5
+
+Obesity is an important comorbidity as it contributes an important risk for the development of a range of metabolic disorders (eg, type II diabetes, dyslipidaemia, hypertension and coronary heart disease).6–9
+
+Adolescents with CFS/ME may have an increased susceptibility for the development of obesity, via decreased levels of physical activity and/or increased time spent doing sedentary activities3
+10 and it is plausible that greater risk will be observed in those with more debilitating CFS/ME. As obesity has been observed to track from youth into adulthood,11
+12 maintaining the associated increased risk for metabolic sequelae across the life course, it is important to identify whether a diagnosis of CFS/ME in adolescence is associated with the prevalence of obesity, so appropriate interventions can be implemented.
+
+The objective of this study was to obtain prevalence estimates for obesity at two time points during adolescence (ages 13 years and 16 years), in three groups of adolescents representing a continuum of CFS/ME severity (healthy population, CFS/ME based on responses to questionnaires and clinically diagnosed CFS/ME).
+Sample
+
+Participants used in this study came from two sources. First, we use data collected from all National Health Service (NHS) paediatric specialist services that participated in the CFS/ME National Outcomes Database (NOD) between August 2004 and October 2014. During this period, clinical assessment data and patient-reported measures were collected for approximately 1700 children and young people.
+
+Second, to represent the epidemiological arm of the study, we use data from adolescents participating in the Avon Longitudinal Study of Parents and Children (ALSPAC) cohort. ALSPAC is a population-based longitudinal birth cohort of children who had an expected date of delivery between April 1991 and December 1992 and whose mothers were resident in the Avon region of South-West England at the time of recruitment.13 From 14 541 pregnancies included, 13 978 children were alive at 12 months of age (excluding triplets and quads) (Please note that the study website contains details of all the data, ie, available through a fully searchable data dictionary: http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/).
+Variables
+
+
+
+CFS/ME was defined in accordance with Centers for Disease Control and Prevention (CDC) criteria (until 2007) or National Institute for Health and Care Excellence (NICE) guidance (from 2007 onwards). These criteria are broadly similar, however, CDC criteria specify symptom duration of 6 months compared with 4 months in the NICE guidelines.
+
+
+
+Age 13 years: Our method for defining chronic disabling fatigue at 13 years has been described previously.14 In brief, we identified adolescents reported by their mothers to have experienced fatigue lasting >6 months that was associated with absence from full-time school or that had prevented them from taking part in activities ‘quite a lot’ or ‘a great deal’. We excluded those whose mothers thought that the fatigue was caused by playing too much sport, who snored often and who had other illnesses that could cause fatigue (based on self-reported medication use).
+
+Age 16 years: Our method for defining CFS at age 16 years has been described previously.15 Briefly, a classification of CFS/ME was based on both parental and child-reported data. We classified adolescents as chronically fatigued if parents had reported that they had fatigue lasting >6 months that had stopped them from taking part in activities ‘quite a lot’ or ‘a great deal’, that was not due to playing too much sport, and that had resulted in any absence from school/college in the past year due to tiredness or lack of energy. The child-reported data which was used in order to classify CFS/ME was based on the Chalder Fatigue Questionnaire, with a score of ≥19 (out of 33) representing CFS/ME.
+
+
+
+In the cohort of adolescents attending the specialist CFS/ME service (NOD), height and weight were measured in the clinic or GP surgery or obtained from parental report.
+
+In the ALSPAC cohort, adolescents were invited to research clinics when they were aged approximately 13 years and 16 years. Height was measured to the last complete millimetre using the Harpenden stadiometer and weight measured using the Tanita body fat analyser (Model TBF 305). Body mass index (BMI) (kg/m2) was then calculated as weight/height2.
+
+BMI was converted into sex-specific and age-specific Z-scores relative to the International Obesity Task Force cut-offs. These Z-scores were used to classify children into the recognised BMI categories (underweight, normal weight, overweight, obese), based on published BMI Z-score cut-offs16 (eg, BMI Z-score >2.288 and Z-score >2.192 are used to classify boys and girls, respectively, as obese).
+
+
+
+CFS/ME was defined in accordance with Centers for Disease Control and Prevention (CDC) criteria (until 2007) or National Institute for Health and Care Excellence (NICE) guidance (from 2007 onwards). These criteria are broadly similar, however, CDC criteria specify symptom duration of 6 months compared with 4 months in the NICE guidelines.
+
+
+
+Age 13 years: Our method for defining chronic disabling fatigue at 13 years has been described previously.14 In brief, we identified adolescents reported by their mothers to have experienced fatigue lasting >6 months that was associated with absence from full-time school or that had prevented them from taking part in activities ‘quite a lot’ or ‘a great deal’. We excluded those whose mothers thought that the fatigue was caused by playing too much sport, who snored often and who had other illnesses that could cause fatigue (based on self-reported medication use).
+
+Age 16 years: Our method for defining CFS at age 16 years has been described previously.15 Briefly, a classification of CFS/ME was based on both parental and child-reported data. We classified adolescents as chronically fatigued if parents had reported that they had fatigue lasting >6 months that had stopped them from taking part in activities ‘quite a lot’ or ‘a great deal’, that was not due to playing too much sport, and that had resulted in any absence from school/college in the past year due to tiredness or lack of energy. The child-reported data which was used in order to classify CFS/ME was based on the Chalder Fatigue Questionnaire, with a score of ≥19 (out of 33) representing CFS/ME.
+
+
+
+In the cohort of adolescents attending the specialist CFS/ME service (NOD), height and weight were measured in the clinic or GP surgery or obtained from parental report.
+
+In the ALSPAC cohort, adolescents were invited to research clinics when they were aged approximately 13 years and 16 years. Height was measured to the last complete millimetre using the Harpenden stadiometer and weight measured using the Tanita body fat analyser (Model TBF 305). Body mass index (BMI) (kg/m2) was then calculated as weight/height2.
+
+BMI was converted into sex-specific and age-specific Z-scores relative to the International Obesity Task Force cut-offs. These Z-scores were used to classify children into the recognised BMI categories (underweight, normal weight, overweight, obese), based on published BMI Z-score cut-offs16 (eg, BMI Z-score >2.288 and Z-score >2.192 are used to classify boys and girls, respectively, as obese).
+Statistical analysis
+
+Analyses were based on differences between three groups: those with CFS/ME attending the specialist service; healthy adolescents participating in ALSPAC; and those classified as CFS/ME in ALSPAC. Across these three groups, differences in BMI and BMI Z-scores were investigated using analysis of variance tests, while the likelihood of having obesity was investigated using logistic regression. All analyses were conducted in Stata/MP V.13.1.
+
+
+
+Performing only complete-case analyses (ie, ignoring those adolescents with missing values for CFS, weight or covariates) could result in bias and would result in inflation of SEs. If missingness is dependent only on observed data (referred to as missing at random), then multiple imputation (MI) can be used to correct this bias.
+
+
+
+We generated 99 imputed data sets based on classification of CFS (measured at 13 years and 16 years), BMI at 10 years, 11 years, 12 years, 13 years and 16 years, BMI Z-scores at 13 years and 16 years, maternal age at delivery, maternal education, total Family Adversity Index (FAI) score recorded during pregnancy (derived from responses to questions about adversity and socioeconomic status, answered by the mother, yielding scores from 0 to 18, with a higher score representing greater adversity), total FAI score recorded when the child was 8–10 years old, three additional components of the FAI recorded at 8–10 years, total unauthorised and authorised absences during year 11 of schooling (eg, one absence equates to one half-day session (two registers per day) from a typical total of 390 sessions during year 11), mean Key Stage 2 mark and total score on the Strength and Difficulties Questionnaire measured when the child was 11 years (descriptions of these and some general information on the imputation process are provided in the online supplementary material).
+
+archdischild-2016-311293supp_material.pdf
+
+
+
+Similarly, we generated 99 imputed data sets for the imputation of the BMI Z scores. Imputation was based on sex, score on the Hospital Anxiety and Depression Scale depression and anxiety subscales, and scores on the EQ5D.
+
+Multivariable imputation was performed using the univariate chained equations method paired with regression switching17 (using Stata's user-written ‘ice’ command), combining estimates using Rubin's rules.18
+
+
+
+Performing only complete-case analyses (ie, ignoring those adolescents with missing values for CFS, weight or covariates) could result in bias and would result in inflation of SEs. If missingness is dependent only on observed data (referred to as missing at random), then multiple imputation (MI) can be used to correct this bias.
+
+
+
+We generated 99 imputed data sets based on classification of CFS (measured at 13 years and 16 years), BMI at 10 years, 11 years, 12 years, 13 years and 16 years, BMI Z-scores at 13 years and 16 years, maternal age at delivery, maternal education, total Family Adversity Index (FAI) score recorded during pregnancy (derived from responses to questions about adversity and socioeconomic status, answered by the mother, yielding scores from 0 to 18, with a higher score representing greater adversity), total FAI score recorded when the child was 8–10 years old, three additional components of the FAI recorded at 8–10 years, total unauthorised and authorised absences during year 11 of schooling (eg, one absence equates to one half-day session (two registers per day) from a typical total of 390 sessions during year 11), mean Key Stage 2 mark and total score on the Strength and Difficulties Questionnaire measured when the child was 11 years (descriptions of these and some general information on the imputation process are provided in the online supplementary material).
+
+archdischild-2016-311293supp_material.pdf
+
+
+
+Similarly, we generated 99 imputed data sets for the imputation of the BMI Z scores. Imputation was based on sex, score on the Hospital Anxiety and Depression Scale depression and anxiety subscales, and scores on the EQ5D.
+
+Multivariable imputation was performed using the univariate chained equations method paired with regression switching17 (using Stata's user-written ‘ice’ command), combining estimates using Rubin's rules.18
+
+
+
+We generated 99 imputed data sets based on classification of CFS (measured at 13 years and 16 years), BMI at 10 years, 11 years, 12 years, 13 years and 16 years, BMI Z-scores at 13 years and 16 years, maternal age at delivery, maternal education, total Family Adversity Index (FAI) score recorded during pregnancy (derived from responses to questions about adversity and socioeconomic status, answered by the mother, yielding scores from 0 to 18, with a higher score representing greater adversity), total FAI score recorded when the child was 8–10 years old, three additional components of the FAI recorded at 8–10 years, total unauthorised and authorised absences during year 11 of schooling (eg, one absence equates to one half-day session (two registers per day) from a typical total of 390 sessions during year 11), mean Key Stage 2 mark and total score on the Strength and Difficulties Questionnaire measured when the child was 11 years (descriptions of these and some general information on the imputation process are provided in the online supplementary material).
+
+archdischild-2016-311293supp_material.pdf
+
+archdischild-2016-311293supp_material.pdf
+
+
+
+Similarly, we generated 99 imputed data sets for the imputation of the BMI Z scores. Imputation was based on sex, score on the Hospital Anxiety and Depression Scale depression and anxiety subscales, and scores on the EQ5D.
+
+Multivariable imputation was performed using the univariate chained equations method paired with regression switching17 (using Stata's user-written ‘ice’ command), combining estimates using Rubin's rules.18
+
+Results
+
+The sample size after imputation in the specialist service cohort was 1685, representing adolescents who attended 14 specialist services between 2004 and 2015, who received a clinical diagnosis of CFS/ME and who also had complete gender data (n=1 with missing gender). The sample in the ALSPAC cohort after imputation was 13 978, which represents those who were in the ‘core’ ALSPAC sample, who were alive at 1 year and who were either a singleton or twin.
+
+Table 1 provides descriptive statistics for the variables included in the imputation models, stratified by those classified as having CFS/ME or not at 13 years and 16 years (limited to only those in the ALSPAC cohort who had this data). In those with CFS/ME at 13 years, there was a higher proportion of boys compared with those without CFS/ME, although the CI for the difference between the two straddled 0. The opposite was apparent at 16 years. Authorised absences during year 11 of school was higher in those classified with CFS/ME compared with those classified as non-CFS/ME at 13 years (difference in means: 11.19 half-days/year; 95% CI 4.01 to 18.36) and to a greater degree in those classified as CFS/ME at 16 years (difference in means: 21.83 half-days/year; 95% CI 14.72 to 28.94). Those classified as CFS/ME at 13 years also had a higher level of life difficulties at age 11 years, as measured by the Strengths and Difficulties Questionnaire (difference in means: 6.30; 95% CI 3.61 to 8.90). There were no differences in maternal age at delivery and proportion of those with mothers educated to degree level, between the two groups.
+
+Descriptive statistics of those classified as CFS and those classified as non-CFS in ALSPAC at age 16 years
+
+Proportions (95% CI) for categorical variables, means (95% CI) for continuous variables. Family Adversity Index collected when the child was 8–10 years.
+
+*Half-day sessions from a typical total of 390 sessions during year 11.
+
+ALSPAC, Avon Longitudinal Study of Parents and Children; CFS, chronic fatigue syndrome.
+
+Table 2 reveals the mean BMI and BMI Z-scores for the three groups, as well as the prevalence of obesity in each of the three groups. At age 13 years adolescents attending the specialist service had both a larger BMI (difference: 1.15; 95% CI 0.35 to 1.95, p=0.005) and larger BMI Z-score compared with healthy adolescents in the ALSPAC cohort (difference: 0.18; 95% CI −0.12 to 0.37, p=0.067). Adolescents attending specialist services were over two times as likely to be obese compared with healthy adolescents in ALSPAC (OR: 2.31; 95% CI 1.54 to 3.48). A similar pattern was also observed at 16 years, with those attending the specialist services having a higher BMI (difference: 0.62; 95% CI −0.97 to 2.21, p=0.44), BMI Z-score (difference: 0.30; 95% CI −0.15 to 0.76, p=0.19) and an even greater likelihood of obesity compared with healthy adolescents in the ALSPAC cohort (OR: 4.07; 95% CI 2.04 to 8.11). No difference in either BMI values or the prevalence of obesity were observed between those adolescents classified as CFS/ME in ALSPAC and those attending the specialist services, at either of the two time points.
+
+BMI, BMI Z-scores and obesity prevalence across the three CFS/ME groups
+
+ALSPAC, Avon Longitudinal Study of Parents and Children; BMI, body mass index; CFS, chronic fatigue syndrome; ME, myalgic encephalomyelitis.
+
+Discussion
+
+Identify the prevalence of obesity in patients with chronic fatigue syndrome (CFS) compared with healthy adolescents, and those identified with CFS in a population cohort.
+
+Cross-sectional analysis of multiple imputed data.
+
+Data from UK paediatric CFS/myalgic encephalomyelitis (CFS/ME) services compared with data collected at two time points in the Avon Longitudinal Study of Parents and Children (ALSPAC).
+
+Body mass index (BMI) (kg/m2), sex-specific and age-specific BMI Z-scores (relative to the International Obesity Task Force cut-offs) and prevalence of obesity (%).
+
+Adolescents who had attended specialist CFS/ME services had a higher prevalence of obesity (age 13 years: 9.28%; age 16 years: 16.43%) compared with both adolescents classified as CFS/ME in ALSPAC (age 13 years: 3.72%; age 16 years: 5.46%) and those non-CFS in ALSPAC (age 13 years: 4.18%; age 16 years: 4.46%). The increased odds of obesity in those who attended specialist services (relative to non-CFS in ALSPAC) was apparent at both 13 years (OR: 2.31 (1.54 to 3.48)) and 16 years, with a greater likelihood observed at 16 years (OR: 4.07 (2.04 to 8.11)).
+
+We observed an increased prevalence of obesity in adolescents who were affected severely enough to be referred to a specialist CFS/ME service. Further longitudinal research is required in order to identify the temporal relationship between the two conditions.
+
+Little research has been conducted investigating the relationship between chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME) and obesity, especially in adolescents. The few cross-sectional studies which have been conducted have provided conflicting findings,1–4 while a large longitudinal study found no association between obesity at 10 years and self-reported CFS diagnosis by the age of 30 years.5
+
+Obesity is an important comorbidity as it contributes an important risk for the development of a range of metabolic disorders (eg, type II diabetes, dyslipidaemia, hypertension and coronary heart disease).6–9
+
+Adolescents with CFS/ME may have an increased susceptibility for the development of obesity, via decreased levels of physical activity and/or increased time spent doing sedentary activities3
+10 and it is plausible that greater risk will be observed in those with more debilitating CFS/ME. As obesity has been observed to track from youth into adulthood,11
+12 maintaining the associated increased risk for metabolic sequelae across the life course, it is important to identify whether a diagnosis of CFS/ME in adolescence is associated with the prevalence of obesity, so appropriate interventions can be implemented.
+
+The objective of this study was to obtain prevalence estimates for obesity at two time points during adolescence (ages 13 years and 16 years), in three groups of adolescents representing a continuum of CFS/ME severity (healthy population, CFS/ME based on responses to questionnaires and clinically diagnosed CFS/ME).
+
+Participants used in this study came from two sources. First, we use data collected from all National Health Service (NHS) paediatric specialist services that participated in the CFS/ME National Outcomes Database (NOD) between August 2004 and October 2014. During this period, clinical assessment data and patient-reported measures were collected for approximately 1700 children and young people.
+
+Second, to represent the epidemiological arm of the study, we use data from adolescents participating in the Avon Longitudinal Study of Parents and Children (ALSPAC) cohort. ALSPAC is a population-based longitudinal birth cohort of children who had an expected date of delivery between April 1991 and December 1992 and whose mothers were resident in the Avon region of South-West England at the time of recruitment.13 From 14 541 pregnancies included, 13 978 children were alive at 12 months of age (excluding triplets and quads) (Please note that the study website contains details of all the data, ie, available through a fully searchable data dictionary: http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/).
+Strengths and limitations
+
+As mentioned previously, the cross-sectional nature of the study design limits our ability to make any causal conclusions. Furthermore, as the specialist service data are primarily a clinical data set and thus limited with regard to the amount of covariates collected and with the covariate data which were collected being different to those in ALSPAC, we were unable to adjust for a range of putative confounders of the association between CFS and obesity (eg, maternal and child depression and anxiety, socioeconomic status, sleep patterns, etc). However, the use of MI to address missing data due to loss to follow-up means we have likely removed some of the bias introduced by loss to follow-up (ie, we have shown previously that loss to follow-up is predicted by variables which are also predictive of CFS and obesity, eg, socioeconomic status). Furthermore, the use of MI allows analyses to be conducted on a much larger sample size, with the consequence of more precise parameter estimates.
+
+Conclusion
+
+We observed an increased prevalence of obesity in adolescents attending a specialist service compared with healthy adolescents in a population sample of the same age. Health professionals should be aware of this association to encourage appropriate screening for obesity and its possible complications when assessing patients with CFS/ME. Further longitudinal research is required in order to identify the temporal relationship between the two, while also adjusting for potential confounders of this association.
+
+Acknowledgments
+
+Identify the prevalence of obesity in patients with chronic fatigue syndrome (CFS) compared with healthy adolescents, and those identified with CFS in a population cohort.
+
+Cross-sectional analysis of multiple imputed data.
+
+Data from UK paediatric CFS/myalgic encephalomyelitis (CFS/ME) services compared with data collected at two time points in the Avon Longitudinal Study of Parents and Children (ALSPAC).
+
+Body mass index (BMI) (kg/m2), sex-specific and age-specific BMI Z-scores (relative to the International Obesity Task Force cut-offs) and prevalence of obesity (%).
+
+Adolescents who had attended specialist CFS/ME services had a higher prevalence of obesity (age 13 years: 9.28%; age 16 years: 16.43%) compared with both adolescents classified as CFS/ME in ALSPAC (age 13 years: 3.72%; age 16 years: 5.46%) and those non-CFS in ALSPAC (age 13 years: 4.18%; age 16 years: 4.46%). The increased odds of obesity in those who attended specialist services (relative to non-CFS in ALSPAC) was apparent at both 13 years (OR: 2.31 (1.54 to 3.48)) and 16 years, with a greater likelihood observed at 16 years (OR: 4.07 (2.04 to 8.11)).
+
+We observed an increased prevalence of obesity in adolescents who were affected severely enough to be referred to a specialist CFS/ME service. Further longitudinal research is required in order to identify the temporal relationship between the two conditions.
+
+Little research has been conducted investigating the relationship between chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME) and obesity, especially in adolescents. The few cross-sectional studies which have been conducted have provided conflicting findings,1–4 while a large longitudinal study found no association between obesity at 10 years and self-reported CFS diagnosis by the age of 30 years.5
+
+Obesity is an important comorbidity as it contributes an important risk for the development of a range of metabolic disorders (eg, type II diabetes, dyslipidaemia, hypertension and coronary heart disease).6–9
+
+Adolescents with CFS/ME may have an increased susceptibility for the development of obesity, via decreased levels of physical activity and/or increased time spent doing sedentary activities3
+10 and it is plausible that greater risk will be observed in those with more debilitating CFS/ME. As obesity has been observed to track from youth into adulthood,11
+12 maintaining the associated increased risk for metabolic sequelae across the life course, it is important to identify whether a diagnosis of CFS/ME in adolescence is associated with the prevalence of obesity, so appropriate interventions can be implemented.
+
+The objective of this study was to obtain prevalence estimates for obesity at two time points during adolescence (ages 13 years and 16 years), in three groups of adolescents representing a continuum of CFS/ME severity (healthy population, CFS/ME based on responses to questionnaires and clinically diagnosed CFS/ME).
+
+Participants used in this study came from two sources. First, we use data collected from all National Health Service (NHS) paediatric specialist services that participated in the CFS/ME National Outcomes Database (NOD) between August 2004 and October 2014. During this period, clinical assessment data and patient-reported measures were collected for approximately 1700 children and young people.
+
+Second, to represent the epidemiological arm of the study, we use data from adolescents participating in the Avon Longitudinal Study of Parents and Children (ALSPAC) cohort. ALSPAC is a population-based longitudinal birth cohort of children who had an expected date of delivery between April 1991 and December 1992 and whose mothers were resident in the Avon region of South-West England at the time of recruitment.13 From 14 541 pregnancies included, 13 978 children were alive at 12 months of age (excluding triplets and quads) (Please note that the study website contains details of all the data, ie, available through a fully searchable data dictionary: http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/).
+
+The authors thank all the families who took part in this study, the midwives for their help in recruiting them, and the whole ALSPAC team, which includes interviewers, computer and laboratory technicians, clerical workers, research scientists, volunteers, managers, receptionists and nurses. The authors thank the clinical leads and team members of all services participating in the National Outcomes Database.
+
+Footnotes
+
+
+
+Contributors: TN wrote the manuscript and performed all data management and analysis. EC and JH-S conceived the study, provided interpretation of results and contributed to the manuscript. KH provided interpretation of results and contributed to the manuscript. This study is the work of the authors and TN, KH, JH-S and EC will serve as guarantors of the work.
+
+
+
+
+
+Funding: The UK Medical Research Council and the Wellcome Trust (Grant ref: 102215/2/13/2) and the University of Bristol provide core support for ALSPAC. This research was specifically funded by an MRC research grant (MR/K020269/1). JH-S is supported through the National Institute for Health Research Biomedical Research Centre and Unit Funding Scheme. The views expressed in this publication are those of the authors and not necessarily those of the NHS, the National Institute for Health Research or the Department of Health. EC is funded by an NIHR SRF (SRF-2013-06-013).
+
+
+
+
+
+Competing interests: EC is a medical advisor for the Association of Young People with ME (AYME) and the Sussex & Kent ME/CFS Society.
+
+
+
+
+
+Ethics approval: Ethical approval for the ALSPAC study was obtained from the ALSPAC Ethics and Law Committee (IRB00003312 and the Local Research Ethics Committees. The North Somerset and South Bristol Research Ethics Committee decided that the collection and analysis of CFS/ME specialist service patient data were part of service evaluation and as such did not require ethical review by a NHS Research Ethics Committee or approval by NHS Research and Development offices (Research Ethics Committee reference number 07/Q2006/48).
+
+
+
+
+
+Provenance and peer review: Not commissioned; externally peer reviewed.
+
+
+
+References
+
+Identify the prevalence of obesity in patients with chronic fatigue syndrome (CFS) compared with healthy adolescents, and those identified with CFS in a population cohort.
+
+Cross-sectional analysis of multiple imputed data.
+
+Data from UK paediatric CFS/myalgic encephalomyelitis (CFS/ME) services compared with data collected at two time points in the Avon Longitudinal Study of Parents and Children (ALSPAC).
+
+Body mass index (BMI) (kg/m2), sex-specific and age-specific BMI Z-scores (relative to the International Obesity Task Force cut-offs) and prevalence of obesity (%).
+
+Adolescents who had attended specialist CFS/ME services had a higher prevalence of obesity (age 13 years: 9.28%; age 16 years: 16.43%) compared with both adolescents classified as CFS/ME in ALSPAC (age 13 years: 3.72%; age 16 years: 5.46%) and those non-CFS in ALSPAC (age 13 years: 4.18%; age 16 years: 4.46%). The increased odds of obesity in those who attended specialist services (relative to non-CFS in ALSPAC) was apparent at both 13 years (OR: 2.31 (1.54 to 3.48)) and 16 years, with a greater likelihood observed at 16 years (OR: 4.07 (2.04 to 8.11)).
+
+We observed an increased prevalence of obesity in adolescents who were affected severely enough to be referred to a specialist CFS/ME service. Further longitudinal research is required in order to identify the temporal relationship between the two conditions.
+
+Little research has been conducted investigating the relationship between chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME) and obesity, especially in adolescents. The few cross-sectional studies which have been conducted have provided conflicting findings,1–4 while a large longitudinal study found no association between obesity at 10 years and self-reported CFS diagnosis by the age of 30 years.5
+
+Obesity is an important comorbidity as it contributes an important risk for the development of a range of metabolic disorders (eg, type II diabetes, dyslipidaemia, hypertension and coronary heart disease).6–9
+
+Adolescents with CFS/ME may have an increased susceptibility for the development of obesity, via decreased levels of physical activity and/or increased time spent doing sedentary activities3
+10 and it is plausible that greater risk will be observed in those with more debilitating CFS/ME. As obesity has been observed to track from youth into adulthood,11
+12 maintaining the associated increased risk for metabolic sequelae across the life course, it is important to identify whether a diagnosis of CFS/ME in adolescence is associated with the prevalence of obesity, so appropriate interventions can be implemented.
+
+The objective of this study was to obtain prevalence estimates for obesity at two time points during adolescence (ages 13 years and 16 years), in three groups of adolescents representing a continuum of CFS/ME severity (healthy population, CFS/ME based on responses to questionnaires and clinically diagnosed CFS/ME).
+
+Participants used in this study came from two sources. First, we use data collected from all National Health Service (NHS) paediatric specialist services that participated in the CFS/ME National Outcomes Database (NOD) between August 2004 and October 2014. During this period, clinical assessment data and patient-reported measures were collected for approximately 1700 children and young people.
+
+Second, to represent the epidemiological arm of the study, we use data from adolescents participating in the Avon Longitudinal Study of Parents and Children (ALSPAC) cohort. ALSPAC is a population-based longitudinal birth cohort of children who had an expected date of delivery between April 1991 and December 1992 and whose mothers were resident in the Avon region of South-West England at the time of recruitment.13 From 14 541 pregnancies included, 13 978 children were alive at 12 months of age (excluding triplets and quads) (Please note that the study website contains details of all the data, ie, available through a fully searchable data dictionary: http://www.bris.ac.uk/alspac/researchers/data-access/data-dictionary/).
+
+http://www.ncbi.nlm.nih.gov/pubmed/27655658

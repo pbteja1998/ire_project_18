@@ -1,0 +1,456 @@
+Gut Dysbiosis in Patients with Anorexia Nervosa.
+
+Abstract
+
+Anorexia nervosa (AN) is a psychological illness with devastating physical consequences; however, its pathophysiological mechanism remains unclear. Because numerous reports have indicated the importance of gut microbiota in the regulation of weight gain, it is reasonable to speculate that AN patients might have a microbial imbalance, i.e. dysbiosis, in their gut. In this study, we compared the fecal microbiota of female patients with AN (n = 25), including restrictive (ANR, n = 14) and binge-eating (ANBP, n = 11) subtypes, with those of age-matched healthy female controls (n = 21) using the Yakult Intestinal Flora-SCAN based on 16S or 23S rRNA–targeted RT–quantitative PCR technology. AN patients had significantly lower amounts of total bacteria and obligate anaerobes including those from the Clostridium coccoides group, Clostridium leptum subgroup, and Bacteroides fragilis group than the age-matched healthy women. Lower numbers of Streptococcus were also found in the AN group than in the control group. In the analysis based on AN subtypes, the counts of the Bacteroides fragilis group in the ANR and ANBP groups and the counts of the Clostridium coccoides group in the ANR group were significantly lower than those in the control group. The detection rate of the Lactobacillus plantarum subgroup was significantly lower in the AN group than in the control group. The AN group had significantly lower acetic and propionic acid concentrations in the feces than the control group. Moreover, the subtype analysis showed that the fecal concentrations of acetic acid were lower in the ANR group than in the control group. Principal component analysis confirmed a clear difference in the bacterial components between the AN patients and healthy women. Collectively, these results clearly indicate the existence of dysbiosis in the gut of AN patients.
+
+Introduction
+
+Eating disorders are an important cause of physical and psychosocial morbidity in adolescent girls and adult women [1]. Anorexia nervosa (AN), a type of eating disorder, is classified into two main sub-types. Restricting type (ANR) is the most common type of AN in which a patient severely restricts his/her food intake. Patients with binge-eating or purging type AN (ANBP) restrict their intake and also have abnormal eating or purging behaviors, such as self-induced vomiting.
+
+In AN patients, the energy requirement for body-weight gain is higher than would be expected because of the cost of energy storage [2–4]. Factors such as increased physical activity [5] or diet-induced thermogenesis [6] are potentially involved in the poor weight gain response; however, the precise mechanism explaining this discrepancy remains to be clarified.
+
+Gut microbiota not only play a critical role in the development of the gut mucosal immunity [7, 8], but also affect the regulation of the hypothalamic-pituitary-adrenal (HPA) axis [9] and additional behaviors [10–14]. With the recent number of reports describing the importance of gut microbiota in the regulation of weight gain and host adiposity [15–17], it is reasonable to speculate that AN patients might have a microbial imbalance in their gut, i.e. gut dysbiosis.
+
+In the current study, we compared the fecal microbiota of female AN patients with those of age-matched healthy female controls, using the Yakult Intestinal Flora-SCAN (YIF-SCAN®) based on 16S or 23S rRNA–targeted RT–quantitative PCR (RT-qPCR) technology.
+
+Materials and Methods
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+Conceived and designed the experiments: CM NS. Performed the experiments: CM HT TH MG ST KK KO KN KM. Analyzed the data: CM HT KY NS. Contributed reagents/materials/analysis tools: HT KY KN KM. Wrote the paper: CM NS.
+
+Anorexia nervosa (AN) is a psychological illness with devastating physical consequences; however, its pathophysiological mechanism remains unclear. Because numerous reports have indicated the importance of gut microbiota in the regulation of weight gain, it is reasonable to speculate that AN patients might have a microbial imbalance, i.e. dysbiosis, in their gut. In this study, we compared the fecal microbiota of female patients with AN (n = 25), including restrictive (ANR, n = 14) and binge-eating (ANBP, n = 11) subtypes, with those of age-matched healthy female controls (n = 21) using the Yakult Intestinal Flora-SCAN based on 16S or 23S rRNA–targeted RT–quantitative PCR technology. AN patients had significantly lower amounts of total bacteria and obligate anaerobes including those from the Clostridium coccoides group, Clostridium leptum subgroup, and Bacteroides fragilis group than the age-matched healthy women. Lower numbers of Streptococcus were also found in the AN group than in the control group. In the analysis based on AN subtypes, the counts of the Bacteroides fragilis group in the ANR and ANBP groups and the counts of the Clostridium coccoides group in the ANR group were significantly lower than those in the control group. The detection rate of the Lactobacillus plantarum subgroup was significantly lower in the AN group than in the control group. The AN group had significantly lower acetic and propionic acid concentrations in the feces than the control group. Moreover, the subtype analysis showed that the fecal concentrations of acetic acid were lower in the ANR group than in the control group. Principal component analysis confirmed a clear difference in the bacterial components between the AN patients and healthy women. Collectively, these results clearly indicate the existence of dysbiosis in the gut of AN patients.
+
+Eating disorders are an important cause of physical and psychosocial morbidity in adolescent girls and adult women [1]. Anorexia nervosa (AN), a type of eating disorder, is classified into two main sub-types. Restricting type (ANR) is the most common type of AN in which a patient severely restricts his/her food intake. Patients with binge-eating or purging type AN (ANBP) restrict their intake and also have abnormal eating or purging behaviors, such as self-induced vomiting.
+
+In AN patients, the energy requirement for body-weight gain is higher than would be expected because of the cost of energy storage [2–4]. Factors such as increased physical activity [5] or diet-induced thermogenesis [6] are potentially involved in the poor weight gain response; however, the precise mechanism explaining this discrepancy remains to be clarified.
+
+Gut microbiota not only play a critical role in the development of the gut mucosal immunity [7, 8], but also affect the regulation of the hypothalamic-pituitary-adrenal (HPA) axis [9] and additional behaviors [10–14]. With the recent number of reports describing the importance of gut microbiota in the regulation of weight gain and host adiposity [15–17], it is reasonable to speculate that AN patients might have a microbial imbalance in their gut, i.e. gut dysbiosis.
+
+In the current study, we compared the fecal microbiota of female AN patients with those of age-matched healthy female controls, using the Yakult Intestinal Flora-SCAN (YIF-SCAN®) based on 16S or 23S rRNA–targeted RT–quantitative PCR (RT-qPCR) technology.
+Subjects
+
+We enrolled Japanese AN patients who were admitted to our department or visited our outpatient section at Kyushu University Hospital between 2010 and 2013, and 25 female patients (14 ANR and 11 ANBP) agreed to participate in this study. We also enrolled 21 age-matched, healthy female volunteers. Volunteers with a history of digestive disease such as inflammatory bowel disease and irritable bowel syndrome were excluded. We also excluded participants with the following conditions from the study: severe physical diseases, such as renal failure and infectious diseases and a history of antibiotics use or a regular intake of yoghurt or probiotics within 3 months of study participation.
+
+The AN patients underwent a structured interview, and their current AN phenotypes were diagnosed according to the Diagnostic and Statistical Manual of Mental Disorders-IV-TR criteria. The study protocol was approved by the Institutional Review Boards of Kyushu University Hospital, and written informed consent was obtained from all of the participants before enrollment in the study.
+Biochemical Analysis of Blood Samples
+
+Blood samples were collected in the morning for determination of serum levels of albumin, blood urea nitrogen, creatinine, electrolytes, aspartate aminotransferase, alanine aminotransferase, total cholesterol, triglyceride, and glucose. High sensitivity C-reactive protein levels were determined by latex nephelometry.
+Bacterial Count by Yakult Intestinal Flora-SCAN (YIF-SCAN®)
+
+Fecal samples were collected from the participants, according to a method described previously [18]. Then, we extracted total RNA fractions from feces using a method that has also been described previously and examined the composition of major gut bacterial groups using the YIF-SCAN® based on 16S or 23S rRNA–targeted RT–qPCR technology [18–23]. The specificity of the RT-qPCR assay, the sequences of the primers, and the lower detection limit for each bacterium were thoroughly checked and determined (S1 Table), as previously described [18–23]. The detection rate of each bacterium was evaluated in individual groups by calculating the ratio of the number of individuals who had the bacterium to the total number of individuals in the group.
+Organic Acids and pH Levels in Feces
+
+We measured fecal organic acids according to methods described previously [22]. In brief, the fecal sample was homogenized in perchloric acid (0.15 mol/L), and the resulting suspension was collected by centrifugation at 20,400× g at 4°C for 10 min. The concentrations of organic acids in the sample were measured using a high-performance liquid chromatography system (432 Conductivity Detector; Waters Co., Milford, MA). We also checked fecal pH using the IQ 150 pH/Thermometer (IQScientific Instruments, Inc., Carlsbad, CA).
+Statistical Analysis
+
+All data are expressed as the mean ± SD. All analyses were performed using the JMP statistical software package for Windows (version 11.0.0, SAS Institute Japan). To evaluate differences between the control subjects and AN patients, we used the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of tests. To examine differences in serum chemical parameters and bacterial counts between the control, ANR, and ANBP groups, the nonparametric Kruskal-Wallis test was used. Comparisons between two groups (control vs. ANR, control vs. ANBP, or ANR vs. ANBP) were performed using the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of tests.
+
+The distribution of the standardized U value is close to the normal distribution when sample sizes are not too small [24]. In that case, the standardized value (Z-score) is given by the following equation:
+
+
+
+The m
+U and σ
+U are the mean and standard deviation of U, respectively:
+
+
+
+
+
+
+The effect size (r) was calculated using absolute value of the Z-score and N (total number of paired participants in the groups), according to the following equation:
+
+
+
+According to previous literature for r, a value of 0.5 represents a large effect; 0.3, a medium effect; and 0.1, a small effect [24, 25].
+
+Regarding the detection rate of each bacterium, comparisons between two groups were analyzed using the Fisher’s exact test and subjected to the Bonferroni correction based on the number of tests.
+
+For principal component analysis (PCA), the log-transformed bacterial count was used. For samples in which bacteria were not detected (ND), the bacterial counts were regarded to be half the detection limits of the corresponding primer sets (S1 Table). PCA was applied to determine the data sets by using the statistical programming language R 3.1.1 [23]. The following data were included in the analysis: total bacteria, Clostridium coccoides group, Clostridium leptum subgroup, Bacteroides fragilis group, Bifidobacterium, Atopobium cluster, Prevotella, Enterobacteriaceae, Enterococcus, Staphylococcus, Streptococcus, Clostridium difficile, Clostridium perfringens, and total Lactobacillus. The result of the PCA was visualized using the ade4 package provided in the program R 3.1.1.
+
+Results
+
+As shown in Table 1, weight, body mass index, and serum C-reactive protein levels were significantly lower in the AN group than in the control group. In contrast, the AN group had significantly higher serum aspartate aminotransferase and alanine aminotransferase levels than the control group. In the analysis based on AN subtypes (Table 2), weight and body mass index in both the ANR and ANBP groups were significantly lower than those in the control group. In contrast, serum aspartate aminotransferase levels in both AN subtype groups were significantly higher than those in the control group. The ANBP group had significantly lower serum levels of potassium than the control and ANR groups. The ANR group exhibited significantly lower serum levels of C-reactive protein than the control group. In contrast, serum alanine aminotransferase levels were significantly higher in the ANR group than in the control group.
+
+BMI, body mass index; BUN, blood urea nitrogen; Crea, creatinine; AST, aspartate aminotransferase; ALT, alanine aminotransferase; T-Chol, total cholesterol; TG, triglycerides; CRP, C-reactive protein; ES, effect size. An asterisk (*) indicates a significant difference between the AN and control group after the Bonferroni correction based on the total number of tests (n = 17, p < 0.0029 (0.05/17)).
+
+BMI, body mass index; BUN, blood urea nitrogen; Crea, creatinine; AST, aspartate aminotransferase; ALT, alanine aminotransferase; T-Chol, total cholesterol; TG, triglycerides; CRP, C-reactive protein; ES, effect size. An asterisk (*) indicates a significant difference between the AN subgroups and control group after the Bonferroni correction based on the total number of tests (n = 51, p < 0.00098). The sharp (#) indicates a significant difference between the ANR and ANBP groups after the Bonferroni correction (p < 0.00098).
+
+
+1 The p value among the ANR, ANBP and control groups was evaluated by the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between two groups were performed using Wilcoxon-Mann-Whitney tests.
+
+As summarized in Table 3, the counts of total bacteria, Clostridium coccoides group, Clostridium leptum subgroup, Bacteroides fragilis group, and Streptococcus were significantly lower in the AN groups than in the control group. In the analysis based on AN subtype (Table 4), the counts of the Bacteroides fragilis group in the ANR and ANBP groups and the counts of the Clostridium coccoides group in the ANR group were significantly lower than in the control group.
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus;ES, effect size. NT means "not tested" because at least one group is below detection limits. The total count of Lactobacillus obtained by YIF-SCAN® is expressed as the sum of the counts of 6 Lactobacilli subgroups and 2 species. An asterisk (*) indicates a significant difference between the AN and control group after the Bonferroni correction based on the number of tests (n = 21, p < 0.0024 (0.05/21)).
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus; ES, effect size. NT, "not tested" because at least one group is below detection limits. The total count of Lactobacillus obtained by YIF-SCAN® is expressed as the sum of the counts of 6 lactobacilli subgroups and 2 species. An asterisk (*) shows a significant difference between the AN subgroup and the control group after application of the Bonferroni correction based on the total number of tests (n = 59, p < 0.00084 (0.05/59)).
+
+
+1 Statistical differences between the ANR, ANBP, and control groups were evaluated using the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between two groups were made using the Wilcoxon-Mann-Whitney test.
+
+As shown in Table 5, the detection rate of the Lactobacillus plantarum subgroup was significantly lower in the AN group than in the control group. Interestingly, 5 of 11 (45%) ANBP patients had Clostridium difficile in their feces, while neither the control nor ANR patients had any detectable levels of this pathogen (Table 6); however, the differences between the groups (Fisher’s exact tests, control vs. ANBP, p = 0.0023; ANR vs. ANBP, p = 0.0087) were not statistically significant after the Bonferroni correction.
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus. NT, "not tested" because of no difference in the bacterial detection rate between the two groups. Comparisons between the two groups were conducted using Fisher's exact test followed by the Bonferroni correction. An asterisk (*) indicates a significant difference between the AN and control groups after the Bonferroni correction based on the total number of tests (n = 17, p < 0.0029 (0.05/17)).
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus. NT, "not tested" because of no difference in bacterial detection rate between the two groups.
+
+
+1 Comparisons between the two groups were made using the Fisher's exact test followed by the Bonferroni correction based on the number of total tests (n = 47).
+
+As summarized in Table 7, the AN group had significantly lower fecal concentrations of acetic acid and propionic acid than the control group. In the AN subtype analysis (Table 8), the acetic acid levels were significantly lower in the ANR group than in the control group.
+
+ES: effect size. Total organic acid concentration is expressed as the sum of the concentrations of 9 acids. An asterisk (*) indicates a significant difference between the AN and control groups after a the Bonferroni correction based on the total number of tests (n = 11, p < 0.0045 (0.05/11)).
+
+ND: not detected. Total organic acid concentration is expressed as the sum of the concentrations of 9 acids. An asterisk (*) indicates a significant difference between the AN subgroup and the control group after application of the Bonferroni correction based on the total number of tests (n = 33).
+
+
+1 Statistical differences between the ANR, ANBP, and control groups were evaluated using the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between the two groups were performed using the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of groups of subjects (n = 33, p < 0.0015 (0.05/33)).
+
+The differences in bacterial components between the groups were also supported by the PCA results (Fig 1). In particular, a clear separation was observed between the plots for AN patients and control women along the PC1 axis, which had highly negative correlations with the counts of C. coccoides and total bacteria.
+
+Black, red, and purple plots show data for the healthy female controls, ANR patients, and ANBP patients, respectively. The colored ellipse represents 50% of the samples. Arrows indicate the characteristic vectors of the upper 4 factor loadings. The numbers in parentheses represent the proportion of variance.
+
+Discussion
+
+In the current study, AN patients had significantly lower amounts of total bacteria, C. coccoides group, C. leptum subgroup, B. fragilis, and Streptococcus than age-matched healthy women. In addition, acetic acid and propionic acid levels were significantly lower in the AN group than in the control group. The detection rate of the Lactobacillus plantarum subgroup was also significantly lower in the AN group than in the control group. In the AN subtype analysis, the counts of the Bacteroides fragilis group in both the ANR and ANBP groups and the counts of the Clostridium coccoides in the ANR group were significantly lower than those in the control group. The PCA results showed that the patterns of gut microbiota in the AN group were different from those in the control group. Collectively, these results indicate that microbial imbalance, i.e. dysbiosis, does exist in the gut of AN patients.
+
+The importance of gut microbes in weight control was first reported as a beneficial effect of antibiotics on growth promotion in poultry [26, 27]. Antibiotic growth promotion in the livestock industry has since been practiced in the United States and other countries. Because oral antibiotics failed to exert any growth-promoting effects on germ-free animals [28], the mechanism for such growth promotion is thought to be mediated by gut microbiota. Recently, this concept was further advanced by a series of excellent work by Gordon and colleagues [15–17], who demonstrated that obesity is linked with changes in the relative abundance of the two dominant bacterial divisions of the gut microbiome, Bacteroidetes and Firmicutes. These findings clearly demonstrate the importance of gut microbes in the regulation of weight gain.
+
+In a recent report from a group in France, higher amounts of Methanobrevibacter smithii, a predominant archaeon in the human gut, were found in nine anorexic patients than in lean patients [29]. More recently, an exciting paper demonstrated that transplantation of Christensenella minuta, a cultured member of the Christensenellaceae family, to germ-free mice reduced weight gain by altering the microbiome of recipient mice [30]. Although those microorganisms were not included in the analysis in the present study, these findings collectively suggest that gut dysbiosis or a certain bacterium found in AN patients might be a causal factor for maintenance of emaciation. To solve this important and fundamental question, we have a new project in progress to unravel a comprehensive feature of the AN-specific gut microbiome using a next generation sequencer, in combination with animal studies using gnotobiotic mice reconstituted with AN gut microbes.
+
+In this study, C. difficile was only detected in the ANBP group, but not in the control and ANR groups. Several risk factors are implicated in the establishment of C. difficile infection [31]. Exposure to antimicrobial agents, the most well known risk factor, increases the possibility of C. difficile infection because it disturbs the composition of gut microbiota. The use of acid-suppressing medication such as histamine type 2 receptor blockers and proton pump inhibitors is also suggested as another potential risk factor [32–34]; however, an epidemiologic association between the use of stomach acid-suppressing medications and C. difficile infection is still inconclusive [31, 35–37]. In the present study, all of the AN patients did not take any antibiotics during the previous three months. In addition, one of five C. difficile-positive ANBP patients had a prescription for rabeprazole, while the rest were not taking any stomach acid-suppressing medications, indicating no direct association between the use of antibiotics or stomach acid-suppressing agents and the development of C. difficile infection in our patients. Because ANBP patients often have esophageal and gastric abnormalities due to frequent vomiting, these results suggest ANBP-specific behaviors, such as recurrent purging, to be a possible risk factor for C. difficile colonization.
+
+Molecular biology methods have been developed recently to study microbiota by targeting rRNA genes. The YIF-SCAN® was developed based on RT-qPCR using specific primers that target bacterial rRNA molecules [20, 23]. By targeting rRNA molecules, the YIF-SCAN® has 100–1,000 times the sensitivity of conventional PCR methods, enabling microbiota analysis with a strikingly wide dynamic range. Indeed, the detection of C. difficile in this study was made possible because of its high level of sensitivity.
+
+This study has several limitations. First, we cannot draw conclusions about a causal link between gut dysbiosis and difficulty in weight gain because of the cross-sectional study design. This problem can be addressed using gnotobiotic mice which have human AN-specific microbiota. Second, the YIF-SCAN® only covers species of bacteria that can be detected with a specific primer. Third, the sample size was relatively small. This may mask some of the true variation in the population, and may contribute to the perception of differences following multi-dimensional reduction. Therefore, the current results should be confirmed in future studies with a large sample size.
+
+In conclusion, the current results indicate the presence of gut dysbiosis in AN patients. Unraveling the specific details of an AN-specific gut microbiome might be useful in developing a therapeutic option for this debilitating disorder.
+
+Supporting Information
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+Conceived and designed the experiments: CM NS. Performed the experiments: CM HT TH MG ST KK KO KN KM. Analyzed the data: CM HT KY NS. Contributed reagents/materials/analysis tools: HT KY KN KM. Wrote the paper: CM NS.
+
+Anorexia nervosa (AN) is a psychological illness with devastating physical consequences; however, its pathophysiological mechanism remains unclear. Because numerous reports have indicated the importance of gut microbiota in the regulation of weight gain, it is reasonable to speculate that AN patients might have a microbial imbalance, i.e. dysbiosis, in their gut. In this study, we compared the fecal microbiota of female patients with AN (n = 25), including restrictive (ANR, n = 14) and binge-eating (ANBP, n = 11) subtypes, with those of age-matched healthy female controls (n = 21) using the Yakult Intestinal Flora-SCAN based on 16S or 23S rRNA–targeted RT–quantitative PCR technology. AN patients had significantly lower amounts of total bacteria and obligate anaerobes including those from the Clostridium coccoides group, Clostridium leptum subgroup, and Bacteroides fragilis group than the age-matched healthy women. Lower numbers of Streptococcus were also found in the AN group than in the control group. In the analysis based on AN subtypes, the counts of the Bacteroides fragilis group in the ANR and ANBP groups and the counts of the Clostridium coccoides group in the ANR group were significantly lower than those in the control group. The detection rate of the Lactobacillus plantarum subgroup was significantly lower in the AN group than in the control group. The AN group had significantly lower acetic and propionic acid concentrations in the feces than the control group. Moreover, the subtype analysis showed that the fecal concentrations of acetic acid were lower in the ANR group than in the control group. Principal component analysis confirmed a clear difference in the bacterial components between the AN patients and healthy women. Collectively, these results clearly indicate the existence of dysbiosis in the gut of AN patients.
+
+Eating disorders are an important cause of physical and psychosocial morbidity in adolescent girls and adult women [1]. Anorexia nervosa (AN), a type of eating disorder, is classified into two main sub-types. Restricting type (ANR) is the most common type of AN in which a patient severely restricts his/her food intake. Patients with binge-eating or purging type AN (ANBP) restrict their intake and also have abnormal eating or purging behaviors, such as self-induced vomiting.
+
+In AN patients, the energy requirement for body-weight gain is higher than would be expected because of the cost of energy storage [2–4]. Factors such as increased physical activity [5] or diet-induced thermogenesis [6] are potentially involved in the poor weight gain response; however, the precise mechanism explaining this discrepancy remains to be clarified.
+
+Gut microbiota not only play a critical role in the development of the gut mucosal immunity [7, 8], but also affect the regulation of the hypothalamic-pituitary-adrenal (HPA) axis [9] and additional behaviors [10–14]. With the recent number of reports describing the importance of gut microbiota in the regulation of weight gain and host adiposity [15–17], it is reasonable to speculate that AN patients might have a microbial imbalance in their gut, i.e. gut dysbiosis.
+
+In the current study, we compared the fecal microbiota of female AN patients with those of age-matched healthy female controls, using the Yakult Intestinal Flora-SCAN (YIF-SCAN®) based on 16S or 23S rRNA–targeted RT–quantitative PCR (RT-qPCR) technology.
+
+We enrolled Japanese AN patients who were admitted to our department or visited our outpatient section at Kyushu University Hospital between 2010 and 2013, and 25 female patients (14 ANR and 11 ANBP) agreed to participate in this study. We also enrolled 21 age-matched, healthy female volunteers. Volunteers with a history of digestive disease such as inflammatory bowel disease and irritable bowel syndrome were excluded. We also excluded participants with the following conditions from the study: severe physical diseases, such as renal failure and infectious diseases and a history of antibiotics use or a regular intake of yoghurt or probiotics within 3 months of study participation.
+
+The AN patients underwent a structured interview, and their current AN phenotypes were diagnosed according to the Diagnostic and Statistical Manual of Mental Disorders-IV-TR criteria. The study protocol was approved by the Institutional Review Boards of Kyushu University Hospital, and written informed consent was obtained from all of the participants before enrollment in the study.
+
+Blood samples were collected in the morning for determination of serum levels of albumin, blood urea nitrogen, creatinine, electrolytes, aspartate aminotransferase, alanine aminotransferase, total cholesterol, triglyceride, and glucose. High sensitivity C-reactive protein levels were determined by latex nephelometry.
+
+Fecal samples were collected from the participants, according to a method described previously [18]. Then, we extracted total RNA fractions from feces using a method that has also been described previously and examined the composition of major gut bacterial groups using the YIF-SCAN® based on 16S or 23S rRNA–targeted RT–qPCR technology [18–23]. The specificity of the RT-qPCR assay, the sequences of the primers, and the lower detection limit for each bacterium were thoroughly checked and determined (S1 Table), as previously described [18–23]. The detection rate of each bacterium was evaluated in individual groups by calculating the ratio of the number of individuals who had the bacterium to the total number of individuals in the group.
+
+We measured fecal organic acids according to methods described previously [22]. In brief, the fecal sample was homogenized in perchloric acid (0.15 mol/L), and the resulting suspension was collected by centrifugation at 20,400× g at 4°C for 10 min. The concentrations of organic acids in the sample were measured using a high-performance liquid chromatography system (432 Conductivity Detector; Waters Co., Milford, MA). We also checked fecal pH using the IQ 150 pH/Thermometer (IQScientific Instruments, Inc., Carlsbad, CA).
+
+All data are expressed as the mean ± SD. All analyses were performed using the JMP statistical software package for Windows (version 11.0.0, SAS Institute Japan). To evaluate differences between the control subjects and AN patients, we used the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of tests. To examine differences in serum chemical parameters and bacterial counts between the control, ANR, and ANBP groups, the nonparametric Kruskal-Wallis test was used. Comparisons between two groups (control vs. ANR, control vs. ANBP, or ANR vs. ANBP) were performed using the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of tests.
+
+The distribution of the standardized U value is close to the normal distribution when sample sizes are not too small [24]. In that case, the standardized value (Z-score) is given by the following equation:
+
+
+
+The m
+U and σ
+U are the mean and standard deviation of U, respectively:
+
+
+
+
+
+
+The effect size (r) was calculated using absolute value of the Z-score and N (total number of paired participants in the groups), according to the following equation:
+
+
+
+According to previous literature for r, a value of 0.5 represents a large effect; 0.3, a medium effect; and 0.1, a small effect [24, 25].
+
+Regarding the detection rate of each bacterium, comparisons between two groups were analyzed using the Fisher’s exact test and subjected to the Bonferroni correction based on the number of tests.
+
+For principal component analysis (PCA), the log-transformed bacterial count was used. For samples in which bacteria were not detected (ND), the bacterial counts were regarded to be half the detection limits of the corresponding primer sets (S1 Table). PCA was applied to determine the data sets by using the statistical programming language R 3.1.1 [23]. The following data were included in the analysis: total bacteria, Clostridium coccoides group, Clostridium leptum subgroup, Bacteroides fragilis group, Bifidobacterium, Atopobium cluster, Prevotella, Enterobacteriaceae, Enterococcus, Staphylococcus, Streptococcus, Clostridium difficile, Clostridium perfringens, and total Lactobacillus. The result of the PCA was visualized using the ade4 package provided in the program R 3.1.1.
+
+As shown in Table 1, weight, body mass index, and serum C-reactive protein levels were significantly lower in the AN group than in the control group. In contrast, the AN group had significantly higher serum aspartate aminotransferase and alanine aminotransferase levels than the control group. In the analysis based on AN subtypes (Table 2), weight and body mass index in both the ANR and ANBP groups were significantly lower than those in the control group. In contrast, serum aspartate aminotransferase levels in both AN subtype groups were significantly higher than those in the control group. The ANBP group had significantly lower serum levels of potassium than the control and ANR groups. The ANR group exhibited significantly lower serum levels of C-reactive protein than the control group. In contrast, serum alanine aminotransferase levels were significantly higher in the ANR group than in the control group.
+
+BMI, body mass index; BUN, blood urea nitrogen; Crea, creatinine; AST, aspartate aminotransferase; ALT, alanine aminotransferase; T-Chol, total cholesterol; TG, triglycerides; CRP, C-reactive protein; ES, effect size. An asterisk (*) indicates a significant difference between the AN and control group after the Bonferroni correction based on the total number of tests (n = 17, p < 0.0029 (0.05/17)).
+
+BMI, body mass index; BUN, blood urea nitrogen; Crea, creatinine; AST, aspartate aminotransferase; ALT, alanine aminotransferase; T-Chol, total cholesterol; TG, triglycerides; CRP, C-reactive protein; ES, effect size. An asterisk (*) indicates a significant difference between the AN subgroups and control group after the Bonferroni correction based on the total number of tests (n = 51, p < 0.00098). The sharp (#) indicates a significant difference between the ANR and ANBP groups after the Bonferroni correction (p < 0.00098).
+
+
+1 The p value among the ANR, ANBP and control groups was evaluated by the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between two groups were performed using Wilcoxon-Mann-Whitney tests.
+
+As summarized in Table 3, the counts of total bacteria, Clostridium coccoides group, Clostridium leptum subgroup, Bacteroides fragilis group, and Streptococcus were significantly lower in the AN groups than in the control group. In the analysis based on AN subtype (Table 4), the counts of the Bacteroides fragilis group in the ANR and ANBP groups and the counts of the Clostridium coccoides group in the ANR group were significantly lower than in the control group.
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus;ES, effect size. NT means "not tested" because at least one group is below detection limits. The total count of Lactobacillus obtained by YIF-SCAN® is expressed as the sum of the counts of 6 Lactobacilli subgroups and 2 species. An asterisk (*) indicates a significant difference between the AN and control group after the Bonferroni correction based on the number of tests (n = 21, p < 0.0024 (0.05/21)).
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus; ES, effect size. NT, "not tested" because at least one group is below detection limits. The total count of Lactobacillus obtained by YIF-SCAN® is expressed as the sum of the counts of 6 lactobacilli subgroups and 2 species. An asterisk (*) shows a significant difference between the AN subgroup and the control group after application of the Bonferroni correction based on the total number of tests (n = 59, p < 0.00084 (0.05/59)).
+
+
+1 Statistical differences between the ANR, ANBP, and control groups were evaluated using the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between two groups were made using the Wilcoxon-Mann-Whitney test.
+
+As shown in Table 5, the detection rate of the Lactobacillus plantarum subgroup was significantly lower in the AN group than in the control group. Interestingly, 5 of 11 (45%) ANBP patients had Clostridium difficile in their feces, while neither the control nor ANR patients had any detectable levels of this pathogen (Table 6); however, the differences between the groups (Fisher’s exact tests, control vs. ANBP, p = 0.0023; ANR vs. ANBP, p = 0.0087) were not statistically significant after the Bonferroni correction.
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus. NT, "not tested" because of no difference in the bacterial detection rate between the two groups. Comparisons between the two groups were conducted using Fisher's exact test followed by the Bonferroni correction. An asterisk (*) indicates a significant difference between the AN and control groups after the Bonferroni correction based on the total number of tests (n = 17, p < 0.0029 (0.05/17)).
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus. NT, "not tested" because of no difference in bacterial detection rate between the two groups.
+
+
+1 Comparisons between the two groups were made using the Fisher's exact test followed by the Bonferroni correction based on the number of total tests (n = 47).
+
+As summarized in Table 7, the AN group had significantly lower fecal concentrations of acetic acid and propionic acid than the control group. In the AN subtype analysis (Table 8), the acetic acid levels were significantly lower in the ANR group than in the control group.
+
+ES: effect size. Total organic acid concentration is expressed as the sum of the concentrations of 9 acids. An asterisk (*) indicates a significant difference between the AN and control groups after a the Bonferroni correction based on the total number of tests (n = 11, p < 0.0045 (0.05/11)).
+
+ND: not detected. Total organic acid concentration is expressed as the sum of the concentrations of 9 acids. An asterisk (*) indicates a significant difference between the AN subgroup and the control group after application of the Bonferroni correction based on the total number of tests (n = 33).
+
+
+1 Statistical differences between the ANR, ANBP, and control groups were evaluated using the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between the two groups were performed using the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of groups of subjects (n = 33, p < 0.0015 (0.05/33)).
+
+The differences in bacterial components between the groups were also supported by the PCA results (Fig 1). In particular, a clear separation was observed between the plots for AN patients and control women along the PC1 axis, which had highly negative correlations with the counts of C. coccoides and total bacteria.
+
+Black, red, and purple plots show data for the healthy female controls, ANR patients, and ANBP patients, respectively. The colored ellipse represents 50% of the samples. Arrows indicate the characteristic vectors of the upper 4 factor loadings. The numbers in parentheses represent the proportion of variance.
+
+In the current study, AN patients had significantly lower amounts of total bacteria, C. coccoides group, C. leptum subgroup, B. fragilis, and Streptococcus than age-matched healthy women. In addition, acetic acid and propionic acid levels were significantly lower in the AN group than in the control group. The detection rate of the Lactobacillus plantarum subgroup was also significantly lower in the AN group than in the control group. In the AN subtype analysis, the counts of the Bacteroides fragilis group in both the ANR and ANBP groups and the counts of the Clostridium coccoides in the ANR group were significantly lower than those in the control group. The PCA results showed that the patterns of gut microbiota in the AN group were different from those in the control group. Collectively, these results indicate that microbial imbalance, i.e. dysbiosis, does exist in the gut of AN patients.
+
+The importance of gut microbes in weight control was first reported as a beneficial effect of antibiotics on growth promotion in poultry [26, 27]. Antibiotic growth promotion in the livestock industry has since been practiced in the United States and other countries. Because oral antibiotics failed to exert any growth-promoting effects on germ-free animals [28], the mechanism for such growth promotion is thought to be mediated by gut microbiota. Recently, this concept was further advanced by a series of excellent work by Gordon and colleagues [15–17], who demonstrated that obesity is linked with changes in the relative abundance of the two dominant bacterial divisions of the gut microbiome, Bacteroidetes and Firmicutes. These findings clearly demonstrate the importance of gut microbes in the regulation of weight gain.
+
+In a recent report from a group in France, higher amounts of Methanobrevibacter smithii, a predominant archaeon in the human gut, were found in nine anorexic patients than in lean patients [29]. More recently, an exciting paper demonstrated that transplantation of Christensenella minuta, a cultured member of the Christensenellaceae family, to germ-free mice reduced weight gain by altering the microbiome of recipient mice [30]. Although those microorganisms were not included in the analysis in the present study, these findings collectively suggest that gut dysbiosis or a certain bacterium found in AN patients might be a causal factor for maintenance of emaciation. To solve this important and fundamental question, we have a new project in progress to unravel a comprehensive feature of the AN-specific gut microbiome using a next generation sequencer, in combination with animal studies using gnotobiotic mice reconstituted with AN gut microbes.
+
+In this study, C. difficile was only detected in the ANBP group, but not in the control and ANR groups. Several risk factors are implicated in the establishment of C. difficile infection [31]. Exposure to antimicrobial agents, the most well known risk factor, increases the possibility of C. difficile infection because it disturbs the composition of gut microbiota. The use of acid-suppressing medication such as histamine type 2 receptor blockers and proton pump inhibitors is also suggested as another potential risk factor [32–34]; however, an epidemiologic association between the use of stomach acid-suppressing medications and C. difficile infection is still inconclusive [31, 35–37]. In the present study, all of the AN patients did not take any antibiotics during the previous three months. In addition, one of five C. difficile-positive ANBP patients had a prescription for rabeprazole, while the rest were not taking any stomach acid-suppressing medications, indicating no direct association between the use of antibiotics or stomach acid-suppressing agents and the development of C. difficile infection in our patients. Because ANBP patients often have esophageal and gastric abnormalities due to frequent vomiting, these results suggest ANBP-specific behaviors, such as recurrent purging, to be a possible risk factor for C. difficile colonization.
+
+Molecular biology methods have been developed recently to study microbiota by targeting rRNA genes. The YIF-SCAN® was developed based on RT-qPCR using specific primers that target bacterial rRNA molecules [20, 23]. By targeting rRNA molecules, the YIF-SCAN® has 100–1,000 times the sensitivity of conventional PCR methods, enabling microbiota analysis with a strikingly wide dynamic range. Indeed, the detection of C. difficile in this study was made possible because of its high level of sensitivity.
+
+This study has several limitations. First, we cannot draw conclusions about a causal link between gut dysbiosis and difficulty in weight gain because of the cross-sectional study design. This problem can be addressed using gnotobiotic mice which have human AN-specific microbiota. Second, the YIF-SCAN® only covers species of bacteria that can be detected with a specific primer. Third, the sample size was relatively small. This may mask some of the true variation in the population, and may contribute to the perception of differences following multi-dimensional reduction. Therefore, the current results should be confirmed in future studies with a large sample size.
+
+In conclusion, the current results indicate the presence of gut dysbiosis in AN patients. Unraveling the specific details of an AN-specific gut microbiome might be useful in developing a therapeutic option for this debilitating disorder.
+
+(PDF)
+
+Funding Statement
+
+This work was partially supported by Grants-in-Aid for General Scientific Research from the Ministry of Education, Culture, Sports, Science, and Technology in Japan (22659144, https://kaken.nii.ac.jp/d/p/22659144.ja.html; 25293167, https://kaken.nii.ac.jp/d/p/25293167.ja.html: NS). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+Data Availability
+
+All relevant data are within the paper and its Supporting Information file.
+
+References
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 2  Yakult Central Institute, Tokyo, Japan,   
+
+ 1  Department of Psychosomatic Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan,   
+
+Conceived and designed the experiments: CM NS. Performed the experiments: CM HT TH MG ST KK KO KN KM. Analyzed the data: CM HT KY NS. Contributed reagents/materials/analysis tools: HT KY KN KM. Wrote the paper: CM NS.
+
+Anorexia nervosa (AN) is a psychological illness with devastating physical consequences; however, its pathophysiological mechanism remains unclear. Because numerous reports have indicated the importance of gut microbiota in the regulation of weight gain, it is reasonable to speculate that AN patients might have a microbial imbalance, i.e. dysbiosis, in their gut. In this study, we compared the fecal microbiota of female patients with AN (n = 25), including restrictive (ANR, n = 14) and binge-eating (ANBP, n = 11) subtypes, with those of age-matched healthy female controls (n = 21) using the Yakult Intestinal Flora-SCAN based on 16S or 23S rRNA–targeted RT–quantitative PCR technology. AN patients had significantly lower amounts of total bacteria and obligate anaerobes including those from the Clostridium coccoides group, Clostridium leptum subgroup, and Bacteroides fragilis group than the age-matched healthy women. Lower numbers of Streptococcus were also found in the AN group than in the control group. In the analysis based on AN subtypes, the counts of the Bacteroides fragilis group in the ANR and ANBP groups and the counts of the Clostridium coccoides group in the ANR group were significantly lower than those in the control group. The detection rate of the Lactobacillus plantarum subgroup was significantly lower in the AN group than in the control group. The AN group had significantly lower acetic and propionic acid concentrations in the feces than the control group. Moreover, the subtype analysis showed that the fecal concentrations of acetic acid were lower in the ANR group than in the control group. Principal component analysis confirmed a clear difference in the bacterial components between the AN patients and healthy women. Collectively, these results clearly indicate the existence of dysbiosis in the gut of AN patients.
+
+Eating disorders are an important cause of physical and psychosocial morbidity in adolescent girls and adult women [1]. Anorexia nervosa (AN), a type of eating disorder, is classified into two main sub-types. Restricting type (ANR) is the most common type of AN in which a patient severely restricts his/her food intake. Patients with binge-eating or purging type AN (ANBP) restrict their intake and also have abnormal eating or purging behaviors, such as self-induced vomiting.
+
+In AN patients, the energy requirement for body-weight gain is higher than would be expected because of the cost of energy storage [2–4]. Factors such as increased physical activity [5] or diet-induced thermogenesis [6] are potentially involved in the poor weight gain response; however, the precise mechanism explaining this discrepancy remains to be clarified.
+
+Gut microbiota not only play a critical role in the development of the gut mucosal immunity [7, 8], but also affect the regulation of the hypothalamic-pituitary-adrenal (HPA) axis [9] and additional behaviors [10–14]. With the recent number of reports describing the importance of gut microbiota in the regulation of weight gain and host adiposity [15–17], it is reasonable to speculate that AN patients might have a microbial imbalance in their gut, i.e. gut dysbiosis.
+
+In the current study, we compared the fecal microbiota of female AN patients with those of age-matched healthy female controls, using the Yakult Intestinal Flora-SCAN (YIF-SCAN®) based on 16S or 23S rRNA–targeted RT–quantitative PCR (RT-qPCR) technology.
+
+We enrolled Japanese AN patients who were admitted to our department or visited our outpatient section at Kyushu University Hospital between 2010 and 2013, and 25 female patients (14 ANR and 11 ANBP) agreed to participate in this study. We also enrolled 21 age-matched, healthy female volunteers. Volunteers with a history of digestive disease such as inflammatory bowel disease and irritable bowel syndrome were excluded. We also excluded participants with the following conditions from the study: severe physical diseases, such as renal failure and infectious diseases and a history of antibiotics use or a regular intake of yoghurt or probiotics within 3 months of study participation.
+
+The AN patients underwent a structured interview, and their current AN phenotypes were diagnosed according to the Diagnostic and Statistical Manual of Mental Disorders-IV-TR criteria. The study protocol was approved by the Institutional Review Boards of Kyushu University Hospital, and written informed consent was obtained from all of the participants before enrollment in the study.
+
+Blood samples were collected in the morning for determination of serum levels of albumin, blood urea nitrogen, creatinine, electrolytes, aspartate aminotransferase, alanine aminotransferase, total cholesterol, triglyceride, and glucose. High sensitivity C-reactive protein levels were determined by latex nephelometry.
+
+Fecal samples were collected from the participants, according to a method described previously [18]. Then, we extracted total RNA fractions from feces using a method that has also been described previously and examined the composition of major gut bacterial groups using the YIF-SCAN® based on 16S or 23S rRNA–targeted RT–qPCR technology [18–23]. The specificity of the RT-qPCR assay, the sequences of the primers, and the lower detection limit for each bacterium were thoroughly checked and determined (S1 Table), as previously described [18–23]. The detection rate of each bacterium was evaluated in individual groups by calculating the ratio of the number of individuals who had the bacterium to the total number of individuals in the group.
+
+We measured fecal organic acids according to methods described previously [22]. In brief, the fecal sample was homogenized in perchloric acid (0.15 mol/L), and the resulting suspension was collected by centrifugation at 20,400× g at 4°C for 10 min. The concentrations of organic acids in the sample were measured using a high-performance liquid chromatography system (432 Conductivity Detector; Waters Co., Milford, MA). We also checked fecal pH using the IQ 150 pH/Thermometer (IQScientific Instruments, Inc., Carlsbad, CA).
+
+All data are expressed as the mean ± SD. All analyses were performed using the JMP statistical software package for Windows (version 11.0.0, SAS Institute Japan). To evaluate differences between the control subjects and AN patients, we used the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of tests. To examine differences in serum chemical parameters and bacterial counts between the control, ANR, and ANBP groups, the nonparametric Kruskal-Wallis test was used. Comparisons between two groups (control vs. ANR, control vs. ANBP, or ANR vs. ANBP) were performed using the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of tests.
+
+The distribution of the standardized U value is close to the normal distribution when sample sizes are not too small [24]. In that case, the standardized value (Z-score) is given by the following equation:
+
+
+
+The m
+U and σ
+U are the mean and standard deviation of U, respectively:
+
+
+
+
+
+
+The effect size (r) was calculated using absolute value of the Z-score and N (total number of paired participants in the groups), according to the following equation:
+
+
+
+According to previous literature for r, a value of 0.5 represents a large effect; 0.3, a medium effect; and 0.1, a small effect [24, 25].
+
+Regarding the detection rate of each bacterium, comparisons between two groups were analyzed using the Fisher’s exact test and subjected to the Bonferroni correction based on the number of tests.
+
+For principal component analysis (PCA), the log-transformed bacterial count was used. For samples in which bacteria were not detected (ND), the bacterial counts were regarded to be half the detection limits of the corresponding primer sets (S1 Table). PCA was applied to determine the data sets by using the statistical programming language R 3.1.1 [23]. The following data were included in the analysis: total bacteria, Clostridium coccoides group, Clostridium leptum subgroup, Bacteroides fragilis group, Bifidobacterium, Atopobium cluster, Prevotella, Enterobacteriaceae, Enterococcus, Staphylococcus, Streptococcus, Clostridium difficile, Clostridium perfringens, and total Lactobacillus. The result of the PCA was visualized using the ade4 package provided in the program R 3.1.1.
+
+As shown in Table 1, weight, body mass index, and serum C-reactive protein levels were significantly lower in the AN group than in the control group. In contrast, the AN group had significantly higher serum aspartate aminotransferase and alanine aminotransferase levels than the control group. In the analysis based on AN subtypes (Table 2), weight and body mass index in both the ANR and ANBP groups were significantly lower than those in the control group. In contrast, serum aspartate aminotransferase levels in both AN subtype groups were significantly higher than those in the control group. The ANBP group had significantly lower serum levels of potassium than the control and ANR groups. The ANR group exhibited significantly lower serum levels of C-reactive protein than the control group. In contrast, serum alanine aminotransferase levels were significantly higher in the ANR group than in the control group.
+
+BMI, body mass index; BUN, blood urea nitrogen; Crea, creatinine; AST, aspartate aminotransferase; ALT, alanine aminotransferase; T-Chol, total cholesterol; TG, triglycerides; CRP, C-reactive protein; ES, effect size. An asterisk (*) indicates a significant difference between the AN and control group after the Bonferroni correction based on the total number of tests (n = 17, p < 0.0029 (0.05/17)).
+
+BMI, body mass index; BUN, blood urea nitrogen; Crea, creatinine; AST, aspartate aminotransferase; ALT, alanine aminotransferase; T-Chol, total cholesterol; TG, triglycerides; CRP, C-reactive protein; ES, effect size. An asterisk (*) indicates a significant difference between the AN subgroups and control group after the Bonferroni correction based on the total number of tests (n = 51, p < 0.00098). The sharp (#) indicates a significant difference between the ANR and ANBP groups after the Bonferroni correction (p < 0.00098).
+
+
+1 The p value among the ANR, ANBP and control groups was evaluated by the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between two groups were performed using Wilcoxon-Mann-Whitney tests.
+
+As summarized in Table 3, the counts of total bacteria, Clostridium coccoides group, Clostridium leptum subgroup, Bacteroides fragilis group, and Streptococcus were significantly lower in the AN groups than in the control group. In the analysis based on AN subtype (Table 4), the counts of the Bacteroides fragilis group in the ANR and ANBP groups and the counts of the Clostridium coccoides group in the ANR group were significantly lower than in the control group.
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus;ES, effect size. NT means "not tested" because at least one group is below detection limits. The total count of Lactobacillus obtained by YIF-SCAN® is expressed as the sum of the counts of 6 Lactobacilli subgroups and 2 species. An asterisk (*) indicates a significant difference between the AN and control group after the Bonferroni correction based on the number of tests (n = 21, p < 0.0024 (0.05/21)).
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus; ES, effect size. NT, "not tested" because at least one group is below detection limits. The total count of Lactobacillus obtained by YIF-SCAN® is expressed as the sum of the counts of 6 lactobacilli subgroups and 2 species. An asterisk (*) shows a significant difference between the AN subgroup and the control group after application of the Bonferroni correction based on the total number of tests (n = 59, p < 0.00084 (0.05/59)).
+
+
+1 Statistical differences between the ANR, ANBP, and control groups were evaluated using the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between two groups were made using the Wilcoxon-Mann-Whitney test.
+
+As shown in Table 5, the detection rate of the Lactobacillus plantarum subgroup was significantly lower in the AN group than in the control group. Interestingly, 5 of 11 (45%) ANBP patients had Clostridium difficile in their feces, while neither the control nor ANR patients had any detectable levels of this pathogen (Table 6); however, the differences between the groups (Fisher’s exact tests, control vs. ANBP, p = 0.0023; ANR vs. ANBP, p = 0.0087) were not statistically significant after the Bonferroni correction.
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus. NT, "not tested" because of no difference in the bacterial detection rate between the two groups. Comparisons between the two groups were conducted using Fisher's exact test followed by the Bonferroni correction. An asterisk (*) indicates a significant difference between the AN and control groups after the Bonferroni correction based on the total number of tests (n = 17, p < 0.0029 (0.05/17)).
+
+
+C, Clostridium; B, Bacteroides; L, Lactobacillus. NT, "not tested" because of no difference in bacterial detection rate between the two groups.
+
+
+1 Comparisons between the two groups were made using the Fisher's exact test followed by the Bonferroni correction based on the number of total tests (n = 47).
+
+As summarized in Table 7, the AN group had significantly lower fecal concentrations of acetic acid and propionic acid than the control group. In the AN subtype analysis (Table 8), the acetic acid levels were significantly lower in the ANR group than in the control group.
+
+ES: effect size. Total organic acid concentration is expressed as the sum of the concentrations of 9 acids. An asterisk (*) indicates a significant difference between the AN and control groups after a the Bonferroni correction based on the total number of tests (n = 11, p < 0.0045 (0.05/11)).
+
+ND: not detected. Total organic acid concentration is expressed as the sum of the concentrations of 9 acids. An asterisk (*) indicates a significant difference between the AN subgroup and the control group after application of the Bonferroni correction based on the total number of tests (n = 33).
+
+
+1 Statistical differences between the ANR, ANBP, and control groups were evaluated using the KW (Kruskal-Wallis) test.
+
+
+2 Comparisons between the two groups were performed using the Wilcoxon-Mann-Whitney test followed by the Bonferroni correction based on the number of groups of subjects (n = 33, p < 0.0015 (0.05/33)).
+
+The differences in bacterial components between the groups were also supported by the PCA results (Fig 1). In particular, a clear separation was observed between the plots for AN patients and control women along the PC1 axis, which had highly negative correlations with the counts of C. coccoides and total bacteria.
+
+Black, red, and purple plots show data for the healthy female controls, ANR patients, and ANBP patients, respectively. The colored ellipse represents 50% of the samples. Arrows indicate the characteristic vectors of the upper 4 factor loadings. The numbers in parentheses represent the proportion of variance.
+
+In the current study, AN patients had significantly lower amounts of total bacteria, C. coccoides group, C. leptum subgroup, B. fragilis, and Streptococcus than age-matched healthy women. In addition, acetic acid and propionic acid levels were significantly lower in the AN group than in the control group. The detection rate of the Lactobacillus plantarum subgroup was also significantly lower in the AN group than in the control group. In the AN subtype analysis, the counts of the Bacteroides fragilis group in both the ANR and ANBP groups and the counts of the Clostridium coccoides in the ANR group were significantly lower than those in the control group. The PCA results showed that the patterns of gut microbiota in the AN group were different from those in the control group. Collectively, these results indicate that microbial imbalance, i.e. dysbiosis, does exist in the gut of AN patients.
+
+The importance of gut microbes in weight control was first reported as a beneficial effect of antibiotics on growth promotion in poultry [26, 27]. Antibiotic growth promotion in the livestock industry has since been practiced in the United States and other countries. Because oral antibiotics failed to exert any growth-promoting effects on germ-free animals [28], the mechanism for such growth promotion is thought to be mediated by gut microbiota. Recently, this concept was further advanced by a series of excellent work by Gordon and colleagues [15–17], who demonstrated that obesity is linked with changes in the relative abundance of the two dominant bacterial divisions of the gut microbiome, Bacteroidetes and Firmicutes. These findings clearly demonstrate the importance of gut microbes in the regulation of weight gain.
+
+In a recent report from a group in France, higher amounts of Methanobrevibacter smithii, a predominant archaeon in the human gut, were found in nine anorexic patients than in lean patients [29]. More recently, an exciting paper demonstrated that transplantation of Christensenella minuta, a cultured member of the Christensenellaceae family, to germ-free mice reduced weight gain by altering the microbiome of recipient mice [30]. Although those microorganisms were not included in the analysis in the present study, these findings collectively suggest that gut dysbiosis or a certain bacterium found in AN patients might be a causal factor for maintenance of emaciation. To solve this important and fundamental question, we have a new project in progress to unravel a comprehensive feature of the AN-specific gut microbiome using a next generation sequencer, in combination with animal studies using gnotobiotic mice reconstituted with AN gut microbes.
+
+In this study, C. difficile was only detected in the ANBP group, but not in the control and ANR groups. Several risk factors are implicated in the establishment of C. difficile infection [31]. Exposure to antimicrobial agents, the most well known risk factor, increases the possibility of C. difficile infection because it disturbs the composition of gut microbiota. The use of acid-suppressing medication such as histamine type 2 receptor blockers and proton pump inhibitors is also suggested as another potential risk factor [32–34]; however, an epidemiologic association between the use of stomach acid-suppressing medications and C. difficile infection is still inconclusive [31, 35–37]. In the present study, all of the AN patients did not take any antibiotics during the previous three months. In addition, one of five C. difficile-positive ANBP patients had a prescription for rabeprazole, while the rest were not taking any stomach acid-suppressing medications, indicating no direct association between the use of antibiotics or stomach acid-suppressing agents and the development of C. difficile infection in our patients. Because ANBP patients often have esophageal and gastric abnormalities due to frequent vomiting, these results suggest ANBP-specific behaviors, such as recurrent purging, to be a possible risk factor for C. difficile colonization.
+
+Molecular biology methods have been developed recently to study microbiota by targeting rRNA genes. The YIF-SCAN® was developed based on RT-qPCR using specific primers that target bacterial rRNA molecules [20, 23]. By targeting rRNA molecules, the YIF-SCAN® has 100–1,000 times the sensitivity of conventional PCR methods, enabling microbiota analysis with a strikingly wide dynamic range. Indeed, the detection of C. difficile in this study was made possible because of its high level of sensitivity.
+
+This study has several limitations. First, we cannot draw conclusions about a causal link between gut dysbiosis and difficulty in weight gain because of the cross-sectional study design. This problem can be addressed using gnotobiotic mice which have human AN-specific microbiota. Second, the YIF-SCAN® only covers species of bacteria that can be detected with a specific primer. Third, the sample size was relatively small. This may mask some of the true variation in the population, and may contribute to the perception of differences following multi-dimensional reduction. Therefore, the current results should be confirmed in future studies with a large sample size.
+
+In conclusion, the current results indicate the presence of gut dysbiosis in AN patients. Unraveling the specific details of an AN-specific gut microbiome might be useful in developing a therapeutic option for this debilitating disorder.
+
+(PDF)
+
+This work was partially supported by Grants-in-Aid for General Scientific Research from the Ministry of Education, Culture, Sports, Science, and Technology in Japan (22659144, https://kaken.nii.ac.jp/d/p/22659144.ja.html; 25293167, https://kaken.nii.ac.jp/d/p/25293167.ja.html: NS). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+All relevant data are within the paper and its Supporting Information file.
+
+http://www.ncbi.nlm.nih.gov/pubmed/26682545

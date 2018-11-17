@@ -1,0 +1,377 @@
+A meta-analysis and systematic review of the comorbidity between irritable bowel syndrome and bipolar disorder.
+
+Abstract
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+bDepartment of Internal Medicine
+
+cDepartment of Neurology, E-Da Hospital
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+eInstitute for Translational Research in Biomedical Sciences, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung, Taiwan.
+
+Irritable bowel syndrome (IBS) and bipolar disorder (BD) are 2 distinct diseases but may share a similar pathophysiology. However, the comorbidity rate of these 2 diseases is unclear. Also, the current practice guidelines suggest prescribing antidepressants to IBS patients. However, this practice may increase the risk of phase-shift to manic episodes in IBS patients comorbid with BD.
+
+This study aimed to determine the relationship between IBS and BD through a meta-analysis.
+
+Electronic research through PubMed, Medline, ScienceDirect online, ClinicalTrials.gov, and additional resources.
+
+The inclusion criteria were studies investigating the prevalence rate of BD in subjects with IBS and control subjects; and articles on clinical trials on humans.
+
+Data from included studies were pooled by a random effects model, and possible confounding variables were examined by meta-regression and subgroup analysis.
+
+The current study consists of a total of 177,117 IBS patients and 192,092 control subjects extracted from 6 included studies. The prevalence rate of BD was significantly higher in the IBS patients than in the controls (odds ratio = 2.48, 95% confidence interval: 2.35–2.61, P < 0.001). However, the significance persists only in studies from database research, but not from primary studies. In addition, there was no significant association between the prevalence rate of BD in IBS and several clinical variables, including age, female proportion, prevalence of comorbid diabetes, or hypertension.
+
+The total number of included studies is small. Moreover, apparently different results from database research and primary research limit the generalization of our findings to a broad population. Also, we could only perform meta-regression on limited clinical variables.
+
+Our results support a significantly higher prevalence rate of BD in IBS patients than in controls. Clinicians should be cautious about the risk of phase-shift to manic episodes when prescribing antidepressants in IBS patients under current practice guidelines.
+
+1. Introduction
+
+Irritable bowel syndrome (IBS) is characterized by abdominal pain, bloating, and disturbances in bowel habits without significant organic causes detected by routine medical examinations.[1] Some IBS-related symptoms provide more specific evidence of its presence, including bloody stool, weight loss, fever, and diurnal changes.[1] However, despite these symptoms, currently there is no consensus with regards to the clinical presentations and diagnosis of IBS, nor on the pathophysiology and optimal management strategy.[1,2] In a recent case–control trial, the authors demonstrated that abnormal levels of cytokines including tumor necrosis factor-α, interleukin (IL)-8, and IL-10 were significantly correlated with the symptoms of IBS, and also with the severity of depressive mood symptoms.[3] Based on such evidence, antidepressants such as tricyclic antidepressants (TCAs) and selective serotonin reuptake inhibitors (SSRIs) have been introduced in the management of IBS.[1,2] On the other hand, the prescription of atypical antipsychotics in IBS had been introduced in some reports as a potential benefit with their serotonin or norepinephrine effect.[4] However, the current evidence for the effectiveness of atypical antipsychotics in such patients is still insufficient, mostly from case reports,[5] or small-scale open-trials.[4]
+
+Bipolar disorder depressive episode (BD-D), although less prevalent than major depressive disorder, is more serious and can result in higher healthcare costs worldwide. BD-D is associated with a higher suicide risk and more frequent hospital admissions than major depressive disorder; however, it has attracted relatively less attention in clinical practice because of its lower prevalence rate. It is difficult to differentiate BD-D and depressive disorder at the initial presentation, regardless of the presence of predictive factors such as earlier age at onset and poor response to typical antidepressants.[6] Another difficulty in the management of BD-D is the high risk of a phase-shift to manic episodes with the use of antidepressants in such patients, which may result in serious consequences.
+
+The pathophysiology of bipolar disorder (BD) remains unclear. Some studies have reported that abnormal levels of cytokines such as tumor necrosis factor-α, IL-8, and IL-10 play an important role in the pathophysiology of BD.[7,8] Taken together, both IBS and BD may, at least partially, share a similar mechanism of pathophysiology. Therefore, it is hypothesized that they may have a similar comorbidity rate. This hypothesis is important, because the prescription of antidepressants in IBS patients would then raise the risk of a phase-shift to manic episodes if they were comorbid with BD.
+
+At present, only a few reports have investigated this topic. The earliest study by Blanchard et al (1990)[9] and 2 later studies[10,11] did not find an association between the comorbidity rates of these 2 diseases. However, in the most recent 3 large-scale studies, the comorbidity rate of BD in patients with IBS was significantly higher than in healthy controls.[12–14] These inconsistent findings may be due to the different study designs (self-reported study vs a nationwide database search),[10,12] different sample sizes,[10,11,13] different diagnostic criteria,[10,12] or different regions of research.[9,13] To address the inconsistency, the current study aimed to summarize evidence on the comorbidity rates of IBS and BD and to examine possible associations between the comorbidity rates and clinical variables through a systematic review and meta-analysis.
+
+2. Methods and materials
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+bDepartment of Internal Medicine
+
+cDepartment of Neurology, E-Da Hospital
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+eInstitute for Translational Research in Biomedical Sciences, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung, Taiwan.
+
+Irritable bowel syndrome (IBS) and bipolar disorder (BD) are 2 distinct diseases but may share a similar pathophysiology. However, the comorbidity rate of these 2 diseases is unclear. Also, the current practice guidelines suggest prescribing antidepressants to IBS patients. However, this practice may increase the risk of phase-shift to manic episodes in IBS patients comorbid with BD.
+
+This study aimed to determine the relationship between IBS and BD through a meta-analysis.
+
+Electronic research through PubMed, Medline, ScienceDirect online, ClinicalTrials.gov, and additional resources.
+
+The inclusion criteria were studies investigating the prevalence rate of BD in subjects with IBS and control subjects; and articles on clinical trials on humans.
+
+Data from included studies were pooled by a random effects model, and possible confounding variables were examined by meta-regression and subgroup analysis.
+
+The current study consists of a total of 177,117 IBS patients and 192,092 control subjects extracted from 6 included studies. The prevalence rate of BD was significantly higher in the IBS patients than in the controls (odds ratio = 2.48, 95% confidence interval: 2.35–2.61, P < 0.001). However, the significance persists only in studies from database research, but not from primary studies. In addition, there was no significant association between the prevalence rate of BD in IBS and several clinical variables, including age, female proportion, prevalence of comorbid diabetes, or hypertension.
+
+The total number of included studies is small. Moreover, apparently different results from database research and primary research limit the generalization of our findings to a broad population. Also, we could only perform meta-regression on limited clinical variables.
+
+Our results support a significantly higher prevalence rate of BD in IBS patients than in controls. Clinicians should be cautious about the risk of phase-shift to manic episodes when prescribing antidepressants in IBS patients under current practice guidelines.
+
+Irritable bowel syndrome (IBS) is characterized by abdominal pain, bloating, and disturbances in bowel habits without significant organic causes detected by routine medical examinations.[1] Some IBS-related symptoms provide more specific evidence of its presence, including bloody stool, weight loss, fever, and diurnal changes.[1] However, despite these symptoms, currently there is no consensus with regards to the clinical presentations and diagnosis of IBS, nor on the pathophysiology and optimal management strategy.[1,2] In a recent case–control trial, the authors demonstrated that abnormal levels of cytokines including tumor necrosis factor-α, interleukin (IL)-8, and IL-10 were significantly correlated with the symptoms of IBS, and also with the severity of depressive mood symptoms.[3] Based on such evidence, antidepressants such as tricyclic antidepressants (TCAs) and selective serotonin reuptake inhibitors (SSRIs) have been introduced in the management of IBS.[1,2] On the other hand, the prescription of atypical antipsychotics in IBS had been introduced in some reports as a potential benefit with their serotonin or norepinephrine effect.[4] However, the current evidence for the effectiveness of atypical antipsychotics in such patients is still insufficient, mostly from case reports,[5] or small-scale open-trials.[4]
+
+Bipolar disorder depressive episode (BD-D), although less prevalent than major depressive disorder, is more serious and can result in higher healthcare costs worldwide. BD-D is associated with a higher suicide risk and more frequent hospital admissions than major depressive disorder; however, it has attracted relatively less attention in clinical practice because of its lower prevalence rate. It is difficult to differentiate BD-D and depressive disorder at the initial presentation, regardless of the presence of predictive factors such as earlier age at onset and poor response to typical antidepressants.[6] Another difficulty in the management of BD-D is the high risk of a phase-shift to manic episodes with the use of antidepressants in such patients, which may result in serious consequences.
+
+The pathophysiology of bipolar disorder (BD) remains unclear. Some studies have reported that abnormal levels of cytokines such as tumor necrosis factor-α, IL-8, and IL-10 play an important role in the pathophysiology of BD.[7,8] Taken together, both IBS and BD may, at least partially, share a similar mechanism of pathophysiology. Therefore, it is hypothesized that they may have a similar comorbidity rate. This hypothesis is important, because the prescription of antidepressants in IBS patients would then raise the risk of a phase-shift to manic episodes if they were comorbid with BD.
+
+At present, only a few reports have investigated this topic. The earliest study by Blanchard et al (1990)[9] and 2 later studies[10,11] did not find an association between the comorbidity rates of these 2 diseases. However, in the most recent 3 large-scale studies, the comorbidity rate of BD in patients with IBS was significantly higher than in healthy controls.[12–14] These inconsistent findings may be due to the different study designs (self-reported study vs a nationwide database search),[10,12] different sample sizes,[10,11,13] different diagnostic criteria,[10,12] or different regions of research.[9,13] To address the inconsistency, the current study aimed to summarize evidence on the comorbidity rates of IBS and BD and to examine possible associations between the comorbidity rates and clinical variables through a systematic review and meta-analysis.
+2.1. Literature search and screening
+
+In this study, we followed the protocol as described in our previous meta-analysis.[15] In the initial identification stage, 2 independent authors performed a systematic literature search through PubMed, Medline, ScienceDirect Online, and ClinicalTrials.gov using the search term “(irritable bowel syndrome) AND (bipolar)” for all articles written in English. The search date was performed on February 29th, 2016. In the screening stage, the 2 authors screened all of the titles and abstracts of the identified articles. Studies not relevant to the prevalence rate of IBS and BD were excluded at this stage. All disagreements were resolved by consensus. Furthermore, we included additional studies from other resources.
+
+In screening for eligibility for inclusion into this study, we reviewed the full text of the articles, and selected those that met the following inclusion criteria: studies investigating the prevalence rate of BD in subjects with/without IBS, or those investigating the prevalence rate of IBS in subjects with/without BD; and articles on clinical trials on humans. The exclusion criteria were: case reports or seri and nonclinical studies.
+
+The primary outcome was the prevalence rate of BD in patients with/without IBS or the prevalence rate of IBS in patients with/without BD. We extracted all primary outcomes and clinical variables from the included studies as far as possible. If the data were not available, we attempted to contact the authors for the original data. The selection strategy is shown in Fig. ​Fig.1.1. To evaluate the quality of clinical trials, we used Jadad scale for all the recruited studies.[16]
+
+Flowchart of the study selection process in the current meta-analysis.
+2.2. Meta-analysis and data extraction
+
+We defined the effect sizes based on the odds ratio (OR) with a random effects model for the differences in the prevalence rate of BD in patients with/without IBS or the differences in the prevalence rate of IBS in subjects with/without BD. OR values higher than 1 indicated “favoring comorbidity” in the meta-analysis results.
+
+We performed the meta-analysis using Comprehensive Meta-Analysis software, version 2 (Biostat, Englewood, NJ). A P value of less than 0.05 was considered to indicate statistical significance. Heterogeneity was examined using Q statistics, related P values, and I2 statistics, and publication bias was investigated using visual examination of funnel plots and Egger regression analysis.[17] We evaluated possible confounding effects of clinical variables with subgroup meta-analysis and meta-regression analysis using the unrestricted maximum likelihood method. The including clinical variables for meta-regression included age, female proportion, body mass index, ethnicity (African American, White, Asia/Pacific islanders, Native Ameircans, and Hispanic), prevalence of diarrhea in IBS symptoms profile, prevalence of constipation in IBS symptoms profile, prevalence rate of comorbid autoimmune disease, prevalence rate of comorbid chronic kidney disease, prevalence rate of comorbid cerebrovascular disease, prevalence rate of comorbid diabetes mellitus (DM), prevalence rate of comorbid hypertension, prevalence rate of comorbid asthma, prevalence rate of comorbid chronic obstructive pulmonary disease/chronic pulmonary disease, prevalence rate of comorbid malignancy, prevalence rate of comorbid dyslipidemia, and prevalence rate of comorbid coronary artery disease. The meta-analysis followed Meta-analysis of Observational Studies in Epidemiology guidelines (Supplemental Table 1).[18]
+
+Finally, ethical approval was not necessary in current meta-analysis because we did not deal with any patients’ personal data and no patients would be harmed due to our meta-analysis procedure.
+
+3. Results
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+bDepartment of Internal Medicine
+
+cDepartment of Neurology, E-Da Hospital
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+eInstitute for Translational Research in Biomedical Sciences, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung, Taiwan.
+
+Irritable bowel syndrome (IBS) and bipolar disorder (BD) are 2 distinct diseases but may share a similar pathophysiology. However, the comorbidity rate of these 2 diseases is unclear. Also, the current practice guidelines suggest prescribing antidepressants to IBS patients. However, this practice may increase the risk of phase-shift to manic episodes in IBS patients comorbid with BD.
+
+This study aimed to determine the relationship between IBS and BD through a meta-analysis.
+
+Electronic research through PubMed, Medline, ScienceDirect online, ClinicalTrials.gov, and additional resources.
+
+The inclusion criteria were studies investigating the prevalence rate of BD in subjects with IBS and control subjects; and articles on clinical trials on humans.
+
+Data from included studies were pooled by a random effects model, and possible confounding variables were examined by meta-regression and subgroup analysis.
+
+The current study consists of a total of 177,117 IBS patients and 192,092 control subjects extracted from 6 included studies. The prevalence rate of BD was significantly higher in the IBS patients than in the controls (odds ratio = 2.48, 95% confidence interval: 2.35–2.61, P < 0.001). However, the significance persists only in studies from database research, but not from primary studies. In addition, there was no significant association between the prevalence rate of BD in IBS and several clinical variables, including age, female proportion, prevalence of comorbid diabetes, or hypertension.
+
+The total number of included studies is small. Moreover, apparently different results from database research and primary research limit the generalization of our findings to a broad population. Also, we could only perform meta-regression on limited clinical variables.
+
+Our results support a significantly higher prevalence rate of BD in IBS patients than in controls. Clinicians should be cautious about the risk of phase-shift to manic episodes when prescribing antidepressants in IBS patients under current practice guidelines.
+
+Irritable bowel syndrome (IBS) is characterized by abdominal pain, bloating, and disturbances in bowel habits without significant organic causes detected by routine medical examinations.[1] Some IBS-related symptoms provide more specific evidence of its presence, including bloody stool, weight loss, fever, and diurnal changes.[1] However, despite these symptoms, currently there is no consensus with regards to the clinical presentations and diagnosis of IBS, nor on the pathophysiology and optimal management strategy.[1,2] In a recent case–control trial, the authors demonstrated that abnormal levels of cytokines including tumor necrosis factor-α, interleukin (IL)-8, and IL-10 were significantly correlated with the symptoms of IBS, and also with the severity of depressive mood symptoms.[3] Based on such evidence, antidepressants such as tricyclic antidepressants (TCAs) and selective serotonin reuptake inhibitors (SSRIs) have been introduced in the management of IBS.[1,2] On the other hand, the prescription of atypical antipsychotics in IBS had been introduced in some reports as a potential benefit with their serotonin or norepinephrine effect.[4] However, the current evidence for the effectiveness of atypical antipsychotics in such patients is still insufficient, mostly from case reports,[5] or small-scale open-trials.[4]
+
+Bipolar disorder depressive episode (BD-D), although less prevalent than major depressive disorder, is more serious and can result in higher healthcare costs worldwide. BD-D is associated with a higher suicide risk and more frequent hospital admissions than major depressive disorder; however, it has attracted relatively less attention in clinical practice because of its lower prevalence rate. It is difficult to differentiate BD-D and depressive disorder at the initial presentation, regardless of the presence of predictive factors such as earlier age at onset and poor response to typical antidepressants.[6] Another difficulty in the management of BD-D is the high risk of a phase-shift to manic episodes with the use of antidepressants in such patients, which may result in serious consequences.
+
+The pathophysiology of bipolar disorder (BD) remains unclear. Some studies have reported that abnormal levels of cytokines such as tumor necrosis factor-α, IL-8, and IL-10 play an important role in the pathophysiology of BD.[7,8] Taken together, both IBS and BD may, at least partially, share a similar mechanism of pathophysiology. Therefore, it is hypothesized that they may have a similar comorbidity rate. This hypothesis is important, because the prescription of antidepressants in IBS patients would then raise the risk of a phase-shift to manic episodes if they were comorbid with BD.
+
+At present, only a few reports have investigated this topic. The earliest study by Blanchard et al (1990)[9] and 2 later studies[10,11] did not find an association between the comorbidity rates of these 2 diseases. However, in the most recent 3 large-scale studies, the comorbidity rate of BD in patients with IBS was significantly higher than in healthy controls.[12–14] These inconsistent findings may be due to the different study designs (self-reported study vs a nationwide database search),[10,12] different sample sizes,[10,11,13] different diagnostic criteria,[10,12] or different regions of research.[9,13] To address the inconsistency, the current study aimed to summarize evidence on the comorbidity rates of IBS and BD and to examine possible associations between the comorbidity rates and clinical variables through a systematic review and meta-analysis.
+
+In this study, we followed the protocol as described in our previous meta-analysis.[15] In the initial identification stage, 2 independent authors performed a systematic literature search through PubMed, Medline, ScienceDirect Online, and ClinicalTrials.gov using the search term “(irritable bowel syndrome) AND (bipolar)” for all articles written in English. The search date was performed on February 29th, 2016. In the screening stage, the 2 authors screened all of the titles and abstracts of the identified articles. Studies not relevant to the prevalence rate of IBS and BD were excluded at this stage. All disagreements were resolved by consensus. Furthermore, we included additional studies from other resources.
+
+In screening for eligibility for inclusion into this study, we reviewed the full text of the articles, and selected those that met the following inclusion criteria: studies investigating the prevalence rate of BD in subjects with/without IBS, or those investigating the prevalence rate of IBS in subjects with/without BD; and articles on clinical trials on humans. The exclusion criteria were: case reports or seri and nonclinical studies.
+
+The primary outcome was the prevalence rate of BD in patients with/without IBS or the prevalence rate of IBS in patients with/without BD. We extracted all primary outcomes and clinical variables from the included studies as far as possible. If the data were not available, we attempted to contact the authors for the original data. The selection strategy is shown in Fig. ​Fig.1.1. To evaluate the quality of clinical trials, we used Jadad scale for all the recruited studies.[16]
+
+Flowchart of the study selection process in the current meta-analysis.
+
+We defined the effect sizes based on the odds ratio (OR) with a random effects model for the differences in the prevalence rate of BD in patients with/without IBS or the differences in the prevalence rate of IBS in subjects with/without BD. OR values higher than 1 indicated “favoring comorbidity” in the meta-analysis results.
+
+We performed the meta-analysis using Comprehensive Meta-Analysis software, version 2 (Biostat, Englewood, NJ). A P value of less than 0.05 was considered to indicate statistical significance. Heterogeneity was examined using Q statistics, related P values, and I2 statistics, and publication bias was investigated using visual examination of funnel plots and Egger regression analysis.[17] We evaluated possible confounding effects of clinical variables with subgroup meta-analysis and meta-regression analysis using the unrestricted maximum likelihood method. The including clinical variables for meta-regression included age, female proportion, body mass index, ethnicity (African American, White, Asia/Pacific islanders, Native Ameircans, and Hispanic), prevalence of diarrhea in IBS symptoms profile, prevalence of constipation in IBS symptoms profile, prevalence rate of comorbid autoimmune disease, prevalence rate of comorbid chronic kidney disease, prevalence rate of comorbid cerebrovascular disease, prevalence rate of comorbid diabetes mellitus (DM), prevalence rate of comorbid hypertension, prevalence rate of comorbid asthma, prevalence rate of comorbid chronic obstructive pulmonary disease/chronic pulmonary disease, prevalence rate of comorbid malignancy, prevalence rate of comorbid dyslipidemia, and prevalence rate of comorbid coronary artery disease. The meta-analysis followed Meta-analysis of Observational Studies in Epidemiology guidelines (Supplemental Table 1).[18]
+
+Finally, ethical approval was not necessary in current meta-analysis because we did not deal with any patients’ personal data and no patients would be harmed due to our meta-analysis procedure.
+3.1. Studies included in the meta-analysis
+
+Eleven articles and 1 trial were screened for eligibility, of which 1 did not have a control group,[19] 1 did not focus on BD patients,[20] 2 were review articles,[21,22] and 1 was a case report.[23] The trial of {"type":"clinical-trial","attrs":{"text":"NCT02657668","term_id":"NCT02657668"}}NCT02657668 in the ClinicalTrials.gov was excluded because of lack of results of the study. The 6 remaining articles were included in the meta-analysis (Table ​(Table11).[9–14] All 6 articles discussed the prevalence rate of BD in patients with/without IBS, but none of the articles discussed the prevalence rate of IBS in patients with/without BD. The average total Jadad score of these studies was 0.5 with a standard deviation of 0.55 (Supplemental Table 2).
+
+Summary of characteristics of studies in current meta-analysis.
+3.2. Meta-analysis of the prevalence rate of BD in patients with/without IBS
+
+A total of 177,117 IBS patients and 192,092 controls were extracted from the 6 studies. The prevalence rate of BD was significantly higher in the IBS patients than in the HCs (OR = 2.48; 95% confidence interval [CI]: 2.35–2.61; P < 0.001) (Fig. ​(Fig.2).2). We did not find any significant heterogeneity among included studies (Q = 2.66; df = 5; I2 = 0.00%; P = 0.752) or any significant publication bias detected by visual examination of the funnel plot or Egger test (t = 0.28; df = 4; 2-tailed P = 0.796). Meta-regression analysis only included the age, female proportion, prevalence of comorbid DM, and prevalence of comorbid hypertension because of a lack of data. We found that the association between BD and IBS was confounded by mean age (slope = −0.016, P = 0.596), female proportion (slope = −0.003, P = 0.484), prevalence of comorbid DM (slope = 0.006, P = 0.518), or prevalence of comorbid hypertension (slope = 0.007 P = 0.713).
+
+Forest plot showing odds ratios and 95% CIs from individual studies and pooled results of studies from different study designs, database research versus primary research. BD = bipolar disorder, CI = confidence interval, IBS = irritable bowel syndrome.
+
+Although there was no significant heterogeneity or publication bias detected in current meta-analysis, we examined if there is any single study contributing such a significant association between BD and IBS. Through the sensitivity analysis by 1-study removal, we did not find that the association was significantly influenced by any one of the studies.
+3.3. Subgroup meta-analysis of the prevalence rate of BD in patients with/without IBS in different study design
+
+Although there was no significant heterogeneity or publication bias detected in current meta-analysis, we found that the studies included in the current meta-analysis consisted of 2 types of study designs; one was derived from database research[12–14] and the other one was from primary research.[9–11] Therefore, we performed subgroup meta-analysis based on different study designs. Our analysis shows significantly higher prevalence rate of BD in the IBS patients than in the controls from studies with database research (OR = 2.48; 95% CI: 2.35–2.61; P < 0.001), but not from studies with primary research (OR = 1.68; 95% CI: 0.44–6.41; P = 0.449) (Fig. ​(Fig.22).
+3.4. Meta-analysis of the prevalence rate of manic episodes induced by antidepressants prescription in patients with comorbidity of IBS and BD
+
+We were also interested in the risk of phase-shift to manic episodes in patients with comorbidity of both IBS and BD during treatment of antidepressants, such as SSRI or TCA. However, there were no prevalence rates/incidence rates of phase-shifting provided in the recruited literature. Therefore, we could not perform subgroup meta-analysis procedure at the present time.
+
+4. Discussion
+
+The results of the current meta-analysis show a significantly higher prevalence of BD in patients with IBS than in those without IBS. The strengths of the current study include the comparisons with control groups and a large sample size. To the best of our knowledge, this is the 1st meta-analysis to investigate the prevalence rate of BD in patients with IBS.
+
+Among 6 qualified included studies, our results are consistent with 3 large-scale trials,[12–14] but not with the other 3,[9–11] which may be due to differences in the study designs and number of cases. In addition, in one of the previous reports, immunity dysfunctions such as asthma and autoimmune diseases were found to be independent risk factors for the development of BD in patients with IBS.[13] We could not confirm this finding due to a lack of detailed data.[9,10,12,14] In the current study, we tried to investigate the possible confounding effect of clinical variables in the prevalence rates of BD in IBS patients. We found that age and gender play a less important role. In addition, we could not find any significant association between the comorbidities of DM/hypertension and the prevalence rate of BD in IBS patients.
+
+The most important clinical implication of the current meta-analysis is to provide significant evidence for the high prevalence rate of BD in patients with IBS. Most of the recent clinical guidelines on the management of IBS suggest administering antidepressants such as TCA and SSRIs to patients with IBS.[1,2] Although there is no direct evidence available about the prevalence rate of “manic phase-shifting” in IBS patients receiving antidepressants,[24,25] it is important for clinicians to pay special attention when prescribing antidepressants, and especially TCA and SSRIs, to such patients. In previous researches, the side effect profiles seem to show no significant difference between subjects receiving antidepressants and those without antidepressants in IBS patients,[24,25] but, in theory, the risk of a phase-shift to manic episodes in BD patients has been reported to be especially pronounced when prescribing TCA or SSRIs in psychiatric settings.[26–28] In the past decade, the risk of the comorbidity of BD and IBS has received little attention among researchers, and thus the risk of a phase-shift to manic episodes with the usage of TCA and SSRIs is relatively unknown. Although in current meta-analysis, we tried to investigate the incidence rate/prevalence rate of phase-shift to manic episodes with the usage of TCA and SSRIs in IBS patients, we could not complete the meta-analysis procedure because no data were available at the present time. We suggest that clinicians and researchers start to investigate the possibility of a phase-shift to manic episodes in IBS patients treated with antidepressants.
+
+5. Limitations
+
+This study has several limitations. First, despite the large number of included patients, the total number of studies included is small. This may implicate the clinical importance of the current meta-analysis. Second, although there was no significant heterogeneity or publication bias in the current study, there may have been some confounding factors. For example, three of the recruited studies were designed through database research rather than individual interviewing design.[12–14] The higher prevalence rate of BD in IBS patients turned out to be insignificant if we focused on those studies using individual interviewing design.[9–11] The insignificant results from meta-analysis of the primary studies might be derived from heterogeneous study design, and small sample size in each study. These limitations may have confounded the results of the current meta-analysis. Third, there were no detailed data about patients’ critical information, including the ethnicity, specific clinical symptoms, subtypes of IBS, medication history, and history of psychotherapy. Because of a lack of data, we could not perform further meta-regression or subgroup meta-analysis to investigate further possible confounding effect of these clinical variables. Fourth, we did not take other immune diseases into consideration with regard to possible comorbidity. However, in previous reports, BD patients have been shown to share some comorbidity with those with immune diseases, such as asthma.[10,29] Fifth, in the current study, it would be helpful to clarify the possible confounding effect of medication use in these patients. However, we could not perform such subgroup meta-analysis because none of the studies provided actual data on patient medication. Sixth, the average quality expressed as Jadad score was relatively low (mean = 0.5). Finally, we could only provide “observation results” rather than any mechanistic explanation of the comorbidity of these 2 diseases.
+
+6. Conclusion
+
+The results of this meta-analysis support a significantly higher prevalence rate of BD in patients with IBS compared to controls. With the above-mentioned limitations, we suggest that clinicians should pay attention to the potential risks of a phase-shift to manic episodes when prescribing antidepressants to such patients under current practice guidelines. Further studies about the possibility of a phase-shift to manic episodes in IBS patients treated with antidepressants are warranted.
+
+Supplementary Material
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+bDepartment of Internal Medicine
+
+cDepartment of Neurology, E-Da Hospital
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+eInstitute for Translational Research in Biomedical Sciences, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung, Taiwan.
+
+Irritable bowel syndrome (IBS) and bipolar disorder (BD) are 2 distinct diseases but may share a similar pathophysiology. However, the comorbidity rate of these 2 diseases is unclear. Also, the current practice guidelines suggest prescribing antidepressants to IBS patients. However, this practice may increase the risk of phase-shift to manic episodes in IBS patients comorbid with BD.
+
+This study aimed to determine the relationship between IBS and BD through a meta-analysis.
+
+Electronic research through PubMed, Medline, ScienceDirect online, ClinicalTrials.gov, and additional resources.
+
+The inclusion criteria were studies investigating the prevalence rate of BD in subjects with IBS and control subjects; and articles on clinical trials on humans.
+
+Data from included studies were pooled by a random effects model, and possible confounding variables were examined by meta-regression and subgroup analysis.
+
+The current study consists of a total of 177,117 IBS patients and 192,092 control subjects extracted from 6 included studies. The prevalence rate of BD was significantly higher in the IBS patients than in the controls (odds ratio = 2.48, 95% confidence interval: 2.35–2.61, P < 0.001). However, the significance persists only in studies from database research, but not from primary studies. In addition, there was no significant association between the prevalence rate of BD in IBS and several clinical variables, including age, female proportion, prevalence of comorbid diabetes, or hypertension.
+
+The total number of included studies is small. Moreover, apparently different results from database research and primary research limit the generalization of our findings to a broad population. Also, we could only perform meta-regression on limited clinical variables.
+
+Our results support a significantly higher prevalence rate of BD in IBS patients than in controls. Clinicians should be cautious about the risk of phase-shift to manic episodes when prescribing antidepressants in IBS patients under current practice guidelines.
+
+Irritable bowel syndrome (IBS) is characterized by abdominal pain, bloating, and disturbances in bowel habits without significant organic causes detected by routine medical examinations.[1] Some IBS-related symptoms provide more specific evidence of its presence, including bloody stool, weight loss, fever, and diurnal changes.[1] However, despite these symptoms, currently there is no consensus with regards to the clinical presentations and diagnosis of IBS, nor on the pathophysiology and optimal management strategy.[1,2] In a recent case–control trial, the authors demonstrated that abnormal levels of cytokines including tumor necrosis factor-α, interleukin (IL)-8, and IL-10 were significantly correlated with the symptoms of IBS, and also with the severity of depressive mood symptoms.[3] Based on such evidence, antidepressants such as tricyclic antidepressants (TCAs) and selective serotonin reuptake inhibitors (SSRIs) have been introduced in the management of IBS.[1,2] On the other hand, the prescription of atypical antipsychotics in IBS had been introduced in some reports as a potential benefit with their serotonin or norepinephrine effect.[4] However, the current evidence for the effectiveness of atypical antipsychotics in such patients is still insufficient, mostly from case reports,[5] or small-scale open-trials.[4]
+
+Bipolar disorder depressive episode (BD-D), although less prevalent than major depressive disorder, is more serious and can result in higher healthcare costs worldwide. BD-D is associated with a higher suicide risk and more frequent hospital admissions than major depressive disorder; however, it has attracted relatively less attention in clinical practice because of its lower prevalence rate. It is difficult to differentiate BD-D and depressive disorder at the initial presentation, regardless of the presence of predictive factors such as earlier age at onset and poor response to typical antidepressants.[6] Another difficulty in the management of BD-D is the high risk of a phase-shift to manic episodes with the use of antidepressants in such patients, which may result in serious consequences.
+
+The pathophysiology of bipolar disorder (BD) remains unclear. Some studies have reported that abnormal levels of cytokines such as tumor necrosis factor-α, IL-8, and IL-10 play an important role in the pathophysiology of BD.[7,8] Taken together, both IBS and BD may, at least partially, share a similar mechanism of pathophysiology. Therefore, it is hypothesized that they may have a similar comorbidity rate. This hypothesis is important, because the prescription of antidepressants in IBS patients would then raise the risk of a phase-shift to manic episodes if they were comorbid with BD.
+
+At present, only a few reports have investigated this topic. The earliest study by Blanchard et al (1990)[9] and 2 later studies[10,11] did not find an association between the comorbidity rates of these 2 diseases. However, in the most recent 3 large-scale studies, the comorbidity rate of BD in patients with IBS was significantly higher than in healthy controls.[12–14] These inconsistent findings may be due to the different study designs (self-reported study vs a nationwide database search),[10,12] different sample sizes,[10,11,13] different diagnostic criteria,[10,12] or different regions of research.[9,13] To address the inconsistency, the current study aimed to summarize evidence on the comorbidity rates of IBS and BD and to examine possible associations between the comorbidity rates and clinical variables through a systematic review and meta-analysis.
+
+In this study, we followed the protocol as described in our previous meta-analysis.[15] In the initial identification stage, 2 independent authors performed a systematic literature search through PubMed, Medline, ScienceDirect Online, and ClinicalTrials.gov using the search term “(irritable bowel syndrome) AND (bipolar)” for all articles written in English. The search date was performed on February 29th, 2016. In the screening stage, the 2 authors screened all of the titles and abstracts of the identified articles. Studies not relevant to the prevalence rate of IBS and BD were excluded at this stage. All disagreements were resolved by consensus. Furthermore, we included additional studies from other resources.
+
+In screening for eligibility for inclusion into this study, we reviewed the full text of the articles, and selected those that met the following inclusion criteria: studies investigating the prevalence rate of BD in subjects with/without IBS, or those investigating the prevalence rate of IBS in subjects with/without BD; and articles on clinical trials on humans. The exclusion criteria were: case reports or seri and nonclinical studies.
+
+The primary outcome was the prevalence rate of BD in patients with/without IBS or the prevalence rate of IBS in patients with/without BD. We extracted all primary outcomes and clinical variables from the included studies as far as possible. If the data were not available, we attempted to contact the authors for the original data. The selection strategy is shown in Fig. ​Fig.1.1. To evaluate the quality of clinical trials, we used Jadad scale for all the recruited studies.[16]
+
+Flowchart of the study selection process in the current meta-analysis.
+
+We defined the effect sizes based on the odds ratio (OR) with a random effects model for the differences in the prevalence rate of BD in patients with/without IBS or the differences in the prevalence rate of IBS in subjects with/without BD. OR values higher than 1 indicated “favoring comorbidity” in the meta-analysis results.
+
+We performed the meta-analysis using Comprehensive Meta-Analysis software, version 2 (Biostat, Englewood, NJ). A P value of less than 0.05 was considered to indicate statistical significance. Heterogeneity was examined using Q statistics, related P values, and I2 statistics, and publication bias was investigated using visual examination of funnel plots and Egger regression analysis.[17] We evaluated possible confounding effects of clinical variables with subgroup meta-analysis and meta-regression analysis using the unrestricted maximum likelihood method. The including clinical variables for meta-regression included age, female proportion, body mass index, ethnicity (African American, White, Asia/Pacific islanders, Native Ameircans, and Hispanic), prevalence of diarrhea in IBS symptoms profile, prevalence of constipation in IBS symptoms profile, prevalence rate of comorbid autoimmune disease, prevalence rate of comorbid chronic kidney disease, prevalence rate of comorbid cerebrovascular disease, prevalence rate of comorbid diabetes mellitus (DM), prevalence rate of comorbid hypertension, prevalence rate of comorbid asthma, prevalence rate of comorbid chronic obstructive pulmonary disease/chronic pulmonary disease, prevalence rate of comorbid malignancy, prevalence rate of comorbid dyslipidemia, and prevalence rate of comorbid coronary artery disease. The meta-analysis followed Meta-analysis of Observational Studies in Epidemiology guidelines (Supplemental Table 1).[18]
+
+Finally, ethical approval was not necessary in current meta-analysis because we did not deal with any patients’ personal data and no patients would be harmed due to our meta-analysis procedure.
+
+Eleven articles and 1 trial were screened for eligibility, of which 1 did not have a control group,[19] 1 did not focus on BD patients,[20] 2 were review articles,[21,22] and 1 was a case report.[23] The trial of {"type":"clinical-trial","attrs":{"text":"NCT02657668","term_id":"NCT02657668"}}NCT02657668 in the ClinicalTrials.gov was excluded because of lack of results of the study. The 6 remaining articles were included in the meta-analysis (Table ​(Table11).[9–14] All 6 articles discussed the prevalence rate of BD in patients with/without IBS, but none of the articles discussed the prevalence rate of IBS in patients with/without BD. The average total Jadad score of these studies was 0.5 with a standard deviation of 0.55 (Supplemental Table 2).
+
+Summary of characteristics of studies in current meta-analysis.
+
+A total of 177,117 IBS patients and 192,092 controls were extracted from the 6 studies. The prevalence rate of BD was significantly higher in the IBS patients than in the HCs (OR = 2.48; 95% confidence interval [CI]: 2.35–2.61; P < 0.001) (Fig. ​(Fig.2).2). We did not find any significant heterogeneity among included studies (Q = 2.66; df = 5; I2 = 0.00%; P = 0.752) or any significant publication bias detected by visual examination of the funnel plot or Egger test (t = 0.28; df = 4; 2-tailed P = 0.796). Meta-regression analysis only included the age, female proportion, prevalence of comorbid DM, and prevalence of comorbid hypertension because of a lack of data. We found that the association between BD and IBS was confounded by mean age (slope = −0.016, P = 0.596), female proportion (slope = −0.003, P = 0.484), prevalence of comorbid DM (slope = 0.006, P = 0.518), or prevalence of comorbid hypertension (slope = 0.007 P = 0.713).
+
+Forest plot showing odds ratios and 95% CIs from individual studies and pooled results of studies from different study designs, database research versus primary research. BD = bipolar disorder, CI = confidence interval, IBS = irritable bowel syndrome.
+
+Although there was no significant heterogeneity or publication bias detected in current meta-analysis, we examined if there is any single study contributing such a significant association between BD and IBS. Through the sensitivity analysis by 1-study removal, we did not find that the association was significantly influenced by any one of the studies.
+
+Although there was no significant heterogeneity or publication bias detected in current meta-analysis, we found that the studies included in the current meta-analysis consisted of 2 types of study designs; one was derived from database research[12–14] and the other one was from primary research.[9–11] Therefore, we performed subgroup meta-analysis based on different study designs. Our analysis shows significantly higher prevalence rate of BD in the IBS patients than in the controls from studies with database research (OR = 2.48; 95% CI: 2.35–2.61; P < 0.001), but not from studies with primary research (OR = 1.68; 95% CI: 0.44–6.41; P = 0.449) (Fig. ​(Fig.22).
+
+We were also interested in the risk of phase-shift to manic episodes in patients with comorbidity of both IBS and BD during treatment of antidepressants, such as SSRI or TCA. However, there were no prevalence rates/incidence rates of phase-shifting provided in the recruited literature. Therefore, we could not perform subgroup meta-analysis procedure at the present time.
+
+The results of the current meta-analysis show a significantly higher prevalence of BD in patients with IBS than in those without IBS. The strengths of the current study include the comparisons with control groups and a large sample size. To the best of our knowledge, this is the 1st meta-analysis to investigate the prevalence rate of BD in patients with IBS.
+
+Among 6 qualified included studies, our results are consistent with 3 large-scale trials,[12–14] but not with the other 3,[9–11] which may be due to differences in the study designs and number of cases. In addition, in one of the previous reports, immunity dysfunctions such as asthma and autoimmune diseases were found to be independent risk factors for the development of BD in patients with IBS.[13] We could not confirm this finding due to a lack of detailed data.[9,10,12,14] In the current study, we tried to investigate the possible confounding effect of clinical variables in the prevalence rates of BD in IBS patients. We found that age and gender play a less important role. In addition, we could not find any significant association between the comorbidities of DM/hypertension and the prevalence rate of BD in IBS patients.
+
+The most important clinical implication of the current meta-analysis is to provide significant evidence for the high prevalence rate of BD in patients with IBS. Most of the recent clinical guidelines on the management of IBS suggest administering antidepressants such as TCA and SSRIs to patients with IBS.[1,2] Although there is no direct evidence available about the prevalence rate of “manic phase-shifting” in IBS patients receiving antidepressants,[24,25] it is important for clinicians to pay special attention when prescribing antidepressants, and especially TCA and SSRIs, to such patients. In previous researches, the side effect profiles seem to show no significant difference between subjects receiving antidepressants and those without antidepressants in IBS patients,[24,25] but, in theory, the risk of a phase-shift to manic episodes in BD patients has been reported to be especially pronounced when prescribing TCA or SSRIs in psychiatric settings.[26–28] In the past decade, the risk of the comorbidity of BD and IBS has received little attention among researchers, and thus the risk of a phase-shift to manic episodes with the usage of TCA and SSRIs is relatively unknown. Although in current meta-analysis, we tried to investigate the incidence rate/prevalence rate of phase-shift to manic episodes with the usage of TCA and SSRIs in IBS patients, we could not complete the meta-analysis procedure because no data were available at the present time. We suggest that clinicians and researchers start to investigate the possibility of a phase-shift to manic episodes in IBS patients treated with antidepressants.
+
+This study has several limitations. First, despite the large number of included patients, the total number of studies included is small. This may implicate the clinical importance of the current meta-analysis. Second, although there was no significant heterogeneity or publication bias in the current study, there may have been some confounding factors. For example, three of the recruited studies were designed through database research rather than individual interviewing design.[12–14] The higher prevalence rate of BD in IBS patients turned out to be insignificant if we focused on those studies using individual interviewing design.[9–11] The insignificant results from meta-analysis of the primary studies might be derived from heterogeneous study design, and small sample size in each study. These limitations may have confounded the results of the current meta-analysis. Third, there were no detailed data about patients’ critical information, including the ethnicity, specific clinical symptoms, subtypes of IBS, medication history, and history of psychotherapy. Because of a lack of data, we could not perform further meta-regression or subgroup meta-analysis to investigate further possible confounding effect of these clinical variables. Fourth, we did not take other immune diseases into consideration with regard to possible comorbidity. However, in previous reports, BD patients have been shown to share some comorbidity with those with immune diseases, such as asthma.[10,29] Fifth, in the current study, it would be helpful to clarify the possible confounding effect of medication use in these patients. However, we could not perform such subgroup meta-analysis because none of the studies provided actual data on patient medication. Sixth, the average quality expressed as Jadad score was relatively low (mean = 0.5). Finally, we could only provide “observation results” rather than any mechanistic explanation of the comorbidity of these 2 diseases.
+
+The results of this meta-analysis support a significantly higher prevalence rate of BD in patients with IBS compared to controls. With the above-mentioned limitations, we suggest that clinicians should pay attention to the potential risks of a phase-shift to manic episodes when prescribing antidepressants to such patients under current practice guidelines. Further studies about the possibility of a phase-shift to manic episodes in IBS patients treated with antidepressants are warranted.
+
+Footnotes
+
+
+
+Abbreviations: BD = bipolar disorder, BD-D = bipolar disorder depressive episode, CI = confidence interval, DM = diabetes mellitus, IBS = irritable bowel syndrome, IL = interleukin, SSRI = selective serotonin reuptake inhibitor, TCA = tricyclic antidepressant.
+
+
+
+
+
+PTT, BSZ, and YWC contribute equally as the first author.
+
+
+
+
+
+Authorship: PTT and PYL designed the study and completed the research protocol. BSZ and YWC performed the literature search, the study selection, the data summarization, and wrote both methods and results sections. PTT wrote the introduction and discussion. MKW and CKW provided critical comments on the literature. PYL interpreted the statistical results and worked as corresponding author. All authors reviewed and approved the final manuscript.
+
+
+
+
+
+The authors have no funding and conflicts of interest to disclose.
+
+
+
+
+
+Supplemental Digital Content is available for this article.
+
+
+
+References
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+bDepartment of Internal Medicine
+
+cDepartment of Neurology, E-Da Hospital
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+aDepartment of Psychiatry, Tsyr-Huey Mental Hospital, Kaohsiung Jen-Ai's Home
+
+dDepartment of Psychiatry, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine
+
+eInstitute for Translational Research in Biomedical Sciences, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung, Taiwan.
+
+Irritable bowel syndrome (IBS) and bipolar disorder (BD) are 2 distinct diseases but may share a similar pathophysiology. However, the comorbidity rate of these 2 diseases is unclear. Also, the current practice guidelines suggest prescribing antidepressants to IBS patients. However, this practice may increase the risk of phase-shift to manic episodes in IBS patients comorbid with BD.
+
+This study aimed to determine the relationship between IBS and BD through a meta-analysis.
+
+Electronic research through PubMed, Medline, ScienceDirect online, ClinicalTrials.gov, and additional resources.
+
+The inclusion criteria were studies investigating the prevalence rate of BD in subjects with IBS and control subjects; and articles on clinical trials on humans.
+
+Data from included studies were pooled by a random effects model, and possible confounding variables were examined by meta-regression and subgroup analysis.
+
+The current study consists of a total of 177,117 IBS patients and 192,092 control subjects extracted from 6 included studies. The prevalence rate of BD was significantly higher in the IBS patients than in the controls (odds ratio = 2.48, 95% confidence interval: 2.35–2.61, P < 0.001). However, the significance persists only in studies from database research, but not from primary studies. In addition, there was no significant association between the prevalence rate of BD in IBS and several clinical variables, including age, female proportion, prevalence of comorbid diabetes, or hypertension.
+
+The total number of included studies is small. Moreover, apparently different results from database research and primary research limit the generalization of our findings to a broad population. Also, we could only perform meta-regression on limited clinical variables.
+
+Our results support a significantly higher prevalence rate of BD in IBS patients than in controls. Clinicians should be cautious about the risk of phase-shift to manic episodes when prescribing antidepressants in IBS patients under current practice guidelines.
+
+Irritable bowel syndrome (IBS) is characterized by abdominal pain, bloating, and disturbances in bowel habits without significant organic causes detected by routine medical examinations.[1] Some IBS-related symptoms provide more specific evidence of its presence, including bloody stool, weight loss, fever, and diurnal changes.[1] However, despite these symptoms, currently there is no consensus with regards to the clinical presentations and diagnosis of IBS, nor on the pathophysiology and optimal management strategy.[1,2] In a recent case–control trial, the authors demonstrated that abnormal levels of cytokines including tumor necrosis factor-α, interleukin (IL)-8, and IL-10 were significantly correlated with the symptoms of IBS, and also with the severity of depressive mood symptoms.[3] Based on such evidence, antidepressants such as tricyclic antidepressants (TCAs) and selective serotonin reuptake inhibitors (SSRIs) have been introduced in the management of IBS.[1,2] On the other hand, the prescription of atypical antipsychotics in IBS had been introduced in some reports as a potential benefit with their serotonin or norepinephrine effect.[4] However, the current evidence for the effectiveness of atypical antipsychotics in such patients is still insufficient, mostly from case reports,[5] or small-scale open-trials.[4]
+
+Bipolar disorder depressive episode (BD-D), although less prevalent than major depressive disorder, is more serious and can result in higher healthcare costs worldwide. BD-D is associated with a higher suicide risk and more frequent hospital admissions than major depressive disorder; however, it has attracted relatively less attention in clinical practice because of its lower prevalence rate. It is difficult to differentiate BD-D and depressive disorder at the initial presentation, regardless of the presence of predictive factors such as earlier age at onset and poor response to typical antidepressants.[6] Another difficulty in the management of BD-D is the high risk of a phase-shift to manic episodes with the use of antidepressants in such patients, which may result in serious consequences.
+
+The pathophysiology of bipolar disorder (BD) remains unclear. Some studies have reported that abnormal levels of cytokines such as tumor necrosis factor-α, IL-8, and IL-10 play an important role in the pathophysiology of BD.[7,8] Taken together, both IBS and BD may, at least partially, share a similar mechanism of pathophysiology. Therefore, it is hypothesized that they may have a similar comorbidity rate. This hypothesis is important, because the prescription of antidepressants in IBS patients would then raise the risk of a phase-shift to manic episodes if they were comorbid with BD.
+
+At present, only a few reports have investigated this topic. The earliest study by Blanchard et al (1990)[9] and 2 later studies[10,11] did not find an association between the comorbidity rates of these 2 diseases. However, in the most recent 3 large-scale studies, the comorbidity rate of BD in patients with IBS was significantly higher than in healthy controls.[12–14] These inconsistent findings may be due to the different study designs (self-reported study vs a nationwide database search),[10,12] different sample sizes,[10,11,13] different diagnostic criteria,[10,12] or different regions of research.[9,13] To address the inconsistency, the current study aimed to summarize evidence on the comorbidity rates of IBS and BD and to examine possible associations between the comorbidity rates and clinical variables through a systematic review and meta-analysis.
+
+In this study, we followed the protocol as described in our previous meta-analysis.[15] In the initial identification stage, 2 independent authors performed a systematic literature search through PubMed, Medline, ScienceDirect Online, and ClinicalTrials.gov using the search term “(irritable bowel syndrome) AND (bipolar)” for all articles written in English. The search date was performed on February 29th, 2016. In the screening stage, the 2 authors screened all of the titles and abstracts of the identified articles. Studies not relevant to the prevalence rate of IBS and BD were excluded at this stage. All disagreements were resolved by consensus. Furthermore, we included additional studies from other resources.
+
+In screening for eligibility for inclusion into this study, we reviewed the full text of the articles, and selected those that met the following inclusion criteria: studies investigating the prevalence rate of BD in subjects with/without IBS, or those investigating the prevalence rate of IBS in subjects with/without BD; and articles on clinical trials on humans. The exclusion criteria were: case reports or seri and nonclinical studies.
+
+The primary outcome was the prevalence rate of BD in patients with/without IBS or the prevalence rate of IBS in patients with/without BD. We extracted all primary outcomes and clinical variables from the included studies as far as possible. If the data were not available, we attempted to contact the authors for the original data. The selection strategy is shown in Fig. ​Fig.1.1. To evaluate the quality of clinical trials, we used Jadad scale for all the recruited studies.[16]
+
+Flowchart of the study selection process in the current meta-analysis.
+
+We defined the effect sizes based on the odds ratio (OR) with a random effects model for the differences in the prevalence rate of BD in patients with/without IBS or the differences in the prevalence rate of IBS in subjects with/without BD. OR values higher than 1 indicated “favoring comorbidity” in the meta-analysis results.
+
+We performed the meta-analysis using Comprehensive Meta-Analysis software, version 2 (Biostat, Englewood, NJ). A P value of less than 0.05 was considered to indicate statistical significance. Heterogeneity was examined using Q statistics, related P values, and I2 statistics, and publication bias was investigated using visual examination of funnel plots and Egger regression analysis.[17] We evaluated possible confounding effects of clinical variables with subgroup meta-analysis and meta-regression analysis using the unrestricted maximum likelihood method. The including clinical variables for meta-regression included age, female proportion, body mass index, ethnicity (African American, White, Asia/Pacific islanders, Native Ameircans, and Hispanic), prevalence of diarrhea in IBS symptoms profile, prevalence of constipation in IBS symptoms profile, prevalence rate of comorbid autoimmune disease, prevalence rate of comorbid chronic kidney disease, prevalence rate of comorbid cerebrovascular disease, prevalence rate of comorbid diabetes mellitus (DM), prevalence rate of comorbid hypertension, prevalence rate of comorbid asthma, prevalence rate of comorbid chronic obstructive pulmonary disease/chronic pulmonary disease, prevalence rate of comorbid malignancy, prevalence rate of comorbid dyslipidemia, and prevalence rate of comorbid coronary artery disease. The meta-analysis followed Meta-analysis of Observational Studies in Epidemiology guidelines (Supplemental Table 1).[18]
+
+Finally, ethical approval was not necessary in current meta-analysis because we did not deal with any patients’ personal data and no patients would be harmed due to our meta-analysis procedure.
+
+Eleven articles and 1 trial were screened for eligibility, of which 1 did not have a control group,[19] 1 did not focus on BD patients,[20] 2 were review articles,[21,22] and 1 was a case report.[23] The trial of {"type":"clinical-trial","attrs":{"text":"NCT02657668","term_id":"NCT02657668"}}NCT02657668 in the ClinicalTrials.gov was excluded because of lack of results of the study. The 6 remaining articles were included in the meta-analysis (Table ​(Table11).[9–14] All 6 articles discussed the prevalence rate of BD in patients with/without IBS, but none of the articles discussed the prevalence rate of IBS in patients with/without BD. The average total Jadad score of these studies was 0.5 with a standard deviation of 0.55 (Supplemental Table 2).
+
+Summary of characteristics of studies in current meta-analysis.
+
+A total of 177,117 IBS patients and 192,092 controls were extracted from the 6 studies. The prevalence rate of BD was significantly higher in the IBS patients than in the HCs (OR = 2.48; 95% confidence interval [CI]: 2.35–2.61; P < 0.001) (Fig. ​(Fig.2).2). We did not find any significant heterogeneity among included studies (Q = 2.66; df = 5; I2 = 0.00%; P = 0.752) or any significant publication bias detected by visual examination of the funnel plot or Egger test (t = 0.28; df = 4; 2-tailed P = 0.796). Meta-regression analysis only included the age, female proportion, prevalence of comorbid DM, and prevalence of comorbid hypertension because of a lack of data. We found that the association between BD and IBS was confounded by mean age (slope = −0.016, P = 0.596), female proportion (slope = −0.003, P = 0.484), prevalence of comorbid DM (slope = 0.006, P = 0.518), or prevalence of comorbid hypertension (slope = 0.007 P = 0.713).
+
+Forest plot showing odds ratios and 95% CIs from individual studies and pooled results of studies from different study designs, database research versus primary research. BD = bipolar disorder, CI = confidence interval, IBS = irritable bowel syndrome.
+
+Although there was no significant heterogeneity or publication bias detected in current meta-analysis, we examined if there is any single study contributing such a significant association between BD and IBS. Through the sensitivity analysis by 1-study removal, we did not find that the association was significantly influenced by any one of the studies.
+
+Although there was no significant heterogeneity or publication bias detected in current meta-analysis, we found that the studies included in the current meta-analysis consisted of 2 types of study designs; one was derived from database research[12–14] and the other one was from primary research.[9–11] Therefore, we performed subgroup meta-analysis based on different study designs. Our analysis shows significantly higher prevalence rate of BD in the IBS patients than in the controls from studies with database research (OR = 2.48; 95% CI: 2.35–2.61; P < 0.001), but not from studies with primary research (OR = 1.68; 95% CI: 0.44–6.41; P = 0.449) (Fig. ​(Fig.22).
+
+We were also interested in the risk of phase-shift to manic episodes in patients with comorbidity of both IBS and BD during treatment of antidepressants, such as SSRI or TCA. However, there were no prevalence rates/incidence rates of phase-shifting provided in the recruited literature. Therefore, we could not perform subgroup meta-analysis procedure at the present time.
+
+The results of the current meta-analysis show a significantly higher prevalence of BD in patients with IBS than in those without IBS. The strengths of the current study include the comparisons with control groups and a large sample size. To the best of our knowledge, this is the 1st meta-analysis to investigate the prevalence rate of BD in patients with IBS.
+
+Among 6 qualified included studies, our results are consistent with 3 large-scale trials,[12–14] but not with the other 3,[9–11] which may be due to differences in the study designs and number of cases. In addition, in one of the previous reports, immunity dysfunctions such as asthma and autoimmune diseases were found to be independent risk factors for the development of BD in patients with IBS.[13] We could not confirm this finding due to a lack of detailed data.[9,10,12,14] In the current study, we tried to investigate the possible confounding effect of clinical variables in the prevalence rates of BD in IBS patients. We found that age and gender play a less important role. In addition, we could not find any significant association between the comorbidities of DM/hypertension and the prevalence rate of BD in IBS patients.
+
+The most important clinical implication of the current meta-analysis is to provide significant evidence for the high prevalence rate of BD in patients with IBS. Most of the recent clinical guidelines on the management of IBS suggest administering antidepressants such as TCA and SSRIs to patients with IBS.[1,2] Although there is no direct evidence available about the prevalence rate of “manic phase-shifting” in IBS patients receiving antidepressants,[24,25] it is important for clinicians to pay special attention when prescribing antidepressants, and especially TCA and SSRIs, to such patients. In previous researches, the side effect profiles seem to show no significant difference between subjects receiving antidepressants and those without antidepressants in IBS patients,[24,25] but, in theory, the risk of a phase-shift to manic episodes in BD patients has been reported to be especially pronounced when prescribing TCA or SSRIs in psychiatric settings.[26–28] In the past decade, the risk of the comorbidity of BD and IBS has received little attention among researchers, and thus the risk of a phase-shift to manic episodes with the usage of TCA and SSRIs is relatively unknown. Although in current meta-analysis, we tried to investigate the incidence rate/prevalence rate of phase-shift to manic episodes with the usage of TCA and SSRIs in IBS patients, we could not complete the meta-analysis procedure because no data were available at the present time. We suggest that clinicians and researchers start to investigate the possibility of a phase-shift to manic episodes in IBS patients treated with antidepressants.
+
+This study has several limitations. First, despite the large number of included patients, the total number of studies included is small. This may implicate the clinical importance of the current meta-analysis. Second, although there was no significant heterogeneity or publication bias in the current study, there may have been some confounding factors. For example, three of the recruited studies were designed through database research rather than individual interviewing design.[12–14] The higher prevalence rate of BD in IBS patients turned out to be insignificant if we focused on those studies using individual interviewing design.[9–11] The insignificant results from meta-analysis of the primary studies might be derived from heterogeneous study design, and small sample size in each study. These limitations may have confounded the results of the current meta-analysis. Third, there were no detailed data about patients’ critical information, including the ethnicity, specific clinical symptoms, subtypes of IBS, medication history, and history of psychotherapy. Because of a lack of data, we could not perform further meta-regression or subgroup meta-analysis to investigate further possible confounding effect of these clinical variables. Fourth, we did not take other immune diseases into consideration with regard to possible comorbidity. However, in previous reports, BD patients have been shown to share some comorbidity with those with immune diseases, such as asthma.[10,29] Fifth, in the current study, it would be helpful to clarify the possible confounding effect of medication use in these patients. However, we could not perform such subgroup meta-analysis because none of the studies provided actual data on patient medication. Sixth, the average quality expressed as Jadad score was relatively low (mean = 0.5). Finally, we could only provide “observation results” rather than any mechanistic explanation of the comorbidity of these 2 diseases.
+
+The results of this meta-analysis support a significantly higher prevalence rate of BD in patients with IBS compared to controls. With the above-mentioned limitations, we suggest that clinicians should pay attention to the potential risks of a phase-shift to manic episodes when prescribing antidepressants to such patients under current practice guidelines. Further studies about the possibility of a phase-shift to manic episodes in IBS patients treated with antidepressants are warranted.
+
+http://www.ncbi.nlm.nih.gov/pubmed/27537599

@@ -1,0 +1,225 @@
+The Role of Lead Exposure on Attention-Deficit/ Hyperactivity Disorder ‎in Children: A Systematic Review.
+
+Abstract
+
+
+Objective: Attention-Deficit/Hyperactivity Disorder (ADHD) is one of the most common behavioral ‎disorders in children effecting the families and society. This systematic review examined ‎the literature on the role of lead exposure in children with ADHD‏ ‏symptoms. Articles were ‎analytically compared, focusing on the methodology used to assess exposure and‏ ‏adverse ‎effects‏ ‏on children with ADHD. ‎
+
+
+Method: Using the search strategy from six databases (Pub Med, PsycINFO, Web of Science, SID, ‎IRAN Medex, IRAN DOC), hand searching in key journals, list of references of selected ‎articles and gray literature, without time and language limitation, articles up to May 2014 ‎were entered into this review. In this review, 1,387 articles were acquired at the primary ‎search. Study selection and quality assessment processes were done based on Cochrane ‎library guidelines. After assessing the quality and inclusion and exclusion criteria, 18 articles ‎were selected and entered into the data synthesis.‎
+
+
+Results: Blood Lead level (BLL) of less than 10µg/dL in children has been attributed to at least one ‎type of ADHD i.e., Combined / Inattentive / Hyperactive-Impulsive. The results of this ‎study revealed that in 16 out of the 18 studies, a significant association was found between ‎BLL and one of the types of ADHD.‎
+
+
+Conclusion: Based on the findings of this study, even the BLL of less than the action level of 10µg/dL, ‎chosen by Centers for Disease Control and Prevention (CDC), may affect children with ‎ADHD.‎
+
+Materials and Method
+
+
+Search Strategy
+:
+
+
+National and international databases, such as PubMed, PsycINFO, Web of Science, SID, ‎IRAN Medex, IRAN DOC, were searched. In addition, hand searching in key journals, list ‎of references of the selected articles in both English and Persian, and gray literature were ‎investigated. Moreover, Studies working on the age group of younger than 18 were selected ‎to be included into the systematic review. As per the CDC and government agencies ‎around the world, individuals who are younger than 18 years of age are considered as ‎children. The databases were thoroughly searched for articles with no time limit, until May ‎‎2014. Language limitation was not set as inclusion criteria. Animal studies were not ‎included in our review. In order to ensure that no relevant papers are lost, the lists of review ‎articles were also fully investigated.‎
+
+
+Keywords
+:
+
+
+The key words used for the search are divided into three categories as follows:"Attention ‎deficit disorder*";"Attention Deficit Disorder with Hyperactivity*‎‏"‏‎; Hyperactivity ‎Disorder*;‎‏"‏Attention Deficit Hyperactivity Disorder‏"*‏‎; Attention-deficit*; Attention ‎Deficit Disorder with Hyperactivity Risk Factor*; Inattention*; ADHD
+
+The key words on lead metal were as follows: ‎
+
+‎“Hazardous material*”, “Hazardous exposure*”, “Toxic Metal Exposure*”‎
+
+‎“Toxic material*”, “Chemical hazard*”, Lead*, “Environmental toxicant*”‎
+
+Key words on children: Infant*, Child*, Childhood*‎
+
+The search terms with similar meanings were combined using the OR logic, and the search ‎terms were coupled using the AND logic. At the end, the search terms used for searching ‎the databases are as follows: ‎
+
+‎(ADHD OR Hyperactivity disorder* OR Attention Deficit Disorder with Hyperactivity ‎Risk Factor* OR Attention Deficit Hyperactivity Disorder* OR Attention-deficit* OR ‎Attention Deficit Disorder with Hyperactivity* OR Attention deficit disorder* OR ‎Inattention*) AND (Lead* OR Hazardous material* OR Hazardous exposure* OR Toxic ‎Metal Exposure* OR Toxic material* OR Chemical hazard* OR Environmental toxicant*) ‎AND (Infant* OR Child* OR Childhood*) ‎
+
+The search strategy was modified and customized for every database.‎
+
+
+Criteria for Inclusion and Exclusion
+:
+‎
+
+An article was included in our systematic review if it was ‎
+
+At first, we evaluated the titles and abstracts of the retrieved articles to determine the initial ‎eligibility; and if necessary, the full papers were studied in detail in order to be selected for ‎the review.‎
+
+To check the eligibility, those studies conducted on children under the age of 18, and those ‎on the relationship between blood lead levels and symptoms of ADHD (inattention, ‎hyperactivity and impulsivity) or types of ADHD with measured BLL<10µg/dL were ‎studied. Articles in which lead exposure was examined using urine, hair, nails and teeth ‎were excluded. Two researchers separately conducted the initial check on the titles and ‎abstracts of the papers and excluded the articles without the specific criteria. After a ‎detailed study, the remaining articles were included. Figure 1 demonstrates the search ‎strategy based on the PRISMA Flow Diagram.‎
+
+PRISMA 2009 Flowchart for the Included Studies of Lead Exposure in Children with ADHD (24)
+
+
+Assessment of the Quality of Articles
+:
+
+
+The quality assessment of the included articles was also a necessary task. There are many ‎international standards for quality measurement of articles like CASP, OTTAWA, ‎NEWCASEL, JADAD, CONSORT and STROBE (25). We used the STROBE ‎‎(Strengthening the Reporting of Observational Studies in Epidemiology) which included ‎quality standards for cross-sectional, case-control and cohort types of studies (26, 27).‎
+
+The Checklist for STORBE is a list of 22 items; of which, eight items are related to quality ‎assessment and selected to be used in our study. Each of the quality assessment questions ‎was equivalent to 1 point, and the articles were divided into the following groups ‎depending on the points they obtained as per our Quality assessment Scale: ‎
+
+‎
+
+0-2 Points: Low quality ‎
+
+‎3-5 Points: Medium quality‎
+
+‎6-8 Points: High quality ‎
+
+
+Methods of Data Extraction
+:
+
+
+After screening databases and available resources, the initial articles were selected and their ‎data were extracted uniformly. The data extract form consisted of the author's name, year ‎of publication, place of study, the number of subjects examined, type of study, the amount ‎measured and the method of measuring BLLs and blood lead sample in the subjects, and ‎the technique used to determine ADHD. For establishing common grounds in all the ‎studies, the units of the measured BLLs were converted to microgram per deciliter (µg/dL).
+
+Results
+
+After eliminating the duplicate articles and reviewing the titles and abstracts, 993 articles ‎were obtained for this review. After removing 826 unrelated records, 167 full texts were ‎assessed for eligibility (Figure 1). After reading the full text of the articles, according to the ‎inclusion and exclusion criteria mentioned in the methodology, 18 articles were included ‎into the systematic review.‎
+
+The selected articles (n = 18) consisted of five case-control studies, six cohort studies and ‎seven cross-sectional studies. The number of subjects examined in these articles ranged ‎from a minimum of 61 to a maximum of 4,704 subjects. Overall, in the 18 articles, 12,195 ‎subjects were examined that included both male and female subjects. The youngest subject ‎was 30 months old and the oldest was 17years old. ‎
+
+The methods of diagnosis (ADHD, hyperactivity, inattention and impulsivity) used were ‎different in the articles. The Conner’s Continuous Performance Test (CPT) was used in five ‎articles, KITAP in two articles, a new Korean Version of SPECS in three articles, and ‎DSM-IV in four articles. Three of the studies used questionnaires from the parents and ‎teachers report forms, and in the remaining two, a fusion of the above techniques was used ‎for diagnosis.‎
+
+The results of the STROBE checklist with strengths and weaknesses of the examined ‎articles are reported in Table 2. From Table 2, 16 of the articles were of high quality. The ‎article by Froehlich (USA, 2009) had a medium quality and the article by Darugar (Iran, ‎‎2010) was of poor quality. The common limitation in all the articles (except for the ‎Canfield, 2003) was that the BLLs were measured only once. The range of the ‎concentration of lead in the blood for this study was between 0.2 and 8.77µg/dL (Table 1). ‎Table 3 shows the relation between exposure to lead and the type of ADHD associated ‎with each of the studied articles. A positive sign showed a significant relation whereas a ‎negative sign revealed an insignificant relation between exposure to lead and type of ‎ADHD.‎
+
+General Features and the Results of the Studies of Lead Exposure in Children with ADHD
+
+Outcome and quality assessment of studies, limitations and benefits of Articles
+
+The relationship between blood lead concentration and types of ADHD in the literature (Literature Review)
+
+Discussion
+
+Due to the potential negative consequences of ADHD and increased prevalence in the United States and other countries, for ADHD diagnosis, it is crucial to determine all the toxic environmental elements that cause this disorder. Lead, as a neurotoxin, can cause the formation of abnormal behavior by interfering with neurotransmitter (28). Experiments conducted on animals for lead exposure show a permanent alteration in glucocorticoid deregulation, hypothalamic-pituitary axis, and changed GABA-ergic (γ aminobutyric acid–containing) and dopaminergic systems, which is related to increase in anxiety and decrease in socializing behavior (29). Strange behaviors can occur under the influence of lead exposure and poisoning like anxiety, lack of inhibition of mental and social functioning, reduced IQ and learning problems causing seizures, coma and even death in some cases (30, 31).
+
+In this systematic review, five of the articles reported the mean blood lead concentrations from 5-10µg/dL; of which, four articles showed a significant relationship between lead exposure and at least one type of ADHD. CDC reduced the standard BLL from 10µg/dL to 5µg/dL from 2012 to 2016. However, in 12 of the selected articles, even BLLs below 5µg/dL level were reported to have a significant positive relationship with at least one type of ADHD. In the study by Wang et al. (2008) (32), minimum blood lead levels, which can contribute to ADHD, was 5.765µg/dL. As indicated by Nigg et al. (33) and Braun et al. (34), the minimum BLL falls down to 1.26µg/dL and 2µg/dL. In one of the articles, the BLL values ranged from 2.5-5µg/dL, 5-10µg/dL to greater than 10µg/dL. The results of this study revealed that 94% of the 653 children who participated in the study had BLL of less than10µg/dL. The relationship between inattention and blood lead concentration was underlined in nine studies; of which, seven had a positive and significant correlation, and in the remaining two, the relation was insignificant. Nigg et al. (2008) and Braun and colleagues (2006) established that children with lead poisoning are more likely to develop behavioral inattention, and anxiety is also a common affect (28).
+
+In six of the studies, the relationship between blood lead levels and hyperactivity disorder was investigated (Chandramouli et al., 2009, Chiodo et al., 2004, Chiodo et al., 2007, Nicolescu et al. , 2010, Nigg et al., 2008, Nigg et al., 2010); of which, five reported a positive association. Five articles focused on impulsivity disorder; of which, three showed positive effects. (Chiodo et al., 2004, Chiodo et al., 2007, Nicolescu et al., 2010, Nigg et al., 2010).
+
+In some cases, confounding factors such as family economic status, parent’s education level, smoking habits, alcohol use, and other factors associated with blood lead levels were also considered. Some statistical models were used to determine the relationship between the concentration of lead and ADHD. A positive and statistically significant relationship was observed in both unadjusted and adjusted models. There were some exceptions due to the small sample size of the studies.
+
+Limitations
+
+Conclusion
+
+Exposure to lead has negative consequences, which can be reduced by addressing the gaps ‎in the knowledge. The systematic review reveals that lead levels of less than 10µg/dL and ‎even less than 5µg/dL have significant effects on ADHD, Hyperactivity-Impulsive and ‎Inattentive disorder. To ensure the health and safety of children, the present permissive ‎blood lead levels need to be revised in the context of the recent evidence.‎
+
+References
+
+
+Objective: Attention-Deficit/Hyperactivity Disorder (ADHD) is one of the most common behavioral ‎disorders in children effecting the families and society. This systematic review examined ‎the literature on the role of lead exposure in children with ADHD‏ ‏symptoms. Articles were ‎analytically compared, focusing on the methodology used to assess exposure and‏ ‏adverse ‎effects‏ ‏on children with ADHD. ‎
+
+
+Method: Using the search strategy from six databases (Pub Med, PsycINFO, Web of Science, SID, ‎IRAN Medex, IRAN DOC), hand searching in key journals, list of references of selected ‎articles and gray literature, without time and language limitation, articles up to May 2014 ‎were entered into this review. In this review, 1,387 articles were acquired at the primary ‎search. Study selection and quality assessment processes were done based on Cochrane ‎library guidelines. After assessing the quality and inclusion and exclusion criteria, 18 articles ‎were selected and entered into the data synthesis.‎
+
+
+Results: Blood Lead level (BLL) of less than 10µg/dL in children has been attributed to at least one ‎type of ADHD i.e., Combined / Inattentive / Hyperactive-Impulsive. The results of this ‎study revealed that in 16 out of the 18 studies, a significant association was found between ‎BLL and one of the types of ADHD.‎
+
+
+Conclusion: Based on the findings of this study, even the BLL of less than the action level of 10µg/dL, ‎chosen by Centers for Disease Control and Prevention (CDC), may affect children with ‎ADHD.‎
+
+Attention deficit / hyperactivity disorder (ADHD) is one of the most commonly diagnosed ‎psychiatric disorders in children. In addition, it is probably the most common chronic ‎condition undiagnosed in adults (1, 2). According to the American Psychiatric ‎Association’s Diagnostic and Statistical Manual Fifth Edition, 3 to 7% of children in school ‎and 2 to 4% of the adult population have ADHD (3, 4). The global statistics show that ‎about 10.1% of the world’s population has ADHD (5), making this disorder an important ‎health issue. This disorder continues to about 50 to 80% of teenagers and 15 to 65% of ‎adults (6, 7). Moreover, ADHD is more prevalent in boys than girls (9). Children are more ‎exposed to psychiatric disorders such as antisocial personality (9), depression, unipolar ‎depression (10), bipolar (11), anxiety, autism, learning disabilities, emotional disturbance, ‎and fiery temperament (9, 12 and 13). The tendency for drug use and addiction increases in ‎adults if the disorder is not diagnosed and treated at a younger age (14). Some ADHD ‎symptoms disappear with time, but the symptoms such as lack of concentration are constant ‎and a person will be show them throughout their lifetime (13). Therefore, considering the ‎implications, the efforts for early diagnosis of the disease is crucial, and identifying the ‎contributing factors is of prime importance to prevent ADHD.‎
+
+Biological and environmental factors are the pathogenesis of this disorder, including head ‎injury, a decrease in the prefrontal cortex, and toxins and chemicals found in the ‎environment (15). Although evidence shows that ADHD is a familial problem, many ‎environmental risk factors such as exposure to heavy metals, Dietary factors, environmental exposure to ‎dangerous chemicals such as bisphenol A, polycyclic aromatic compounds, pesticides ‎intensify or accelerate the progression of this disease (16-18).‎
+
+Lead (Pb) metal as a neurotoxin has been causing abnormal behavior in children, and many ‎studies have examined the relationship between exposure to heavy metals and other harmful ‎environmental factors in the pathogenesis (19-21). Since 1960, the CDC recommended‏ ‏levels for blood lead levels in children have been steadily reduced, and this has been due to ‎increased researches showing that it has negative effects on health. Currently, the children's ‎blood lead level (BLL) is set to 10 micrograms of lead per deciliter of blood (µg/dL), and it ‎has not been changed since 1991 (22). The CDC action level set for lead may be outdated ‎now as recent research indicates that adverse health effects may be associated with blood ‎lead levels below 10µg/dL. Many studies have been conducted on cognitive problems in ‎children including reduced IQ scores, math, reading, verbal memory, and spatial ability, ‎with blood lead levels below 10µg/dL. Recent trends showed a 3% increase in the ‎diagnosis of attention deficit/ hyperactivity disorder (ADHD) in each year from 1997 to ‎‎2006 (23). Researchers are investigating whether exposure to lead contributes to an increase ‎in the number of ADHD cases. ‎
+
+A systematic review was conducted to have a clear answer and deep understanding of the ‎topic of concern. Among all the heavy metals, Lead is one of the significant heavy metals ‎causing mental illness. In order to have a clear and deep understanding of the effects of ‎lead on the mental health of children, lead was selected as the main element for the ‎systematic review in this paper. The aim of this study was to systematically review all the ‎studies showing the relationship between ADHD symptoms and blood lead levels below ‎‎10µg/dL in children. The findings of these studies also account for the gaps and research ‎needs. Synthesizing the evidence related to ADHD symptoms in children with BLLs less ‎than 10µg/dL will help determine whether the current BLL is still appropriate for children ‎or not.‎
+
+
+Search Strategy
+:
+
+
+National and international databases, such as PubMed, PsycINFO, Web of Science, SID, ‎IRAN Medex, IRAN DOC, were searched. In addition, hand searching in key journals, list ‎of references of the selected articles in both English and Persian, and gray literature were ‎investigated. Moreover, Studies working on the age group of younger than 18 were selected ‎to be included into the systematic review. As per the CDC and government agencies ‎around the world, individuals who are younger than 18 years of age are considered as ‎children. The databases were thoroughly searched for articles with no time limit, until May ‎‎2014. Language limitation was not set as inclusion criteria. Animal studies were not ‎included in our review. In order to ensure that no relevant papers are lost, the lists of review ‎articles were also fully investigated.‎
+
+
+Keywords
+:
+
+
+The key words used for the search are divided into three categories as follows:"Attention ‎deficit disorder*";"Attention Deficit Disorder with Hyperactivity*‎‏"‏‎; Hyperactivity ‎Disorder*;‎‏"‏Attention Deficit Hyperactivity Disorder‏"*‏‎; Attention-deficit*; Attention ‎Deficit Disorder with Hyperactivity Risk Factor*; Inattention*; ADHD
+
+The key words on lead metal were as follows: ‎
+
+‎“Hazardous material*”, “Hazardous exposure*”, “Toxic Metal Exposure*”‎
+
+‎“Toxic material*”, “Chemical hazard*”, Lead*, “Environmental toxicant*”‎
+
+Key words on children: Infant*, Child*, Childhood*‎
+
+The search terms with similar meanings were combined using the OR logic, and the search ‎terms were coupled using the AND logic. At the end, the search terms used for searching ‎the databases are as follows: ‎
+
+‎(ADHD OR Hyperactivity disorder* OR Attention Deficit Disorder with Hyperactivity ‎Risk Factor* OR Attention Deficit Hyperactivity Disorder* OR Attention-deficit* OR ‎Attention Deficit Disorder with Hyperactivity* OR Attention deficit disorder* OR ‎Inattention*) AND (Lead* OR Hazardous material* OR Hazardous exposure* OR Toxic ‎Metal Exposure* OR Toxic material* OR Chemical hazard* OR Environmental toxicant*) ‎AND (Infant* OR Child* OR Childhood*) ‎
+
+The search strategy was modified and customized for every database.‎
+
+
+Criteria for Inclusion and Exclusion
+:
+‎
+
+An article was included in our systematic review if it was ‎
+
+At first, we evaluated the titles and abstracts of the retrieved articles to determine the initial ‎eligibility; and if necessary, the full papers were studied in detail in order to be selected for ‎the review.‎
+
+To check the eligibility, those studies conducted on children under the age of 18, and those ‎on the relationship between blood lead levels and symptoms of ADHD (inattention, ‎hyperactivity and impulsivity) or types of ADHD with measured BLL<10µg/dL were ‎studied. Articles in which lead exposure was examined using urine, hair, nails and teeth ‎were excluded. Two researchers separately conducted the initial check on the titles and ‎abstracts of the papers and excluded the articles without the specific criteria. After a ‎detailed study, the remaining articles were included. Figure 1 demonstrates the search ‎strategy based on the PRISMA Flow Diagram.‎
+
+PRISMA 2009 Flowchart for the Included Studies of Lead Exposure in Children with ADHD (24)
+
+
+Assessment of the Quality of Articles
+:
+
+
+The quality assessment of the included articles was also a necessary task. There are many ‎international standards for quality measurement of articles like CASP, OTTAWA, ‎NEWCASEL, JADAD, CONSORT and STROBE (25). We used the STROBE ‎‎(Strengthening the Reporting of Observational Studies in Epidemiology) which included ‎quality standards for cross-sectional, case-control and cohort types of studies (26, 27).‎
+
+The Checklist for STORBE is a list of 22 items; of which, eight items are related to quality ‎assessment and selected to be used in our study. Each of the quality assessment questions ‎was equivalent to 1 point, and the articles were divided into the following groups ‎depending on the points they obtained as per our Quality assessment Scale: ‎
+
+‎
+
+‎3-5 Points: Medium quality‎
+
+‎6-8 Points: High quality ‎
+
+
+Methods of Data Extraction
+:
+
+
+After screening databases and available resources, the initial articles were selected and their ‎data were extracted uniformly. The data extract form consisted of the author's name, year ‎of publication, place of study, the number of subjects examined, type of study, the amount ‎measured and the method of measuring BLLs and blood lead sample in the subjects, and ‎the technique used to determine ADHD. For establishing common grounds in all the ‎studies, the units of the measured BLLs were converted to microgram per deciliter (µg/dL).
+
+After eliminating the duplicate articles and reviewing the titles and abstracts, 993 articles ‎were obtained for this review. After removing 826 unrelated records, 167 full texts were ‎assessed for eligibility (Figure 1). After reading the full text of the articles, according to the ‎inclusion and exclusion criteria mentioned in the methodology, 18 articles were included ‎into the systematic review.‎
+
+The selected articles (n = 18) consisted of five case-control studies, six cohort studies and ‎seven cross-sectional studies. The number of subjects examined in these articles ranged ‎from a minimum of 61 to a maximum of 4,704 subjects. Overall, in the 18 articles, 12,195 ‎subjects were examined that included both male and female subjects. The youngest subject ‎was 30 months old and the oldest was 17years old. ‎
+
+The methods of diagnosis (ADHD, hyperactivity, inattention and impulsivity) used were ‎different in the articles. The Conner’s Continuous Performance Test (CPT) was used in five ‎articles, KITAP in two articles, a new Korean Version of SPECS in three articles, and ‎DSM-IV in four articles. Three of the studies used questionnaires from the parents and ‎teachers report forms, and in the remaining two, a fusion of the above techniques was used ‎for diagnosis.‎
+
+The results of the STROBE checklist with strengths and weaknesses of the examined ‎articles are reported in Table 2. From Table 2, 16 of the articles were of high quality. The ‎article by Froehlich (USA, 2009) had a medium quality and the article by Darugar (Iran, ‎‎2010) was of poor quality. The common limitation in all the articles (except for the ‎Canfield, 2003) was that the BLLs were measured only once. The range of the ‎concentration of lead in the blood for this study was between 0.2 and 8.77µg/dL (Table 1). ‎Table 3 shows the relation between exposure to lead and the type of ADHD associated ‎with each of the studied articles. A positive sign showed a significant relation whereas a ‎negative sign revealed an insignificant relation between exposure to lead and type of ‎ADHD.‎
+
+General Features and the Results of the Studies of Lead Exposure in Children with ADHD
+
+Outcome and quality assessment of studies, limitations and benefits of Articles
+
+The relationship between blood lead concentration and types of ADHD in the literature (Literature Review)
+
+Due to the potential negative consequences of ADHD and increased prevalence in the United States and other countries, for ADHD diagnosis, it is crucial to determine all the toxic environmental elements that cause this disorder. Lead, as a neurotoxin, can cause the formation of abnormal behavior by interfering with neurotransmitter (28). Experiments conducted on animals for lead exposure show a permanent alteration in glucocorticoid deregulation, hypothalamic-pituitary axis, and changed GABA-ergic (γ aminobutyric acid–containing) and dopaminergic systems, which is related to increase in anxiety and decrease in socializing behavior (29). Strange behaviors can occur under the influence of lead exposure and poisoning like anxiety, lack of inhibition of mental and social functioning, reduced IQ and learning problems causing seizures, coma and even death in some cases (30, 31).
+
+In this systematic review, five of the articles reported the mean blood lead concentrations from 5-10µg/dL; of which, four articles showed a significant relationship between lead exposure and at least one type of ADHD. CDC reduced the standard BLL from 10µg/dL to 5µg/dL from 2012 to 2016. However, in 12 of the selected articles, even BLLs below 5µg/dL level were reported to have a significant positive relationship with at least one type of ADHD. In the study by Wang et al. (2008) (32), minimum blood lead levels, which can contribute to ADHD, was 5.765µg/dL. As indicated by Nigg et al. (33) and Braun et al. (34), the minimum BLL falls down to 1.26µg/dL and 2µg/dL. In one of the articles, the BLL values ranged from 2.5-5µg/dL, 5-10µg/dL to greater than 10µg/dL. The results of this study revealed that 94% of the 653 children who participated in the study had BLL of less than10µg/dL. The relationship between inattention and blood lead concentration was underlined in nine studies; of which, seven had a positive and significant correlation, and in the remaining two, the relation was insignificant. Nigg et al. (2008) and Braun and colleagues (2006) established that children with lead poisoning are more likely to develop behavioral inattention, and anxiety is also a common affect (28).
+
+In six of the studies, the relationship between blood lead levels and hyperactivity disorder was investigated (Chandramouli et al., 2009, Chiodo et al., 2004, Chiodo et al., 2007, Nicolescu et al. , 2010, Nigg et al., 2008, Nigg et al., 2010); of which, five reported a positive association. Five articles focused on impulsivity disorder; of which, three showed positive effects. (Chiodo et al., 2004, Chiodo et al., 2007, Nicolescu et al., 2010, Nigg et al., 2010).
+
+In some cases, confounding factors such as family economic status, parent’s education level, smoking habits, alcohol use, and other factors associated with blood lead levels were also considered. Some statistical models were used to determine the relationship between the concentration of lead and ADHD. A positive and statistically significant relationship was observed in both unadjusted and adjusted models. There were some exceptions due to the small sample size of the studies.
+
+Exposure to lead has negative consequences, which can be reduced by addressing the gaps ‎in the knowledge. The systematic review reveals that lead levels of less than 10µg/dL and ‎even less than 5µg/dL have significant effects on ADHD, Hyperactivity-Impulsive and ‎Inattentive disorder. To ensure the health and safety of children, the present permissive ‎blood lead levels need to be revised in the context of the recent evidence.‎
+
+http://www.ncbi.nlm.nih.gov/pubmed/27252763

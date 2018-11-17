@@ -1,0 +1,363 @@
+Autism spectrum disorders in children of parents with inflammatory bowel disease - a nationwide cohort study in Denmark.
+
+Abstract
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) may share genetic and environmental risk factors. We examined whether parental IBD is associated with an increased risk of ASD in offspring.
+
+We conducted a registry-based nationwide cohort study including children born alive in Denmark from January 1, 1994 to December 31, 2009, with follow-up throughout 2010. IBD in parents and ASD in offspring were identified using inpatient and outpatient hospital diagnoses. We computed risk of ASD and crude and adjusted incidence rate ratios (aIRRs) with 95% confidence intervals (CI) using Cox proportional-hazards regression. We evaluated the risk of ASD according to maternal and paternal IBD, and separately for maternal and paternal Crohn’s disease (CD) and ulcerative colitis (UC). Children with parents free of IBD were the comparison cohort.
+
+We identified 1,005,330 children during the study period. Among them, 11,888 (1.2%) had a parent with IBD and 8,087 (0.8%) had a diagnosis of ASD during up to 17 years of follow-up. The 10-year risks of ASD were 0.7% among children of parents with IBD and 0.9% among children of parents without IBD. The aIRR for ASD among children with parental IBD was 0.8 (95% CI: 0.6–1.0), and results were similar regardless of parent of IBD origin or whether a parent had CD or UC. The estimates were similar for different ASD subtypes.
+
+We found no evidence of an increased risk of ASD among children born to parents with IBD.
+
+Background
+
+The prevalence and incidence of both inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) have been increasing through the past decades. During the first decade of the 2000s, the prevalence was up to 0.3% for Crohn’s disease (CD) and 0.5% for ulcerative colitis (UC) in Europe.1 ASD now affect up to 1.1% of children in Western countries.2,3 The two diseases may share genetic loci,4,5 whereas the rapid contemporaneous rise in the occurrence of IBD and ASD suggests that the two conditions may also share environmental risk factors. For example, there is emerging evidence that endocrine-disrupting compounds may cause immune system abnormalities or affect brain function by altering zinc homeostasis.6–10 Furthermore, maternal IBD may cause ASD in offspring through brain reactive maternal antibodies exerting a negative impact on fetal neural development.11,12 A recent study suggested that anti-brain antibodies are associated with autoimmunity and are increased in mothers of children with ASD.13
+
+Several studies linked parental autoimmune diseases to ASD in offspring,14–19 including three studies examining the association of ASD with parental IBD.16,17,19 Taken together, the evidence from these three studies remains inconclusive, whereby two of the studies suggested an association,17,19 while one – the largest – did not.16
+
+To further explore the association between parental IBD and risk of ASD in offspring, we conducted a population-based nationwide cohort study using prospectively collected data from medical registries in Denmark. Besides examining ASD as the overall outcome, we also examined ASD subtypes. To our knowledge, this study is the largest to date to examine this association.
+
+Methods
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) may share genetic and environmental risk factors. We examined whether parental IBD is associated with an increased risk of ASD in offspring.
+
+We conducted a registry-based nationwide cohort study including children born alive in Denmark from January 1, 1994 to December 31, 2009, with follow-up throughout 2010. IBD in parents and ASD in offspring were identified using inpatient and outpatient hospital diagnoses. We computed risk of ASD and crude and adjusted incidence rate ratios (aIRRs) with 95% confidence intervals (CI) using Cox proportional-hazards regression. We evaluated the risk of ASD according to maternal and paternal IBD, and separately for maternal and paternal Crohn’s disease (CD) and ulcerative colitis (UC). Children with parents free of IBD were the comparison cohort.
+
+We identified 1,005,330 children during the study period. Among them, 11,888 (1.2%) had a parent with IBD and 8,087 (0.8%) had a diagnosis of ASD during up to 17 years of follow-up. The 10-year risks of ASD were 0.7% among children of parents with IBD and 0.9% among children of parents without IBD. The aIRR for ASD among children with parental IBD was 0.8 (95% CI: 0.6–1.0), and results were similar regardless of parent of IBD origin or whether a parent had CD or UC. The estimates were similar for different ASD subtypes.
+
+We found no evidence of an increased risk of ASD among children born to parents with IBD.
+
+The prevalence and incidence of both inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) have been increasing through the past decades. During the first decade of the 2000s, the prevalence was up to 0.3% for Crohn’s disease (CD) and 0.5% for ulcerative colitis (UC) in Europe.1 ASD now affect up to 1.1% of children in Western countries.2,3 The two diseases may share genetic loci,4,5 whereas the rapid contemporaneous rise in the occurrence of IBD and ASD suggests that the two conditions may also share environmental risk factors. For example, there is emerging evidence that endocrine-disrupting compounds may cause immune system abnormalities or affect brain function by altering zinc homeostasis.6–10 Furthermore, maternal IBD may cause ASD in offspring through brain reactive maternal antibodies exerting a negative impact on fetal neural development.11,12 A recent study suggested that anti-brain antibodies are associated with autoimmunity and are increased in mothers of children with ASD.13
+
+Several studies linked parental autoimmune diseases to ASD in offspring,14–19 including three studies examining the association of ASD with parental IBD.16,17,19 Taken together, the evidence from these three studies remains inconclusive, whereby two of the studies suggested an association,17,19 while one – the largest – did not.16
+
+To further explore the association between parental IBD and risk of ASD in offspring, we conducted a population-based nationwide cohort study using prospectively collected data from medical registries in Denmark. Besides examining ASD as the overall outcome, we also examined ASD subtypes. To our knowledge, this study is the largest to date to examine this association.
+Setting and population
+
+For this nationwide cohort study, we identified all children born alive in Denmark from January 1, 1994 to December 31, 2009 as recorded in the Danish Medical Birth Registry (DMBR).20 The DMBR has recorded all births in Denmark since 1973 and stores data on child, mother, and father. Fathers who were not identifiable through the DMBR were identified from the Danish Civil Registration System. We linked individual-level registry data from children and their parents using the civil personal registration number (CPR number), a 10-digit unique identifier assigned at birth or immigration and used in all public records.21 To ensure a minimum of 2 years’ availability of data on parental medical history, we excluded children whose parents had been residents of Denmark for less than 2 years before the child’s birth.
+Data on IBD
+
+From the Danish National Registry of Patients (DNRP), we obtained information on paternal IBD diagnoses recorded before the relevant pregnancy and maternal IBD diagnoses recorded before or during the relevant pregnancy. The DNRP has recorded all inpatient hospitalizations at non-psychiatric public hospitals in Denmark since 1977, and emergency and outpatient contacts since 1995. Diagnoses have been coded using the 8th revision of the International Classification of Diseases (ICD-8) until the end of 1993 and the 10th revision (ICD-10) thereafter. We defined IBD as a hospital diagnosis of CD or UC. For parents with records of both CD and UC, we assigned the IBD type according to the latest-recorded diagnosis. In a validation study, the completeness of the regional hospital system using the pathology data as a reference standard was 94% for both CD and UC. The positive predictive values (PPVs) of DNRP-recorded diagnoses compared to the pathology data and clinical criteria in medical records were 97% for CD and 90% for UC.22
+Data on ASD
+
+Children with suspected autism are referred to a child psychiatry clinic for a diagnostic workup. We collected data on ASD in children from the Danish Psychiatric Central Register (DPCR). The DPCR was established as a nationwide register in 1969 and contains information on psychiatric hospitalizations in Denmark. Since 1995, all outpatient visits have been included as well. ICD-8 was used before 1994 and ICD-10 thereafter to code the diagnoses.23 We defined ASD as a diagnosis of infantile autism, atypical autism, Asperger syndrome, or pervasive development disorder not otherwise specified. The PPV of the diagnostic coding of ASD in the DPCR for the relevant study period was 94% when compared to a standardized coding scheme based on medical records.24,25
+Data on covariates
+
+From the DMBR, we obtained information on year of birth, sex of child, mode of delivery, gestational age, birth weight, multiple gestation, mother’s and father’s age at the time of their child’s birth, and maternal smoking during pregnancy. From the DPCR, we obtained information on parental history of psychiatric disorders, defined by at least one of the following diagnoses before the relevant birth: schizophrenia or other paranoid psychoses; mood disorders; nervous conditions and personality disorders; and ASD.26–30
+
+All diagnostic codes are provided in Table S1.
+Statistical analyses
+
+The children were followed from birth until the date of ASD diagnosis, emigration, death, or December 31, 2010, whichever came first. We examined distributions of children’s characteristics at birth according to parental CD and UC status. Next, we calculated incidence rates of ASD and estimated the 3- and 10-year risk of ASD according to parental IBD status, with death as a competing risk.31 Using Cox proportional-hazards regression, we computed crude and adjusted hazard ratios with 95% confidence intervals (CIs) as estimates of crude and adjusted incidence rate ratios (IRRs and aIRRs) for ASD. We examined children in groups with IBD, CD, or UC in either parent, only in the mother, or only in the father. Children with no parental history of IBD served as the reference group for all comparisons. The IRRs were adjusted for year of birth, child’s sex, mother’s and father’s age at delivery, multiple gestation, maternal smoking during pregnancy, and parental psychiatric disorders.
+
+To remove the potential effect of ASD family clustering, we repeated the analyses described above restricted to first-born children. Furthermore, we examined the different ASD subtypes as separate outcomes: infantile autism, atypical autism, Asperger syndrome, and pervasive development disorder not otherwise specified. Children who had more than one ASD subtype diagnosis were included in the analysis for each subtype. The assumption of proportional hazards was met according to a graphical assessment.
+
+We used Stata software to analyze the data (v12; StataCorp LP, College Station, TX, USA). The study was approved by the Danish Data Protection Agency (record no 2013-41-1790).
+
+Results
+
+The study cohort included 1,005,330 children (51% male). A total of 11,888 (1.2%) had a parent with IBD; CD accounted for 4,302 (36%) of all IBD cases among the parents. Parental history of a psychiatric disorder was more prevalent in children with parental IBD than in children without. Children born to parents with UC tended to have older parents than children of parents with CD and children of parents without IBD. Furthermore, maternal smoking during pregnancy was more prevalent among children with parental CD than among children with parental UC or no parental IBD (Table 1).
+
+Characteristics of children born in Denmark during 1994–2009 according to parental IBD, N=1,005,330
+
+Abbreviations: CD, Crohn’s disease; IBD, inflammatory bowel disease; n/N, number of children; UC, ulcerative colitis; n/N, number of children.
+
+During the maximum of 17 years of follow-up, 8,087 children (0.8%) received a diagnosis of ASD, including 62 (0.5%) children with parental IBD. Median follow-up time was 8.9 years. Median age at ASD diagnosis was 6.2 years for children with parental IBD and 7.9 years for children without parental IBD. The risk of ASD in the first 3 years of life was 0.03% among children with IBD in a parent, and 0.05% among children without. The corresponding 10-year risks were 0.7% and 0.9%, respectively.
+
+Overall, the IRR for ASD in offspring associated with parental IBD was 0.8 (95% CI: 0.6–1.1) and remained unchanged after adjusting for covariates (aIRR: 0.8, 95% CI: 0.6–1.0). Estimates did not vary according to which parent had IBD, whether they had CD and UC (Table 2), and were similar when restricted to first-born children (results not shown).
+
+Incidence rates and crude and adjusted incidence rate ratios for ASD in Danish children born during 1994–2009, according to parental IBD status, (N=1,005,330)
+
+Notes:
+
+Abbreviations: ASD, autism spectrum disorders; CD, Crohn’s disease; CI, confidence interval; IBD, inflammatory bowel disease; IR, Incidence rate; IRR, incidence rate ratio; N/n, number of children; PY, person-years; Ref, reference; UC, ulcerative colitis.
+
+Pervasive development disorder not otherwise specified was the most frequent ASD subtype recorded among the children. The aIRRs according to the subtypes of ASD were similar to those of the overall results except for a weak apparent association between paternal IBD and infantile autism (Table 3).
+
+Association between parental IBD and type of ASD in offspring
+
+Notes:
+
+Abbreviations: ASD, autism spectrum disorders; CD, Crohn’s disease; CI, confidence interval; IBD, inflammatory bowel disease; IRR, incidence rate ratio; n, number of children; NA, not applicable; Ref, reference; UC, ulcerative colitis.
+
+Discussion
+
+In this large nationwide cohort study of more than one million births, we found no evidence of an increased risk of ASD in offspring of parents with IBD. Therefore, based on these study findings, a common disease pathway based on shared risk factors is unlikely. The overall estimates even suggest an inverse association between parental IBD and ASD risk in offspring.
+
+Although previous studies have focused on the association between any parental autoimmune disease and ASD in offspring,14–19 some reported estimates separately for parental IBD. Mouridsen et al, using Danish data on infantile autism diagnoses from 1960–1984 (111 cases and 330 controls), reported a nine-fold increase in the risk of infantile autism in children with maternal UC (odds ratio [OR]: 9.1, 95% CI: 0.9–88.8);17 however, this estimate is imprecise and is compatible with both the presence and absence of an association. In a registry-based study including 1,227 cases of ASD and 30,925 controls born in 1977–2003 in Sweden, Keil et al reported an odds ratio of 1.2 (95% CI: 0.6–2.5) associated with maternal IBD, after adjustment for the child’s age, sex, hospital of birth, and parents’ country of birth and age.19 Estimates for CD and UC were not reported. Atladóttir et al, in a cohort study of 689,196 Danish children born in 1993–2004, found no increased risk of ASD associated with CD (aIRR: 0.96, 95% CI: 0.62–1.41) or UC (aIRR: 1.02, 95% CI: 0.75–1.36) in a parent or a sibling when adjusting for calendar year, place of birth, and parents’ age at time of childbirth, age at ASD diagnosis, and its interaction with sex.16 Nor did Atladóttir et al find an increased risk for infantile autism among children who had a sibling or parent with CD (aIRR: 0.93, 95% CI: 0.40–1.81). For UC in parents or siblings, the corresponding aIRR was 1.41 (95% CI: 0.87–2.16), with similar results for maternal and paternal UC.16 Overall estimates for risk of ASD in our cohort study, conducted on an overlapping – but larger – population, confirm and extend the overall findings by Atladóttir et al. At the same time, both studies suggested an association between parental IBD and infantile autism, although in our study it was seen only for paternal IBD. Given the overlapping samples and lack of an overall association, this may represent a chance finding.
+
+The strengths of our study are its large population size of more than one million children, long and complete follow-up, and the use of data from routine population-based databases in a setting of universal health care, virtually eliminating the risk of recall and selection bias. The algorithms for IBD and ASD have high validity,22,24,32 and because of prospective data collection, misclassifications of IBD or ASD are independent from each other. Such non-differential misclassification is expected to dilute observed associations. Because IBD and ASD are rare and we expect high specificity, the null result is unlikely to have resulted from such dilution. At the same time, the limited number of outcomes of the ASD subtypes among children with parental IBD in our study is causing lack of statistical precision for the ASD-type specific analyses; still, no overall risk increase was observed. Finally, we cannot rule out unknown confounding, but to explain the null result, a potential confounder would need to be protective of ASD.
+
+In conclusion, the results in this study reassuringly suggest that neither maternal nor paternal IBD increases the overall risk of ASD in a child.
+
+Supplementary material
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) may share genetic and environmental risk factors. We examined whether parental IBD is associated with an increased risk of ASD in offspring.
+
+We conducted a registry-based nationwide cohort study including children born alive in Denmark from January 1, 1994 to December 31, 2009, with follow-up throughout 2010. IBD in parents and ASD in offspring were identified using inpatient and outpatient hospital diagnoses. We computed risk of ASD and crude and adjusted incidence rate ratios (aIRRs) with 95% confidence intervals (CI) using Cox proportional-hazards regression. We evaluated the risk of ASD according to maternal and paternal IBD, and separately for maternal and paternal Crohn’s disease (CD) and ulcerative colitis (UC). Children with parents free of IBD were the comparison cohort.
+
+We identified 1,005,330 children during the study period. Among them, 11,888 (1.2%) had a parent with IBD and 8,087 (0.8%) had a diagnosis of ASD during up to 17 years of follow-up. The 10-year risks of ASD were 0.7% among children of parents with IBD and 0.9% among children of parents without IBD. The aIRR for ASD among children with parental IBD was 0.8 (95% CI: 0.6–1.0), and results were similar regardless of parent of IBD origin or whether a parent had CD or UC. The estimates were similar for different ASD subtypes.
+
+We found no evidence of an increased risk of ASD among children born to parents with IBD.
+
+The prevalence and incidence of both inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) have been increasing through the past decades. During the first decade of the 2000s, the prevalence was up to 0.3% for Crohn’s disease (CD) and 0.5% for ulcerative colitis (UC) in Europe.1 ASD now affect up to 1.1% of children in Western countries.2,3 The two diseases may share genetic loci,4,5 whereas the rapid contemporaneous rise in the occurrence of IBD and ASD suggests that the two conditions may also share environmental risk factors. For example, there is emerging evidence that endocrine-disrupting compounds may cause immune system abnormalities or affect brain function by altering zinc homeostasis.6–10 Furthermore, maternal IBD may cause ASD in offspring through brain reactive maternal antibodies exerting a negative impact on fetal neural development.11,12 A recent study suggested that anti-brain antibodies are associated with autoimmunity and are increased in mothers of children with ASD.13
+
+Several studies linked parental autoimmune diseases to ASD in offspring,14–19 including three studies examining the association of ASD with parental IBD.16,17,19 Taken together, the evidence from these three studies remains inconclusive, whereby two of the studies suggested an association,17,19 while one – the largest – did not.16
+
+To further explore the association between parental IBD and risk of ASD in offspring, we conducted a population-based nationwide cohort study using prospectively collected data from medical registries in Denmark. Besides examining ASD as the overall outcome, we also examined ASD subtypes. To our knowledge, this study is the largest to date to examine this association.
+
+For this nationwide cohort study, we identified all children born alive in Denmark from January 1, 1994 to December 31, 2009 as recorded in the Danish Medical Birth Registry (DMBR).20 The DMBR has recorded all births in Denmark since 1973 and stores data on child, mother, and father. Fathers who were not identifiable through the DMBR were identified from the Danish Civil Registration System. We linked individual-level registry data from children and their parents using the civil personal registration number (CPR number), a 10-digit unique identifier assigned at birth or immigration and used in all public records.21 To ensure a minimum of 2 years’ availability of data on parental medical history, we excluded children whose parents had been residents of Denmark for less than 2 years before the child’s birth.
+
+From the Danish National Registry of Patients (DNRP), we obtained information on paternal IBD diagnoses recorded before the relevant pregnancy and maternal IBD diagnoses recorded before or during the relevant pregnancy. The DNRP has recorded all inpatient hospitalizations at non-psychiatric public hospitals in Denmark since 1977, and emergency and outpatient contacts since 1995. Diagnoses have been coded using the 8th revision of the International Classification of Diseases (ICD-8) until the end of 1993 and the 10th revision (ICD-10) thereafter. We defined IBD as a hospital diagnosis of CD or UC. For parents with records of both CD and UC, we assigned the IBD type according to the latest-recorded diagnosis. In a validation study, the completeness of the regional hospital system using the pathology data as a reference standard was 94% for both CD and UC. The positive predictive values (PPVs) of DNRP-recorded diagnoses compared to the pathology data and clinical criteria in medical records were 97% for CD and 90% for UC.22
+
+Children with suspected autism are referred to a child psychiatry clinic for a diagnostic workup. We collected data on ASD in children from the Danish Psychiatric Central Register (DPCR). The DPCR was established as a nationwide register in 1969 and contains information on psychiatric hospitalizations in Denmark. Since 1995, all outpatient visits have been included as well. ICD-8 was used before 1994 and ICD-10 thereafter to code the diagnoses.23 We defined ASD as a diagnosis of infantile autism, atypical autism, Asperger syndrome, or pervasive development disorder not otherwise specified. The PPV of the diagnostic coding of ASD in the DPCR for the relevant study period was 94% when compared to a standardized coding scheme based on medical records.24,25
+
+From the DMBR, we obtained information on year of birth, sex of child, mode of delivery, gestational age, birth weight, multiple gestation, mother’s and father’s age at the time of their child’s birth, and maternal smoking during pregnancy. From the DPCR, we obtained information on parental history of psychiatric disorders, defined by at least one of the following diagnoses before the relevant birth: schizophrenia or other paranoid psychoses; mood disorders; nervous conditions and personality disorders; and ASD.26–30
+
+All diagnostic codes are provided in Table S1.
+
+The children were followed from birth until the date of ASD diagnosis, emigration, death, or December 31, 2010, whichever came first. We examined distributions of children’s characteristics at birth according to parental CD and UC status. Next, we calculated incidence rates of ASD and estimated the 3- and 10-year risk of ASD according to parental IBD status, with death as a competing risk.31 Using Cox proportional-hazards regression, we computed crude and adjusted hazard ratios with 95% confidence intervals (CIs) as estimates of crude and adjusted incidence rate ratios (IRRs and aIRRs) for ASD. We examined children in groups with IBD, CD, or UC in either parent, only in the mother, or only in the father. Children with no parental history of IBD served as the reference group for all comparisons. The IRRs were adjusted for year of birth, child’s sex, mother’s and father’s age at delivery, multiple gestation, maternal smoking during pregnancy, and parental psychiatric disorders.
+
+To remove the potential effect of ASD family clustering, we repeated the analyses described above restricted to first-born children. Furthermore, we examined the different ASD subtypes as separate outcomes: infantile autism, atypical autism, Asperger syndrome, and pervasive development disorder not otherwise specified. Children who had more than one ASD subtype diagnosis were included in the analysis for each subtype. The assumption of proportional hazards was met according to a graphical assessment.
+
+We used Stata software to analyze the data (v12; StataCorp LP, College Station, TX, USA). The study was approved by the Danish Data Protection Agency (record no 2013-41-1790).
+
+The study cohort included 1,005,330 children (51% male). A total of 11,888 (1.2%) had a parent with IBD; CD accounted for 4,302 (36%) of all IBD cases among the parents. Parental history of a psychiatric disorder was more prevalent in children with parental IBD than in children without. Children born to parents with UC tended to have older parents than children of parents with CD and children of parents without IBD. Furthermore, maternal smoking during pregnancy was more prevalent among children with parental CD than among children with parental UC or no parental IBD (Table 1).
+
+Characteristics of children born in Denmark during 1994–2009 according to parental IBD, N=1,005,330
+
+Abbreviations: CD, Crohn’s disease; IBD, inflammatory bowel disease; n/N, number of children; UC, ulcerative colitis; n/N, number of children.
+
+During the maximum of 17 years of follow-up, 8,087 children (0.8%) received a diagnosis of ASD, including 62 (0.5%) children with parental IBD. Median follow-up time was 8.9 years. Median age at ASD diagnosis was 6.2 years for children with parental IBD and 7.9 years for children without parental IBD. The risk of ASD in the first 3 years of life was 0.03% among children with IBD in a parent, and 0.05% among children without. The corresponding 10-year risks were 0.7% and 0.9%, respectively.
+
+Overall, the IRR for ASD in offspring associated with parental IBD was 0.8 (95% CI: 0.6–1.1) and remained unchanged after adjusting for covariates (aIRR: 0.8, 95% CI: 0.6–1.0). Estimates did not vary according to which parent had IBD, whether they had CD and UC (Table 2), and were similar when restricted to first-born children (results not shown).
+
+Incidence rates and crude and adjusted incidence rate ratios for ASD in Danish children born during 1994–2009, according to parental IBD status, (N=1,005,330)
+
+Notes:
+
+Abbreviations: ASD, autism spectrum disorders; CD, Crohn’s disease; CI, confidence interval; IBD, inflammatory bowel disease; IR, Incidence rate; IRR, incidence rate ratio; N/n, number of children; PY, person-years; Ref, reference; UC, ulcerative colitis.
+
+Pervasive development disorder not otherwise specified was the most frequent ASD subtype recorded among the children. The aIRRs according to the subtypes of ASD were similar to those of the overall results except for a weak apparent association between paternal IBD and infantile autism (Table 3).
+
+Association between parental IBD and type of ASD in offspring
+
+Notes:
+
+Abbreviations: ASD, autism spectrum disorders; CD, Crohn’s disease; CI, confidence interval; IBD, inflammatory bowel disease; IRR, incidence rate ratio; n, number of children; NA, not applicable; Ref, reference; UC, ulcerative colitis.
+
+In this large nationwide cohort study of more than one million births, we found no evidence of an increased risk of ASD in offspring of parents with IBD. Therefore, based on these study findings, a common disease pathway based on shared risk factors is unlikely. The overall estimates even suggest an inverse association between parental IBD and ASD risk in offspring.
+
+Although previous studies have focused on the association between any parental autoimmune disease and ASD in offspring,14–19 some reported estimates separately for parental IBD. Mouridsen et al, using Danish data on infantile autism diagnoses from 1960–1984 (111 cases and 330 controls), reported a nine-fold increase in the risk of infantile autism in children with maternal UC (odds ratio [OR]: 9.1, 95% CI: 0.9–88.8);17 however, this estimate is imprecise and is compatible with both the presence and absence of an association. In a registry-based study including 1,227 cases of ASD and 30,925 controls born in 1977–2003 in Sweden, Keil et al reported an odds ratio of 1.2 (95% CI: 0.6–2.5) associated with maternal IBD, after adjustment for the child’s age, sex, hospital of birth, and parents’ country of birth and age.19 Estimates for CD and UC were not reported. Atladóttir et al, in a cohort study of 689,196 Danish children born in 1993–2004, found no increased risk of ASD associated with CD (aIRR: 0.96, 95% CI: 0.62–1.41) or UC (aIRR: 1.02, 95% CI: 0.75–1.36) in a parent or a sibling when adjusting for calendar year, place of birth, and parents’ age at time of childbirth, age at ASD diagnosis, and its interaction with sex.16 Nor did Atladóttir et al find an increased risk for infantile autism among children who had a sibling or parent with CD (aIRR: 0.93, 95% CI: 0.40–1.81). For UC in parents or siblings, the corresponding aIRR was 1.41 (95% CI: 0.87–2.16), with similar results for maternal and paternal UC.16 Overall estimates for risk of ASD in our cohort study, conducted on an overlapping – but larger – population, confirm and extend the overall findings by Atladóttir et al. At the same time, both studies suggested an association between parental IBD and infantile autism, although in our study it was seen only for paternal IBD. Given the overlapping samples and lack of an overall association, this may represent a chance finding.
+
+The strengths of our study are its large population size of more than one million children, long and complete follow-up, and the use of data from routine population-based databases in a setting of universal health care, virtually eliminating the risk of recall and selection bias. The algorithms for IBD and ASD have high validity,22,24,32 and because of prospective data collection, misclassifications of IBD or ASD are independent from each other. Such non-differential misclassification is expected to dilute observed associations. Because IBD and ASD are rare and we expect high specificity, the null result is unlikely to have resulted from such dilution. At the same time, the limited number of outcomes of the ASD subtypes among children with parental IBD in our study is causing lack of statistical precision for the ASD-type specific analyses; still, no overall risk increase was observed. Finally, we cannot rule out unknown confounding, but to explain the null result, a potential confounder would need to be protective of ASD.
+
+In conclusion, the results in this study reassuringly suggest that neither maternal nor paternal IBD increases the overall risk of ASD in a child.
+Table S1
+
+ICD-8 and ICD-10 codes for IBD, autism spectrum disorders, and included psychiatric disorders
+
+Abbreviations: ASD, autism spectrum disorders; IBD, inflammatory bowel disease; ICD-8, International Classification of Diseases, 8th revision; ICD-10, International Classification of Diseases, 10th revision.
+
+Acknowledgments
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) may share genetic and environmental risk factors. We examined whether parental IBD is associated with an increased risk of ASD in offspring.
+
+We conducted a registry-based nationwide cohort study including children born alive in Denmark from January 1, 1994 to December 31, 2009, with follow-up throughout 2010. IBD in parents and ASD in offspring were identified using inpatient and outpatient hospital diagnoses. We computed risk of ASD and crude and adjusted incidence rate ratios (aIRRs) with 95% confidence intervals (CI) using Cox proportional-hazards regression. We evaluated the risk of ASD according to maternal and paternal IBD, and separately for maternal and paternal Crohn’s disease (CD) and ulcerative colitis (UC). Children with parents free of IBD were the comparison cohort.
+
+We identified 1,005,330 children during the study period. Among them, 11,888 (1.2%) had a parent with IBD and 8,087 (0.8%) had a diagnosis of ASD during up to 17 years of follow-up. The 10-year risks of ASD were 0.7% among children of parents with IBD and 0.9% among children of parents without IBD. The aIRR for ASD among children with parental IBD was 0.8 (95% CI: 0.6–1.0), and results were similar regardless of parent of IBD origin or whether a parent had CD or UC. The estimates were similar for different ASD subtypes.
+
+We found no evidence of an increased risk of ASD among children born to parents with IBD.
+
+The prevalence and incidence of both inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) have been increasing through the past decades. During the first decade of the 2000s, the prevalence was up to 0.3% for Crohn’s disease (CD) and 0.5% for ulcerative colitis (UC) in Europe.1 ASD now affect up to 1.1% of children in Western countries.2,3 The two diseases may share genetic loci,4,5 whereas the rapid contemporaneous rise in the occurrence of IBD and ASD suggests that the two conditions may also share environmental risk factors. For example, there is emerging evidence that endocrine-disrupting compounds may cause immune system abnormalities or affect brain function by altering zinc homeostasis.6–10 Furthermore, maternal IBD may cause ASD in offspring through brain reactive maternal antibodies exerting a negative impact on fetal neural development.11,12 A recent study suggested that anti-brain antibodies are associated with autoimmunity and are increased in mothers of children with ASD.13
+
+Several studies linked parental autoimmune diseases to ASD in offspring,14–19 including three studies examining the association of ASD with parental IBD.16,17,19 Taken together, the evidence from these three studies remains inconclusive, whereby two of the studies suggested an association,17,19 while one – the largest – did not.16
+
+To further explore the association between parental IBD and risk of ASD in offspring, we conducted a population-based nationwide cohort study using prospectively collected data from medical registries in Denmark. Besides examining ASD as the overall outcome, we also examined ASD subtypes. To our knowledge, this study is the largest to date to examine this association.
+
+For this nationwide cohort study, we identified all children born alive in Denmark from January 1, 1994 to December 31, 2009 as recorded in the Danish Medical Birth Registry (DMBR).20 The DMBR has recorded all births in Denmark since 1973 and stores data on child, mother, and father. Fathers who were not identifiable through the DMBR were identified from the Danish Civil Registration System. We linked individual-level registry data from children and their parents using the civil personal registration number (CPR number), a 10-digit unique identifier assigned at birth or immigration and used in all public records.21 To ensure a minimum of 2 years’ availability of data on parental medical history, we excluded children whose parents had been residents of Denmark for less than 2 years before the child’s birth.
+
+From the Danish National Registry of Patients (DNRP), we obtained information on paternal IBD diagnoses recorded before the relevant pregnancy and maternal IBD diagnoses recorded before or during the relevant pregnancy. The DNRP has recorded all inpatient hospitalizations at non-psychiatric public hospitals in Denmark since 1977, and emergency and outpatient contacts since 1995. Diagnoses have been coded using the 8th revision of the International Classification of Diseases (ICD-8) until the end of 1993 and the 10th revision (ICD-10) thereafter. We defined IBD as a hospital diagnosis of CD or UC. For parents with records of both CD and UC, we assigned the IBD type according to the latest-recorded diagnosis. In a validation study, the completeness of the regional hospital system using the pathology data as a reference standard was 94% for both CD and UC. The positive predictive values (PPVs) of DNRP-recorded diagnoses compared to the pathology data and clinical criteria in medical records were 97% for CD and 90% for UC.22
+
+Children with suspected autism are referred to a child psychiatry clinic for a diagnostic workup. We collected data on ASD in children from the Danish Psychiatric Central Register (DPCR). The DPCR was established as a nationwide register in 1969 and contains information on psychiatric hospitalizations in Denmark. Since 1995, all outpatient visits have been included as well. ICD-8 was used before 1994 and ICD-10 thereafter to code the diagnoses.23 We defined ASD as a diagnosis of infantile autism, atypical autism, Asperger syndrome, or pervasive development disorder not otherwise specified. The PPV of the diagnostic coding of ASD in the DPCR for the relevant study period was 94% when compared to a standardized coding scheme based on medical records.24,25
+
+From the DMBR, we obtained information on year of birth, sex of child, mode of delivery, gestational age, birth weight, multiple gestation, mother’s and father’s age at the time of their child’s birth, and maternal smoking during pregnancy. From the DPCR, we obtained information on parental history of psychiatric disorders, defined by at least one of the following diagnoses before the relevant birth: schizophrenia or other paranoid psychoses; mood disorders; nervous conditions and personality disorders; and ASD.26–30
+
+All diagnostic codes are provided in Table S1.
+
+The children were followed from birth until the date of ASD diagnosis, emigration, death, or December 31, 2010, whichever came first. We examined distributions of children’s characteristics at birth according to parental CD and UC status. Next, we calculated incidence rates of ASD and estimated the 3- and 10-year risk of ASD according to parental IBD status, with death as a competing risk.31 Using Cox proportional-hazards regression, we computed crude and adjusted hazard ratios with 95% confidence intervals (CIs) as estimates of crude and adjusted incidence rate ratios (IRRs and aIRRs) for ASD. We examined children in groups with IBD, CD, or UC in either parent, only in the mother, or only in the father. Children with no parental history of IBD served as the reference group for all comparisons. The IRRs were adjusted for year of birth, child’s sex, mother’s and father’s age at delivery, multiple gestation, maternal smoking during pregnancy, and parental psychiatric disorders.
+
+To remove the potential effect of ASD family clustering, we repeated the analyses described above restricted to first-born children. Furthermore, we examined the different ASD subtypes as separate outcomes: infantile autism, atypical autism, Asperger syndrome, and pervasive development disorder not otherwise specified. Children who had more than one ASD subtype diagnosis were included in the analysis for each subtype. The assumption of proportional hazards was met according to a graphical assessment.
+
+We used Stata software to analyze the data (v12; StataCorp LP, College Station, TX, USA). The study was approved by the Danish Data Protection Agency (record no 2013-41-1790).
+
+The study cohort included 1,005,330 children (51% male). A total of 11,888 (1.2%) had a parent with IBD; CD accounted for 4,302 (36%) of all IBD cases among the parents. Parental history of a psychiatric disorder was more prevalent in children with parental IBD than in children without. Children born to parents with UC tended to have older parents than children of parents with CD and children of parents without IBD. Furthermore, maternal smoking during pregnancy was more prevalent among children with parental CD than among children with parental UC or no parental IBD (Table 1).
+
+Characteristics of children born in Denmark during 1994–2009 according to parental IBD, N=1,005,330
+
+Abbreviations: CD, Crohn’s disease; IBD, inflammatory bowel disease; n/N, number of children; UC, ulcerative colitis; n/N, number of children.
+
+During the maximum of 17 years of follow-up, 8,087 children (0.8%) received a diagnosis of ASD, including 62 (0.5%) children with parental IBD. Median follow-up time was 8.9 years. Median age at ASD diagnosis was 6.2 years for children with parental IBD and 7.9 years for children without parental IBD. The risk of ASD in the first 3 years of life was 0.03% among children with IBD in a parent, and 0.05% among children without. The corresponding 10-year risks were 0.7% and 0.9%, respectively.
+
+Overall, the IRR for ASD in offspring associated with parental IBD was 0.8 (95% CI: 0.6–1.1) and remained unchanged after adjusting for covariates (aIRR: 0.8, 95% CI: 0.6–1.0). Estimates did not vary according to which parent had IBD, whether they had CD and UC (Table 2), and were similar when restricted to first-born children (results not shown).
+
+Incidence rates and crude and adjusted incidence rate ratios for ASD in Danish children born during 1994–2009, according to parental IBD status, (N=1,005,330)
+
+Notes:
+
+Abbreviations: ASD, autism spectrum disorders; CD, Crohn’s disease; CI, confidence interval; IBD, inflammatory bowel disease; IR, Incidence rate; IRR, incidence rate ratio; N/n, number of children; PY, person-years; Ref, reference; UC, ulcerative colitis.
+
+Pervasive development disorder not otherwise specified was the most frequent ASD subtype recorded among the children. The aIRRs according to the subtypes of ASD were similar to those of the overall results except for a weak apparent association between paternal IBD and infantile autism (Table 3).
+
+Association between parental IBD and type of ASD in offspring
+
+Notes:
+
+Abbreviations: ASD, autism spectrum disorders; CD, Crohn’s disease; CI, confidence interval; IBD, inflammatory bowel disease; IRR, incidence rate ratio; n, number of children; NA, not applicable; Ref, reference; UC, ulcerative colitis.
+
+In this large nationwide cohort study of more than one million births, we found no evidence of an increased risk of ASD in offspring of parents with IBD. Therefore, based on these study findings, a common disease pathway based on shared risk factors is unlikely. The overall estimates even suggest an inverse association between parental IBD and ASD risk in offspring.
+
+Although previous studies have focused on the association between any parental autoimmune disease and ASD in offspring,14–19 some reported estimates separately for parental IBD. Mouridsen et al, using Danish data on infantile autism diagnoses from 1960–1984 (111 cases and 330 controls), reported a nine-fold increase in the risk of infantile autism in children with maternal UC (odds ratio [OR]: 9.1, 95% CI: 0.9–88.8);17 however, this estimate is imprecise and is compatible with both the presence and absence of an association. In a registry-based study including 1,227 cases of ASD and 30,925 controls born in 1977–2003 in Sweden, Keil et al reported an odds ratio of 1.2 (95% CI: 0.6–2.5) associated with maternal IBD, after adjustment for the child’s age, sex, hospital of birth, and parents’ country of birth and age.19 Estimates for CD and UC were not reported. Atladóttir et al, in a cohort study of 689,196 Danish children born in 1993–2004, found no increased risk of ASD associated with CD (aIRR: 0.96, 95% CI: 0.62–1.41) or UC (aIRR: 1.02, 95% CI: 0.75–1.36) in a parent or a sibling when adjusting for calendar year, place of birth, and parents’ age at time of childbirth, age at ASD diagnosis, and its interaction with sex.16 Nor did Atladóttir et al find an increased risk for infantile autism among children who had a sibling or parent with CD (aIRR: 0.93, 95% CI: 0.40–1.81). For UC in parents or siblings, the corresponding aIRR was 1.41 (95% CI: 0.87–2.16), with similar results for maternal and paternal UC.16 Overall estimates for risk of ASD in our cohort study, conducted on an overlapping – but larger – population, confirm and extend the overall findings by Atladóttir et al. At the same time, both studies suggested an association between parental IBD and infantile autism, although in our study it was seen only for paternal IBD. Given the overlapping samples and lack of an overall association, this may represent a chance finding.
+
+The strengths of our study are its large population size of more than one million children, long and complete follow-up, and the use of data from routine population-based databases in a setting of universal health care, virtually eliminating the risk of recall and selection bias. The algorithms for IBD and ASD have high validity,22,24,32 and because of prospective data collection, misclassifications of IBD or ASD are independent from each other. Such non-differential misclassification is expected to dilute observed associations. Because IBD and ASD are rare and we expect high specificity, the null result is unlikely to have resulted from such dilution. At the same time, the limited number of outcomes of the ASD subtypes among children with parental IBD in our study is causing lack of statistical precision for the ASD-type specific analyses; still, no overall risk increase was observed. Finally, we cannot rule out unknown confounding, but to explain the null result, a potential confounder would need to be protective of ASD.
+
+In conclusion, the results in this study reassuringly suggest that neither maternal nor paternal IBD increases the overall risk of ASD in a child.
+
+ICD-8 and ICD-10 codes for IBD, autism spectrum disorders, and included psychiatric disorders
+
+Abbreviations: ASD, autism spectrum disorders; IBD, inflammatory bowel disease; ICD-8, International Classification of Diseases, 8th revision; ICD-10, International Classification of Diseases, 10th revision.
+
+The study received funding from the Broad Medical Research Program of The Broad Foundation, Colitis–Crohn Foreningen in Denmark, and the Clinical Epidemiology Research Foundation, Aarhus University Hospital, Denmark. The study was independent of the funding.
+
+Footnotes
+
+
+
+Disclosure
+
+The authors report no conflicts of interest in this work.
+
+
+
+References
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark
+
+Inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) may share genetic and environmental risk factors. We examined whether parental IBD is associated with an increased risk of ASD in offspring.
+
+We conducted a registry-based nationwide cohort study including children born alive in Denmark from January 1, 1994 to December 31, 2009, with follow-up throughout 2010. IBD in parents and ASD in offspring were identified using inpatient and outpatient hospital diagnoses. We computed risk of ASD and crude and adjusted incidence rate ratios (aIRRs) with 95% confidence intervals (CI) using Cox proportional-hazards regression. We evaluated the risk of ASD according to maternal and paternal IBD, and separately for maternal and paternal Crohn’s disease (CD) and ulcerative colitis (UC). Children with parents free of IBD were the comparison cohort.
+
+We identified 1,005,330 children during the study period. Among them, 11,888 (1.2%) had a parent with IBD and 8,087 (0.8%) had a diagnosis of ASD during up to 17 years of follow-up. The 10-year risks of ASD were 0.7% among children of parents with IBD and 0.9% among children of parents without IBD. The aIRR for ASD among children with parental IBD was 0.8 (95% CI: 0.6–1.0), and results were similar regardless of parent of IBD origin or whether a parent had CD or UC. The estimates were similar for different ASD subtypes.
+
+We found no evidence of an increased risk of ASD among children born to parents with IBD.
+
+The prevalence and incidence of both inflammatory bowel disease (IBD) and autism spectrum disorders (ASD) have been increasing through the past decades. During the first decade of the 2000s, the prevalence was up to 0.3% for Crohn’s disease (CD) and 0.5% for ulcerative colitis (UC) in Europe.1 ASD now affect up to 1.1% of children in Western countries.2,3 The two diseases may share genetic loci,4,5 whereas the rapid contemporaneous rise in the occurrence of IBD and ASD suggests that the two conditions may also share environmental risk factors. For example, there is emerging evidence that endocrine-disrupting compounds may cause immune system abnormalities or affect brain function by altering zinc homeostasis.6–10 Furthermore, maternal IBD may cause ASD in offspring through brain reactive maternal antibodies exerting a negative impact on fetal neural development.11,12 A recent study suggested that anti-brain antibodies are associated with autoimmunity and are increased in mothers of children with ASD.13
+
+Several studies linked parental autoimmune diseases to ASD in offspring,14–19 including three studies examining the association of ASD with parental IBD.16,17,19 Taken together, the evidence from these three studies remains inconclusive, whereby two of the studies suggested an association,17,19 while one – the largest – did not.16
+
+To further explore the association between parental IBD and risk of ASD in offspring, we conducted a population-based nationwide cohort study using prospectively collected data from medical registries in Denmark. Besides examining ASD as the overall outcome, we also examined ASD subtypes. To our knowledge, this study is the largest to date to examine this association.
+
+For this nationwide cohort study, we identified all children born alive in Denmark from January 1, 1994 to December 31, 2009 as recorded in the Danish Medical Birth Registry (DMBR).20 The DMBR has recorded all births in Denmark since 1973 and stores data on child, mother, and father. Fathers who were not identifiable through the DMBR were identified from the Danish Civil Registration System. We linked individual-level registry data from children and their parents using the civil personal registration number (CPR number), a 10-digit unique identifier assigned at birth or immigration and used in all public records.21 To ensure a minimum of 2 years’ availability of data on parental medical history, we excluded children whose parents had been residents of Denmark for less than 2 years before the child’s birth.
+
+From the Danish National Registry of Patients (DNRP), we obtained information on paternal IBD diagnoses recorded before the relevant pregnancy and maternal IBD diagnoses recorded before or during the relevant pregnancy. The DNRP has recorded all inpatient hospitalizations at non-psychiatric public hospitals in Denmark since 1977, and emergency and outpatient contacts since 1995. Diagnoses have been coded using the 8th revision of the International Classification of Diseases (ICD-8) until the end of 1993 and the 10th revision (ICD-10) thereafter. We defined IBD as a hospital diagnosis of CD or UC. For parents with records of both CD and UC, we assigned the IBD type according to the latest-recorded diagnosis. In a validation study, the completeness of the regional hospital system using the pathology data as a reference standard was 94% for both CD and UC. The positive predictive values (PPVs) of DNRP-recorded diagnoses compared to the pathology data and clinical criteria in medical records were 97% for CD and 90% for UC.22
+
+Children with suspected autism are referred to a child psychiatry clinic for a diagnostic workup. We collected data on ASD in children from the Danish Psychiatric Central Register (DPCR). The DPCR was established as a nationwide register in 1969 and contains information on psychiatric hospitalizations in Denmark. Since 1995, all outpatient visits have been included as well. ICD-8 was used before 1994 and ICD-10 thereafter to code the diagnoses.23 We defined ASD as a diagnosis of infantile autism, atypical autism, Asperger syndrome, or pervasive development disorder not otherwise specified. The PPV of the diagnostic coding of ASD in the DPCR for the relevant study period was 94% when compared to a standardized coding scheme based on medical records.24,25
+
+From the DMBR, we obtained information on year of birth, sex of child, mode of delivery, gestational age, birth weight, multiple gestation, mother’s and father’s age at the time of their child’s birth, and maternal smoking during pregnancy. From the DPCR, we obtained information on parental history of psychiatric disorders, defined by at least one of the following diagnoses before the relevant birth: schizophrenia or other paranoid psychoses; mood disorders; nervous conditions and personality disorders; and ASD.26–30
+
+All diagnostic codes are provided in Table S1.
+
+The children were followed from birth until the date of ASD diagnosis, emigration, death, or December 31, 2010, whichever came first. We examined distributions of children’s characteristics at birth according to parental CD and UC status. Next, we calculated incidence rates of ASD and estimated the 3- and 10-year risk of ASD according to parental IBD status, with death as a competing risk.31 Using Cox proportional-hazards regression, we computed crude and adjusted hazard ratios with 95% confidence intervals (CIs) as estimates of crude and adjusted incidence rate ratios (IRRs and aIRRs) for ASD. We examined children in groups with IBD, CD, or UC in either parent, only in the mother, or only in the father. Children with no parental history of IBD served as the reference group for all comparisons. The IRRs were adjusted for year of birth, child’s sex, mother’s and father’s age at delivery, multiple gestation, maternal smoking during pregnancy, and parental psychiatric disorders.
+
+To remove the potential effect of ASD family clustering, we repeated the analyses described above restricted to first-born children. Furthermore, we examined the different ASD subtypes as separate outcomes: infantile autism, atypical autism, Asperger syndrome, and pervasive development disorder not otherwise specified. Children who had more than one ASD subtype diagnosis were included in the analysis for each subtype. The assumption of proportional hazards was met according to a graphical assessment.
+
+We used Stata software to analyze the data (v12; StataCorp LP, College Station, TX, USA). The study was approved by the Danish Data Protection Agency (record no 2013-41-1790).
+
+The study cohort included 1,005,330 children (51% male). A total of 11,888 (1.2%) had a parent with IBD; CD accounted for 4,302 (36%) of all IBD cases among the parents. Parental history of a psychiatric disorder was more prevalent in children with parental IBD than in children without. Children born to parents with UC tended to have older parents than children of parents with CD and children of parents without IBD. Furthermore, maternal smoking during pregnancy was more prevalent among children with parental CD than among children with parental UC or no parental IBD (Table 1).
+
+Characteristics of children born in Denmark during 1994–2009 according to parental IBD, N=1,005,330
+
+Abbreviations: CD, Crohn’s disease; IBD, inflammatory bowel disease; n/N, number of children; UC, ulcerative colitis; n/N, number of children.
+
+During the maximum of 17 years of follow-up, 8,087 children (0.8%) received a diagnosis of ASD, including 62 (0.5%) children with parental IBD. Median follow-up time was 8.9 years. Median age at ASD diagnosis was 6.2 years for children with parental IBD and 7.9 years for children without parental IBD. The risk of ASD in the first 3 years of life was 0.03% among children with IBD in a parent, and 0.05% among children without. The corresponding 10-year risks were 0.7% and 0.9%, respectively.
+
+Overall, the IRR for ASD in offspring associated with parental IBD was 0.8 (95% CI: 0.6–1.1) and remained unchanged after adjusting for covariates (aIRR: 0.8, 95% CI: 0.6–1.0). Estimates did not vary according to which parent had IBD, whether they had CD and UC (Table 2), and were similar when restricted to first-born children (results not shown).
+
+Incidence rates and crude and adjusted incidence rate ratios for ASD in Danish children born during 1994–2009, according to parental IBD status, (N=1,005,330)
+
+Notes:
+
+Abbreviations: ASD, autism spectrum disorders; CD, Crohn’s disease; CI, confidence interval; IBD, inflammatory bowel disease; IR, Incidence rate; IRR, incidence rate ratio; N/n, number of children; PY, person-years; Ref, reference; UC, ulcerative colitis.
+
+Pervasive development disorder not otherwise specified was the most frequent ASD subtype recorded among the children. The aIRRs according to the subtypes of ASD were similar to those of the overall results except for a weak apparent association between paternal IBD and infantile autism (Table 3).
+
+Association between parental IBD and type of ASD in offspring
+
+Notes:
+
+Abbreviations: ASD, autism spectrum disorders; CD, Crohn’s disease; CI, confidence interval; IBD, inflammatory bowel disease; IRR, incidence rate ratio; n, number of children; NA, not applicable; Ref, reference; UC, ulcerative colitis.
+
+In this large nationwide cohort study of more than one million births, we found no evidence of an increased risk of ASD in offspring of parents with IBD. Therefore, based on these study findings, a common disease pathway based on shared risk factors is unlikely. The overall estimates even suggest an inverse association between parental IBD and ASD risk in offspring.
+
+Although previous studies have focused on the association between any parental autoimmune disease and ASD in offspring,14–19 some reported estimates separately for parental IBD. Mouridsen et al, using Danish data on infantile autism diagnoses from 1960–1984 (111 cases and 330 controls), reported a nine-fold increase in the risk of infantile autism in children with maternal UC (odds ratio [OR]: 9.1, 95% CI: 0.9–88.8);17 however, this estimate is imprecise and is compatible with both the presence and absence of an association. In a registry-based study including 1,227 cases of ASD and 30,925 controls born in 1977–2003 in Sweden, Keil et al reported an odds ratio of 1.2 (95% CI: 0.6–2.5) associated with maternal IBD, after adjustment for the child’s age, sex, hospital of birth, and parents’ country of birth and age.19 Estimates for CD and UC were not reported. Atladóttir et al, in a cohort study of 689,196 Danish children born in 1993–2004, found no increased risk of ASD associated with CD (aIRR: 0.96, 95% CI: 0.62–1.41) or UC (aIRR: 1.02, 95% CI: 0.75–1.36) in a parent or a sibling when adjusting for calendar year, place of birth, and parents’ age at time of childbirth, age at ASD diagnosis, and its interaction with sex.16 Nor did Atladóttir et al find an increased risk for infantile autism among children who had a sibling or parent with CD (aIRR: 0.93, 95% CI: 0.40–1.81). For UC in parents or siblings, the corresponding aIRR was 1.41 (95% CI: 0.87–2.16), with similar results for maternal and paternal UC.16 Overall estimates for risk of ASD in our cohort study, conducted on an overlapping – but larger – population, confirm and extend the overall findings by Atladóttir et al. At the same time, both studies suggested an association between parental IBD and infantile autism, although in our study it was seen only for paternal IBD. Given the overlapping samples and lack of an overall association, this may represent a chance finding.
+
+The strengths of our study are its large population size of more than one million children, long and complete follow-up, and the use of data from routine population-based databases in a setting of universal health care, virtually eliminating the risk of recall and selection bias. The algorithms for IBD and ASD have high validity,22,24,32 and because of prospective data collection, misclassifications of IBD or ASD are independent from each other. Such non-differential misclassification is expected to dilute observed associations. Because IBD and ASD are rare and we expect high specificity, the null result is unlikely to have resulted from such dilution. At the same time, the limited number of outcomes of the ASD subtypes among children with parental IBD in our study is causing lack of statistical precision for the ASD-type specific analyses; still, no overall risk increase was observed. Finally, we cannot rule out unknown confounding, but to explain the null result, a potential confounder would need to be protective of ASD.
+
+In conclusion, the results in this study reassuringly suggest that neither maternal nor paternal IBD increases the overall risk of ASD in a child.
+
+ICD-8 and ICD-10 codes for IBD, autism spectrum disorders, and included psychiatric disorders
+
+Abbreviations: ASD, autism spectrum disorders; IBD, inflammatory bowel disease; ICD-8, International Classification of Diseases, 8th revision; ICD-10, International Classification of Diseases, 10th revision.
+
+The study received funding from the Broad Medical Research Program of The Broad Foundation, Colitis–Crohn Foreningen in Denmark, and the Clinical Epidemiology Research Foundation, Aarhus University Hospital, Denmark. The study was independent of the funding.
+
+http://www.ncbi.nlm.nih.gov/pubmed/24855384
